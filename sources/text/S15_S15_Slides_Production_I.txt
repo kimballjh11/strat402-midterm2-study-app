@@ -1,0 +1,489 @@
+
+=== PAGE 1 ===
+STRAT 402
+ECONOMICS OF STRATEGY
+Session 15
+Production I
+
+=== PAGE 2 ===
+Agenda
+▪Spiritual Thought
+▪Module Overview
+▪Production Lecture
+▪J-Dawgs In-Class Exercise
+▪Introduce Production Spreadsheet
+
+=== PAGE 3 ===
+Spiritual Thought
+▪What does it mean to be
+ Christlike?
+ oThree-month study of the BOM with
+  the youth
+ oSearched for any phrase that
+  describe how Christ/God was, is, will
+  be, etc.
+ oTallied up all of the adjectives and
+  grouped them into categories
+
+=== PAGE 4 ===
+Spiritual Thought
+Top-Three Adjectives that Describe What it Means to Be Christlike
+
+=== PAGE 5 ===
+Spiritual Thought
+Top-Three Adjectives that Describe What it Means to Be Christlike
+Merciful, Filled with compassion, Full of grace   28 instances
+Same, Unchangeable                                6 instances
+Holy, Pure, Perfect                               6 instances
+
+=== PAGE 6 ===
+Spiritual Thought
+Top-Three Adjectives that Describe What it Means to Be Christlike
+Merciful, Filled with compassion, Full of grace   28 instances
+Same, Unchangeable                                6 instances
+Holy, Pure, Perfect                               6 instances
+
+=== PAGE 7 ===
+The Laborers in the Vineyard
+
+=== PAGE 8 ===
+The Thrill of Being Merciful
+
+  “It underscores the thought I heard many years ago
+that surely the thing God enjoys most about being God
+ is the thrill of being merciful, especially to those who
+  don’t expect it and often feel they don’t deserve it.
+                    - Jeffrey R. Holland -
+
+=== PAGE 9 ===
+Until Seventy Times Seven
+
+=== PAGE 10 ===
+Being on Your Side
+
+
+“I wanted to be on the same side as the students.”
+         - Jae Balliff, BYU Physics Professor –
+            in a General Conference Talk given by
+              Elder Lynn G. Robbins, April 2018
+
+=== PAGE 11 ===
+Midterm Retake Policy
+▪ Students that score below 80% will be allowed to retake a midterm
+▪ To incentivize you to do your best the first time around, retake scores will be
+  capped at 80%
+▪ To help you focus on the current material and not get behind, retakes will only be
+  available during finals week (akin to comprehensive exams)
+
+=== PAGE 12 ===
+Midterm Retake Policy
+“Your class has been a wonderful, redemptive experience. While much
+of the content did not come easily to me and I found it challenging, I
+always knew what I needed to get done, and there were always enough
+resources to help me learn. I’m grateful that you push your students
+but also choose to be merciful. The exam retake opportunities
+motivated me to keep practicing and helped me believe in my ability
+to learn and grow. Under your direction, the class was a high-agency
+environment where I saw my actions transfer directly into results.
+Ultimately, I grew more confident in my ability to understand
+economics and work with data, but I also saw how my choice to keep
+going helped me overcome my weakness.”
+
+=== PAGE 13 ===
+Course Organization
+Markets to Pursue
+• What industry, product, and geographic markets are most attractive as business arenas?
+
+Unique Value to Offer
+• What value proposition will offer unique value relative to competitors in the arenas of
+  cost or differentiation?
+
+Resources and Capabilities to Develop
+• What resources and capabilities are required to deliver that unique value better than
+  competitors?
+
+Sustaining Advantage
+• How to create barriers to imitation to prevent other companies from offering that same
+  value?
+
+=== PAGE 14 ===
+Theory Meets Practice
+
+
+
+
+Source: The Wall Street Journal, July 2, 2025
+
+=== PAGE 15 ===
+What is the optimal mix of AI vs. labor?
+
+
+
+
+Source: The Wall Street Journal, October 3, 2025
+
+=== PAGE 16 ===
+What is the optimal mix of sand and water?
+
+
+
+
+  Source: The Wall Street Journal, September 13, 2015
+
+=== PAGE 17 ===
+What is the optimal mix of chat vs. voice?
+
+=== PAGE 18 ===
+Learning Objectives
+▪Know and understand the following economic concepts:
+  oTotal product
+  oAverage product
+  oMarginal product
+  oIncreasing, decreasing, and negative marginal returns
+  oValue marginal product
+  oProduction functions (Linear, Leontief, Cobb-Douglas)
+▪Know how to calculate the profit-maximizing input usage
+▪Know and understand the characteristics of the linear, Leontief, and
+ Cobb-Douglas production functions
+
+=== PAGE 19 ===
+What is Production?
+A process of transforming inputs into outputs through
+the use of some technology
+
+
+
+   Inputs            Technology           Outputs
+
+=== PAGE 20 ===
+Production Function
+A production function defines the relationship between
+inputs and outputs (i.e., it tells us the rate at which a
+company generates output given a certain level of
+input)
+
+                        Q = f(K,L)
+
+where K is the units of capital and L is the units of labor
+
+=== PAGE 21 ===
+Conceptual Definitions
+Total product (Q) – the maximum level of output that can be
+produced with a given amount of inputs
+
+Average product (Q/L) – the output produced per unit of
+input
+
+Marginal product (ΔQ/ ΔL or dQ/dL) – the change in total
+output attributable to the last unit of an input
+
+=== PAGE 22 ===
+The Role of a Strategist
+In the short run…
+  1. Ensure that the firm operates at it maximum level of
+     efficiency
+  2. Ensure that the firm uses the correct level of input(s)
+
+In the long run…
+  3. Ensure that the firm uses the optimal mix of inputs
+
+=== PAGE 23 ===
+Marginal Returns to Studying
+Graph the relationship between the amount of hours that you spend
+studying for an exam and your likely performance on the exam.
+                                      Marginal Returns to Studying
+                            100
+                             90
+                             80
+                             70
+
+
+                Grade (%)
+                             60
+                             50
+                             40
+                             30
+                             20
+                             10
+                              0
+                                  0    1   2   3   4     5     6    7   8   9   10
+                                                   Hours of Study
+
+=== PAGE 24 ===
+Marginal Returns to Studying
+Graph the relationship between the amount of hours that you spend
+studying for an exam and your likely performance on the exam.
+                                      Marginal Returns to Studying
+                            100
+                             90
+                             80
+                             70
+
+
+                Grade (%)
+                             60
+                             50
+                             40
+                             30
+                             20
+                             10
+                              0
+                                  0    1   2   3   4     5     6    7   8   9   10
+                                                   Hours of Study
+
+=== PAGE 25 ===
+Marginal Returns
+Increasing marginal returns (IMR) – range of input
+usage over which marginal product increases
+
+Diminishing marginal returns (DMR) – range of input
+usage over which marginal product declines
+
+Negative marginal returns (NMR) – range of input
+usage over which marginal product is negative
+
+=== PAGE 26 ===
+Marginal Returns to Studying
+Hours of Study   Grade   APS   MPS   Marginal Returns
+      0           40
+      1           50
+      2           62
+      3           80
+      4           90
+      5           95
+      6           97
+      7           98
+      8           97
+      9           95
+     10           90
+
+=== PAGE 27 ===
+Marginal Returns to Studying
+Hours of Study   Grade   APS    MPS   Marginal Returns
+      0           40      -
+      1           50     50.0
+      2           62     31
+      3           80     26.7
+      4           90     22.5
+      5           95     19.0
+      6           97     16.2
+      7           98     14.0
+      8           97     12.1
+      9           95     10.6
+     10           90     9.0
+
+=== PAGE 28 ===
+Marginal Returns to Studying
+Hours of Study   Grade   APS    MPS   Marginal Returns
+      0           40      -      -
+      1           50     50.0   10
+      2           62     31     12
+      3           80     26.7   18
+      4           90     22.5   10
+      5           95     19.0    5
+      6           97     16.2    2
+      7           98     14.0    1
+      8           97     12.1   -1
+      9           95     10.6   -2
+     10           90     9.0    -5
+
+=== PAGE 29 ===
+Marginal Returns to Studying
+Hours of Study   Grade   APS    MPS   Marginal Returns
+      0           40      -      -       Increasing
+      1           50     50.0   10       Increasing
+      2           62     31     12       Increasing
+      3           80     26.7   18       Increasing
+      4           90     22.5   10      Diminishing
+      5           95     19.0    5      Diminishing
+      6           97     16.2    2      Diminishing
+      7           98     14.0    1      Diminishing
+      8           97     12.1   -1       Negative
+      9           95     10.6   -2       Negative
+     10           90     9.0    -5       Negative
+
+=== PAGE 30 ===
+Profit Maximization
+When should you stop studying?
+
+           𝑀𝑎𝑟𝑔𝑖𝑛𝑎𝑙 𝐵𝑒𝑛𝑒𝑓𝑖𝑡 𝑀𝐵 = 𝑀𝑎𝑟𝑔𝑖𝑛𝑎𝑙 𝐶𝑜𝑠𝑡 𝑀𝐶
+
+When should you stop hiring employees?
+
+                             𝑀𝐵 = 𝑀𝐶
+
+                            𝑃 ∗ 𝑀𝑃𝐿 = 𝑤
+
+                             𝑉𝑀𝑃𝐿 = 𝑤
+
+=== PAGE 31 ===
+In-Class Exercise – J Dawgs
+
+=== PAGE 32 ===
+Production Function
+A production function defines the relationship between inputs and
+outputs
+
+                                    Q = f(K,L)
+
+where K is the units of capital and L is the units of labor.
+
+Types of production functions
+  1. Linear
+  2. Cobb-Douglas
+  3. Leontief (Fixed-Proportions)
+
+=== PAGE 33 ===
+Comparing Production Functions
+                      Linear                   Cobb-Douglas          Leontief (Fixed-proportions)
+Equation              𝑄 = 𝑓 𝐾, 𝐿 = 𝑎𝐾 + 𝑏𝐿     𝑄 = 𝑓 𝐾, 𝐿 = 𝐾 𝑎 𝐿𝑏     𝑄 = 𝑓 𝐾, 𝐿 = min(𝑎𝐾, 𝑏𝐿)
+Example                    𝑄 = 4𝐾 + 1𝐿            𝑄 = 𝐾 0.5 𝐿0.5            𝑄 = min(1𝐾, 1𝐿)
+Isoquant                       Straight line      Convex curve                  L-shaped
+MRTS (Formula)                  𝑀𝑃𝐿 𝑏          𝑀𝑃𝐿 𝑏𝐾 𝑎 𝐿𝑏−1 𝑏𝐾                   N/A
+                                   =              =         =
+                                𝑀𝑃𝐾 𝑎          𝑀𝑃𝐾 𝑎𝐾 𝑎−1 𝐿𝑏 𝑎𝐿
+MRTS (Description)              Constant             Changes                   Undefined
+Substitutability of              Perfect            Imperfect                    None
+Inputs
+
+=== PAGE 34 ===
+Isoquant
+Isoquant – a line that defines the combination of inputs that yield the same output
+
+
+                           Linear Function                         Cobb-Douglas                                Leontief Function
+                      10                                             Function                                 10
+                       9                                                                                       9
+                                                                  10
+                       8                                                                                       8
+                                                                   9
+                       7                                           8                                           7
+
+
+
+        Capital (K)                                 Capital (K)                                 Capital (K)
+                       6                                           7                                           6
+                       5                                           6                                           5
+                       4                                           5                                           4
+                       3                                           4
+                                                                                                               3
+                                                                   3
+                       2                                           2                                           2
+                       1                                           1                                           1
+                       0                                           0                                           0
+                           0 1 2 3 4 5 6 7 8 9 10                      0 1 2 3 4 5 6 7 8 9 10                      0 1 2 3 4 5 6 7 8 9 10
+                                  Labor (L)                                  Labor (L)                                    Labor (L)
+
+=== PAGE 35 ===
+Isoquants in 3D
+
+=== PAGE 36 ===
+Simplifying Exponents
+When you multiply powers with the same based you just have
+to add the exponents. For example,
+
+          𝑥 4𝑥2 =   𝑥 𝑥 𝑥 𝑥 × 𝑥 𝑥          = 𝑥6
+
+Thus,
+                      𝑎 𝑥 𝑎 𝑦 = 𝑎 𝑥+𝑦
+
+=== PAGE 37 ===
+Simplifying Exponents
+When you divide powers with the same based you just have to
+subtract the exponents. For example,
+
+                 𝑥 4 (𝑥)(𝑥)(𝑥)(𝑥)     2
+                    =             = 𝑥
+                 𝑥2     (𝑥)(𝑥)
+
+Thus,
+                        𝑎𝑥     𝑥−𝑦
+                           = 𝑎
+                        𝑎𝑦
+
+=== PAGE 38 ===
+Simplifying Exponents
+When you raise a product of two variables to a power you
+raise each variable to that power. For example,
+
+  𝑥𝑦 2 =    𝑥 𝑦 ]×[ 𝑥 𝑦      =    𝑥 𝑥 ]×[ 𝑦 𝑦      = 𝑥 2𝑦2
+
+Thus,
+                       𝑥𝑦 𝑎 = 𝑥 𝑎 𝑦 𝑎
+
+=== PAGE 39 ===
+Simplifying Exponents
+When you raise a quotient of two variables to a power you
+raise each variable to that power. For example,
+                   2
+               𝑥         𝑥   𝑥   𝑥𝑥  𝑥2
+                       =   ×   =    = 2
+               𝑦         𝑦   𝑦   𝑦𝑦  𝑦
+
+Thus,
+                              𝑎
+                          𝑥        𝑥𝑎
+                                  = 𝑎
+                          𝑦        𝑦
+
+=== PAGE 40 ===
+Simplifying Exponents
+To find the power of a power you just have to multiply the
+exponents. For example,
+
+     𝑥2 4 =   𝑥 𝑥 ]×[ 𝑥 𝑥 × 𝑥 𝑥 ]×[ 𝑥 𝑥              = 𝑥8
+
+Thus,
+                         𝑎 𝑥 𝑦 = 𝑎 𝑥𝑦
+
+=== PAGE 41 ===
+Simplifying Exponents
+When you raise a number to a zero power, you’ll always get 1.
+For example,
+
+                       𝑥𝑎
+                    1 = 𝑎 = 𝑥 𝑎−𝑎 = 𝑥 0
+                       𝑥
+
+Thus,
+                           𝑥0 = 1
+
+=== PAGE 42 ===
+Simplifying Exponents
+Negative exponents are the reciprocals of the positive
+exponents. For example,
+
+                             −0.5
+                                      1
+                         𝑥          = 0.5
+                                     𝑥
+
+Thus,
+                              −𝑎
+                                      1
+                          𝑥         = 𝑎
+                                     𝑥
+
+=== PAGE 43 ===
+Computing the MPL/MPK
+Suppose you have the following Cobb-Douglas production
+function below.
+
+                       𝑄 = 𝐾 0.25 𝐿0.75
+
+What is the formula for the marginal product of labor?
+
+=== PAGE 44 ===
+Computing the MPL/MPK
+                  𝑄 = 𝐾 0.25 𝐿0.75
+
+      𝜕𝑄
+𝑀𝑃𝐿 =    = 𝐾 0.25 0.75 𝐿0.75−1 = 0.75𝐾 0.25 𝐿−0.25
+      𝜕𝐿
+                          0.25              0.25
+            𝜕𝑄 0.75𝐾                    𝐾
+      𝑀𝑃𝐿 =    =                 = 0.75
+            𝜕𝐿    𝐿0.25                 𝐿
+
+=== PAGE 45 ===
+Introduce the Production Exercise

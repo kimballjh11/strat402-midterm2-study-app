@@ -1,0 +1,240 @@
+[
+ {
+  "id": "S18-10-q001",
+  "los": [
+   "S18-10"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "What common theme did Bryce and Dyer find among successful entrants into profitable markets?",
+  "choices": [
+   "Frontal attack with heavy advertising",
+   "Acquiring an incumbent",
+   "Matching the leader's business model at a lower price",
+   "Indirect assault: avoid the incumbent's strongholds"
+  ],
+  "answer": 3,
+  "explain": "Smart newcomers refuse to challenge incumbents on their terms and turf.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-10-q002",
+  "los": [
+   "S18-10"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Which combination does the reading call arguably the most powerful?",
+  "choices": [
+   "Reconfigure the value chain and create a niche",
+   "Leverage existing assets and reconfigure the value chain",
+   "Leverage existing assets and create a niche",
+   "All three together"
+  ],
+  "answer": 0,
+  "explain": "A low-cost model aimed at customers incumbents ignore keeps the entrant off their radar (Skype, Usana).",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-10-q003",
+  "los": [
+   "S18-10"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: According to the reading, successful entrants usually combine at least two of the three strategies.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explain": "True. The magic lies in their combination.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-10-q004",
+  "los": [
+   "S18-10"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Why does the reading say acquisitions are a risky way into profitable markets?",
+  "choices": [
+   "Acquired firms lose their brands",
+   "Acquisitions create network effects",
+   "Acquisitions are illegal",
+   "Buyers pay a premium (about 30%) for the target's present and future profits"
+  ],
+  "answer": 3,
+  "explain": "The buyer pays for the profit streams up front, so shareholders often lose value.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-10-q005",
+  "los": [
+   "S18-10"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "What does 'create a market niche' mean in the reading?",
+  "choices": [
+   "Use your existing shelf space",
+   "Change the sequence of activities that deliver value",
+   "Copy the leader's best product",
+   "Develop offerings with features that do not initially appeal to mainstream customers but attract a fringe segment"
+  ],
+  "answer": 3,
+  "explain": "The other choices describe copying, leveraging assets and reconfiguring the value chain.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-10-q006",
+  "los": [
+   "S18-10"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Red Bull entered U.S. soft drinks selling a premium energy drink in bars and nightclubs before moving into stores. Which strategy did it start with?",
+  "choices": [
+   "Leverage existing assets",
+   "Predatory pricing",
+   "Create a market niche",
+   "Directly attack the market leader"
+  ],
+  "answer": 2,
+  "explain": "A fringe segment (club-goers) that mainstream cola buyers and so Coke and Pepsi did not care about.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-10-q007",
+  "los": [
+   "S18-10"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "McDonald's put Redbox DVD rental kiosks in its restaurants. Which strategy is this primarily?",
+  "choices": [
+   "Reconfigure the value chain",
+   "Create a market niche",
+   "Leverage existing assets",
+   "Limit pricing"
+  ],
+  "answer": 2,
+  "explain": "It used excess capacity in stores it already had, its locations and its reputation.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-10-q008",
+  "los": [
+   "S18-10"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Walmart teamed with Cott to make Sam's Choice soda, bottled centrally and shipped through Walmart's own distribution centers, sold only in Walmart. Which combination is this?",
+  "choices": [
+   "Leverage existing assets and create a niche",
+   "Directly attack the market leader",
+   "Create a niche and reconfigure the value chain",
+   "Leverage existing assets and reconfigure the value chain"
+  ],
+  "answer": 3,
+  "explain": "Walmart's shelf space and distribution (assets) plus a hub-and-spoke system that bypassed the leaders' delivery model (value chain).",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-10-q009",
+  "los": [
+   "S18-10"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Skype let people make cheap calls over the internet, attracting cost-sensitive users who did not mind lower quality. Which combination is this?",
+  "choices": [
+   "Reconfigure the value chain and create a niche",
+   "Leverage existing assets and create a niche",
+   "Leverage existing assets only",
+   "Directly attack the market leader"
+  ],
+  "answer": 0,
+  "explain": "New technology changed how calls are delivered, aimed first at a fringe of price-sensitive users.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-10-q010",
+  "los": [
+   "S18-10"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Microsoft's Xbox attacked Sony and Nintendo head on and lost about $4.5 billion in five years. Jakks Pacific sold cheap plug-and-play games for kids. What does the contrast show?",
+  "choices": [
+   "Video games have no barriers",
+   "Indirect entry beats a frontal attack",
+   "Bigger firms always win",
+   "Niche products cannot be profitable"
+  ],
+  "answer": 1,
+  "explain": "Jakks avoided the leaders' strongholds and earned about 15% operating margins.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-10-q011",
+  "los": [
+   "S18-10"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "TikTok grew into a major competitor to Meta by building a short-video feed driven by a recommendation algorithm instead of a friend network, aimed first at young users. Which strategies from the reading fit best?",
+  "choices": [
+   "Leverage existing assets only",
+   "Reconfigure the value chain and create a niche",
+   "Limit pricing",
+   "Directly attack the market leader"
+  ],
+  "answer": 1,
+  "explain": "A different way of delivering content (algorithm rather than friend graph) plus a young niche. ByteDance also leveraged technology from its other apps.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-10-q012",
+  "los": [
+   "S18-10"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Meta launched Threads in 2023 by letting Instagram users sign up with one tap and bring their followers. Which strategy is this primarily?",
+  "choices": [
+   "Create a market niche",
+   "Leverage existing assets",
+   "Predatory pricing",
+   "Reconfigure the value chain"
+  ],
+  "answer": 1,
+  "explain": "It used Instagram's existing user base and social graph to jump-start a new network.",
+  "source": "generated",
+  "verbatim": false
+ }
+]

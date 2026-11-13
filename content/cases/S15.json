@@ -1,0 +1,487 @@
+[
+ {
+  "id": "S15-case1",
+  "title": "Sparkle Car Wash",
+  "los": [
+   "S15-03",
+   "S15-04",
+   "S15-05",
+   "S15-06",
+   "S15-10"
+  ],
+  "stem": "Sparkle Car Wash has two wash bays (capital is fixed) and is deciding how many attendants to schedule. Each wash sells for $15 and attendants earn $100 per day.\n\n| Workers (L) | Cars washed per day (Q) |\n|---|---|\n| 0 | 0 |\n| 1 | 8 |\n| 2 | 20 |\n| 3 | 36 |\n| 4 | 48 |\n| 5 | 56 |\n| 6 | 60 |\n| 7 | 58 |",
+  "parts": [
+   {
+    "los": [
+     "S15-04"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "What is the marginal product of the 3rd attendant?",
+    "answer": 16,
+    "unit": "cars",
+    "tol": 0.01,
+    "explain": "MP = Q(3) - Q(2) = 36 - 20 = 16 cars.",
+    "verify": {
+     "f": "table_mp",
+     "L": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "Q": [
+      0,
+      8,
+      20,
+      36,
+      48,
+      56,
+      60,
+      58
+     ],
+     "at": 3
+    },
+    "id": "S15-case1-p1",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S15-03"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "What is the average product of labor with 4 attendants?",
+    "answer": 12,
+    "unit": "cars per attendant",
+    "tol": 0.01,
+    "explain": "AP = 48 / 4 = 12 cars per attendant.",
+    "verify": {
+     "f": "table_ap",
+     "L": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "Q": [
+      0,
+      8,
+      20,
+      36,
+      48,
+      56,
+      60,
+      58
+     ],
+     "at": 4
+    },
+    "id": "S15-case1-p2",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S15-05"
+    ],
+    "type": "mc",
+    "kind": "apply",
+    "stem": "Over what range of attendants does Sparkle experience diminishing marginal returns?",
+    "choices": [
+     "Attendants 7 and above",
+     "36 to 60 cars",
+     "Attendants 4 to 6",
+     "Attendants 1 to 3"
+    ],
+    "answer": 2,
+    "explain": "MPs: 8, 12, 16, 12, 8, 4, -2. MP rises through attendant 3, falls but stays positive for 4 to 6, and is negative at 7. 36 to 60 is a range of output, not labor.",
+    "id": "S15-case1-p3",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S15-06"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "What is the value marginal product of the 5th attendant?",
+    "answer": 120,
+    "unit": "$",
+    "tol": 0.01,
+    "explain": "MP of the 5th = 56 - 48 = 8 cars. VMP = $15 × 8 = $120.",
+    "verify": {
+     "f": "table_vmp",
+     "L": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "Q": [
+      0,
+      8,
+      20,
+      36,
+      48,
+      56,
+      60,
+      58
+     ],
+     "at": 5,
+     "P": 15
+    },
+    "id": "S15-case1-p4",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S15-10"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "How many attendants maximize profit?",
+    "answer": 5,
+    "unit": "attendants",
+    "tol": 0.01,
+    "explain": "VMPs: $120, $180, $240, $180, $120, $60, -$30. Hire while VMP ≥ $100: attendant 5 ($120) yes, attendant 6 ($60) no. Hire 5.",
+    "verify": {
+     "f": "table_hire",
+     "L": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "Q": [
+      0,
+      8,
+      20,
+      36,
+      48,
+      56,
+      60,
+      58
+     ],
+     "P": 15,
+     "w": 100
+    },
+    "id": "S15-case1-p5",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   }
+  ]
+ },
+ {
+  "id": "S15-case2",
+  "title": "Ridgeline Office Chairs",
+  "los": [
+   "S15-02",
+   "S15-03",
+   "S15-09",
+   "S15-10",
+   "S15-11"
+  ],
+  "stem": "Ridgeline makes office chairs. Engineers estimate the production function \\(Q = 4K^{0.5}L^{0.5}\\), where K is machines and L is worker-days. The plant has 25 machines and cannot add more this quarter. Chairs sell for $60 and the wage is $150 per worker-day.",
+  "parts": [
+   {
+    "los": [
+     "S15-02",
+     "S15-09"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "How many chairs are produced with 16 worker-days?",
+    "answer": 80,
+    "unit": "chairs",
+    "tol": 0.01,
+    "explain": "Q = 4 × √25 × √16 = 4 × 5 × 4 = 80.",
+    "verify": {
+     "f": "cd_q",
+     "A": 4,
+     "a": 0.5,
+     "b": 0.5,
+     "K": 25,
+     "L": 16
+    },
+    "id": "S15-case2-p1",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S15-09",
+     "S15-04"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "What is the marginal product of labor at 16 worker-days?",
+    "answer": 2.5,
+    "unit": "chairs",
+    "tol": 0.01,
+    "explain": "MP_L = 4 × 0.5 × K^0.5 × L^-0.5 = 2 × 5 / 4 = 2.5 chairs.",
+    "verify": {
+     "f": "cd_mp",
+     "A": 4,
+     "a": 0.5,
+     "b": 0.5,
+     "K": 25,
+     "L": 16,
+     "wrt": "L"
+    },
+    "id": "S15-case2-p2",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S15-03"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "What is the average product of labor at 16 worker-days?",
+    "answer": 5,
+    "unit": "chairs per worker-day",
+    "tol": 0.01,
+    "explain": "AP = Q / L = 80 / 16 = 5 chairs per worker-day.",
+    "verify": {
+     "f": "cd_ap",
+     "A": 4,
+     "a": 0.5,
+     "b": 0.5,
+     "K": 25,
+     "L": 16
+    },
+    "id": "S15-case2-p3",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S15-10"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "What is the profit-maximizing number of worker-days?",
+    "answer": 16,
+    "unit": "worker-days",
+    "tol": 0.01,
+    "explain": "MP_L = 10 / √L. VMP = 60 × 10 / √L = 600 / √L. Set = 150: √L = 4, L = 16.",
+    "verify": {
+     "f": "cd_hire",
+     "A": 4,
+     "a": 0.5,
+     "b": 0.5,
+     "K": 25,
+     "P": 60,
+     "w": 150
+    },
+    "id": "S15-case2-p4",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S15-10"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "The wage rises to $200. What is the new profit-maximizing number of worker-days?",
+    "answer": 9,
+    "unit": "worker-days",
+    "tol": 0.01,
+    "explain": "600 / √L = 200, so √L = 3 and L = 9. A higher wage means less labor.",
+    "verify": {
+     "f": "cd_hire",
+     "A": 4,
+     "a": 0.5,
+     "b": 0.5,
+     "K": 25,
+     "P": 60,
+     "w": 200
+    },
+    "id": "S15-case2-p5",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S15-11"
+    ],
+    "type": "mc",
+    "kind": "concept",
+    "stem": "What does this production function assume about machines and workers?",
+    "choices": [
+     "Machines add nothing once workers are hired",
+     "They are imperfect substitutes",
+     "They must be used in fixed proportions",
+     "They are perfect substitutes"
+    ],
+    "answer": 1,
+    "explain": "Cobb-Douglas allows some, but not perfect, substitution between inputs.",
+    "id": "S15-case2-p6",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   }
+  ]
+ },
+ {
+  "id": "S15-case3",
+  "title": "Fresh Fold Sandwich Line",
+  "los": [
+   "S15-07",
+   "S15-08",
+   "S15-04"
+  ],
+  "stem": "Fresh Fold's sandwich line follows \\(Q = \\min(20K, 10L)\\), where K is ovens and L is workers. It currently has 3 ovens and 5 workers.",
+  "parts": [
+   {
+    "los": [
+     "S15-08"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "How many sandwiches does the line produce per hour?",
+    "answer": 50,
+    "unit": "sandwiches",
+    "tol": 0.01,
+    "explain": "Q = min(20 × 3, 10 × 5) = min(60, 50) = 50. Labor binds.",
+    "verify": {
+     "f": "leontief_q",
+     "a": 20,
+     "b": 10,
+     "K": 3,
+     "L": 5
+    },
+    "id": "S15-case3-p1",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S15-08",
+     "S15-04"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "What is the marginal product of a 6th worker?",
+    "answer": 10,
+    "unit": "sandwiches",
+    "tol": 0.01,
+    "explain": "min(60, 60) = 60, up from 50. MP = 10.",
+    "verify": {
+     "f": "leontief_mp",
+     "a": 20,
+     "b": 10,
+     "K": 3,
+     "L": 5,
+     "wrt": "L"
+    },
+    "id": "S15-case3-p2",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S15-08"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "With 5 workers, what is the marginal product of a 4th oven?",
+    "answer": 0,
+    "unit": "sandwiches",
+    "tol": 0.01,
+    "explain": "min(80, 50) = 50. No change: labor binds, so the oven's MP is 0.",
+    "verify": {
+     "f": "leontief_mp",
+     "a": 20,
+     "b": 10,
+     "K": 3,
+     "L": 5,
+     "wrt": "K"
+    },
+    "id": "S15-case3-p3",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S15-08"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "If Fresh Fold buys a 4th oven, how many workers does it need so neither input is wasted?",
+    "answer": 8,
+    "unit": "workers",
+    "tol": 0.01,
+    "explain": "No waste when 20K = 10L: 80 = 10L, L = 8.",
+    "verify": {
+     "f": "leontief_ratio",
+     "a": 20,
+     "b": 10,
+     "K": 4
+    },
+    "id": "S15-case3-p4",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S15-07"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "Suppose instead the technology were linear, \\(Q = 20K + 10L\\). How much would a 4th oven add?",
+    "answer": 20,
+    "unit": "sandwiches",
+    "tol": 0.01,
+    "explain": "For a linear function MP_K is the coefficient on K: 20, regardless of how many workers there are.",
+    "verify": {
+     "f": "linear_mp",
+     "a": 20,
+     "b": 10,
+     "K": 3,
+     "L": 5,
+     "wrt": "K"
+    },
+    "id": "S15-case3-p5",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   }
+  ]
+ }
+]

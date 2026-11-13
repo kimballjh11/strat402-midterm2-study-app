@@ -1,0 +1,244 @@
+S18 Textbook Notes – Strategies to Change the Business Environment 
+
+ Session 18 · Barriers to Entry — Textbook Study Notes 
+ ↓ Jump to textbook figures, formulas & book examples 
+
+ Reading: Baye & Prince, Module Group A “Strategies to Change the Business Environment,” pp. 412–438 (Modules 1–4). My own summary and practice numbers — pair with the S18 slides, the Strategies to Crack Well-Guarded Markets article, and the Barriers to Entry Exercise. 
+
+ 0. The theme 
+
+ Instead of taking the market structure (number of rivals, who moves when) as given, a manager can try to change the game . Modules 1–2 are about reducing the number of competitors; 3 is about timing; 4 is about networks. Big caution throughout: tactics aimed purely at hurting competition can trigger antitrust action (fines, legal fees, reputation damage, even forced breakup), and laws differ across states and countries. 
+
+ Module 1 · Entry prevention: limit pricing 
+
+ Limit pricing: an incumbent with market power prices below the monopoly price (producing more) so that a potential entrant's leftover demand is too small to earn a profit. 
+
+ Residual demand = market demand minus what the incumbent will produce. If the incumbent's output Q L leaves the entrant a residual demand that sits at or below its average cost, entry isn't profitable. 
+
+ The catch — credibility. If the entrant has full information, the low pre-entry price itself doesn't scare anyone. What matters is what the incumbent will do after entry. A promise to keep output high is an empty threat if, once the rival enters, cutting output is in the incumbent's interest. 
+
+ So to actually deter entry, the incumbent must link today's price to the entrant's post-entry profits . 
+
+ Ways limit pricing can work 
+
+ Commitment mechanisms — “tie your own hands” so you can't back down. Example: build big capacity that only pays off at high volume. Since the incumbent will run full regardless, an entrant faces a tiny residual demand. Committing can beat flexibility because it changes the rival's payoffs (solve with backward induction). 
+
+ Learning-curve effects — producing a lot now lowers the incumbent's future costs, which makes it a tougher competitor later. 
+
+ Incomplete information — a low price can hide how profitable the market is, or signal that the incumbent has low costs, delaying or discouraging entry. (Real-world: airlines have been found to cut fares on routes Southwest merely threatens to enter.) 
+
+ Reputation effects — fighting entry aggressively in one market builds a “tough” reputation that deters entrants in others. 
+
+ Dynamic test: is limit pricing worth it? 
+
+ Let π M = monopoly profit per period, π L = profit per period while limit pricing, π D = duopoly profit per period after entry, i = interest rate. 
+
+Limit pricing pays only if (π L − π D ) / i > π M − π L 
+
+Left side = present value of the stream of extra profits from keeping the entrant out. Right side = the up-front profit you give up by not charging the monopoly price today. 
+
+ More attractive when: (1) the interest rate is low , (2) π L is close to π M , and (3) π D is much lower than π L . Otherwise, let entry happen and prices drift down over time. 
+
+ Practice (my numbers): π M = $50M, π L = $40M, π D = $20M, i = 10%. 
+
+Benefit = (40 − 20)/0.10 = $200M. Cost = 50 − 40 = $10M. 200 > 10 → limit pricing pays (if it really keeps the entrant out). 
+
+Change π L to $22M: benefit = 2/0.10 = $20M, cost = $28M → doesn't pay . 
+
+ Perpetuity reminder: PV of $π every period starting now = π·(1+i)/i; starting next period = π/i. 
+
+ Module 2 · Lessening competition 
+
+ Predatory pricing 
+
+ Pricing below your own marginal cost to drive an existing rival out, then raising price once it's gone. It trades losses now for higher profits later. 
+
+ Profitable only if the PV of the higher post-exit profits exceeds the losses needed to drive the rival out. Works best for a deep-pocketed firm against a cash-strapped rival. 
+
+ Illegal under the Sherman Act — but hard to prove; many “predatory-looking” moves are just fierce competition, and new entrants legitimately price low (even free) to get customers to try a product. 
+
+ Rival could re-enter later, or a new firm could buy the prey's assets — both undermine the payoff. 
+
+ Practice: A duopolist earns $3M/yr forever; i = 10%. Status quo PV = 3 × 1.1/0.1 = $33M . Predation costs $40M this year, then monopoly profit of $6M/yr from next year: PV = −40 + 6/0.1 = $20M . Predation loses → don't. 
+
+ Raising rivals' costs 
+
+ Raise rivals' marginal cost (e.g., lobbying for rules that hit rivals harder, or tying up a key input). In a Cournot setting this shifts the rival's reaction function inward → rival produces less, you produce more and earn more. 
+
+ Raise rivals' fixed costs (e.g., support a licensing fee or regulation). Even if it costs you too, it can flip an entrant's decision from “enter” to “stay out” — draw the game tree and use backward induction. 
+
+ Vertically integrated firms controlling an essential upstream input can:
+ Vertical foreclosure — refuse to sell the input to downstream rivals (or price it out of reach). Pays only if the downstream gain beats the lost upstream sales. 
+
+ Price–cost squeeze — raise the input price to rivals while holding the final-product price steady, squeezing their margins. Similar logic to predation; can also “discipline” rivals in repeated settings. 
+
+ Practice (game tree, my numbers): Incumbent alone earns $150. If a rival enters, each earns $60. Incumbent can lobby for a $70 fixed licensing fee on every firm. With the fee: entry → each earns $60 − 70 = −$10, so the entrant stays out and the incumbent earns $150 − 70 = $80. Without the fee: entry → incumbent $60. Since $80 > $60, support the fee . 
+
+ Module 3 · Restructuring game timing 
+
+ First-mover advantage: committing first lets you shape the rival's best response (Stackelberg leader is the classic case — Ch. 9). 
+
+ Turning a simultaneous game into a sequential one can change the equilibrium. Solve the sequential version by backward induction : figure out the follower's best reply to each of your moves, then pick your best. 
+
+ Second-mover advantage: sometimes it's better to wait — free-ride on the leader's R&D or market education, learn from its mistakes, and produce a better product more cheaply (e.g., risky new tech markets). 
+
+ Value of moving first = (your payoff moving first) − (your payoff otherwise). If going second is better, you'd pay to move second, not first. 
+
+ Practice: Firms X and Y pick High or Low capacity. Simultaneous payoffs (X, Y): HH (2, 2), HL (12, 6), LH (6, 12), LL (8, 8). Simultaneously, H is a best reply to L and vice versa → equilibria at HL or LH. If X moves first: if X picks H, Y picks L (6 > 2) → X gets 12; if X picks L, Y picks H → X gets 6. X picks H and earns 12 — a first-mover advantage. 
+
+ Module 4 · Overcoming network effects 
+
+ Network = links connecting nodes. One-way (e.g., water to homes) vs. two-way (phones, messaging, platforms). A star network routes everyone through a hub. 
+
+ Direct network externality: each user's value rises as more users join. 
+
+ A two-way network with n users has n(n − 1) potential connection services. A new user adds 2n new connections, benefiting everyone already on it. 
+
+ Indirect network externalities: a bigger network attracts more complementary products (apps, accessories), which makes it more valuable still. 
+
+ Negative externalities appear when a network gets congested (bottlenecks). 
+
+ Consumer lock-in → first-mover advantage. Users stick with the established network even if a better one exists, because switching alone is worthless — everyone has to move together. (Real-world: a rival auction site gave away listings for free and still couldn't pull users off the dominant site.) 
+
+ Penetration pricing: a newcomer prices very low (free, or even pays users) to reach critical mass ; once users switch, network effects kick in and it can raise prices. It's the tool that moves users from the “stay with the old network” equilibrium to the “switch to the better one” equilibrium. 
+
+ Practice: A platform could link 50 users. Each user values each potential connection at $0.50/yr. Connections = 50 × 49 = 2,450 → each user's value = $1,225/yr; total (if all join) = $61,250/yr. If setup costs $40,000, it looks profitable — but only if everyone joins ; lock-in to a rival may require penetration pricing to get there, cutting early revenue. 
+
+Adding a 51st user creates 2 × 50 = 100 new connections. 
+
+ Key terms 
+
+ limit pricing · residual demand · commitment · learning-curve effects · predatory pricing · raising rivals' costs · vertical foreclosure · price–cost squeeze · first-mover advantage · second-mover advantage · network · direct/indirect network externalities · consumer lock-in · critical mass · penetration pricing 
+
+ Quick self-test 
+
+ Why doesn't a low pre-entry price by itself deter a fully informed entrant? 
+
+ Name three conditions that make limit pricing more attractive. 
+
+ What's the legal definition of predatory pricing, and why is it hard to prove? 
+
+ How does raising a Cournot rival's marginal cost help you? 
+
+ How many connections does a 10-user two-way network have? How many does the 11th user add? 
+
+ When might you prefer to move second? 
+
+ Answers: (1) entrants care about post-entry output; an incumbent's threat to keep output high isn't credible without commitment; (2) low interest rate, π L near π M , π D well below π L ; (3) price below own MC to drive a rival out — aggressive pricing often looks the same as normal competition; (4) the rival's reaction function shifts in, so it produces less and you produce/earn more; (5) 90; 20; (6) when you can free-ride on the leader's investments or learn from its mistakes. 
+
+ Textbook Figures, Formulas & Book Examples 
+ The diagrams are my redrawings of the book's figures, labeled with the same figure numbers so you can find each original in Bookshelf. The formulas match the book's notation. The book's worked examples are summarized with their actual numbers. 
+
+ A. Formulas exactly as the book writes them 
+
+Entrant's residual demand under limit pricing: D M − Q L 
+
+PV of staying a monopolist forever: Π M = π M + (1/(1+i))π M + (1/(1+i))²π M + … = ((1+i)/i)·π M 
+
+PV if entry happens after this period: Π MD = π M + π D /i   (π D < π M ) 
+
+PV under limit pricing: Π L = ((1+i)/i)·π L   (π L < π M ) 
+
+ Limit pricing is profitable when (π L − π D )/i > π M − π L   (PV of benefits > up-front cost) 
+
+Two-way network with n users: n(n − 1) potential connection services; a new user adds 2n .
+
+ Principles in the book: 
+
+• Effective limit pricing: to deter rational entrants, the pre-entry price must be linked to the entrant's post-entry profits (through commitment, learning curves, incomplete information or reputation). 
+
+• Limit pricing is more attractive when (1) the interest rate is low, (2) profits under the limit price are close to monopoly profits, and (3) duopoly profits are much lower than limit-pricing profits. 
+
+• Direct network externalities: a network of n users gives n(n − 1) connection services, and every new user benefits all existing users by adding 2n. 
+
+• Legal definition of predatory pricing : pricing below your own marginal cost to drive out a rival. A more efficient firm can push out a less efficient rival just by pricing below the rival's cost. 
+
+ B. Figures & game trees 
+
+ Module 1 · Limit pricing 
+
+ Quantity Price Pᴹ ACᴹ Qᴹ πᴹ MC AC Dᴹ MR Figure M1–1 (redrawn): monopoly pricing. MR = MC at Qᴹ, price Pᴹ from demand, and profit πᴹ is the shaded box. Quantity Price Pᴸ Qᴸ Dᴹ AC Entrant’s residual demand = Dᴹ − Qᴸ Figure M1–2 (redrawn): if the incumbent keeps producing Qᴸ, the entrant’s residual demand lies below its AC everywhere, so entry is unprofitable. I Commit to Qᴸ E Enter ($50, −$10) Don't enter ($70, $0) Don't commit E Enter ($40, $40) Don't enter ($100, $0) I = incumbent, E = potential entrant Figure M1–3 (redrawn): the value of commitment. Payoffs are (Incumbent, Entrant). The SPE path is in red: commit, then no entry, so the incumbent earns $70. 
+ Reading M1–3: without commitment the incumbent would accommodate entry (earning $40 vs. $50 only if it had committed). Committing to Qᴸ makes entry a loss for the entrant (−$10), so the entrant stays out. The incumbent earns $70, which is less than the $100 monopoly payoff but more than the $40 it gets without commitment. 
+
+ Module 2 · Lessening competition 
+
+ Q₁ Q₂ r₁ r₂ r₂* A B Q₁ᴹ Rival’s MC ↑ → r₂ shifts to r₂* A → B: firm 1 makes more Figure M2–1 (redrawn): raising a rival’s marginal cost in a Cournot duopoly moves the equilibrium from A to B, nearer firm 1’s monopoly point. I $90 license E Enter (−$20, −$20) Don't enter ($110, $0) No license E Enter ($70, $70) Don't enter ($200, $0) I = incumbent, E = potential entrant Figure M2–2 (redrawn): raising a rival’s fixed cost. The SPE is to support the license, after which the entrant stays out and the incumbent earns $110 (vs. $70). 
+ Module 3 · Game timing 
+
+ Table M3–1: simultaneous-move version. The Nash equilibrium is highlighted. 
+ Firm B 
+ Low output High output 
+ Firm A Low output $30, $10 $10, $15 
+ High output $20, $5 $1, $2 
+
+ A Low output B Low ($30, $10) High ($10, $15) High output B Low ($20, $5) High ($1, $2) Figure M3–1 (redrawn): sequential-move production game. A moves first, chooses High, and B responds Low, giving ($20, $5). 
+ Simultaneous: A's dominant strategy is Low, so B picks High → (Low, High) = A $10, B $15. Sequential with A first: A picks High and B best-responds Low → A $20, B $5. That's a first-mover advantage for A ($20 vs. $10) and a second-mover disadvantage for B ($5 vs. $15). This works only if A's choice is (1) irreversible, (2) observed by B, and (3) common knowledge. 
+
+ Module 4 · Networks 
+
+ C1 C2 C3 C4 C5 C6 C7 H Figure M4–1 (redrawn): a star network. Users C1–C7 connect through hub H, as an airline hub routes flights. 
+ (a) Pre-entry 
+ C1 H1 C2 
+ (b) Post-entry 
+
+ C1 C2 
+ H1 H2 
+ Figure M4–2 (redrawn): entry creates a competing but exclusive network, so both users must be on the same hub for it to be useful. Table M4–1: the network game. Both cells on the diagonal are Nash equilibria; users are locked in at (H₁, H₁) even though (H₂, H₂) is better. 
+ User 2 
+ H₁ H₂ 
+ User 1 H₁ $10, $10 $0, $0 
+ H₂ $0, $0 $20, $20 
+
+ Table M4–2: with penetration pricing (H₂ pays each user $1 to try it), “H₁ & H₂” becomes a dominant strategy. 
+ User 2 
+ H₁ H₁ & H₂ 
+ User 1 H₁ $10, $10 $10, $11 
+ H₁ & H₂ $11, $10 $21, $21 
+
+ C. The book's examples 
+
+ Demonstration Problem M1–1 (Baker Enterprises, memory chips): as a monopolist at $115/chip Baker earns $10M/yr. A clone entrant would cut its profit to $4M/yr. Producing 280,000 units (price falls to $100) keeps the entrant out, with Baker earning $8M/yr indefinitely. 
+
+1. To deter entry credibly, Baker must “tie its hands” so it can't cut output below 280,000 if entry occurs, and entrants must be able to see that commitment. 
+
+2. At i = 10%: (π L − π D )/i = (8 − 4)/0.1 = $40M > π M − π L = 10 − 8 = $2M , so limit pricing pays . 
+
+ Applebee's vs. Chili's (commitment): by building a large restaurant first in a small town, Applebee's commits to a low-price, high-volume strategy to fill its tables. This shrinks a would-be entrant's residual demand. 
+
+ Small-town attorney (incomplete information): the only lawyer in town earns $500,000/yr. Living modestly (and charging below the monopoly price) hides how profitable the market is from returning law graduates. 
+
+ Inside Business M1–1 (“Southwest Effect”): fares on short-haul routes fall when Southwest flies them, or even when it only serves both endpoint airports. Incumbents price low to signal low costs to an entrant that can't see their costs. 
+
+ Demonstration Problem M2–1 (Baker again, predatory pricing): Baker is now a duopolist earning $4M/yr. Pricing at $68 for one year would drive out the rival but lose $60M that year, after which Baker earns $10M/yr as a monopolist. i = 10%. 
+
+No predation: Π D = (1.1/0.1)($4M) = 11 × 4 = $44M . 
+
+Predation: Π P = −$60M + $10M/0.1 = −60 + 100 = $40M . 
+
+$40M < $44M → predation doesn't pay , because it costs too much to drive the rival out. 
+
+ Predation in practice: American Airlines beat a DOJ charge (early 2000s) that it flooded Dallas/Ft. Worth routes with flights and fare cuts to push out start-ups. Prey can fight back by shutting down temporarily or by buying the predator's cheap product and stockpiling it. 
+
+ Inside Business M2–1 (DOJ vs. Google, 2020; earlier vs. Microsoft): Microsoft gave Internet Explorer away free and tied it to Windows to “cut off the air supply” of Netscape, which had a 70–80% share. Microsoft lost the suit, and the EU later ruled the tying illegal (2009). 
+
+ Raising rivals' fixed costs (book's numbers): monopoly profit = $200. If a rival enters, each earns $70. Lobbying for a $90 license on every firm means an entrant would earn 70 − 90 = −$20, so it stays out and the incumbent earns 200 − 90 = $110 > $70 . 
+
+ Raising rivals' costs (software): a dominant OS maker can withhold or delay its code from rival word-processor makers, or sign exclusive contracts with PC makers (Microsoft vs. Netscape) to raise rivals' distribution costs. 
+
+ Demonstration Problem M3–1 (paying to move first or second): 
+
+Game 1: whoever names the larger integer gets $10, the other $0. This is a second-mover advantage , since the second mover just names a bigger number. Pay $0 to move first, and up to $10 to move second. 
+
+Game 2: whoever names the smaller integer gets $20, the other $2. This is a first-mover advantage , since the first mover says “1” and gets $20. Pay up to $18 ($20 − $2) to move first. 
+
+ Inside Business M3–1 (the Metaverse): Meta and Apple are racing to be first, but moving first means burning money on trial and error. That risk is affordable for big firms but often not for start-ups, and late movers can pass the pioneers. 
+
+ Network numbers in the book: 2 users give 2 connection services, and adding a 3rd gives 6. Existing network H₁ is worth $10/month to each user, and an entrant's superior network H₂ would be worth $20, but users stay locked in (Table M4–1). Paying each user $1 to try H₂ makes “use both” dominant (Table M4–2). Once users find H₂ better, they drop H₁ and H₂ can remove the subsidy and raise its price. 
+
+ Inside Business M4–1 (Yahoo! vs. eBay auctions): Yahoo! used penetration pricing (free listings for buyers and sellers) to try to reach critical mass, but eBay's network effects and first-mover advantage were too strong. Yahoo! closed its U.S. auction site. 
+
+ Demonstration Problem M4–1: a two-way network for 100 users; each pays $1 per potential connection; it costs $500,000 to build. 
+
+Connections = 100 × 99 = 9,900 → $9,900 per user → $990,000 revenue if all 100 join → $490,000 profit . That profit depends on everyone subscribing, and lock-in means penetration pricing will likely be needed to jump-start the network, which cuts short-run profit. 
+
+ Other book examples worth knowing: network complementarities (Internet → teleconferencing software; electricity → appliances; E85 cars → E85 stations); bottlenecks (traffic jams, airport delays, dropped calls); a Delta passenger flies Indianapolis → Atlanta hub → Philadelphia (a star network).

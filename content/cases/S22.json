@@ -1,0 +1,328 @@
+[
+ {
+  "id": "S22-case1",
+  "title": "Two ski resorts (differentiated Bertrand)",
+  "los": [
+   "S22-02",
+   "S22-03",
+   "S22-04"
+  ],
+  "stem": "A made-up example in Bryce's form. Two ski resorts near the same city set day-pass prices. Each resort's daily demand (hundreds of skiers) is Q_i = 80 - p_i + p_j, and each has marginal cost $20 per skier.",
+  "parts": [
+   {
+    "los": [
+     "S22-03"
+    ],
+    "type": "mc",
+    "kind": "apply",
+    "stem": "Which oligopoly model fits?",
+    "choices": [
+     "Standard Bertrand",
+     "Differentiated Bertrand",
+     "Cournot",
+     "Stackelberg"
+    ],
+    "answer": 1,
+    "explain": "Price competition, differentiated products (Bryce p. 10).",
+    "id": "S22-case1-p1",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S22-02"
+    ],
+    "type": "mc",
+    "kind": "calc",
+    "stem": "What is resort 1's reaction function?",
+    "choices": [
+     "p_1 = 100 - p_2",
+     "p_1 = (80 - p_2)/2",
+     "p_1 = (100 + p_2)/2",
+     "p_1 = 20"
+    ],
+    "answer": 2,
+    "explain": "p_1 = (a + p_2 + c)/2 = (80 + p_2 + 20)/2.",
+    "id": "S22-case1-p2",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S22-02"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "What is the equilibrium price?",
+    "answer": 100,
+    "unit": "$",
+    "tol": 0.01,
+    "explain": "p = a + c = 80 + 20 = $100.",
+    "verify": {
+     "f": "dbert",
+     "al": 80,
+     "be": 1,
+     "ga": 1,
+     "c": 20,
+     "who": "p"
+    },
+    "id": "S22-case1-p3",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S22-04"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "Resort 2 raises its price to $120. What is resort 1's best price?",
+    "answer": 110,
+    "unit": "$",
+    "tol": 0.01,
+    "explain": "(80 + 120 + 20)/2 = $110.",
+    "verify": {
+     "f": "dbert",
+     "al": 80,
+     "be": 1,
+     "ga": 1,
+     "c": 20,
+     "who": "br",
+     "pj": 120
+    },
+    "id": "S22-case1-p4",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S22-02"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "What is each resort's equilibrium profit (in $ hundreds)?",
+    "answer": 6400,
+    "unit": "",
+    "tol": 0.01,
+    "explain": "Q = 80; profit (100 - 20) × 80 = 6,400.",
+    "verify": {
+     "f": "dbert",
+     "al": 80,
+     "be": 1,
+     "ga": 1,
+     "c": 20,
+     "who": "pi"
+    },
+    "id": "S22-case1-p5",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   }
+  ]
+ },
+ {
+  "id": "S22-case2",
+  "title": "Selling an identical part online (standard Bertrand)",
+  "los": [
+   "S22-01",
+   "S22-03",
+   "S22-04"
+  ],
+  "stem": "A made-up example. Two online sellers offer the identical replacement part. Buyers see both prices on a comparison site and have no switching costs. Market demand is Q = 1,000 - 10P.",
+  "parts": [
+   {
+    "los": [
+     "S22-03"
+    ],
+    "type": "mc",
+    "kind": "apply",
+    "stem": "Which model fits?",
+    "choices": [
+     "Stackelberg",
+     "Cournot",
+     "Standard Bertrand",
+     "Differentiated Bertrand"
+    ],
+    "answer": 2,
+    "explain": "Identical goods, visible prices.",
+    "id": "S22-case2-p1",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S22-01"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "If both have marginal cost $20, what is the equilibrium price?",
+    "answer": 20,
+    "unit": "$",
+    "tol": 0.01,
+    "explain": "P = MC.",
+    "verify": {
+     "f": "bert",
+     "A": 1000,
+     "k": 10,
+     "c1": 20,
+     "c2": 20,
+     "who": "P"
+    },
+    "id": "S22-case2-p2",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S22-04"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "Seller 2's cost rises to $30 while seller 1's stays $20. About how much does seller 1 earn? (Treat 'just below $30' as $30.)",
+    "answer": 7000,
+    "unit": "$",
+    "tol": 0.01,
+    "explain": "Price just under $30, Q = 700, profit (30 - 20) × 700.",
+    "verify": {
+     "f": "bert",
+     "A": 1000,
+     "k": 10,
+     "c1": 20,
+     "c2": 30,
+     "who": "pi1"
+    },
+    "id": "S22-case2-p3",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S22-04"
+    ],
+    "type": "mc",
+    "kind": "apply",
+    "stem": "Back at equal costs, what could seller 1 do to earn positive profit?",
+    "choices": [
+     "Lower price below $20",
+     "Differentiate the part or add switching costs (warranty, bundled service)",
+     "Raise price above $20",
+     "Produce more"
+    ],
+    "answer": 1,
+    "explain": "Escaping the Bertrand trap.",
+    "id": "S22-case2-p4",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   }
+  ]
+ },
+ {
+  "id": "S22-case3",
+  "title": "Comparing the four models (textbook market)",
+  "los": [
+   "S22-01",
+   "S22-04",
+   "S21-06"
+  ],
+  "stem": "From the textbook's model comparison: P = 1,000 - (Q_1 + Q_2), each firm's cost C_i = 4Q_i.",
+  "parts": [
+   {
+    "los": [
+     "S22-01"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "What is the price under standard Bertrand?",
+    "answer": 4,
+    "unit": "$",
+    "tol": 0.01,
+    "explain": "P = MC = $4.",
+    "verify": {
+     "f": "model_price",
+     "a": 1000,
+     "b": 1,
+     "c": 4,
+     "model": "Bertrand"
+    },
+    "id": "S22-case3-p1",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S22-04"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "What is the price under Cournot?",
+    "answer": 336,
+    "unit": "$",
+    "tol": 0.01,
+    "explain": "Each 332, Q = 664, P = $336.",
+    "verify": {
+     "f": "model_price",
+     "a": 1000,
+     "b": 1,
+     "c": 4,
+     "model": "Cournot"
+    },
+    "id": "S22-case3-p2",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S22-04"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "What is the price under Stackelberg?",
+    "answer": 253,
+    "unit": "$",
+    "tol": 0.01,
+    "explain": "498 + 249 = 747, P = $253.",
+    "verify": {
+     "f": "model_price",
+     "a": 1000,
+     "b": 1,
+     "c": 4,
+     "model": "Stackelberg"
+    },
+    "id": "S22-case3-p3",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S22-04"
+    ],
+    "type": "mc",
+    "kind": "concept",
+    "stem": "Which ordering of total output is correct?",
+    "choices": [
+     "Bertrand < Stackelberg < Cournot < Collusion",
+     "Cournot < Collusion < Bertrand < Stackelberg",
+     "Collusion < Cournot < Stackelberg < Bertrand",
+     "All equal"
+    ],
+    "answer": 2,
+    "explain": "498, 664, 747, 996.",
+    "id": "S22-case3-p4",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   }
+  ]
+ }
+]

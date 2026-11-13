@@ -1,0 +1,383 @@
+[
+ {
+  "id": "S19-05-q001",
+  "los": [
+   "S19-05"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "A mixed (randomized) strategy is:",
+  "choices": [
+   "Choosing the action with the highest average payoff",
+   "Alternating actions in a fixed pattern",
+   "Randomizing over actions to keep rivals from predicting your move",
+   "Mixing two products in one market"
+  ],
+  "answer": 2,
+  "explain": "Slide p. 44. A fixed pattern is predictable, which defeats the purpose.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-05-q002",
+  "los": [
+   "S19-05"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "When are mixed strategies most useful?",
+  "choices": [
+   "When there is no pure-strategy Nash equilibrium",
+   "When both players have dominant strategies",
+   "When payoffs are all equal",
+   "In coordination games where both want to match"
+  ],
+  "answer": 0,
+  "explain": "Monitoring, penalty kicks, rock paper scissors: each side gains by being unpredictable.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-05-q003",
+  "los": [
+   "S19-05"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: In a mixed strategy equilibrium, each player randomizes so that the OTHER player is indifferent between his or her actions.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explain": "True. If the other player strictly preferred one action, you could be exploited.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-05-q004",
+  "los": [
+   "S19-05"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Which slide example is a game with no pure-strategy Nash equilibrium?",
+  "choices": [
+   "Employee monitoring",
+   "Dillard's versus Nordstrom",
+   "Kellogg's versus General Mills",
+   "Visa versus Mastercard"
+  ],
+  "answer": 0,
+  "explain": "The others each have a pure equilibrium.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-05-q005",
+  "los": [
+   "S19-05"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: The mixed strategy formulas are printed on the equation sheet.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 1,
+  "explain": "False. Set up the expected payoffs and solve.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-05-q006",
+  "los": [
+   "S19-05"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "In the Princess Bride scene, why should Westley not always poison the same cup?",
+  "choices": [
+   "Westley has a dominant strategy",
+   "Poison only works in one cup",
+   "If Vizzini could predict it, he would drink from the safe cup",
+   "The game has a pure Nash equilibrium"
+  ],
+  "answer": 2,
+  "explain": "Predictability is exploited in a game with no pure equilibrium.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-05-q007",
+  "los": [
+   "S19-05"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Boss (rows) and Employee (columns):\n\n| Boss \\ Employee | Work | Shirk |\n|---|---|---|\n| Monitor | 6, 3 | 8, 0 |\n| Don't Monitor | 10, 3 | 2, 4 |\n\nThe boss monitors with probability p. What value of p makes the employee indifferent between working and shirking?",
+  "answer": 0.25,
+  "unit": "",
+  "tol": 0.01,
+  "explain": "Employee's payoff from Work: 3p + 3(1 - p) = 3. From Shirk: 0p + 4(1 - p) = 4 - 4p. Set equal: 3 = 4 - 4p, p = 0.25.",
+  "verify": {
+   "f": "mix_p",
+   "pay": [
+    [
+     [
+      6,
+      3
+     ],
+     [
+      8,
+      0
+     ]
+    ],
+    [
+     [
+      10,
+      3
+     ],
+     [
+      2,
+      4
+     ]
+    ]
+   ]
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-05-q008",
+  "los": [
+   "S19-05"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Same game. The employee works with probability q. What value of q makes the boss indifferent between monitoring and not?",
+  "answer": 0.6,
+  "unit": "",
+  "tol": 0.01,
+  "explain": "Boss from Monitor: 6q + 8(1 - q) = 8 - 2q. From Don't: 10q + 2(1 - q) = 2 + 8q. Set equal: 6 = 10q, q = 0.6.",
+  "verify": {
+   "f": "mix_q",
+   "pay": [
+    [
+     [
+      6,
+      3
+     ],
+     [
+      8,
+      0
+     ]
+    ],
+    [
+     [
+      10,
+      3
+     ],
+     [
+      2,
+      4
+     ]
+    ]
+   ]
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-05-q009",
+  "los": [
+   "S19-05"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Same game. In the mixed equilibrium (q = 0.6), what is the boss's expected payoff?",
+  "answer": 6.8,
+  "unit": "",
+  "tol": 0.01,
+  "explain": "Monitor: 6(0.6) + 8(0.4) = 3.6 + 3.2 = 6.8. Don't monitor gives the same: 10(0.6) + 2(0.4) = 6.8.",
+  "verify": {
+   "f": "mix_val_row",
+   "pay": [
+    [
+     [
+      6,
+      3
+     ],
+     [
+      8,
+      0
+     ]
+    ],
+    [
+     [
+      10,
+      3
+     ],
+     [
+      2,
+      4
+     ]
+    ]
+   ]
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-05-q010",
+  "los": [
+   "S19-05"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Employee monitoring from the slides:\n\n| Boss \\ Employee | Work | Shirk |\n|---|---|---|\n| Monitor | -1, 1 | 1, -1 |\n| Don't Monitor | 1, -1 | -1, 1 |\n\nWith what probability should the boss monitor?",
+  "answer": 0.5,
+  "unit": "",
+  "tol": 0.01,
+  "explain": "Employee: Work = 1p - 1(1 - p) = 2p - 1; Shirk = -1p + 1(1 - p) = 1 - 2p. Equal when p = 0.5.",
+  "verify": {
+   "f": "mix_p",
+   "pay": [
+    [
+     [
+      -1,
+      1
+     ],
+     [
+      1,
+      -1
+     ]
+    ],
+    [
+     [
+      1,
+      -1
+     ],
+     [
+      -1,
+      1
+     ]
+    ]
+   ]
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-05-q011",
+  "los": [
+   "S19-05"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "A kicker shoots Left with probability p. The chance of scoring is 0.4 if kicker Left and goalie Left, 0.9 if Left/Right, 0.8 if Right/Left, 0.3 if Right/Right. What p makes the goalie indifferent between diving Left and Right?",
+  "answer": 0.5,
+  "unit": "",
+  "tol": 0.01,
+  "explain": "Goalie Left: scoring = 0.4p + 0.8(1 - p) = 0.8 - 0.4p. Goalie Right: 0.9p + 0.3(1 - p) = 0.3 + 0.6p. Equal: 0.5 = p.",
+  "verify": {
+   "f": "mix_p",
+   "pay": [
+    [
+     [
+      0.4,
+      0.6
+     ],
+     [
+      0.9,
+      0.1
+     ]
+    ],
+    [
+     [
+      0.8,
+      0.2
+     ],
+     [
+      0.3,
+      0.7
+     ]
+    ]
+   ]
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-05-q012",
+  "los": [
+   "S19-05"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A tax agency audits some returns at random rather than following a published rule. Which concept explains this?",
+  "choices": [
+   "A coordination game",
+   "A mixed strategy keeps taxpayers from predicting audits",
+   "A dominant strategy",
+   "Limit pricing"
+  ],
+  "answer": 1,
+  "explain": "A predictable rule would let cheaters avoid it, like the monitoring game.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-05-q013",
+  "los": [
+   "S19-05"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "In a mixed strategy equilibrium, the boss's monitoring probability is determined by:",
+  "choices": [
+   "The boss's own payoffs",
+   "Which payoff is largest",
+   "The employee's payoffs",
+   "The average of all payoffs"
+  ],
+  "answer": 2,
+  "explain": "It must make the employee indifferent, so it is pinned down by the employee's payoffs.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-05-q014",
+  "los": [
+   "S19-05"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A boss monitors 60% of the time. At that rate the employee strictly prefers to work. Is the boss using the equilibrium mix?",
+  "choices": [
+   "Yes; any mix is an equilibrium",
+   "Yes; the employee works",
+   "No; the boss should always monitor",
+   "No; in equilibrium the employee is indifferent, so the boss could monitor less and save cost"
+  ],
+  "answer": 3,
+  "explain": "If the employee strictly prefers working, the boss is monitoring more than needed.",
+  "source": "generated",
+  "verbatim": false
+ }
+]

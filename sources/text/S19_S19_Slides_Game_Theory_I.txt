@@ -1,0 +1,580 @@
+
+=== PAGE 1 ===
+STRAT 402
+ECONOMICS OF STRATEGY
+Session 19
+Game Theory I
+
+=== PAGE 2 ===
+Announcements
+
+=== PAGE 3 ===
+Agenda
+▪Review of Barriers to Entry
+▪Simultaneous Games Lecture
+▪In-Class Exercise
+▪Game Theory Applications
+
+=== PAGE 4 ===
+Advertising Revenue per User ($)
+
+                    $-   $2.00   $4.00   $6.00   $8.00   $10.00   $12.00   $14.00   $16.00   $18.00
+
+           2012-3
+           2012-4
+           2013-1
+           2013-2
+           2013-3
+           2013-4
+           2014-1
+           2014-2
+           2014-3
+           2014-4
+           2015-1
+           2015-2
+           2015-3
+           2015-4
+Facebook   2016-1
+           2016-2
+           2016-3
+           2016-4
+           2017-1
+           2017-2
+Twitter
+           2017-3
+           2017-4
+           2018-1
+           2018-2
+Snapchat   2018-3
+           2018-4
+           2019-1
+           2019-2
+           2019-3
+           2019-4
+                                                                                                      Trends in Total Advertising Revenue, 2012-2022
+
+
+
+           2020-1
+                                                                                                                                                       Barriers to Entry Exercise
+
+           2020-2
+           2020-3
+           2020-4
+           2021-1
+           2021-2
+           2021-3
+           2021-4
+           2022-1
+           2022-2
+
+=== PAGE 5 ===
+Daily Active Users (DAUs, millions)
+                    -      500   1,000   1,500   2,000   2,500
+
+           2012-3
+           2012-4
+           2013-1
+           2013-2
+           2013-3
+           2013-4
+           2014-1
+           2014-2
+           2014-3
+           2014-4
+           2015-1
+           2015-2
+           2015-3
+           2015-4
+Facebook   2016-1
+           2016-2
+           2016-3
+           2016-4
+           2017-1
+Twitter    2017-2
+           2017-3
+           2017-4
+           2018-1
+           2018-2
+Snapchat   2018-3
+           2018-4
+           2019-1
+           2019-2
+                                                                 Trends in Daily Active Users, 2012-2022
+
+
+
+           2019-3
+           2019-4
+           2020-1
+                                                                                                           Barriers to Entry Exercise
+
+           2020-2
+           2020-3
+           2020-4
+           2021-1
+           2021-2
+           2021-3
+           2021-4
+           2022-1
+           2022-2
+
+=== PAGE 6 ===
+Operating Expenses as a % of Revenue
+                0%   50%   100%   150%   200%   250%   300%   350%   400%
+
+       2012-3
+       2012-4
+       2013-1
+       2013-2
+       2013-3
+       2013-4
+       2014-1
+       2014-2
+       2014-3
+       2014-4
+       2015-1
+       2015-2
+       2015-3
+       2015-4
+       2016-1
+FB     2016-2
+       2016-3
+       2016-4
+TWTR   2017-1
+       2017-2
+       2017-3
+       2017-4
+SNAP   2018-1
+       2018-2
+       2018-3
+       2018-4
+       2019-1
+       2019-2
+       2019-3
+                                                                            Relative Operating Expenses, 2012-2022
+
+
+
+       2019-4
+                                                                                                                     Barriers to Entry Exercise
+
+       2020-1
+       2020-2
+       2020-3
+       2020-4
+       2021-1
+       2021-2
+       2021-3
+       2021-4
+       2022-1
+       2022-2
+
+=== PAGE 7 ===
+Barriers to Entry Exercise
+Based on your reading and understanding of the reading
+Strategies to Crack Well-Guarded Markets, how was TikTok
+able to grow into a major competitor despite Meta's dominant
+position?
+
+=== PAGE 8 ===
+Learning Objectives
+▪Know and understand the following economic concepts:
+  oSimultaneous-move games
+  oNormal-form representation
+  oDominant strategy
+  oNash equilibrium
+  oMixed (randomized) strategy
+▪Be able to apply game theoretic logic to business decisions including
+ pricing, coordination, and advertising
+
+=== PAGE 9 ===
+Theory Meets Practice
+
+
+
+
+Source: The Wall Street Journal, October 30, 2014
+
+=== PAGE 10 ===
+Normal Form Representation
+                           Mastercard
+                      Lower Fee   Maintain Fee
+
+
+        Lower Fee      2    2       4    1
+Visa
+       Maintain Fee    1    4       3    3
+
+=== PAGE 11 ===
+Players
+             Mastercard
+
+
+
+Visa
+
+=== PAGE 12 ===
+Strategies
+                          Mastercard
+                      Lower Fee   Maintain Fee
+
+
+        Lower Fee
+
+
+Visa
+       Maintain Fee
+
+=== PAGE 13 ===
+Payoffs
+                              Mastercard
+                         Lower Fee   Maintain Fee
+
+
+        Lower Fee         2     2      4    1
+Visa
+       Maintain Fee       1     4      3    3
+
+=== PAGE 14 ===
+Visa’s Payoffs
+                           Mastercard
+                      Lower Fee   Maintain Fee
+
+
+        Lower Fee      2    2       4    1
+Visa
+       Maintain Fee    1    4       3    3
+
+=== PAGE 15 ===
+Mastercard’s Payoffs
+                           Mastercard
+                      Lower Fee   Maintain Fee
+
+
+        Lower Fee      2    2       4    1
+Visa
+       Maintain Fee    1    4       3    3
+
+=== PAGE 16 ===
+What should Visa do?
+                           Mastercard
+                      Lower Fee   Maintain Fee
+
+
+        Lower Fee      2    2       4    1
+Visa
+       Maintain Fee    1    4       3    3
+
+=== PAGE 17 ===
+What should Visa do?
+                           Mastercard
+                      Lower Fee   Maintain Fee
+
+
+        Lower Fee      2    2       4    1
+Visa
+       Maintain Fee    1    4       3    3
+
+=== PAGE 18 ===
+What should Visa do?
+                           Mastercard
+                      Lower Fee   Maintain Fee
+
+
+        Lower Fee      2    2       4    1
+Visa
+       Maintain Fee    1    4       3    3
+
+=== PAGE 19 ===
+What should Visa do?
+                           Mastercard
+                      Lower Fee   Maintain Fee
+
+
+        Lower Fee      2    2       4    1
+Visa
+       Maintain Fee    1    4       3    3
+
+=== PAGE 20 ===
+What should Visa do?
+                           Mastercard
+                      Lower Fee   Maintain Fee
+
+
+        Lower Fee      2    2       4    1
+Visa
+       Maintain Fee    1    4       3    3
+
+=== PAGE 21 ===
+What should Visa do?
+                           Mastercard
+                      Lower Fee   Maintain Fee
+
+
+        Lower Fee      2    2       4    1
+Visa
+       Maintain Fee    1    4       3    3
+
+=== PAGE 22 ===
+What should Visa do?
+Visa should choose to lower their fees. Why?
+▪No matter what Mastercard decides to do, Visa’s best option is to
+ lower its fees.
+▪Visa has a dominant strategy to lower its fees
+
+What is a dominant strategy?
+
+A strategy that results in the highest payoff to a player regardless of the
+opponent’s actions.
+
+=== PAGE 23 ===
+What should Mastercard do?
+                           Mastercard
+                      Lower Fee   Maintain Fee
+
+
+        Lower Fee      2    2       4    1
+Visa
+       Maintain Fee    1    4       3    3
+
+=== PAGE 24 ===
+What should MasterCard do?
+                           Mastercard
+                      Lower Fee   Maintain Fee
+
+
+        Lower Fee      2    2       4    1
+Visa
+       Maintain Fee    1    4       3    3
+
+=== PAGE 25 ===
+What should MasterCard do?
+                           Mastercard
+                      Lower Fee   Maintain Fee
+
+
+        Lower Fee      2    2       4    1
+Visa
+       Maintain Fee    1    4       3    3
+
+=== PAGE 26 ===
+What should MasterCard do?
+                           Mastercard
+                      Lower Fee   Maintain Fee
+
+
+        Lower Fee      2    2       4    1
+Visa
+       Maintain Fee    1    4       3    3
+
+=== PAGE 27 ===
+What should MasterCard do?
+                           Mastercard
+                      Lower Fee   Maintain Fee
+
+
+        Lower Fee      2    2       4    1
+Visa
+       Maintain Fee    1    4       3    3
+
+=== PAGE 28 ===
+What should MasterCard do?
+                           Mastercard
+                      Lower Fee   Maintain Fee
+
+
+        Lower Fee      2    2       4    1
+Visa
+       Maintain Fee    1    4       3    3
+
+=== PAGE 29 ===
+What should MasterCard do?
+Mastercard should also choose to lower their fees. Why?
+▪No matter what Visa decides to do, MasterCard's best option is to also
+ lower it’s fees.
+▪MasterCard also has a dominant strategy to lower its fees
+
+What is a dominant strategy?
+
+A strategy that results in the highest payoff to a player regardless of the
+opponent’s actions.
+
+=== PAGE 30 ===
+Is there a Nash equilibrium?
+                           Mastercard
+                      Lower Fee   Maintain Fee
+
+
+        Lower Fee      2    2       4    1
+Visa
+       Maintain Fee    1    4       3    3
+
+=== PAGE 31 ===
+Is there a Nash equilibrium?
+                           Mastercard
+                      Lower Fee   Maintain Fee
+
+
+        Lower Fee      2    2       4    1
+Visa
+       Maintain Fee    1    4       3    3
+
+=== PAGE 32 ===
+Is there a Nash equilibrium?
+Yes, the Nash equilibrium is for both players to lower their
+fees.
+
+What is a Nash equilibrium?
+
+A condition describing a set of strategies in which no player can
+improve his or her payoff by unilaterally changing his or her strategy,
+given the other players’ strategies.
+
+=== PAGE 33 ===
+Can either player improve?
+                           Mastercard
+                      Lower Fee   Maintain Fee
+
+
+        Lower Fee      2    2       4    1
+Visa
+       Maintain Fee    1    4       3    3
+
+=== PAGE 34 ===
+Could they collude?
+Indeed, they would both be better off, it they could agree
+beforehand to maintain their fees.
+
+=== PAGE 35 ===
+Could they collude?
+                           Mastercard
+                      Lower Fee   Maintain Fee
+
+
+        Lower Fee      2    2       4    1
+Visa
+       Maintain Fee    1    4       3    3
+
+=== PAGE 36 ===
+Could they collude?
+Indeed, they would both be better off, it they could agree
+beforehand to maintain their fees. Given their payoffs, why
+wouldn’t that work?
+
+Agreeing to maintain the status quo wouldn’t work because
+both players would have an incentive to defect from the
+agreement.
+
+=== PAGE 37 ===
+Could they collude?
+                           Mastercard
+                      Lower Fee   Maintain Fee
+
+
+        Lower Fee      2    2       4    1
+Visa
+       Maintain Fee    1    4       3    3
+
+=== PAGE 38 ===
+In-Class Exercise: Simultaneous Games
+
+=== PAGE 39 ===
+Dillard’s vs. Nordstrom
+                              Nordstrom
+                         Girl’s      Women’s
+
+
+               Girl’s   2     1       4   2
+Dillard’s
+              Women’s   6     4       3   5
+
+=== PAGE 40 ===
+Dillard’s vs. Nordstrom
+                              Nordstrom
+                         Girl’s      Women’s
+
+
+               Girl’s   2     1       4   2
+Dillard’s
+              Women’s   6     4       3   5
+
+=== PAGE 41 ===
+Game Theory: The Princess Bride
+
+=== PAGE 42 ===
+Game Theory: The Princess Bride
+
+                                           Westley
+
+                           Poison In His              Poison In
+                            Own Cup                  Vizzini’s Cup
+
+           Drink From
+                             Die, Live                 Live, Die
+          Westley’s Cup
+Vizzini
+          Drink from His
+                             Live, Die                 Die, Live
+            Own Cup
+
+=== PAGE 43 ===
+Game Theory: The Princess Bride
+
+                                           Westley
+
+                           Poison In His              Poison In
+                            Own Cup                  Vizzini’s Cup
+
+           Drink From
+                             Die, Live                 Live, Die
+          Westley’s Cup
+Vizzini
+          Drink from His
+                             Live, Die                 Die, Live
+            Own Cup
+
+=== PAGE 44 ===
+Mixed (Randomized) Strategy
+A mixed or randomized strategy is a strategy whereby a player
+randomizes over two or more available actions in order to
+keep rivals from being able to predict his or her action.
+
+Examples of mixed strategies in games, sports, etc.
+  ▪Rock, Paper, Scissors
+  ▪Penalty kicks
+  ▪Football
+
+=== PAGE 45 ===
+Employee Monitoring
+
+                               Employee
+
+
+                       Work               Shirk
+
+
+         Monitor       -1, 1              1, -1
+
+Boss
+       Don’t Monitor   1, -1              -1, 1
+
+=== PAGE 46 ===
+Employee Monitoring
+
+                               Employee
+
+
+                       Work               Shirk
+
+
+         Monitor       -1, 1              1, -1
+
+Boss
+       Don’t Monitor   1, -1              -1, 1
+
+=== PAGE 47 ===
+Game Theory: Golden Balls
+
+=== PAGE 48 ===
+Game Theory: Golden Balls

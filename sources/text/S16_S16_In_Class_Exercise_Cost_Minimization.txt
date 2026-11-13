@@ -1,0 +1,59 @@
+In-Class Exercise – Cost Minimization
+
+As you begin reviewing your company’s production information, you learn that labor is paid $12 per hour and the last worker hired produced 84 rollers per hour. Your company also rents roller cutters and crimping machines for $15 per hour, and the marginal product of capital is 120 rollers per hour.
+
+Is the firm using the cost-minimizing combination of capital and labor? How do you know?
+
+
+
+
+
+
+
+
+
+
+Should the firm increase or decrease the amount of capital used in its production process? Why?
+
+
+
+
+
+If the rental rate increases, what will happen to the cost minimizing mix? Demonstrate on a graph showing the old and new cost minimizing mix of capital and labor. Assume that capital is on the y-axis and labor is on the x-axis. Hint: See figure 5-10.
+
+
+
+
+
+
+
+
+
+
+
+
+
+In-Class Exercise – Cost Minimization
+
+As you begin reviewing your company’s production information, you learn that labor is paid $12 per hour and the last worker hired produced 84 rollers per hour. Your company also rents roller cutters and crimping machines for $15 per hour, and the marginal product of capital is 120 rollers per hour.
+
+Is the firm using the cost-minimizing combination of capital and labor? How do you know?
+
+No, the firm is not using the cost-minimizing combination of capital and labor because the “bang for the buck” for each input is not equal.
+
+	MPL/w = 84/12=7
+
+	MPK/r = 120/15 = 8
+
+	MPL/w is not equal to MPK/r
+
+
+
+Should the firm increase or decrease the amount of capital used in its production process? Why?
+
+The firm should increase its investment in capital because the bang for the buck for capital is greater than it is for labor. 
+
+
+If the rental rate increases, what will happen to the cost minimizing mix? Demonstrate on a graph showing the old and new cost minimizing mix of capital and labor. Assume that capital is on the y-axis and labor is on the x-axis. Hint: See figure 5-10.
+
+If the rental rate increases, intuitively, you should expect the company to invest less in capital and more in labor. See figure 5-10 to see a graphic depiction of this dynamic.

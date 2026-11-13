@@ -1,0 +1,35 @@
+{
+ "id": "S22-03",
+ "title": "Identifying standard or differentiated Bertrand conditions",
+ "calc": false,
+ "plain": "Bryce ends the reading with three questions for working out market structure and type of competition (pp. 9 to 10):\n\n1. **How many firms are meaningfully engaged in direct competition?** Markets are easy to define too broadly: gas stations in north and south Provo do not really compete directly; competition happens at local intersections. Cell phone companies compete on national networks, so their market is national.\n2. **What percentage of the firms' target customer base overlaps?** High overlap means direct competition. Salt Lake ski resorts overlap a lot (a differentiated Bertrand oligopoly together) and may also compete with high-end Colorado resorts for East Coast vacation skiers.\n3. **What is the primary strategic variable?** Price? Programs? Product features? Lead time? Are firms choosing quantity and letting price float, or explicitly setting price? Airlines: the dominant consideration is **price**, so Bertrand; since they are at least slightly differentiated (location, routes, programs), **differentiated Bertrand**.\n\n**Figure 1 again:**\n\n| Goods are | Quantity | Price | Lead time |\n|---|---|---|---|\n| Homogeneous | Cournot | Bertrand (standard) | Stackelberg |\n| Differentiated | (less common) | Differentiated Bertrand | (less common) |\n\n**Standard Bertrand fits when:** price is the strategic variable, goods are truly homogeneous, consumers see all prices (few information constraints, often online), no switching costs, similar costs.\n\n**Differentiated Bertrand fits when:** price is the strategic variable, but goods differ enough that some customers stay loyal when a rival is cheaper (brands, locations, features, programs).\n\n**Clues the market is NOT standard Bertrand:** prices well above cost that persist, loyal customers, switching costs, capacity limits, or firms choosing output and letting price float (Cournot).",
+ "why": "Practice exam Q14 and Q30, Comprehension Quiz 10 Q8 and Q9 and the Session 22 reading quiz Q1 and Q2 are expected to ask which model fits.",
+ "definition": "A firm is in standard Bertrand when it competes on price with identical products and fully informed buyers; it is in differentiated Bertrand when it competes on price with moderately differentiated products.",
+ "formulas": [],
+ "derivation": "",
+ "math": [],
+ "worked": [
+  {
+   "title": "Apply Bryce's three questions",
+   "problem": "Two regional grocery chains in one city compete mainly with weekly price ads, but shoppers favor the store nearest home and each chain has a loyalty card. What model fits?",
+   "steps": [
+    "Firms in direct competition: the two chains in the city.",
+    "Customer overlap: high (same city).",
+    "Strategic variable: price (weekly ads).",
+    "Products are differentiated by location and loyalty programs."
+   ],
+   "answer": "Differentiated Bertrand."
+  }
+ ],
+ "traps": [
+  "Price competition alone does not mean standard Bertrand: check whether goods are truly identical and prices fully visible.",
+  "Define the market by who competes directly: not too broad (all gas stations in a state) and not too narrow.",
+  "Non-price tools like frequent flier programs differentiate the product, pointing to differentiated Bertrand."
+ ],
+ "sources": {
+  "slides": "S22 slides not yet available",
+  "read": "Bryce pp. 3 to 4, 6, 8 to 10 (Determining Market Structure and Competition)",
+  "exercise": "Oligopoly Exercise (not yet available)",
+  "quiz": "Session 22 Reading Quiz Q1, Q2; Comprehension Quiz 10 Q8, Q9 (not yet available); Practice exam Q14, Q30"
+ }
+}

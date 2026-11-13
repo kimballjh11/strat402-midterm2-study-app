@@ -1,0 +1,72 @@
+{
+ "id": "S18-01",
+ "title": "Economies of scale",
+ "calc": true,
+ "plain": "Some businesses have huge costs that do not depend on how much they sell: a power grid, a data center, a factory, a national ad campaign. The more units a firm sells, the thinner that cost is spread, so the **average cost per unit falls as output grows**. That is **economies of scale**.\n\nThe professor's definition (Session 6): **economies of scale exist when long-run average costs decline as output is increased.** Diseconomies of scale exist when long-run average costs rise as output increases.\n\n**Why it is a barrier to entry.** An entrant starts small. If average cost keeps falling until output is large, the small entrant pays much more per unit than the big incumbent and cannot match its price. The S18 slides illustrate this three ways:\n- Power lines (p. 29): a utility's network is so costly that one firm can serve a region far more cheaply than two.\n- An abandoned truck stop (p. 30): a market can be too small to support even one more firm at a reasonable average cost.\n- Figure 8-11 from Baye (p. 31): when one firm serves the whole market at \\(Q^M\\), its average cost is \\(ATC(Q^M)\\), below the price \\(P^M\\). If two firms split the market, each produces \\(Q^M/2\\) and its average cost \\(ATC(Q^M/2)\\) is **above** the price, so both would lose money. An entrant can see that entry would split the market and raise everyone's average cost.\n\nA useful term: **minimum efficient scale** (MES) is the smallest output at which long-run average cost reaches its minimum. The larger MES is compared with the whole market, the fewer firms the market can support and the bigger the barrier.\n\n**In the Barriers to Entry exercise**, Meta's cost of revenue (data centers, servers, network) is a much smaller share of sales than Twitter's or Snapchat's, because Meta spreads those mostly fixed costs over about 2 billion daily users.",
+ "why": "Economies of scale are the first structural barrier on the S18 slides and come up again in oligopoly (S21, S22). Exam questions describe a scenario and ask which barrier it shows.",
+ "definition": "Economies of scale exist when long-run average costs decline as output is increased. Diseconomies of scale exist when long-run average costs rise as output is increased.",
+ "formulas": [
+  {
+   "name": "Average total cost",
+   "tex": "ATC = \\frac{TC}{Q}",
+   "onSheet": true
+  },
+  {
+   "name": "Average cost with a fixed cost",
+   "tex": "ATC = \\frac{F}{Q} + c",
+   "onSheet": false,
+   "note": "Follows from ATC = TC/Q with TC = F + cQ."
+  }
+ ],
+ "derivation": "With \\(TC = F + cQ\\), \\(ATC = \\frac{F + cQ}{Q} = \\frac{F}{Q} + c\\). As Q grows, \\(F/Q\\) falls toward zero, so ATC falls toward c. That falling ATC is economies of scale.",
+ "math": [
+  {
+   "title": "Average cost",
+   "body": "Average total cost is total cost divided by output: \\(ATC = TC/Q\\) (on the equation sheet). If TC = F + cQ, then \\(ATC = F/Q + c\\). The F/Q part shrinks as Q grows, which is why spreading a big fixed cost over more units lowers average cost. Example: F = $10,000, c = $5. At Q = 100, ATC = 100 + 5 = $105. At Q = 1,000, ATC = 10 + 5 = $15."
+  }
+ ],
+ "worked": [
+  {
+   "title": "Incumbent versus small entrant",
+   "problem": "A ride-sharing app costs $50 million per year to run (servers, engineering, insurance) plus $4 per ride. The incumbent gives 25 million rides per year. An entrant expects 2 million rides. Compare average costs.",
+   "steps": [
+    "Incumbent: \\(ATC = 50{,}000{,}000/25{,}000{,}000 + 4 = 2 + 4 = \\$6\\) per ride.",
+    "Entrant: \\(ATC = 50{,}000{,}000/2{,}000{,}000 + 4 = 25 + 4 = \\$29\\) per ride.",
+    "If the incumbent charges $10, it earns $4 per ride while the entrant loses $19 per ride."
+   ],
+   "answer": "$6 versus $29 per ride. The fixed cost spread over far fewer rides is the entrant's barrier."
+  },
+  {
+   "title": "Figure 8-11 logic",
+   "problem": "Market demand at the monopoly price supports 1,000 units. ATC is $8 at 1,000 units and $14 at 500 units. The price is $10. Would a second firm enter if it expects to split the market?",
+   "steps": [
+    "One firm: ATC $8 < price $10, profit $2 per unit.",
+    "Two firms, 500 each: ATC $14 > $10, each loses $4 per unit."
+   ],
+   "answer": "No. Splitting the market raises average cost above the price."
+  }
+ ],
+ "graph": {
+  "component": "scale",
+  "params": {
+   "view": "ac",
+   "F": 5000,
+   "c": 5,
+   "d": 0.02,
+   "demand": 1500
+  },
+  "caption": "Average cost falls while fixed cost is being spread (economies of scale), then rises (diseconomies). Shrink the market or raise the fixed cost and watch how few firms the market supports."
+ },
+ "traps": [
+  "Economies of scale are about output **per period** (how big you are now). Learning curves are about **cumulative** output (how much you have ever made). Do not mix them up.",
+  "Economies of scale lower AVERAGE cost, not necessarily marginal cost.",
+  "Economies of scope is a different idea: savings from producing different products together.",
+  "Bigger is not always cheaper: past minimum efficient scale, diseconomies of scale make average cost rise."
+ ],
+ "sources": {
+  "slides": "S18 Barriers to Entry pp. 29 to 31; S06 Cost slides",
+  "read": "Ch. 5 and Module Group A Module 1",
+  "exercise": "Barriers to Entry Exercise step 6 (cost structure)",
+  "quiz": ""
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "id": "S18-09",
+ "title": "Common barriers to entry",
+ "calc": false,
+ "plain": "Profits attract entrants. A market stays profitable only if something keeps entrants out. **A barrier to entry is any factor that** (slides p. 28):\n- increases the cost borne by potential entrants after they enter the market, **or**\n- decreases the market share potential of entrants upon entering an industry.\n\nComprehension Quiz 8 Q1: the answer is **both**.\n\n**The barriers on the S18 slides:**\n1. **Economies of scale** (pp. 29 to 31): small entrants have higher average cost (S18-01).\n2. **Learning curves** (pp. 32 to 34): incumbents are further down the cost curve (S18-02).\n3. **Brand and reputation** (pp. 35 to 36): Richard Branson drove a tank through a wall of cans in Times Square to launch Virgin Cola, which never topped 1% of U.S. cola. Gillette versus Dollar Shave Club.\n4. **Patents and other legal barriers** (pp. 37 to 38): a Wall Street Journal story (Oct. 2025) on the fight over FICO's dominance of credit scores.\n5. **Network effects** (pp. 39 to 40): KSL Classifieds, Google (S18-04).\n6. **Pricing strategies** to limit entry or competition (pp. 41 to 48): limit, predatory and penetration pricing.\n\nOther common barriers: **capital requirements** (Reading Quiz Q3 lists it with economies of scale and network effects), **economies of scope**, control of distribution and shelf space. The reading names three barriers that kept newcomers out of soft drinks: **brands, bottling and distribution capabilities, and shelf space**.\n\n**Not a barrier:** buyer price sensitivity (Reading Quiz Q3). That is about demand, not about the extra cost or lower share an entrant faces.\n\n**The razor case (pp. 24 to 25).** Razors earned about 60% gross margins; they were 9% of P&G's sales but 16% of its profits. Gillette spent $200 million marketing ProGlide with FlexBall. Dollar Shave Club entered with a $20,000 low-budget YouTube commercial and sold by subscription online, going around the brand and shelf-space barriers.\n\n**The Meta exercise.** Meta's profit per user beat Twitter's and Snapchat's every year from 2017 to 2021: its revenue advantage reflects network effects, its cost advantage reflects economies of scale, and its head start added learning and first-mover advantages.",
+ "why": "Practice exam Q22, Q23 and Q29, Reading Quiz Q3 and Comprehension Quiz 8 Q1 and Q3 all map here. Expect scenario questions asking which barrier is at work.",
+ "definition": "A barrier to entry is any factor that increases the cost borne by potential entrants after they enter the market or decreases the market share potential of entrants upon entering an industry.",
+ "formulas": [],
+ "derivation": "",
+ "math": [
+  {
+   "title": "Per-unit numbers and percent of sales",
+   "body": "Per user (or per unit) means divide the total by the count: ad revenue per user = ad revenue / users. Percent of sales means divide a cost by revenue: \\(\\frac{21{,}086}{33{,}671} = 0.626 = 62.6\\%\\). Keep the units straight: if revenue is in millions of dollars and users are in millions, the result is dollars per user."
+  }
+ ],
+ "worked": [
+  {
+   "title": "Name the barrier",
+   "problem": "Classify: (a) a new airline cannot get landing slots at a busy airport; (b) a new chip maker must spend $20 billion on a plant before selling one chip; (c) a new dating app has no users; (d) a store brand cola cannot get onto grocery shelves.",
+   "steps": [
+    "(a) Legal or regulatory barrier (government-controlled access).",
+    "(b) Capital requirements, and economies of scale if the plant only pays off at huge volume.",
+    "(c) Network effects.",
+    "(d) Distribution and shelf space, as in the soft drinks example."
+   ],
+   "answer": "Legal, capital requirements and scale, network effects, shelf space and distribution."
+  }
+ ],
+ "graph": {
+  "component": "scale",
+  "params": {
+   "F": 5000,
+   "c": 5,
+   "d": 0.02,
+   "demand": 1500,
+   "C1": 1000,
+   "rate": 0.8,
+   "N": 128,
+   "k": 0.2,
+   "price": 40
+  },
+  "caption": "Three structural barriers side by side: scale (average cost), learning (cumulative output), and network effects (critical mass)."
+ },
+ "traps": [
+  "The definition has TWO parts (higher post-entry cost OR lower share potential); the quiz answer is both.",
+  "Buyer price sensitivity is NOT a barrier to entry.",
+  "Brand advertising can be a barrier, but the razor case shows it can be bypassed with a cheaper channel.",
+  "Match the scenario to the mechanism: cost per unit falls with SIZE (scale), with EXPERIENCE (learning), or value rises with USERS (network)."
+ ],
+ "sources": {
+  "slides": "S18 Barriers to Entry pp. 24 to 48",
+  "read": "Module Group A Module 1; Strategies to Crack Well-Guarded Markets",
+  "exercise": "Barriers to Entry Exercise",
+  "quiz": "Reading Quiz Q3; Comprehension Quiz 8 Q1, Q3; Practice exam Q22, Q23, Q29"
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "id": "S21-01",
+ "title": "Oligopoly",
+ "calc": false,
+ "plain": "An **oligopoly** is a market with a **few** firms. The professor's reading (Bryce, *Rivalry in Oligopoly*, p. 1) puts it between monopoly (one firm) and perfect competition (many firms): from two firms (a **duopoly**) up to maybe 8 to 12, perhaps as many as 15. When there are so many firms that each becomes a price taker, it is no longer an oligopoly.\n\n**The key feature is interdependence.** If one firm's actions move the market price and quantity enough to change the other firms' prospects, the firms are interdependent, and the market is usually an oligopoly (Bryce p. 1). Each firm maximizes profit by considering how rivals will react to its moves.\n\n**Where does the reasoning stop?** Firm 1 reasons: if I do a, Firm 2 does b; then I must do c; then they do d... It ends at a **Nash equilibrium**: each firm is playing its best response to the others, and no one wants to deviate (Bryce p. 1). In practice firms reason through the game before they play and go straight to the equilibrium (Bryce pp. 1 to 2; example: corn wet milling firms choosing high-fructose corn syrup capacity in 1972).\n\n**Oligopolists still set MR = MC.** The difference: their best price or quantity **depends on the price or quantity chosen by rivals** (Bryce p. 3). The full schedule of best responses is called a **reaction function** (S21-04).\n\n**Beliefs matter** (textbook). A firm's demand depends on whether rivals match its price changes. If rivals match, demand is less elastic; if not, it is more elastic. The right model depends on what the firm believes rivals will do.\n\n**Examples from the Session 21 reading quiz** (professor's feedback): wireless carriers (AT&T, T-Mobile, Verizon), credit cards (American Express, Discover, Mastercard, Visa) and airlines (American, Delta, Southwest, United) are oligopolies. **Self-storage is not**: despite a few big names like Public Storage and Extra Space Storage, most of the thousands of self-storage companies are locally owned.\n\n**Tacit collusion** (Bryce p. 2): because firms meet again and again with no certain end, they may avoid price wars without any agreement. Full-fare airlines match each other's fare hikes and fare sales; Delta broke that norm in 2005 to compete with discount carriers. Disruptive entrants (Amazon in bookselling) often ignore the norms.\n\n**Strategic variables** (Bryce p. 3): the levers firms compete with, such as price, quantity (capacity), lead time, and non-price tools (frequent flier programs, coupons, locations). Which lever matters most decides which oligopoly model fits (S21-05).",
+ "why": "Every oligopoly question starts by recognizing interdependence and which model applies. Practice exam Q14.",
+ "definition": "Oligopoly is a market structure in which a few firms (from two up to perhaps 8 to 15) produce most of the output and their actions are interdependent: each firm's best decision depends on how rivals respond.",
+ "formulas": [],
+ "derivation": "",
+ "math": [],
+ "worked": [
+  {
+   "title": "Is it an oligopoly?",
+   "problem": "Classify: (a) three national wireless carriers; (b) thousands of wheat farmers; (c) the only electric utility in a city; (d) four ski resorts near Salt Lake City.",
+   "steps": [
+    "(a) Few firms, each move affects the others: oligopoly.",
+    "(b) Each farmer is a price taker: perfect competition.",
+    "(c) One firm: monopoly.",
+    "(d) Few firms with overlapping customers: oligopoly (Bryce calls it differentiated Bertrand)."
+   ],
+   "answer": "Oligopoly, perfect competition, monopoly, oligopoly."
+  }
+ ],
+ "traps": [
+  "A few famous big firms do not make an oligopoly: self-storage has big names but thousands of local owners (Session 21 reading quiz Q1).",
+  "The number of firms alone does not decide it: the test is whether firms' actions are interdependent.",
+  "Oligopolists still maximize profit with MR = MC; what differs is that MR depends on rivals' choices.",
+  "Tacit collusion (keying off rivals without an agreement) is legal; explicit agreements are not (S20-07)."
+ ],
+ "sources": {
+  "slides": "S21 slides not posted",
+  "read": "Ch. 9: Introduction; Conditions for Oligopoly; The Role of Beliefs; Bryce, Rivalry in Oligopoly pp. 1 to 3",
+  "exercise": "",
+  "quiz": "Session 21 Reading Quiz Q1; Practice exam Q14"
+ }
+}

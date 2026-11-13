@@ -1,0 +1,78 @@
+{
+ "id": "S19-01",
+ "title": "Simultaneous-move games",
+ "calc": false,
+ "plain": "When there are only a few big firms (an **oligopoly**), each firm's profit depends on what the others do. Visa's best fee depends on Mastercard's fee, and Mastercard's depends on Visa's. That mutual dependence is called **interdependence**, and **game theory** is the tool for thinking it through. That is why game theory is especially useful for oligopoly (Reading Quiz Q1), and not for perfect competition (firms are too small to matter to each other) or monopoly (no rival).\n\n**The pieces of a game:**\n- **Players**: the decision makers (Visa and Mastercard).\n- **Strategies**: the choices each can make (lower the fee or maintain it).\n- **Payoffs**: what each player gets in each outcome (profit).\n\n**Timing:**\n- In a **simultaneous-move game**, each player decides **without seeing** the other's decision. It does not have to be at the same instant; what matters is that neither knows the other's choice when deciding. (Reading Quiz Q2: a game where one player moves after observing the other is NOT simultaneous; that is a sequential game, covered in S20.)\n- **One-shot** games are played once. **Repeated** games are played over and over (S20).\n\nThe slides open with a 2014 Wall Street Journal story: Visa and MasterCard in talks to lower the processing fees paid by Canadian merchants. Each one's best fee depends on what the other does, and neither sees the other's final choice in advance.\n\nSession 19 is about **simultaneous-move, one-shot** games.",
+ "why": "Every game theory question starts by identifying the players, strategies and timing. Practice exam Q6 to Q8 and Comprehension Quiz 9 Q1 to Q3 are simultaneous-move games.",
+ "definition": "A simultaneous-move game is a game in which each player makes decisions without knowledge of the other players' decisions.",
+ "formulas": [],
+ "derivation": "",
+ "math": [
+  {
+   "title": "Reading a payoff matrix",
+   "body": "Each cell has two numbers. The FIRST belongs to the row player, the SECOND to the column player. To compare the row player's options, hold the column fixed and look down that column at the first numbers. To compare the column player's options, hold the row fixed and look across that row at the second numbers."
+  }
+ ],
+ "worked": [
+  {
+   "title": "Classify the game",
+   "problem": "Two gas stations on the same corner phone in their prices to headquarters each morning before opening, without seeing each other's sign. Is this simultaneous or sequential? One-shot or repeated?",
+   "steps": [
+    "Neither sees the other's price when choosing: simultaneous.",
+    "They do it every morning: repeated. Today's choice taken by itself is a one-shot simultaneous game."
+   ],
+   "answer": "Simultaneous; repeated daily (each day alone is a one-shot simultaneous game)."
+  }
+ ],
+ "graph": {
+  "component": "payoff",
+  "params": {
+   "players": [
+    "Visa",
+    "Mastercard"
+   ],
+   "rows": [
+    "Lower Fee",
+    "Maintain Fee"
+   ],
+   "cols": [
+    "Lower Fee",
+    "Maintain Fee"
+   ],
+   "pay": [
+    [
+     [
+      2,
+      2
+     ],
+     [
+      4,
+      1
+     ]
+    ],
+    [
+     [
+      1,
+      4
+     ],
+     [
+      3,
+      3
+     ]
+    ]
+   ]
+  },
+  "caption": "The Visa versus Mastercard game from the slides. Each picks a fee without seeing the other's choice."
+ },
+ "traps": [
+  "Simultaneous means neither KNOWS the other's choice, not that they move at the same clock time.",
+  "A game where one player observes the other's move first is sequential, not simultaneous (Reading Quiz Q2).",
+  "Game theory matters most in OLIGOPOLY, where a few firms are interdependent (Reading Quiz Q1)."
+ ],
+ "sources": {
+  "slides": "S19 Game Theory I pp. 8 to 13",
+  "read": "Ch. 10 pp. 306 to 309",
+  "exercise": "Game Theory Exercise Part 1 (one-shot simultaneous game)",
+  "quiz": "Reading Quiz Q1, Q2; Comprehension Quiz 9 Q1 to Q3"
+ }
+}

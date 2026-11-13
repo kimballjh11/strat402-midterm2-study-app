@@ -1,0 +1,251 @@
+[
+ {
+  "id": "S15-07-q001",
+  "los": [
+   "S15-07",
+   "S15-11"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "A linear production function \\(Q = aK + bL\\) treats capital and labor as:",
+  "choices": [
+   "Imperfect substitutes",
+   "Perfect complements",
+   "Inputs that must be used in fixed proportions",
+   "Perfect substitutes"
+  ],
+  "answer": 3,
+  "explain": "Each input adds a constant amount, so one can fully replace the other at a fixed rate: perfect substitutes. Perfect complements / fixed proportions is Leontief; imperfect substitutes is Cobb-Douglas.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-07-q002",
+  "los": [
+   "S15-07",
+   "S15-11"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "The isoquant of a linear production function is:",
+  "choices": [
+   "A straight line",
+   "L-shaped",
+   "A vertical line",
+   "A convex curve"
+  ],
+  "answer": 0,
+  "explain": "Constant MRTS means a constant slope, so a straight line. Convex is Cobb-Douglas and L-shaped is Leontief.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-07-q003",
+  "los": [
+   "S15-07"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: A linear production function has diminishing marginal product of labor.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 1,
+  "explain": "False. MP_L = b, a constant, no matter how much labor is used.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-07-q004",
+  "los": [
+   "S15-07"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: With a linear production function, a firm could produce output using only capital and no labor.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explain": "True. Q = aK + b(0) = aK > 0. Perfect substitutes means either input alone can produce.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-07-q005",
+  "los": [
+   "S15-07"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "For \\(Q = 4K + L\\), how does the marginal product of capital change as more capital is used?",
+  "choices": [
+   "It stays at 4",
+   "It equals 4K",
+   "It falls",
+   "It rises"
+  ],
+  "answer": 0,
+  "explain": "MP_K is the coefficient on K, 4, at every level of K. 4K is the total contribution of capital, not the marginal one.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-07-q006",
+  "los": [
+   "S15-07"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "\\(Q = 4K + 2L\\). What is output with K = 10 and L = 15?",
+  "answer": 70,
+  "unit": "units",
+  "tol": 0.01,
+  "explain": "Q = 4(10) + 2(15) = 40 + 30 = 70.",
+  "verify": {
+   "f": "linear_q",
+   "a": 4,
+   "b": 2,
+   "K": 10,
+   "L": 15
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-07-q007",
+  "los": [
+   "S15-07"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "\\(Q = 6K + 3L\\). By how much does output rise if the firm adds one more unit of labor?",
+  "answer": 3,
+  "unit": "units",
+  "tol": 0.01,
+  "explain": "MP_L = b = 3. Output rises by 3 no matter how much K or L the firm already uses.",
+  "verify": {
+   "f": "linear_mp",
+   "a": 6,
+   "b": 3,
+   "K": 1,
+   "L": 1,
+   "wrt": "L"
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-07-q008",
+  "los": [
+   "S15-07"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "\\(Q = 5K + 2L\\). How many units of labor are needed to replace one unit of capital while keeping output the same?",
+  "answer": 2.5,
+  "unit": "units of labor",
+  "tol": 0.01,
+  "explain": "One unit of K produces 5 units; one unit of L produces 2. Replacing 5 units of output takes 5 / 2 = 2.5 units of labor.",
+  "verify": {
+   "f": "ratio",
+   "num": 5,
+   "den": 2
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-07-q009",
+  "los": [
+   "S15-07",
+   "S16-02"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "\\(Q = 3K + 9L\\). What is the MRTS (MP_L / MP_K)?",
+  "answer": 3,
+  "unit": "",
+  "tol": 0.01,
+  "explain": "MP_L = 9 and MP_K = 3, so MRTS = 9 / 3 = 3. It is the same at every point.",
+  "verify": {
+   "f": "ratio",
+   "num": 9,
+   "den": 3
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-07-q010",
+  "los": [
+   "S15-07",
+   "S15-11"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A call center finds that one AI license always handles exactly the call volume of 3 human agents. Which production function fits?",
+  "choices": [
+   "Cobb-Douglas",
+   "Leontief",
+   "Linear",
+   "None, since software is not capital"
+  ],
+  "answer": 2,
+  "explain": "A fixed trade rate (1 license = 3 agents) at any scale means perfect substitutes: linear. Leontief would require a fixed number of agents per license. Software licenses count as capital.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-07-q011",
+  "los": [
+   "S15-07"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A firm with \\(Q = 10K + 5L\\) is told its workers are less productive than its machines. Which statement is correct?",
+  "choices": [
+   "Machines and workers must be used in a 2:1 ratio",
+   "Machines add 10 units only until diminishing returns set in",
+   "Each machine adds 10 units and each worker adds 5, at every level of use",
+   "Workers add nothing once machines are at capacity"
+  ],
+  "answer": 2,
+  "explain": "Linear MPs are constant: MP_K = 10, MP_L = 5 always. There are no diminishing returns and no fixed ratio in a linear function.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-07-q012",
+  "los": [
+   "S15-07"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Two production technologies: (A) \\(Q = 2K + 2L\\), (B) \\(Q = \\min(2K, 2L)\\). A firm has 10 units of capital and 0 workers. Which produces output?",
+  "choices": [
+   "Only A",
+   "Only B",
+   "Both",
+   "Neither"
+  ],
+  "answer": 0,
+  "explain": "A: 2(10) + 2(0) = 20. B: min(20, 0) = 0, because Leontief needs both inputs. Linear inputs are perfect substitutes.",
+  "source": "generated",
+  "verbatim": false
+ }
+]

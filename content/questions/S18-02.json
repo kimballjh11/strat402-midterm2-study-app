@@ -1,0 +1,249 @@
+[
+ {
+  "id": "S18-02-q001",
+  "los": [
+   "S18-02"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "On a learning curve, what is on the horizontal axis?",
+  "choices": [
+   "Output per period",
+   "Number of workers",
+   "Cumulative production",
+   "Price"
+  ],
+  "answer": 2,
+  "explain": "Experience = cumulative production (slide p. 32). Output per period is what economies of scale depend on.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-02-q002",
+  "los": [
+   "S18-02"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "A learning curve shows that:",
+  "choices": [
+   "Users value a product more as more people use it",
+   "Average cost declines as output per period increases",
+   "Output rises as more workers are hired",
+   "Cost per unit declines as cumulative production increases"
+  ],
+  "answer": 3,
+  "explain": "Learning = declining costs per unit; experience = cumulative production.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-02-q003",
+  "los": [
+   "S18-02"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: An 80% learning curve means unit cost falls by 80% each time cumulative output doubles.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 1,
+  "explain": "False. It falls TO 80% of its old level, a 20% drop, with each doubling.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-02-q004",
+  "los": [
+   "S18-02"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Which strategic implication of learning curves appears on the S18 slides?",
+  "choices": [
+   "Firms should produce less to keep costs low",
+   "Learning curves make predatory pricing legal",
+   "Learning curves eliminate the need for economies of scale",
+   "Firms may price aggressively to descend the learning curve faster"
+  ],
+  "answer": 3,
+  "explain": "Selling more now builds cumulative output faster, which lowers future costs (slide p. 34).",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-02-q005",
+  "los": [
+   "S18-02"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Three learning curves start at the same cost. Which is the weakest barrier to entry?",
+  "choices": [
+   "One where the incumbent is far down a long curve",
+   "One that drops almost all the way in the first few units and then goes flat",
+   "One where knowledge cannot leak to rivals",
+   "One that keeps falling over a long range of cumulative output"
+  ],
+  "answer": 1,
+  "explain": "If nearly all the learning happens in the first few units, an entrant gets there quickly too, so the incumbent's lead is short.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-02-q006",
+  "los": [
+   "S18-02"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "The first unit costs $1,000 and the firm is on an 80% learning curve. What does the 8th unit cost?",
+  "answer": 512,
+  "unit": "$",
+  "tol": 0.01,
+  "explain": "Unit 8 is 3 doublings (1, 2, 4, 8). \\(1{,}000 \\times 0.8^3 = 512\\).",
+  "verify": {
+   "f": "learn",
+   "C1": 1000,
+   "rate": 0.8,
+   "n": 8
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-02-q007",
+  "los": [
+   "S18-02"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "The first unit costs $500 on a 90% learning curve. What does the 4th unit cost?",
+  "answer": 405,
+  "unit": "$",
+  "tol": 0.01,
+  "explain": "2 doublings. \\(500 \\times 0.9^2 = 500 \\times 0.81 = 405\\).",
+  "verify": {
+   "f": "learn",
+   "C1": 500,
+   "rate": 0.9,
+   "n": 4
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-02-q008",
+  "los": [
+   "S18-02"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "The Model T cost curve on the slides is \\(y = 87{,}244x^{-0.317}\\). By what factor does unit cost change each time cumulative production doubles? Round to 2 decimals.",
+  "answer": 0.8,
+  "unit": "",
+  "tol": 0.02,
+  "explain": "\\(2^{-0.317} = 0.80\\): about an 80% learning curve, a 20% drop per doubling.",
+  "verify": {
+   "f": "pow",
+   "base": 2,
+   "exp": -0.317
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-02-q009",
+  "los": [
+   "S18-02"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "The 100th unit costs $200 on an 85% learning curve. What does the 400th unit cost?",
+  "answer": 144.5,
+  "unit": "$",
+  "tol": 0.01,
+  "explain": "100 to 200 to 400 is 2 doublings. \\(200 \\times 0.85^2 = 200 \\times 0.7225 = 144.50\\).",
+  "verify": {
+   "f": "learn_from",
+   "C": 200,
+   "rate": 0.85,
+   "k": 2
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-02-q010",
+  "los": [
+   "S18-02"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A solar panel maker's cost per panel fell 20% each time its total panels ever produced doubled. A rival hires away several of its process engineers. What happens to its learning-curve barrier?",
+  "choices": [
+   "Nothing changes; learning is about cumulative output only",
+   "It turns into economies of scale",
+   "It weakens, because knowledge spills over to the rival",
+   "It strengthens, because the rival now has higher costs"
+  ],
+  "answer": 2,
+  "explain": "Learning effects are a barrier only if there is no knowledge spillover or leakage (slide p. 34, Quiz 8 Q2).",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-02-q011",
+  "los": [
+   "S18-02",
+   "S18-01"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A shipyard's cost per ship fell from $90 million on its 1st ship to $60 million on its 20th, even though it builds only two ships a year. Which concept explains this?",
+  "choices": [
+   "Learning curve",
+   "Economies of scale",
+   "Network effects",
+   "Economies of scope"
+  ],
+  "answer": 0,
+  "explain": "Output per year did not grow; cumulative experience did. That is the learning curve, not scale.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-02-q012",
+  "los": [
+   "S18-02",
+   "S18-07"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A chip maker cuts prices on a new memory chip below its current unit cost to sell huge volumes in its first year. Which reason fits the S18 slides?",
+  "choices": [
+   "Descend the learning curve faster to lower future costs",
+   "Predatory pricing to drive out an existing rival",
+   "Limit pricing, since the price is above cost",
+   "Penetration pricing to build network effects"
+  ],
+  "answer": 0,
+  "explain": "Slide p. 34: firms may price aggressively to move down the learning curve faster. No rival or network is mentioned.",
+  "source": "generated",
+  "verbatim": false
+ }
+]

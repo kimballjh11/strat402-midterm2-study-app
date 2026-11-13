@@ -1,0 +1,392 @@
+[
+ {
+  "id": "S16-case1",
+  "title": "Roller production (in-class exercise)",
+  "los": [
+   "S16-05",
+   "S16-06"
+  ],
+  "stem": "From the S16 in-class exercise. Labor is paid $12 per hour and the last worker hired produced 84 rollers per hour. The company rents roller cutters and crimping machines for $15 per hour, and the marginal product of capital is 120 rollers per hour.",
+  "parts": [
+   {
+    "los": [
+     "S16-05"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "What is the bang for the buck of labor, MP_L / w?",
+    "answer": 7,
+    "unit": "rollers per $",
+    "tol": 0.01,
+    "explain": "84 / 12 = 7 rollers per dollar.",
+    "verify": {
+     "f": "ratio",
+     "num": 84,
+     "den": 12
+    },
+    "id": "S16-case1-p1",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S16-05"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "What is the bang for the buck of capital, MP_K / r?",
+    "answer": 8,
+    "unit": "rollers per $",
+    "tol": 0.01,
+    "explain": "120 / 15 = 8 rollers per dollar.",
+    "verify": {
+     "f": "ratio",
+     "num": 120,
+     "den": 15
+    },
+    "id": "S16-case1-p2",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S16-05"
+    ],
+    "type": "mc",
+    "kind": "apply",
+    "stem": "Is the firm using the cost-minimizing combination of capital and labor?",
+    "choices": [
+     "Yes, because MP_K is larger than MP_L",
+     "No, because MP_L/w and MP_K/r are not equal",
+     "Yes, because both inputs have positive marginal products",
+     "No, because labor is cheaper than capital"
+    ],
+    "answer": 1,
+    "explain": "The professor's answer: no, the bang for the buck is not equal (7 vs 8). A bigger raw MP or a lower price alone does not settle it.",
+    "id": "S16-case1-p3",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S16-05"
+    ],
+    "type": "mc",
+    "kind": "apply",
+    "stem": "Should the firm increase or decrease the capital it uses?",
+    "choices": [
+     "Increase capital, because it gives more output per dollar",
+     "Decrease capital, because it costs more per hour",
+     "Decrease capital, because MP_K will fall",
+     "Keep capital the same"
+    ],
+    "answer": 0,
+    "explain": "8 > 7, so each dollar moved to capital adds more rollers than it costs in labor output. As it adds capital MP_K falls until the ratios are equal.",
+    "id": "S16-case1-p4",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S16-06"
+    ],
+    "type": "mc",
+    "kind": "apply",
+    "stem": "If the rental rate on capital increases, what happens to the cost-minimizing mix?",
+    "choices": [
+     "More capital and less labor",
+     "Less capital and more labor",
+     "Less of both at the same output",
+     "No change"
+    ],
+    "answer": 1,
+    "explain": "The professor's answer: invest less in capital and more in labor. A higher r makes the isocost flatter, so the tangency slides toward labor.",
+    "id": "S16-case1-p5",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   }
+  ]
+ },
+ {
+  "id": "S16-case2",
+  "title": "Hundred-unit kitchen",
+  "los": [
+   "S16-01",
+   "S16-02",
+   "S16-05",
+   "S16-06"
+  ],
+  "stem": "Built on the S16 slides example (pp. 39 to 40). A kitchen produces with \\(Q = 10K^{0.5}L^{0.5}\\) and must make 100 meals per day. Labor costs w = $40 and capital rents for r = $10.",
+  "parts": [
+   {
+    "los": [
+     "S16-01"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "On the Q = 100 isoquant, how much capital is needed with L = 25?",
+    "answer": 4,
+    "unit": "units of capital",
+    "tol": 0.01,
+    "explain": "\\(100 = 10\\sqrt{K}\\sqrt{25} = 50\\sqrt{K}\\), so \\(\\sqrt{K} = 2\\) and K = 4. The isoquant is K = 100/L.",
+    "verify": {
+     "f": "iso_k",
+     "A": 10,
+     "a": 0.5,
+     "b": 0.5,
+     "Q": 100,
+     "L": 25
+    },
+    "id": "S16-case2-p1",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S16-02"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "What is the MRTS at L = 25, K = 4?",
+    "answer": 0.16,
+    "unit": "",
+    "tol": 0.01,
+    "explain": "MRTS = K/L for equal exponents = 4/25 = 0.16. Equivalently MP_L/MP_K = 2/12.5 = 0.16.",
+    "verify": {
+     "f": "cd_mrts",
+     "A": 10,
+     "a": 0.5,
+     "b": 0.5,
+     "K": 4,
+     "L": 25
+    },
+    "id": "S16-case2-p2",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S16-05"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "At L = 25, K = 4, MP_K = 12.5. What is MP_K / r?",
+    "answer": 1.25,
+    "unit": "meals per $",
+    "tol": 0.01,
+    "explain": "12.5 / 10 = 1.25. MP_L/w is only 2/40 = 0.05, so capital is the far better deal.",
+    "verify": {
+     "f": "cd_bang",
+     "A": 10,
+     "a": 0.5,
+     "b": 0.5,
+     "K": 4,
+     "L": 25,
+     "price": 10,
+     "wrt": "K"
+    },
+    "id": "S16-case2-p3",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S16-06"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "What is the cost-minimizing amount of labor?",
+    "answer": 5,
+    "unit": "units of labor",
+    "tol": 0.01,
+    "explain": "Tangency: K/L = w/r = 4, so K = 4L. \\(100 = 10\\sqrt{4L^2} = 20L\\), L = 5. The slides' table shows (5, 20) is where MP_L/w = MP_K/r = 0.25.",
+    "verify": {
+     "f": "costmin_L",
+     "A": 10,
+     "a": 0.5,
+     "b": 0.5,
+     "Q": 100,
+     "w": 40,
+     "r": 10
+    },
+    "id": "S16-case2-p4",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S16-06"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "What is the minimum cost of producing 100 meals?",
+    "answer": 400,
+    "unit": "$",
+    "tol": 0.01,
+    "explain": "L = 5, K = 20. C = 40(5) + 10(20) = $400. At (25, 4) the same output costs 40(25) + 10(4) = $1,040.",
+    "verify": {
+     "f": "costmin_C",
+     "A": 10,
+     "a": 0.5,
+     "b": 0.5,
+     "Q": 100,
+     "w": 40,
+     "r": 10
+    },
+    "id": "S16-case2-p5",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S16-06"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "The rental rate rises to $40. What is the new cost-minimizing amount of labor?",
+    "answer": 10,
+    "unit": "units of labor",
+    "tol": 0.01,
+    "explain": "Now K/L = 40/40 = 1, so K = L and 10L = 100: L = 10, K = 10. Capital got more expensive, so the kitchen uses less capital (20 to 10) and more labor (5 to 10).",
+    "verify": {
+     "f": "costmin_L",
+     "A": 10,
+     "a": 0.5,
+     "b": 0.5,
+     "Q": 100,
+     "w": 40,
+     "r": 40
+    },
+    "id": "S16-case2-p6",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   }
+  ]
+ },
+ {
+  "id": "S16-case3",
+  "title": "A $1,000 isocost",
+  "los": [
+   "S16-04"
+  ],
+  "stem": "Built on the S16 slides isocost example (pp. 31 to 34). A firm budgets C = $1,000. Labor costs w = $10 per hour and capital rents for r = $25 per hour. Capital is on the vertical axis.",
+  "parts": [
+   {
+    "los": [
+     "S16-04"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "What is the most labor the firm can hire with no capital?",
+    "answer": 100,
+    "unit": "labor hours",
+    "tol": 0.01,
+    "explain": "C/w = 1,000/10 = 100.",
+    "verify": {
+     "f": "ratio",
+     "num": 1000,
+     "den": 10
+    },
+    "id": "S16-case3-p1",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S16-04"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "What is the most capital it can rent with no labor?",
+    "answer": 40,
+    "unit": "machine hours",
+    "tol": 0.01,
+    "explain": "C/r = 1,000/25 = 40.",
+    "verify": {
+     "f": "ratio",
+     "num": 1000,
+     "den": 25
+    },
+    "id": "S16-case3-p2",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S16-04"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "What is the slope of the isocost line?",
+    "answer": -0.4,
+    "unit": "",
+    "tol": 0.01,
+    "explain": "-w/r = -10/25 = -0.4.",
+    "verify": {
+     "f": "ratio",
+     "num": -10,
+     "den": 25
+    },
+    "id": "S16-case3-p3",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S16-04"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "The budget rises 50% to $1,500. What is the new capital intercept?",
+    "answer": 60,
+    "unit": "machine hours",
+    "tol": 0.01,
+    "explain": "C/r = 1,500/25 = 60. The slope stays -0.4: a budget change is a parallel shift.",
+    "verify": {
+     "f": "ratio",
+     "num": 1500,
+     "den": 25
+    },
+    "id": "S16-case3-p4",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S16-04",
+     "S16-06"
+    ],
+    "type": "mc",
+    "kind": "apply",
+    "stem": "Back at $1,000, the wage doubles to $20. What happens to the isocost line?",
+    "choices": [
+     "The labor intercept falls to 50, the capital intercept stays at 40, and the line gets steeper",
+     "The line gets flatter",
+     "The capital intercept falls to 20",
+     "Both intercepts halve"
+    ],
+    "answer": 0,
+    "explain": "C/w = 1,000/20 = 50, C/r is still 40, and the slope -20/25 = -0.8 is steeper. Halving both intercepts is a budget cut, not a price change.",
+    "id": "S16-case3-p5",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   }
+  ]
+ }
+]

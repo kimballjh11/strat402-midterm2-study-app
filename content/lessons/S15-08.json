@@ -1,0 +1,59 @@
+{
+ "id": "S15-08",
+ "title": "Leontief (fixed proportions) production function",
+ "calc": true,
+ "plain": "A **Leontief** production function says inputs must be used in a fixed recipe:\n$$Q = \\min(aK, bL)$$\nOutput is the SMALLER of \\(aK\\) and \\(bL\\). Think of one driver per truck. Ten trucks and 7 drivers move only 7 loads. Adding an 8th truck adds nothing, because there is nobody to drive it. The inputs are **perfect complements** and there is **no substitutability**: you cannot replace a driver with extra trucks.\n\nConsequences:\n- The input that gives the smaller number is the **binding** one. Adding more of it raises output.\n- Adding more of the non-binding input adds nothing: its marginal product is 0.\n- No waste happens only when \\(aK = bL\\). That is the corner of the L-shaped isoquant.\n- The MRTS is undefined (the slides write N/A): there is no rate at which the inputs trade off.",
+ "why": "Fixed proportions show up in real operations (one worker per machine, one chef per station). The manager's job is to buy inputs in the right ratio, since any excess of one input is wasted money.",
+ "definition": "A Leontief (fixed proportions) production function, \\(Q = \\min(aK, bL)\\), assumes inputs are used in fixed proportions, so there is no substitutability between them.",
+ "formulas": [
+  {
+   "name": "Leontief",
+   "tex": "Q = \\min(aK, bL)",
+   "onSheet": false,
+   "note": "Not on the equation sheet. Output is the smaller of aK and bL."
+  },
+  {
+   "name": "No-waste ratio",
+   "tex": "aK = bL \\;\\Rightarrow\\; \\frac{K}{L} = \\frac{b}{a}",
+   "onSheet": false
+  }
+ ],
+ "derivation": "If \\(aK < bL\\), capital binds, so \\(Q = aK\\). One more unit of capital raises Q by \\(a\\) (until it stops binding). One more worker leaves \\(Q = aK\\) unchanged, so \\(MP_L = 0\\).",
+ "math": [],
+ "worked": [
+  {
+   "title": "Sandwich line",
+   "problem": "A sandwich line has \\(Q = \\min(20K, 10L)\\), where K is ovens and L is workers. With 3 ovens and 5 workers, what is output? What does a 6th worker add? What does a 4th oven add?",
+   "steps": [
+    "\\(Q = \\min(20 \\times 3, 10 \\times 5) = \\min(60, 50) = 50\\). Labor binds.",
+    "6th worker: \\(\\min(60, 60) = 60\\). Output rises by 10.",
+    "4th oven with 5 workers: \\(\\min(80, 50) = 50\\). Output does not change, MP of the oven is 0.",
+    "No waste requires \\(20K = 10L\\), so \\(L = 2K\\): 3 ovens need 6 workers."
+   ],
+   "answer": "Q = 50. A 6th worker adds 10. A 4th oven adds 0."
+  }
+ ],
+ "graph": {
+  "component": "isoquant",
+  "params": {
+   "form": "leontief",
+   "a": 20,
+   "b": 10,
+   "Q": 60,
+   "L": 6
+  },
+  "caption": "Leontief isoquants are L-shaped. Moving right from the corner (more labor) or up (more capital) leaves output unchanged."
+ },
+ "traps": [
+  "Output is the MINIMUM of aK and bL, not the sum and not the product.",
+  "Remember to multiply by the coefficients before comparing. min(20K, 10L) with K = 3, L = 5 compares 60 and 50, not 3 and 5.",
+  "The extra unit of the non-binding input has marginal product zero, not a.",
+  "MRTS is undefined (N/A) for Leontief. Do not compute b/a.",
+  "Leontief is NOT on the equation sheet."
+ ],
+ "sources": {
+  "slides": "S15 Production I, pp. 32 to 34",
+  "read": "Ch. 5 p. 147",
+  "exercise": "Production Functions workbook, Leontief tab"
+ }
+}

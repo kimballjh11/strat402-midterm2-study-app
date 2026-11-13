@@ -1,0 +1,86 @@
+{
+ "id": "S19-06",
+ "title": "Applying game theory to pricing, coordination and advertising",
+ "calc": true,
+ "plain": "The same few matrix patterns show up again and again in business.\n\n**1. Pricing: the prisoner's dilemma.** Each firm's dominant strategy is to price low, so both end up at (Low, Low) even though (High, High) would pay both more. A one-shot agreement to keep prices high fails because each would cheat (Visa and Mastercard fees). Real example: cola makers in India cutting prices before the summer rush.\n\n**2. Advertising.** When advertising mostly steals customers from rivals rather than growing the market, each firm's dominant strategy is to advertise, and their ads cancel out. Comprehension Quiz 9 (Kellogg's versus General Mills, $ billions):\n\n| Kellogg's \\ General Mills | Advertise | Don't |\n|---|---|---|\n| Advertise | 0, 0 | 44, -4 |\n| Don't | -4, 44 | 4, 4 |\n\nAdvertise beats Don't for each firm whatever the other does (0 > -4 and 44 > 4), so **both advertise** and each earns 0, although both would earn 4 by not advertising. (Whether they can sustain not advertising when the game repeats is Session 20.)\n\n**3. Coordination.** When both firms do best by matching (compatible standards, plug types, which product line to promote), there are several equilibria. The problem is getting to one: firms talk, an industry group sets a standard, or the government does. Once agreed, no one wants to deviate, unlike the pricing game.\n\n**4. Product choice.** Dillard's and Nordstrom picking which clothing line to feature: Nordstrom has a dominant strategy (Women's), so Dillard's should expect it and pick Girl's.\n\n**5. Golden Balls** (slides pp. 47 to 48): two players each secretly choose Split or Steal. Both split: share the jackpot. One steals: the stealer takes it all. Both steal: both get nothing.\n\n| Player 1 \\ Player 2 | Split | Steal |\n|---|---|---|\n| Split | 50, 50 | 0, 100 |\n| Steal | 100, 0 | 0, 0 |\n\nSteal is never worse than Split (100 > 50 if the other splits; 0 = 0 if the other steals), so the game pushes both toward stealing, which is why trust is so hard.\n\n**6. Nash bargaining** (textbook): two sides name how much of a fixed pie they want; if the requests add to more than the pie, there is no deal. Every split that exactly uses the pie is an equilibrium, so outcomes are hard to predict and stalemates are common.\n\n**Method for any business game:** (1) identify players, strategies, timing; (2) build the matrix; (3) look for dominant strategies; (4) find Nash equilibria with the underline method; (5) if none, think about randomizing; (6) ask whether the equilibrium is bad for both (a dilemma) or a coordination problem.",
+ "why": "Comprehension Quiz 9 Q1 to Q6, Reading Quiz Q1 and practice exam Q8 and Q24 ask you to set up and solve business games.",
+ "definition": "Game theoretic logic applies to business decisions such as pricing, advertising and coordination: predict what each rival will do by finding dominant strategies and Nash equilibria.",
+ "formulas": [],
+ "derivation": "",
+ "math": [
+  {
+   "title": "Reading a payoff matrix",
+   "body": "Each cell has two numbers. The FIRST belongs to the row player, the SECOND to the column player. To compare the row player's options, hold the column fixed and look down that column at the first numbers. To compare the column player's options, hold the row fixed and look across that row at the second numbers."
+  },
+  {
+   "title": "Expected value",
+   "body": "If an outcome is worth \\(x_1\\) with probability \\(p\\) and \\(x_2\\) with probability \\(1 - p\\), its expected value is \\(p\\,x_1 + (1 - p)\\,x_2\\). Example: a 30% chance of $10 and a 70% chance of $0 is worth \\(0.3(10) + 0.7(0) = \\$3\\) on average."
+  }
+ ],
+ "worked": [
+  {
+   "title": "Setting up a game from a story",
+   "problem": "Two streaming services each decide whether to drop a controversial show. Each show brings in $200 million (Service A) and $20 million (Service B). Keeping it carries a 10% chance of a $500 million fine for A or a $50 million fine for B. If one drops it and the other keeps it, the one keeping it picks up $10 million of extra viewers from the other. Payoffs are changes in profit ($ millions). Find the equilibrium.",
+   "steps": [
+    "Expected fine if kept: A 0.1 × 500 = 50; B 0.1 × 50 = 5.",
+    "Both drop: A -200, B -20. Both keep: A -50, B -5.",
+    "A keeps, B drops: A -50 + 10 = -40, B -20. A drops, B keeps: A -200, B -5 + 10 = 5.",
+    "A: Keep beats Drop against both of B's choices (-50 > -200; -40 > -200): dominant.",
+    "B: against A Keep, Drop -20 vs Keep -5: Keep. Against A Drop, Keep 5 > -20: Keep. B's dominant strategy is also Keep."
+   ],
+   "answer": "Both keep the show: (A -50, B -5)."
+  }
+ ],
+ "graph": {
+  "component": "payoff",
+  "params": {
+   "players": [
+    "Kellogg's",
+    "General Mills"
+   ],
+   "rows": [
+    "Advertise",
+    "Don't advertise"
+   ],
+   "cols": [
+    "Advertise",
+    "Don't advertise"
+   ],
+   "pay": [
+    [
+     [
+      0,
+      0
+     ],
+     [
+      44,
+      -4
+     ]
+    ],
+    [
+     [
+      -4,
+      44
+     ],
+     [
+      4,
+      4
+     ]
+    ]
+   ]
+  },
+  "caption": "The Comprehension Quiz 9 advertising game ($ billions). Both advertise in equilibrium even though both would earn more if neither did."
+ },
+ "traps": [
+  "In a prisoner's dilemma the equilibrium is WORSE for both than cooperating, but cooperation is not stable in a one-shot game.",
+  "In a coordination game, once firms agree, nobody wants to deviate. That is the difference from a pricing game.",
+  "Advertising is dominant when it mostly steals rivals' customers; if it grows the whole market the game can change.",
+  "Read who is the row player in each story before computing anything."
+ ],
+ "sources": {
+  "slides": "S19 Game Theory I pp. 9 to 40, 47 to 48",
+  "read": "Ch. 10 pp. 313 to 317",
+  "exercise": "Game Theory Exercise Part 1",
+  "quiz": "Reading Quiz Q1; Comprehension Quiz 9 Q1 to Q6; Practice exam Q8, Q24"
+ }
+}

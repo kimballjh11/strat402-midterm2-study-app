@@ -1,0 +1,81 @@
+{
+ "id": "S21-06",
+ "title": "Optimal decisions and competitor responses (Cournot and Stackelberg)",
+ "calc": true,
+ "plain": "This objective puts S21-02 to S21-04 to work. The typical exam steps:\n\n**1. Best response to a given rival output.** Use your reaction function. Rival makes \\(Q_2\\); you make \\(Q_1 = \\frac{a - c_1}{2b} - \\frac{1}{2}Q_2\\).\n\n**2. Cournot equilibrium.** Solve both reaction functions; with identical costs each makes \\(\\frac{a - c}{3b}\\). Price from demand, profit \\((P - c)Q\\).\n\n**3. Stackelberg.** Leader \\(Q_1 = \\frac{a + c_2 - 2c_1}{2b}\\), follower from its reaction function.\n\n**4. Collusion and cheating.** Joint monopoly: \\(Q = \\frac{a - c}{2b}\\), split evenly. If the rival keeps its quota, your best response is on your reaction function, which is **more** than the quota: cheating pays in a one-shot game (S20 explains when repetition holds it together).\n\n**5. Predicting responses.** A cost cut shifts your reaction function out: you produce more and your rival responds by producing less. A bigger rival output means you produce less.\n\n**The textbook's comparison** of one market, \\(P = 1{,}000 - (Q_1 + Q_2)\\), \\(C_i = 4Q_i\\):\n\n| Model | Outputs | Total Q | Price | Profit per firm |\n|---|---|---|---|---|\n| Collusion | 249 each | 498 | $502 | $124,002 each |\n| Cournot | 332 each | 664 | $336 | $110,224 each |\n| Stackelberg (firm 1 leads) | 498 and 249 | 747 | $253 | Leader $124,002, follower $62,001 |\n| Bertrand | 498 each | 996 | $4 | $0 |\n\n**Pattern:** output rises and price falls from collusion to Cournot to Stackelberg to Bertrand. The Stackelberg leader earns as much as a colluding firm; the follower earns the least among the quantity models; Bertrand firms earn zero.",
+ "why": "Practice exam Q31 to Q35 and Comprehension Quiz 10 Q1 to Q3, Q5 and Q6 are expected to be calculations like these.",
+ "definition": "Optimal decisions in quantity oligopolies come from setting MR = MC given rivals' outputs (Cournot) or given the follower's reaction function (Stackelberg leader); rivals respond along their reaction functions.",
+ "formulas": [
+  {
+   "name": "Cournot output with unequal costs",
+   "tex": "Q_1 = \\frac{a - 2c_1 + c_2}{3b}",
+   "onSheet": false
+  },
+  {
+   "name": "Joint monopoly (collusion) output",
+   "tex": "Q_M = \\frac{a - c}{2b}",
+   "onSheet": false,
+   "note": "From MR = a - 2bQ = c; each colluder makes half."
+  }
+ ],
+ "derivation": "Unequal costs: substitute \\(Q_2 = \\frac{a - c_2}{2b} - \\frac{Q_1}{2}\\) into \\(Q_1 = \\frac{a - c_1}{2b} - \\frac{Q_2}{2}\\): \\(Q_1 = \\frac{a - c_1}{2b} - \\frac{a - c_2}{4b} + \\frac{Q_1}{4}\\), so \\(\\frac{3}{4}Q_1 = \\frac{a - 2c_1 + c_2}{4b}\\) and \\(Q_1 = \\frac{a - 2c_1 + c_2}{3b}\\).",
+ "math": [
+  {
+   "title": "Marginal revenue with two firms",
+   "body": "Revenue for firm 1 is price times its own quantity: \\(R_1 = P \\cdot Q_1 = [a - b(Q_1 + Q_2)]Q_1 = aQ_1 - bQ_1^2 - bQ_1Q_2\\). Take the derivative with respect to \\(Q_1\\), treating \\(Q_2\\) as a fixed number: the derivative of \\(aQ_1\\) is a, of \\(bQ_1^2\\) is \\(2bQ_1\\), of \\(bQ_1Q_2\\) is \\(bQ_2\\). So \\(MR_1 = a - 2bQ_1 - bQ_2\\). Tiny example: P = 10 - (Q_1 + Q_2) gives \\(MR_1 = 10 - 2Q_1 - Q_2\\)."
+  },
+  {
+   "title": "Solving two reaction functions together",
+   "body": "Substitute one into the other. With \\(Q_1 = 5 - \\tfrac{1}{2}Q_2\\) and \\(Q_2 = 5 - \\tfrac{1}{2}Q_1\\): \\(Q_1 = 5 - \\tfrac{1}{2}(5 - \\tfrac{1}{2}Q_1) = 2.5 + \\tfrac{1}{4}Q_1\\). Subtract \\(\\tfrac{1}{4}Q_1\\): \\(\\tfrac{3}{4}Q_1 = 2.5\\), so \\(Q_1 = 10/3 \\approx 3.33\\). Then \\(Q_2 = 5 - \\tfrac{1}{2}(3.33) = 3.33\\). With identical firms you can skip the algebra: set \\(Q_1 = Q_2 = q\\) in one reaction function."
+  },
+  {
+   "title": "Profit with constant marginal cost",
+   "body": "With cost \\(C = cQ\\) and no fixed cost, profit is \\((P - c) \\times Q\\). Example: P = $336, c = $4, Q = 332: profit = 332 × 332 = $110,224."
+  }
+ ],
+ "worked": [
+  {
+   "title": "Collusion and cheating",
+   "problem": "P = 120 - 2(Q_1 + Q_2), MC = $20 for both. (a) Cournot outputs and profit. (b) Collusive outputs and profit. (c) Firm 1's profit if it cheats while firm 2 keeps its quota.",
+   "steps": [
+    "(a) \\(q = \\frac{100}{6} = 16.67\\); Q = 33.33, P = $53.33; profit = 33.33 × 16.67 = $555.56 each.",
+    "(b) \\(MR = 120 - 4Q = 20\\) gives Q = 25 (12.5 each), P = $70; profit = 50 × 12.5 = $625 each.",
+    "(c) \\(Q_1 = 25 - \\frac{1}{2}(12.5) = 18.75\\); Q = 31.25, P = $57.50; profit = 37.5 × 18.75 = $703.13."
+   ],
+   "answer": "Cheating earns $703.13 > $625, so the cartel is unstable in a one-shot game."
+  },
+  {
+   "title": "Unequal costs",
+   "problem": "P = 100 - (Q_1 + Q_2), MC_1 = $10, MC_2 = $25. Find the Cournot outputs and price.",
+   "steps": [
+    "\\(Q_1 = \\frac{100 - 20 + 25}{3} = 35\\).",
+    "\\(Q_2 = \\frac{100 - 50 + 10}{3} = 20\\).",
+    "P = 100 - 55 = $45."
+   ],
+   "answer": "Low-cost firm 35, high-cost firm 20, P = $45."
+  }
+ ],
+ "graph": {
+  "component": "reaction",
+  "params": {
+   "mode": "quantity",
+   "a": 120,
+   "b": 2,
+   "c1": 20,
+   "c2": 20
+  },
+  "caption": "The table under the graph compares collusion, Cournot, Stackelberg and Bertrand for the same market. Change the costs to see the responses."
+ },
+ "traps": [
+  "Collusion splits the MONOPOLY output (a - c)/(2b), not the Cournot output.",
+  "A cheater's best response comes from its reaction function with the rival at the quota.",
+  "Profit is (P - c) × own Q, using the market price from total output.",
+  "Lower own cost: produce more; the rival responds by producing less (not more)."
+ ],
+ "sources": {
+  "slides": "S21 slides not posted",
+  "read": "Ch. 9: Cournot; Stackelberg; Comparing Oligopoly Models",
+  "exercise": "Oligopoly Exercise (not yet available)",
+  "quiz": "Session 21 Reading Quiz Q5; Comprehension Quiz 10 Q1 to Q3, Q5, Q6 (not yet available); Practice exam Q31 to Q35"
+ }
+}

@@ -1,0 +1,131 @@
+{
+ "id": "S15-10",
+ "title": "Profit-maximizing input usage",
+ "calc": true,
+ "plain": "How many workers should you hire? Use the rule the slides use for studying: keep going while the **marginal benefit** of one more unit is at least its **marginal cost**, and stop where they are equal.\n$$MB = MC \\;\\Rightarrow\\; P \\times MP_L = w \\;\\Rightarrow\\; VMP_L = w$$\nThe marginal benefit of a worker is the value of what they add, \\(VMP_L\\). The marginal cost is the wage \\(w\\).\n\n**From a table.** Compute \\(VMP_L\\) for each worker and hire every worker whose VMP is at least the wage, stopping at the last one where \\(VMP \\ge w\\) on the downward part of the VMP column. J Dawgs: price $4, wage $8, VMPs are $28, $48, $56, $52, $36, $8, then negative. The 6th worker's VMP is exactly $8 = w, so hire **6 workers** (the professor's answer). A 7th would add -$32 of value and cost $8.\n\n**From a formula.** Write \\(MP_L\\), set \\(P \\times MP_L = w\\), solve for L. Herman Miller (Quiz 7 Q4): \\(Q = 2K^{0.5}L^{0.5}\\), \\(K = 9\\), \\(P = 400\\), \\(w = 120\\). \\(MP_L = 3/\\sqrt{L}\\), so \\(400 \\times 3/\\sqrt{L} = 120\\), \\(\\sqrt{L} = 10\\), \\(L = 100\\).",
+ "why": "This is the first thing the professor says he will ask: use a production function to calculate the profit-maximizing amount of an input. It also appears in Reading Quiz Q4, Quiz 7 Q3 and Q4, and the practice exam (Q2, Q17).",
+ "definition": "A manager maximizes profit with respect to an input by using it up to the point where its value marginal product equals its price: \\(VMP_L = w\\) for labor.",
+ "formulas": [
+  {
+   "name": "Profit-maximizing labor",
+   "tex": "VMP_L = P \\times MP_L = w",
+   "onSheet": false,
+   "note": "Not on the sheet. MP_L itself is on the sheet."
+  },
+  {
+   "name": "Profit-maximizing capital",
+   "tex": "VMP_K = P \\times MP_K = r",
+   "onSheet": false
+  },
+  {
+   "name": "Short-run Cobb-Douglas shortcut (b < 1, K fixed)",
+   "tex": "L^* = \\left(\\frac{P\\,b\\,A\\,K^a}{w}\\right)^{\\frac{1}{1-b}}",
+   "onSheet": false,
+   "note": "Only a check. Solving P × MP_L = w step by step is what the exam rewards."
+  }
+ ],
+ "derivation": "Profit from labor is \\(\\pi = P \\cdot Q(L) - wL - \\text{fixed costs}\\). Adding one worker changes revenue by \\(P \\times MP_L\\) and cost by \\(w\\). If \\(P \\times MP_L > w\\), the worker adds more than they cost: hire. If \\(P \\times MP_L < w\\): do not. Profit is highest where they are equal. With calculus: \\(\\frac{d\\pi}{dL} = P\\frac{dQ}{dL} - w = 0\\).\n\nFixed costs (like the $8,000 Herman Miller already spent on equipment) are sunk. They do not change \\(VMP_L\\) or \\(w\\), so they do not change the hiring decision.",
+ "math": [
+  {
+   "title": "The power rule for derivatives",
+   "body": "A derivative is the slope of a function: how much the output changes when the input rises a tiny bit. For a power of \\(x\\), bring the exponent down in front and subtract one from it: $$\\frac{d}{dx}x^n = n x^{n-1}$$ A constant multiplier stays: \\(\\frac{d}{dx} 5x^3 = 15x^2\\). A plain constant has slope 0. Example: \\(Q = 4L^2 + 3.5L\\) gives \\(\\frac{dQ}{dL} = 8L + 3.5\\)."
+  },
+  {
+   "title": "Solving an equation with a square root",
+   "body": "Isolate the root, then square both sides. \\(\\frac{1200}{\\sqrt{L}} = 120\\). Multiply both sides by \\(\\sqrt{L}\\): \\(1200 = 120\\sqrt{L}\\). Divide by 120: \\(\\sqrt{L} = 10\\). Square: \\(L = 100\\)."
+  }
+ ],
+ "worked": [
+  {
+   "title": "J Dawgs (professor's solution)",
+   "problem": "Hot dogs sell for $4.00 and the wage is $8.00. How many workers should J Dawgs hire?\n\n| Workers L | Hot dogs Q | MP_L | AP_L | VMP_L = $4 × MP_L | Wage |\n|---|---|---|---|---|---|\n| 0 | 0 |  |  |  | $8 |\n| 1 | 7 | 7 | 7 | $28 | $8 |\n| 2 | 19 | 12 | 9.5 | $48 | $8 |\n| 3 | 33 | 14 | 11 | $56 | $8 |\n| 4 | 46 | 13 | 11.5 | $52 | $8 |\n| 5 | 55 | 9 | 11 | $36 | $8 |\n| 6 | 57 | 2 | 9.5 | $8 | $8 |\n| 7 | 49 | -8 | 7 | $-32 | $8 |\n| 8 | 28 | -21 | 3.5 | $-84 | $8 |",
+   "steps": [
+    "VMP column (4 × MP): $28, $48, $56, $52, $36, $8, -$32, -$84.",
+    "Hire while VMP ≥ $8 on the falling part of the column.",
+    "Worker 6: VMP = $8 = wage. Worker 7: VMP = -$32 < $8."
+   ],
+   "answer": "6 workers. With six workers VMP (MB) and the wage (MC) are both $8."
+  },
+  {
+   "title": "Herman Miller chairs (Comprehension Quiz 7 Q4)",
+   "problem": "\\(Q = 2K^{0.5}L^{0.5}\\), K fixed at 9, chairs sell for $400, wage $120 per day. Profit-maximizing labor?",
+   "steps": [
+    "\\(MP_L = 2(0.5)K^{0.5}L^{-0.5} = 3/\\sqrt{L}\\) with K = 9.",
+    "\\(VMP_L = 400 \\times 3/\\sqrt{L} = 1200/\\sqrt{L}\\).",
+    "Set equal to the wage: \\(1200/\\sqrt{L} = 120\\), so \\(\\sqrt{L} = 10\\).",
+    "\\(L = 100\\). The $8,000 already spent on equipment is sunk and does not matter."
+   ],
+   "answer": "100 workers (worker-days)."
+  },
+  {
+   "title": "Wage rises at J Dawgs",
+   "problem": "Same table, but the wage is $40. How many workers?",
+   "steps": [
+    "VMPs: $28, $48, $56, $52, $36, $8.",
+    "Worker 1 has VMP $28 < $40, but that is in the increasing-returns range: workers 2 to 4 more than pay for themselves, so do not stop at 0.",
+    "On the falling part: worker 4 VMP $52 ≥ $40, worker 5 VMP $36 < $40."
+   ],
+   "answer": "4 workers. A higher wage means fewer workers."
+  }
+ ],
+ "graph": {
+  "component": "production",
+  "params": {
+   "form": "table",
+   "table": [
+    [
+     0,
+     0
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     2,
+     19
+    ],
+    [
+     3,
+     33
+    ],
+    [
+     4,
+     46
+    ],
+    [
+     5,
+     55
+    ],
+    [
+     6,
+     57
+    ],
+    [
+     7,
+     49
+    ],
+    [
+     8,
+     28
+    ]
+   ],
+   "P": 4,
+   "w": 8
+  },
+  "caption": "Raise the wage: L* falls. Raise the price of hot dogs: VMP rises and L* rises."
+ },
+ "traps": [
+  "Set VMP = w, not MP = w. Quiz 7 Q3 has P = $1 so they look the same; with any other price they differ.",
+  "Sunk or fixed costs (equipment already bought) do not change how many workers to hire.",
+  "If the answer is a square root, square it. In the Herman Miller problem 10 is the square root of L; L = 100.",
+  "Use the falling part of the VMP column. A low VMP for the very first worker (increasing returns) is not a reason to hire nobody.",
+  "Do not hire to the point where total product peaks. That ignores the wage."
+ ],
+ "sources": {
+  "slides": "S15 Production I, p. 30",
+  "read": "Ch. 5 pp. 142 to 145",
+  "exercise": "J Dawgs question 4",
+  "quiz": "Reading Quiz Q4; Comprehension Quiz 7 Q3, Q4"
+ }
+}

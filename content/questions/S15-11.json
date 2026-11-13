@@ -1,0 +1,120 @@
+[
+ {
+  "id": "S15-11-q001",
+  "los": [
+   "S15-11"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Match: perfect substitutes, imperfect substitutes, no substitution.",
+  "choices": [
+   "Leontief, Cobb-Douglas, linear",
+   "Linear, Cobb-Douglas, Leontief",
+   "Cobb-Douglas, linear, Leontief",
+   "Linear, Leontief, Cobb-Douglas"
+  ],
+  "answer": 1,
+  "explain": "Straight from the slides' comparison table: linear = perfect, Cobb-Douglas = imperfect, Leontief = none.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-11-q002",
+  "los": [
+   "S15-11"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Which production function has an MRTS that changes along the isoquant?",
+  "choices": [
+   "Leontief",
+   "Linear",
+   "Cobb-Douglas",
+   "All three"
+  ],
+  "answer": 2,
+  "explain": "Cobb-Douglas MRTS = bK/(aL) changes. Linear is constant; Leontief is undefined.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-11-q003",
+  "los": [
+   "S15-11"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Which isoquant shapes go with linear, Cobb-Douglas and Leontief, in that order?",
+  "choices": [
+   "L-shaped, convex curve, straight line",
+   "Straight line, L-shaped, convex curve",
+   "Convex curve, straight line, L-shaped",
+   "Straight line, convex curve, L-shaped"
+  ],
+  "answer": 3,
+  "explain": "Linear: straight line. Cobb-Douglas: convex curve. Leontief: L-shaped.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-11-q004",
+  "los": [
+   "S15-11"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: The Leontief production function is also called the fixed-proportions production function.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explain": "True. The slides title it 'Leontief (Fixed-proportions)'.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-11-q005",
+  "los": [
+   "S15-11"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A dental office needs exactly one hygienist per chair. Adding a chair without a hygienist adds no cleanings. Which production function describes this, and what is its MRTS?",
+  "choices": [
+   "Cobb-Douglas; changing",
+   "Leontief; constant",
+   "Linear; constant",
+   "Leontief; undefined"
+  ],
+  "answer": 3,
+  "explain": "Fixed one-to-one requirement = Leontief, whose MRTS is N/A (undefined).",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-11-q006",
+  "los": [
+   "S15-11"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A manufacturer can replace workers with robots, but the first robots replace many workers and later robots replace fewer. Which form fits?",
+  "choices": [
+   "Leontief",
+   "Cobb-Douglas",
+   "Linear",
+   "None"
+  ],
+  "answer": 1,
+  "explain": "Substitution is possible but gets harder: imperfect substitutes and a changing (diminishing) MRTS, which is Cobb-Douglas. Linear would have a constant replacement rate.",
+  "source": "generated",
+  "verbatim": false
+ }
+]

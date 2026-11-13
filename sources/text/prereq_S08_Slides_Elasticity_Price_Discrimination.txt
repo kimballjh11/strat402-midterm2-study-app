@@ -1,0 +1,568 @@
+
+===== PAGE 1 =====
+STRAT 402
+ECONOMICS OF STRATEGY
+Session 8
+Elasticity
+
+===== PAGE 2 =====
+Agenda
+▪Spiritual Thought
+▪Elasticity Lecture
+▪In-Class Exercise
+▪Differentiation Advantage Exercise
+
+===== PAGE 3 =====
+The Other Prodigal
+“Certainly this younger brother had been a prisoner—a prisoner of sin, 
+stupidity, and a pigsty. But the older brother lives in some confinement, too. 
+He has, as yet, been unable to break out of the prison of himself. He is 
+haunted by the green-eyed monster of jealousy. He feels taken for granted by 
+his father and disenfranchised by his brother, when neither is the case. He 
+has fallen victim to a fictional affront. As such he is like Tantalus of Greek 
+mythology—he is up to his chin in water, but he remains thirsty 
+nevertheless. One who has heretofore presumably been very happy with his 
+life and content with his good fortune suddenly feels very unhappy simply 
+because another has had some good fortune as well.”
+- Jeffrey R. Holland -
+
+===== PAGE 4 =====
+The Other Prodigal
+
+===== PAGE 5 =====
+General Conference: Come and See
+
+===== PAGE 6 =====
+Last Class
+▪Know and understand the following concepts:
+oMarket demand curve
+oLaw of demand
+oChange in quantity demanded/shift in demand
+oNormal/inferior goods
+oSubstitutes/complements
+oDemand/inverse-demand function
+▪Know and understand how to construct and plot a demand curve
+▪Know how to calculate the revenue maximizing price using calculus
+▪Know how to calculate consumer surplus and describe what it means
+
+===== PAGE 7 =====
+Theory Meets Practice
+Source: WSJ, August 29, 2026
+
+===== PAGE 8 =====
+Theory Meets Practice
+Source: WSJ, August 29, 2026
+
+===== PAGE 9 =====
+Theory Meets Practice
+Source: WSJ, August 29, 2026
+
+===== PAGE 10 =====
+Theory Meets Practice
+Source: WSJ, July 13, 2011
+
+===== PAGE 11 =====
+Theory Meets Practice
+ -
+ 5,000
+ 10,000
+ 15,000
+ 20,000
+ 25,000
+ 30,000
+ 35,000
+ 40,000
+2009-1 2009-2 2009-3 2009-4 2010-1 2010-2 2010-3 2010-4 2011-1 2011-2 2011-3 2011-4 2012-1 2012-2 2012-3 2012-4 2013-1 2013-2 2013-3 2013-4
+Subscriptions (000s)
+Year-Quarter
+Number of Netflix Subscribers: 2009-2013
+
+===== PAGE 12 =====
+Theory Meets Practice
+Source: NYT, October 24, 2011
+
+===== PAGE 13 =====
+Should we raise our price?
+1
+Implied Demand and Expected Revenue Among Wholesale 
+Distributors
+0
+2,000
+4,000
+6,000
+8,000
+10,000
+12,000
+Jan-
+08
+Feb-
+08
+Mar-
+08
+Apr-
+08
+May-
+08
+Jun-
+08
+Jul-
+08
+Aug-
+08
+Sep-
+08
+Oct-
+08
+Nov-
+08
+Dec-
+08
+Unit 
+volume
+-
+5,000
+10,000
+15,000
+20,000
+25,000
+30,000
+35,000
+$0
+$5
+$10
+$15
+$20
+$25
+$30
+$35
+$40
+$45
+Current price
+$37
+Implied optimal 
+price
+$19
+Price
+$0
+$50,000
+$100,000
+$150,000
+$200,000
+$250,000
+$300,000
+$0
+$5
+$10
+$15
+$20
+$25
+$30
+$35
+$40
+$45
+$50
+Difference
+>$74K per 
+month (+35%)
+Unit 
+volume
+Actual
+Regression line
+change 
+month
+Implied 
+elasticity: 4.11
+Current price 
+$37
+Implied optimal 
+price
+$19
+Price
+Total Volume Purchased by a 
+Constant Group of 
+Distributors
+Implied Relationship Between 
+Price and Quantity1
+Revenue as a Function of 
+Price2
+1.
+Derived exponential demand curve is based on the optimum linear price constructed from two price/quantity points available before and after the price change. Analysis takes into 
+account the isolated impact of the price change on volume only (using segmented regression), not the before or after declines in volume. 
+2.
+Actual revenue curve computed from derived demand function.
+49%
+
+===== PAGE 14 =====
+Learning Objectives
+▪Know and understand the following concepts:
+oOwn price elasticity
+oInelastic/elastic demand
+oTotal revenue test
+oCross price elasticity
+▪Know how to calculate the various forms of elasticity and 
+understand how they relate to strategy
+
+===== PAGE 15 =====
+Elasticity
+Conceptually, what is elasticity?
+▪A measure of responsiveness one variable to changes in another variable
+▪The percentage change in one variable to changes in another variable
+▪A measure of sensitivity (e.g. price sensitive customers)
+Types of elasticity
+▪Own-price elasticity (OPE)
+▪Cross price elasticity (CPE)
+▪Income elasticity
+▪Advertising elasticity
+
+===== PAGE 16 =====
+Own-price Elasticity
+How do we calculate own-price elasticity?
+𝑂𝑃𝐸= %∆𝑄𝑥
+%∆𝑃𝑥
+=
+𝜕𝑄𝑥
+𝜕𝑃𝑥
+𝑃𝑥
+𝑄𝑥
+OPE will always be negative. Why?
+According to the law of demand,
+▪A % increase in price, should  lead to a % decrease in quantity demanded
+▪A % decrease in price, should  lead to a % increase in quantity demanded
+
+===== PAGE 17 =====
+Own-price Elasticity
+When is demand elastic or inelastic?
+▪Demand is elastic when OPE < -1
+▪Demand is inelastic when -1< OPE < 0
+▪Demand is unitary elastic when OPE = -1
+What does it mean when we say that demand is elastic/inelastic?
+▪When demand is for a good is elastic, consumers are relatively price sensitive
+▪When demand is for a good is inelastic, consumers are relatively price 
+insensitive
+
+===== PAGE 18 =====
+Total Revenue Test
+How does the OPE relate to revenue maximization?
+1. If demand is elastic (OPE < -1, an increase (decrease) in price will lead to a 
+decrease (increase) in total revenue.
+2. If demand is inelastic (-1 < OPE < 0), an increase (decrease) in price will lead 
+to a increase (decrease) in total revenue.
+3. Total revenue is maximized when demand is unitary elastic
+
+===== PAGE 19 =====
+Total Revenue Test
+ $-
+ $5
+ $10
+ $15
+ $20
+ $25
+ $30
+ $35
+ $40
+ $45
+ -
+ 20
+ 40
+ 60
+ 80
+ 100
+Price
+Quantity
+Demand Curve
+ $-
+ $100
+ $200
+ $300
+ $400
+ $500
+ $600
+ $700
+ $800
+ $900
+ $-
+ $10
+ $20
+ $30
+ $40
+ $50
+Total Revenue
+Price
+Revenue as a Function of 
+Price
+
+===== PAGE 20 =====
+Total Revenue Test
+ $-
+ $5
+ $10
+ $15
+ $20
+ $25
+ $30
+ $35
+ $40
+ $45
+ -
+ 20
+ 40
+ 60
+ 80
+ 100
+Price
+Quantity
+Demand Curve
+Inelastic Demand
+Elastic Demand
+ $-
+ $100
+ $200
+ $300
+ $400
+ $500
+ $600
+ $700
+ $800
+ $900
+ $-
+ $10
+ $20
+ $30
+ $40
+ $50
+Total Revenue
+Price
+Revenue as a Function of 
+Price
+Inelastic Demand
+Elastic Demand
+
+===== PAGE 21 =====
+Exercise - OPE for Redbox
+On October 31st, 2011, Redbox raised the price of a DVD rental from $1.00 to $1.20, 
+which caused quantity demanded to decrease from 5,000 to 4,500 rentals per 
+kiosk.
+Answer the following questions:
+1. Was demand elastic or inelastic at a price of $1.00?
+2. Using the algebraic formula, what was the OPE at a price of $1.00?
+𝑂𝑃𝐸= %∆𝑄𝑥
+%∆𝑃𝑥
+
+===== PAGE 22 =====
+OPE for Redbox
+Was demand elastic or inelastic at a price of $1.00?
+Demand was inelastic at a price of $1.00. Remember that Redbox 
+maximized revenue at $1.20. Thus according to the total revenue test, 
+increases in price should lead to increases in total revenue, when 
+demand is inelastic (-1 < OPE < 0). 
+
+===== PAGE 23 =====
+OPE for Redbox
+What was the OPE at a price of $1.00?
+𝑂𝑃𝐸= %∆𝑄𝑥
+%∆𝑃𝑥
+=
+𝑄𝑁𝑒𝑤−𝑄𝑂𝑙𝑑
+𝑄𝑂𝑙𝑑
+𝑃𝑁𝑒𝑤−𝑃𝑂𝑙𝑑
+𝑃𝑂𝑙𝑑
+𝑂𝑃𝐸=
+𝑄𝑁𝑒𝑤−𝑄𝑂𝑙𝑑
+𝑄𝑂𝑙𝑑
+𝑃𝑁𝑒𝑤−𝑃𝑂𝑙𝑑
+𝑃𝑂𝑙𝑑
+=
+4,500 −5,000
+5,000
+1.20 −1.00
+1.00
+= −0.10
+0.20 = −0.50
+
+===== PAGE 24 =====
+Exercise - OPE for Redbox
+On October 31st, 2011, Redbox raised the price of a DVD rental from $1.00 to $1.20, 
+which caused quantity demanded to decrease. Suppose the demand at this 
+particular point in time can be modeled using the following function:
+𝑄𝑥= −3,728𝑃𝑥+ 8,845
+Answer the following questions:
+1. Using the calculus formula, what was the OPE at a price of $1.00?
+𝑂𝑃𝐸=
+𝜕𝑄𝑥
+𝜕𝑃𝑥
+𝑃𝑥
+𝑄𝑥
+
+===== PAGE 25 =====
+OPE for Redbox
+What was the OPE at a price of $1.00?
+𝑂𝑃𝐸=
+𝜕𝑄𝑥
+𝜕𝑃𝑥
+𝑃𝑥
+𝑄𝑥
+𝑄𝑥= −3,728𝑃𝑥+ 8,845
+𝑂𝑃𝐸= −3,728
+1
+−3,728 ∗1 + 8,845
+= −3,728
+5,117 = −0.73
+
+===== PAGE 26 =====
+Elastic vs. Inelastic Demand
+y = -0.0002x + 2.1817
+R² = 0.8499
+y = -0.0003x + 2.4537
+R² = 0.7152
+ $-
+ $0.50
+ $1.00
+ $1.50
+ $2.00
+ $2.50
+ -
+ 1,000
+ 2,000
+ 3,000
+ 4,000
+ 5,000
+ 6,000
+ 7,000
+ 8,000
+Rental Price ($/DVD)
+Quantity Demanded (DVD Rentals per kiosk)
+Demand: 2011 vs. 2014
+Demand - 2011-Q4
+Demand - 2014-Q4
+
+===== PAGE 27 =====
+Cross-price Elasticity
+How do we calculate cross-price elasticity?
+𝐶𝑃𝐸= %∆𝑄𝑥
+%∆𝑃𝑦
+=
+𝜕𝑄𝑥
+𝜕𝑃𝑦
+𝑃𝑦
+𝑄𝑥
+Unlike OPE, CPE can be negative or positive. Why?
+▪If CPE is positive, then goods x and y are substitutes (Dr Pepper vs. Mr. Pibb)
+▪If CPE is negative, then goods x and y are complements (e.g. milk and cereal)
+
+===== PAGE 28 =====
+Exercise - CPE
+Suppose that demand for good x can be represented by 
+the following equation. 
+𝑄𝑥= 500 −5𝑃𝑥+ 4𝑃𝑦
+Answer the following questions:
+1.
+Is good y a substitute or complement for good x?
+2.
+What is the CPE for good x when Px = 25 and Py = 20?
+3.
+Given the CPE, how would a 10% increase in Py influence Qx?
+𝐶𝑃𝐸= %∆𝑄𝑥
+%∆𝑃𝑦
+=
+𝜕𝑄𝑥
+𝜕𝑃𝑦
+𝑃𝑦
+𝑄𝑥
+
+===== PAGE 29 =====
+Exercise - CPE
+Is good y a substitute or complement for good x?
+Good y is a substitute for good x. How do you know? You look at the 
+coefficient on Py. If it’s positive, then good y is a substitute. If it’s 
+negative, then good y is a complement.
+𝐶𝑃𝐸=
+𝜕𝑄𝑥
+𝜕𝑃𝑦
+𝑃𝑦
+𝑄𝑥
+
+===== PAGE 30 =====
+Exercise - CPE
+What is the CPE for good x when Px = 25 and Py = 20?
+𝐶𝑃𝐸=
+𝜕𝑄𝑥
+𝜕𝑃𝑦
+𝑃𝑦
+𝑄𝑥
+𝑃𝑦= 20 
+𝜕𝑄𝑥
+𝜕𝑃𝑦
+= 4 
+𝑄= 500 −5 25 + 4 20 = 455
+𝐶𝑃𝐸=
+𝜕𝑄𝑥
+𝜕𝑃𝑦
+𝑃𝑦
+𝑄𝑥
+= 4
+20
+455
+= 0.18
+
+===== PAGE 31 =====
+Exercise - CPE
+Given the CPE, how would a 10% increase in Py influence Qx?
+𝐶𝑃𝐸= %∆𝑄𝑥
+%∆𝑃𝑦
+𝐶𝑃𝐸= 0.18 
+%∆𝑃𝑦= 0.1
+0.18 = %∆𝑄𝑥
+0.1
+%∆𝑄𝑥= 0.18
+0.1 = 0.018 𝑜𝑟 1.8%
+
+===== PAGE 32 =====
+Elasticity & Strategy
+Threat of Entry
+Supplier Power
+Not captured by demand elasticity
+Rivalry
+CPE
+between rival brands
+High CPE → buyers switch brands easily → 
+intense rivalry
+Buyer Power
+OPE
+of the firm's demand
+Elastic (OPE < –1) → price-sensitive buyers → 
+strong buyer power
+Threat of Substitutes
+CPE
+with products outside the industry
+High CPE → close substitutes → strong threat, 
+caps prices
+The larger the elasticity (in absolute 
+value), the stronger the force — and 
+the less pricing power the firm has.
+Measurable with elasticity
+Needs other evidence
+
+===== PAGE 33 =====
+Learning Objectives
+▪Know and understand the following concepts:
+oOwn price elasticity
+oInelastic/elastic demand
+oTotal revenue test
+oCross price elasticity
+▪Know how to calculate the various forms of elasticity and 
+understand how they relate to strategy
+
+===== PAGE 34 =====
+In-Class Exercise - Elasticity
+▪Open up the spreadsheet on Canvas
+▪Work through both tabs of the worksheet with your peers 
+(OPE and CPE)
+
+===== PAGE 35 =====
+Next Class: Regression
+▪Chapter 1: The Economics of Effective Management: Make 
+Data-Driven Decisions (pp. 21-29)
+▪Chapter 1: Evaluating the Overall Fit of the Regression Line 
+(pp. 38-39)
+▪Chapter 3: Quantitative Demand Analysis (pp. 89-96)
+▪Watch: Regression in Excel Demonstration

@@ -1,0 +1,202 @@
+[
+ {
+  "id": "S18-09-q001",
+  "los": [
+   "S18-09"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Which of these is NOT one of the structural barriers on the S18 slides?",
+  "choices": [
+   "Brand and reputation",
+   "Patents and other legal barriers",
+   "Buyer price sensitivity",
+   "Learning curves"
+  ],
+  "answer": 2,
+  "explain": "Buyer price sensitivity is about demand, not about an entrant's costs or share (Reading Quiz Q3).",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-09-q002",
+  "los": [
+   "S18-09"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "According to the reading, which three barriers kept newcomers out of the soft drinks industry?",
+  "choices": [
+   "Economies of scope, limit pricing and predatory pricing",
+   "Government licenses, tariffs and quotas",
+   "Brands, bottling and distribution capabilities, and shelf space",
+   "Patents, network effects and learning curves"
+  ],
+  "answer": 2,
+  "explain": "Strategies to Crack Well-Guarded Markets, soft drinks example.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-09-q003",
+  "los": [
+   "S18-09"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: Capital requirements can be a barrier to entry.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explain": "True. Reading Quiz Q3 lists capital requirements with economies of scale and network effects as common barriers.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-09-q004",
+  "los": [
+   "S18-09"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Why do profitable industries attract entry in the first place?",
+  "choices": [
+   "Profitable industries have no barriers",
+   "Entry is always cheaper there",
+   "High profits signal that entrants could earn more than elsewhere",
+   "Incumbents invite entrants"
+  ],
+  "answer": 2,
+  "explain": "Money attracts money: the most profitable industries had almost five times as many entrants as the average industry.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-09-q005",
+  "los": [
+   "S18-09"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Patents are a barrier to entry because they:",
+  "choices": [
+   "Lower the incumbent's average cost",
+   "Legally prevent others from making the protected product for a period",
+   "Create network effects",
+   "Make predatory pricing legal"
+  ],
+  "answer": 1,
+  "explain": "A legal barrier: entrants cannot copy the product.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-09-q006",
+  "los": [
+   "S18-09"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "In the razor case, Gillette spent $200 million marketing one razor. Dollar Shave Club entered with a $20,000 YouTube video and online subscriptions. Which barrier did DSC get around?",
+  "choices": [
+   "Patents",
+   "Network effects",
+   "Learning curves",
+   "Brand and reputation, plus retail shelf space"
+  ],
+  "answer": 3,
+  "explain": "Gillette's brand and store distribution were the barrier; DSC used cheap online marketing and direct delivery.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-09-q007",
+  "los": [
+   "S18-09"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A new airline cannot get landing slots at a busy airport because slots are allocated by regulators. Which barrier is this?",
+  "choices": [
+   "Economies of scope",
+   "Learning curve",
+   "Legal or government barrier",
+   "Penetration pricing"
+  ],
+  "answer": 2,
+  "explain": "Government control of access is a legal barrier.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-09-q008",
+  "los": [
+   "S18-09"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A semiconductor startup must spend $20 billion on a fabrication plant before selling its first chip. Which barrier is most directly at work?",
+  "choices": [
+   "Capital requirements",
+   "Brand",
+   "Limit pricing",
+   "Network effects"
+  ],
+  "answer": 0,
+  "explain": "The huge up-front investment itself keeps entrants out (and the plant only pays off at huge volume, adding scale).",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-09-q009",
+  "los": [
+   "S18-09"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Virgin Cola's U.S. launch included Richard Branson driving a tank through a wall of cans in Times Square, yet it never passed 1% of U.S. cola. What does the S18 slide on brand and reputation show?",
+  "choices": [
+   "Incumbent brands and shelf space can defeat even a heavily promoted head-on entrant",
+   "Cola has strong network effects",
+   "Virgin used limit pricing",
+   "Advertising always wins market share"
+  ],
+  "answer": 0,
+  "explain": "Coke and Pepsi's brands and grip on shelf space held.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-09-q010",
+  "los": [
+   "S18-09",
+   "S18-04"
+  ],
+  "type": "num",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "From the exercise (Table 2), Meta's 2021 Q4 profit per user was about $5.99 and Twitter's was about $0.06. What was Meta's profit advantage per user?",
+  "answer": 5.93,
+  "unit": "$",
+  "tol": 0.01,
+  "explain": "5.99 - 0.06 = $5.93 per user for the quarter. From 2017 to 2021 the advantage over Twitter averaged about $5.17.",
+  "verify": {
+   "f": "diff",
+   "x1": 0.061,
+   "x2": 5.989
+  },
+  "source": "generated",
+  "verbatim": false
+ }
+]

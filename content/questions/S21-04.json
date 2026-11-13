@@ -1,0 +1,303 @@
+[
+ {
+  "id": "S21-04-q001",
+  "los": [
+   "S21-04"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "A reaction function shows:",
+  "choices": [
+   "A firm's profit-maximizing choice for every possible choice of its rival",
+   "The equilibrium price only",
+   "The market demand curve",
+   "Total industry profit"
+  ],
+  "answer": 0,
+  "explain": "Bryce p. 3: the complete set of best responses.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-04-q002",
+  "los": [
+   "S21-04"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Why do Cournot reaction functions slope downward?",
+  "choices": [
+   "More rival output lowers price and your MR, so your best output falls",
+   "More rival output raises price",
+   "They slope upward",
+   "Costs rise with rival output"
+  ],
+  "answer": 0,
+  "explain": "Bryce p. 5.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-04-q003",
+  "los": [
+   "S21-04"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "If firm 2 produces zero, firm 1's reaction function says produce:",
+  "choices": [
+   "The competitive output",
+   "The monopoly output",
+   "The Cournot output",
+   "Zero"
+  ],
+  "answer": 1,
+  "explain": "Where R1 hits the Q1 axis (Bryce p. 5).",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-04-q004",
+  "los": [
+   "S21-04"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "If firm 2's marginal cost falls, what happens in Cournot?",
+  "choices": [
+   "Nothing changes",
+   "Firm 1's reaction function shifts out",
+   "Firm 2's reaction function shifts out: firm 2 produces more and firm 1 less",
+   "Both produce less"
+  ],
+  "answer": 2,
+  "explain": "Textbook Figure 9-8.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-04-q005",
+  "los": [
+   "S21-04"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "In differentiated Bertrand (price competition), reaction functions:",
+  "choices": [
+   "Slope upward",
+   "Do not exist",
+   "Are vertical",
+   "Slope downward"
+  ],
+  "answer": 0,
+  "explain": "A rival's higher price lets you charge more (Bryce p. 8).",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-04-q006",
+  "los": [
+   "S21-04"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: Isoprofit curves for firm 1 peak where they cross firm 1's reaction function.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explain": "True (textbook property 3).",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-04-q007",
+  "los": [
+   "S21-04",
+   "S21-06"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "P = 120 - 2(Q_1 + Q_2), firm 1's marginal cost is $20. If firm 2 produces 20, what is firm 1's profit-maximizing output?",
+  "answer": 15.0,
+  "unit": "",
+  "tol": 0.01,
+  "explain": "MR_1 = 120 - 2Q_2 - 4Q_1 = 20, so Q_1 = 25 - 0.5Q_2 = 25 - 10 = 15.",
+  "verify": {
+   "f": "br",
+   "a": 120,
+   "b": 2,
+   "c1": 20,
+   "c2": 20,
+   "who": "q1",
+   "q2": 20
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-04-q008",
+  "los": [
+   "S21-04",
+   "S21-06"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "P = 10 - (Q_1 + Q_2), firm 1's marginal cost is $0. If firm 2 produces 4, what is firm 1's profit-maximizing output?",
+  "answer": 3.0,
+  "unit": "",
+  "tol": 0.01,
+  "explain": "MR_1 = 10 - 1Q_2 - 2Q_1 = 0, so Q_1 = 5 - 0.5Q_2 = 5 - 2 = 3.",
+  "verify": {
+   "f": "br",
+   "a": 10,
+   "b": 1,
+   "c1": 0,
+   "c2": 0,
+   "who": "q1",
+   "q2": 4
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-04-q009",
+  "los": [
+   "S21-04",
+   "S21-06"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "P = 1,000 - (Q_1 + Q_2), firm 1's marginal cost is $4. If firm 2 produces 300, what is firm 1's profit-maximizing output?",
+  "answer": 348.0,
+  "unit": "",
+  "tol": 0.01,
+  "explain": "MR_1 = 1000 - 1Q_2 - 2Q_1 = 4, so Q_1 = 498 - 0.5Q_2 = 498 - 150 = 348.",
+  "verify": {
+   "f": "br",
+   "a": 1000,
+   "b": 1,
+   "c1": 4,
+   "c2": 4,
+   "who": "q1",
+   "q2": 300
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-04-q010",
+  "los": [
+   "S21-04"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Bryce footnote 6: P = a - q_1 - q_2. With a = 100, c = 10 and q_2 = 30, what is firm 1's best output q_1* = (a - q_2 - c)/2?",
+  "answer": 30,
+  "unit": "",
+  "tol": 0.01,
+  "explain": "(100 - 30 - 10)/2 = 30.",
+  "verify": {
+   "f": "br",
+   "a": 100,
+   "b": 1,
+   "c1": 10,
+   "c2": 10,
+   "who": "q1",
+   "q2": 30
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-04-q011",
+  "los": [
+   "S21-04"
+  ],
+  "type": "mc",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "P = 10 - (Q_1 + Q_2), MC = 2 for both. Firm 2's MC falls to 0. What is the new Cournot equilibrium?",
+  "choices": [
+   "Q_1 = 3, Q_2 = 3",
+   "Q_1 = 4, Q_2 = 2",
+   "Q_1 = 2, Q_2 = 4",
+   "Q_1 = 8/3, Q_2 = 8/3"
+  ],
+  "answer": 2,
+  "explain": "Q_1 = (10 - 4 + 0)/3 = 2; Q_2 = (10 - 0 + 2)/3 = 4 (textbook Figure 9-8).",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-04-q012",
+  "los": [
+   "S21-04"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Your reaction function is Q_1 = 25 - 0.5Q_2. Your rival expands output by 10 units. What should you do?",
+  "choices": [
+   "Keep output the same",
+   "Raise output by 10",
+   "Cut output by 10",
+   "Cut output by 5 units"
+  ],
+  "answer": 3,
+  "explain": "Slope -1/2.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-04-q013",
+  "los": [
+   "S21-04"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "In Bryce's adjustment story, firm 1 starts at its monopoly output and firms take turns best-responding. Where does it end?",
+  "choices": [
+   "At the monopoly point",
+   "At zero output",
+   "Where the reaction functions intersect (Cournot-Nash equilibrium)",
+   "At price equal to MC"
+  ],
+  "answer": 2,
+  "explain": "Bryce p. 6, point e.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-04-q014",
+  "los": [
+   "S21-04"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A rival invests in automation that cuts its marginal cost. In a Cournot market, how should you expect your own best output to change?",
+  "choices": [
+   "It stays the same",
+   "It falls, because the rival's reaction function shifts out and it produces more",
+   "It falls to zero",
+   "It rises"
+  ],
+  "answer": 1,
+  "explain": "Textbook Figure 9-8 logic from the other side.",
+  "source": "generated",
+  "verbatim": false
+ }
+]

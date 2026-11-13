@@ -1,0 +1,3 @@
+{
+ "overview": "Session 20 adds time to game theory. When a prisoner's dilemma is repeated forever, trigger strategies can sustain collusion: compare the present value of colluding (pi_c + pi_c/i) with cheating once and being punished (pi_d + pi_n/i). When the last period is known, cooperation unravels back to the one-shot outcome. Collusion is more likely with few firms, firms able to punish, a history of cooperation and good punishment mechanisms. In sequential games, drawn as trees, the subgame perfect equilibrium is found by backward induction and ignores threats that are not credible. The same logic applies to entry, innovation and bargaining."
+}

@@ -1,0 +1,199 @@
+S19 Textbook Notes – One-Shot Games 
+
+ Session 19 · Game Theory I — Study Notes 
+ ↓ Jump to textbook figures, formulas & book examples 
+
+ Reading: Baye & Prince, Ch. 10 “Game Theory: Inside Oligopoly,” pp. 306–317 (Overview; Simultaneous-Move, One-Shot Games). My own summary — every payoff table below uses my own made-up numbers. Pair with the S19 slides and the book in Bookshelf. 
+
+ 1. Vocabulary 
+
+ Players make decisions; strategies are their plans of action (a decision rule for every point where they move); payoffs are the resulting profits/losses — which depend on what everyone does (interdependence). 
+
+ Simultaneous-move game: choose without seeing the rival's choice (e.g., both firms post prices each morning). Sequential-move game: one moves after seeing the other's move. 
+
+ One-shot game: played once. Repeated game: played more than once (Session 20). 
+
+ Normal form: a payoff matrix listing players, strategies, and payoffs. Convention: first number = row player, second = column player. 
+
+ Why game theory? Without it you get endless “I think that she thinks that I think…” reasoning (e.g., two identical gas stations undercutting each other by a penny). Game theory gives a disciplined way to predict the outcome. 
+
+ 2. Three ways to choose a strategy 
+
+ ① Dominant strategy — gives you the best payoff no matter what the rival does. If you have one, play it. 
+
+ ② Secure (maximin) strategy — guarantees the highest worst-case payoff. For each of your strategies find the worst outcome, then pick the strategy whose worst case is best. Very conservative; ignores what the rival will rationally do. 
+
+ ③ Put yourself in your rival's shoes — if you don't have a dominant strategy but your rival does, assume they'll play it and best-respond to it.
+
+ 3. Nash equilibrium 
+
+ A set of strategies where no player can raise their own payoff by changing only their own strategy , given what the others are doing. Everyone is best-responding to everyone else. 
+
+ How to find it in a matrix (underline method): for each column, underline the row player's best payoff; for each row, underline the column player's best payoff. Any cell with both numbers underlined is a Nash equilibrium. 
+
+ Practice (my numbers): (Row = Firm X, Column = Firm Y)
+ Y: Left Y: Right 
+
+ X: Top 8, 3 12, 9 
+
+ X: Bottom 5, 6 4, 2 
+
+• X's dominant strategy? If Y plays Left: Top (8) > Bottom (5). If Right: Top (12) > Bottom (4). → Top is dominant for X. 
+
+• Y has no dominant strategy (prefers Left vs. Bottom, Right vs. Top). Put yourself in Y's shoes: X will play Top, so Y plays Right (9 > 3). 
+
+• Nash equilibrium: (Top, Right) = (12, 9) . 
+
+• Y's secure strategy: Left's worst = 3, Right's worst = 2 → secure strategy is Left — but it would cost Y (3 instead of 9). That's the weakness of maximin. 
+
+ 4. Applications of one-shot games 
+
+ a) Pricing (the prisoner's dilemma) 
+
+ In Bertrand-style price competition each firm's dominant strategy is the low price , so the Nash equilibrium is (Low, Low) — even though both would earn more at (High, High). Collusion fails in a one-shot game because each firm wants to cheat on any agreement. 
+
+ B: Low B: High 
+
+ A: Low 2, 2 30, −5 
+
+ A: High −5, 30 15, 15 
+
+Low is dominant for both → NE (Low, Low) = (2, 2), worse for both than (15, 15). 
+
+Real-world flavor: cola price wars where both firms cut prices before a busy season. 
+
+ b) Advertising and quality decisions 
+
+ If advertising mainly steals customers rather than growing total demand, each firm's dominant strategy is to advertise — they cancel each other out, spend heavily, and both earn less than if neither advertised. Same prisoner's-dilemma structure. (Similar logic for product quality.) 
+
+ c) Coordination games 
+
+ Both players do best by matching choices (e.g., compatible technical standards). There are multiple Nash equilibria ; the problem is getting to one. Communication, industry agreements, or a government standard solves it — and once agreed, no one wants to deviate (unlike the pricing game). 
+
+ B: USB-C B: Proprietary 
+
+ A: USB-C 40, 40 5, 5 
+
+ A: Proprietary 5, 5 40, 40 
+
+Two NE: (USB-C, USB-C) and (Proprietary, Proprietary). 
+
+ d) Monitoring workers — mixed strategies 
+
+ Some games have no pure-strategy Nash equilibrium : if the manager always monitors, the worker always works, so the manager would rather not monitor; if the manager never monitors, the worker shirks, so the manager wants to monitor. Each side wants to keep its action unpredictable . Solution: a mixed (randomized) strategy — e.g., spot-check at random so the worker can't outguess you. 
+
+ e) Nash bargaining 
+
+ Two sides simultaneously name how much of a fixed pie they want; if the requests add up to more than the pie, no deal (or a costly stalemate). Many outcomes are Nash equilibria (any split that exactly uses the pie), so bargaining outcomes are hard to predict and often inefficient — sides overreach and reach no agreement (common in labor disputes). 
+
+ Practice: Split $10 in $5 increments. Each asks for 0, 5, or 10; if total > 10, both get −1. NE: (0, 10), (5, 5), (10, 0) — three equilibria. Outcomes like (10, 10) or (5, 10) are stalemates where both lose. 
+
+ 5. Exam checklist 
+
+ Identify simultaneous vs. sequential and one-shot vs. repeated. 
+
+ Check each player for a dominant strategy (compare payoffs within each column/row). 
+
+ If none, look at the rival's dominant strategy and best-respond. 
+
+ Find all Nash equilibria with the underline method — there may be 0, 1, or several. 
+
+ Know the secure (maximin) strategy and why it can be a mistake. 
+
+ Recognize the prisoner's-dilemma pattern: dominant strategies lead to an outcome worse for both. 
+
+ 6. Quick self-test 
+
+ Define Nash equilibrium in one sentence. 
+
+ Why can't firms sustain (High, High) in a one-shot pricing game? 
+
+ In a coordination game, why don't firms want to cheat once they agree? 
+
+ When do players use mixed strategies? 
+
+ Find the NE: (Row, Col) payoffs — UL (4, 4), UR (1, 6), DL (6, 1), DR (2, 2). 
+
+ Answers: (1) no one can do better by changing only their own strategy; (2) each firm's dominant strategy is to undercut, so any agreement gets cheated on; (3) matching the other's choice is already each firm's best response; (4) when players gain by being unpredictable and there's no pure-strategy NE; (5) D is dominant for Row, R is dominant for Col → (D, R) = (2, 2), a prisoner's dilemma. 
+
+ Textbook Figures, Formulas & Book Examples 
+ The diagrams are my redrawings of the book's figures, labeled with the same figure numbers so you can find each original in Bookshelf. The formulas match the book's notation. The book's worked examples are summarized with their actual numbers. 
+
+ A. Definitions & principles as the book states them 
+
+ Dominant strategy: a strategy that gives the highest payoff no matter what the opponent does. 
+
+ Secure strategy: a strategy that guarantees the highest payoff in the worst-case scenario (maximize the minimum). 
+
+ Nash equilibrium: a set of strategies in which, given the other players' strategies, no player can raise their payoff by changing only their own strategy. 
+
+ Mixed (randomized) strategy: randomizing over your available strategies so your rival can't predict your move.
+
+ Principles in the book: 
+
+• Play your dominant strategy. Check whether you have one, and if you do, play it. 
+
+• Put yourself in your rival's shoes. If you don't have a dominant strategy, look at the game from your rival's side; if the rival has a dominant strategy, expect them to play it. 
+
+ B. The book's payoff tables 
+
+ Table 10–1: a normal-form game (A’s payoff first). The Nash equilibrium is highlighted. 
+ Player B 
+ Left Right 
+ Player A Up 10, 20 15, 8 
+ Down −10, 7 10, 10 
+
+ How the book solves Table 10–1: Up is dominant for A (10 > −10 against Left, 15 > 10 against Right). B has no dominant strategy (Demonstration Problem 10–1): B prefers Left if A plays Up (20 > 8) and Right if A plays Down (10 > 7). B's secure strategy is Right (Demonstration Problem 10–2): Left guarantees only 7, Right guarantees 8. But B should put itself in A's shoes: A will play Up, so B should play Left and earn 20 instead of 8. Nash equilibrium = (Up, Left) (Demonstration Problem 10–3). The other three cells each have at least one player who wants to switch. 
+
+ Table 10–2: a pricing game (Bertrand-style prisoner’s dilemma). 
+ Firm B 
+ Low price High price 
+ Firm A Low price 0, 0 50, −10 
+ High price −10, 50 10, 10 
+
+ Low price is a dominant strategy for both firms, so the Nash equilibrium is (Low, Low) = (0, 0), even though (High, High) = (10, 10) is better for both. This is a dilemma . Collusion fails because it is illegal and because each firm could raise its profit from 10 to 50 by cheating. An “honest” manager who is cheated on loses $10 and can't explain the loss to stockholders without admitting illegal collusion. 
+
+ Table 10–3: an advertising game (payoffs in $ millions; Demonstration Problem 10–4). 
+ Firm B 
+ Advertise Don’t advertise 
+ Firm A Advertise $4, $4 $20, $1 
+ Don’t advertise $1, $20 $10, $10 
+
+ Demonstration Problem 10–4: the products become obsolete at year-end (one-shot), and advertising only shifts customers between firms. Advertising is dominant for each firm, so both advertise and each earns $4M . An agreement not to advertise ($10M each) fails because each firm would cheat to get $20M. 
+
+ Table 10–4: a coordination game with two Nash equilibria. 
+ Firm B 
+ 120-volt 90-volt 
+ Firm A 120-volt outlets $100, $100 $0, $0 
+ 90-volt outlets $0, $0 $100, $100 
+
+ Two Nash equilibria. If you think B will make 120-volt appliances, make 120-volt too. The firms can talk to each other, or the government can set a standard. Once firms agree on a standard, nobody has an incentive to cheat . 
+
+ Table 10–5: a game with no (pure-strategy) Nash equilibrium. The players should randomize. 
+ Worker 
+ Work Shirk 
+ Manager Monitor −1, 1 1, −1 
+ Don’t monitor 1, −1 −1, 1 
+
+ If the manager monitors, the worker works, and then the manager would rather not monitor. If the manager doesn't monitor, the worker shirks, and then the manager wants to monitor. No cell is stable, so each side wants to keep its action secret. The manager should randomize (e.g., flip a coin to decide whether to spot-check). Multiple-choice exams work the same way: professors randomize which letter is correct. 
+
+ Table 10–6: simultaneous bargaining over $100 in $50 steps (stalemate costs each side $1). 
+ Union 
+ 0 50 100 
+ Management 0 0, 0 0, 50 0, 100 
+ 50 50, 0 50, 50 −1, −1 
+ 100 100, 0 −1, −1 −1, −1 
+
+ Three Nash equilibria: (Mgmt 0, Union 100), (50, 50) and (100, 0). Six of the nine outcomes are inefficient, and three of them end in costly stalemate. This is why bargaining outcomes are hard to predict and labor disputes stall. Experiments show people see 50–50 as “fair,” so if you expect the union to ask for $50, ask for $50. 
+
+ C. Other book examples 
+
+ Gas stations (motivation for game theory): two identical stations on the same block must phone in prices each morning (simultaneous Bertrand game). “I'll charge $9.50… but B will charge $9.49, so I'll charge $9.48… she'll guess that and charge $9.47…” Without game theory the reasoning never ends. 
+
+ Inside Business 10–1 (“Opie equilibrium”): in A Beautiful Mind 's bar scene, every man avoids the blonde. That is not a Nash equilibrium, because any one man could gain by switching to her. A real Nash equilibrium has one man dancing with the blonde, and that outcome is also socially efficient. 
+
+ Inside Business 10–2 (Cola wars in India): Coke cut a 200-ml bottle to a uniform 8 rupees before the summer demand spike, and Pepsi was expected to follow, as the one-shot pricing game predicts. In 2003 they had a similar price war, then jointly raised prices after seeing the damage, which points ahead to repeated games (Session 20). 
+
+ Advertising in breakfast cereal: most advertising pulls customers from rivals, so firms advertise heavily just to cancel each other out. Industry demand doesn't change and profits stay low. 
+
+ Demonstration Problem 10–5: split $1 in one-cent units, and both get nothing if the requests exceed $1. Many Nash equilibria : any pair of requests that sums to exactly 100¢ ($0.01/$0.99, $0.02/$0.98, …).

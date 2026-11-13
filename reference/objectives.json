@@ -1,0 +1,1534 @@
+[
+ {
+  "id": "S15-01",
+  "session": 15,
+  "topic": "Production I",
+  "text": "Know and understand the following economic concept: production function",
+  "short": "production function",
+  "kind": "concept",
+  "read": "Ch. 5: The Production Function: Short-Run versus Long-Run Decisions",
+  "reading_quiz": [
+   {
+    "quiz": "Session 15 quiz",
+    "q": [
+     1
+    ]
+   }
+  ],
+  "in_class": [
+   "Slides: Production I",
+   "In-Class Exercise: J Dawgs"
+  ],
+  "comprehension_quiz": [
+   {
+    "quiz": "Quiz 7",
+    "q": [
+     4
+    ]
+   }
+  ],
+  "practice_exam": [],
+  "spreadsheet": "Production Exercise"
+ },
+ {
+  "id": "S15-02",
+  "session": 15,
+  "topic": "Production I",
+  "text": "Know and understand the following economic concept: total product",
+  "short": "total product",
+  "kind": "concept",
+  "read": "Ch. 5: Measures of Productivity",
+  "reading_quiz": [],
+  "in_class": [
+   "Slides: Production I",
+   "In-Class Exercise: J Dawgs"
+  ],
+  "comprehension_quiz": [
+   {
+    "quiz": "Quiz 7",
+    "q": [
+     1,
+     2,
+     3
+    ]
+   }
+  ],
+  "practice_exam": [
+   15
+  ],
+  "spreadsheet": "Production Exercise"
+ },
+ {
+  "id": "S15-03",
+  "session": 15,
+  "topic": "Production I",
+  "text": "Know and understand the following economic concept: average product",
+  "short": "average product",
+  "kind": "concept",
+  "read": "Ch. 5: Measures of Productivity",
+  "reading_quiz": [],
+  "in_class": [
+   "Slides: Production I",
+   "In-Class Exercise: J Dawgs"
+  ],
+  "comprehension_quiz": [],
+  "practice_exam": [
+   3,
+   15
+  ],
+  "spreadsheet": "Production Exercise"
+ },
+ {
+  "id": "S15-04",
+  "session": 15,
+  "topic": "Production I",
+  "text": "Know and understand the following economic concept: marginal product",
+  "short": "marginal product",
+  "kind": "concept",
+  "read": "Ch. 5: Measures of Productivity; Algebraic Measures of Productivity",
+  "reading_quiz": [
+   {
+    "quiz": "Session 15 quiz",
+    "q": [
+     2
+    ]
+   }
+  ],
+  "in_class": [
+   "Slides: Production I",
+   "In-Class Exercise: J Dawgs"
+  ],
+  "comprehension_quiz": [
+   {
+    "quiz": "Quiz 7",
+    "q": [
+     1
+    ]
+   }
+  ],
+  "practice_exam": [
+   1,
+   16
+  ],
+  "spreadsheet": "Production Exercise"
+ },
+ {
+  "id": "S15-05",
+  "session": 15,
+  "topic": "Production I",
+  "text": "Know and understand the following economic concept: increasing, decreasing, and negative marginal returns",
+  "short": "increasing, decreasing, and negative marginal returns",
+  "kind": "concept",
+  "read": "Ch. 5: Measures of Productivity",
+  "reading_quiz": [
+   {
+    "quiz": "Session 15 quiz",
+    "q": [
+     3
+    ]
+   }
+  ],
+  "in_class": [
+   "Slides: Production I",
+   "In-Class Exercise: J Dawgs"
+  ],
+  "comprehension_quiz": [
+   {
+    "quiz": "Quiz 7",
+    "q": [
+     2
+    ]
+   }
+  ],
+  "practice_exam": [
+   1,
+   16
+  ],
+  "spreadsheet": "Production Exercise"
+ },
+ {
+  "id": "S15-06",
+  "session": 15,
+  "topic": "Production I",
+  "text": "Know and understand the following economic concept: value marginal product",
+  "short": "value marginal product",
+  "kind": "concept",
+  "read": "Ch. 5: The Role of the Manager in the Production Process",
+  "reading_quiz": [
+   {
+    "quiz": "Session 15 quiz",
+    "q": [
+     4
+    ]
+   }
+  ],
+  "in_class": [
+   "Slides: Production I",
+   "In-Class Exercise: J Dawgs"
+  ],
+  "comprehension_quiz": [
+   {
+    "quiz": "Quiz 7",
+    "q": [
+     3
+    ]
+   }
+  ],
+  "practice_exam": [
+   2,
+   17
+  ],
+  "spreadsheet": "Production Exercise"
+ },
+ {
+  "id": "S15-07",
+  "session": 15,
+  "topic": "Production I",
+  "text": "Know and understand the following economic concept: linear production function",
+  "short": "linear production function",
+  "kind": "concept",
+  "read": "Ch. 5: Algebraic Forms of Production Functions",
+  "reading_quiz": [],
+  "in_class": [
+   "In-Class Exercise: Production Functions"
+  ],
+  "comprehension_quiz": [
+   {
+    "quiz": "Quiz 7",
+    "q": [
+     5
+    ]
+   }
+  ],
+  "practice_exam": [],
+  "spreadsheet": ""
+ },
+ {
+  "id": "S15-08",
+  "session": 15,
+  "topic": "Production I",
+  "text": "Know and understand the following economic concept: Leontief production function",
+  "short": "Leontief production function",
+  "kind": "concept",
+  "read": "Ch. 5: Algebraic Forms of Production Functions",
+  "reading_quiz": [],
+  "in_class": [
+   "In-Class Exercise: Production Functions"
+  ],
+  "comprehension_quiz": [],
+  "practice_exam": [],
+  "spreadsheet": ""
+ },
+ {
+  "id": "S15-09",
+  "session": 15,
+  "topic": "Production I",
+  "text": "Know and understand the following economic concept: Cobb-Douglas production function",
+  "short": "Cobb-Douglas production function",
+  "kind": "concept",
+  "read": "Ch. 5: Algebraic Forms of Production Functions; Algebraic Measures of Productivity",
+  "reading_quiz": [
+   {
+    "quiz": "Session 15 quiz",
+    "q": [
+     5
+    ]
+   }
+  ],
+  "in_class": [
+   "In-Class Exercise: Production Functions"
+  ],
+  "comprehension_quiz": [
+   {
+    "quiz": "Quiz 7",
+    "q": [
+     4,
+     6
+    ]
+   }
+  ],
+  "practice_exam": [
+   15,
+   16,
+   17,
+   18,
+   19,
+   20
+  ],
+  "spreadsheet": "Production Exercise"
+ },
+ {
+  "id": "S15-10",
+  "session": 15,
+  "topic": "Production I",
+  "text": "Know how to calculate the profit-maximizing input usage",
+  "short": "Know how to calculate the profit-maximizing input usage",
+  "kind": "skill",
+  "read": "Ch. 5: The Role of the Manager in the Production Process",
+  "reading_quiz": [
+   {
+    "quiz": "Session 15 quiz",
+    "q": [
+     4
+    ]
+   }
+  ],
+  "in_class": [
+   "Slides: Production I",
+   "In-Class Exercise: J Dawgs"
+  ],
+  "comprehension_quiz": [
+   {
+    "quiz": "Quiz 7",
+    "q": [
+     3
+    ]
+   }
+  ],
+  "practice_exam": [
+   2,
+   17
+  ],
+  "spreadsheet": "Production Exercise"
+ },
+ {
+  "id": "S15-11",
+  "session": 15,
+  "topic": "Production I",
+  "text": "Know and understand the characteristics of the linear, Leontief, and Cobb-Douglas production functions",
+  "short": "the characteristics of the linear, Leontief, and Cobb-Douglas production functions",
+  "kind": "apply",
+  "read": "Ch. 5: Algebraic Forms of Production Functions",
+  "reading_quiz": [
+   {
+    "quiz": "Session 15 quiz",
+    "q": [
+     5
+    ]
+   }
+  ],
+  "in_class": [
+   "In-Class Exercise: Production Functions"
+  ],
+  "comprehension_quiz": [
+   {
+    "quiz": "Quiz 7",
+    "q": [
+     5
+    ]
+   }
+  ],
+  "practice_exam": [],
+  "spreadsheet": ""
+ },
+ {
+  "id": "S16-01",
+  "session": 16,
+  "topic": "Production II",
+  "text": "Know and understand the following economic concept: isoquant",
+  "short": "isoquant",
+  "kind": "concept",
+  "read": "Ch. 5: Isoquants",
+  "reading_quiz": [
+   {
+    "quiz": "Session 16 quiz",
+    "q": [
+     1,
+     3
+    ]
+   }
+  ],
+  "in_class": [
+   "Slides: Production II",
+   "In-Class Exercise: Production Functions",
+   "In-Class Exercise: Cost Minimization"
+  ],
+  "comprehension_quiz": [
+   {
+    "quiz": "Quiz 7",
+    "q": [
+     6
+    ]
+   }
+  ],
+  "practice_exam": [
+   19
+  ],
+  "spreadsheet": "Production Exercise"
+ },
+ {
+  "id": "S16-02",
+  "session": 16,
+  "topic": "Production II",
+  "text": "Know and understand the following economic concept: marginal rate of technical substitution (MRTS)",
+  "short": "marginal rate of technical substitution (MRTS)",
+  "kind": "concept",
+  "read": "Ch. 5: Isoquants",
+  "reading_quiz": [
+   {
+    "quiz": "Session 16 quiz",
+    "q": [
+     2
+    ]
+   }
+  ],
+  "in_class": [
+   "Slides: Production II",
+   "In-Class Exercise: Production Functions",
+   "In-Class Exercise: Cost Minimization"
+  ],
+  "comprehension_quiz": [
+   {
+    "quiz": "Quiz 7",
+    "q": [
+     5
+    ]
+   }
+  ],
+  "practice_exam": [
+   19
+  ],
+  "spreadsheet": "Production Exercise"
+ },
+ {
+  "id": "S16-03",
+  "session": 16,
+  "topic": "Production II",
+  "text": "Know and understand the following economic concept: law of diminishing MRTS",
+  "short": "law of diminishing MRTS",
+  "kind": "concept",
+  "read": "Ch. 5: Isoquants",
+  "reading_quiz": [],
+  "in_class": [
+   "Slides: Production II",
+   "In-Class Exercise: Production Functions",
+   "In-Class Exercise: Cost Minimization"
+  ],
+  "comprehension_quiz": [],
+  "practice_exam": [],
+  "spreadsheet": ""
+ },
+ {
+  "id": "S16-04",
+  "session": 16,
+  "topic": "Production II",
+  "text": "Know and understand the following economic concept: isocost",
+  "short": "isocost",
+  "kind": "concept",
+  "read": "Ch. 5: Isocosts",
+  "reading_quiz": [
+   {
+    "quiz": "Session 16 quiz",
+    "q": [
+     4,
+     5
+    ]
+   }
+  ],
+  "in_class": [
+   "Slides: Production II",
+   "In-Class Exercise: Production Functions",
+   "In-Class Exercise: Cost Minimization"
+  ],
+  "comprehension_quiz": [
+   {
+    "quiz": "Quiz 7",
+    "q": [
+     9
+    ]
+   }
+  ],
+  "practice_exam": [
+   20
+  ],
+  "spreadsheet": "Production Exercise"
+ },
+ {
+  "id": "S16-05",
+  "session": 16,
+  "topic": "Production II",
+  "text": "Know and understand the cost-minimizing input rule",
+  "short": "the cost-minimizing input rule",
+  "kind": "apply",
+  "read": "Ch. 5: Cost Minimization",
+  "reading_quiz": [],
+  "in_class": [
+   "Slides: Production II",
+   "In-Class Exercise: Cost Minimization"
+  ],
+  "comprehension_quiz": [
+   {
+    "quiz": "Quiz 7",
+    "q": [
+     7,
+     8
+    ]
+   }
+  ],
+  "practice_exam": [
+   4,
+   18,
+   19
+  ],
+  "spreadsheet": "Production Exercise"
+ },
+ {
+  "id": "S16-06",
+  "session": 16,
+  "topic": "Production II",
+  "text": "Know and understand optimal input substitution",
+  "short": "optimal input substitution",
+  "kind": "apply",
+  "read": "Ch. 5: Optimal Input Substitution",
+  "reading_quiz": [
+   {
+    "quiz": "Session 16 quiz",
+    "q": [
+     5
+    ]
+   }
+  ],
+  "in_class": [
+   "Slides: Production II",
+   "In-Class Exercise: Cost Minimization"
+  ],
+  "comprehension_quiz": [
+   {
+    "quiz": "Quiz 7",
+    "q": [
+     9,
+     10
+    ]
+   }
+  ],
+  "practice_exam": [
+   18
+  ],
+  "spreadsheet": "Production Exercise"
+ },
+ {
+  "id": "S18-01",
+  "session": 18,
+  "topic": "Barriers to Entry",
+  "text": "Know and understand the following economic concept: economies of scale",
+  "short": "economies of scale",
+  "kind": "concept",
+  "read": "Module Group A: Module 1: Entry Prevention",
+  "reading_quiz": [],
+  "in_class": [
+   "Slides: Barriers to Entry"
+  ],
+  "comprehension_quiz": [],
+  "practice_exam": [],
+  "spreadsheet": "Barriers to Entry Exercise"
+ },
+ {
+  "id": "S18-02",
+  "session": 18,
+  "topic": "Barriers to Entry",
+  "text": "Know and understand the following economic concept: learning curves",
+  "short": "learning curves",
+  "kind": "concept",
+  "read": "Module Group A: Module 1: Entry Prevention",
+  "reading_quiz": [],
+  "in_class": [
+   "Slides: Barriers to Entry"
+  ],
+  "comprehension_quiz": [
+   {
+    "quiz": "Quiz 8",
+    "q": [
+     2
+    ]
+   }
+  ],
+  "practice_exam": [],
+  "spreadsheet": ""
+ },
+ {
+  "id": "S18-03",
+  "session": 18,
+  "topic": "Barriers to Entry",
+  "text": "Know and understand the following economic concept: economies of scope",
+  "short": "economies of scope",
+  "kind": "concept",
+  "read": "Module Group A: Module 1: Entry Prevention",
+  "reading_quiz": [],
+  "in_class": [
+   "Slides: Barriers to Entry"
+  ],
+  "comprehension_quiz": [],
+  "practice_exam": [],
+  "spreadsheet": ""
+ },
+ {
+  "id": "S18-04",
+  "session": 18,
+  "topic": "Barriers to Entry",
+  "text": "Know and understand the following economic concept: network effects",
+  "short": "network effects",
+  "kind": "concept",
+  "read": "Module Group A: Module 4: Overcoming Network Effects",
+  "reading_quiz": [
+   {
+    "quiz": "Session 18 quiz",
+    "q": [
+     5
+    ]
+   }
+  ],
+  "in_class": [
+   "Slides: Barriers to Entry"
+  ],
+  "comprehension_quiz": [
+   {
+    "quiz": "Quiz 8",
+    "q": [
+     3
+    ]
+   }
+  ],
+  "practice_exam": [],
+  "spreadsheet": "Barriers to Entry Exercise"
+ },
+ {
+  "id": "S18-05",
+  "session": 18,
+  "topic": "Barriers to Entry",
+  "text": "Know and understand the following economic concept: limit pricing",
+  "short": "limit pricing",
+  "kind": "concept",
+  "read": "Module Group A: Module 1: Entry Prevention",
+  "reading_quiz": [
+   {
+    "quiz": "Session 18 quiz",
+    "q": [
+     4
+    ]
+   }
+  ],
+  "in_class": [
+   "Slides: Barriers to Entry"
+  ],
+  "comprehension_quiz": [
+   {
+    "quiz": "Quiz 8",
+    "q": [
+     5
+    ]
+   }
+  ],
+  "practice_exam": [],
+  "spreadsheet": ""
+ },
+ {
+  "id": "S18-06",
+  "session": 18,
+  "topic": "Barriers to Entry",
+  "text": "Know and understand the following economic concept: predatory pricing",
+  "short": "predatory pricing",
+  "kind": "concept",
+  "read": "Module Group A: Module 2: Lessening Competition",
+  "reading_quiz": [],
+  "in_class": [
+   "Slides: Barriers to Entry"
+  ],
+  "comprehension_quiz": [],
+  "practice_exam": [],
+  "spreadsheet": ""
+ },
+ {
+  "id": "S18-07",
+  "session": 18,
+  "topic": "Barriers to Entry",
+  "text": "Know and understand the following economic concept: first-mover advantage",
+  "short": "first-mover advantage",
+  "kind": "concept",
+  "read": "Module Group A: Module 3: Restructuring Game Timing",
+  "reading_quiz": [],
+  "in_class": [
+   "Slides: Barriers to Entry"
+  ],
+  "comprehension_quiz": [],
+  "practice_exam": [
+   13
+  ],
+  "spreadsheet": ""
+ },
+ {
+  "id": "S18-08",
+  "session": 18,
+  "topic": "Barriers to Entry",
+  "text": "Know and understand the following economic concept: penetration pricing",
+  "short": "penetration pricing",
+  "kind": "concept",
+  "read": "Module Group A: Module 4: Overcoming Network Effects",
+  "reading_quiz": [],
+  "in_class": [
+   "Slides: Barriers to Entry"
+  ],
+  "comprehension_quiz": [],
+  "practice_exam": [
+   5
+  ],
+  "spreadsheet": ""
+ },
+ {
+  "id": "S18-09",
+  "session": 18,
+  "topic": "Barriers to Entry",
+  "text": "Know and understand common barriers to entry",
+  "short": "common barriers to entry",
+  "kind": "apply",
+  "read": "Module Group A: Module 1: Entry Prevention\nStrategies to Crack Well-Guarded Markets",
+  "reading_quiz": [
+   {
+    "quiz": "Session 18 quiz",
+    "q": [
+     3
+    ]
+   }
+  ],
+  "in_class": [
+   "Slides: Barriers to Entry"
+  ],
+  "comprehension_quiz": [
+   {
+    "quiz": "Quiz 8",
+    "q": [
+     1,
+     3
+    ]
+   }
+  ],
+  "practice_exam": [
+   22,
+   23,
+   29
+  ],
+  "spreadsheet": "Barriers to Entry Exercise"
+ },
+ {
+  "id": "S18-10",
+  "session": 18,
+  "topic": "Barriers to Entry",
+  "text": "Know and understand how companies can circumvent these barriers to enter profitable markets",
+  "short": "how companies can circumvent these barriers to enter profitable markets",
+  "kind": "apply",
+  "read": "Strategies to Crack Well-Guarded Markets",
+  "reading_quiz": [
+   {
+    "quiz": "Session 18 quiz",
+    "q": [
+     1,
+     2
+    ]
+   }
+  ],
+  "in_class": [
+   "Slides: Barriers to Entry"
+  ],
+  "comprehension_quiz": [
+   {
+    "quiz": "Quiz 8",
+    "q": [
+     4
+    ]
+   }
+  ],
+  "practice_exam": [
+   21
+  ],
+  "spreadsheet": "Barriers to Entry Exercise"
+ },
+ {
+  "id": "S19-01",
+  "session": 19,
+  "topic": "Game Theory I",
+  "text": "Know and understand the following economic concept: simultaneous-move games",
+  "short": "simultaneous-move games",
+  "kind": "concept",
+  "read": "Ch. 10: Overview of Games and Strategic Thinking",
+  "reading_quiz": [
+   {
+    "quiz": "Session 19 quiz",
+    "q": [
+     2
+    ]
+   }
+  ],
+  "in_class": [
+   "Slides: Game Theory I"
+  ],
+  "comprehension_quiz": [
+   {
+    "quiz": "Quiz 9",
+    "q": [
+     1,
+     2,
+     3
+    ]
+   }
+  ],
+  "practice_exam": [
+   6,
+   7,
+   8
+  ],
+  "spreadsheet": "Game Theory Exercise"
+ },
+ {
+  "id": "S19-02",
+  "session": 19,
+  "topic": "Game Theory I",
+  "text": "Know and understand the following economic concept: normal-form representation",
+  "short": "normal-form representation",
+  "kind": "concept",
+  "read": "Ch. 10: Simultaneous-Move, One-Shot Games",
+  "reading_quiz": [
+   {
+    "quiz": "Session 19 quiz",
+    "q": [
+     3
+    ]
+   }
+  ],
+  "in_class": [
+   "Slides: Game Theory I"
+  ],
+  "comprehension_quiz": [
+   {
+    "quiz": "Quiz 9",
+    "q": [
+     1
+    ]
+   }
+  ],
+  "practice_exam": [
+   6,
+   7,
+   24
+  ],
+  "spreadsheet": "Game Theory Exercise"
+ },
+ {
+  "id": "S19-03",
+  "session": 19,
+  "topic": "Game Theory I",
+  "text": "Know and understand the following economic concept: dominant strategy",
+  "short": "dominant strategy",
+  "kind": "concept",
+  "read": "Ch. 10: Simultaneous-Move, One-Shot Games",
+  "reading_quiz": [
+   {
+    "quiz": "Session 19 quiz",
+    "q": [
+     4
+    ]
+   }
+  ],
+  "in_class": [
+   "Slides: Game Theory I"
+  ],
+  "comprehension_quiz": [
+   {
+    "quiz": "Quiz 9",
+    "q": [
+     2
+    ]
+   }
+  ],
+  "practice_exam": [
+   6,
+   24
+  ],
+  "spreadsheet": "Game Theory Exercise"
+ },
+ {
+  "id": "S19-04",
+  "session": 19,
+  "topic": "Game Theory I",
+  "text": "Know and understand the following economic concept: Nash equilibrium",
+  "short": "Nash equilibrium",
+  "kind": "concept",
+  "read": "Ch. 10: Simultaneous-Move, One-Shot Games",
+  "reading_quiz": [
+   {
+    "quiz": "Session 19 quiz",
+    "q": [
+     5
+    ]
+   }
+  ],
+  "in_class": [
+   "Slides: Game Theory I"
+  ],
+  "comprehension_quiz": [
+   {
+    "quiz": "Quiz 9",
+    "q": [
+     3
+    ]
+   }
+  ],
+  "practice_exam": [
+   7,
+   24
+  ],
+  "spreadsheet": "Game Theory Exercise"
+ },
+ {
+  "id": "S19-05",
+  "session": 19,
+  "topic": "Game Theory I",
+  "text": "Know and understand the following economic concept: mixed (randomized) strategy",
+  "short": "mixed (randomized) strategy",
+  "kind": "concept",
+  "read": "Ch. 10: Simultaneous-Move, One-Shot Games",
+  "reading_quiz": [],
+  "in_class": [
+   "Slides: Game Theory I"
+  ],
+  "comprehension_quiz": [],
+  "practice_exam": [
+   10
+  ],
+  "spreadsheet": ""
+ },
+ {
+  "id": "S19-06",
+  "session": 19,
+  "topic": "Game Theory I",
+  "text": "Be able to apply game theoretic logic to business decisions including pricing, coordination, and advertising",
+  "short": "apply game theoretic logic to business decisions including pricing, coordination, and advertising",
+  "kind": "apply",
+  "read": "Ch. 10: Simultaneous-Move, One-Shot Games",
+  "reading_quiz": [
+   {
+    "quiz": "Session 19 quiz",
+    "q": [
+     1
+    ]
+   }
+  ],
+  "in_class": [
+   "Slides: Game Theory I"
+  ],
+  "comprehension_quiz": [
+   {
+    "quiz": "Quiz 9",
+    "q": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   }
+  ],
+  "practice_exam": [
+   8,
+   24
+  ],
+  "spreadsheet": "Game Theory Exercise"
+ },
+ {
+  "id": "S20-01",
+  "session": 20,
+  "topic": "Game Theory II",
+  "text": "Know and understand the following economic concept: infinitely repeated games",
+  "short": "infinitely repeated games",
+  "kind": "concept",
+  "read": "Ch. 10: Infinitely Repeated Games",
+  "reading_quiz": [],
+  "in_class": [
+   "Slides: Game Theory II"
+  ],
+  "comprehension_quiz": [
+   {
+    "quiz": "Quiz 9",
+    "q": [
+     7
+    ]
+   }
+  ],
+  "practice_exam": [
+   25
+  ],
+  "spreadsheet": ""
+ },
+ {
+  "id": "S20-02",
+  "session": 20,
+  "topic": "Game Theory II",
+  "text": "Know and understand the following economic concept: finitely repeated games",
+  "short": "finitely repeated games",
+  "kind": "concept",
+  "read": "Ch. 10: Finitely Repeated Games",
+  "reading_quiz": [],
+  "in_class": [
+   "Slides: Game Theory II"
+  ],
+  "comprehension_quiz": [],
+  "practice_exam": [
+   9,
+   12
+  ],
+  "spreadsheet": ""
+ },
+ {
+  "id": "S20-03",
+  "session": 20,
+  "topic": "Game Theory II",
+  "text": "Know and understand the following economic concept: trigger strategies",
+  "short": "trigger strategies",
+  "kind": "concept",
+  "read": "Ch. 10: Infinitely Repeated Games",
+  "reading_quiz": [],
+  "in_class": [
+   "Slides: Game Theory II"
+  ],
+  "comprehension_quiz": [
+   {
+    "quiz": "Quiz 9",
+    "q": [
+     7
+    ]
+   }
+  ],
+  "practice_exam": [
+   25
+  ],
+  "spreadsheet": ""
+ },
+ {
+  "id": "S20-04",
+  "session": 20,
+  "topic": "Game Theory II",
+  "text": "Know and understand the following economic concept: sequential games",
+  "short": "sequential games",
+  "kind": "concept",
+  "read": "Ch. 10: Multistage Games",
+  "reading_quiz": [
+   {
+    "quiz": "Session 20 quiz",
+    "q": [
+     3,
+     5
+    ]
+   }
+  ],
+  "in_class": [
+   "Slides: Game Theory II"
+  ],
+  "comprehension_quiz": [
+   {
+    "quiz": "Quiz 9",
+    "q": [
+     8,
+     9,
+     10
+    ]
+   }
+  ],
+  "practice_exam": [
+   27,
+   28
+  ],
+  "spreadsheet": "Game Theory Exercise"
+ },
+ {
+  "id": "S20-05",
+  "session": 20,
+  "topic": "Game Theory II",
+  "text": "Know and understand the following economic concept: extensive-form representation",
+  "short": "extensive-form representation",
+  "kind": "concept",
+  "read": "Ch. 10: Multistage Games",
+  "reading_quiz": [
+   {
+    "quiz": "Session 20 quiz",
+    "q": [
+     4
+    ]
+   }
+  ],
+  "in_class": [
+   "Slides: Game Theory II"
+  ],
+  "comprehension_quiz": [
+   {
+    "quiz": "Quiz 9",
+    "q": [
+     8,
+     9
+    ]
+   }
+  ],
+  "practice_exam": [
+   27
+  ],
+  "spreadsheet": "Game Theory Exercise"
+ },
+ {
+  "id": "S20-06",
+  "session": 20,
+  "topic": "Game Theory II",
+  "text": "Know and understand the following economic concept: subgame perfect equilibrium",
+  "short": "subgame perfect equilibrium",
+  "kind": "concept",
+  "read": "Ch. 10: Multistage Games",
+  "reading_quiz": [
+   {
+    "quiz": "Session 20 quiz",
+    "q": [
+     5
+    ]
+   }
+  ],
+  "in_class": [
+   "Slides: Game Theory II"
+  ],
+  "comprehension_quiz": [
+   {
+    "quiz": "Quiz 9",
+    "q": [
+     9,
+     10
+    ]
+   }
+  ],
+  "practice_exam": [
+   27,
+   28
+  ],
+  "spreadsheet": "Game Theory Exercise"
+ },
+ {
+  "id": "S20-07",
+  "session": 20,
+  "topic": "Game Theory II",
+  "text": "Know and understand the factors that influence the likelihood of collusion",
+  "short": "the factors that influence the likelihood of collusion",
+  "kind": "apply",
+  "read": "Ch. 10: Infinitely Repeated Games; Finitely Repeated Games",
+  "reading_quiz": [
+   {
+    "quiz": "Session 20 quiz",
+    "q": [
+     1,
+     2
+    ]
+   }
+  ],
+  "in_class": [
+   "Slides: Game Theory II"
+  ],
+  "comprehension_quiz": [
+   {
+    "quiz": "Quiz 9",
+    "q": [
+     7
+    ]
+   }
+  ],
+  "practice_exam": [
+   11,
+   12,
+   26
+  ],
+  "spreadsheet": ""
+ },
+ {
+  "id": "S20-08",
+  "session": 20,
+  "topic": "Game Theory II",
+  "text": "Know and understand how sequential games can be applied to business decisions such as market entry, innovation, and bargaining",
+  "short": "how sequential games can be applied to business decisions such as market entry, innovation, and bargaining",
+  "kind": "apply",
+  "read": "Ch. 10: Multistage Games",
+  "reading_quiz": [
+   {
+    "quiz": "Session 20 quiz",
+    "q": [
+     5
+    ]
+   }
+  ],
+  "in_class": [
+   "Slides: Game Theory II"
+  ],
+  "comprehension_quiz": [
+   {
+    "quiz": "Quiz 9",
+    "q": [
+     8,
+     9,
+     10
+    ]
+   }
+  ],
+  "practice_exam": [
+   13,
+   27,
+   28,
+   29
+  ],
+  "spreadsheet": "Game Theory Exercise"
+ },
+ {
+  "id": "S21-01",
+  "session": 21,
+  "topic": "Oligopoly I",
+  "text": "Know and understand the following economic concept: oligopoly",
+  "short": "oligopoly",
+  "kind": "concept",
+  "read": "Ch. 9: Conditions for Oligopoly",
+  "reading_quiz": [
+   {
+    "quiz": "Session 21 quiz",
+    "q": [
+     1
+    ]
+   }
+  ],
+  "in_class": [
+   "Slides: Oligopoly I"
+  ],
+  "comprehension_quiz": [
+   {
+    "quiz": "Quiz 10",
+    "q": [
+     4
+    ]
+   }
+  ],
+  "practice_exam": [
+   14
+  ],
+  "spreadsheet": ""
+ },
+ {
+  "id": "S21-02",
+  "session": 21,
+  "topic": "Oligopoly I",
+  "text": "Know and understand the following economic concept: Cournot oligopoly",
+  "short": "Cournot oligopoly",
+  "kind": "concept",
+  "read": "Ch. 9: Cournot Oligopoly",
+  "reading_quiz": [
+   {
+    "quiz": "Session 21 quiz",
+    "q": [
+     2,
+     4,
+     5
+    ]
+   }
+  ],
+  "in_class": [
+   "Slides: Oligopoly I"
+  ],
+  "comprehension_quiz": [
+   {
+    "quiz": "Quiz 10",
+    "q": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   }
+  ],
+  "practice_exam": [
+   14,
+   31,
+   32,
+   33,
+   34
+  ],
+  "spreadsheet": "Oligopoly Exercise"
+ },
+ {
+  "id": "S21-03",
+  "session": 21,
+  "topic": "Oligopoly I",
+  "text": "Know and understand the following economic concept: Stackelberg oligopoly",
+  "short": "Stackelberg oligopoly",
+  "kind": "concept",
+  "read": "Ch. 9: Stackelberg Oligopoly",
+  "reading_quiz": [
+   {
+    "quiz": "Session 22 quiz",
+    "q": [
+     4,
+     5
+    ]
+   }
+  ],
+  "in_class": [
+   "Slides: Oligopoly I"
+  ],
+  "comprehension_quiz": [
+   {
+    "quiz": "Quiz 10",
+    "q": [
+     6
+    ]
+   }
+  ],
+  "practice_exam": [
+   35
+  ],
+  "spreadsheet": "Oligopoly Exercise"
+ },
+ {
+  "id": "S21-04",
+  "session": 21,
+  "topic": "Oligopoly I",
+  "text": "Know and understand the following economic concept: reaction function",
+  "short": "reaction function",
+  "kind": "concept",
+  "read": "Ch. 9: Cournot Oligopoly",
+  "reading_quiz": [
+   {
+    "quiz": "Session 21 quiz",
+    "q": [
+     3
+    ]
+   }
+  ],
+  "in_class": [
+   "Slides: Oligopoly I"
+  ],
+  "comprehension_quiz": [
+   {
+    "quiz": "Quiz 10",
+    "q": [
+     1
+    ]
+   }
+  ],
+  "practice_exam": [
+   31,
+   36
+  ],
+  "spreadsheet": "Oligopoly Exercise"
+ },
+ {
+  "id": "S21-05",
+  "session": 21,
+  "topic": "Oligopoly I",
+  "text": "Be able to identify the conditions under which a firm operates in a Cournot or Stackelberg oligopoly",
+  "short": "identify the conditions under which a firm operates in a Cournot or Stackelberg oligopoly",
+  "kind": "apply",
+  "read": "Ch. 9: Conditions for Oligopoly; Cournot Oligopoly; Stackelberg Oligopoly",
+  "reading_quiz": [
+   {
+    "quiz": "Session 21 quiz",
+    "q": [
+     2,
+     4
+    ]
+   }
+  ],
+  "in_class": [
+   "Slides: Oligopoly I"
+  ],
+  "comprehension_quiz": [
+   {
+    "quiz": "Quiz 10",
+    "q": [
+     4,
+     5
+    ]
+   }
+  ],
+  "practice_exam": [
+   14
+  ],
+  "spreadsheet": "Oligopoly Exercise"
+ },
+ {
+  "id": "S21-06",
+  "session": 21,
+  "topic": "Oligopoly I",
+  "text": "Be able to determine optimal decisions and likely competitor responses in a Cournot or Stackelberg oligopoly",
+  "short": "determine optimal decisions and likely competitor responses in a Cournot or Stackelberg oligopoly",
+  "kind": "skill",
+  "read": "Ch. 9: Cournot Oligopoly; Stackelberg Oligopoly",
+  "reading_quiz": [
+   {
+    "quiz": "Session 21 quiz",
+    "q": [
+     5
+    ]
+   }
+  ],
+  "in_class": [
+   "Slides: Oligopoly I"
+  ],
+  "comprehension_quiz": [
+   {
+    "quiz": "Quiz 10",
+    "q": [
+     1,
+     2,
+     3,
+     5,
+     6
+    ]
+   }
+  ],
+  "practice_exam": [
+   31,
+   32,
+   33,
+   34,
+   35
+  ],
+  "spreadsheet": "Oligopoly Exercise"
+ },
+ {
+  "id": "S22-01",
+  "session": 22,
+  "topic": "Oligopoly II",
+  "text": "Know and understand the following economic concept: standard Bertrand oligopoly",
+  "short": "standard Bertrand oligopoly",
+  "kind": "concept",
+  "read": "Ch. 9: Bertrand Oligopoly; Comparing Oligopoly Models\nRivalry in Oligopoly",
+  "reading_quiz": [
+   {
+    "quiz": "Session 22 quiz",
+    "q": [
+     1,
+     3
+    ]
+   }
+  ],
+  "in_class": [
+   "Slides: Oligopoly II"
+  ],
+  "comprehension_quiz": [
+   {
+    "quiz": "Quiz 10",
+    "q": [
+     7,
+     8
+    ]
+   }
+  ],
+  "practice_exam": [
+   30
+  ],
+  "spreadsheet": "Oligopoly Exercise"
+ },
+ {
+  "id": "S22-02",
+  "session": 22,
+  "topic": "Oligopoly II",
+  "text": "Know and understand the following economic concept: differentiated Bertrand oligopoly",
+  "short": "differentiated Bertrand oligopoly",
+  "kind": "concept",
+  "read": "Ch. 9: Appendix: Differentiated-Product Bertrand Oligopoly\nRivalry in Oligopoly",
+  "reading_quiz": [
+   {
+    "quiz": "Session 22 quiz",
+    "q": [
+     2
+    ]
+   }
+  ],
+  "in_class": [
+   "Slides: Oligopoly II"
+  ],
+  "comprehension_quiz": [
+   {
+    "quiz": "Quiz 10",
+    "q": [
+     9,
+     10
+    ]
+   }
+  ],
+  "practice_exam": [
+   36,
+   37,
+   38
+  ],
+  "spreadsheet": "Oligopoly Exercise"
+ },
+ {
+  "id": "S22-03",
+  "session": 22,
+  "topic": "Oligopoly II",
+  "text": "Be able to identify the conditions under which a firm operates in a standard or differentiated Bertrand oligopoly",
+  "short": "identify the conditions under which a firm operates in a standard or differentiated Bertrand oligopoly",
+  "kind": "apply",
+  "read": "Rivalry in Oligopoly: Determining Market Structure and Competition",
+  "reading_quiz": [
+   {
+    "quiz": "Session 22 quiz",
+    "q": [
+     1,
+     2
+    ]
+   }
+  ],
+  "in_class": [
+   "Slides: Oligopoly II"
+  ],
+  "comprehension_quiz": [
+   {
+    "quiz": "Quiz 10",
+    "q": [
+     8,
+     9
+    ]
+   }
+  ],
+  "practice_exam": [
+   14,
+   30
+  ],
+  "spreadsheet": "Oligopoly Exercise"
+ },
+ {
+  "id": "S22-04",
+  "session": 22,
+  "topic": "Oligopoly II",
+  "text": "Be able to determine optimal decisions and likely competitor responses in a standard or differentiated Bertrand oligopoly",
+  "short": "determine optimal decisions and likely competitor responses in a standard or differentiated Bertrand oligopoly",
+  "kind": "skill",
+  "read": "Ch. 9: Bertrand Oligopoly; Appendix: Differentiated-Product Bertrand Oligopoly",
+  "reading_quiz": [
+   {
+    "quiz": "Session 22 quiz",
+    "q": [
+     3
+    ]
+   }
+  ],
+  "in_class": [
+   "Slides: Oligopoly II"
+  ],
+  "comprehension_quiz": [
+   {
+    "quiz": "Quiz 10",
+    "q": [
+     7,
+     9,
+     10
+    ]
+   }
+  ],
+  "practice_exam": [
+   36,
+   37,
+   38
+  ],
+  "spreadsheet": "Oligopoly Exercise"
+ }
+]

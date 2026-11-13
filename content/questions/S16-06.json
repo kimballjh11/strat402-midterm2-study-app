@@ -1,0 +1,288 @@
+[
+ {
+  "id": "S16-06-q001",
+  "los": [
+   "S16-06"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "When the price of an input rises, a cost-minimizing firm will:",
+  "choices": [
+   "Keep the same mix",
+   "Use less of that input and more of the other",
+   "Use more of that input",
+   "Use less of both inputs at the same output"
+  ],
+  "answer": 1,
+  "explain": "The firm substitutes toward the input that became relatively cheaper.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-06-q002",
+  "los": [
+   "S16-06"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: In the in-class exercise, if the rental rate on capital increases, the firm should use less capital and more labor.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explain": "True. That is the professor's answer to question 3.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-06-q003",
+  "los": [
+   "S16-06"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "For a Leontief production function, how does the cost-minimizing input mix respond to a higher wage?",
+  "choices": [
+   "Less labor, more capital",
+   "More labor, less capital",
+   "The firm uses only capital",
+   "It does not change; inputs are used in fixed proportions"
+  ],
+  "answer": 3,
+  "explain": "With no substitution the mix is fixed by the recipe. Total cost rises, but the ratio stays the same.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-06-q004",
+  "los": [
+   "S16-06"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "For a linear production function, the cost-minimizing mix is usually:",
+  "choices": [
+   "A corner: only the input with the higher MP per dollar",
+   "Equal amounts of both inputs",
+   "A tangency with both inputs",
+   "Whatever the firm used before"
+  ],
+  "answer": 0,
+  "explain": "Linear isoquants are straight, so the cheapest point is at an end: all of the input with the higher MP/price.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-06-q005",
+  "los": [
+   "S16-06"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: A wage cut makes the isocost line flatter, so the tangency with the isoquant moves to a point with more labor and less capital.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explain": "True.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-06-q006",
+  "los": [
+   "S16-06"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "\\(Q = 10K^{0.5}L^{0.5}\\), target Q = 100, w = $40, r = $10. What is the cost-minimizing amount of labor?",
+  "answer": 5,
+  "unit": "units of labor",
+  "tol": 0.01,
+  "explain": "Tangency: K/L = w/r = 4, so K = 4L. Then 10√(4L·L) = 20L = 100, L = 5.",
+  "verify": {
+   "f": "costmin_L",
+   "A": 10,
+   "a": 0.5,
+   "b": 0.5,
+   "Q": 100,
+   "w": 40,
+   "r": 10
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-06-q007",
+  "los": [
+   "S16-06"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Same setup (\\(Q = 10K^{0.5}L^{0.5}\\), Q = 100, w = $40, r = $10). What is the minimum total cost?",
+  "answer": 400,
+  "unit": "$",
+  "tol": 0.01,
+  "explain": "L = 5, K = 20. C = 40(5) + 10(20) = $400. That matches the slides' table: (5, 20) is the only mix with equal bang for the buck.",
+  "verify": {
+   "f": "costmin_C",
+   "A": 10,
+   "a": 0.5,
+   "b": 0.5,
+   "Q": 100,
+   "w": 40,
+   "r": 10
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-06-q008",
+  "los": [
+   "S16-06"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Same setup, but the rental rate rises from $10 to $40. What is the new cost-minimizing amount of capital?",
+  "answer": 10,
+  "unit": "units of capital",
+  "tol": 0.01,
+  "explain": "Now K/L = 40/40 = 1, so K = L. 10L = 100, L = 10, K = 10. Capital fell from 20 to 10 because it got more expensive.",
+  "verify": {
+   "f": "costmin_K",
+   "A": 10,
+   "a": 0.5,
+   "b": 0.5,
+   "Q": 100,
+   "w": 40,
+   "r": 40
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-06-q009",
+  "los": [
+   "S16-06"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "\\(Q = 2K^{0.5}L^{0.5}\\), target Q = 200, w = $16, r = $4. What is the cost-minimizing amount of capital?",
+  "answer": 200,
+  "unit": "units of capital",
+  "tol": 0.01,
+  "explain": "K = (w/r)L = 4L. 2 × 2L = 200, L = 50, K = 200.",
+  "verify": {
+   "f": "costmin_K",
+   "A": 2,
+   "a": 0.5,
+   "b": 0.5,
+   "Q": 200,
+   "w": 16,
+   "r": 4
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-06-q010",
+  "los": [
+   "S16-06",
+   "S15-07"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "\\(Q = 4K + 2L\\). w = $10 and r = $30. What is the lowest cost of producing 120 units?",
+  "answer": 600.0,
+  "unit": "$",
+  "tol": 0.01,
+  "explain": "Compare per dollar: MP_K/r = 4/30 = 0.133, MP_L/w = 2/10 = 0.2. Labor is the better deal, so use only labor: L = 120/2 = 60, cost = 60 × $10 = $600. Using only capital would cost 30 × $30 = $900.",
+  "verify": {
+   "f": "linear_cost",
+   "a": 4,
+   "b": 2,
+   "Q": 120,
+   "w": 10,
+   "r": 30
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-06-q011",
+  "los": [
+   "S16-06",
+   "S15-08"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "\\(Q = \\min(2K, 4L)\\). w = $20 and r = $50. What is the lowest cost of producing 80 units?",
+  "answer": 2400,
+  "unit": "$",
+  "tol": 0.01,
+  "explain": "Fixed proportions: L = Q/4 = 20 and K = Q/2 = 40. Cost = 20(20) + 50(40) = 400 + 2,000 = $2,400. Prices do not change the mix.",
+  "verify": {
+   "f": "leontief_cost",
+   "a": 2,
+   "b": 4,
+   "Q": 80,
+   "w": 20,
+   "r": 50
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-06-q012",
+  "los": [
+   "S16-06"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Minimum wages rise sharply in a city. Fast food chains respond by installing ordering kiosks. This is an example of:",
+  "choices": [
+   "A parallel shift of the isocost line",
+   "Diminishing marginal returns to labor",
+   "A Leontief technology",
+   "Optimal input substitution toward capital"
+  ],
+  "answer": 3,
+  "explain": "Labor got relatively more expensive, so firms substitute capital (kiosks) for labor. Leontief would not allow substitution.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-06-q013",
+  "los": [
+   "S16-06"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Klarna learns AI assistant hours are getting cheaper while agent wages hold steady. To minimize cost at the same output, Klarna should:",
+  "choices": [
+   "Cut both inputs",
+   "Keep the mix unchanged",
+   "Use more agent hours and fewer AI hours",
+   "Use more AI hours and fewer agent hours"
+  ],
+  "answer": 3,
+  "explain": "A lower r raises MP_K/r, so capital (AI hours) is a better deal; substitute toward it.",
+  "source": "generated",
+  "verbatim": false
+ }
+]

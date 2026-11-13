@@ -1,0 +1,54 @@
+{
+ "id": "S15-01",
+ "title": "Production function",
+ "calc": false,
+ "plain": "A business turns **inputs** into **output**. A hot dog stand turns grills (capital) and workers (labor) into hot dogs. A **production function** is the rule that says how much output you can get from a given amount of inputs:\n$$Q = f(K, L)$$\n\\(Q\\) is output, \\(K\\) is units of capital (machines, grills, buildings), \\(L\\) is units of labor (workers or hours). The function stands for the **technology**: the recipe for turning inputs into output.\n\nThe word that matters is **maximum**. The production function gives the most output possible from those inputs, assuming nobody wastes effort. A real firm can produce less than that by being sloppy. The manager's first job is to get the firm onto the production function.\n\n**Short run versus long run.** In the short run at least one input is fixed. J Dawgs has 2 grills and cannot add a third this afternoon, so capital is fixed at \\(K = 2\\) and the only choice is how many workers to hire. In the long run every input can change: the firm can buy more grills, build a bigger stand, or change the mix of capital and labor. Session 15 is mostly short run (choose \\(L\\) with \\(K\\) fixed). Session 16 is the long run (choose the best mix of \\(K\\) and \\(L\\)).",
+ "why": "The slides list three jobs for a strategist. Short run: (1) operate at maximum efficiency, which means producing on the production function, and (2) use the right amount of each input. Long run: (3) use the optimal mix of inputs. Every later calculation in production starts from the production function.",
+ "definition": "A production function defines the relationship between inputs and outputs: the maximum level of output that can be produced with a given amount of inputs, written \\(Q = f(K, L)\\).",
+ "formulas": [
+  {
+   "name": "Production function",
+   "tex": "Q = f(K, L)",
+   "onSheet": false,
+   "note": "K = units of capital, L = units of labor. The sheet lists specific forms (linear, Cobb-Douglas) but not this general definition."
+  }
+ ],
+ "derivation": "",
+ "math": [],
+ "worked": [
+  {
+   "title": "Reading a production function",
+   "problem": "J Dawgs' production function with 2 grills is \\(Q = -0.5L^3 + 4L^2 + 3.5L\\). How many hot dogs can 3 workers make? Is this short run or long run?",
+   "steps": [
+    "Plug in \\(L = 3\\): \\(-0.5(27) + 4(9) + 3.5(3) = -13.5 + 36 + 10.5\\).",
+    "\\(Q = 33\\) hot dogs. This matches the professor's J Dawgs table.",
+    "Capital is fixed at 2 grills, so this is the short run. Only labor can change."
+   ],
+   "answer": "33 hot dogs, short run."
+  }
+ ],
+ "graph": {
+  "component": "production",
+  "params": {
+   "form": "cubic",
+   "a": 3.5,
+   "b": 4,
+   "c": 0.5,
+   "P": 4,
+   "w": 8
+  },
+  "caption": "J Dawgs as a smooth curve: \\(Q = -0.5L^3 + 4L^2 + 3.5L\\) with 2 grills. Each point on the top curve is the maximum output for that many workers. The readout L* uses calculus on the smooth curve, so it says 5.51; the professor's table answer is 6 whole workers."
+ },
+ "traps": [
+  "The production function is the MAXIMUM output, not any output, not the output per worker (that is average product), and not the change from one more worker (that is marginal product).",
+  "It is not a cost function. The minimum cost of producing a given output is a different idea (Session 16, cost minimization).",
+  "Short run means at least one input is fixed, not a specific number of months. If the question says capital cannot change, it is the short run.",
+  "In \\(Q = f(K, L)\\), K is capital and L is labor. Do not swap them when you take derivatives later."
+ ],
+ "sources": {
+  "slides": "S15 Production I, pp. 19, 20, 22",
+  "read": "Ch. 5 pp. 138 to 140",
+  "exercise": "J Dawgs (capital fixed at 2 grills)",
+  "quiz": "Reading Quiz Q1; Comprehension Quiz 7 Q4"
+ }
+}

@@ -1,0 +1,131 @@
+{
+ "source": "S19/Session 19 Reading Quiz (attempt 2).html",
+ "title": "Session 19: Reading Quiz",
+ "questions": [
+  {
+   "n": 1,
+   "qid": "question_7307688",
+   "type": "multiple_choice_question",
+   "text": "Game theory is especially useful for analysis in which of the following market structures?",
+   "answers": [
+    {
+     "text": "Perfect competition",
+     "correct": false,
+     "comment": ""
+    },
+    {
+     "text": "Monopoly",
+     "correct": false,
+     "comment": ""
+    },
+    {
+     "text": "Oligopoly",
+     "correct": true,
+     "comment": ""
+    },
+    {
+     "text": "Monopolistic competition",
+     "correct": false,
+     "comment": ""
+    }
+   ],
+   "feedback": [
+    "Correct! Game theory is a general framework used to make managerial decisions where your actions (as a firm) depend on the actions of other players (i.e. other firms). These competitive dynamics generally model actions taken by firms that compete in oligopolistic markets, where the actions of one firm will have significant impact on the profits and decisions of rivals."
+   ]
+  },
+  {
+   "n": 2,
+   "qid": "question_7307689",
+   "type": "true_false_question",
+   "text": "A simultaneous-move game is a game in which one player makes a move after observing the other player's move.",
+   "answers": [
+    {
+     "text": "True",
+     "correct": false,
+     "comment": ""
+    },
+    {
+     "text": "False",
+     "correct": true,
+     "comment": ""
+    }
+   ],
+   "feedback": [
+    "Correct! That describes a sequential-move game. A simultaneous-move game is a game in which each player makes decisions without the knowledge of the other players' decisions."
+   ]
+  },
+  {
+   "n": 3,
+   "qid": "question_7307690",
+   "type": "multiple_choice_question",
+   "text": "The normal-form representation of a game contains which of the following game theoretic elements?",
+   "answers": [
+    {
+     "text": "A list of players",
+     "correct": false,
+     "comment": ""
+    },
+    {
+     "text": "A set of possible strategies",
+     "correct": false,
+     "comment": ""
+    },
+    {
+     "text": "A set of corresponding payoffs",
+     "correct": false,
+     "comment": ""
+    },
+    {
+     "text": "All of the above",
+     "correct": true,
+     "comment": ""
+    }
+   ],
+   "feedback": [
+    "Correct! The normal-form representation of a game indicates the players in the game, their possible strategies, and the payoffs associated with each possible strategy."
+   ]
+  },
+  {
+   "n": 4,
+   "qid": "question_7307691",
+   "type": "true_false_question",
+   "text": "A dominant strategy is a strategy that results in the highest payoff to a player regardless of the opponent's action.",
+   "answers": [
+    {
+     "text": "True",
+     "correct": true,
+     "comment": ""
+    },
+    {
+     "text": "False",
+     "correct": false,
+     "comment": ""
+    }
+   ],
+   "feedback": [
+    "Correct! A dominant strategy is a strategy that results in the highest payoff to a player regardless of the opponent's action."
+   ]
+  },
+  {
+   "n": 5,
+   "qid": "question_7307692",
+   "type": "true_false_question",
+   "text": "A Nash equilibrium is a condition describing a set of strategies where both players can improve their payoffs by unilaterally changing their strategy.",
+   "answers": [
+    {
+     "text": "True",
+     "correct": false,
+     "comment": ""
+    },
+    {
+     "text": "False",
+     "correct": true,
+     "comment": ""
+    }
+   ],
+   "feedback": [
+    "Correct! This statement would be true if it said that \"no player\" rather than \"both players\" could improve his or her payoff by changing his or her strategy."
+   ]
+  }
+ ]
+}

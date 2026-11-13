@@ -1,0 +1,29 @@
+{
+  "build_sessions": [
+    15,
+    16,
+    18,
+    19,
+    20,
+    21,
+    22
+  ],
+  "pending_sessions": [],
+  "min_questions_per_objective": 15,
+  "mastery": {
+    "window": 10,
+    "required_correct": 9
+  },
+  "mock": {
+    "conceptual": 25,
+    "case_parts": 34,
+    "all_mc": true,
+    "note": "Real exam: 59 MC questions, 25 conceptual (1 pt) + 34 application in short cases (2-4 pts), 100 pts. Practice Midterm 2 is an external tool quiz, not exportable. The mock is untimed by the user's choice (Nov 12)."
+  },
+  "topic_weights": {
+    "production": 0.26,
+    "barriers": 0.13,
+    "game_theory": 0.34,
+    "oligopoly": 0.27
+  }
+}

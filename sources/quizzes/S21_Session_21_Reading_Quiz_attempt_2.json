@@ -1,0 +1,141 @@
+{
+ "source": "Canvas: Session 21 Reading Quiz (attempt 2), quiz 656561 history version 2",
+ "title": "Session 21: Reading Quiz",
+ "questions": [
+  {
+   "n": 1,
+   "qid": "question_7314141",
+   "type": "multiple_choice_question",
+   "text": "Which of the following U.S. industries would not be considered an oligopoly?",
+   "answers": [
+    {
+     "text": "Wireless telecommunications industry (i.e. cell phones)",
+     "correct": false,
+     "comment": ""
+    },
+    {
+     "text": "Credit card industry",
+     "correct": false,
+     "comment": ""
+    },
+    {
+     "text": "Airline industry",
+     "correct": false,
+     "comment": ""
+    },
+    {
+     "text": "Self-storage industry",
+     "correct": true,
+     "comment": ""
+    }
+   ],
+   "feedback": [
+    "Correct! While the self-storage industry does have some big companies like Public Storage and Extra Space Storage, most self-storage companies (in the thousands) are locally owned. The main competitors in the airline industry include American, Delta, Southwest, and United. The main competitors in the credit card industry are American Express, Discover, Mastercard, and Visa. The main competitors in the wireless telecommunications industry include AT&T, T-Mobile, and Verizon."
+   ]
+  },
+  {
+   "n": 2,
+   "qid": "question_7314152",
+   "type": "multiple_choice_question",
+   "text": "In which of the following oligopoly models do firms compete on quantity?",
+   "answers": [
+    {
+     "text": "Stackelberg",
+     "correct": false,
+     "comment": ""
+    },
+    {
+     "text": "Bertrand",
+     "correct": false,
+     "comment": ""
+    },
+    {
+     "text": "Cournot",
+     "correct": true,
+     "comment": ""
+    },
+    {
+     "text": "None of these",
+     "correct": false,
+     "comment": ""
+    }
+   ],
+   "feedback": [
+    "Correct! In a Cournot oligopoly, firms compete by determining the optimal level of quantity to produce (e.g., oil industry)."
+   ]
+  },
+  {
+   "n": 3,
+   "qid": "question_7314153",
+   "type": "true_false_question",
+   "text": "True or false. A best-response or reaction function for a Cournot oligopoly defines the profit-maximizing level of output for a firm for given input levels of another firm.",
+   "answers": [
+    {
+     "text": "True",
+     "correct": false,
+     "comment": ""
+    },
+    {
+     "text": "False",
+     "correct": true,
+     "comment": ""
+    }
+   ],
+   "feedback": [
+    "Correct! A best-response or reaction function defines the profit-maximizing level of output for a firm for given output levels of another firm."
+   ]
+  },
+  {
+   "n": 4,
+   "qid": "question_7314154",
+   "type": "true_false_question",
+   "text": "True or false. The following scenario best reflects features of a Cournot oligopoly: Each manager charges a price that is a best response to the price charged by the rival.",
+   "answers": [
+    {
+     "text": "True",
+     "correct": false,
+     "comment": ""
+    },
+    {
+     "text": "False",
+     "correct": true,
+     "comment": ""
+    }
+   ],
+   "feedback": [
+    "Correct! This statement would be true if each manager produced a quantity that is the best response to the quantity produced by the rival."
+   ]
+  },
+  {
+   "n": 5,
+   "qid": "question_7314155",
+   "type": "multiple_choice_question",
+   "text": "Collusion in a Cournot oligopoly is difficult to achieve because _______.",
+   "answers": [
+    {
+     "text": "it is often prohibited by law",
+     "correct": false,
+     "comment": ""
+    },
+    {
+     "text": "Both: every firm has an incentive to cheat, and collusion is often prohibited by law",
+     "correct": true,
+     "comment": ""
+    },
+    {
+     "text": "None of these",
+     "correct": false,
+     "comment": ""
+    },
+    {
+     "text": "every firm has an incentive to cheat given that others follow the agreement",
+     "correct": false,
+     "comment": ""
+    }
+   ],
+   "feedback": [
+    "Correct! Collusion is difficult to achieve because it is prohibited by law AND because every firm has an incentive to cheat given that others follow the agreement."
+   ]
+  }
+ ]
+}

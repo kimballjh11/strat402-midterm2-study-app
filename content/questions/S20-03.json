@@ -1,0 +1,270 @@
+[
+ {
+  "id": "S20-03-q001",
+  "los": [
+   "S20-03"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "A trigger strategy is:",
+  "choices": [
+   "A strategy chosen at random",
+   "The first move in a sequential game",
+   "A strategy that never changes",
+   "A strategy contingent on past play, in which a particular past action triggers a different action"
+  ],
+  "answer": 3,
+  "explain": "Slides p. 31.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-03-q002",
+  "los": [
+   "S20-03"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Under a grim trigger strategy, what does a firm do after its rival cheats once?",
+  "choices": [
+   "Plays the one-shot Nash (punishment) strategy forever",
+   "Exits the market",
+   "Cheats once, then cooperates",
+   "Forgives it next period"
+  ],
+  "answer": 0,
+  "explain": "The threat of permanent punishment is what makes cheating unattractive.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-03-q003",
+  "los": [
+   "S20-03"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "In i* = (π_c − π_n) / (π_d − π_c), what does the denominator measure?",
+  "choices": [
+   "The per-period loss from punishment",
+   "The interest rate",
+   "The one-time gain from cheating",
+   "The collusive payoff"
+  ],
+  "answer": 2,
+  "explain": "Cheat payoff minus collusive payoff, earned once.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-03-q004",
+  "los": [
+   "S20-03"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Collusion with trigger strategies is sustainable when the interest rate is:",
+  "choices": [
+   "At or below the threshold i*",
+   "Above the threshold i*",
+   "Any value",
+   "Exactly zero only"
+  ],
+  "answer": 0,
+  "explain": "Low interest rates make the future punishment matter.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-03-q005",
+  "los": [
+   "S20-03"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: For a trigger strategy to work, cheating must be detected so the rival knows to punish.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explain": "True. Undetected cheating cannot trigger punishment.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-03-q006",
+  "los": [
+   "S20-03",
+   "S20-01"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Kellogg's versus General Mills (slides p. 35):\n\n| Kellogg's \\ General Mills | Don't advertise | Advertise |\n|---|---|---|\n| Don't advertise | 12, 12 | -1, 15 |\n| Advertise | 15, -1 | 2, 2 |\n\nAt what interest rate is Kellogg's indifferent between colluding and cheating? Answer as a decimal.",
+  "answer": 3.33,
+  "unit": "",
+  "tol": 0.01,
+  "explain": "15 + 2/i = 12 + 12/i, so 3 = 10/i and i = 10/3 = 3.33 (333%).",
+  "verify": {
+   "f": "istar",
+   "c": 12,
+   "d": 15,
+   "n": 2
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-03-q007",
+  "los": [
+   "S20-03"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Comprehension Quiz 9 Q6 numbers: collude 4, cheat 44 once, punishment 0. What is the highest interest rate at which collusion holds? Answer as a decimal.",
+  "answer": 0.1,
+  "unit": "",
+  "tol": 0.01,
+  "explain": "i* = (4 − 0) / (44 − 4) = 4/40 = 0.10. At 12% the firm defects.",
+  "verify": {
+   "f": "istar",
+   "c": 4,
+   "d": 44,
+   "n": 0
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-03-q008",
+  "los": [
+   "S20-03"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Colluding pays $20 per period. Cheating pays $45 once, then $5 per period forever. What is the highest interest rate at which collusion holds? Answer as a decimal.",
+  "answer": 0.6,
+  "unit": "",
+  "tol": 0.01,
+  "explain": "i* = (20 − 5) / (45 − 20) = 15/25 = 0.60.",
+  "verify": {
+   "f": "istar",
+   "c": 20,
+   "d": 45,
+   "n": 5
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-03-q009",
+  "los": [
+   "S20-03"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Two shipping firms collude and each earns $8 million per year. A cheater earns $14 million once, then $2 million per year forever. Find i*. Answer as a decimal.",
+  "answer": 1.0,
+  "unit": "",
+  "tol": 0.01,
+  "explain": "i* = (8 − 2) / (14 − 8) = 6/6 = 1.0 (100%).",
+  "verify": {
+   "f": "istar",
+   "c": 8,
+   "d": 14,
+   "n": 2
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-03-q010",
+  "los": [
+   "S20-03"
+  ],
+  "type": "mc",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Collude pays 10 per period; cheat pays 30 once, then 4 forever. At i = 40%, should a firm collude?",
+  "choices": [
+   "Yes: i* = 0.30, so collusion holds",
+   "No: cheating always wins",
+   "Yes: 10 + 10/0.4 = 35 beats 30",
+   "No: i* = 0.30, so 40% is too high"
+  ],
+  "answer": 3,
+  "explain": "i* = (10 − 4)/(30 − 10) = 0.30. Check: collude 10 + 10/0.4 = 35; cheat 30 + 4/0.4 = 40. Cheat wins.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-03-q011",
+  "los": [
+   "S20-03"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A firm can raise the payoff it gets in the punishment phase (for example, by having a cheaper backup product). What does that do to collusion?",
+  "choices": [
+   "Makes cheating impossible",
+   "No effect on i*",
+   "Makes collusion easier",
+   "Makes collusion harder: punishment hurts less, so i* falls"
+  ],
+  "answer": 3,
+  "explain": "π_n rises, so (π_c − π_n) falls and so does i*.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-03-q012",
+  "los": [
+   "S20-03",
+   "S20-07"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A price-matching guarantee punishes a rival's price cut automatically. How does this relate to trigger strategies?",
+  "choices": [
+   "It is a mixed strategy",
+   "It makes cheating more profitable",
+   "It makes punishment fast and certain, supporting collusion",
+   "It ends the repeated game"
+  ],
+  "answer": 2,
+  "explain": "A punishment mechanism (slides p. 37).",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-03-q013",
+  "los": [
+   "S20-03"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Why must a trigger-strategy punishment be the one-shot Nash outcome (or something else each firm would actually carry out)?",
+  "choices": [
+   "Otherwise the threat to punish is not credible",
+   "Because the game is finite",
+   "Because punishments must be illegal",
+   "Because the slides require it"
+  ],
+  "answer": 0,
+  "explain": "The one-shot Nash outcome has each firm best-responding, so it will really happen.",
+  "source": "generated",
+  "verbatim": false
+ }
+]

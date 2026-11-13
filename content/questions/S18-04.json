@@ -1,0 +1,223 @@
+[
+ {
+  "id": "S18-04-q001",
+  "los": [
+   "S18-04"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Network effects exist when:",
+  "choices": [
+   "Producing two products together lowers cost",
+   "Cost per unit falls with cumulative output",
+   "A product becomes more valuable to each user as more people use it",
+   "Average cost falls as output rises"
+  ],
+  "answer": 2,
+  "explain": "Value to users rises with the number of users.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-04-q002",
+  "los": [
+   "S18-04"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: A new platform with a better product can easily beat an incumbent platform with strong network effects.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 1,
+  "explain": "False. Users are locked in: switching alone gains nothing, so a better product with few users is worth less to each user.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-04-q003",
+  "los": [
+   "S18-04"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "What is critical mass in a network market?",
+  "choices": [
+   "The largest number of users a network can serve",
+   "The number of firms a market can support",
+   "The number of users needed before the network keeps growing on its own",
+   "The output at which average cost is lowest"
+  ],
+  "answer": 2,
+  "explain": "Below critical mass the network stalls; above it, it is attractive enough to keep adding users.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-04-q004",
+  "los": [
+   "S18-04",
+   "S18-09"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "KSL Classifieds beat Craigslist in Utah (S18 slides p. 39). Which barrier protected KSL once it had the local buyers and sellers?",
+  "choices": [
+   "Patents",
+   "Network effects",
+   "Learning curve",
+   "Economies of scope"
+  ],
+  "answer": 1,
+  "explain": "Buyers go where sellers are and sellers go where buyers are.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-04-q005",
+  "los": [
+   "S18-04"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: In a two-way network, adding one more user benefits the users already on the network.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explain": "True. A new user adds 2n connections; every existing user can now reach one more person.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-04-q006",
+  "los": [
+   "S18-04"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "A two-way messaging network has 50 users. How many potential connections does it have?",
+  "answer": 2450,
+  "unit": "connections",
+  "tol": 0.01,
+  "explain": "\\(n(n-1) = 50 \\times 49 = 2{,}450\\) (textbook Module 4).",
+  "verify": {
+   "f": "conn",
+   "n": 50
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-04-q007",
+  "los": [
+   "S18-04"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "A two-way network has 100 users. How many new connections does the 101st user add?",
+  "answer": 200,
+  "unit": "connections",
+  "tol": 0.01,
+  "explain": "A new user adds \\(2n = 2 \\times 100 = 200\\). Check: \\(101 \\times 100 - 100 \\times 99 = 10{,}100 - 9{,}900 = 200\\).",
+  "verify": {
+   "f": "add_conn",
+   "n": 100
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-04-q008",
+  "los": [
+   "S18-04"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "In 2022 Q2 Twitter had 237.8 million daily users and $1,076 million of advertising revenue. What was its ad revenue per user?",
+  "answer": 4.52,
+  "unit": "$",
+  "tol": 0.01,
+  "explain": "1,076 / 237.8 = $4.52 per user for the quarter, versus $14.29 for Meta.",
+  "verify": {
+   "f": "ratio",
+   "num": 1076.003,
+   "den": 237.8
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-04-q009",
+  "los": [
+   "S18-04"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "In 2022 Q2 Snapchat had 347 million daily users, $1,111 million of revenue and $1,512 million of operating expense. What was its profit per user? (Negative for a loss.)",
+  "answer": -1.16,
+  "unit": "$",
+  "tol": 0.01,
+  "explain": "Revenue per user = 1,110.9 / 347 = $3.20. Cost per user = 1,511.8 / 347 = $4.36. Profit per user = 3.20 - 4.36 = -$1.16.",
+  "verify": {
+   "f": "profit_per",
+   "rev": 1110.909,
+   "cost": 1511.849,
+   "users": 347
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-04-q010",
+  "los": [
+   "S18-04"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Using the exercise data, why did Meta earn about three times Twitter's ad revenue per user in 2022?",
+  "choices": [
+   "Meta spent less on R&D",
+   "Network effects: more users and data make each ad more valuable to advertisers",
+   "Meta charged users a subscription fee",
+   "Twitter used limit pricing"
+  ],
+  "answer": 1,
+  "explain": "More users and engagement mean more data for targeting and more reach for advertisers, so each user brings in more ad revenue.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-04-q011",
+  "los": [
+   "S18-04",
+   "S18-01"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Which pair best matches the exercise's conclusion about Meta's advantages?",
+  "choices": [
+   "Revenue advantage from economies of scale; cost advantage from network effects",
+   "Revenue advantage from network effects; cost advantage from economies of scale",
+   "Both from patents",
+   "Both from limit pricing"
+  ],
+  "answer": 1,
+  "explain": "Network effects raise what each user is worth to advertisers; scale spreads mostly fixed infrastructure over more users.",
+  "source": "generated",
+  "verbatim": false
+ }
+]

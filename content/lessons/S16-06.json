@@ -1,0 +1,81 @@
+{
+ "id": "S16-06",
+ "title": "Optimal input substitution",
+ "calc": true,
+ "plain": "When an input's price changes, the cheapest way to make the same output changes too. The firm **substitutes toward the input that became relatively cheaper**.\n- Wage falls: \\(MP_L/w\\) rises, labor is a better deal, so use **more labor and less capital** (Quiz 7 Q10). The isocost gets flatter and touches the isoquant further right.\n- Rental rate rises: use **less capital and more labor** (in-class exercise, question 3).\n\n**Solving for the cost-minimizing mix with Cobb-Douglas.** For \\(Q = AK^aL^b\\):\n1. Tangency: \\(\\frac{MP_L}{MP_K} = \\frac{bK}{aL} = \\frac{w}{r}\\), so \\(K = \\frac{a\\,w}{b\\,r}L\\).\n2. Substitute into the output target and solve for L.\n3. Get K from step 1, then cost \\(C = wL + rK\\).\n\nSlides' example: \\(Q = 10K^{0.5}L^{0.5} = 100\\), w = $40, r = $10.\n1. \\(K = \\frac{0.5 \\times 40}{0.5 \\times 10}L = 4L\\).\n2. \\(10(4L)^{0.5}L^{0.5} = 10 \\times 2L = 20L = 100\\), so L = 5.\n3. K = 20, C = 40(5) + 10(20) = $400.\n\nIf the rental rate rises to $40: \\(K = L\\), \\(10L = 100\\), L = 10 and K = 10. Capital fell from 20 to 10 and labor rose from 5 to 10. Cost is now $800.\n\n**Other production functions.**\n- Linear: no tangency. Compare \\(MP_L/w = b/w\\) with \\(MP_K/r = a/r\\) and use only the input with the higher ratio (a corner).\n- Leontief: no substitution at all. Use \\(L = Q/b\\) and \\(K = Q/a\\) whatever the prices; cost is \\(wQ/b + rQ/a\\).",
+ "why": "Firms react to wage and price changes by changing their input mix, for example replacing labor with automation when wages rise. Practice exam Q18 and Reading Quiz Q5 test the direction.",
+ "definition": "Optimal input substitution: to minimize the cost of producing a given output, a firm uses more of an input whose relative price has declined and less of an input whose relative price has increased.",
+ "formulas": [
+  {
+   "name": "Cobb-Douglas tangency path",
+   "tex": "\\frac{bK}{aL} = \\frac{w}{r} \\;\\Rightarrow\\; K = \\frac{a\\,w}{b\\,r}\\,L",
+   "onSheet": false
+  },
+  {
+   "name": "Total cost at the optimum",
+   "tex": "C^* = wL^* + rK^*",
+   "onSheet": false
+  },
+  {
+   "name": "Linear: corner rule",
+   "tex": "\\text{use only K if } \\frac{a}{r} > \\frac{b}{w},\\ \\text{only L if } \\frac{b}{w} > \\frac{a}{r}",
+   "onSheet": false
+  },
+  {
+   "name": "Leontief cost",
+   "tex": "C = w\\frac{Q}{b} + r\\frac{Q}{a}",
+   "onSheet": false
+  }
+ ],
+ "derivation": "With a = b = 0.5 the tangency path is \\(K = (w/r)L\\). Substitute into \\(Q = AK^{0.5}L^{0.5}\\): \\(Q = A\\sqrt{w/r}\\,L\\), so \\(L^* = \\frac{Q}{A\\sqrt{w/r}}\\) and \\(K^* = \\frac{w}{r}L^*\\).",
+ "math": [
+  {
+   "title": "Two equations, two unknowns, by substitution",
+   "body": "Cost minimization gives two equations: the tangency condition (like \\(K = 4L\\)) and the output target (like \\(10K^{0.5}L^{0.5} = 100\\)). Substitute the first into the second so only L is left: \\(10(4L)^{0.5}L^{0.5} = 10 \\times 2 \\times L = 20L = 100\\), so \\(L = 5\\). Then go back: \\(K = 4 \\times 5 = 20\\)."
+  },
+  {
+   "title": "Exponent rules (S15 slides pp. 36 to 42)",
+   "body": "- Multiply, same base: add exponents. \\(a^x a^y = a^{x+y}\\)\n- Divide, same base: subtract. \\(\\frac{a^x}{a^y} = a^{x-y}\\)\n- Power of a product: \\((xy)^a = x^a y^a\\)\n- Power of a quotient: \\(\\left(\\frac{x}{y}\\right)^a = \\frac{x^a}{y^a}\\)\n- Power of a power: multiply. \\((a^x)^y = a^{xy}\\)\n- Zero power: \\(x^0 = 1\\)\n- Negative power is a reciprocal: \\(x^{-a} = \\frac{1}{x^a}\\), so \\(L^{-0.5} = \\frac{1}{\\sqrt{L}}\\)\n- Fractional power is a root: \\(x^{0.5} = \\sqrt{x}\\), \\(x^{0.25} = \\sqrt[4]{x}\\)\n\nOn a calculator: \\(16^{0.25}\\) is 16, then the \\(y^x\\) or ^ key, then 0.25. Answer 2."
+  }
+ ],
+ "worked": [
+  {
+   "title": "Price change",
+   "problem": "\\(Q = 2K^{0.5}L^{0.5}\\), target Q = 200, w = $16, r = $4. Find L*, K* and cost. Then w falls to $4.",
+   "steps": [
+    "Tangency: \\(K = (w/r)L = 4L\\).",
+    "\\(2\\sqrt{4L \\cdot L} = 2 \\times 2L = 4L = 200\\), so \\(L = 50\\), \\(K = 200\\).",
+    "Cost = 16(50) + 4(200) = 800 + 800 = $1,600.",
+    "w = $4: \\(K = L\\), \\(2L = 200\\), L = 100, K = 100, cost = 4(100) + 4(100) = $800.",
+    "Cheaper labor: labor rises from 50 to 100 and capital falls from 200 to 100."
+   ],
+   "answer": "L* = 50, K* = 200, C = $1,600. After the wage falls: L* = 100, K* = 100, C = $800."
+  }
+ ],
+ "graph": {
+  "component": "costmin",
+  "params": {
+   "A": 10,
+   "a": 0.5,
+   "b": 0.5,
+   "Q": 100,
+   "w": 40,
+   "r": 10,
+   "L": 5
+  },
+  "caption": "Raise r from 10 to 40: the tangency point slides from (L 5, K 20) to (L 10, K 10). The firm substitutes labor for the now pricier capital."
+ },
+ "traps": [
+  "When an input gets MORE expensive, use LESS of it and more of the other one.",
+  "A wage cut makes the isocost flatter, so the tangency moves to MORE labor, not more capital (Quiz 7 Q10).",
+  "With a ≠ b, K = (a w)/(b r) L. Do not drop the exponent ratio.",
+  "Linear production gives a corner: all of the input with the higher MP per dollar, none of the other.",
+  "Leontief ignores prices when choosing the mix: the ratio is fixed."
+ ],
+ "sources": {
+  "slides": "S16 Production II, pp. 35 to 40",
+  "read": "Ch. 5 pp. 153 to 156 (Figure 5-10)",
+  "exercise": "Cost Minimization exercise question 3; Klarna exercise Q5",
+  "quiz": "Reading Quiz Q5; Comprehension Quiz 7 Q9, Q10"
+ }
+}

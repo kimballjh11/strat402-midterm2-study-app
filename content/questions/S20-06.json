@@ -1,0 +1,533 @@
+[
+ {
+  "id": "S20-06-q001",
+  "los": [
+   "S20-06"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "A subgame perfect equilibrium:",
+  "choices": [
+   "Requires players to move simultaneously",
+   "Is a Nash equilibrium in which every player's choice is optimal at every point in the tree",
+   "Ignores the last mover",
+   "Is any Nash equilibrium"
+  ],
+  "answer": 1,
+  "explain": "Only credible threats survive.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-06-q002",
+  "los": [
+   "S20-06"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "A threat is credible when:",
+  "choices": [
+   "It hurts the other player",
+   "It is stated loudly",
+   "Carrying it out is in the threatener's interest at the moment it must act",
+   "It is written in a contract the threatener can ignore"
+  ],
+  "answer": 2,
+  "explain": "Otherwise rational opponents ignore it.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-06-q003",
+  "los": [
+   "S20-06"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: Every subgame perfect equilibrium is a Nash equilibrium, but not every Nash equilibrium is subgame perfect.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explain": "True. Some Nash equilibria rely on non-credible threats.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-06-q004",
+  "los": [
+   "S20-06"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "When solving for the SPE, where do you start?",
+  "choices": [
+   "At the largest number in the tree",
+   "At the last decisions in the tree",
+   "At the middle node",
+   "At the first mover's best payoff"
+  ],
+  "answer": 1,
+  "explain": "Backward induction.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-06-q005",
+  "los": [
+   "S20-06"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: In the trade game, the US threat to impose tariffs if China resists is credible.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 1,
+  "explain": "False. After resistance, imposing pays the US −2 and backing down 4, so it backs down.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-06-q006",
+  "los": [
+   "S20-06",
+   "S20-04",
+   "S20-05"
+  ],
+  "type": "mc",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "The slides' Crimea game.\n\nPayoffs: (Putin, Obama).\n\n- Putin Invade → Obama Sanction: (2, -2)\n- Putin Invade → Obama Don't sanction: (10, -5)\n- Putin Don't invade: (-5, 5)\n\nWhat is the subgame perfect equilibrium outcome?",
+  "choices": [
+   "Putin: Invade, then Obama: Sanction (10, -5)",
+   "Putin: Invade, then Obama: Don't sanction (10, -5)",
+   "Putin: Don't invade (-5, 5)",
+   "Putin: Invade, then Obama: Sanction (2, -2)"
+  ],
+  "answer": 3,
+  "explain": "Obama: Sanction (−2) beats Don't (−5). Putin: Invade gives 2, Don't invade gives −5. Putin invades and Obama sanctions.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-06-q007",
+  "los": [
+   "S20-06",
+   "S20-04",
+   "S20-05"
+  ],
+  "type": "mc",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "The slides' trade game.\n\nPayoffs: (US, China).\n\n- US Threat → China Resist → US Impose: (-2, -2)\n- US Threat → China Resist → US Back down: (4, 4)\n- US Threat → China Concede: (6, 2)\n- US No threat: (2, 6)\n\nWhat is the subgame perfect equilibrium outcome?",
+  "choices": [
+   "US: No threat (2, 6)",
+   "US: Threat, then China: Resist, then US: Back down (4, 4)",
+   "US: Threat, then China: Concede (6, 2)",
+   "US: Threat, then China: Resist, then US: Impose (-2, -2)"
+  ],
+  "answer": 1,
+  "explain": "Last move: US after resistance, Back down 4 > Impose −2. China: Resist (4) > Concede (2). US: Threat (4) > No threat (2).",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-06-q008",
+  "los": [
+   "S20-06",
+   "S20-08"
+  ],
+  "type": "mc",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Comprehension Quiz 9 Q9 innovation game.\n\nPayoffs: (Firm A, Firm B).\n\n- Firm A Introduce → Firm B Clone: (2, 15)\n- Firm A Introduce → Firm B Don't clone: (8, 1)\n- Firm A Don't introduce: (0, 0)\n\nWhat is the subgame perfect equilibrium outcome?",
+  "choices": [
+   "Firm A: Introduce, then Firm B: Don't clone (8, 1)",
+   "Firm A: Introduce, then Firm B: Clone (2, 15)",
+   "Firm A: Don't introduce (0, 0)",
+   "Firm A: Introduce, then Firm B: Clone (8, 1)"
+  ],
+  "answer": 1,
+  "explain": "B: Clone 15 > 1. A: Introduce gives 2 > 0.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-06-q009",
+  "los": [
+   "S20-06",
+   "S20-05"
+  ],
+  "type": "mc",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Textbook-style tree (Figure 10-1 numbers).\n\nPayoffs: (A, B).\n\n- A Up → B Up: (10, 15)\n- A Up → B Down: (5, 5)\n- A Down → B Up: (0, 0)\n- A Down → B Down: (6, 20)\n\nWhat is the subgame perfect equilibrium outcome?",
+  "choices": [
+   "A: Up, then B: Down (5, 5)",
+   "A: Down, then B: Down (6, 20)",
+   "A: Down, then B: Up (0, 0)",
+   "A: Up, then B: Up (10, 15)"
+  ],
+  "answer": 3,
+  "explain": "B after Up: Up 15 > 5. B after Down: Down 20 > 0. A compares Up (10) with Down (6) and picks Up.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-06-q010",
+  "los": [
+   "S20-06"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "In the Crimea game, what is Putin's payoff in the subgame perfect equilibrium?",
+  "answer": 2,
+  "unit": "",
+  "tol": 0.01,
+  "explain": "Obama sanctions after an invasion (−2 > −5), so invading gives Putin 2, better than −5.",
+  "verify": {
+   "f": "spe",
+   "g": {
+    "players": [
+     "Putin",
+     "Obama"
+    ],
+    "tree": {
+     "p": 0,
+     "children": [
+      {
+       "a": "Invade",
+       "n": {
+        "p": 1,
+        "children": [
+         {
+          "a": "Sanction",
+          "pay": [
+           2,
+           -2
+          ]
+         },
+         {
+          "a": "Don't sanction",
+          "pay": [
+           10,
+           -5
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "a": "Don't invade",
+       "pay": [
+        -5,
+        5
+       ]
+      }
+     ]
+    }
+   },
+   "who": 0
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-06-q011",
+  "los": [
+   "S20-06"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "In the trade game, what is China's payoff in the subgame perfect equilibrium?",
+  "answer": 4,
+  "unit": "",
+  "tol": 0.01,
+  "explain": "Threat, Resist, Back down: (4, 4).",
+  "verify": {
+   "f": "spe",
+   "g": {
+    "players": [
+     "US",
+     "China"
+    ],
+    "tree": {
+     "p": 0,
+     "children": [
+      {
+       "a": "Threat",
+       "n": {
+        "p": 1,
+        "children": [
+         {
+          "a": "Resist",
+          "n": {
+           "p": 0,
+           "children": [
+            {
+             "a": "Impose",
+             "pay": [
+              -2,
+              -2
+             ]
+            },
+            {
+             "a": "Back down",
+             "pay": [
+              4,
+              4
+             ]
+            }
+           ]
+          }
+         },
+         {
+          "a": "Concede",
+          "pay": [
+           6,
+           2
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "a": "No threat",
+       "pay": [
+        2,
+        6
+       ]
+      }
+     ]
+    }
+   },
+   "who": 1
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-06-q012",
+  "los": [
+   "S20-06",
+   "S20-04"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "A three-stage game.\n\nPayoffs: (Leader, Follower).\n\n- Leader Expand → Follower Match → Leader Cut price: (1, 2)\n- Leader Expand → Follower Match → Leader Hold price: (5, 4)\n- Leader Expand → Follower Stay small: (9, 3)\n- Leader Wait: (4, 6)\n\nWhat is the Leader's payoff in the subgame perfect equilibrium?",
+  "answer": 5,
+  "unit": "",
+  "tol": 0.01,
+  "explain": "Last move (Leader after Match): Hold 5 > Cut 1. Follower: Match leads to 4, Stay small gives 3, so Match. Leader: Expand leads to 5, Wait gives 4, so Expand. Outcome (5, 4).",
+  "verify": {
+   "f": "spe",
+   "g": {
+    "players": [
+     "Leader",
+     "Follower"
+    ],
+    "tree": {
+     "p": 0,
+     "children": [
+      {
+       "a": "Expand",
+       "n": {
+        "p": 1,
+        "children": [
+         {
+          "a": "Match",
+          "n": {
+           "p": 0,
+           "children": [
+            {
+             "a": "Cut price",
+             "pay": [
+              1,
+              2
+             ]
+            },
+            {
+             "a": "Hold price",
+             "pay": [
+              5,
+              4
+             ]
+            }
+           ]
+          }
+         },
+         {
+          "a": "Stay small",
+          "pay": [
+           9,
+           3
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "a": "Wait",
+       "pay": [
+        4,
+        6
+       ]
+      }
+     ]
+    }
+   },
+   "who": 0
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-06-q013",
+  "los": [
+   "S20-06"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A landlord threatens to evict a tenant who pays rent one day late, but eviction would cost the landlord far more than the late fee. Should the tenant believe the threat?",
+  "choices": [
+   "No: carrying it out would hurt the landlord, so it is not credible",
+   "Only if it is said twice",
+   "Yes: all threats are credible",
+   "Yes: the landlord moves second"
+  ],
+  "answer": 0,
+  "explain": "Ask what the threatener would actually do when the time comes.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-06-q014",
+  "los": [
+   "S20-06",
+   "S20-04",
+   "S20-05"
+  ],
+  "type": "mc",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Game Theory Exercise Part 2: Twitter decides first whether to ban political ads; Facebook observes.\n\nPayoffs: (Twitter, Facebook).\n\n- Twitter Ban → Facebook Ban: (-3, -350)\n- Twitter Ban → Facebook Don't Ban: (-3, -277)\n- Twitter Don't Ban → Facebook Ban: (23, -350)\n- Twitter Don't Ban → Facebook Don't Ban: (-12, -280)\n\nWhat is the subgame perfect equilibrium outcome?",
+  "choices": [
+   "Twitter: Don't Ban, then Facebook: Ban (23, -350)",
+   "Twitter: Don't Ban, then Facebook: Don't Ban (-12, -280)",
+   "Twitter: Ban, then Facebook: Don't Ban (-3, -277)",
+   "Twitter: Ban, then Facebook: Ban (-3, -350)"
+  ],
+  "answer": 2,
+  "explain": "Facebook doesn't ban after either Twitter move (-277 > -350, -280 > -350). Twitter compares -3 (Ban) with -12 (Don't Ban) and bans.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-06-q015",
+  "los": [
+   "S20-06",
+   "S20-08"
+  ],
+  "type": "mc",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Game Theory Exercise Part 3 (new regulation risk): Twitter decides first; Facebook observes.\n\nPayoffs: (Twitter, Facebook).\n\n- Twitter Ban → Facebook Ban: (-3, -350)\n- Twitter Ban → Facebook Don't Ban: (-3, -137)\n- Twitter Don't Ban → Facebook Ban: (29, -350)\n- Twitter Don't Ban → Facebook Don't Ban: (-18, -420)\n\nWhat is the subgame perfect equilibrium outcome?",
+  "choices": [
+   "Twitter: Don't Ban, then Facebook: Ban (29, -350)",
+   "Twitter: Ban, then Facebook: Don't Ban (-3, -137)",
+   "Twitter: Ban, then Facebook: Ban (-3, -350)",
+   "Twitter: Don't Ban, then Facebook: Don't Ban (-18, -420)"
+  ],
+  "answer": 0,
+  "explain": "Facebook: Don't Ban after a Twitter ban (-137 > -350); Ban after Twitter doesn't (-350 > -420). Twitter compares -3 with 29 and does not ban.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-06-q016",
+  "los": [
+   "S20-06"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Game Theory Exercise Part 3 with Twitter moving first. What is Twitter's payoff ($ millions) in the subgame perfect equilibrium?",
+  "answer": 29,
+  "unit": "$ millions",
+  "tol": 0.01,
+  "explain": "Twitter doesn't ban, Facebook bans (-350 > -420), Twitter gets 35 - 6 = 29.",
+  "verify": {
+   "f": "spe",
+   "g": {
+    "players": [
+     "Twitter",
+     "Facebook"
+    ],
+    "tree": {
+     "p": 0,
+     "children": [
+      {
+       "a": "Ban",
+       "n": {
+        "p": 1,
+        "children": [
+         {
+          "a": "Ban",
+          "pay": [
+           -3,
+           -350
+          ]
+         },
+         {
+          "a": "Don't Ban",
+          "pay": [
+           -3,
+           -137
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "a": "Don't Ban",
+       "n": {
+        "p": 1,
+        "children": [
+         {
+          "a": "Ban",
+          "pay": [
+           29,
+           -350
+          ]
+         },
+         {
+          "a": "Don't Ban",
+          "pay": [
+           -18,
+           -420
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    }
+   },
+   "who": 0
+  },
+  "source": "generated",
+  "verbatim": false
+ }
+]

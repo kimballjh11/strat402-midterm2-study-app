@@ -1,0 +1,309 @@
+[
+ {
+  "id": "S18-03-q001",
+  "los": [
+   "S18-03"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Economies of scope exist when:",
+  "choices": [
+   "Average cost falls as output of one product rises",
+   "Unit cost falls with cumulative output",
+   "A product is worth more as more people use it",
+   "Producing two products together costs less than producing them separately"
+  ],
+  "answer": 3,
+  "explain": "Scope = different products together. Falling AC with output is scale; cumulative output is learning; user value is network effects.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-03-q002",
+  "los": [
+   "S18-03"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Which inequality defines economies of scope?",
+  "choices": [
+   "\\(C(2Q) < 2C(Q)\\)",
+   "\\(ATC(Q_1) > ATC(Q_2)\\)",
+   "\\(C(Q_1, 0) + C(0, Q_2) > C(Q_1, Q_2)\\)",
+   "\\(C(Q_1, 0) + C(0, Q_2) < C(Q_1, Q_2)\\)"
+  ],
+  "answer": 2,
+  "explain": "Separate production costs more than joint production. \\(C(2Q) < 2C(Q)\\) describes scale, not scope.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-03-q003",
+  "los": [
+   "S18-03",
+   "S18-01"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: Economies of scope and economies of scale are the same idea.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 1,
+  "explain": "False. Scale: more of the same product. Scope: different products together.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-03-q004",
+  "los": [
+   "S18-03",
+   "S18-09"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: Economies of scope can be a barrier to entry because a single-product entrant pays costs that a multi-product incumbent shares across products.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explain": "True. The incumbent's shared assets lower its cost of each product.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-03-q005",
+  "los": [
+   "S18-03",
+   "S18-10"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Which of the reading's entry strategies relies most directly on economies of scope?",
+  "choices": [
+   "Leverage existing assets",
+   "Directly attack the market leader",
+   "Create a market niche",
+   "Reconfigure the value chain"
+  ],
+  "answer": 0,
+  "explain": "Using shelf space, locations, brand or idle capacity you already have for a new product is sharing assets across products.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-03-q006",
+  "los": [
+   "S18-03"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Economies of scope come from:",
+  "choices": [
+   "Accumulating experience over time",
+   "Sharing inputs such as a brand, plant, distribution network or customer data across products",
+   "Producing more units of one product",
+   "Charging lower prices than rivals"
+  ],
+  "answer": 1,
+  "explain": "Shared inputs are the source of scope savings.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-03-q007",
+  "los": [
+   "S18-03"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Making 1,000 phones alone costs $300,000. Making 1,000 tablets alone costs $200,000. Making both together costs $420,000. How much does joint production save?",
+  "answer": 80000,
+  "unit": "$",
+  "tol": 0.01,
+  "explain": "Separate: 300,000 + 200,000 = 500,000. Together: 420,000. Savings: $80,000, so there are economies of scope.",
+  "verify": {
+   "f": "scope",
+   "c1": 300000,
+   "c2": 200000,
+   "c12": 420000
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-03-q008",
+  "los": [
+   "S18-03"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "A bank's checking business alone costs $50 million and its credit card business alone costs $30 million. Run together, they cost $85 million. How much does joint production save? (Use a negative number if it costs more.)",
+  "answer": -5000000,
+  "unit": "$",
+  "tol": 0.01,
+  "explain": "Separate: 50 + 30 = $80 million. Together: $85 million. Savings = 80 - 85 = -$5 million: diseconomies of scope; they are cheaper apart.",
+  "verify": {
+   "f": "scope",
+   "c1": 50000000,
+   "c2": 30000000,
+   "c12": 85000000
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-03-q009",
+  "los": [
+   "S18-03"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "A bakery spends $40,000 a year making bread alone and $25,000 making pastries alone. Using the same ovens and staff for both costs $52,000. What percent of the separate total is saved? Answer in percent.",
+  "answer": 20,
+  "unit": "%",
+  "tol": 0.01,
+  "explain": "Separate: $65,000. Savings: 65,000 - 52,000 = $13,000. 13,000 / 65,000 = 20%.",
+  "verify": {
+   "f": "scope_pct",
+   "c1": 40000,
+   "c2": 25000,
+   "c12": 52000
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-03-q010",
+  "los": [
+   "S18-03"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "A firm makes widgets for $120,000 and gadgets for $80,000 separately. What is the most a combined plant could cost and still show economies of scope?",
+  "answer": 200000,
+  "unit": "$",
+  "tol": 0.01,
+  "explain": "Economies of scope require joint cost below the separate total: below 120,000 + 80,000 = $200,000.",
+  "verify": {
+   "f": "add",
+   "a": 120000,
+   "b": 80000
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-03-q011",
+  "los": [
+   "S18-03"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Amazon uses the warehouses and delivery fleet it built for retail to also deliver groceries. Which concept is this?",
+  "choices": [
+   "Economies of scope",
+   "Learning curve",
+   "Economies of scale",
+   "Limit pricing"
+  ],
+  "answer": 0,
+  "explain": "Different products share the same distribution assets: scope.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-03-q012",
+  "los": [
+   "S18-03"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Costco opened Costco Home stores near its warehouses and let its existing members shop there. In cost terms, what is Costco exploiting?",
+  "choices": [
+   "Economies of scale in furniture",
+   "A learning curve in furniture",
+   "Economies of scope from sharing its brand and member base",
+   "Predatory pricing against furniture stores"
+  ],
+  "answer": 2,
+  "explain": "The same brand and customer base serve two businesses. The reading calls this leveraging existing assets.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-03-q013",
+  "los": [
+   "S18-03"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Meta runs Facebook, Instagram, WhatsApp and Messenger on shared data centers and an ad system. A new single-app competitor must build all of that for one app. Which advantage does Meta have?",
+  "choices": [
+   "Penetration pricing",
+   "Limit pricing",
+   "Economies of scope",
+   "Second-mover advantage"
+  ],
+  "answer": 2,
+  "explain": "Shared infrastructure across several products lowers the cost of each one.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-03-q014",
+  "los": [
+   "S18-03",
+   "S18-01"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A car maker cuts its cost per car by building 2 million cars a year instead of 500,000 of the same model. Which concept is this, and which is it NOT?",
+  "choices": [
+   "Economies of scale, not scope",
+   "Economies of scope, not scale",
+   "A learning curve, not scale",
+   "Network effects, not scale"
+  ],
+  "answer": 0,
+  "explain": "More of the SAME product per year: scale. Scope would need different products sharing inputs.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-03-q015",
+  "los": [
+   "S18-03"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Disney uses the same characters in movies, theme parks, toys and streaming. Why does this lower its costs compared with separate firms?",
+  "choices": [
+   "The character development cost is shared across many products",
+   "It produces more of each product",
+   "Customers value the parks more when more people visit",
+   "Its theme park staff have more experience"
+  ],
+  "answer": 0,
+  "explain": "Creating a character once and using it in many businesses is a shared input: economies of scope.",
+  "source": "generated",
+  "verbatim": false
+ }
+]

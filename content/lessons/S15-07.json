@@ -1,0 +1,59 @@
+{
+ "id": "S15-07",
+ "title": "Linear production function",
+ "calc": true,
+ "plain": "A **linear** production function adds up the inputs, each with its own weight:\n$$Q = aK + bL$$\nEach unit of capital always adds \\(a\\) units of output and each worker always adds \\(b\\), no matter how many you already have. So the marginal products are constant: \\(MP_K = a\\) and \\(MP_L = b\\). There are no diminishing returns.\n\nBecause each input contributes a fixed amount, the inputs are **perfect substitutes**. In the slide example \\(Q = 4K + 1L\\), one machine does the work of 4 workers, always. You could produce with only machines or only workers. A call center where one software license does exactly the work of 3 agents behaves this way.\n\nGraphed with K on the vertical axis, every combination that gives the same output lies on a **straight line** (an isoquant, covered fully in Session 16). The rate at which you can trade L for K never changes, so the MRTS \\(= b/a\\) is constant.",
+ "why": "Recognizing the form tells you instantly how the inputs relate: constant MP, perfect substitutes, and in Session 16 a corner solution where the firm uses only the input with the higher MP per dollar.",
+ "definition": "A linear production function, \\(Q = aK + bL\\), assumes a perfect linear relationship between all inputs and total output: each input has a constant marginal product and the inputs are perfect substitutes.",
+ "formulas": [
+  {
+   "name": "Linear production function and its marginal products",
+   "tex": "Q = aK + bL,\\quad MP_K = a,\\quad MP_L = b",
+   "onSheet": true
+  },
+  {
+   "name": "MRTS for linear",
+   "tex": "MRTS_{KL} = \\frac{MP_L}{MP_K} = \\frac{b}{a}",
+   "onSheet": true,
+   "note": "The sheet has MRTS = MP_L / MP_K; for linear that is b/a at every point."
+  }
+ ],
+ "derivation": "\\(\\frac{\\partial}{\\partial L}(aK + bL) = b\\) because aK does not change with L and the derivative of bL is b. Same idea for K.",
+ "math": [],
+ "worked": [
+  {
+   "title": "Comprehension Quiz 7 setup",
+   "problem": "\\(Q = 4K + L\\). Find output, \\(MP_L\\), \\(MP_K\\) and the MRTS at \\(K = 1\\), \\(L = 4\\).",
+   "steps": [
+    "Output: \\(4(1) + 4 = 8\\).",
+    "\\(MP_L = 1\\) and \\(MP_K = 4\\), the coefficients.",
+    "\\(MRTS = MP_L/MP_K = 1/4\\).",
+    "The values K = 1 and L = 4 do not matter for MP or MRTS. They are the same everywhere."
+   ],
+   "answer": "Q = 8, MP_L = 1, MP_K = 4, MRTS = 1/4 at every point."
+  }
+ ],
+ "graph": {
+  "component": "isoquant",
+  "params": {
+   "form": "linear",
+   "a": 4,
+   "b": 1,
+   "Q": 40,
+   "L": 20
+  },
+  "caption": "Linear isoquants are straight lines. The dashed tangent has the same slope everywhere: constant MRTS."
+ },
+ "traps": [
+  "MP for a linear function is the coefficient, not the coefficient times the input. MP_L for Q = 4K + L is 1, not L.",
+  "The MRTS does not depend on K and L for a linear function. A choice saying 'it varies with K and L' is wrong (Quiz 7 Q5).",
+  "Perfect substitutes means a constant trade rate, not a one for one trade. With Q = 4K + L, one K replaces 4 L.",
+  "A linear production function has no diminishing marginal returns."
+ ],
+ "sources": {
+  "slides": "S15 Production I, pp. 32 to 34",
+  "read": "Ch. 5 pp. 146 to 147",
+  "exercise": "Production Functions workbook, Linear tab",
+  "quiz": "Comprehension Quiz 7 Q5"
+ }
+}

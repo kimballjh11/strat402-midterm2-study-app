@@ -1,0 +1,67 @@
+{
+ "id": "S21-03",
+ "title": "Stackelberg oligopoly",
+ "calc": true,
+ "plain": "In a **Stackelberg oligopoly**, one firm (the **leader**) chooses its output **first**; the other (the **follower**) sees it and then chooses its own output.\n\n**Textbook conditions:** (1) few firms serving many consumers; (2) homogeneous or differentiated products; (3) a single firm, the leader, chooses an output before all other firms; (4) the followers take the leader's output as given; (5) barriers to entry.\n\n**Bryce's description** (p. 8): a race to build or expand capacity in which one firm makes its capacity choice before the others. The follower builds a smaller plant and the leader a larger one: **a first-mover advantage** in which the leader takes a greater market share. Bryce calls it competition in **lead time** and gives no formal model.\n\n**How to solve it** (backward induction, like S20):\n1. The follower uses its ordinary Cournot reaction function: \\(Q_2 = \\frac{a - c_2}{2b} - \\frac{1}{2}Q_1\\).\n2. The leader plugs that into the demand curve and maximizes its own profit. Result (textbook): \\(Q_1 = \\frac{a + c_2 - 2c_1}{2b}\\). With identical costs this is \\(\\frac{a - c}{2b}\\), the monopoly output.\n3. Put \\(Q_1\\) into the follower's reaction function to get \\(Q_2\\).\n\n**Textbook Demonstration Problem 9-6:** \\(P = 50 - (Q_1 + Q_2)\\), costs \\(2Q_1\\) and \\(2Q_2\\), firm 1 leads.\n- Follower: \\(Q_2 = 24 - \\frac{1}{2}Q_1\\).\n- Leader: \\(Q_1 = \\frac{50 + 2 - 4}{2} = 24\\).\n- Follower: \\(Q_2 = 24 - 12 = 12\\). Price \\(P = 50 - 36 = 14\\).\n\n**Compared with Cournot:** the leader produces more and earns more; the follower produces less and earns less; total output is higher and price lower. Textbook example (Inside Business 9-2): early generative AI firms raced to launch first with high volume.",
+ "why": "Practice exam Q35 and Comprehension Quiz 10 Q6 are expected to test Stackelberg; the Session 22 reading quiz Q4 and Q5 also cover it.",
+ "definition": "Stackelberg oligopoly: a leader chooses output before the other firms; followers take the leader's output as given and maximize profit; few firms, homogeneous or differentiated products, barriers to entry.",
+ "formulas": [
+  {
+   "name": "Stackelberg leader output",
+   "tex": "Q_1 = \\frac{a + c_2 - 2c_1}{2b}",
+   "onSheet": false
+  },
+  {
+   "name": "Follower output (its Cournot reaction function)",
+   "tex": "Q_2 = \\frac{a - c_2}{2b} - \\frac{1}{2}Q_1",
+   "onSheet": false
+  }
+ ],
+ "derivation": "Leader profit: \\(\\pi_1 = \\left[a - b\\left(Q_1 + \\frac{a - c_2}{2b} - \\frac{Q_1}{2}\\right)\\right]Q_1 - c_1Q_1 = \\left[\\frac{a + c_2}{2} - \\frac{b}{2}Q_1\\right]Q_1 - c_1Q_1\\). Derivative: \\(\\frac{a + c_2}{2} - bQ_1 - c_1 = 0\\), so \\(Q_1 = \\frac{a + c_2 - 2c_1}{2b}\\).",
+ "math": [
+  {
+   "title": "Marginal revenue with two firms",
+   "body": "Revenue for firm 1 is price times its own quantity: \\(R_1 = P \\cdot Q_1 = [a - b(Q_1 + Q_2)]Q_1 = aQ_1 - bQ_1^2 - bQ_1Q_2\\). Take the derivative with respect to \\(Q_1\\), treating \\(Q_2\\) as a fixed number: the derivative of \\(aQ_1\\) is a, of \\(bQ_1^2\\) is \\(2bQ_1\\), of \\(bQ_1Q_2\\) is \\(bQ_2\\). So \\(MR_1 = a - 2bQ_1 - bQ_2\\). Tiny example: P = 10 - (Q_1 + Q_2) gives \\(MR_1 = 10 - 2Q_1 - Q_2\\)."
+  },
+  {
+   "title": "Profit with constant marginal cost",
+   "body": "With cost \\(C = cQ\\) and no fixed cost, profit is \\((P - c) \\times Q\\). Example: P = $336, c = $4, Q = 332: profit = 332 × 332 = $110,224."
+  }
+ ],
+ "worked": [
+  {
+   "title": "Textbook comparison market",
+   "problem": "P = 1,000 - (Q_1 + Q_2), C = 4Q for each firm, firm 1 leads. Find outputs, price and profits.",
+   "steps": [
+    "Leader: \\(Q_1 = \\frac{1000 + 4 - 8}{2} = 498\\).",
+    "Follower: \\(Q_2 = \\frac{1000 - 4}{2} - \\frac{1}{2}(498) = 498 - 249 = 249\\).",
+    "Q = 747, P = 1,000 - 747 = $253.",
+    "Leader profit (253 - 4) × 498 = $124,002; follower (253 - 4) × 249 = $62,001."
+   ],
+   "answer": "Leader 498, follower 249, P = $253. The leader earns double the follower and more than a Cournot firm ($110,224)."
+  }
+ ],
+ "graph": {
+  "component": "reaction",
+  "params": {
+   "mode": "quantity",
+   "a": 50,
+   "b": 1,
+   "c1": 2,
+   "c2": 2
+  },
+  "caption": "Demonstration Problem 9-6. The Stackelberg point (24, 12) lies on the follower's reaction function, to the right of the Cournot point."
+ },
+ "traps": [
+  "The follower uses its Cournot reaction function; the leader does NOT use its own reaction function.",
+  "With identical costs, the leader produces the monopoly output (a - c)/(2b) and the follower half of that.",
+  "Stackelberg total output is higher (price lower) than Cournot.",
+  "Moving first only helps if the commitment is real (capacity already built)."
+ ],
+ "sources": {
+  "slides": "S21 slides not posted",
+  "read": "Ch. 9: Stackelberg Oligopoly; Bryce p. 8",
+  "exercise": "Oligopoly Exercise (not yet available)",
+  "quiz": "Session 22 Reading Quiz Q4, Q5; Comprehension Quiz 10 Q6 (not yet available); Practice exam Q35"
+ }
+}

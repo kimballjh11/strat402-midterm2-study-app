@@ -1,0 +1,775 @@
+[
+ {
+  "id": "PRO-Quiz7-Q1",
+  "los": [
+   "S15-02",
+   "S15-04"
+  ],
+  "type": "mc",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Use the production table below to answer this question. [[TABLE 0]] What is the marginal product of labor (MP_L) when L = 4?",
+  "choices": [
+   "50",
+   "100",
+   "300",
+   "400"
+  ],
+  "answer": 1,
+  "explain": "Answer: 100. Marginal product is the change in output from adding one more unit of labor. Going from L = 3 to L = 4, output rises from 300 to 400. MP_L = 400 \u2212 300 = 100 400 is total product at L = 4, not marginal product.",
+  "source": "professor",
+  "verbatim": true,
+  "origin": "Quiz 7 Q1",
+  "tables": {
+   "0": [
+    [
+     {
+      "t": "Labor (L)",
+      "r": 1,
+      "c": 1,
+      "h": true
+     },
+     {
+      "t": "Output (Q)",
+      "r": 1,
+      "c": 1,
+      "h": true
+     }
+    ],
+    [
+     {
+      "t": "0",
+      "r": 1,
+      "c": 1,
+      "h": false
+     },
+     {
+      "t": "0",
+      "r": 1,
+      "c": 1,
+      "h": false
+     }
+    ],
+    [
+     {
+      "t": "1",
+      "r": 1,
+      "c": 1,
+      "h": false
+     },
+     {
+      "t": "50",
+      "r": 1,
+      "c": 1,
+      "h": false
+     }
+    ],
+    [
+     {
+      "t": "2",
+      "r": 1,
+      "c": 1,
+      "h": false
+     },
+     {
+      "t": "150",
+      "r": 1,
+      "c": 1,
+      "h": false
+     }
+    ],
+    [
+     {
+      "t": "3",
+      "r": 1,
+      "c": 1,
+      "h": false
+     },
+     {
+      "t": "300",
+      "r": 1,
+      "c": 1,
+      "h": false
+     }
+    ],
+    [
+     {
+      "t": "4",
+      "r": 1,
+      "c": 1,
+      "h": false
+     },
+     {
+      "t": "400",
+      "r": 1,
+      "c": 1,
+      "h": false
+     }
+    ],
+    [
+     {
+      "t": "5",
+      "r": 1,
+      "c": 1,
+      "h": false
+     },
+     {
+      "t": "450",
+      "r": 1,
+      "c": 1,
+      "h": false
+     }
+    ],
+    [
+     {
+      "t": "6",
+      "r": 1,
+      "c": 1,
+      "h": false
+     },
+     {
+      "t": "475",
+      "r": 1,
+      "c": 1,
+      "h": false
+     }
+    ],
+    [
+     {
+      "t": "7",
+      "r": 1,
+      "c": 1,
+      "h": false
+     },
+     {
+      "t": "475",
+      "r": 1,
+      "c": 1,
+      "h": false
+     }
+    ],
+    [
+     {
+      "t": "8",
+      "r": 1,
+      "c": 1,
+      "h": false
+     },
+     {
+      "t": "450",
+      "r": 1,
+      "c": 1,
+      "h": false
+     }
+    ],
+    [
+     {
+      "t": "9",
+      "r": 1,
+      "c": 1,
+      "h": false
+     },
+     {
+      "t": "400",
+      "r": 1,
+      "c": 1,
+      "h": false
+     }
+    ],
+    [
+     {
+      "t": "10",
+      "r": 1,
+      "c": 1,
+      "h": false
+     },
+     {
+      "t": "300",
+      "r": 1,
+      "c": 1,
+      "h": false
+     }
+    ],
+    [
+     {
+      "t": "11",
+      "r": 1,
+      "c": 1,
+      "h": false
+     },
+     {
+      "t": "150",
+      "r": 1,
+      "c": 1,
+      "h": false
+     }
+    ]
+   ]
+  }
+ },
+ {
+  "id": "PRO-Quiz7-Q2",
+  "los": [
+   "S15-02",
+   "S15-05"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Use the production table below to answer this question. [[TABLE 1]] Over what range of labor does production exhibit diminishing marginal returns?",
+  "choices": [
+   "0\u20133",
+   "4\u20137",
+   "0\u2013300",
+   "400\u2013475"
+  ],
+  "answer": 1,
+  "explain": "Answer: 4\u20137. Diminishing marginal returns means each added worker adds less output than the one before, but still adds something. Marginal product of each worker: L = 1 to 3: 50, 100, 150 (rising, so increasing marginal returns) L = 4 to 7: 100, 50, 25, 0 (falling, so diminishing marginal returns) L = 8 and beyond: negative (output falls, so negative marginal returns) 0\u2013300 and 400\u2013475 are ranges of output, not labor.",
+  "source": "professor",
+  "verbatim": true,
+  "origin": "Quiz 7 Q2",
+  "tables": {
+   "1": [
+    [
+     {
+      "t": "Labor (L)",
+      "r": 1,
+      "c": 1,
+      "h": true
+     },
+     {
+      "t": "Output (Q)",
+      "r": 1,
+      "c": 1,
+      "h": true
+     }
+    ],
+    [
+     {
+      "t": "0",
+      "r": 1,
+      "c": 1,
+      "h": false
+     },
+     {
+      "t": "0",
+      "r": 1,
+      "c": 1,
+      "h": false
+     }
+    ],
+    [
+     {
+      "t": "1",
+      "r": 1,
+      "c": 1,
+      "h": false
+     },
+     {
+      "t": "50",
+      "r": 1,
+      "c": 1,
+      "h": false
+     }
+    ],
+    [
+     {
+      "t": "2",
+      "r": 1,
+      "c": 1,
+      "h": false
+     },
+     {
+      "t": "150",
+      "r": 1,
+      "c": 1,
+      "h": false
+     }
+    ],
+    [
+     {
+      "t": "3",
+      "r": 1,
+      "c": 1,
+      "h": false
+     },
+     {
+      "t": "300",
+      "r": 1,
+      "c": 1,
+      "h": false
+     }
+    ],
+    [
+     {
+      "t": "4",
+      "r": 1,
+      "c": 1,
+      "h": false
+     },
+     {
+      "t": "400",
+      "r": 1,
+      "c": 1,
+      "h": false
+     }
+    ],
+    [
+     {
+      "t": "5",
+      "r": 1,
+      "c": 1,
+      "h": false
+     },
+     {
+      "t": "450",
+      "r": 1,
+      "c": 1,
+      "h": false
+     }
+    ],
+    [
+     {
+      "t": "6",
+      "r": 1,
+      "c": 1,
+      "h": false
+     },
+     {
+      "t": "475",
+      "r": 1,
+      "c": 1,
+      "h": false
+     }
+    ],
+    [
+     {
+      "t": "7",
+      "r": 1,
+      "c": 1,
+      "h": false
+     },
+     {
+      "t": "475",
+      "r": 1,
+      "c": 1,
+      "h": false
+     }
+    ],
+    [
+     {
+      "t": "8",
+      "r": 1,
+      "c": 1,
+      "h": false
+     },
+     {
+      "t": "450",
+      "r": 1,
+      "c": 1,
+      "h": false
+     }
+    ],
+    [
+     {
+      "t": "9",
+      "r": 1,
+      "c": 1,
+      "h": false
+     },
+     {
+      "t": "400",
+      "r": 1,
+      "c": 1,
+      "h": false
+     }
+    ],
+    [
+     {
+      "t": "10",
+      "r": 1,
+      "c": 1,
+      "h": false
+     },
+     {
+      "t": "300",
+      "r": 1,
+      "c": 1,
+      "h": false
+     }
+    ],
+    [
+     {
+      "t": "11",
+      "r": 1,
+      "c": 1,
+      "h": false
+     },
+     {
+      "t": "150",
+      "r": 1,
+      "c": 1,
+      "h": false
+     }
+    ]
+   ]
+  }
+ },
+ {
+  "id": "PRO-Quiz7-Q3",
+  "los": [
+   "S15-02",
+   "S15-06",
+   "S15-10"
+  ],
+  "type": "mc",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Use the production table below to answer this question. [[TABLE 2]] If the product sells for $1.00 and the hourly wage is $25.00, how many workers should you hire to maximize profit?",
+  "choices": [
+   "5",
+   "6",
+   "7",
+   "8"
+  ],
+  "answer": 1,
+  "explain": "Answer: 6. Keep hiring until the value marginal product of labor equals the wage (VMP_L = w). VMP_L = P \u00d7 MP_L, the dollar value of what the last worker produces. Step 1: Find the MP_L that makes VMP_L = w. $1.00 \u00d7 MP_L = $25.00, so MP_L = 25 Step 2: Find that worker in the table. Going from L = 5 to L = 6, output rises from 450 to 475, so the sixth worker's MP_L is 25. A seventh worker adds nothing (475 to 475) but still costs $25, so stop at 6.",
+  "source": "professor",
+  "verbatim": true,
+  "origin": "Quiz 7 Q3",
+  "tables": {
+   "2": [
+    [
+     {
+      "t": "Labor (L)",
+      "r": 1,
+      "c": 1,
+      "h": true
+     },
+     {
+      "t": "Output (Q)",
+      "r": 1,
+      "c": 1,
+      "h": true
+     }
+    ],
+    [
+     {
+      "t": "0",
+      "r": 1,
+      "c": 1,
+      "h": false
+     },
+     {
+      "t": "0",
+      "r": 1,
+      "c": 1,
+      "h": false
+     }
+    ],
+    [
+     {
+      "t": "1",
+      "r": 1,
+      "c": 1,
+      "h": false
+     },
+     {
+      "t": "50",
+      "r": 1,
+      "c": 1,
+      "h": false
+     }
+    ],
+    [
+     {
+      "t": "2",
+      "r": 1,
+      "c": 1,
+      "h": false
+     },
+     {
+      "t": "150",
+      "r": 1,
+      "c": 1,
+      "h": false
+     }
+    ],
+    [
+     {
+      "t": "3",
+      "r": 1,
+      "c": 1,
+      "h": false
+     },
+     {
+      "t": "300",
+      "r": 1,
+      "c": 1,
+      "h": false
+     }
+    ],
+    [
+     {
+      "t": "4",
+      "r": 1,
+      "c": 1,
+      "h": false
+     },
+     {
+      "t": "400",
+      "r": 1,
+      "c": 1,
+      "h": false
+     }
+    ],
+    [
+     {
+      "t": "5",
+      "r": 1,
+      "c": 1,
+      "h": false
+     },
+     {
+      "t": "450",
+      "r": 1,
+      "c": 1,
+      "h": false
+     }
+    ],
+    [
+     {
+      "t": "6",
+      "r": 1,
+      "c": 1,
+      "h": false
+     },
+     {
+      "t": "475",
+      "r": 1,
+      "c": 1,
+      "h": false
+     }
+    ],
+    [
+     {
+      "t": "7",
+      "r": 1,
+      "c": 1,
+      "h": false
+     },
+     {
+      "t": "475",
+      "r": 1,
+      "c": 1,
+      "h": false
+     }
+    ],
+    [
+     {
+      "t": "8",
+      "r": 1,
+      "c": 1,
+      "h": false
+     },
+     {
+      "t": "450",
+      "r": 1,
+      "c": 1,
+      "h": false
+     }
+    ],
+    [
+     {
+      "t": "9",
+      "r": 1,
+      "c": 1,
+      "h": false
+     },
+     {
+      "t": "400",
+      "r": 1,
+      "c": 1,
+      "h": false
+     }
+    ],
+    [
+     {
+      "t": "10",
+      "r": 1,
+      "c": 1,
+      "h": false
+     },
+     {
+      "t": "300",
+      "r": 1,
+      "c": 1,
+      "h": false
+     }
+    ],
+    [
+     {
+      "t": "11",
+      "r": 1,
+      "c": 1,
+      "h": false
+     },
+     {
+      "t": "150",
+      "r": 1,
+      "c": 1,
+      "h": false
+     }
+    ]
+   ]
+  }
+ },
+ {
+  "id": "PRO-Quiz7-Q4",
+  "los": [
+   "S15-01",
+   "S15-09"
+  ],
+  "type": "mc",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "You are a manager at Herman Miller, a major manufacturer of office furniture. You hired an economist to work with engineering and operations experts to estimate the production function for a line of office chairs. Their report says the production function is Q = 2K^0.5L^0.5 where K is capital equipment and L is labor. The company has already spent $8,000 on the 9 units of capital equipment it owns, and current economic conditions keep it from buying more. If workers are paid a competitive wage of $120 per day and chairs sell for $400 each, what is the profit-maximizing amount of labor?",
+  "choices": [
+   "10",
+   "20",
+   "50",
+   "100"
+  ],
+  "answer": 3,
+  "explain": "Answer: 100. Capital is fixed at K = 9 in the short run, so the only choice is how much labor to use. Profit is maximized where VMP_L = w. Step 1: Find the marginal product of labor. MP_L = dQ/dL = 2(0.5)K^0.5L^\u22120.5 = K^0.5/L^0.5 With K = 9: MP_L = 3/L^0.5 Step 2: Set VMP_L = w. $400 \u00d7 3/L^0.5 = $120 1,200/L^0.5 = 120, so L^0.5 = 10 L = 100 The $8,000 already spent on equipment is a sunk cost. It does not change how much labor to hire. 10 is L^0.5, not L.",
+  "source": "professor",
+  "verbatim": true,
+  "origin": "Quiz 7 Q4"
+ },
+ {
+  "id": "PRO-Quiz7-Q5",
+  "los": [
+   "S15-07",
+   "S15-11",
+   "S16-02"
+  ],
+  "type": "mc",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Suppose the production process for your business is Q = 4K + L where Q is total output, K is units of capital, and L is units of labor. What is the marginal rate of technical substitution (MRTS) when K = 1 and L = 4?",
+  "choices": [
+   "1/4",
+   "4",
+   "8",
+   "The MRTS varies depending on the values of K and L."
+  ],
+  "answer": 0,
+  "explain": "Answer: 1/4. MRTS = MP_L/MP_K. For a linear production function, each marginal product is just the coefficient on that input: MP_L = 1 and MP_K = 4. MRTS = 1/4 Because the marginal products never change, the MRTS is 1/4 at every combination of K and L. The values K = 1 and L = 4 don't matter.",
+  "source": "professor",
+  "verbatim": true,
+  "origin": "Quiz 7 Q5"
+ },
+ {
+  "id": "PRO-Quiz7-Q6",
+  "los": [
+   "S15-09",
+   "S16-01"
+  ],
+  "type": "mc",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Suppose the production process for your company is Q = 4K^0.25L^0.75 and your daily target output is Q = 400. What equation would you use to graph this isoquant with K on the vertical axis and L on the horizontal axis?",
+  "choices": [
+   "K = (100/L^0.25)^4",
+   "K = (100/L^0.75)^4",
+   "K = (400/L^0.25)^4",
+   "K = (400/L^0.75)^4"
+  ],
+  "answer": 1,
+  "explain": "Answer: K = (100/L^0.75)^4. An isoquant holds output fixed. Set Q = 400 and solve for K. 400 = 4K^0.25L^0.75 100 = K^0.25L^0.75 (divide both sides by 4) K^0.25 = 100/L^0.75 K = (100/L^0.75)^4 (raise both sides to the 4th power) The 400 choices forget to divide by 4. The L^0.25 choices use the exponent on capital instead of labor.",
+  "source": "professor",
+  "verbatim": true,
+  "origin": "Quiz 7 Q6"
+ },
+ {
+  "id": "PRO-Quiz7-Q7",
+  "los": [
+   "S16-05"
+  ],
+  "type": "mc",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "The current wage rate is $10 per hour and capital rents for $25 per hour. The marginal product of labor is 40 units of output per hour, and the marginal product of capital is 125 units of output per hour. Is your firm using the cost-minimizing combination of capital and labor?",
+  "choices": [
+   "Yes",
+   "No"
+  ],
+  "answer": 1,
+  "explain": "Answer: No. Compare the marginal product per dollar spent on each input: Labor: MP_L/w = 40/$10 = 4 units per dollar Capital: MP_K/r = 125/$25 = 5 units per dollar A firm minimizes cost only when the marginal product per dollar is the same for every input (MP_L/w = MP_K/r). Here 4 \u2260 5, so it is not minimizing cost.",
+  "source": "professor",
+  "verbatim": true,
+  "origin": "Quiz 7 Q7"
+ },
+ {
+  "id": "PRO-Quiz7-Q8",
+  "los": [
+   "S16-05"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "The current wage rate is $10 per hour and capital rents for $25 per hour. The marginal product of labor is 40 units of output per hour, and the marginal product of capital is 125 units of output per hour. Should your firm increase or decrease the amount of capital it uses?",
+  "choices": [
+   "Increase",
+   "Decrease"
+  ],
+  "answer": 0,
+  "explain": "Answer: Increase. Compare the marginal product per dollar spent on each input: Labor: MP_L/w = 40/$10 = 4 units per dollar Capital: MP_K/r = 125/$25 = 5 units per dollar Capital gives more output per dollar. Shifting spending from labor to capital produces the same output for less money. As the firm adds capital, MP_K falls, and it keeps shifting until the two ratios are equal.",
+  "source": "professor",
+  "verbatim": true,
+  "origin": "Quiz 7 Q8"
+ },
+ {
+  "id": "PRO-Quiz7-Q9",
+  "los": [
+   "S16-04",
+   "S16-06"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "All else equal, if the wage rate decreases, what happens to the isocost line? (Assume that capital is on the vertical axis and labor is on the horizontal axis.)",
+  "choices": [
+   "The slope will increase (become steeper) and the vertical intercept will increase.",
+   "The slope will increase (become steeper) and the horizontal intercept will decrease.",
+   "The slope will decrease (become less steep) and the vertical intercept will decrease.",
+   "The slope will decrease (become less steep) and the horizontal intercept will increase."
+  ],
+  "answer": 3,
+  "explain": "Answer: The slope will decrease (become less steep) and the horizontal intercept will increase. The isocost line is wL + rK = C, or K = C/r \u2212 (w/r)L. Slope: \u2212w/r. A lower wage makes it less steep. Horizontal intercept: C/w, the most labor the budget buys. A lower wage moves it out. Vertical intercept: C/r, the most capital the budget buys. It does not change, because r did not change.",
+  "source": "professor",
+  "verbatim": true,
+  "origin": "Quiz 7 Q9"
+ },
+ {
+  "id": "PRO-Quiz7-Q10",
+  "los": [
+   "S16-06"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "All else equal, if the wage rate decreases, what will happen to the cost-minimizing mix of labor and capital?",
+  "choices": [
+   "A change in the wage rate will not shift the cost-minimizing mix of capital and labor.",
+   "The firm will use more capital and less labor.",
+   "The firm will use more labor and less capital.",
+   "None of the above"
+  ],
+  "answer": 2,
+  "explain": "Answer: The firm will use more labor and less capital. A lower wage raises MP_L/w, the output per dollar spent on labor. Labor now gives more for the money than capital, so the firm substitutes toward labor and away from capital until MP_L/w = MP_K/r again. On the graph, the flatter isocost line is tangent to the isoquant at a point with more L and less K. 4fca094e-37f4-41a9-bbe1-6db12d08491e",
+  "source": "professor",
+  "verbatim": true,
+  "origin": "Quiz 7 Q10"
+ }
+]

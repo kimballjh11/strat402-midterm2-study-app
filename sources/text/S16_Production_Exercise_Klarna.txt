@@ -1,0 +1,643 @@
+## SHEET: Overview (6 rows x 10 cols)
+A1: "Production Exercise: Klarna's AI Assistant and Human Agents"
+A2: 'Overview\nIn late January 2024, Klarna, the buy-now-pay-later company, launched an AI customer service assistant built on OpenAI\'s models. A month later Klarna announced that the assistant had already handled 2.3 million conversations, two-thirds of all customer service chats, and was doing the equivalent work of 700 full-time agents. Customers resolved their errands in under 2 minutes, compared with 11 minutes before. Klarna froze hiring and let its human customer service staff shrink through attrition. By late 2025, Klarna said the assistant was doing the work of 853 agents.\n\nIn May 2025, the CEO changed course. He said cost had been "a too predominant evaluation factor" and had led to lower quality, and Klarna began recruiting human agents again. AI and humans are not perfect substitutes: the assistant handles routine errands well, but disputes, fraud, and unusual cases still need a person, and a conversation the AI handles badly comes back as a repeat contact.\n\nIn this exercise you will estimate Klarna\'s customer service production function, check whether Klarna is using the cost-minimizing mix of AI assistant hours and human agent hours, find that mix, and quantify what moving to it would save. Output (Q) is customer conversations resolved per month. Capital (K) is AI assistant hours: AI-handled conversations × 2 minutes. Labor (L) is human agent hours. The monthly data on the Data tab are simulated for this exercise, calibrated to Klarna\'s public statements; they are not Klarna\'s internal records.\n\nInstructions: Complete Steps 1–9 in the Exercise tab using production data from the Data tab. Enter your answers in the yellow cells, and use formulas that reference your regression output and the data rather than typed-in numbers. Then answer the questions at the bottom.'
+## SHEET: Data (36 rows x 21 cols)
+A1: 'Klarna Customer Service, Monthly (February 2024 – September 2026)'
+A2: "Simulated for this exercise and calibrated to Klarna's public statements; not Klarna's internal data. Q = conversations resolved, K = AI assistant hours, L = human agent hours."
+A3: 'Year'
+B3: 'Month'
+C3: 'Conversations Resolved (Q)'
+D3: 'AI Assistant Hours (K)'
+E3: 'Human Agent Hours (L)'
+F3: 'ln(Q)'
+G3: 'ln(K)'
+H3: 'ln(L)'
+A4: 2024
+B4: 2
+C4: 3619630
+D4: 79149
+E4: 60149
+F4: 15.10188236863341  [formula =LN(C4)]
+G4: 11.279087430990558  [formula =LN(D4)]
+H4: 11.00458009616072  [formula =LN(E4)]
+A5: 2024
+B5: 3
+C5: 3977279
+D5: 98219
+E5: 62948
+F5: 15.19610847511114  [formula =LN(C5)]
+G5: 11.494954958315587  [formula =LN(D5)]
+H5: 11.050064267720755  [formula =LN(E5)]
+A6: 2024
+B6: 4
+C6: 3471196
+D6: 79390
+E6: 60384
+F6: 15.060009761126365  [formula =LN(C6)]
+G6: 11.28212769471916  [formula =LN(D6)]
+H6: 11.008479448168277  [formula =LN(E6)]
+A7: 2024
+B7: 5
+C7: 3406537
+D7: 78419
+E7: 56376
+F7: 15.041206790725013  [formula =LN(C7)]
+G7: 11.269821523915999  [formula =LN(D7)]
+H7: 10.939798815006858  [formula =LN(E7)]
+A8: 2024
+B8: 6
+C8: 3540310
+D8: 83789
+E8: 55805
+F8: 15.079724851897343  [formula =LN(C8)]
+G8: 11.336057012937713  [formula =LN(D8)]
+H8: 10.929618750089816  [formula =LN(E8)]
+A9: 2024
+B9: 7
+C9: 3573152
+D9: 87995
+E9: 56818
+F9: 15.088958677382529  [formula =LN(C9)]
+G9: 11.385035273664311  [formula =LN(D9)]
+H9: 10.947608455915049  [formula =LN(E9)]
+A10: 2024
+B10: 8
+C10: 3175560
+D10: 77119
+E10: 53152
+F10: 14.970994552708923  [formula =LN(C10)]
+G10: 11.253104962395378  [formula =LN(D10)]
+H10: 10.880911012413021  [formula =LN(E10)]
+A11: 2024
+B11: 9
+C11: 3171842
+D11: 80133
+E11: 48540
+F11: 14.969823049651382  [formula =LN(C11)]
+G11: 11.291443033232651  [formula =LN(D11)]
+H11: 10.790143479280593  [formula =LN(E11)]
+A12: 2024
+B12: 10
+C12: 3497649
+D12: 87677
+E12: 54678
+F12: 15.06760158647281  [formula =LN(C12)]
+G12: 11.381414886268018  [formula =LN(D12)]
+H12: 10.909216713724183  [formula =LN(E12)]
+A13: 2024
+B13: 11
+C13: 4136542
+D13: 105763
+E13: 57987
+F13: 15.235370731072251  [formula =LN(C13)]
+G13: 11.568956020795154  [formula =LN(D13)]
+H13: 10.967974126474862  [formula =LN(E13)]
+A14: 2024
+B14: 12
+C14: 4145330
+D14: 101966
+E14: 63960
+F14: 15.237492957375268  [formula =LN(C14)]
+G14: 11.53239470336517  [formula =LN(D14)]
+H14: 11.06601316694789  [formula =LN(E14)]
+A15: 2025
+B15: 1
+C15: 3854593
+D15: 102836
+E15: 53294
+F15: 15.164775982233401  [formula =LN(C15)]
+G15: 11.54089076525193  [formula =LN(D15)]
+H15: 10.883579033460945  [formula =LN(E15)]
+A16: 2025
+B16: 2
+C16: 3307458
+D16: 95984
+E16: 47129
+F16: 15.011690476477924  [formula =LN(C16)]
+G16: 11.471936789892874  [formula =LN(D16)]
+H16: 10.76064380178476  [formula =LN(E16)]
+A17: 2025
+B17: 3
+C17: 3496947
+D17: 96989
+E17: 48149
+F17: 15.067400860082792  [formula =LN(C17)]
+G17: 11.482352848993164  [formula =LN(D17)]
+H17: 10.782055648578622  [formula =LN(E17)]
+A18: 2025
+B18: 4
+C18: 3140395
+D18: 86670
+E18: 43532
+F18: 14.959859146151103  [formula =LN(C18)]
+G18: 11.36986308212839  [formula =LN(D18)]
+H18: 10.681251578815953  [formula =LN(E18)]
+A19: 2025
+B19: 5
+C19: 3561527
+D19: 91027
+E19: 54704
+F19: 15.0856999434472  [formula =LN(C19)]
+G19: 11.418911444787971  [formula =LN(D19)]
+H19: 10.909692111879082  [formula =LN(E19)]
+A20: 2025
+B20: 6
+C20: 3457498
+D20: 88100
+E20: 51825
+F20: 15.056055764068244  [formula =LN(C20)]
+G20: 11.386227811924272  [formula =LN(D20)]
+H20: 10.85562793730398  [formula =LN(E20)]
+A21: 2025
+B21: 7
+C21: 3591219
+D21: 102748
+E21: 47329
+F21: 15.09400225714649  [formula =LN(C21)]
+G21: 11.540034667448847  [formula =LN(D21)]
+H21: 10.76487849442862  [formula =LN(E21)]
+A22: 2025
+B22: 8
+C22: 3716593
+D22: 104452
+E22: 54531
+F22: 15.128317946378058  [formula =LN(C22)]
+G22: 11.556482914719057  [formula =LN(D22)]
+H22: 10.90652462628121  [formula =LN(E22)]
+A23: 2025
+B23: 9
+C23: 3546922
+D23: 93550
+E23: 47331
+F23: 15.08159074309953  [formula =LN(C23)]
+G23: 11.446251331702236  [formula =LN(D23)]
+H23: 10.764920750925564  [formula =LN(E23)]
+A24: 2025
+B24: 10
+C24: 3961860
+D24: 105900
+E24: 52085
+F24: 15.192224169927266  [formula =LN(C24)]
+G24: 11.570250531589497  [formula =LN(D24)]
+H24: 10.86063227841855  [formula =LN(E24)]
+A25: 2025
+B25: 11
+C25: 4430179
+D25: 126884
+E25: 59181
+F25: 15.303950547525547  [formula =LN(C25)]
+G25: 11.751028562222944  [formula =LN(D25)]
+H25: 10.988355823411979  [formula =LN(E25)]
+A26: 2025
+B26: 12
+C26: 4179522
+D26: 106443
+E26: 59499
+F26: 15.245707443895029  [formula =LN(C26)]
+G26: 11.575364909587336  [formula =LN(D26)]
+H26: 10.993714784669798  [formula =LN(E26)]
+A27: 2026
+B27: 1
+C27: 3843158
+D27: 100170
+E27: 59308
+F27: 15.161804982415081  [formula =LN(C27)]
+G27: 11.51462402160581  [formula =LN(D27)]
+H27: 10.990499483137917  [formula =LN(E27)]
+A28: 2026
+B28: 2
+C28: 3477708
+D28: 99633
+E28: 48925
+F28: 15.061884014075115  [formula =LN(C28)]
+G28: 11.509248713997788  [formula =LN(D28)]
+H28: 10.798043792264277  [formula =LN(E28)]
+A29: 2026
+B29: 3
+C29: 3628324
+D29: 92406
+E29: 54730
+F29: 15.1042813916321  [formula =LN(C29)]
+G29: 11.43394719058652  [formula =LN(D29)]
+H29: 10.910167284137964  [formula =LN(E29)]
+A30: 2026
+B30: 4
+C30: 3882414
+D30: 93818
+E30: 55214
+F30: 15.171967683083539  [formula =LN(C30)]
+G30: 11.449112014238901  [formula =LN(D30)]
+H30: 10.918971823296669  [formula =LN(E30)]
+A31: 2026
+B31: 5
+C31: 3553750
+D31: 92591
+E31: 51759
+F31: 15.083513941947347  [formula =LN(C31)]
+G31: 11.435947223686178  [formula =LN(D31)]
+H31: 10.854353609049973  [formula =LN(E31)]
+A32: 2026
+B32: 6
+C32: 3361323
+D32: 94568
+E32: 49253
+F32: 15.027845204440199  [formula =LN(C32)]
+G32: 11.457074431430213  [formula =LN(D32)]
+H32: 10.804725558450654  [formula =LN(E32)]
+A33: 2026
+B33: 7
+C33: 4415122
+D33: 119053
+E33: 60190
+F33: 15.300546024707494  [formula =LN(C33)]
+G33: 11.687324051093517  [formula =LN(D33)]
+H33: 11.005261504541817  [formula =LN(E33)]
+A34: 2026
+B34: 8
+C34: 3836670
+D34: 98772
+E34: 58588
+F34: 15.16011536083931  [formula =LN(C34)]
+G34: 11.500569442760645  [formula =LN(D34)]
+H34: 10.978285176438197  [formula =LN(E34)]
+A35: 2026
+B35: 9
+C35: 3625629
+D35: 89335
+E35: 59006
+F35: 15.103538348459915  [formula =LN(C35)]
+G35: 11.400148627367267  [formula =LN(D35)]
+H35: 10.985394412632534  [formula =LN(E35)]
+B36: 'Monthly Average'
+C36: 3674494.9375  [formula =AVERAGE(C4:C35)]
+D36: 95048.375  [formula =AVERAGE(D4:D35)]
+E36: 54573.71875  [formula =AVERAGE(E4:E35)]
+## SHEET: Exercise (214 rows x 13 cols)
+A2: '1.'
+B2: 'Estimate Klarna\'s production function (assume Cobb-Douglas, Q = A·K^a·L^b) with a log-linear regression of ln(Q) on ln(K) and ln(L). See the "Log-linear Regression" tab for instructions. Insert the regression output in cell B4.'
+B4: 'SUMMARY OUTPUT'
+B6: 'Regression Statistics'
+B7: 'Multiple R'
+C7: 0.9643894939159176
+B8: 'R Square'
+C8: 0.9300470959753996
+B9: 'Adjusted R Square'
+C9: 0.9252227577668064
+B10: 'Standard Error'
+C10: 0.02447942540924861
+B11: 'Observations'
+C11: 32
+B13: 'ANOVA'
+C14: 'df'
+D14: 'SS'
+E14: 'MS'
+F14: 'F'
+G14: 'Significance F'
+B15: 'Regression'
+C15: 2
+D15: 0.23104662541597978
+E15: 0.11552331270798989
+F15: 192.78231661262794
+G15: 1.776983328341757e-17
+B16: 'Residual'
+C16: 29
+D16: 0.01737802578264203
+E16: 0.0005992422683669665
+B17: 'Total'
+C17: 31
+D17: 0.2484246511986218
+C19: 'Coefficients'
+D19: 'Standard Error'
+E19: 't Stat'
+F19: 'P-value'
+G19: 'Lower 95%'
+H19: 'Upper 95%'
+I19: 'Lower 95.0%'
+J19: 'Upper 95.0%'
+B20: 'Intercept'
+C20: 3.370449024838874
+D20: 0.609509243410209
+E20: 5.5297750793428255
+F20: 5.825947692329442e-06
+G20: 2.1238626530624365
+H20: 4.617035396615311
+I20: 2.1238626530624365
+J20: 4.617035396615311
+B21: 'ln(K) – AI assistant hours'
+C21: 0.5384489690768908
+D21: 0.03789580099747813
+E21: 14.208671011142455
+F21: 1.3478732596163221e-14
+G21: 0.4609433535644864
+H21: 0.6159545845892952
+I21: 0.4609433535644864
+J21: 0.6159545845892952
+B22: 'ln(L) – human agent hours'
+C22: 0.5112793470469763
+D22: 0.04629509836395974
+E22: 11.043919661373959
+F22: 6.6218119806488e-12
+G22: 0.41659523958755657
+H22: 0.605963454506396
+I22: 0.41659523958755657
+J22: 0.605963454506396
+B24: 'Write out the production function. Round to two decimal places.'
+B25: 'Q = 29.09 · K^0.54 · L^0.51'  [formula ="Q = "&TEXT(EXP(C20),"0.00")&" · K^"&TEXT(C21,"0.00")&" · L^"&TEXT(C22,"0.00")]
+K25: 29.091586970617083  [formula =EXP(C20)]
+A28: '2.'
+B28: 'Using the estimated production function, plot total production (Q) against human agent hours (L), fixing AI assistant hours (K) at the monthly average.'
+B29: 'K (monthly average)'
+C29: 'L'
+D29: 'Q'
+B30: 95048.375  [formula =Data!D36]
+C30: 0
+D30: 0  [formula =EXP($C$20)*$B$30^$C$21*C30^$C$22]
+C31: 2500
+D31: 761084.9810317474  [formula =EXP($C$20)*$B$30^$C$21*C31^$C$22]
+C32: 5000
+D32: 1084784.7505719597  [formula =EXP($C$20)*$B$30^$C$21*C32^$C$22]
+C33: 10000
+D33: 1546158.4243565334  [formula =EXP($C$20)*$B$30^$C$21*C33^$C$22]
+C34: 15000
+D34: 1902329.8168032893  [formula =EXP($C$20)*$B$30^$C$21*C34^$C$22]
+C35: 20000
+D35: 2203760.5819479083  [formula =EXP($C$20)*$B$30^$C$21*C35^$C$22]
+C36: 30000
+D36: 2711416.500466296  [formula =EXP($C$20)*$B$30^$C$21*C36^$C$22]
+C37: 40000
+D37: 3141049.8601193107  [formula =EXP($C$20)*$B$30^$C$21*C37^$C$22]
+C38: 50000
+D38: 3520650.5349774356  [formula =EXP($C$20)*$B$30^$C$21*C38^$C$22]
+C39: 60000
+D39: 3864618.729130243  [formula =EXP($C$20)*$B$30^$C$21*C39^$C$22]
+C40: 80000
+D40: 4476980.986307865  [formula =EXP($C$20)*$B$30^$C$21*C40^$C$22]
+C41: 100000
+D41: 5018030.978957431  [formula =EXP($C$20)*$B$30^$C$21*C41^$C$22]
+C42: 120000
+D42: 5508293.513363129  [formula =EXP($C$20)*$B$30^$C$21*C42^$C$22]
+A48: '3.'
+B48: 'Using the estimated production function, plot the marginal product of labor (MPL) and the marginal product of AI hours (MPK). Fix the "other" input at its monthly average.'
+B49: 'Hint: take the derivative of the production function with respect to each input. For Q = A·K^a·L^b, MPL = b·A·K^a·L^(b−1) and MPK = a·A·K^(a−1)·L^b.'
+B50: 'K (monthly average)'
+C50: 'L'
+D50: 'MPL'
+B51: 95048.375  [formula =B30]
+C51: 5000
+D51: 110.92560779178964  [formula =$C$22*EXP($C$20)*$B$51^$C$21*C51^($C$22-1)]
+C52: 10000
+D52: 79.05188696361894  [formula =$C$22*EXP($C$20)*$B$51^$C$21*C52^($C$22-1)]
+C53: 15000
+D53: 64.84146310687863  [formula =$C$22*EXP($C$20)*$B$51^$C$21*C53^($C$22-1)]
+C54: 20000
+D54: 56.33686356930959  [formula =$C$22*EXP($C$20)*$B$51^$C$21*C54^($C$22-1)]
+C55: 30000
+D55: 46.2097085976935  [formula =$C$22*EXP($C$20)*$B$51^$C$21*C55^($C$22-1)]
+C56: 40000
+D56: 40.14884803809496  [formula =$C$22*EXP($C$20)*$B$51^$C$21*C56^($C$22-1)]
+C57: 50000
+D57: 36.00071813407702  [formula =$C$22*EXP($C$20)*$B$51^$C$21*C57^($C$22-1)]
+C58: 60000
+D58: 32.93166234025376  [formula =$C$22*EXP($C$20)*$B$51^$C$21*C58^($C$22-1)]
+C59: 80000
+D59: 28.612348942765177  [formula =$C$22*EXP($C$20)*$B$51^$C$21*C59^($C$22-1)]
+C60: 100000
+D60: 25.656156023828544  [formula =$C$22*EXP($C$20)*$B$51^$C$21*C60^($C$22-1)]
+C61: 120000
+D61: 23.468972590461618  [formula =$C$22*EXP($C$20)*$B$51^$C$21*C61^($C$22-1)]
+B69: 'L (monthly average)'
+C69: 'K'
+D69: 'MPK'
+B70: 54573.71875  [formula =Data!E36]
+C70: 10000
+D70: 58.969805414012924  [formula =$C$21*EXP($C$20)*C70^($C$21-1)*$B$70^$C$22]
+C71: 20000
+D71: 42.82417349757295  [formula =$C$21*EXP($C$20)*C71^($C$21-1)*$B$70^$C$22]
+C72: 30000
+D72: 35.51516917227758  [formula =$C$21*EXP($C$20)*C72^($C$21-1)*$B$70^$C$22]
+C73: 40000
+D73: 31.099133240728634  [formula =$C$21*EXP($C$20)*C73^($C$21-1)*$B$70^$C$22]
+C74: 60000
+D74: 25.791297016351628  [formula =$C$21*EXP($C$20)*C74^($C$21-1)*$B$70^$C$22]
+C75: 80000
+D75: 22.584349196591173  [formula =$C$21*EXP($C$20)*C75^($C$21-1)*$B$70^$C$22]
+C76: 100000
+D76: 20.37411080703237  [formula =$C$21*EXP($C$20)*C76^($C$21-1)*$B$70^$C$22]
+C77: 120000
+D77: 18.729771455091463  [formula =$C$21*EXP($C$20)*C77^($C$21-1)*$B$70^$C$22]
+C78: 150000
+D78: 16.896764909835166  [formula =$C$21*EXP($C$20)*C78^($C$21-1)*$B$70^$C$22]
+C79: 200000
+D79: 14.795783196730675  [formula =$C$21*EXP($C$20)*C79^($C$21-1)*$B$70^$C$22]
+A88: '4.'
+B88: 'Plot the isoquant in input space (K on the vertical axis, L on the horizontal axis) at the average monthly output. Indicate where Klarna is producing on the isoquant.'
+B89: 'Hints: fix Q at the monthly average, enter a range of values for L, and solve the production function for K: K = (Q / (A·L^b))^(1/a). To show the current mix, fill in the Current mix row with the monthly averages of L and K and plot it as a separate series with a marker in a different color.'
+B90: 'Q (monthly average)'
+C90: 'L'
+D90: 'K'
+B91: 3674494.9375  [formula =Data!C36]
+C91: 20000
+D91: 245641.51809984585  [formula =($B$91/(EXP($C$20)*C91^$C$22))^(1/$C$21)]
+C92: 25000
+D92: 198738.38057958544  [formula =($B$91/(EXP($C$20)*C92^$C$22))^(1/$C$21)]
+C93: 30000
+D93: 167145.97035311162  [formula =($B$91/(EXP($C$20)*C93^$C$22))^(1/$C$21)]
+C94: 40000
+D94: 127192.4883707324  [formula =($B$91/(EXP($C$20)*C94^$C$22))^(1/$C$21)]
+C95: 50000
+D95: 102906.17545529237  [formula =($B$91/(EXP($C$20)*C95^$C$22))^(1/$C$21)]
+C96: 60000
+D96: 86547.71414379335  [formula =($B$91/(EXP($C$20)*C96^$C$22))^(1/$C$21)]
+C97: 70000
+D97: 74763.02817740157  [formula =($B$91/(EXP($C$20)*C97^$C$22))^(1/$C$21)]
+C98: 80000
+D98: 65859.91335293339  [formula =($B$91/(EXP($C$20)*C98^$C$22))^(1/$C$21)]
+C99: 100000
+D99: 53284.52871535152  [formula =($B$91/(EXP($C$20)*C99^$C$22))^(1/$C$21)]
+C100: 120000
+D100: 44814.16337882011  [formula =($B$91/(EXP($C$20)*C100^$C$22))^(1/$C$21)]
+C101: 150000
+D101: 36257.28389007729  [formula =($B$91/(EXP($C$20)*C101^$C$22))^(1/$C$21)]
+B102: 'Current mix'
+C102: 54573.71875  [formula =Data!E36]
+D102: 95048.375  [formula =Data!D36]
+A109: '5.'
+B109: 'Now assume the price of a human agent hour (w) is $30.76 and the price of an AI assistant hour (r) is $29.70. Determine whether Klarna is using the cost-minimizing input mix.'
+B110: 'Where the prices come from: w is the BLS median wage for customer service representatives ($21.53/hour) divided by 0.70, because wages are 70% of total compensation (BLS Employer Costs for Employee Compensation). r is Intercom\'s market price for AI customer service, $0.99 per resolution, at 30 conversations per AI hour. Hint: read the "Using Solver to Cost Minimize" tab.'
+B111: 'L ='
+C111: 54573.71875  [formula =Data!E36]
+B112: 'K ='
+C112: 95048.375  [formula =Data!D36]
+B113: 'w ='
+C113: 30.76
+B114: 'r ='
+C114: 29.7
+B115: 'MPL ='
+C115: 34.49317406235319  [formula =$C$22*EXP($C$20)*C112^$C$21*C111^($C$22-1)]
+D115: 'Use the equation from Step 3.'
+B116: 'MPK ='
+C116: 20.85731076258038  [formula =$C$21*EXP($C$20)*C112^($C$21-1)*C111^$C$22]
+D116: 'Use the equation from Step 3.'
+B117: 'MPL/w ='
+C117: 1.1213645663963976  [formula =C115/C113]
+D117: 'Check figure: 1.00–1.30'
+B118: 'MPK/r ='
+C118: 0.702266355642437  [formula =C116/C114]
+D118: 'Check figure: 0.63–0.78'
+B119: 'Klarna is NOT at the cost-minimizing mix: MPL/w (1.12) is above MPK/r (0.70), so it should use more human hours and fewer AI hours.'  [formula =IF(ABS(C117-C118)<0.05,"Klarna is at the cost-minimizing mix (MPL/w ≈ MPK/r).","Klarna is NOT at the cost-minimizing mix: MPL/w ("&TEXT(C117,"0.00")&") is above MPK/r ("&TEXT(C118,"0.00")&"), so it should use more human hours and fewer AI hours.")]
+A120: '6.'
+B120: 'Now find the cost-minimizing combination of K and L that produces the average monthly output. Use Solver to minimize Cost by changing L and K, subject to Q = the monthly average.'
+B121: 'Hint: read the "Using Solver to Cost Minimize" tab. At the solution, MPL/MPK should equal w/r.'
+B122: 'L ='
+C122: 69249.4377553357  [formula =($C$128/(EXP($C$20)*(($C$21/$C$22)*($C$124/$C$125))^$C$21))^(1/($C$21+$C$22))]
+D122: 'Check figure: 63,000–75,000 (Solver changes this cell)'
+B123: 'K ='
+C123: 75532.25199039515  [formula =($C$21/$C$22)*($C$124/$C$125)*C122]
+D123: 'Check figure: 69,000–82,000 (Solver changes this cell)'
+B124: 'w ='
+C124: 30.76
+B125: 'r ='
+C125: 29.7
+B126: 'Cost ='
+C126: 4373420.589468862  [formula =C124*C122+C125*C123]
+B127: 'Q ='
+C127: 3674494.9375000005  [formula =EXP($C$20)*C123^$C$21*C122^$C$22]
+B128: 'Q target ='
+C128: 3674494.9375  [formula =Data!C36]
+B129: 'MPL ='
+C129: 27.129366436302448  [formula =$C$22*EXP($C$20)*C123^$C$21*C122^($C$22-1)]
+D129: 'Use the equation from Step 3.'
+B130: 'MPK ='
+C130: 26.194479296429886  [formula =$C$21*EXP($C$20)*C123^($C$21-1)*C122^$C$22]
+D130: 'Use the equation from Step 3.'
+B131: 'w/r ='
+C131: 1.0356902356902358  [formula =C124/C125]
+D131: 'Check figure: 0.98–1.10'
+B132: 'MPL/MPK ='
+C132: 1.0356902356902349  [formula =C129/C130]
+D132: 'Check figure: 0.98–1.10'
+A134: '7.'
+B134: 'Plot the isocost line and the isoquant on one chart so that they touch at the cost-minimizing L and K from Step 6.'
+B135: 'Hint: solve both for K so you can graph them with K on the vertical axis. Isoquant: K = (Q / (A·L^b))^(1/a). Isocost: K = C/r − (w/r)·L, using the minimum cost from Step 6. To put both on one scatter chart, add the second table as a second series (Select Data → Add).'
+B136: 'Q (monthly average)'
+C136: 'L'
+D136: 'K (isoquant)'
+F136: 'C (minimum cost)'
+G136: 'L'
+H136: 'K (isocost)'
+B137: 3674494.9375  [formula =C128]
+C137: 30000
+D137: 167145.97035311162  [formula =($B$137/(EXP($C$20)*C137^$C$22))^(1/$C$21)]
+F137: 4373420.589468862  [formula =$C$126]
+G137: 30000
+H137: 116182.51142992801  [formula =F137/$C$125-($C$124/$C$125)*G137]
+C138: 40000
+D138: 127192.4883707324  [formula =($B$137/(EXP($C$20)*C138^$C$22))^(1/$C$21)]
+F138: 4373420.589468862  [formula =$C$126]
+G138: 40000
+H138: 105825.60907302567  [formula =F138/$C$125-($C$124/$C$125)*G138]
+C139: 50000
+D139: 102906.17545529237  [formula =($B$137/(EXP($C$20)*C139^$C$22))^(1/$C$21)]
+F139: 4373420.589468862  [formula =$C$126]
+G139: 50000
+H139: 95468.7067161233  [formula =F139/$C$125-($C$124/$C$125)*G139]
+C140: 55000
+D140: 94002.06369715113  [formula =($B$137/(EXP($C$20)*C140^$C$22))^(1/$C$21)]
+F140: 4373420.589468862  [formula =$C$126]
+G140: 55000
+H140: 90290.25553767211  [formula =F140/$C$125-($C$124/$C$125)*G140]
+C141: 60000
+D141: 86547.71414379335  [formula =($B$137/(EXP($C$20)*C141^$C$22))^(1/$C$21)]
+F141: 4373420.589468862  [formula =$C$126]
+G141: 60000
+H141: 85111.80435922094  [formula =F141/$C$125-($C$124/$C$125)*G141]
+C142: 65000
+D142: 80213.51697929665  [formula =($B$137/(EXP($C$20)*C142^$C$22))^(1/$C$21)]
+F142: 4373420.589468862  [formula =$C$126]
+G142: 65000
+H142: 79933.35318076977  [formula =F142/$C$125-($C$124/$C$125)*G142]
+C143: 69249.4377553357  [formula =$C$122]
+D143: 75532.2519903951  [formula =($B$137/(EXP($C$20)*C143^$C$22))^(1/$C$21)]
+F143: 4373420.589468862  [formula =$C$126]
+G143: 69249.4377553357  [formula =$C$122]
+H143: 75532.25199039515  [formula =F143/$C$125-($C$124/$C$125)*G143]
+C144: 75000
+D144: 70022.17167869378  [formula =($B$137/(EXP($C$20)*C144^$C$22))^(1/$C$21)]
+F144: 4373420.589468862  [formula =$C$126]
+G144: 75000
+H144: 69576.4508238674  [formula =F144/$C$125-($C$124/$C$125)*G144]
+C145: 80000
+D145: 65859.91335293339  [formula =($B$137/(EXP($C$20)*C145^$C$22))^(1/$C$21)]
+F145: 4373420.589468862  [formula =$C$126]
+G145: 80000
+H145: 64397.99964541623  [formula =F145/$C$125-($C$124/$C$125)*G145]
+C146: 90000
+D146: 58891.109997651256  [formula =($B$137/(EXP($C$20)*C146^$C$22))^(1/$C$21)]
+F146: 4373420.589468862  [formula =$C$126]
+G146: 90000
+H146: 54041.097288513876  [formula =F146/$C$125-($C$124/$C$125)*G146]
+C147: 100000
+D147: 53284.52871535152  [formula =($B$137/(EXP($C$20)*C147^$C$22))^(1/$C$21)]
+F147: 4373420.589468862  [formula =$C$126]
+G147: 100000
+H147: 43684.19493161152  [formula =F147/$C$125-($C$124/$C$125)*G147]
+C148: 120000
+D148: 44814.16337882011  [formula =($B$137/(EXP($C$20)*C148^$C$22))^(1/$C$21)]
+F148: 4373420.589468862  [formula =$C$126]
+G148: 120000
+H148: 22970.390217806795  [formula =F148/$C$125-($C$124/$C$125)*G148]
+B149: 'Row 143 of each table is the cost-minimizing L from Step 6.'
+A169: '8.'
+B169: 'At the average monthly output, how much would Klarna save each month by moving to the cost-minimizing input mix?'
+B170: 'Hint: calculate current cost as C = wL + rK at the monthly averages.'
+B171: 'Current cost:'
+C171: 4501624.32625  [formula =C113*C111+C114*C112]
+B172: 'Minimum cost:'
+C172: 4373420.589468862  [formula =C126]
+B173: 'Savings per month:'
+C173: 128203.736781138  [formula =C171-C172]
+B174: 'Savings per year:'
+C174: 1538444.841373656  [formula =C173*12]
+D174: 'Check figure: $1.30 million–$1.70 million'
+A176: '9.'
+B176: 'How many full-time human agents does the cost-minimizing mix require, compared with the current mix? Assume a full-time agent works 40 hours per week, 52 weeks per year.'
+C177: 'Hours per Month'
+D177: 'Full-Time Agents'
+B178: 'Current labor:'
+C178: 54573.71875  [formula =C111]
+D178: 314.84837740384614  [formula =C178/(40*52/12)]
+B179: 'Cost-minimizing labor:'
+C179: 69249.4377553357  [formula =C122]
+D179: 399.5159870500137  [formula =C179/(40*52/12)]
+B180: 'Change (+ hire, − cut):'
+D180: 84.66760964616753  [formula =D179-D178]
+E180: 'Check figure: 76–94'
+B182: 'QUESTIONS'
+B183: '1. What are some possible reasons that Klarna is not operating at the cost-minimizing input mix?'
+B184: "One reason is that Klarna's real cost per AI hour is likely below the $29.70 Intercom price, because it builds its own assistant on OpenAI's models through an API key (I would guess). At Klarna's own price, heavy AI use may be closer to cost-minimizing then we think). Strategy and signaling ahead of its IPO might have played an influence., Klarna wanted to show investors AI-driven efficiency, so it froze hiring and  instead of optimizing the mix. Hiring, training, and learning takes time, so the labor force can't jump inter right away. The model leaves out quality of conversation. AI conversations that go bad come back as repeat contacts, not measuring the true cost of AI which is higher than r and the true MPK is lower than the estimate. Cobb-Douglas treats every conversation the same, but in reality routine errands and complex cases need different inputs, so one aggregate mix hides that."
+B191: '2. Compare the cost-minimizing mix from Step 6 (AI hours per human hour, K/L) with the mixes Klarna actually used in the data. How confident are you in the recommendation?'
+B192: "The cost-minimizing mix is 1.09 AI hours per human hour. Klarna's monthly K/L ranged from 1.31 to 2.17 and so the optimum is below every month Klarna actually operated at. I am only moderately confident in the recommendation. First, it is an extrapolation outside the observed data, where the Cobb-Douglas form may not hold. Second, K/L* = (a/b)(w/r) depends on a/b, and the 95% confidence intervals allow a/b from about 0.76 to 1.48, so K/L* could be anywhere from about 0.79 to 1.53. The direction (shift toward human hours) holds even at the top of that range, but the size of the shift is uncertain. The K and L rise and fall together with seasonal volume, which makes their separate effects harder to be perfectly exact. An R-squared of 0.93 shows a good fit within the data, not that the model is right outside it. "
+B198: "3. Klarna builds its own assistant, so its cost per AI hour may be far below Intercom's market price. Klarna's 2024 claim that the assistant would add $40 million in profit, after replacing 700 agents, implies an AI cost of about $5.20 per AI hour. Recompute the cost-minimizing mix at that price (use K/L = (a/b)·(w/r) or rerun Solver). What changes, and what does that tell you?"
+C199: 'r'
+D199: 'K/L*'
+E199: 'L*'
+F199: 'K*'
+G199: 'Full-Time Agents'
+B200: "At Klarna's implied r"
+C200: 5.2
+D200: 6.229730901988686
+E200: 28329.985828789104
+F200: 176488.18817050903
+G200: 163.44222593532174
+B202: "At r = $5.20, the cost-minimizing K/L rises to 6.23, up from 1.09 at the Intercom price. Klarna would need only 28,330 human hours a month and 176,488 AI hours, compared with 315 agents today and 400 at the market price. The recommendation flips: instead of hiring  85 agents, Klarna should cut about 151. So the answer depends heavily on the price of AI, which is the least certain input in our model. At Klarna's own cost, its 2024 AI-first strategy looks cost-minimizing, which helps explain the hiring freeze. But $5.20 counts only the direct cost of running the assistant. If bad AI conversations cause repeat contacts, lost customers, and brand damage, the true r is higher and the equilibrium moves back toward  more humans, which is consistent with the 2025 reversal."
+B208: "4. What would you do if you were Klarna's head of customer service?"
+B209: 'I would keep AI as the front line for routine errands but stop treating cost per conversation as the only target. You could route to AI or human by case type: let the AI handle routine errands (payment status, refunds, account changes), send disputes, fraud, and unusual cases straight to people, and give customers an easy way to reach a human. You could also measure the full cost: track repeat contacts, first-contact resolution, and customer satisfaction separately for AI and human conversations, and add the cost of repeat contacts to r. Re-estimate the production function with output measured as conversations resolved on first contact. I would likely rehire gradually toward the level the full-cost analysis supports, and use a flexible contractor pool for seasonal peaks at the holidays. I would also rerun the analysis every quarter, since AI quality and prices will keep changing.'
+## SHEET: Log-linear Regression (6 rows x 1 cols)
+A1: 'Steps to Perform Log-Linear Regression'
+A2: "A Cobb-Douglas production function has the form Q = A·K^a·L^b, where A is a constant and a and b are parameters that define how inputs are turned into output. Because a and b are exponents, you can't estimate them with an ordinary linear regression on Q, K, and L. Cobb-Douglas functions have diminishing marginal rates of technical substitution: as one input replaces more and more of the other, it takes more and more of it to keep output the same. That makes it a good fit for AI and human agents, which can substitute for each other but not perfectly.\n\n1. Take the natural log of both sides: ln(Q) = ln(A) + a·ln(K) + b·ln(L). This is a standard linear form in which ln(Q) is the dependent variable, ln(A) is the intercept, and a and b are the coefficients on ln(K) and ln(L). On the Data tab, fill in the ln(Q), ln(K), and ln(L) columns with the LN function and copy the formulas down for all months.\n\n2. Go to Data → Data Analysis (you may need to enable the Analysis ToolPak add-in) and choose Regression. Set the Input Y Range to the ln(Q) column, and select both the ln(K) and ln(L) columns for the Input X Range. Include the column titles in both ranges and check the Labels box so the output labels the variables correctly.\n\n3. Under Output options, choose Output Range and select the cell indicated in Step 1 on the Exercise tab. Click OK.\n\n4. Interpret the results. The coefficients on ln(K) and ln(L) are a and b. To convert the estimated function back to Cobb-Douglas form, exponentiate both sides, which undoes the log. Don't forget to exponentiate the intercept as well: A = e^(intercept)."
+## SHEET: Using Solver to Cost Minimize (23 rows x 1 cols)
+A1: 'Using Solver to Cost Minimize in Production Theory'
+A2: "Overview\n\nTo find the cost-minimizing input mix, you need the point where the slope of the isoquant (MPL/MPK) equals the slope of the isocost line (w/r). In other words, the ratio of the marginal products must equal the ratio of the input prices.\n\nOne approach is to fix K or L and vary the other until MPL/MPK = w/r. That finds the right mix, but almost certainly not on the isoquant for your output goal: you can't cut one input without adding the other and still produce the same output.\n\nEconomists solve this as a constrained optimization (with a Lagrange multiplier): minimize total cost subject to producing a target level of output. Because the production function already links K and L, the slopes will automatically be equal at the minimum-cost point. Instead of the calculus, you'll use Solver to do the same thing.\n\nThe total cost function is C = wL + rK, the input quantities times their prices. This is Solver's objective. The constraint is that Q, from your estimated production function, must equal the average monthly output.\n\nSteps to Using Solver\n\n1. In Step 6 on the Exercise tab, L, K, w, r, Cost, and Q are listed in separate cells.\n\nL=_____\nK=_____\nw=_____\nr=_____\nC=_____\nQ=_____\n\n2. For L and K, enter starting values (the monthly averages work well); Solver will change them. For w and r, use the given prices. Enter formulas for Cost and Q that reference those cells.\n\n3. Open Solver (Data → Solver; you may need to enable the Solver add-in).\n\n4. Set Objective: the Cost cell. Select Min.\n\n5. By Changing Variable Cells: the L and K cells, separated by a comma.\n\n6. Subject to the Constraints: click Add, select the Q cell, choose =, and reference the Q target cell (the average monthly output). Click OK.\n\n7. Click Solve. Solver will find the cost-minimizing L and K. If Solver doesn't land on the target output, go to Options and set Constraint Precision to 0.000001, or use Automatic Scaling. Then check that MPL/MPK equals w/r."
+## SHEET: Sources & Assumptions (6 rows x 1 cols)
+A1: 'Sources and Assumptions'
+A2: 'Klarna press release, Feb 27 2024: the assistant had 2.3 million conversations in its first month (two-thirds of chats), did the equivalent work of 700 full-time agents, cut errand time from 11 minutes to under 2, and was estimated to add $40 million in profit in 2024. https://www.klarna.com/international/press/klarna-ai-assistant-handles-two-thirds-of-customer-service-chats-in-its-first-month/\n\nMay 2025 reversal: the CEO said cost had been "a too predominant evaluation factor" leading to lower quality, and Klarna began recruiting human agents. https://www.maginative.com/article/klarna-dials-back-its-ai-customer-service-strategy-now-its-hiring-humans-again/\n\nQ3 2025 earnings call (reported Nov 2025): the assistant does the work of more than 853 full-time agents and has saved about $60 million. https://www.customerexperiencedive.com/news/klarna-says-ai-agent-work-853-employees/\n\nw = $30.76: BLS OEWS May 2025 median wage for customer service representatives (43-4051), $21.53/hour (https://www.onetonline.org/link/localwages/43-4051.00), divided by 0.700, the wage share of private-industry compensation in BLS ECEC, June 2026 (https://www.bls.gov/opub/ted/2026/compensation-costs-for-private-industry-workers-averaged-46-89-per-hour-worked-in-june-2026.htm).\n\nr = $29.70: Intercom Fin\'s $0.99 per resolution (https://www.intercom.com/pricing, as listed in 2026) × 30 AI conversations per hour (under 2 minutes each).\n\nQuestion 3\'s r = $5.20: labor saved on 700 FTE (700 × 2,080 hours × w) minus the $40 million claim, divided by a year of launch-month AI hours (76,667 × 12).'

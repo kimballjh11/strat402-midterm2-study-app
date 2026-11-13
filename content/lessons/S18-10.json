@@ -1,0 +1,34 @@
+{
+ "id": "S18-10",
+ "title": "Circumventing barriers to entry",
+ "calc": false,
+ "plain": "The most profitable industries attract about five times as many entrants as the average industry, yet those entrants earn returns about 30% lower than newcomers elsewhere (Bryce and Dyer, Strategies to Crack Well-Guarded Markets, HBR 2007). The few that succeed use **indirect assault**: they avoid the incumbent's strongholds, so incumbents either cannot respond or do not bother.\n\n**Head-on versus indirect:**\n- Soft drinks: Virgin Cola attacked Coke and Pepsi directly and never passed 1% of U.S. cola. Red Bull came in with a niche energy drink sold in bars and clubs, then moved into stores once demand pulled it in.\n- Video games: Microsoft's Xbox attacked Sony and Nintendo directly and lost about $4.5 billion in five years. Jakks Pacific sold cheap plug-and-play games for kids and casual players and earned about 15% operating margins.\n\n**The three strategies (slides pp. 49 to 50):**\n1. **Leverage existing assets**: use what you already have (shelf space, locations, brand, customers, idle capacity), often with a partner's assets, to lower the cost of entry. McDonald's and Redbox kiosks; Toys \"R\" Us and Babies \"R\" Us.\n2. **Reconfigure the value chain**: change the activities, or their order, that deliver value, often by borrowing a model from another industry or using new technology. Skype, Usana, Netflix.\n3. **Create a market niche**: serve a fringe segment that mainstream customers (and so incumbents) do not care about. Red Bull, Skechers.\n\n**Combinations.** Each strategy alone is ordinary; successful entrants combine at least two.\n- Reconfigure + niche: the most powerful pair (Skype, Usana).\n- Leverage + reconfigure: Walmart and Cott's Sam's Choice soda; Costco Home.\n- Leverage + niche: Babies \"R\" Us; Skechers.\n- All three: rare (Jakks Pacific).\n\n**Directly attacking the market leader is NOT one of the strategies** (Reading Quiz Q1). Reading Quiz Q2: Uber used all three (reconfigured the value chain with an app and private drivers, began in a niche of riders poorly served by taxis, leveraged drivers' existing cars). Comprehension Quiz 8 Q4: a company selling cars from a vending machine is primarily **reconfiguring the value chain**.\n\n**Close the door behind you.** Once in, build your own barriers (S18-07).",
+ "why": "Reading Quiz Q1 and Q2, Comprehension Quiz 8 Q4, practice exam Q21 and exercise step 8 (TikTok and Threads) all ask you to name the strategy a company used.",
+ "definition": "Firms circumvent barriers to entry by indirect assault: leveraging existing assets, reconfiguring the value chain and creating a market niche, usually in combination, so incumbents cannot or will not respond.",
+ "formulas": [],
+ "derivation": "",
+ "math": [],
+ "worked": [
+  {
+   "title": "Classify the entry",
+   "problem": "Netflix first mailed DVDs ordered online instead of renting them in stores, aimed at movie buffs who wanted a big catalog and no late fees. Which strategies?",
+   "steps": [
+    "Mailing DVDs ordered from a website instead of running stores changes the activities that deliver value: reconfigure the value chain (the reading names Netflix applying an Amazon-like model to DVD rentals).",
+    "Targeting heavy movie watchers rather than everyone is a niche."
+   ],
+   "answer": "Reconfigure the value chain plus create a niche, the most powerful pair."
+  }
+ ],
+ "traps": [
+  "Directly attacking the leader is NOT one of the three strategies; head-on entrants (Virgin Cola, Xbox) did badly.",
+  "Leveraging assets uses what YOU ALREADY HAVE. Reconfiguring the value chain changes HOW the product is made or delivered. A niche is about WHICH CUSTOMERS you serve.",
+  "Successful entrants usually COMBINE at least two strategies.",
+  "Acquisitions are not a cheap way in: buyers pay about a 30% premium for the target's future profits."
+ ],
+ "sources": {
+  "slides": "S18 Barriers to Entry pp. 24 to 26, 49 to 50",
+  "read": "Strategies to Crack Well-Guarded Markets",
+  "exercise": "Barriers to Entry Exercise step 8",
+  "quiz": "Reading Quiz Q1, Q2; Comprehension Quiz 8 Q4; Practice exam Q21"
+ }
+}

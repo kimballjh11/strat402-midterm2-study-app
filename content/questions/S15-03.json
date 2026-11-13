@@ -1,0 +1,350 @@
+[
+ {
+  "id": "S15-03-q001",
+  "los": [
+   "S15-03"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Average product of labor is:",
+  "choices": [
+   "The change in output from the last worker",
+   "The maximum output with given inputs",
+   "Total output divided by the number of workers",
+   "Price times marginal product"
+  ],
+  "answer": 2,
+  "explain": "AP_L = Q / L (on the equation sheet). The change from the last worker is MP, maximum output is TP, and price times MP is VMP.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-03-q002",
+  "los": [
+   "S15-03",
+   "S15-04"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "When marginal product is greater than average product, average product is:",
+  "choices": [
+   "Falling",
+   "At its maximum",
+   "Rising",
+   "Negative"
+  ],
+  "answer": 2,
+  "explain": "A new unit above the current average pulls the average up, like a class grade above your GPA. AP is at its maximum only where MP = AP, and it falls when MP < AP.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-03-q003",
+  "los": [
+   "S15-03",
+   "S15-04"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Marginal product crosses average product:",
+  "choices": [
+   "At the maximum of average product",
+   "At the maximum of total product",
+   "At the maximum of marginal product",
+   "Where marginal product is zero"
+  ],
+  "answer": 0,
+  "explain": "AP rises while MP > AP and falls while MP < AP, so it peaks where MP = AP. TP peaks where MP = 0, and MP peaks earlier, at the end of increasing returns.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-03-q004",
+  "los": [
+   "S15-03"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: If average product is falling, total product must be falling too.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 1,
+  "explain": "False. AP falls whenever MP < AP. MP can be below AP but still positive, so output keeps rising while the average falls. In J Dawgs, AP falls after 4 workers but Q rises until 6.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-03-q005",
+  "los": [
+   "S15-03"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: Average product of labor is on the Midterm 2 equation sheet.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explain": "True. The sheet lists AP_I = Q / I for any input I.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-03-q006",
+  "los": [
+   "S15-03"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Use the table.\n\n| Labor (L) | Output (Q) |\n|---|---|\n| 0 | 0 |\n| 1 | 10 |\n| 2 | 25 |\n| 3 | 45 |\n| 4 | 60 |\n| 5 | 70 |\n| 6 | 75 |\n| 7 | 76 |\n| 8 | 74 |\n\nWhat is the average product of labor with 3 workers?",
+  "answer": 15,
+  "unit": "units per worker",
+  "tol": 0.01,
+  "explain": "AP = Q / L = 45 / 3 = 15 units per worker. Using 20 (the MP of the 3rd worker) is the classic mistake.",
+  "verify": {
+   "f": "table_ap",
+   "L": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "Q": [
+    0,
+    10,
+    25,
+    45,
+    60,
+    70,
+    75,
+    76,
+    74
+   ],
+   "at": 3
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-03-q007",
+  "los": [
+   "S15-03"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Use the J Dawgs table from class.\n\n| Labor (L) | Output (Q) |\n|---|---|\n| 0 | 0 |\n| 1 | 7 |\n| 2 | 19 |\n| 3 | 33 |\n| 4 | 46 |\n| 5 | 55 |\n| 6 | 57 |\n| 7 | 49 |\n| 8 | 28 |\n\nWhat is the average product of labor with 5 workers?",
+  "answer": 11,
+  "unit": "hot dogs per worker",
+  "tol": 0.01,
+  "explain": "AP = 55 / 5 = 11 hot dogs per worker, matching the professor's solution sheet.",
+  "verify": {
+   "f": "table_ap",
+   "L": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "Q": [
+    0,
+    7,
+    19,
+    33,
+    46,
+    55,
+    57,
+    49,
+    28
+   ],
+   "at": 5
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-03-q008",
+  "los": [
+   "S15-03"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Use the table.\n\n| Labor (L) | Output (Q) |\n|---|---|\n| 0 | 0 |\n| 1 | 8 |\n| 2 | 20 |\n| 3 | 36 |\n| 4 | 48 |\n| 5 | 56 |\n| 6 | 60 |\n| 7 | 58 |\n\nWhat is the average product of labor with 5 workers? Round to one decimal.",
+  "answer": 11.2,
+  "unit": "cars per worker",
+  "tol": 0.01,
+  "explain": "AP = 56 / 5 = 11.2 cars per worker.",
+  "verify": {
+   "f": "table_ap",
+   "L": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "Q": [
+    0,
+    8,
+    20,
+    36,
+    48,
+    56,
+    60,
+    58
+   ],
+   "at": 5
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-03-q009",
+  "los": [
+   "S15-03"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Use the table.\n\n| Labor (L) | Output (Q) |\n|---|---|\n| 0 | 0 |\n| 1 | 10 |\n| 2 | 25 |\n| 3 | 45 |\n| 4 | 60 |\n| 5 | 70 |\n| 6 | 75 |\n| 7 | 76 |\n| 8 | 74 |\n\nAt how many workers is average product highest? If two levels tie, give the larger.",
+  "answer": 4,
+  "unit": "workers",
+  "tol": 0.01,
+  "explain": "AP: 10, 12.5, 15, 15, 14, 12.5, ... AP is 15 at both L = 3 and L = 4. The 4th worker's MP is 15, exactly equal to AP, which is where MP crosses AP at AP's top. The larger is 4.",
+  "verify": {
+   "f": "ap_max",
+   "L": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "Q": [
+    0,
+    10,
+    25,
+    45,
+    60,
+    70,
+    75,
+    76,
+    74
+   ]
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-03-q010",
+  "los": [
+   "S15-03",
+   "S15-09"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "\\(Q = K^{0.5}L^{0.5}\\) with K = 16 and L = 64. What is the average product of labor?",
+  "answer": 0.5,
+  "unit": "units per worker",
+  "tol": 0.01,
+  "explain": "Q = √16 × √64 = 4 × 8 = 32. AP_L = Q / L = 32 / 64 = 0.5.",
+  "verify": {
+   "f": "cd_ap",
+   "A": 1,
+   "a": 0.5,
+   "b": 0.5,
+   "K": 16,
+   "L": 64
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-03-q011",
+  "los": [
+   "S15-03"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A team's average output is 20 widgets per worker. A new hire produces 12 extra widgets. What happens to the team's average product?",
+  "choices": [
+   "It stays at 20",
+   "It falls, because the new worker's marginal product is below the average",
+   "It becomes 12",
+   "It rises, because output went up"
+  ],
+  "answer": 1,
+  "explain": "Output rises by 12, but 12 is below the average of 20, so the average falls. Rising output does not mean rising average.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-03-q012",
+  "los": [
+   "S15-03"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A manager wants to report 'how productive our workers are on average this month.' Which measure fits?",
+  "choices": [
+   "Average product of labor",
+   "Value marginal product",
+   "Total product",
+   "Marginal product of labor"
+  ],
+  "answer": 0,
+  "explain": "Average productivity across the workforce is Q / L. MP describes only the last worker; TP is total output; VMP is the dollar value of the last worker's output.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-03-q013",
+  "los": [
+   "S15-03"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Store A sells 600 units with 10 workers; store B sells 700 with 14 workers. Which has the higher average product of labor?",
+  "choices": [
+   "Store B, because it sells more",
+   "It cannot be computed without wages",
+   "They are equal",
+   "Store A (60 per worker vs 50)"
+  ],
+  "answer": 3,
+  "explain": "AP_A = 600 / 10 = 60, AP_B = 700 / 14 = 50. Higher total output does not mean higher AP. Wages are not needed for AP.",
+  "source": "generated",
+  "verbatim": false
+ }
+]

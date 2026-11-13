@@ -1,0 +1,174 @@
+S22 Textbook Notes – Bertrand, Model Comparison & Contestable Markets 
+
+ Session 22 · Oligopoly II — Study Notes 
+ ↓ Jump to textbook figures, formulas & book examples 
+
+ Reading: Baye, Ch. 9, pp. 292–299 (Bertrand Oligopoly; Comparing Oligopoly Models; Contestable Markets) and p. 305 (Appendix: Differentiated-Product Bertrand Oligopoly). These are my own summaries, and every worked number is mine. Read them alongside the Rivalry in Oligopoly reading in this folder and the Session 21 notes on Cournot and Stackelberg. 
+
+ 1. Bertrand oligopoly (price competition) 
+
+ Conditions: a few firms selling to many buyers; identical products; constant and equal marginal cost; firms set prices at the same time; perfect information; no switching costs (so buyers go to whoever is cheapest); barriers to entry. 
+
+ Logic: if your rival charges above MC, you can undercut by a penny and take the whole market. The rival can do the same to you. Undercutting continues until P = MC . 
+
+ Result: with only two firms you already get the perfectly competitive outcome: P = MC and zero economic profit . This is the “Bertrand trap.” 
+
+ This is the same as the one-shot pricing game from Session 19: low price is the dominant strategy, so a prisoner's dilemma results. 
+
+ Escaping the Bertrand trap 
+
+ Raise switching costs (loyalty programs, contracts, bundled ecosystems) so a slightly lower rival price doesn't move all your customers. 
+
+ Differentiate the product so buyers aren't perfect price shoppers (see the appendix below). 
+
+ Repeated interaction with credible punishment (trigger strategies from Session 20) can support higher prices. 
+
+ Real-world evidence the book points to: when more sellers list the same product, the gap between high and low prices shrinks. More rivals make the market behave more like Bertrand. 
+
+ 2. Comparing the models: same market, four answers 
+
+ The book takes one linear demand curve with a constant MC and solves it under every model. Here is the same exercise with my own numbers : 
+
+ Market: P = 200 − 2Q (Q = Q₁ + Q₂), MC = $20 for both firms, no fixed costs. 
+
+ Cournot: each firm makes (a − c)/(3b) = 180/6 = 30 . Q = 60, P = 200 − 120 = $80 . Each profit = (80 − 20)·30 = $1,800 . 
+
+ Stackelberg (firm 1 leads): Q₁ = (a + c − 2c)/(2b) = 180/4 = 45 . Follower Q₂ = 180/4 − ½(45) = 22.5 . Q = 67.5, P = 200 − 135 = $65 . Leader profit = 45·45 = $2,025 ; follower = 45·22.5 = $1,012.50 . 
+
+ Bertrand: P = MC = $20 . Q = (200 − 20)/2 = 90, split 45/45. Profit = $0 . 
+
+ Collusion (act as one monopolist): MR = 200 − 4Q = 20 → Q = 45 (22.5 each), P = 200 − 90 = $110 . Industry profit = 90·45 = $4,050, so $2,025 each . 
+
+ Model Total Q Price Profit per firm 
+
+ Collusion 45 $110 $2,025 each 
+
+ Cournot 60 $80 $1,800 each 
+
+ Stackelberg 67.5 $65 Leader $2,025 / Follower $1,012.50 
+
+ Bertrand 90 $20 $0 
+
+ Pattern to memorize: going down the table, output rises and price falls : Collusion < Cournot < Stackelberg < Bertrand in output, and the reverse in price. 
+
+ Industry profit is highest under collusion and zero under Bertrand. The Stackelberg leader does better than a Cournot firm, and the follower does worse. 
+
+ Manager's takeaway: the profit you earn depends heavily on which kind of rivalry your industry has (quantity vs. price, simultaneous vs. sequential, cooperative or not). Spend time working out which model describes your market. 
+
+ Spreadsheet tie-in: the book mentions Cournot, Stackelberg, and Collusion “solver” spreadsheets on the publisher's site. They do the same steps as above. 
+
+ 3. Contestable markets 
+
+ Strategic interaction can happen with potential entrants, not only with existing rivals. A market is contestable when: 
+
+ All producers (incumbents and entrants) have the same technology. 
+
+ Consumers respond quickly to price changes. 
+
+ Incumbents can't quickly cut price in response to entry. 
+
+ There are no sunk costs . 
+
+ Result: even a single incumbent has no market power. It must price at cost (zero economic profit). Otherwise a “hit-and-run” entrant would undercut, take all the customers before the incumbent can react, and leave at no cost. The threat of entry disciplines the incumbent, much like Bertrand. 
+
+ Why sunk costs matter 
+
+ Sunk cost = a cost an entrant pays that it can't recover when it exits . Examples: the gap between what you pay for equipment and its resale value; nonrefundable licenses or fees; losses absorbed while waiting for customers to switch to you. 
+
+ When entry requires sunk costs, an entrant has to worry that incumbents will eventually cut prices. If the entrant can't earn back its sunk cost before that happens, it won't enter, even though current prices are high. Sunk costs therefore let incumbents keep prices above cost. (This links to Session 18 / Module Group A on entry deterrence.) 
+
+ Practice (my numbers): A food-truck entrant buys a truck for $90,000 that it could resell for $72,000, and pays a $6,000 nonrefundable city permit. Sunk cost = (90,000 − 72,000) + 6,000 = $24,000 . 
+
+At current high prices it expects $15,000 profit per quarter. If incumbents can match its price within one quarter, it earns $15,000 < $24,000 sunk → stays out . If incumbents need two quarters to respond, it earns $30,000 > $24,000 → enters . 
+
+If the truck could be resold for the full price and there were no permit (sunk cost = 0), entry would always pay → the market is contestable and incumbents must price at cost. 
+
+ 4. Appendix: differentiated-product Bertrand (p. 305) 
+
+ With slightly differentiated products, undercutting doesn't win every customer, because some buyers prefer your brand. Even if the rival charged zero , you'd still set a positive price (P min ) and sell to your brand-loyal customers. 
+
+ When the rival raises its price, some of its customers switch to you, so your demand rises and your best price rises too. As a result, price reaction functions slope upward , unlike Cournot quantity reaction functions, which slope downward. 
+
+ The two reaction functions are mirror images. Equilibrium is where they cross: each firm's price is a best response to the other's. 
+
+ Products aren't perfect substitutes, so each firm faces a downward-sloping demand curve and charges P > MC . This looks like monopolistic competition, except that entry barriers let these firms keep positive profits in the long run . 
+
+ Optional algebra (my numbers; the book's treatment is graphical): Demand for firm 1: q₁ = 100 − 2p₁ + p₂ (symmetric for firm 2), MC = $10. 
+
+Profit π₁ = (p₁ − 10)(100 − 2p₁ + p₂). Set ∂π₁/∂p₁ = 0: 100 − 4p₁ + p₂ + 20 = 0 → p₁ = 30 + ¼p₂ (upward sloping ✔). 
+
+By symmetry p₂ = 30 + ¼p₁ → p = 30 + ¼p → p = $40 each. q = 100 − 80 + 40 = 60. Profit = (40 − 10)·60 = $1,800 each. Price is well above MC = $10, so the trap is avoided. 
+
+ 5. Quick self-test 
+
+ Why do just two Bertrand firms with identical products end up at P = MC? 
+
+ Name two ways a firm can escape the Bertrand trap. 
+
+ P = 120 − Q, MC = $30, two firms. Find price under Collusion, Cournot, Stackelberg, and Bertrand. 
+
+ List the four conditions for a contestable market. 
+
+ Why can sunk costs allow an incumbent to keep prices high? 
+
+ Why do price reaction functions slope upward in differentiated Bertrand? 
+
+ Answers: (1) any price above MC invites a rival to undercut and take the whole market; (2) switching costs, product differentiation (also repeated-game punishment); (3) Collusion: MR = 120 − 2Q = 30 → Q = 45, P = $75. Cournot: each (90)/3 = 30, Q = 60, P = $60. Stackelberg: Q₁ = 90/2 = 45, Q₂ = 45 − 22.5 = 22.5, Q = 67.5, P = $52.50. Bertrand: P = $30; (4) same technology, consumers respond quickly, incumbents can't quickly cut price, no sunk costs; (5) an entrant that can't recover its sunk cost before incumbents cut prices won't enter, so the threat of entry disappears; (6) a higher rival price shifts customers toward you, raising your demand and your best price. 
+
+ Textbook Figures, Formulas & Book Examples 
+ The diagrams are my redrawings of the book's figures, labeled with the same figure numbers so you can find each original in Bookshelf. The formulas match the book's notation. The book's worked examples are summarized with their actual numbers. 
+
+ A. Conditions & formulas as the book states them 
+
+ Bertrand oligopoly (identical products, consumers willing to pay the finite monopoly price): 
+
+(1) few firms serving many consumers; (2) identical products at a constant marginal cost; (3) firms compete on price and react optimally to rivals' prices; (4) consumers have perfect information and there are no transaction costs; (5) barriers to entry. 
+
+ Result: the price war ends at P₁ = P₂ = MC . Each firm earns zero economic profit, output is socially efficient (same as perfect competition), and there's no deadweight loss, even with only two firms. 
+
+ Contestable market: (1) all producers have access to the same technology; (2) consumers respond quickly to price changes; (3) existing firms cannot respond quickly to entry by lowering price; (4) there are no sunk costs. If all four hold, incumbents have no market power: P = MC and profits are zero, even with only one firm . 
+
+ Sunk costs: costs a new entrant must bear that cannot be recouped upon exiting the market.
+
+ B. The book's model comparison (exact numbers) 
+
+ Market: P = 1,000 − (Q₁ + Q₂) , each firm's cost Cᵢ(Qᵢ) = 4Qᵢ (MC = 4). 
+
+ Model Outputs Total Q Price Profit per firm 
+
+ Cournot r: Qᵢ = 498 − ½Qⱼ → Q₁ = Q₂ = 332 664 $336 $110,224 each 
+
+ Stackelberg Leader Q₁ = (1,000 + 4 − 2·4)/2 = 498; follower Q₂ = (1,000 − 4)/2 − ½(498) = 249 747 $253 Leader $124,002; follower $62,001 
+
+ Bertrand P = MC; each gets half the market 996 $4 $0 
+
+ Collusion MR = 1,000 − 2Q = 4 → Q = 498, 249 each 498 $502 $124,002 each 
+
+ Book's ranking: Output is highest under Bertrand, then Stackelberg, then Cournot, then collusion. Profits are highest for the Stackelberg leader and the colluding firms, followed by Cournot, then the Stackelberg follower. Bertrand firms earn the least. 
+
+ Check the Cournot profit: π = (336 − 4)(332) = 332² = 110,224. Collusion: (502 − 4)(249) = 124,002. Follower: (253 − 4)(249) = 62,001. 
+
+ Q P Demand P = 1,000 − Q MC = 4 Collusion (498, $502) 498 $502 Cournot (664, $336) 664 $336 Stackelberg (747, $253) 747 $253 Bertrand (996, $4) 996 $4 The book’s comparison (P = 1,000 − (Q₁ + Q₂), Cᵢ = 4Qᵢ) plotted on market demand. Only demand below P = 560 is shown. Moving down the demand curve, total output rises and price falls from collusion to Cournot to Stackelberg to Bertrand. 
+ Inside Business 9–4 (solver spreadsheets): the book's website has CournotSolver.xls , StackelbergSolver.xls and CollusionSolver.xls , which compute profit-maximizing outputs, price and profits for each setting step by step. Under collusion, the duopolists produce the monopoly output and split it equally. 
+
+ C. Book examples 
+
+ Inside Business 9–3 (price competition and the number of sellers): 
+
+• Online data (Baye, Morgan & Scholten, about 4 million daily prices on a comparison site): the gap between the two lowest prices for identical products averaged 22% with two sellers and fell below 3% with more than 20 sellers. Real firms escape the “Bertrand trap” when sellers are few, but not when there are many. 
+
+• Lab experiment (Dufwenberg & Gneezy): MC = $2 and the monopoly price is $100 . Theory predicts $2 with 2, 3 or 4 sellers. Actual winning prices averaged about $27 with two sellers and about $9 with three or four . Prices fall fast as sellers are added, but not as sharply as theory predicts. 
+
+ Escaping the Bertrand trap (book): raise switching costs or eliminate the perception that products are identical. That's why Kellogg's and General Mills spend millions on ads to convince consumers their corn flakes differ. Otherwise they'd have to price at marginal cost. 
+
+ Sunk-cost examples (book): 
+
+• Pay $100,000 for a moving truck and resell it for $80,000 on exit: $20,000 is sunk. 
+
+• A nonrefundable $20,000 fee for a nontransferable one-year truck lease is sunk. 
+
+• Losing $2,000/month for six months while waiting for customers to switch: $12,000 is sunk. 
+
+ Why it matters: an entrant figures it could earn $70,000 by undercutting high-priced incumbents, but entry requires $20,000 of sunk costs. The $70,000 assumes incumbents keep their high prices. If they cut prices after entry, the entrant could be left with no customers before it earns back the $20,000. So with sunk costs and an expected price response, entry may not pay even when prices are high, and the incumbents aren't disciplined by potential entry. 
+
+ P₁ P₂ r₂ r₁ Equilibrium P₁ᵐⁱⁿ P₂ᵐⁱⁿ P₁* P₂* A Figure 9–14 (appendix, redrawn): Bertrand reaction functions with differentiated products. They slope upward , so if your rival raises its price, your best response is to raise yours, but by less. Even if the rival charged zero, you’d still charge Pᵐⁱⁿ > 0. At a point like A, firm 1 would cut price toward r₁. The equilibrium, where r₁ and r₂ cross, has prices above marginal cost.

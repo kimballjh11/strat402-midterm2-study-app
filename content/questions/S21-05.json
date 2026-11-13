@@ -1,0 +1,300 @@
+[
+ {
+  "id": "S21-05-q001",
+  "los": [
+   "S21-05"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "In Bryce's Figure 1, homogeneous goods with competition in quantity is called:",
+  "choices": [
+   "Stackelberg",
+   "Cournot",
+   "Differentiated Bertrand",
+   "Bertrand"
+  ],
+  "answer": 1,
+  "explain": "Bryce p. 4.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-05-q002",
+  "los": [
+   "S21-05"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "In Bryce's Figure 1, homogeneous goods with competition in lead time is called:",
+  "choices": [
+   "Stackelberg",
+   "Cournot",
+   "Sweezy",
+   "Bertrand"
+  ],
+  "answer": 0,
+  "explain": "Bryce p. 4.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-05-q003",
+  "los": [
+   "S21-05"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Which condition separates Stackelberg from Cournot?",
+  "choices": [
+   "Firms set prices",
+   "There are barriers to entry",
+   "Products are differentiated",
+   "One firm chooses its output before the others"
+  ],
+  "answer": 3,
+  "explain": "Cournot: simultaneous. Stackelberg: leader first.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-05-q004",
+  "los": [
+   "S21-05"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Which is NOT a textbook condition for Cournot oligopoly?",
+  "choices": [
+   "Firms set prices and buyers see all prices",
+   "Each firm believes rivals hold output constant",
+   "Barriers to entry",
+   "Few firms serving many consumers"
+  ],
+  "answer": 0,
+  "explain": "That describes Bertrand.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-05-q005",
+  "los": [
+   "S21-05"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Which of Bryce's three questions identifies the type of competition (Cournot, Bertrand, and so on)?",
+  "choices": [
+   "How much do target customers overlap?",
+   "What is the primary strategic variable?",
+   "How many firms are in the market?",
+   "What is the interest rate?"
+  ],
+  "answer": 1,
+  "explain": "Bryce p. 10, question 3. The first two help define the market.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-05-q006",
+  "los": [
+   "S21-05"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: In the textbook's conditions, Cournot can apply to homogeneous or differentiated products.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explain": "True. Bryce's figure places the classic case under homogeneous goods.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-05-q007",
+  "los": [
+   "S21-05"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "The Sweezy model (optional in the reading) assumes each firm believes rivals will:",
+  "choices": [
+   "Move first",
+   "Hold output constant",
+   "Match price increases but not cuts",
+   "Match price cuts but not price increases"
+  ],
+  "answer": 3,
+  "explain": "Gives a kinked demand curve and sticky prices.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-05-q008",
+  "los": [
+   "S21-05"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Large agricultural cooperatives each decide how much produce to release for sale this season. Which model fits, according to Bryce?",
+  "choices": [
+   "Bertrand",
+   "Stackelberg",
+   "Cournot",
+   "Differentiated Bertrand"
+  ],
+  "answer": 2,
+  "explain": "Bryce p. 4: a Cournot overlay on agriculture.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-05-q009",
+  "los": [
+   "S21-05"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Two firms race to build capacity in a new market, and everyone knows Firm A will finish its plant first. Which model fits?",
+  "choices": [
+   "Standard Bertrand",
+   "Cournot",
+   "Perfect competition",
+   "Stackelberg"
+  ],
+  "answer": 3,
+  "explain": "Bryce p. 8.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-05-q010",
+  "los": [
+   "S21-05"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Ski resorts near Salt Lake City compete mainly on lift ticket prices for somewhat different mountains. Which model fits?",
+  "choices": [
+   "Cournot",
+   "Standard Bertrand",
+   "Stackelberg",
+   "Differentiated Bertrand"
+  ],
+  "answer": 3,
+  "explain": "Bryce p. 10: price competition, differentiated products.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-05-q011",
+  "los": [
+   "S21-05"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Four steel mills each choose this quarter's production, then the market price adjusts. Which model fits?",
+  "choices": [
+   "Monopoly",
+   "Stackelberg",
+   "Bertrand",
+   "Cournot"
+  ],
+  "answer": 3,
+  "explain": "Simultaneous quantity choice.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-05-q012",
+  "los": [
+   "S21-05"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "An established cement producer has already built a large kiln. A newcomer sees it and then decides how big a kiln to build. Which model fits?",
+  "choices": [
+   "Stackelberg, with the established producer as leader",
+   "Standard Bertrand",
+   "Cournot",
+   "Differentiated Bertrand"
+  ],
+  "answer": 0,
+  "explain": "Observed capacity commitment first.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-05-q013",
+  "los": [
+   "S21-05"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Airlines compete mainly on fares but also use frequent flier programs and route differences. What does Bryce conclude?",
+  "choices": [
+   "Differentiated Bertrand",
+   "Stackelberg",
+   "Cournot",
+   "Perfect competition"
+  ],
+  "answer": 0,
+  "explain": "Bryce p. 10.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-05-q014",
+  "los": [
+   "S21-05"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Gas station prices barely change after a small drop in wholesale costs, and stations believe rivals match price cuts but not increases. Which model best explains the sticky prices?",
+  "choices": [
+   "Sweezy",
+   "Stackelberg",
+   "Cournot",
+   "Standard Bertrand"
+  ],
+  "answer": 0,
+  "explain": "The MR gap at the kink (textbook headline). Sticky prices are not proof of collusion.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-05-q015",
+  "los": [
+   "S21-05"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "To decide whether two firms are in the same oligopoly, Bryce suggests asking:",
+  "choices": [
+   "Whether their prices are equal",
+   "What percentage of their target customers overlap",
+   "Whether they have the same CEO",
+   "Whether they use the same accountant"
+  ],
+  "answer": 1,
+  "explain": "Bryce p. 10, question 2.",
+  "source": "generated",
+  "verbatim": false
+ }
+]

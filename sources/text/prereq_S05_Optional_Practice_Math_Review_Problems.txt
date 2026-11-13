@@ -1,0 +1,194 @@
+
+===== PAGE 1 =====
+MATH REVIEW – ADDITIONAL PRACTICE PROBLEMS 
+ 
+Use algebra to solve for the missing variable: 
+ 
+1. 500 = 20𝑥+ 300 
+ 
+2. 
+10
+2√𝑥= 5 
+ 
+3. 𝑥−0.5 =
+1
+4 
+ 
+4. 6 = 40.5𝑥0.5 
+ 
+5. 10 +
+20
+𝑥= 50 
+ 
+ 
+Find the derivative (
+𝒅𝒚
+𝒅𝒙) for the following functions: 
+ 
+1. 𝑦= 1,250𝑥2 + 5,000𝑥 
+ 
+2. 𝑦= −5𝑥2 + 300𝑥 
+ 
+3. 𝑦= (60 −5𝑥)𝑥 
+ 
+4. 𝑦= 50 + 3𝑥2 
+ 
+5. 𝑦= 350𝑥−0.5 
+ 
+ 
+Find the partial derivative (
+𝝏𝒚
+𝝏𝒙) for the following functions: 
+ 
+1. 𝑦= 5,000 −2𝑥+ 5𝑧2 
+ 
+2. 𝑦= 5,000 −2𝑧+ 5𝑥2 
+ 
+3. 𝑦= 130 −.14𝑧+ .5𝑥2 
+ 
+4. 𝑦= 10𝑥−2𝑥2 −2𝑥𝑧 
+ 
+5. 𝑦= 2𝑧2𝑥.5 
+ 
+ 
+ 
+ 
+ 
+ 
+
+===== PAGE 2 =====
+Revenue Maximization 
+ 
+Suppose that the demand for season passes at Sundance Mountain Resort can be represented by the 
+following demand function:  
+ 
+𝑄𝑥= 6,000 −12𝑃𝑥 
+ 
+What price should the Sundance charge if their ultimate goal is to maximize revenue? 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+===== PAGE 3 =====
+SOLUTIONS 
+ 
+Algebra 
+ 
+1. 𝑥= 10 
+2. 𝑥= 1 
+3. 𝑥= 16 
+4. 𝑥= 9 
+5. 𝑥= 0.5  
+ 
+ 
+Derivatives 
+ 
+1. 
+𝑑𝑦
+𝑑𝑥= 2,500𝑥+ 5,000 
+2. 
+𝑑𝑦
+𝑑𝑥= −10𝑥+ 300 
+3. 
+𝑑𝑦
+𝑑𝑥= 60 −10𝑥 
+4. 
+𝑑𝑦
+𝑑𝑥= 6𝑥 
+5. 
+𝑑𝑦
+𝑑𝑥= −175𝑥−1.5 
+ 
+ 
+Partial Derivatives 
+ 
+1. 
+𝜕𝑦
+𝜕𝑥= −2 
+2. 
+𝜕𝑦
+𝜕𝑥= 10𝑥 
+3. 
+𝜕𝑦
+𝜕𝑥= 𝑥 
+4. 
+𝜕𝑦
+𝜕𝑥= 10 −4𝑥−2𝑧 
+5. 
+𝜕𝑦
+𝜕𝑥=
+𝑧2
+√𝑥 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+===== PAGE 4 =====
+Revenue Maximization 
+ 
+Step 1: Define total revenue as a function of price 
+ 
+𝑅= 𝑃𝑄= 𝑃(6,000 −12𝑃) = 6,000𝑃−12𝑃2 
+ 
+Step 2: Find the derivative of the total revenue function 
+ 
+𝑅′ = 𝑑𝑅
+𝑑𝑃= 6,000 −2 ∗12𝑃2−1 = 6,000 −24𝑃 
+ 
+Step 3: Set the derivative equal to zero 
+ 
+0 = 6,000 −24𝑃 
+ 
+Step 4: Solve for P 
+ 
+If  24𝑃= 6,000, then 𝑃= 6,000
+24
+= $250 
+ 
+Thus the revenue maximizing price is $250. 
+ 
+ 
+ 

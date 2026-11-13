@@ -1,0 +1,220 @@
+[
+ {
+  "id": "S19-01-q001",
+  "los": [
+   "S19-01"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "In a simultaneous-move game:",
+  "choices": [
+   "The game is always played once",
+   "Players must move at exactly the same moment",
+   "One player moves after seeing the other's move",
+   "Each player decides without knowing the other's decision"
+  ],
+  "answer": 3,
+  "explain": "What matters is information: neither knows the other's choice. Moving after observing is sequential. One-shot versus repeated is a separate question.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-01-q002",
+  "los": [
+   "S19-01"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "What does interdependence mean in game theory?",
+  "choices": [
+   "Each player's payoff depends on the other players' choices",
+   "Players cooperate by law",
+   "Payoffs are always equal",
+   "Players move in sequence"
+  ],
+  "answer": 0,
+  "explain": "A firm's best move depends on its rivals' moves.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-01-q003",
+  "los": [
+   "S19-01"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Which three elements make up a game?",
+  "choices": [
+   "Supply, demand and equilibrium",
+   "Price, quantity and cost",
+   "Rows, columns and totals",
+   "Players, strategies and payoffs"
+  ],
+  "answer": 3,
+  "explain": "Who decides, what they can choose, and what each outcome pays.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-01-q004",
+  "los": [
+   "S19-01"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: A one-shot game is played only once, while a repeated game is played more than once.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explain": "True. Repeated games are Session 20.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-01-q005",
+  "los": [
+   "S19-01"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Why is game theory especially useful for oligopoly?",
+  "choices": [
+   "Firms in oligopoly are price takers",
+   "A few firms' profits depend on each other's actions",
+   "Products are always identical",
+   "There is only one firm"
+  ],
+  "answer": 1,
+  "explain": "In perfect competition firms are too small to affect each other; a monopolist has no rival.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-01-q006",
+  "los": [
+   "S19-01"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Two construction firms submit sealed bids for a city contract. Neither sees the other's bid before the deadline. What kind of game is this?",
+  "choices": [
+   "Simultaneous-move, one-shot",
+   "Not a game",
+   "Sequential-move, repeated",
+   "Sequential-move, one-shot"
+  ],
+  "answer": 0,
+  "explain": "Sealed bids mean neither knows the other's choice; this contract is bid once.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-01-q007",
+  "los": [
+   "S19-01"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A grocery chain waits to see its rival's weekly ad before setting its own sale prices. What kind of game is this week's pricing decision?",
+  "choices": [
+   "Mixed strategy",
+   "Simultaneous-move",
+   "Sequential-move",
+   "Coordination"
+  ],
+  "answer": 2,
+  "explain": "It observes the rival's choice before deciding.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-01-q008",
+  "los": [
+   "S19-01",
+   "S19-06"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Visa and Mastercard each decide whether to lower merchant fees, without knowing what the other will announce. Why is game theory needed to predict Visa's choice?",
+  "choices": [
+   "Mastercard always moves first",
+   "Visa's fee does not affect its profit",
+   "Visa is a monopoly",
+   "Visa's best fee depends on what Mastercard does"
+  ],
+  "answer": 3,
+  "explain": "Interdependence: each card network's profit depends on both fees.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-01-q009",
+  "los": [
+   "S19-01"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: A simultaneous-move game is a game in which players make decisions without knowledge of the other players' decisions.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explain": "True. It is about information, not the clock.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-01-q010",
+  "los": [
+   "S19-01",
+   "S19-06"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Coke and Pepsi each set their summer prices in sealed plans sent to retailers on the same day. Later in the year they will set prices again. How should you model this summer's decision?",
+  "choices": [
+   "A sequential-move game",
+   "A monopoly decision",
+   "A simultaneous-move game (one round of a repeated game)",
+   "A game with one player"
+  ],
+  "answer": 2,
+  "explain": "Neither sees the other's plan before committing. The yearly repetition makes it part of a repeated game (S20).",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-01-q011",
+  "los": [
+   "S19-01"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Facebook and Twitter each decide in 2019 whether to ban political ads, without knowing the other's decision. In the Game Theory Exercise Part 1, how is this first modeled?",
+  "choices": [
+   "As a repeated game",
+   "As a sequential game with Twitter first",
+   "As a mixed strategy game",
+   "As a one-shot simultaneous game"
+  ],
+  "answer": 3,
+  "explain": "Part 1 sets it up as a one-shot simultaneous game; Part 2 re-models it as a sequential game with Twitter moving first.",
+  "source": "generated",
+  "verbatim": false
+ }
+]

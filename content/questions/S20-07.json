@@ -1,0 +1,223 @@
+[
+ {
+  "id": "S20-07-q001",
+  "los": [
+   "S20-07"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Which list matches the slides' factors that influence collusion?",
+  "choices": [
+   "Advertising, branding, location, patents",
+   "Interest rates, taxes, tariffs, wages",
+   "Number of firms, firm size, history of the market, punishment mechanisms",
+   "Price, quantity, cost, demand"
+  ],
+  "answer": 2,
+  "explain": "Slides p. 37.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-07-q002",
+  "los": [
+   "S20-07"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Which form of collusion is illegal?",
+  "choices": [
+   "Explicit collusion such as price fixing, bid rigging and market allocation",
+   "Tacit collusion through signaling",
+   "Both forms",
+   "Neither form"
+  ],
+  "answer": 0,
+  "explain": "Slides p. 38.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-07-q003",
+  "los": [
+   "S20-07"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Tacit collusion is:",
+  "choices": [
+   "A written price-fixing contract",
+   "Firms reaching collusive outcomes indirectly, such as through signaling",
+   "A merger",
+   "A government price ceiling"
+  ],
+  "answer": 1,
+  "explain": "Legal and common (slides p. 38).",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-07-q004",
+  "los": [
+   "S20-07"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "How does the number of firms affect collusion?",
+  "choices": [
+   "More firms make collusion easier",
+   "Only one firm can collude",
+   "It has no effect",
+   "Fewer firms make it easier to monitor and punish, so collusion is easier"
+  ],
+  "answer": 3,
+  "explain": "With n firms there are n(n − 1) monitoring relationships.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-07-q005",
+  "los": [
+   "S20-07"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Why does firm size matter for collusion?",
+  "choices": [
+   "A small firm may lack capacity to punish a large rival that cheats",
+   "Size only matters for advertising",
+   "Large firms cannot collude",
+   "Small firms always cheat"
+  ],
+  "answer": 0,
+  "explain": "Punishment must be possible.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-07-q006",
+  "los": [
+   "S20-07"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Using the textbook's count n(n − 1), how many monitoring relationships are there among 5 firms?",
+  "answer": 20,
+  "unit": "",
+  "tol": 0.01,
+  "explain": "5 × 4 = 20 (versus 2 with two firms).",
+  "verify": {
+   "f": "nn1",
+   "n": 5
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-07-q007",
+  "los": [
+   "S20-07"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "In 2014 Apple, Google, Intel and Adobe settled a suit over agreements not to poach each other's workers. What kind of collusion is that?",
+  "choices": [
+   "Not collusion",
+   "Explicit collusion",
+   "Tacit collusion",
+   "A mixed strategy"
+  ],
+  "answer": 1,
+  "explain": "Slides p. 39: direct agreements.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-07-q008",
+  "los": [
+   "S20-07"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Airlines publicly talk about 'capacity discipline' on earnings calls, and rivals hold back new flights. What kind of collusion is that most like?",
+  "choices": [
+   "Market allocation by contract",
+   "Bid rigging",
+   "Explicit price fixing",
+   "Tacit collusion through signaling"
+  ],
+  "answer": 3,
+  "explain": "Slides pp. 40 to 41.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-07-q009",
+  "los": [
+   "S20-07"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "In which market is tacit collusion most likely?",
+  "choices": [
+   "A market with frequent new entrants",
+   "Twenty firms with secret negotiated prices",
+   "A one-time government auction",
+   "Two firms with publicly posted prices and a long history together"
+  ],
+  "answer": 3,
+  "explain": "Few firms, visible prices and history all help.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-07-q010",
+  "los": [
+   "S20-07",
+   "S20-01"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Interest rates rise sharply. All else equal, what happens to tacit collusion?",
+  "choices": [
+   "No change",
+   "It becomes easier to sustain",
+   "It becomes explicit",
+   "It becomes harder to sustain"
+  ],
+  "answer": 3,
+  "explain": "Future punishment is worth less.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-07-q011",
+  "los": [
+   "S20-07"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A firm's prices are listed on a price comparison website that rivals check every day. How does this affect collusion?",
+  "choices": [
+   "No effect",
+   "Collusion becomes impossible",
+   "It makes collusion illegal",
+   "Cheating is seen quickly, so collusion is easier to sustain"
+  ],
+  "answer": 3,
+  "explain": "Quick detection means quick punishment (Comprehension Quiz 9 Q7 setting).",
+  "source": "generated",
+  "verbatim": false
+ }
+]

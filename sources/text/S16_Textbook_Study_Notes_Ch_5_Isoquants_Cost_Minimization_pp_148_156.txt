@@ -1,0 +1,153 @@
+S16 Textbook Notes – Isoquants & Cost Minimization 
+
+ Session 16 · Production II — Study Notes 
+ ↓ Jump to textbook figures, formulas & book examples 
+
+ Reading: Baye & Prince, Ch. 5, pp. 148–156 (Isoquants, Isocosts, Cost Minimization, Optimal Input Substitution, Data-Driven Production Functions). My own summary and practice numbers — pair with the S16 slides, the Production Functions and Cost Minimization exercises, and the book in Bookshelf. 
+
+ 1. Isoquants — “same output” curves 
+
+ An isoquant shows every combination of K and L that yields the same output. Think of it as a contour line on the 3-D production surface (see your S16 Production Functions workbook). 
+
+ Isoquants farther from the origin = more output. 
+
+ Usually convex (bowed toward the origin) because inputs are imperfect substitutes. 
+
+ 2. Marginal rate of technical substitution (MRTS) 
+
+ MRTS KL = MP L / MP K = absolute value of the isoquant's slope. 
+
+It's the rate at which the firm can swap labor for capital and keep output constant. 
+
+ Law of diminishing MRTS: as you use less and less of one input, you need more and more of the other to make up for each unit you drop. This is what makes isoquants convex. Cobb-Douglas isoquants have diminishing MRTS. 
+
+ Production function Isoquant shape MRTS 
+
+ Linear (perfect substitutes) Straight lines Constant everywhere 
+
+ Leontief (fixed proportions) L-shaped None — no substitution possible 
+
+ Cobb-Douglas Smooth, convex Diminishing 
+
+ 3. Isocost lines — “same spending” lines 
+
+ Cost equation: wL + rK = C  →  solve for K: K = C/r − (w/r)L 
+
+Vertical intercept = C/r (all capital), horizontal intercept = C/w (all labor), slope = −w/r . 
+
+ Higher total cost (same prices) → parallel shift outward. 
+
+ Wage rises → line gets steeper (L-intercept moves in). 
+
+ Rental rate of capital rises → line gets flatter (K-intercept moves down). 
+
+ Practice: w = $25, r = $50, budget C = $1,000. Intercepts: L-max = 40, K-max = 20. Slope = −25/50 = −0.5. If w rises to $50, L-max falls to 20 and slope becomes −1 (steeper). 
+
+ 4. Cost minimization — the tangency 
+
+ To produce a given output at the lowest cost, pick the point where the isoquant just touches the lowest possible isocost line — they're tangent there, so their slopes match: 
+
+ MRTS KL = w / r  ⇔  MP L /MP K = w/r  ⇔  MP L /w = MP K /r 
+
+“The last dollar spent on each input buys the same extra output.” 
+
+ How to diagnose a firm that's off the rule: compute MP per dollar for each input. Shift spending toward the input with the higher MP/$ and away from the lower one until they're equal. 
+
+ If the isoquant is steeper than the isocost (MP L /w > MP K /r), capital is “too expensive” for what it produces → use more labor, less capital. 
+
+ Practice (my numbers): A bakery uses ovens (K) and bakers (L). 
+
+MP L = 30 loaves/day, w = $150 → MP L /w = 0.20 loaves per $ 
+
+MP K = 50 loaves/day, r = $200 → MP K /r = 0.25 loaves per $ 
+
+Not cost-minimizing: a dollar spent on ovens buys more output. Use more capital and less labor until the ratios are equal (diminishing MP will bring MP K /r down and MP L /w up). 
+
+ 5. Optimal input substitution 
+
+ Principle: When an input's price rises, a cost-minimizing firm uses less of that input and more of the others to produce the same output. 
+
+ Graphically: the isocost line rotates (steeper if wages rise), and the new tangency on the same isoquant moves toward the now relatively cheaper input. Total cost of producing that output goes up , even after substituting. 
+
+ Practice: A print shop makes 500 jobs/week with 10 machines (r = $100) and 30 workers (w = $20): cost = $1,000 + $600 = $1,600. Machine leases rise to r = $200. The firm should shift toward labor — e.g., 6 machines and 50 workers might be the new tangency (cost = $1,200 + $1,000 = $2,200). Cost rises from $1,600, but less than if it had kept 10 machines ($2,600). 
+
+ 6. AI and input choice (sidebar) 
+
+ If AI raises the MP of capital only, the rule says shift toward capital and away from labor. But if AI also raises labor's productivity (e.g., developers coding faster), the net effect is ambiguous — it depends on which MP rises more. Don't assume AI always means fewer workers. (Connects to your Klarna Production Exercise.) 
+
+ 7. Data-driven production functions 
+
+ Managers can estimate a Cobb-Douglas function Q = cK a L b from data. Taking logs makes it linear: ln Q = ln c + a·ln K + b·ln L , so you can run a regression of ln Q on ln K and ln L (just like your S09 regression skills). Check t-stats/p-values for significance. 
+
+ With estimates in hand: MP K = a·Q/K and MP L = b·Q/L , so the cost-min rule simplifies to 
+
+ MP L /MP K = (b·K)/(a·L) = w/r  →  K/L = (a/b)·(w/r) 
+
+ Practice: Suppose a = 0.5, b = 0.25, w = $30, r = $60. Then K/L = (0.5/0.25)·(30/60) = 2 × 0.5 = 1 → use equal amounts of capital and labor. 
+
+If w doubles to $60, K/L = 2 × 1 = 2 → twice as much capital as labor (substituting away from the pricier input). 
+
+ 8. Quick self-test 
+
+ What does the slope of an isoquant measure, and in terms of MPs? 
+
+ What happens to the isocost line when the rental rate of capital falls? 
+
+ State the cost-minimization condition two ways. 
+
+ MP L = 12, w = $24, MP K = 20, r = $25. What should the firm do? 
+
+ Why are Leontief isoquants L-shaped? 
+
+ Answers: (1) MRTS = MP L /MP K ; (2) flatter — K-intercept rises; (3) MRTS = w/r, or MP L /w = MP K /r; (4) MP/$: labor 0.5, capital 0.8 → use more capital, less labor; (5) inputs must be used in fixed proportions, so extra of one alone adds nothing. 
+
+ Textbook Figures, Formulas & Book Examples 
+ The diagrams are my redrawings of the book's figures, labeled with the same figure numbers so you can find each original in Bookshelf. The formulas match the book's notation. The book's worked examples are summarized with their actual numbers. 
+
+ A. Formulas exactly as the book writes them 
+
+Marginal rate of technical substitution: MRTS KL = MP L / MP K (absolute value of the isoquant's slope) 
+
+Linear function Q = aK + bL : MRTS = b/a , constant 
+
+Isocost line (Equation 5–1): wL + rK = C → K = C/r − (w/r)L   (vertical intercept C/r, slope −w/r) 
+
+ Cost-minimizing input rule: MP L /w = MP K /r   ⇔   MP L /MP K = w/r   ⇔   MRTS KL = w/r 
+
+Data-driven Cobb-Douglas: Q = cK a L b → ln Q = ln c + a ln K + b ln L (regress ln Q on ln K and ln L)
+
+ Principles in the book: 
+
+• Changes in isocosts: for given input prices, isocosts farther from the origin mean higher costs, and changes in input prices change the slope. 
+
+• Cost-minimizing input rule: equalize the marginal product per dollar across inputs (formula above). 
+
+• Optimal input substitution: when an input's price rises, use less of it and more of the other inputs to produce the same output. 
+
+• Law of diminishing MRTS: as you use less of one input, you need more and more of the other to hold output constant, so isoquants are convex. Cobb-Douglas has this property. 
+
+ B. Figures 
+
+ L K Q₀ = 100 Q₁ = 200 Q₂ = 300 A B ↗ increasing output Figure 5–3 (redrawn): a family of isoquants. A is more capital-intensive than B, and both produce Q₀. L K Linear: Q = aK + bL Figure 5–4(a) (redrawn): linear isoquants. Inputs are perfect substitutes and MRTS = b/a everywhere. L K Q₀ Q₁ Q₂ Figure 5–4(b) (redrawn): Leontief isoquants are L-shaped. There is no substitution, so MRTS is undefined. L K D C B A ΔK=−3 ΔK = −1 C→D: MRTS = 3 A→B: MRTS = 1 Q₀ = 100 1 2 3 4 5 6 7 8 1 3 4 6 9 Figure 5–5 (redrawn): diminishing MRTS along Q₀ = 100. Giving up 1 labor near A costs 1 K; near D it costs 3 K. L K C⁰/r C¹/r C⁰/w C¹/w C⁰/w¹ (a) higher cost C¹ → parallel shift out (b) wage rises w⁰→w¹ → steeper Figures 5–6 & 5–7 (redrawn and combined): isocost K = C/r − (w/r)L; a higher C shifts it out in parallel; a higher w makes it steeper. L K Q⁰ = 100 A B C¹/r C²/r C²/w C¹/w At B: slope of isoquant = slope of isocost Figure 5–8 (redrawn): mix B minimizes the cost of 100 units. A gives the same output on a higher isocost (C¹ > C²). 
+ Reading Figure 5–8: at A the isoquant is steeper than the isocost (MRTS > w/r), so capital is “too expensive.” Use less capital and more labor until you reach the tangency at B. 
+
+ L K Q₀ G H I J A (start) B (new) F wage ↑ → steeper isocost; move A → B Figure 5–9 (redrawn): higher wage, so the firm substitutes capital for labor (A → B) to make the same Q₀. L K Q₀ M (80 L, 40 K) N (120 L, 10 K) 120 70 60 40 10 80 120 140 AB: C⁰ = $2,400 (w = r = $20) EF: C¹ = $2,800 Figure 5–10 (redrawn): computer rental rises from $20 to $40, so the rug maker moves from M to N, substituting labor for computers. 
+ C. The book's examples 
+
+ Isoquant idea: an assembly line can make 1,000 cars per hour with 10 workers + 1 robot or with 2 workers + 3 robots. Both bundles are on the same isoquant, and the manager picks the cheaper one. 
+
+ Demonstration Problem 5–3 (Terry's Lawn Service): it rents 5 push mowers and 2 riding mowers. MP of a push mower = 3 lawns/day at $10/day; MP of a riding mower = 6 lawns/day at $25/day. 
+
+MP/$: push = 3/10 = 0.30 , riding = 6/25 = 0.24 . Riding mowers are twice as productive but more than twice as expensive, so Terry is not minimizing cost and should use more push mowers and fewer riding mowers . 
+
+ Figure 5–10 example (rugs made with computers and labor): start at w = $20, r = $20 using 40 computers and 80 workers (point M). Cost C⁰ = 20(40) + 20(80) = $2,400 . 
+
+Chip shortage raises r to $40 . To make the same rugs at least cost, move to point N: 10 computers and 120 workers . New cost C¹ = 40(10) + 20(120) = $2,800 . Cost rises, and the firm substitutes labor for computers. 
+
+ Inside Business 5–2 (AI and cost-minimizing inputs): if AI raises only MP K , use more capital and less labor. If AI also raises MP L (e.g., software developers coding faster), the net effect is unclear, and AI could even lead to a larger , more productive workforce. 
+
+ Table 5–3 (estimated Cobb-Douglas): regression gives a = 0.66 (t = 3.148, p = 0.002) and b = 0.41 (t = 2.151, p = 0.033), so both are significant. The intercept is 2.66. 
+
+MP K = 0.66K −0.34 L 0.41 , MP L = 0.41K 0.66 L −0.59 → cost-min condition 0.41K / 0.66L = w/r. 
+
+With w = $25 and r = $20: K/L = (25/20)(0.66/0.41) = 2.01 , so use about twice as much capital as labor.

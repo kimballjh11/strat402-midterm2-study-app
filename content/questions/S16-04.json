@@ -1,0 +1,266 @@
+[
+ {
+  "id": "S16-04-q001",
+  "los": [
+   "S16-04"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "An isocost line shows:",
+  "choices": [
+   "The cost of each additional unit of output",
+   "The wage paid to each worker",
+   "All input combinations with the same total cost",
+   "All input combinations with the same output"
+  ],
+  "answer": 2,
+  "explain": "Iso-cost = same cost: C = wL + rK. Same output is an isoquant. Cost of an extra unit is marginal cost.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-04-q002",
+  "los": [
+   "S16-04"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "With K on the vertical axis, the vertical intercept of the isocost line is:",
+  "choices": [
+   "-w/r",
+   "C/r",
+   "w/r",
+   "C/w"
+  ],
+  "answer": 1,
+  "explain": "Setting L = 0 in K = C/r - (w/r)L gives K = C/r, the most capital the budget buys. C/w is the horizontal intercept and -w/r is the slope.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-04-q003",
+  "los": [
+   "S16-04"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: If the budget C rises and input prices stay the same, the isocost line shifts out parallel to the old line.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explain": "True. The slope -w/r does not depend on C; both intercepts grow by the same percentage.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-04-q004",
+  "los": [
+   "S16-04",
+   "S16-06"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Holding C and r fixed, the wage rises. The isocost line:",
+  "choices": [
+   "Shifts out in parallel",
+   "Becomes steeper; the horizontal intercept moves in",
+   "Becomes flatter; the horizontal intercept moves out",
+   "Becomes steeper; the vertical intercept moves up"
+  ],
+  "answer": 1,
+  "explain": "Slope -w/r grows in magnitude and C/w shrinks. C/r is unchanged, so the vertical intercept stays put.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-04-q005",
+  "los": [
+   "S16-04"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: The isocost equation C = wL + rK is printed on the equation sheet.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 1,
+  "explain": "False. Only the slope -w/r is on the sheet. Know C = wL + rK and the intercepts.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-04-q006",
+  "los": [
+   "S16-04"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Budget $1,000, wage $10, rental rate $25. What is the most labor the firm can hire if it uses no capital?",
+  "answer": 100,
+  "unit": "labor hours",
+  "tol": 0.01,
+  "explain": "C/w = 1,000/10 = 100 labor hours (slides p. 31).",
+  "verify": {
+   "f": "ratio",
+   "num": 1000,
+   "den": 10
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-04-q007",
+  "los": [
+   "S16-04"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Budget $1,000, wage $10, rental rate $25. What is the slope of the isocost line (K on the vertical axis)?",
+  "answer": -0.4,
+  "unit": "",
+  "tol": 0.01,
+  "explain": "Slope = -w/r = -10/25 = -0.4.",
+  "verify": {
+   "f": "ratio",
+   "num": -10,
+   "den": 25
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-04-q008",
+  "los": [
+   "S16-04"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Budget $1,500, wage $30, rental rate $50. What is the most capital the firm can rent if it hires no labor?",
+  "answer": 30,
+  "unit": "units of capital",
+  "tol": 0.01,
+  "explain": "C/r = 1,500/50 = 30 units of capital.",
+  "verify": {
+   "f": "ratio",
+   "num": 1500,
+   "den": 50
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-04-q009",
+  "los": [
+   "S16-04"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "A firm spends on 20 workers at $15 each and 10 machines at $40 each. What is its total cost on this isocost?",
+  "answer": 700,
+  "unit": "$",
+  "tol": 0.01,
+  "explain": "C = wL + rK = 15(20) + 40(10) = 300 + 400 = $700.",
+  "verify": {
+   "f": "cost",
+   "w": 15,
+   "L": 20,
+   "r": 40,
+   "K": 10
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-04-q010",
+  "los": [
+   "S16-04"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Budget $1,000, rental rate $25. The wage doubles from $10 to $20. What is the new maximum amount of labor?",
+  "answer": 50,
+  "unit": "labor hours",
+  "tol": 0.01,
+  "explain": "C/w = 1,000/20 = 50, down from 100 (slides p. 34). The vertical intercept stays at 40.",
+  "verify": {
+   "f": "ratio",
+   "num": 1000,
+   "den": 20
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-04-q011",
+  "los": [
+   "S16-04"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A CEO cuts the weekly production budget by 50%. Prices are unchanged. What happens to the isocost line?",
+  "choices": [
+   "It rotates around the vertical intercept",
+   "It becomes steeper",
+   "It does not change",
+   "It shifts in parallel; both intercepts halve"
+  ],
+  "answer": 3,
+  "explain": "Only C changed, so the slope -w/r is the same and both intercepts, C/w and C/r, are cut in half (slides p. 33).",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-04-q012",
+  "los": [
+   "S16-04"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Union negotiations lower the wage while machine rental rates stay the same. On a graph with K vertical, the firm's isocost:",
+  "choices": [
+   "Pivots out along the labor axis and gets flatter",
+   "Shifts in parallel",
+   "Pivots up along the capital axis and gets steeper",
+   "Does not move"
+  ],
+  "answer": 0,
+  "explain": "Lower w raises C/w (horizontal intercept moves out) and reduces w/r (flatter). C/r is unchanged.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-04-q013",
+  "los": [
+   "S16-04"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "AI software rental prices fall while wages stay the same. Which intercept of the isocost line (K = AI hours on the vertical axis) changes?",
+  "choices": [
+   "The vertical intercept rises",
+   "The horizontal intercept rises",
+   "Both intercepts fall",
+   "Neither"
+  ],
+  "answer": 0,
+  "explain": "C/r rises when r falls, so the vertical intercept moves up. C/w is unchanged.",
+  "source": "generated",
+  "verbatim": false
+ }
+]

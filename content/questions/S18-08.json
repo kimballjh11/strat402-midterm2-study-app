@@ -1,0 +1,284 @@
+[
+ {
+  "id": "S18-08-q001",
+  "los": [
+   "S18-08"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Penetration pricing is:",
+  "choices": [
+   "Pricing below marginal cost to drive a rival out",
+   "Charging a low price initially to gain a critical mass of customers",
+   "Charging the highest price the market will bear",
+   "Keeping price below the monopoly level to prevent entry"
+  ],
+  "answer": 1,
+  "explain": "Slide p. 41 definition.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-08-q002",
+  "los": [
+   "S18-08"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Penetration pricing is most useful when:",
+  "choices": [
+   "The firm has a patent",
+   "Demand is perfectly inelastic",
+   "Strong network effects are present",
+   "The firm is a monopolist with no entrants"
+  ],
+  "answer": 2,
+  "explain": "Slide p. 41: useful when strong network effects are present.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-08-q003",
+  "los": [
+   "S18-08"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: The main goal of penetration pricing is to drive an existing rival out of the market.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 1,
+  "explain": "False. That is predatory pricing. Penetration pricing aims to win customers and reach critical mass.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-08-q004",
+  "los": [
+   "S18-08"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: Penetration pricing can include giving a product away for free.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explain": "True. Free, or even paying users to try it, is the extreme form (Reading Quiz Q5).",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-08-q005",
+  "los": [
+   "S18-08"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Which firm is most likely to use penetration pricing?",
+  "choices": [
+   "A firm selling a commodity with no network",
+   "A new entrant facing an incumbent with strong network effects",
+   "A monopolist protected by a patent",
+   "An incumbent facing no threat of entry"
+  ],
+  "answer": 1,
+  "explain": "It is the entrant's tool for overcoming lock-in.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-08-q006",
+  "los": [
+   "S18-08",
+   "S18-04"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Why can a firm afford to raise prices after a successful penetration pricing campaign?",
+  "choices": [
+   "Costs always rise",
+   "Once past critical mass, network effects keep users from leaving",
+   "Antitrust law requires it",
+   "The firm has a patent"
+  ],
+  "answer": 1,
+  "explain": "The network itself becomes the reason users stay.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-08-q007",
+  "los": [
+   "S18-08"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Facebook appears on the S18 slides under which pricing strategy?",
+  "choices": [
+   "Limit pricing",
+   "Predatory pricing",
+   "Peak-load pricing",
+   "Penetration pricing"
+  ],
+  "answer": 3,
+  "explain": "Slide p. 47: free to users, building the network.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-08-q008",
+  "los": [
+   "S18-08"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A new social media app is worth little to its first users because its value depends on how many others use it. Which strategy helps it overcome established platforms' network effects?",
+  "choices": [
+   "Premium pricing to signal quality",
+   "Penetration pricing: a low price or free product to build a critical mass",
+   "Limit pricing to discourage entry",
+   "Predatory pricing to drive out established platforms"
+  ],
+  "answer": 1,
+  "explain": "This is Reading Quiz Q5.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-08-q009",
+  "los": [
+   "S18-08"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Yahoo! offered free auction listings to pull users from eBay and failed. What does this show?",
+  "choices": [
+   "Penetration pricing is illegal",
+   "eBay used predatory pricing",
+   "Penetration pricing does not always overcome a strong incumbent network",
+   "Auction markets have no network effects"
+  ],
+  "answer": 2,
+  "explain": "eBay's network and first-mover advantage were too strong.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-08-q010",
+  "los": [
+   "S18-08"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A payments app gives every new user $10 for signing up. Which strategy is this?",
+  "choices": [
+   "Penetration pricing",
+   "Economies of scope",
+   "Limit pricing",
+   "Predatory pricing"
+  ],
+  "answer": 0,
+  "explain": "Paying users to join is an extreme form of penetration pricing to reach critical mass.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-08-q011",
+  "los": [
+   "S18-08",
+   "S18-05"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "An established software monopolist lowers its price to discourage a startup from entering. A different startup gives its new product away free to attract users. Which is which?",
+  "choices": [
+   "Monopolist: penetration pricing; startup: limit pricing",
+   "Monopolist: limit pricing; startup: penetration pricing",
+   "Both: predatory pricing",
+   "Both: limit pricing"
+  ],
+  "answer": 1,
+  "explain": "Incumbent keeping entrants out = limit. Newcomer building a user base = penetration.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-08-q012",
+  "los": [
+   "S18-08"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A video game console maker sells consoles below cost at launch to grow its user base and attract game developers. Which concept explains the low console price?",
+  "choices": [
+   "Limit pricing",
+   "Diseconomies of scale",
+   "Predatory pricing",
+   "Penetration pricing to reach critical mass in a network market"
+  ],
+  "answer": 3,
+  "explain": "More players attract more developers and games, which attract more players: indirect network effects.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-08-q013",
+  "los": [
+   "S18-08",
+   "S18-04"
+  ],
+  "type": "num",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Each user of a new network values it at $0.20 per other user. The price to join is $40. How many users does the network need before joining is worth the price (critical mass)?",
+  "answer": 200,
+  "unit": "users",
+  "tol": 0.01,
+  "explain": "Value per user = 0.20 × n. Set equal to the price: 0.20n = 40, n = 200 users.",
+  "verify": {
+   "f": "ratio",
+   "num": 40,
+   "den": 0.2
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-08-q014",
+  "los": [
+   "S18-08",
+   "S18-04"
+  ],
+  "type": "num",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Same network ($0.20 per other user). The firm uses penetration pricing and cuts the joining price to $10. What is the new critical mass?",
+  "answer": 50,
+  "unit": "users",
+  "tol": 0.01,
+  "explain": "0.20n = 10, n = 50 users. A lower price shrinks the critical mass the network has to reach.",
+  "verify": {
+   "f": "ratio",
+   "num": 10,
+   "den": 0.2
+  },
+  "source": "generated",
+  "verbatim": false
+ }
+]

@@ -1,0 +1,83 @@
+{
+ "id": "S20-04",
+ "title": "Sequential games",
+ "calc": false,
+ "plain": "In a **sequential-move game**, one player moves first and the next player moves **after observing** that move. (Reading Quiz Q3: a game where players decide without knowing the others' decisions is NOT sequential; that is simultaneous.)\n\nExamples: a firm decides whether to enter a market, then the incumbent decides whether to fight. A country threatens tariffs, then its trading partner decides whether to resist.\n\n**The slides' Crimea question** (p. 42): in early 2014 Putin threatened to invade Crimea. How could we have predicted what he would do? Model it as a sequential game: Putin chooses first (Invade or Don't Invade), and then Obama chooses (Sanction or Don't Sanction).\n\n**How to solve: backward induction** (Reading Quiz Q5: true). Start at the end of the game, figure out what the last mover will do at each of his or her decision points, then step back to the earlier mover, who anticipates those responses.\n\n**Why the order matters.** Moving first can be an advantage (a first-mover advantage, S18-07): the leader can choose knowing how the follower will respond. Sometimes the follower has the advantage. The same payoffs can give a different outcome as a sequential game than as a simultaneous game.\n\n**Sequential games versus the normal form.** Sequential games are drawn as trees (**extensive form**, S20-05), not matrices.",
+ "why": "Comprehension Quiz 9 Q8 to Q10, Reading Quiz Q3 and Q5 and practice exam Q27 and Q28 all use sequential games.",
+ "definition": "A sequential-move game is a game in which one player makes a move after observing the other player's move.",
+ "formulas": [],
+ "derivation": "",
+ "math": [
+  {
+   "title": "Reading a game tree",
+   "body": "Start at the first node (the first mover). Each branch is an action. The next node shows who moves next. Payoffs at the ends are listed in the order stated in the problem, usually the first mover first. To solve, start at the LAST decisions and work back toward the start."
+  }
+ ],
+ "worked": [
+  {
+   "title": "Simultaneous or sequential?",
+   "problem": "Classify: (a) two firms submit sealed bids; (b) a startup launches, then the market leader decides whether to cut prices; (c) a union makes a wage offer and management accepts or rejects.",
+   "steps": [
+    "(a) Neither sees the other's bid: simultaneous.",
+    "(b) The leader sees the launch first: sequential.",
+    "(c) Management sees the offer first: sequential."
+   ],
+   "answer": "Simultaneous, sequential, sequential."
+  }
+ ],
+ "graph": {
+  "component": "tree",
+  "params": {
+   "players": [
+    "Putin",
+    "Obama"
+   ],
+   "tree": {
+    "p": 0,
+    "children": [
+     {
+      "a": "Invade",
+      "n": {
+       "p": 1,
+       "children": [
+        {
+         "a": "Sanction",
+         "pay": [
+          2,
+          -2
+         ]
+        },
+        {
+         "a": "Don't sanction",
+         "pay": [
+          10,
+          -5
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "a": "Don't invade",
+      "pay": [
+       -5,
+       5
+      ]
+     }
+    ]
+   }
+  },
+  "caption": "Putin moves first; Obama sees the choice and responds. Payoffs: (Putin, Obama)."
+ },
+ "traps": [
+  "Sequential = the later player OBSERVES the earlier move. If not observed, the game is simultaneous even if the moves happen at different times.",
+  "Solve sequential games from the END (backward induction), not from the start.",
+  "The first number in a sequential game's payoffs usually belongs to the first mover, but always check the problem's stated order."
+ ],
+ "sources": {
+  "slides": "S20 Game Theory II pp. 42 to 48",
+  "read": "Ch. 10 pp. 328 to 330",
+  "exercise": "Game Theory Exercise Part 2",
+  "quiz": "Reading Quiz Q3, Q5; Comprehension Quiz 9 Q8 to Q10"
+ }
+}

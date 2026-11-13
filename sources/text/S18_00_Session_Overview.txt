@@ -1,0 +1,199 @@
+Session 18: Barriers to Entry Session 18: Barriers to Entry 
+ Exported from Canvas (STRAT 402) on Nov 12, 2026. Files linked below are saved in this folder. 
+ Before Class 
+ Read: Strategies to Crack Well-Guarded Markets 
+ Page · Open in Canvas 
+
+ Read 
+
+ Strategies to Crack Well-Guarded Markets 
+
+ Read or skim Strategies to Crack Well-Guarded Markets . The most profitable industries are protected by barriers to entry, yet some newcomers still break in and do very well. Two BYU Marriott School strategy professors studied how they do it. 
+
+ Format 
+ PDF, 9 pages — opens in your browser 
+
+ Authors 
+ David J. Bryce and Jeffrey H. Dyer 
+
+ Source 
+ Harvard Business Review , May 2007 
+
+ Sections 
+ The Importance of Indirect Assault; The Power of Combination; Picking the Right Combination 
+
+ The big idea: Profitable industries attract about five times as many entrants as the average industry, but those entrants earn lower returns than newcomers elsewhere. The few that succeed avoid a frontal attack. They come in indirectly , where incumbents either can't respond or don't bother to. 
+
+ Head-On vs. Indirect Entry 
+
+ The article opens with two matched pairs of entrants into the same industry. 
+
+ Industry 
+ Head-on entrant 
+ Indirect entrant 
+
+ Soft drinks 
+ Virgin Cola fought Coke and Pepsi for the same shelves and never topped 1% of the U.S. cola market. 
+ Red Bull sold a premium energy drink in bars and nightclubs first, then moved into stores once demand pulled it in. 
+
+ Video games 
+ Microsoft's Xbox took on Sony and Nintendo directly and lost about $4.5 billion in five years. 
+ Jakks Pacific built cheap plug-and-play games for kids and casual players and earned roughly 15% operating margins. 
+
+ The Three Building Blocks 
+
+ Approach 
+ What it means 
+ Examples 
+
+ Leverage existing assets 
+ Use resources you already have, such as shelf space, locations, a brand, or idle capacity, so entry costs less. 
+ McDonald's (Redbox kiosks), Toys "R" Us (Babies "R" Us) 
+
+ Reconfigure the value chain 
+ Deliver the product through different activities than incumbents use, often borrowing a model from another industry. 
+ Skype, Usana, Netflix 
+
+ Establish a niche 
+ Serve a fringe segment that mainstream customers, and therefore incumbents, don't care about. 
+ Red Bull, Skechers 
+
+ Each approach is ordinary on its own. The authors' point is that successful entrants combine at least two : 
+
+ Reconfigure + niche is the most powerful pair. A low-cost model aimed at customers incumbents ignore keeps the entrant off their radar (Skype, Usana). 
+
+ Leverage + reconfigure uses what you own in a new way (Walmart and Cott's Sam's Choice soda, Costco Home). 
+
+ Leverage + niche points existing strengths at an underserved segment (Babies "R" Us, Skechers). 
+
+ All three at once is rare (Jakks Pacific). 
+
+ Closing the Door Behind You 
+
+ Once inside, an entrant faces its own imitators; more than 150 me-too brands followed Red Bull. The article ends with ways to build new barriers: move into the mainstream quickly, lock up scarce inputs (JetBlue bought the maker of its in-flight TV system), invest in capacity ahead of demand, build network effects, and ride the experience curve. 
+
+ Questions to Keep in Mind 
+
+ If an industry is profitable enough to draw many entrants, why do most of them earn less than they would elsewhere? 
+
+ What barriers protected Coke and Pepsi, and how did Red Bull get around each one? 
+
+ Think of a company that recently broke into a profitable market. Which combination did it use, and why didn't the incumbents stop it? 
+
+ Read: Module Group A: Strategies to Change the Business Environment 
+ Page · Open in Canvas 
+
+ Read 
+
+ Module Group A: Strategies to Change the Business Environment 
+
+ Read or skim Module Group A: Strategies to Change the Business Environment (pp. 412–438). Then answer the Session 18: Reading Quiz questions. 
+
+ Textbook 
+ Baye & Prince, Managerial Economics and Business Strategy 
+
+ Pages 
+ 412–438 
+
+ Sections 
+ Introduction; Module 1: Entry Prevention; Module 2: Lessening Competition; Module 3: Restructuring Game Timing; Module 4: Overcoming Network Effects 
+
+ Focus on the concepts, not the math. Parts of this reading use game trees and present-value calculations that build on game theory. You don't need to follow that math, including the demonstration and practice problems. Instead, make sure you understand what each strategy is, how it changes the business environment, and when it is likely to work. 
+
+ Learning Objectives for Session 18: Barriers to Entry 
+
+ Know and understand the following economic concepts: economies of scale, learning curves, economies of scope, network effects, limit pricing, predatory pricing, first-mover advantage, penetration pricing 
+
+ Know and understand common barriers to entry 
+
+ Know and understand how companies can circumvent these barriers to enter profitable markets 
+
+ Next: Take the Session 18: Reading Quiz . You may take it as many times as you like, and your highest score counts. 
+
+ Session 18: Reading Quiz 
+ Quiz · Due Tue Nov 03, 2026 11:59 PM · Open in Canvas 
+ This reading quiz covers the content from Session 18: Barriers to Entry . It contains five questions based on the following learning objectives. You may take the quiz as many times as you want, but it must be completed before the scheduled due date. 
+ Learning Objectives for Session 18: Barriers to Entry 
+ Know and understand the following economic concepts: economies of scale, learning curves, economies of scope, network effects, limit pricing, predatory pricing, first-mover advantage, penetration pricing 
+ Know and understand common barriers to entry 
+ Know and understand how companies can circumvent these barriers to enter profitable markets 
+
+ In Class 
+ Slides: Barriers to Entry 
+ File · Open in Canvas 
+ Saved as S18 Slides - Barriers to Entry.pdf 
+
+ After Class 
+ Comprehension Quiz 8 
+ Assignment · Due Sat Nov 07, 2026 11:59 PM · 10 pts · Open in Canvas 
+ This is an external-tool quiz; its questions can't be exported from Canvas. Open it in Canvas to review. 
+
+ Barriers to Entry Exercise 
+ Assignment · Due Sat Nov 07, 2026 11:59 PM · 100 pts · Open in Canvas 
+
+ Spreadsheet Assignment 
+
+ Barriers to Entry Exercise 
+
+ Background 
+
+ For most of the last two decades, Facebook has been the most profitable company in social media. Twitter and Snapchat attracted hundreds of millions of daily users and plenty of attention from advertisers, but neither came close to Facebook's profits, and Twitter struggled to earn a profit at all. When a company earns returns that high for that long, economists start looking for whatever is keeping competitors out. 
+
+ In this assignment you will use quarterly results for Meta (formerly Facebook), Twitter, and Snapchat from 2012 to 2022 to find where Meta's advantage comes from. You will compare user growth, calculate advertising revenue, cost, and profit per user, and break each company's costs down as a share of revenue. Separating the revenue side of the advantage from the cost side lets you ask which barriers to entry explain each one. 
+
+ Then you will look forward. TikTok grew into one of Meta's biggest competitors after 2020, and in 2023 Meta launched Threads to take on Twitter directly. Using Strategies to Crack Well-Guarded Markets , you will consider how a newcomer can break into a market that is guarded this well, and whether Meta's lead is likely to last. 
+
+ The data end in the second quarter of 2022, the last quarter before Twitter was taken private and stopped filing reports with the SEC. 
+
+ Materials 
+
+ File 
+ What It's For 
+
+ Barriers to Entry Exercise.xlsx 
+ The workbook you complete and submit 
+
+ Read: Strategies to Crack Well-Guarded Markets 
+ The three strategies newcomers use to get around barriers to entry, for step 8 
+
+ Read: Module Group A: Strategies to Change the Business Environment 
+ Entry prevention and network effects 
+
+ Read: Chapter 5: Costs 
+ A refresher on fixed costs and economies of scale, for step 6 
+
+ Instructions 
+
+ Complete all eight steps on the Questions tab. The three Data tabs hold each company's quarterly users, revenue, and expenses, except for the last quarter, which you will fill in yourself. Links to each company's 10-Q are at the top of the Questions tab. 
+
+ Fill in the last quarter. Find each company's 2022-Q2 daily active users, revenue, and expenses in its 10-Q and add them to the bottom of its Data tab. 
+
+ Chart user growth (step 1). Plot daily active users for all three companies and explain the trends you see. 
+
+ Calculate results per user (steps 2–3). Fill in Table 1 with advertising revenue, operating expense, and profit per user, then use it to complete Table 2 and measure Meta's profit advantage. 
+
+ Compare revenue per user (steps 4–5). Plot advertising revenue per user as a line chart and as a 100% stacked area chart, and explain what drives Meta's revenue advantage. 
+
+ Compare cost structures (step 6). Fill in Table 3 with each expense category as a percentage of revenue, chart total operating expense, and explain where Meta's cost advantage comes from. 
+
+ Look ahead (steps 7–8). Decide whether Meta will still lead in 10 and 20 years, and use the reading to explain how TikTok and Threads went after markets protected by barriers to entry. 
+
+ This is an individual assignment. You are welcome to work alongside classmates and compare answers, but don't let a friend carry you. You will complete similar tasks on your own on Midterm Exam 2. 
+
+ Submission 
+
+ Upload your completed .xlsx workbook here. You may resubmit as many times as you like before the due date; your most recent submission is the one graded. 
+
+ Evaluation 
+
+ To receive full credit, you should be able to answer yes to each of these questions. 
+
+ Is my workbook complete? Did I answer every question? 
+
+ Is my spreadsheet cleanly formatted, professional in appearance, and free of clutter? 
+
+ Are my graphs and tables labeled, and do they clearly communicate what I intend? 
+
+ Are my calculations accurate? 
+
+ Are my conclusions supported by my analysis?

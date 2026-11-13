@@ -1,0 +1,202 @@
+[
+ {
+  "id": "S20-04-q001",
+  "los": [
+   "S20-04"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "In a sequential-move game:",
+  "choices": [
+   "Moves are random",
+   "One player moves after observing another player's move",
+   "Players move without knowledge of each other's moves",
+   "All players move at the same time"
+  ],
+  "answer": 1,
+  "explain": "Observation is the key. Reading Quiz Q3 offers the simultaneous definition as a false statement.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-04-q002",
+  "los": [
+   "S20-04"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "How do you solve a sequential game?",
+  "choices": [
+   "Randomize",
+   "Start with the first mover's biggest payoff",
+   "Backward induction: start at the last move and work toward the first",
+   "Find the dominant strategy in a matrix"
+  ],
+  "answer": 2,
+  "explain": "Reading Quiz Q5.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-04-q003",
+  "los": [
+   "S20-04"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "A sequential game is usually drawn as:",
+  "choices": [
+   "An isoquant",
+   "A payoff matrix only",
+   "A demand curve",
+   "A game tree (extensive form)"
+  ],
+  "answer": 3,
+  "explain": "Trees show who moves when.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-04-q004",
+  "los": [
+   "S20-04"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: Two players who move at different times are in a simultaneous game if the second mover cannot see what the first did.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explain": "True. What matters is information, not the clock.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-04-q005",
+  "los": [
+   "S20-04"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Why does the first mover in a sequential game look ahead?",
+  "choices": [
+   "The later player moves randomly",
+   "It always earns the largest payoff",
+   "It anticipates how the later player will respond to each choice",
+   "It cannot change its decision"
+  ],
+  "answer": 2,
+  "explain": "Looking forward, reasoning backward.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-04-q006",
+  "los": [
+   "S20-04"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A startup launches an app; the market leader sees it and then decides whether to cut prices. What type of game is this?",
+  "choices": [
+   "Mixed strategy",
+   "Simultaneous",
+   "One-shot simultaneous with no information",
+   "Sequential"
+  ],
+  "answer": 3,
+  "explain": "The leader observes the launch first.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-04-q007",
+  "los": [
+   "S20-04"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "In the slides' Crimea game, who moves first?",
+  "choices": [
+   "Obama, deciding whether to sanction",
+   "Putin, deciding whether to invade",
+   "Both at once",
+   "Neither"
+  ],
+  "answer": 1,
+  "explain": "Obama chooses after seeing Putin's choice.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-04-q008",
+  "los": [
+   "S20-04",
+   "S20-08"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Which business situation is best modeled as a sequential game?",
+  "choices": [
+   "Two firms submit sealed bids on the same day",
+   "A coin toss",
+   "Two stores set prices without seeing each other's ads",
+   "A union makes a wage offer and management accepts or rejects it"
+  ],
+  "answer": 3,
+  "explain": "Management sees the offer before responding.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-04-q009",
+  "los": [
+   "S20-04"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Can the same payoffs give a different outcome when played sequentially instead of simultaneously?",
+  "choices": [
+   "Only if both have dominant strategies",
+   "Yes; the order of moves and what players observe can change the equilibrium",
+   "No; payoffs alone determine outcomes",
+   "Only with three players"
+  ],
+  "answer": 1,
+  "explain": "That is why firms care about moving first or second.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-04-q010",
+  "los": [
+   "S20-04",
+   "S20-08"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "When do a sequential game and a one-shot simultaneous game predict the same outcome?",
+  "choices": [
+   "When the follower has a dominant strategy, so its move does not depend on the leader's",
+   "Only with three players",
+   "Never",
+   "Whenever payoffs are negative"
+  ],
+  "answer": 0,
+  "explain": "Game Theory Exercise Part 2: Facebook's dominant Don't Ban made the order irrelevant.",
+  "source": "generated",
+  "verbatim": false
+ }
+]

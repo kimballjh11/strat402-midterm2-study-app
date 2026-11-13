@@ -1,0 +1,334 @@
+[
+ {
+  "id": "S15-10-q001",
+  "los": [
+   "S15-10",
+   "S15-06"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "A firm maximizes profit with respect to labor by hiring until:",
+  "choices": [
+   "VMP_L = w",
+   "MP_L = w",
+   "AP_L = MP_L",
+   "Total product is at its maximum"
+  ],
+  "answer": 0,
+  "explain": "Marginal benefit equals marginal cost: P × MP_L = w. MP_L = w compares units to dollars. AP = MP is the top of AP. TP max ignores the wage.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-10-q002",
+  "los": [
+   "S15-10"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "The S15 slides use studying as an example. When should you stop studying?",
+  "choices": [
+   "When the marginal benefit of another hour equals its marginal cost",
+   "When your grade stops rising",
+   "When average points per hour start to fall",
+   "After the first hour with diminishing returns"
+  ],
+  "answer": 0,
+  "explain": "The slides answer MB = MC. Stopping where the grade stops rising ignores the cost of time. Falling AP or the start of diminishing returns is not the stopping rule.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-10-q003",
+  "los": [
+   "S15-10"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: Money a firm has already spent on equipment changes how many workers it should hire in the short run.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 1,
+  "explain": "False. Sunk costs do not change VMP_L or the wage, so they do not change the hiring decision (Quiz 7 Q4 Herman Miller).",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-10-q004",
+  "los": [
+   "S15-10"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: If the wage rises and nothing else changes, the profit-maximizing number of workers falls.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explain": "True. On the downward part of VMP, a higher wage is crossed at a lower L.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-10-q005",
+  "los": [
+   "S15-10"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "The profit-maximizing rule for capital is:",
+  "choices": [
+   "VMP_K = r, the rental rate of capital",
+   "MP_K = MP_L",
+   "VMP_K = w",
+   "P × Q = r × K"
+  ],
+  "answer": 0,
+  "explain": "Same logic as labor: P × MP_K = r. The wage is labor's price. MP_K = MP_L is not an optimality rule. P × Q = rK compares totals, not margins.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-10-q006",
+  "los": [
+   "S15-10"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Use the table. Loaves sell for $2 and the wage is $10 per worker.\n\n| Labor (L) | Output (Q) |\n|---|---|\n| 0 | 0 |\n| 1 | 10 |\n| 2 | 25 |\n| 3 | 45 |\n| 4 | 60 |\n| 5 | 70 |\n| 6 | 75 |\n| 7 | 76 |\n| 8 | 74 |\n\nHow many workers maximize profit?",
+  "answer": 6,
+  "unit": "workers",
+  "tol": 0.01,
+  "explain": "VMP = $2 × MP: $20, $30, $40, $30, $20, $10, $2, -$4. Hire while VMP ≥ $10 on the falling part: worker 6 has VMP $10 = w; worker 7 has $2 < $10. Hire 6.",
+  "verify": {
+   "f": "table_hire",
+   "L": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "Q": [
+    0,
+    10,
+    25,
+    45,
+    60,
+    70,
+    75,
+    76,
+    74
+   ],
+   "P": 2,
+   "w": 10
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-10-q007",
+  "los": [
+   "S15-10"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Use the table. A wash sells for $15 and the wage is $100 per day.\n\n| Labor (L) | Output (Q) |\n|---|---|\n| 0 | 0 |\n| 1 | 8 |\n| 2 | 20 |\n| 3 | 36 |\n| 4 | 48 |\n| 5 | 56 |\n| 6 | 60 |\n| 7 | 58 |\n\nHow many workers maximize profit?",
+  "answer": 5,
+  "unit": "workers",
+  "tol": 0.01,
+  "explain": "MPs: 8, 12, 16, 12, 8, 4, -2. VMP = $15 × MP: $120, $180, $240, $180, $120, $60, -$30. Worker 5: $120 ≥ $100. Worker 6: $60 < $100. Hire 5.",
+  "verify": {
+   "f": "table_hire",
+   "L": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "Q": [
+    0,
+    8,
+    20,
+    36,
+    48,
+    56,
+    60,
+    58
+   ],
+   "P": 15,
+   "w": 100
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-10-q008",
+  "los": [
+   "S15-10"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Use the table. A lawn sells for $40 and the wage is $90 per day.\n\n| Labor (L) | Output (Q) |\n|---|---|\n| 0 | 0 |\n| 1 | 3 |\n| 2 | 8 |\n| 3 | 12 |\n| 4 | 15 |\n| 5 | 17 |\n| 6 | 18 |\n\nHow many workers maximize profit?",
+  "answer": 4,
+  "unit": "workers",
+  "tol": 0.01,
+  "explain": "MPs: 3, 5, 4, 3, 2, 1. VMP: $120, $200, $160, $120, $80, $40. Worker 4: $120 ≥ $90. Worker 5: $80 < $90. Hire 4.",
+  "verify": {
+   "f": "table_hire",
+   "L": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "Q": [
+    0,
+    3,
+    8,
+    12,
+    15,
+    17,
+    18
+   ],
+   "P": 40,
+   "w": 90
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-10-q009",
+  "los": [
+   "S15-10",
+   "S15-09"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "\\(Q = 2K^{0.5}L^{0.5}\\) with K fixed at 16. Output sells for $30 and the wage is $60. What is the profit-maximizing amount of labor?",
+  "answer": 4.0,
+  "unit": "units of labor",
+  "tol": 0.01,
+  "explain": "MP_L = 2(0.5)K^0.5 L^-0.5 = 4 / √L. Set VMP = w: 30 × 4 / √L = 60, so 120 / √L = 60, √L = 2, L = 4.",
+  "verify": {
+   "f": "cd_hire",
+   "A": 2,
+   "a": 0.5,
+   "b": 0.5,
+   "K": 16,
+   "P": 30,
+   "w": 60
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-10-q010",
+  "los": [
+   "S15-10",
+   "S15-09"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "\\(Q = K^{0.5}L^{0.5}\\) with K fixed at 100. Output sells for $20 and the wage is $5. What is the profit-maximizing amount of labor?",
+  "answer": 400.0,
+  "unit": "units of labor",
+  "tol": 0.01,
+  "explain": "MP_L = 0.5 × 10 / √L = 5 / √L. VMP = 20 × 5 / √L = 100 / √L. Set = 5: √L = 20, L = 400.",
+  "verify": {
+   "f": "cd_hire",
+   "A": 1,
+   "a": 0.5,
+   "b": 0.5,
+   "K": 100,
+   "P": 20,
+   "w": 5
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-10-q011",
+  "los": [
+   "S15-10"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "At a bakery the 8th baker's VMP is $140 and the daily wage is $120. What should the manager do?",
+  "choices": [
+   "Fire bakers until VMP equals AP",
+   "Raise the wage to $140",
+   "Not hire the 8th baker",
+   "Hire the 8th baker and check whether a 9th also has VMP ≥ $120"
+  ],
+  "answer": 3,
+  "explain": "VMP > w means the baker adds more value than cost, so hire, then keep checking the next one. Not hiring leaves profit on the table.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-10-q012",
+  "los": [
+   "S15-10"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A clinic currently has VMP of its last nurse = $300/day and pays $350/day. To maximize profit it should:",
+  "choices": [
+   "Use fewer nurses",
+   "Raise prices until VMP = $0",
+   "Use more nurses",
+   "Keep the same number"
+  ],
+  "answer": 0,
+  "explain": "VMP < w: the last nurse costs more than the value she adds. Cutting nurses raises MP (diminishing returns) and VMP until VMP = w.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-10-q013",
+  "los": [
+   "S15-10"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Using the J Dawgs numbers (hire 6 at a $8 wage), what happens if hot dogs rise to $8 each while the wage stays $8?",
+  "choices": [
+   "8, to maximize output",
+   "7, since VMP doubles",
+   "Still 6, since the 7th worker has negative MP",
+   "3, since price and wage are equal"
+  ],
+  "answer": 2,
+  "explain": "VMP becomes $8 × MP: 56, 96, 112, 104, 72, 16, -64. Worker 6 now has VMP $16 > $8, but worker 7 has negative VMP, so 6 is still optimal.",
+  "source": "generated",
+  "verbatim": false
+ }
+]

@@ -1,0 +1,109 @@
+[
+ {
+  "id": "PRO-Session15quiz-Q1",
+  "los": [
+   "S15-01"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "A production function defines ______.",
+  "choices": [
+   "the maximum amount of output that can be produced with a given set of inputs",
+   "the minimum cost of producing a given level of output",
+   "the amount of output produced per unit of input",
+   "the change in total output from the last unit of input"
+  ],
+  "answer": 0,
+  "explain": "Correct! A production function defines the maximum amount of output that can be produced with a given set of inputs. It summarizes the technology available for converting inputs such as capital and labor into output.",
+  "source": "professor",
+  "verbatim": true,
+  "origin": "Session 15 quiz Q1"
+ },
+ {
+  "id": "PRO-Session15quiz-Q2",
+  "los": [
+   "S15-04"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "The marginal product can be characterized as ______.",
+  "choices": [
+   "the maximum level of output that can be produced with a given amount of inputs",
+   "the measure of output produced per unit of input",
+   "the change in total output attributable to the last unit of input",
+   "the change in total output attributable to the first unit of input"
+  ],
+  "answer": 2,
+  "explain": "Correct! The marginal product can be characterized as the change in total output attributable to the last unit of input.",
+  "source": "professor",
+  "verbatim": true,
+  "origin": "Session 15 quiz Q2"
+ },
+ {
+  "id": "PRO-Session15quiz-Q3",
+  "los": [
+   "S15-05"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "The range of input usage over which marginal product is positive but declining is known as ______.",
+  "choices": [
+   "increasing marginal returns",
+   "decreasing marginal returns",
+   "negative marginal returns",
+   "constant marginal returns"
+  ],
+  "answer": 1,
+  "explain": "Correct! Over the range of decreasing (also called diminishing) marginal returns, each additional unit of input still adds to output, but less than the unit before it. Marginal returns become negative once marginal product falls below zero.",
+  "source": "professor",
+  "verbatim": true,
+  "origin": "Session 15 quiz Q3"
+ },
+ {
+  "id": "PRO-Session15quiz-Q4",
+  "los": [
+   "S15-06",
+   "S15-10"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "A manager maximizes profits with respect to labor when ______.",
+  "choices": [
+   "the marginal product of labor is equal to the wage",
+   "the value marginal product of labor is equal to the wage",
+   "the marginal product of labor is greater than the wage",
+   "the value marginal product of labor is greater than the wage"
+  ],
+  "answer": 1,
+  "explain": "Correct! A manager should hire labor up to the point where the value marginal product of labor (the value of the output produced by the last worker) equals the wage.",
+  "source": "professor",
+  "verbatim": true,
+  "origin": "Session 15 quiz Q4"
+ },
+ {
+  "id": "PRO-Session15quiz-Q5",
+  "los": [
+   "S15-09",
+   "S15-11"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "The production function that assumes some, but not perfect, substitutability among inputs is the ______ production function.",
+  "choices": [
+   "Linear",
+   "Leontief",
+   "Cobb-Douglas",
+   "None of the above."
+  ],
+  "answer": 2,
+  "explain": "Correct! The Cobb-Douglas production function assumes some, but not perfect, substitutability among inputs. The linear production function assumes perfect substitution, and the Leontief assumes none.",
+  "source": "professor",
+  "verbatim": true,
+  "origin": "Session 15 quiz Q5"
+ }
+]

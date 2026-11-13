@@ -1,0 +1,252 @@
+[
+ {
+  "id": "S16-02-q001",
+  "los": [
+   "S16-02"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "The MRTS (as defined on the equation sheet) is:",
+  "choices": [
+   "w / r",
+   "MP_L × MP_K",
+   "MP_K / MP_L",
+   "MP_L / MP_K"
+  ],
+  "answer": 3,
+  "explain": "MRTS_KL = MP_L / MP_K. w/r is the input price ratio, which the MRTS equals only at the cost minimum.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-02-q002",
+  "los": [
+   "S16-02"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Graphically, the MRTS is:",
+  "choices": [
+   "The height of the isoquant",
+   "The slope of the isocost line",
+   "The absolute value of the slope of the isoquant",
+   "The slope of the total product curve"
+  ],
+  "answer": 2,
+  "explain": "MRTS is the isoquant's slope in absolute value. The isocost slope is -w/r. The slope of total product is MP.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-02-q003",
+  "los": [
+   "S16-02"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: The MRTS measures how many units of capital one more unit of labor can replace while keeping output constant.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explain": "True. That is the substitution rate along an isoquant.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-02-q004",
+  "los": [
+   "S16-02",
+   "S15-11"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "For a Leontief production function, the MRTS is:",
+  "choices": [
+   "Constant at b/a",
+   "Zero everywhere",
+   "Undefined",
+   "bK/(aL)"
+  ],
+  "answer": 2,
+  "explain": "The slides list Leontief MRTS as N/A: there is no substitution.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-02-q005",
+  "los": [
+   "S16-02"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "For \\(Q = K^aL^b\\), the MRTS simplifies to:",
+  "choices": [
+   "\\(\\frac{bK}{aL}\\)",
+   "\\(\\frac{aK}{bL}\\)",
+   "\\(\\frac{b}{a}\\)",
+   "\\(\\frac{aL}{bK}\\)"
+  ],
+  "answer": 0,
+  "explain": "MP_L / MP_K = bK^aL^{b-1} / (aK^{a-1}L^b) = bK/(aL). b/a is the linear MRTS. aK/(bL) swaps the exponents.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-02-q006",
+  "los": [
+   "S16-02"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "\\(Q = K^{0.5}L^{0.5}\\). What is the MRTS at K = 40 and L = 10?",
+  "answer": 4,
+  "unit": "",
+  "tol": 0.01,
+  "explain": "MRTS = bK/(aL) = 0.5(40)/(0.5(10)) = 40/10 = 4.",
+  "verify": {
+   "f": "cd_mrts",
+   "A": 1,
+   "a": 0.5,
+   "b": 0.5,
+   "K": 40,
+   "L": 10
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-02-q007",
+  "los": [
+   "S16-02"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "\\(Q = K^{0.25}L^{0.75}\\). What is the MRTS at K = 20 and L = 30?",
+  "answer": 2.0,
+  "unit": "",
+  "tol": 0.01,
+  "explain": "MRTS = bK/(aL) = 0.75(20)/(0.25(30)) = 15/7.5 = 2.",
+  "verify": {
+   "f": "cd_mrts",
+   "A": 1,
+   "a": 0.25,
+   "b": 0.75,
+   "K": 20,
+   "L": 30
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-02-q008",
+  "los": [
+   "S16-02"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "MP_L = 30 and MP_K = 12. What is the MRTS?",
+  "answer": 2.5,
+  "unit": "",
+  "tol": 0.01,
+  "explain": "MRTS = MP_L / MP_K = 30/12 = 2.5.",
+  "verify": {
+   "f": "ratio",
+   "num": 30,
+   "den": 12
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-02-q009",
+  "los": [
+   "S16-02",
+   "S15-07"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "\\(Q = 5K + 15L\\). What is the MRTS at K = 2 and L = 8?",
+  "answer": 3,
+  "unit": "",
+  "tol": 0.01,
+  "explain": "Linear: MRTS = b/a = 15/5 = 3, the same at every K and L.",
+  "verify": {
+   "f": "ratio",
+   "num": 15,
+   "den": 5
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-02-q010",
+  "los": [
+   "S16-02"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "At a firm's current mix the MRTS is 3. What does that mean?",
+  "choices": [
+   "Output rises by 3 if the firm adds a worker",
+   "One more unit of labor can replace 3 units of capital without changing output",
+   "Labor costs 3 times as much as capital",
+   "One more unit of capital can replace 3 units of labor"
+  ],
+  "answer": 1,
+  "explain": "MRTS = MP_L/MP_K = 3: a worker adds as much as 3 units of capital, so one more worker lets you drop 3 units of K. Prices are a separate ratio (w/r). The rise in output from a worker is MP_L, not the MRTS.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-02-q011",
+  "los": [
+   "S16-02"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A factory with \\(Q = K^{0.5}L^{0.5}\\) uses K = 50 and L = 10. Its manager says each worker could replace 5 machines. Is that right?",
+  "choices": [
+   "No, MRTS is undefined",
+   "Yes, MRTS = K/L = 5",
+   "No, MRTS = 1 because the exponents are equal",
+   "No, MRTS = L/K = 0.2"
+  ],
+  "answer": 1,
+  "explain": "With equal exponents MRTS = bK/(aL) = K/L = 50/10 = 5. Equal exponents do not make it 1; that only happens when K = L.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-02-q012",
+  "los": [
+   "S16-02"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Klarna substitutes AI assistant hours (K) for human agent hours (L) while keeping conversations resolved the same. Which concept measures the trade-off at its current mix?",
+  "choices": [
+   "Average product of labor",
+   "Value marginal product",
+   "The isocost slope",
+   "The MRTS"
+  ],
+  "answer": 3,
+  "explain": "The rate of substituting one input for another at constant output is the MRTS. The isocost slope involves prices, not productivity.",
+  "source": "generated",
+  "verbatim": false
+ }
+]

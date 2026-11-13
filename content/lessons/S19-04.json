@@ -1,0 +1,110 @@
+{
+ "id": "S19-04",
+ "title": "Nash equilibrium",
+ "calc": true,
+ "plain": "A **Nash equilibrium** is a condition describing a set of strategies in which **no player can improve his or her payoff by unilaterally changing his or her strategy, given the other players' strategies** (slides p. 32). Every player is already playing a best response to everyone else. (Reading Quiz Q5 says the opposite and is false.)\n\n**The underline method** finds every pure-strategy Nash equilibrium:\n1. For each **column**, underline the row player's highest first number.\n2. For each **row**, underline the column player's highest second number.\n3. Any cell with **both** numbers underlined is a Nash equilibrium.\n\n**Visa versus Mastercard** (pp. 30 to 37): both have the dominant strategy Lower, so (Lower, Lower) with payoffs (2, 2) is the Nash equilibrium. **Can either improve?** Both would be better off at (Maintain, Maintain) with (3, 3). **Could they collude?** They would both gain by agreeing beforehand to maintain fees, but the agreement would not hold: each has an incentive to defect, since lowering while the other maintains pays 4. This pattern, where self-interest leads to an outcome worse for both, is a **prisoner's dilemma**.\n\n**Dillard's versus Nordstrom:** Nordstrom's dominant strategy is Women's; Dillard's best response to Women's is Girl's. Nash equilibrium: (Girl's, Women's) = (4, 2).\n\n**A game can have:**\n- **one** equilibrium (Visa, Dillard's),\n- **several** (coordination games: both pick USB-C, or both pick a proprietary plug),\n- **none in pure strategies** (the Princess Bride, employee monitoring). Then players randomize (S19-05).\n\n**Comprehension Quiz 9:** Target (rows) has the dominant strategy Boy's; Walmart's best response to Boy's is Men's (7 > 3). Equilibrium (Boy's, Men's) = (8, 7), and neither has an incentive to deviate.",
+ "why": "Nash equilibrium is the core prediction tool for S19 to S22. Practice exam Q7 and Q24, Reading Quiz Q5 and Comprehension Quiz 9 Q2 and Q3 test it.",
+ "definition": "A Nash equilibrium is a condition describing a set of strategies in which no player can improve his or her payoff by unilaterally changing his or her strategy, given the other players' strategies.",
+ "formulas": [],
+ "derivation": "",
+ "math": [
+  {
+   "title": "Reading a payoff matrix",
+   "body": "Each cell has two numbers. The FIRST belongs to the row player, the SECOND to the column player. To compare the row player's options, hold the column fixed and look down that column at the first numbers. To compare the column player's options, hold the row fixed and look across that row at the second numbers."
+  }
+ ],
+ "worked": [
+  {
+   "title": "Underline method",
+   "problem": "Find every Nash equilibrium.\n\n| Firm A \\ Firm B | USB-C | Proprietary |\n|---|---|---|\n| USB-C | 40, 40 | 5, 5 |\n| Proprietary | 5, 5 | 40, 40 |",
+   "steps": [
+    "Column USB-C: A's best is USB-C (40). Column Proprietary: A's best is Proprietary (40).",
+    "Row USB-C: B's best is USB-C (40). Row Proprietary: B's best is Proprietary (40).",
+    "Both underlined: (USB-C, USB-C) and (Proprietary, Proprietary)."
+   ],
+   "answer": "Two Nash equilibria. This is a coordination game: the firms only need to agree on one standard, and once agreed neither wants to deviate."
+  },
+  {
+   "title": "Prisoner's dilemma check",
+   "problem": "In the Visa game, is the Nash equilibrium the best outcome for the two firms together?",
+   "steps": [
+    "Nash equilibrium: (Lower, Lower) = 2 + 2 = 4 total.",
+    "(Maintain, Maintain) = 3 + 3 = 6 total.",
+    "But at (Maintain, Maintain), each could switch to Lower and get 4 > 3."
+   ],
+   "answer": "No. Both would prefer (3, 3), but it is not stable: a prisoner's dilemma."
+  },
+  {
+   "title": "Game Theory Exercise Part 1: Nash equilibrium",
+   "problem": "Same Part 1 matrix. Find the Nash equilibrium.",
+   "steps": [
+    "Facebook plays its dominant strategy, Don't Ban.",
+    "Twitter's best response to Don't Ban is Ban (-3 > -12).",
+    "Check: neither can gain by switching alone."
+   ],
+   "answer": "(Facebook Don't Ban, Twitter Ban) = (-277, -3), which matches what actually happened in 2019."
+  },
+  {
+   "title": "Game Theory Exercise Part 3: two equilibria",
+   "problem": "Part 3 changes only the regulation risk: if both firms don't ban, each faces a 15% chance (expected fines $420M and $18M); if only one firm doesn't ban, that firm faces 5% ($140M and $6M). A firm that bans faces no risk.\n\n| Facebook \\ Twitter | Ban | Don't Ban |\n|---|---|---|\n| Ban | -350, -3 | -350, 29 |\n| Don't Ban | -137, -3 | -420, -18 |\n\nFind every pure-strategy Nash equilibrium.",
+   "steps": [
+    "Facebook: Ban if Twitter doesn't (-350 > -420); Don't Ban if Twitter bans (-137 > -350).",
+    "Twitter: Don't Ban if Facebook bans (29 > -3); Ban if Facebook doesn't (-3 > -18).",
+    "Each wants the opposite of the other, so no one has a dominant strategy."
+   ],
+   "answer": "Two equilibria: (Facebook Ban, Twitter Don't Ban) = (-350, 29) and (Facebook Don't Ban, Twitter Ban) = (-137, -3). The one-shot game alone cannot say which happens."
+  }
+ ],
+ "graph": {
+  "component": "payoff",
+  "params": {
+   "players": [
+    "Visa",
+    "Mastercard"
+   ],
+   "rows": [
+    "Lower Fee",
+    "Maintain Fee"
+   ],
+   "cols": [
+    "Lower Fee",
+    "Maintain Fee"
+   ],
+   "pay": [
+    [
+     [
+      2,
+      2
+     ],
+     [
+      4,
+      1
+     ]
+    ],
+    [
+     [
+      1,
+      4
+     ],
+     [
+      3,
+      3
+     ]
+    ]
+   ]
+  },
+  "caption": "Green numbers are best responses; the outlined cell has both, so it is a Nash equilibrium. Try making both maintain worth 5 each and see whether it changes."
+ },
+ "traps": [
+  "Nash equilibrium means NO player can gain by changing ALONE. It does not mean the outcome is best for the players.",
+  "Check BOTH players: a cell is an equilibrium only if both numbers are best responses.",
+  "A game can have zero, one or several pure-strategy Nash equilibria.",
+  "Collusion in a one-shot prisoner's dilemma fails because each has an incentive to defect."
+ ],
+ "sources": {
+  "slides": "S19 Game Theory I pp. 30 to 40",
+  "read": "Ch. 10 pp. 311 to 313",
+  "exercise": "Game Theory Exercise (your submitted answers, payoffs rechecked)",
+  "quiz": "Reading Quiz Q5; Comprehension Quiz 9 Q2, Q3; Practice exam Q7, Q24"
+ }
+}

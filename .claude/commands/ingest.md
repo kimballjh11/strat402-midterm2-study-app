@@ -1,0 +1,1 @@
+Read CLAUDE.md and BUILD-GUIDE.md section "Ingest workflow", then process every new file in inbox/ exactly as that section says. Finish by running scripts/validate.py, updating STATUS.md, moving processed files to inbox/done/, and git commit. Report what changed in five lines or fewer.

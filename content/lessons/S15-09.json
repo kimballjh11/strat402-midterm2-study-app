@@ -1,0 +1,104 @@
+{
+ "id": "S15-09",
+ "title": "Cobb-Douglas production function",
+ "calc": true,
+ "plain": "The **Cobb-Douglas** production function multiplies the inputs, each raised to a power:\n$$Q = K^aL^b$$\nSometimes there is a constant in front, \\(Q = AK^aL^b\\) (Herman Miller in Quiz 7 has \\(Q = 2K^{0.5}L^{0.5}\\)).\n\nKey features:\n- Inputs are **imperfect substitutes**: you can trade capital for labor, but the more labor you already have, the more labor it takes to replace one unit of capital. The isoquant is a **convex curve**.\n- With an exponent below 1 (like 0.5), each input has **diminishing marginal product**: every extra worker adds less than the one before.\n- You need some of both inputs. If either is 0, output is 0.\n- The marginal products are on the equation sheet: \\(MP_K = aK^{a-1}L^b\\) and \\(MP_L = bK^aL^{b-1}\\). With a constant \\(A\\) in front, multiply each MP by \\(A\\).\n- The MRTS changes along the isoquant: \\(MRTS = \\frac{MP_L}{MP_K} = \\frac{bK}{aL}\\).",
+ "why": "Cobb-Douglas is the professor's main production function for calculations. The Practice Midterm 2 column of the study guide links this objective to six practice exam questions (Q15 to Q20), more than any other S15 objective.",
+ "definition": "A Cobb-Douglas production function, \\(Q = K^aL^b\\), assumes some, but not perfect, substitutability between inputs.",
+ "formulas": [
+  {
+   "name": "Cobb-Douglas",
+   "tex": "Q = K^aL^b",
+   "onSheet": true
+  },
+  {
+   "name": "Marginal products",
+   "tex": "MP_K = aK^{a-1}L^b,\\qquad MP_L = bK^aL^{b-1}",
+   "onSheet": true
+  },
+  {
+   "name": "With a constant A in front",
+   "tex": "Q = AK^aL^b \\;\\Rightarrow\\; MP_L = bAK^aL^{b-1}",
+   "onSheet": false,
+   "note": "Not printed on the sheet. A is just a multiplier, so it carries through the derivative."
+  },
+  {
+   "name": "MRTS for Cobb-Douglas",
+   "tex": "MRTS = \\frac{MP_L}{MP_K} = \\frac{bK^aL^{b-1}}{aK^{a-1}L^b} = \\frac{bK}{aL}",
+   "onSheet": true,
+   "note": "The sheet has MRTS = MP_L / MP_K. The simplified bK/(aL) comes from the exponent rules."
+  }
+ ],
+ "derivation": "Start with \\(Q = K^aL^b\\) and treat K as a constant. Power rule on \\(L^b\\): \\(\\frac{\\partial Q}{\\partial L} = K^a \\cdot bL^{b-1}\\).\n\nMRTS simplification: divide \\(bK^aL^{b-1}\\) by \\(aK^{a-1}L^b\\). Same base, subtract exponents: \\(K^{a-(a-1)} = K^1\\) and \\(L^{(b-1)-b} = L^{-1}\\). So \\(MRTS = \\frac{b}{a}\\cdot\\frac{K}{L}\\).",
+ "math": [
+  {
+   "title": "Exponent rules (S15 slides pp. 36 to 42)",
+   "body": "- Multiply, same base: add exponents. \\(a^x a^y = a^{x+y}\\)\n- Divide, same base: subtract. \\(\\frac{a^x}{a^y} = a^{x-y}\\)\n- Power of a product: \\((xy)^a = x^a y^a\\)\n- Power of a quotient: \\(\\left(\\frac{x}{y}\\right)^a = \\frac{x^a}{y^a}\\)\n- Power of a power: multiply. \\((a^x)^y = a^{xy}\\)\n- Zero power: \\(x^0 = 1\\)\n- Negative power is a reciprocal: \\(x^{-a} = \\frac{1}{x^a}\\), so \\(L^{-0.5} = \\frac{1}{\\sqrt{L}}\\)\n- Fractional power is a root: \\(x^{0.5} = \\sqrt{x}\\), \\(x^{0.25} = \\sqrt[4]{x}\\)\n\nOn a calculator: \\(16^{0.25}\\) is 16, then the \\(y^x\\) or ^ key, then 0.25. Answer 2."
+  },
+  {
+   "title": "Partial derivatives: hold the other input fixed",
+   "body": "With two inputs, \\(\\frac{\\partial Q}{\\partial L}\\) means: take the derivative with respect to \\(L\\) and treat \\(K\\) as an ordinary number. Example: \\(Q = K^{0.5}L^{0.5}\\). Treat \\(K^{0.5}\\) like the 5 in \\(5L^{0.5}\\): $$\\frac{\\partial Q}{\\partial L} = K^{0.5}\\cdot 0.5L^{-0.5} = \\frac{0.5K^{0.5}}{L^{0.5}}$$"
+  }
+ ],
+ "worked": [
+  {
+   "title": "S15 slides p. 44",
+   "problem": "\\(Q = K^{0.25}L^{0.75}\\). Find \\(MP_L\\) and \\(MP_K\\) at \\(K = 81\\), \\(L = 16\\).",
+   "steps": [
+    "\\(MP_L = 0.75K^{0.25}L^{-0.25} = 0.75\\,(K/L)^{0.25} = 0.75 \\times (81/16)^{0.25} = 0.75 \\times 1.5 = 1.125\\).",
+    "\\(MP_K = 0.25K^{-0.75}L^{0.75} = 0.25\\,(L/K)^{0.75} = 0.25 \\times (16/81)^{0.75}\\).",
+    "\\((16/81)^{0.25} = 2/3\\), so \\((16/81)^{0.75} = (2/3)^3 = 8/27 = 0.2963\\). \\(MP_K = 0.0741\\)."
+   ],
+   "answer": "MP_L = 1.125, MP_K = 0.0741."
+  },
+  {
+   "title": "With a constant (Comprehension Quiz 7 Q4)",
+   "problem": "\\(Q = 2K^{0.5}L^{0.5}\\) with \\(K = 9\\). Find \\(MP_L\\) as a function of L.",
+   "steps": [
+    "\\(MP_L = 2 \\times 0.5 \\times K^{0.5}L^{-0.5} = K^{0.5}/L^{0.5}\\).",
+    "With \\(K = 9\\): \\(MP_L = 3/\\sqrt{L}\\). At \\(L = 100\\), \\(MP_L = 0.3\\)."
+   ],
+   "answer": "MP_L = 3 / √L."
+  }
+ ],
+ "graph": [
+  {
+   "component": "isoquant",
+   "params": {
+    "form": "cd",
+    "a": 0.5,
+    "b": 0.5,
+    "Q": 100,
+    "L": 50
+   },
+   "caption": "Cobb-Douglas isoquants (here Q = 2K^0.5 L^0.5) are convex. Slide the point right: the MRTS readout falls."
+  },
+  {
+   "component": "production",
+   "params": {
+    "form": "cd",
+    "A": 2,
+    "K": 9,
+    "alpha": 0.5,
+    "beta": 0.5,
+    "P": 400,
+    "w": 120,
+    "Lmax": 160
+   },
+   "caption": "Short run with K fixed at 9: MP_L falls at every L (diminishing returns everywhere when b < 1)."
+  }
+ ],
+ "traps": [
+  "a goes with K and b goes with L. Mixing them up gives MP_K when you wanted MP_L.",
+  "Subtract 1 from the exponent of the input you differentiate, and leave the other input's exponent alone.",
+  "If the function has a constant in front (2K^0.5 L^0.5), multiply the MP by it. The sheet formula has no constant.",
+  "L^-0.25 means 1 / L^0.25, not -L^0.25.",
+  "Cobb-Douglas is imperfect substitution. Perfect substitution is linear; no substitution is Leontief (Reading Quiz Q5)."
+ ],
+ "sources": {
+  "slides": "S15 Production I, pp. 32 to 44",
+  "read": "Ch. 5 pp. 146 to 148",
+  "exercise": "Production Functions workbook, Cobb-Douglas tab",
+  "quiz": "Reading Quiz Q5; Comprehension Quiz 7 Q4, Q6"
+ }
+}

@@ -1,0 +1,298 @@
+[
+ {
+  "id": "S21-03-q001",
+  "los": [
+   "S21-03"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "In a Stackelberg oligopoly:",
+  "choices": [
+   "Firms collude on output",
+   "A leader chooses output first, and followers take it as given",
+   "All firms choose prices at once",
+   "All firms choose output at once"
+  ],
+  "answer": 1,
+  "explain": "Textbook conditions 3 and 4.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-03-q002",
+  "los": [
+   "S21-03"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "How does the follower choose its output?",
+  "choices": [
+   "It produces the monopoly output",
+   "With its Cournot reaction function, given the leader's output",
+   "It sets price equal to MC",
+   "It copies the leader"
+  ],
+  "answer": 1,
+  "explain": "The follower best-responds to the observed leader output.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-03-q003",
+  "los": [
+   "S21-03"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Compared with Cournot, the Stackelberg leader:",
+  "choices": [
+   "Produces more and earns more",
+   "Earns zero profit",
+   "Produces the same",
+   "Produces less and earns less"
+  ],
+  "answer": 0,
+  "explain": "First-mover advantage.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-03-q004",
+  "los": [
+   "S21-03"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Compared with Cournot, total output in Stackelberg is:",
+  "choices": [
+   "Zero",
+   "The same",
+   "Lower, so price is higher",
+   "Higher, so price is lower"
+  ],
+  "answer": 3,
+  "explain": "Textbook comparison: 747 vs 664.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-03-q005",
+  "los": [
+   "S21-03"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Bryce describes Stackelberg competition as:",
+  "choices": [
+   "Competition in prices for identical goods",
+   "A race to build capacity in which one firm clearly makes its choice first",
+   "Competition in advertising",
+   "A cartel"
+  ],
+  "answer": 1,
+  "explain": "Bryce p. 8, competition in lead time.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-03-q006",
+  "los": [
+   "S21-03"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: With identical costs, the Stackelberg leader produces the same output a monopolist would.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explain": "True: (a - c)/(2b). The follower makes half of that.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-03-q007",
+  "los": [
+   "S21-03",
+   "S21-06"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Textbook Demonstration Problem 9-6: P = 50 - (Q_1 + Q_2), C_1 = 2Q_1, C_2 = 2Q_2, firm 1 leads. What is the leader's output?",
+  "answer": 24.0,
+  "unit": "",
+  "tol": 0.01,
+  "explain": "Q_1 = (a + c_2 - 2c_1)/(2b) = (50 + 2 - 4)/2 = 24.",
+  "verify": {
+   "f": "stack",
+   "a": 50,
+   "b": 1,
+   "c1": 2,
+   "c2": 2,
+   "who": "q1"
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-03-q008",
+  "los": [
+   "S21-03",
+   "S21-06"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Same problem. What is the follower's output?",
+  "answer": 12.0,
+  "unit": "",
+  "tol": 0.01,
+  "explain": "Q_2 = 24 - 0.5(24) = 12.",
+  "verify": {
+   "f": "stack",
+   "a": 50,
+   "b": 1,
+   "c1": 2,
+   "c2": 2,
+   "who": "q2"
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-03-q009",
+  "los": [
+   "S21-03"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Same problem. What is the market price?",
+  "answer": 14.0,
+  "unit": "$",
+  "tol": 0.01,
+  "explain": "P = 50 - (24 + 12) = $14.",
+  "verify": {
+   "f": "stack",
+   "a": 50,
+   "b": 1,
+   "c1": 2,
+   "c2": 2,
+   "who": "P"
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-03-q010",
+  "los": [
+   "S21-03"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Textbook comparison market (P = 1,000 - Q, MC = 4), firm 1 leads. What is the follower's profit?",
+  "answer": 62001.0,
+  "unit": "$",
+  "tol": 0.01,
+  "explain": "Leader 498, follower 249, P = $253. Follower profit (253 - 4) × 249 = $62,001.",
+  "verify": {
+   "f": "stack",
+   "a": 1000,
+   "b": 1,
+   "c1": 4,
+   "c2": 4,
+   "who": "pi2"
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-03-q011",
+  "los": [
+   "S21-03"
+  ],
+  "type": "mc",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "P = 90 - (Q_1 + Q_2), MC = $30 for both, firm 1 leads. What are the outputs?",
+  "choices": [
+   "Leader 15, follower 30",
+   "Leader 30, follower 30",
+   "Leader 30, follower 15",
+   "20 each"
+  ],
+  "answer": 2,
+  "explain": "Leader (90 - 30)/2 = 30; follower 30 - 0.5(30) = 15; P = $45.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-03-q012",
+  "los": [
+   "S21-03"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Which situation best fits Stackelberg?",
+  "choices": [
+   "Two gas stations post prices at the same time",
+   "Four oil producers pump without seeing each other's plans",
+   "A chipmaker finishes a huge fab before its rival decides how big to build",
+   "Coke and Pepsi set prices for differentiated colas"
+  ],
+  "answer": 2,
+  "explain": "Quantity commitment made first and observed.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-03-q013",
+  "los": [
+   "S21-03"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "In the textbook's generative AI example, why did OpenAI, Google and Microsoft rush products out early and in high volume?",
+  "choices": [
+   "Because prices equal MC",
+   "To avoid reaction functions",
+   "To gain a Stackelberg first-mover advantage that crowds out rivals",
+   "To collude"
+  ],
+  "answer": 2,
+  "explain": "Inside Business 9-2.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-03-q014",
+  "los": [
+   "S21-03"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A would-be leader announces it 'plans' a big plant but has not started building. The rival builds first. What happens?",
+  "choices": [
+   "The rival must exit",
+   "The announcement is not a commitment, so it gets no leader advantage",
+   "It is still the Stackelberg leader",
+   "Both earn monopoly profit"
+  ],
+  "answer": 1,
+  "explain": "Leadership requires a real, observed commitment.",
+  "source": "generated",
+  "verbatim": false
+ }
+]

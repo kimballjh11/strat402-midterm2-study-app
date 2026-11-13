@@ -1,0 +1,131 @@
+{
+ "source": "S20/Session 20 Reading Quiz (attempt 2).html",
+ "title": "Session 20: Reading Quiz",
+ "questions": [
+  {
+   "n": 1,
+   "qid": "question_7307837",
+   "type": "multiple_choice_question",
+   "text": "It is easier to sustain tacit collusion in an infinitely repeated game if _______.",
+   "answers": [
+    {
+     "text": "a firm charges a single price to all of its customers",
+     "correct": false,
+     "comment": ""
+    },
+    {
+     "text": "there are many players",
+     "correct": false,
+     "comment": ""
+    },
+    {
+     "text": "the present value of cheating is less than the present value of collusion",
+     "correct": true,
+     "comment": ""
+    },
+    {
+     "text": "the interest rate is higher",
+     "correct": false,
+     "comment": ""
+    }
+   ],
+   "feedback": [
+    "Correct! Tacit collusion is easier to sustain when the present value of cheating is less than the present value of collusion."
+   ]
+  },
+  {
+   "n": 2,
+   "qid": "question_7307838",
+   "type": "true_false_question",
+   "text": "Tacit collusion occurs when firms accomplish collusive outcomes indirectly by learning from experience how each other will behave in a market.",
+   "answers": [
+    {
+     "text": "True",
+     "correct": true,
+     "comment": ""
+    },
+    {
+     "text": "False",
+     "correct": false,
+     "comment": ""
+    }
+   ],
+   "feedback": [
+    "Correct! Tacit collusion occurs when firms learn from experience how other firms will behave in a market."
+   ]
+  },
+  {
+   "n": 3,
+   "qid": "question_7307839",
+   "type": "true_false_question",
+   "text": "A sequential-move game is a game in which each player makes decisions without knowledge of the other players' decisions.",
+   "answers": [
+    {
+     "text": "True",
+     "correct": false,
+     "comment": ""
+    },
+    {
+     "text": "False",
+     "correct": true,
+     "comment": ""
+    }
+   ],
+   "feedback": [
+    "Correct! That is the definition of a simultaneous-move game. In a sequential-move game, one player moves after observing the other player's move."
+   ]
+  },
+  {
+   "n": 4,
+   "qid": "question_7307840",
+   "type": "multiple_choice_question",
+   "text": "Which of the following is not an element of an extensive-form game?",
+   "answers": [
+    {
+     "text": "Strategies",
+     "correct": false,
+     "comment": ""
+    },
+    {
+     "text": "Payoffs",
+     "correct": false,
+     "comment": ""
+    },
+    {
+     "text": "Sequence of player decisions",
+     "correct": false,
+     "comment": ""
+    },
+    {
+     "text": "All of the above are elements of an extensive-form game",
+     "correct": true,
+     "comment": ""
+    }
+   ],
+   "feedback": [
+    "Correct! Payoffs, strategies, and the sequence of player decisions are all elements of an extensive-form game."
+   ]
+  },
+  {
+   "n": 5,
+   "qid": "question_7307841",
+   "type": "true_false_question",
+   "text": "To solve sequential games, one should use a logical reasoning process known as backward induction.",
+   "answers": [
+    {
+     "text": "True",
+     "correct": true,
+     "comment": ""
+    },
+    {
+     "text": "False",
+     "correct": false,
+     "comment": ""
+    }
+   ],
+   "feedback": [
+    "Correct! To solve sequential games, one should use a logical reasoning process known as backward induction, whereby players rule out non-rational actions at the end of the game, to reason what the appropriate action should be at the beginning of the game."
+   ]
+  }
+ ]
+}

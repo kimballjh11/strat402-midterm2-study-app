@@ -1,0 +1,77 @@
+{
+ "id": "S16-02",
+ "title": "Marginal rate of technical substitution (MRTS)",
+ "calc": true,
+ "plain": "Moving along an isoquant means giving up some of one input and making up for it with the other. The **marginal rate of technical substitution** says at what rate: how many units of capital one more unit of labor can replace while output stays the same.\n$$MRTS_{KL} = \\frac{MP_L}{MP_K}$$\nIt is the **absolute value of the slope** of the isoquant (Reading Quiz Q2: both the substitution rate and the absolute slope). The slides write it as \\(MP_L / MP_K = \\partial K / \\partial L \\approx \\Delta K / \\Delta L\\).\n\nWhy the ratio of marginal products: one more worker adds \\(MP_L\\) units. To keep output fixed you must drop that many units' worth of capital, which is \\(MP_L / MP_K\\) units of K.\n\nBy production function:\n- Linear: \\(MRTS = b/a\\), constant.\n- Cobb-Douglas: \\(MRTS = \\frac{bK}{aL}\\), changes along the isoquant.\n- Leontief: undefined.\n\nExample: \\(Q = K^{0.5}L^{0.5}\\) at K = 20, L = 5 gives \\(MRTS = K/L = 4\\): one more worker can replace 4 units of capital.",
+ "why": "The MRTS is the slope that cost minimization compares with the input price ratio w/r (S16-05).",
+ "definition": "The MRTS is the rate at which a producer can substitute between two inputs and maintain the same level of output. It equals MP_L / MP_K, the absolute value of the slope of the isoquant.",
+ "formulas": [
+  {
+   "name": "MRTS",
+   "tex": "MRTS_{KL} = \\frac{MP_L}{MP_K}",
+   "onSheet": true
+  },
+  {
+   "name": "Cobb-Douglas MRTS",
+   "tex": "MRTS = \\frac{bK^aL^{b-1}}{aK^{a-1}L^b} = \\frac{bK}{aL}",
+   "onSheet": false,
+   "note": "The ratio MP_L/MP_K is on the sheet; the simplified bK/(aL) you derive with exponent rules."
+  },
+  {
+   "name": "Linear MRTS",
+   "tex": "MRTS = \\frac{b}{a}",
+   "onSheet": false
+  }
+ ],
+ "derivation": "Along an isoquant output does not change: \\(MP_L\\,\\Delta L + MP_K\\,\\Delta K = 0\\). Rearranged: \\(-\\frac{\\Delta K}{\\Delta L} = \\frac{MP_L}{MP_K}\\). The left side is the absolute slope of the isoquant.",
+ "math": [
+  {
+   "title": "Exponent rules (S15 slides pp. 36 to 42)",
+   "body": "- Multiply, same base: add exponents. \\(a^x a^y = a^{x+y}\\)\n- Divide, same base: subtract. \\(\\frac{a^x}{a^y} = a^{x-y}\\)\n- Power of a product: \\((xy)^a = x^a y^a\\)\n- Power of a quotient: \\(\\left(\\frac{x}{y}\\right)^a = \\frac{x^a}{y^a}\\)\n- Power of a power: multiply. \\((a^x)^y = a^{xy}\\)\n- Zero power: \\(x^0 = 1\\)\n- Negative power is a reciprocal: \\(x^{-a} = \\frac{1}{x^a}\\), so \\(L^{-0.5} = \\frac{1}{\\sqrt{L}}\\)\n- Fractional power is a root: \\(x^{0.5} = \\sqrt{x}\\), \\(x^{0.25} = \\sqrt[4]{x}\\)\n\nOn a calculator: \\(16^{0.25}\\) is 16, then the \\(y^x\\) or ^ key, then 0.25. Answer 2."
+  }
+ ],
+ "worked": [
+  {
+   "title": "Cobb-Douglas MRTS",
+   "problem": "\\(Q = K^{0.25}L^{0.75}\\). Find the MRTS at K = 30, L = 10.",
+   "steps": [
+    "\\(MRTS = \\frac{bK}{aL} = \\frac{0.75 \\times 30}{0.25 \\times 10}\\).",
+    "\\(= \\frac{22.5}{2.5} = 9\\)."
+   ],
+   "answer": "MRTS = 9: one more unit of labor replaces 9 units of capital at this point."
+  },
+  {
+   "title": "Linear MRTS (Comprehension Quiz 7 Q5)",
+   "problem": "\\(Q = 4K + L\\). MRTS at K = 1, L = 4?",
+   "steps": [
+    "\\(MP_L = 1\\), \\(MP_K = 4\\).",
+    "\\(MRTS = 1/4\\), at every point."
+   ],
+   "answer": "1/4."
+  }
+ ],
+ "graph": {
+  "component": "isoquant",
+  "params": {
+   "form": "cd",
+   "a": 0.5,
+   "b": 0.5,
+   "Q": 100,
+   "L": 50
+  },
+  "caption": "The dashed line is tangent to the isoquant; its slope (absolute value) is the MRTS. Slide the point to see the MRTS change."
+ },
+ "traps": [
+  "MRTS is MP_L / MP_K, not MP_K / MP_L. Labor on top.",
+  "MRTS is about substituting INPUTS while holding OUTPUT constant, not substituting outputs (Reading Quiz Q2 distractor).",
+  "The slope of the isoquant is negative; the MRTS is its absolute value.",
+  "For linear production the MRTS does not depend on K and L.",
+  "In bK/(aL) keep a with K and b with L: b (labor's exponent) goes on top with K."
+ ],
+ "sources": {
+  "slides": "S16 Production II, pp. 13 to 15",
+  "read": "Ch. 5 pp. 149 to 150",
+  "exercise": "Production Functions workbook",
+  "quiz": "Reading Quiz Q2; Comprehension Quiz 7 Q5"
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "id": "S18-08",
+ "title": "Penetration pricing",
+ "calc": false,
+ "plain": "**Penetration pricing** is when a firm **charges a low price initially to penetrate a market and gain a critical mass of customers**. It is useful **when strong network effects are present** (slides p. 41).\n\nThe logic: a network product is worth little until enough people use it, and users are locked into the incumbent. A low price, or a free product, or even paying users to try it, gets enough people to switch at once. Once the network passes critical mass, its own value keeps users and the firm can raise prices or charge the other side of the market.\n\n**Examples:**\n- Facebook (slides p. 47): free to users from the start, which built the network that now earns it the highest ad revenue per user (S18-04).\n- \"Competing Against Free\" (slides p. 48), an HBR article by Bryce, Dyer and Hatch on free offerings spreading from online markets to physical ones.\n- Reading Quiz Q5: a new social media app is worth little to its first users; penetration pricing (a low price or giving it away to build a critical mass) is the strategy that helps it overcome network effects.\n- Textbook: Yahoo! offered free auction listings to pull users from eBay. It failed, because eBay's network and first-mover advantage were too strong. Penetration pricing does not always work.\n\n**How it differs from the other pricing strategies:**\n\n| Pricing strategy | Definition (S18 slides p. 41) |\n|---|---|\n| Limit pricing | An incumbent maintains a price below the monopoly level in order to prevent entry |\n| Predatory pricing | A firm temporarily prices below marginal cost to drive competitors out of the market |\n| Penetration pricing | A firm charges a low price initially to penetrate a market and gain critical mass of customers; useful when strong network effects are present |\n\nPenetration pricing is about building a customer base. Limit pricing is about keeping potential entrants out. Predatory pricing is about driving an existing rival out.",
+ "why": "Practice exam Q5 is mapped here, and Reading Quiz Q5 asks which strategy beats network effects.",
+ "definition": "Penetration pricing: a strategy where a firm charges a low price initially to penetrate a market and gain critical mass of customers; useful when strong network effects are present.",
+ "formulas": [],
+ "derivation": "",
+ "math": [],
+ "worked": [
+  {
+   "title": "Choosing a pricing strategy",
+   "problem": "A startup launches a payments app that is only useful if your friends also have it. A dominant app already exists. Which pricing strategy fits, and why not the others?",
+   "steps": [
+    "Strong network effects plus an entrenched incumbent: the startup needs critical mass.",
+    "Limit pricing is for an incumbent keeping entrants out; the startup is the entrant.",
+    "Predatory pricing targets a rival to drive it out and risks antitrust; the goal here is to win users."
+   ],
+   "answer": "Penetration pricing: free or very cheap at first, maybe with a sign-up bonus, until enough users join."
+  }
+ ],
+ "graph": {
+  "component": "scale",
+  "params": {
+   "view": "network",
+   "k": 0.1,
+   "price": 30,
+   "N": 800
+  },
+  "caption": "Lower the price to join and critical mass falls. That is what penetration pricing does: it gets a new network past the point where it grows on its own."
+ },
+ "traps": [
+  "Penetration pricing is mainly an ENTRANT's or new product's tool for network markets.",
+  "Its goal is CUSTOMERS (critical mass), not pushing a rival out (predatory) or keeping entrants away (limit).",
+  "It does not always work: Yahoo! auctions failed against eBay's network."
+ ],
+ "sources": {
+  "slides": "S18 Barriers to Entry pp. 41, 47 to 48",
+  "read": "Module Group A Module 4",
+  "exercise": "",
+  "quiz": "Reading Quiz Q5; Practice exam Q5"
+ }
+}

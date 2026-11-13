@@ -1,0 +1,183 @@
+S15 Textbook Notes – The Production Function 
+
+ Session 15 · Production I — Study Notes 
+ ↓ Jump to textbook figures, formulas & book examples 
+
+ Reading: Baye & Prince, Ch. 5 “The Production Process and Costs,” pp. 138–148 (The Production Function). These are my summary notes in my own words with original practice numbers — use them alongside the book in Bookshelf and the S15 slides. 
+
+ 1. The big idea 
+
+ A production function Q = F(K, L) tells you the most output a firm can get from a given amount of capital (K) and labor (L). It's the technology frontier — managers' job is to (1) actually reach it and (2) pick the right point on it. 
+
+ 2. Short run vs. long run 
+
+ Short run: at least one input is fixed (usually capital). The only choice is how much of the variable input (labor) to use: Q = f(L) = F(K*, L) . 
+
+ Long run: the time it takes to adjust every input. It's defined by the firm's situation, not a calendar — if new equipment takes 2 years to install, the long run is 2 years. 
+
+ 3. Measures of productivity 
+
+ Total product (TP) = Q, the maximum output from the inputs (assumes full effort). 
+
+ Average product : AP L = Q / L , AP K = Q / K — output per unit of input. 
+
+ Marginal product : MP L = ΔQ / ΔL , MP K = ΔQ / ΔK — extra output from the last unit of input.
+
+ Practice (my numbers): A food truck with one grill (K fixed).
+ L Q MP L AP L 
+
+ 0 0 – – 
+ 1 40 40 40 
+
+ 2 100 60 50 
+ 3 150 50 50 
+
+ 4 180 30 45 
+ 5 190 10 38 
+
+ 6 185 −5 30.8 
+
+Check yourself: MP rises then falls; MP turns negative at the 6th worker; AP peaks where MP crosses it (L = 3, MP = AP = 50). 
+
+ 4. Phases of marginal returns 
+
+ Increasing marginal returns — each added worker adds more than the last (specialization, like an assembly line). TP gets steeper. 
+
+ Decreasing (diminishing) marginal returns — each added worker still adds output, but less (crowding the fixed capital). TP still rises, but flattens. 
+
+ Negative marginal returns — the last worker actually lowers output (people in each other's way). TP falls. Never operate here. 
+
+ Graph relationships to know: MP is the slope of TP. MP peaks at TP's inflection point. MP crosses AP at AP's maximum (when MP > AP, AP rises; when MP < AP, AP falls). TP peaks where MP = 0. 
+
+ Intuition: studying — the first hours raise your score a lot, later hours add little, and an all-nighter that wrecks your exam performance is negative marginal returns. 
+
+ 5. The manager's two jobs 
+
+ Produce on the production function — get maximal effort via incentives (tips, profit sharing, piece rates; more in Ch. 6). Shirking puts you below the frontier. 
+
+ Use the right level of inputs — hire until the value of the last worker's output equals what that worker costs. 
+
+ 6. Profit-maximizing input use (key formula) 
+
+ Value marginal product: VMP L = P × MP L  (and VMP K = P × MP K ) 
+
+ Rule: hire labor until VMP L = w , in the range of diminishing marginal returns . Hire a worker if VMP ≥ w; stop when VMP < w.
+
+ Why “in the diminishing range”: early on VMP can be below w for the 1st worker yet the 2nd worker's VMP is far above w — don't stop at the first worker just because it looks unprofitable; look for where VMP falls through w on the way down. 
+
+ The downward-sloping part of the VMP L curve is the firm's demand for labor : lower wage → hire more. It slopes down because of the law of diminishing marginal returns . 
+
+ Practice: Using my food-truck table, price = $4/meal, wage = $150/day. 
+
+VMP: worker 1 = $160, worker 2 = $240, worker 3 = $200, worker 4 = $120. 
+
+→ Hire workers 1–3 (VMP ≥ $150). Worker 4 adds $120 < $150, so stop at L = 3 . 
+
+If the wage drops to $100, worker 4 ($120) is now worth hiring → L = 4 (demand for labor slopes down). 
+
+ 7. Where technology comes from (sidebar) 
+
+ Firms learn production know-how through: independent R&D (most important), licensing (fixed fee = fixed cost; per-unit royalty = variable cost), publications/trade meetings, reverse engineering, hiring a rival's employees, patent filings (public once granted — which is why firms sometimes prefer to keep a patent pending ), and informal conversations among employees in the same region. 
+
+ 8. Algebraic forms of production functions 
+
+ Form Equation Input relationship Marginal products 
+
+ Linear Q = aK + bL Perfect substitutes MP K = a, MP L = b (constant — no diminishing returns) 
+
+ Leontief (fixed proportions) Q = min{aK, bL} Must be used together in a fixed ratio (one driver per truck) Extra units of just one input add nothing 
+
+ Cobb-Douglas Q = K a L b In between — some, but not perfect, substitution MP L = bK a L b−1 , MP K = aK a−1 L b 
+
+ Practice set (my numbers): 
+
+ Linear Q = 3K + 2L, with K = 4, L = 10 → Q = 12 + 20 = 32 . MP L = 2 regardless of L. 
+
+ Leontief Q = min{2K, 5L}, with K = 10, L = 3 → min{20, 15} = 15 . Labor is the binding input; adding capital does nothing. 
+
+ Cobb-Douglas Q = K 1/2 L 1/2 , with K = 16, L = 4 → Q = 4 × 2 = 8 ; AP L = 8/4 = 2 . 
+
+MP L = ½·K 1/2 L −1/2 = ½ · 4 / 2 = 1 . 
+
+ Hiring with Cobb-Douglas: Q = K 1/2 L 1/2 , K fixed at 4, P = $8, w = $2. 
+
+MP L = ½·(4) 1/2 ·L −1/2 = L −1/2 . Set P·MP L = w → 8·L −1/2 = 2 → L 1/2 = 4 → L = 16 . 
+
+ Note: with Cobb-Douglas, AP and MP of labor depend on how much capital you have too — more capital makes each worker more productive. 
+
+ 9. Quick self-test 
+
+ What distinguishes the short run from the long run? 
+
+ If MP L > AP L , is AP L rising or falling? 
+
+ Why does the demand for labor slope downward? 
+
+ Which production function has no diminishing marginal returns? 
+
+ State the profit-maximizing hiring rule, including the range condition. 
+
+ Answers: (1) whether any input is fixed; (2) rising; (3) diminishing MP → falling VMP; (4) linear; (5) VMP L = w where MP is diminishing. 
+
+ Textbook Figures, Formulas & Book Examples 
+ The diagrams are my redrawings of the book's figures, labeled with the same figure numbers so you can find each original in Bookshelf. The formulas match the book's notation. The book's worked examples are summarized with their actual numbers. 
+
+ A. Formulas exactly as the book writes them 
+
+Production function: Q = F(K, L) 
+
+Short-run production function (capital fixed at K*): Q = f(L) = F(K*, L) 
+
+Average product: AP L = Q/L   AP K = Q/K 
+
+Marginal product: MP K = ΔQ/ΔK   MP L = ΔQ/ΔL 
+
+Value marginal product: VMP L = P × MP L   VMP K = P × MP K 
+
+ Profit-maximizing input usage (Principle): hire labor up to the point where VMP L = w , in the range of diminishing marginal product. 
+
+Linear production function: Q = F(K, L) = aK + bL → MP K = a , MP L = b (MP is constant, so there are no diminishing returns) 
+
+Leontief (fixed proportions): Q = F(K, L) = min{aK, bL} 
+
+Cobb-Douglas: Q = F(K, L) = K a L b → MP L = bK a L b−1 , MP K = aK a−1 L b 
+
+Calculus version: MP L = ∂Q/∂L , MP K = ∂Q/∂K 
+
+ Principle: phases of marginal returns. As you use more of an input, its MP first rises (increasing marginal returns), then falls (decreasing marginal returns), and finally turns negative (negative marginal returns). 
+
+ B. Figures 
+
+ L TP 76 1100 1952 2200 2156 0 1 2 3 4 5 6 7 8 9 10 11 Increasing MR Decreasing MR Neg. Figure 5–1 (top, redrawn): total product, plotted from the Table 5–1 data (K* = 2) L MP, AP 0 1 2 3 4 5 6 7 8 9 10 11 MP_L AP_L Figure 5–1 (bottom, redrawn): MP_L and AP_L. MP peaks at L = 5–6 (316), crosses AP at AP’s maximum (L = 8, 244), and turns negative at L = 11. 
+ How to read Figure 5–1: from 0 to 5 workers the TP curve gets steeper (MP rising). From 5 to 10 it keeps rising but flattens (MP falling, still positive). Past 10 it turns down (MP negative). Never hire into the negative range. 
+
+ L $ VMP_L = w₀ L₀ w₀ VMP_L Demand for labor Figure 5–2 (redrawn): the demand for labor is the downward-sloping portion of VMP_L 
+ C. The book's examples 
+
+ Table 5–1 (short-run production, K* = 2): output goes 0, 76, 248, 492, 784, 1,100 … up to a maximum of 2,200 at L = 10, then falls to 2,156 at L = 11. 
+
+• Total product: 5 workers can produce 1,100 units at most (the maximum, assuming full effort). 
+
+• Average product: 1,100 / 5 = 220 units per worker . 
+
+• Marginal product: the 2nd worker adds 248 − 76 = 172 . MP rises through the 5th–6th worker (316), falls after that, and the 11th worker's MP is −44 . 
+
+• To produce 1,952 units in the short run you need 8 workers. 
+
+ Studying analogy: 0 hours of study gives a grade of 0, 10 hours gives 75 (MP of the first 10 hours = 75), and 20 hours gives 100 (MP of the next 10 hours = only 25). An all-nighter that makes you sleep through the exam puts you in negative marginal returns. 
+
+ Table 5–2 (how many workers to hire): P = $3 per unit of output, w = $400 per worker. VMP L = $3 × MP L : worker 1 = $228, worker 2 = $516, … worker 9 = $516, worker 10 = $228, worker 11 = −$132. 
+
+The 1st worker alone isn't worth $400, but the 2nd adds $116 more than its cost, so look past the first unit. Workers 2 through 9 each add more than $400. Hire 9 workers. The 10th worker's VMP of $228 < $400. 
+
+ Demonstration Problem 5–1 (Leontief): Q = min{3K, 4L}. With K = 5 and L = 2: Q = min{15, 8} = 8 units . 
+
+ Leontief intuition (car-service example): with a = b = 1, one driver and one car produce one ride. One driver with five cars still produces only one ride, because inputs are used in fixed proportions. 
+
+ Cobb-Douglas average product: Q = K 1/2 L 1/2 . With K = 9 and L = 4: Q = 3 × 2 = 6 → AP L = 6/4 = 1.5 . AP depends on both inputs. 
+
+ Demonstration Problem 5–2 (profit-maximizing labor): P = $10, Q = K 1/2 L 1/2 , K fixed at 1, w = $2. 
+
+MP L = ½L −1/2 → VMP L = 10 × ½L −1/2 = 5/√L. Set this equal to w: 5/√L = 2 → √L = 2.5 → L = 6.25 units . 
+
+ Inside Business 5–1: how firms acquire technology. Main methods include independent R&D, licensing, publications and technical meetings, reverse engineering, hiring employees of innovating firms, and patent disclosures (patents last 17–20 years and the filings become public).

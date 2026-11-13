@@ -1,0 +1,322 @@
+[
+ {
+  "id": "S21-02-q001",
+  "los": [
+   "S21-02"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "In a Cournot oligopoly, firms compete by choosing:",
+  "choices": [
+   "Quantities, simultaneously",
+   "Prices, simultaneously",
+   "Advertising budgets",
+   "Quantities, one after another"
+  ],
+  "answer": 0,
+  "explain": "Bryce p. 4: set output and let the price float.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-02-q002",
+  "los": [
+   "S21-02"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "What does each Cournot firm believe about its rivals?",
+  "choices": [
+   "Rivals will move first",
+   "Rivals will match price cuts",
+   "Rivals will hold their output constant if it changes its output",
+   "Rivals will exit"
+  ],
+  "answer": 2,
+  "explain": "Textbook condition 3.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-02-q003",
+  "los": [
+   "S21-02"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "The Cournot equilibrium is where:",
+  "choices": [
+   "One firm produces the monopoly output",
+   "Isoprofit curves are vertical",
+   "The firms' reaction functions intersect",
+   "Price equals marginal cost"
+  ],
+  "answer": 2,
+  "explain": "Neither firm wants to change its output given the other's.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-02-q004",
+  "los": [
+   "S21-02"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Which markets does Bryce say fit Cournot competition?",
+  "choices": [
+   "Ski resorts",
+   "Online sellers of identical chargers",
+   "Commodity markets such as oil and agriculture cooperatives",
+   "Airlines"
+  ],
+  "answer": 2,
+  "explain": "Bryce p. 4.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-02-q005",
+  "los": [
+   "S21-02"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Compared with monopoly, Cournot duopoly has:",
+  "choices": [
+   "The same output",
+   "Price equal to MC",
+   "More output and a lower price, but price still above MC",
+   "Less output and a higher price"
+  ],
+  "answer": 2,
+  "explain": "Between monopoly and perfect competition.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-02-q006",
+  "los": [
+   "S21-02"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: As the number of Cournot firms grows, the market price falls toward marginal cost.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explain": "True (textbook).",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-02-q007",
+  "los": [
+   "S21-02",
+   "S21-06"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Textbook Demonstration Problem 9-4: P = 10 - (Q_1 + Q_2), each firm's marginal cost is $0. What is each firm's Cournot output?",
+  "answer": 3.3333,
+  "unit": "",
+  "tol": 0.01,
+  "explain": "Each firm makes (a - c)/(3b) = (10 - 0)/3 = 3.33. Check with r_1: Q_1 = 5 - 0.5(3.33) = 3.33.",
+  "verify": {
+   "f": "cournot",
+   "a": 10,
+   "b": 1,
+   "c1": 0,
+   "c2": 0,
+   "who": "q1"
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-02-q008",
+  "los": [
+   "S21-02",
+   "S21-06"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "The textbook's comparison market: P = 1,000 - (Q_1 + Q_2), each firm's marginal cost is $4. What is each firm's Cournot output?",
+  "answer": 332.0,
+  "unit": "",
+  "tol": 0.01,
+  "explain": "Each firm makes (a - c)/(3b) = (1000 - 4)/3 = 332. Check with r_1: Q_1 = 498 - 0.5(332) = 332.",
+  "verify": {
+   "f": "cournot",
+   "a": 1000,
+   "b": 1,
+   "c1": 4,
+   "c2": 4,
+   "who": "q1"
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-02-q009",
+  "los": [
+   "S21-02"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Textbook comparison market: P = 1,000 - (Q_1 + Q_2), C = 4Q for each firm. What is the Cournot price?",
+  "answer": 336.0,
+  "unit": "$",
+  "tol": 0.01,
+  "explain": "Q = 332 + 332 = 664; P = 1,000 - 664 = $336.",
+  "verify": {
+   "f": "cournot",
+   "a": 1000,
+   "b": 1,
+   "c1": 4,
+   "c2": 4,
+   "who": "P"
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-02-q010",
+  "los": [
+   "S21-02"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Same market. What is each firm's Cournot profit?",
+  "answer": 110224.0,
+  "unit": "$",
+  "tol": 0.01,
+  "explain": "(336 - 4) × 332 = $110,224.",
+  "verify": {
+   "f": "cournot",
+   "a": 1000,
+   "b": 1,
+   "c1": 4,
+   "c2": 4,
+   "who": "pi1"
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-02-q011",
+  "los": [
+   "S21-02"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "P = 120 - 2(Q_1 + Q_2), MC = $20 for both firms. What is the Cournot price?",
+  "answer": 53.33,
+  "unit": "$",
+  "tol": 0.01,
+  "explain": "Each makes 100/6 = 16.67; Q = 33.33; P = 120 - 66.67 = $53.33.",
+  "verify": {
+   "f": "cournot",
+   "a": 120,
+   "b": 2,
+   "c1": 20,
+   "c2": 20,
+   "who": "P"
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-02-q012",
+  "los": [
+   "S21-02"
+  ],
+  "type": "mc",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "P = 90 - (Q_1 + Q_2), MC = $30 for both. What are the Cournot outputs?",
+  "choices": [
+   "20 each",
+   "22.5 each",
+   "15 each",
+   "30 each"
+  ],
+  "answer": 0,
+  "explain": "(90 - 30)/3 = 20 each; P = $50. 30 each is (a - c)/(2b), the monopoly or leader output.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-02-q013",
+  "los": [
+   "S21-02"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Saudi Arabia and Russia each decide how many barrels to pump this month without knowing the other's plan; the world price adjusts to total supply. Which model fits?",
+  "choices": [
+   "Sweezy",
+   "Cournot",
+   "Standard Bertrand",
+   "Stackelberg"
+  ],
+  "answer": 1,
+  "explain": "Quantity, simultaneous, homogeneous.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-02-q014",
+  "los": [
+   "S21-02"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Two Cournot firms agree to split the monopoly output. What will each want to do?",
+  "choices": [
+   "Keep exactly its quota",
+   "Produce more than its quota",
+   "Produce less than its quota",
+   "Cut its price to marginal cost"
+  ],
+  "answer": 1,
+  "explain": "Bryce p. 6: given the rival at the quota, a firm's reaction function calls for more output. OPEC members overproduce.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-02-q015",
+  "los": [
+   "S21-02"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Why do OPEC members often produce more than their quotas, in Cournot terms?",
+  "choices": [
+   "Oil demand is perfectly elastic",
+   "Given others keep their quotas, each member's best response is to produce more",
+   "Quotas are illegal",
+   "OPEC is a Stackelberg leader"
+  ],
+  "answer": 1,
+  "explain": "Textbook Inside Business 9-1 and Bryce p. 6.",
+  "source": "generated",
+  "verbatim": false
+ }
+]

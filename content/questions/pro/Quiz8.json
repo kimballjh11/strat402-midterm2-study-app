@@ -1,0 +1,105 @@
+[
+ {
+  "id": "PRO-Quiz8-Q1",
+  "los": [
+   "S18-09"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "A barrier to entry is any factor that ______.",
+  "choices": [
+   "Increases the cost borne by potential entrants after they enter the market",
+   "Decreases the market share potential of entrants upon entering an industry",
+   "Both of the above",
+   "None of the above"
+  ],
+  "answer": 2,
+  "explain": "Answer: Both of the above. A barrier to entry is anything that makes entering a market less profitable. It can work on either side of the entrant's profit. Higher costs: economies of scale, learning curves, and patents mean an entrant produces at a higher cost than the incumbent. Lower market share: brand reputation and network effects mean an entrant wins fewer customers than it would otherwise.",
+  "source": "professor",
+  "verbatim": true,
+  "origin": "Quiz 8 Q1"
+ },
+ {
+  "id": "PRO-Quiz8-Q2",
+  "los": [
+   "S18-02"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "True or false: Learning curves are an effective barrier to entry only if the incumbent's knowledge does not spill over to its competitors.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explain": "Answer: True. A learning curve gives the incumbent lower costs because it has produced more units than anyone else. That advantage holds only as long as the know-how stays inside the firm. If knowledge leaks out (employees leave for rivals, suppliers share what they learned, or competitors copy the process), entrants start further down the curve and the cost gap shrinks.",
+  "source": "professor",
+  "verbatim": true,
+  "origin": "Quiz 8 Q2"
+ },
+ {
+  "id": "PRO-Quiz8-Q3",
+  "los": [
+   "S18-04",
+   "S18-09"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "As discussed in class, the primary reason Google is able to command higher levels of advertising revenue per user can be attributed to ______.",
+  "choices": [
+   "Advertising/brand image",
+   "Economies of scale",
+   "Government policy restrictions",
+   "Network effects"
+  ],
+  "answer": 3,
+  "explain": "Answer: Network effects. More users mean more searches, and more searches attract more advertisers. With more advertisers competing for each search, Google earns more per user than a smaller search engine can. Because the value of Google to advertisers grows with the number of users, this advantage is likely to last as long as Google remains the dominant search engine. AI tools are the biggest threat to that position in years, which is why Google is investing so heavily in AI.",
+  "source": "professor",
+  "verbatim": true,
+  "origin": "Quiz 8 Q3"
+ },
+ {
+  "id": "PRO-Quiz8-Q4",
+  "los": [
+   "S18-10"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Read the article below. Which strategy is the company primarily using to compete indirectly with incumbent firms? Would You Buy a Car From a Vending Machine? Links to an external site.",
+  "choices": [
+   "Leverage existing assets",
+   "Reconfigure the value chain",
+   "Create a market niche"
+  ],
+  "answer": 1,
+  "explain": "Answer: Reconfigure the value chain. Carvana sells used cars online and delivers them through a car vending machine. It skips the dealership lot and the salesperson, which changes how value is delivered to the customer. It is not leveraging assets from another business it already runs, and it is selling to ordinary car buyers rather than a niche the incumbents ignore.",
+  "source": "professor",
+  "verbatim": true,
+  "origin": "Quiz 8 Q4"
+ },
+ {
+  "id": "PRO-Quiz8-Q5",
+  "los": [
+   "S18-05"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A pharmaceutical firm anticipates generic competitors entering the market once its patent expires. To deter entry, it temporarily lowers prices below expected long-term equilibrium levels, signaling to potential entrants that profits would be minimal. This is an example of ______.",
+  "choices": [
+   "Limit pricing",
+   "Predatory pricing",
+   "Economies of scope",
+   "First mover advantage"
+  ],
+  "answer": 0,
+  "explain": "Answer: Limit pricing. Limit pricing sets the price just low enough that entering looks unprofitable to potential rivals. The firm is acting before anyone enters. Predatory pricing is different. It targets rivals already in the market, pricing below cost to drive them out. 7a4d1b92-e43a-4b49-80f4-3ea07359d51f",
+  "source": "professor",
+  "verbatim": true,
+  "origin": "Quiz 8 Q5"
+ }
+]

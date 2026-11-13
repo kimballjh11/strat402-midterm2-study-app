@@ -1,0 +1,1854 @@
+## SHEET: Questions (250 rows x 17 cols)
+A1: 'Barriers to Entry Spreadsheet Exercise'
+A2: 'Overview: In this exercise, you will be asked to graph and interpret operating results for three social media companies, Meta (formerly Facebook), Twitter, and Snapchat. The purpose of this exercise is to (1) understand how barriers to entry or imitation can lead to a sustained competitive advantage and (2) to consider how a company might overcome or circumvent a barrier to entry or imitation.\n\nThe data end in the second quarter of 2022. Twitter was taken private in October 2022 and stopped filing reports with the SEC, so this is the last quarter in which we can compare all three companies. Facebook changed its company name to Meta Platforms in October 2021. The Meta data use the company\'s total revenue and expenses, which include Instagram and WhatsApp, along with the daily active users of the Facebook app.\n\nInstructions: Complete steps 1-8 using the data in the "Data" tabs for each company. Please note that you will need to fill in the last quarter of information for each company by searching company filings (10-Q\'s) on the SEC EDGAR database.\n\nYou can find the corresponding 10-Q\'s below.\n\n'
+A10: 'Meta 2022-Q2 10-Q'
+A11: 'Twitter 2022-Q2 10-Q'
+A12: 'Snapchat 2022-Q2 10-Q'
+A14: '1.'
+B14: 'Plot the daily active users over time using a line chart for Meta, Twitter, and Snapchat.'
+B35: 'What trend(s) do you observe? What historical factors or insights likely explain these trends?'
+B36: "For the 10 years displayed in the chart, you see a general growth of DAU users across all platforms. Meta was the only one of the companies before the 2012 with daily active users. Twitter started in 2014 and Snapchat in 2017. They started with few users and have seen steady growth over time. Meta's lead never closed: by mid-2022 it had roughly 1.97 billion daily users, about 8 times Twitter's and about 6 times Snapchat's, which points to network effects as a barrier to entry, since people join the platform where their friends already are."
+A42: '2.'
+B42: 'Compute the advertising revenue per user, the cost (operating expense) per user, and the profit per user by filling out Table 1 below.'
+B44: 'Table 1. Revenue, Cost, and Profit per User'
+C45: 'Ad Revenue/User'
+F45: 'Operating Expense/User'
+I45: 'Profit/User'
+B46: 'Quarter'
+C46: 'META'
+D46: 'TWTR'
+E46: 'SNAP'
+F46: 'META'
+G46: 'TWTR'
+H46: 'SNAP'
+I46: 'META'
+J46: 'TWTR'
+K46: 'SNAP'
+B47: '2012-3'
+C47: 1.8595890410958904  [formula ='Data - META'!C4/'Data - META'!B4]
+F47: 1.5154109589041096  [formula ='Data - META'!I4/'Data - META'!B4]
+I47: 0.3441780821917808  [formula =C47-F47]
+B48: '2012-4'
+C48: 2.150485436893204  [formula ='Data - META'!C5/'Data - META'!B5]
+F48: 1.7184466019417475  [formula ='Data - META'!I5/'Data - META'!B5]
+I48: 0.43203883495145656  [formula =C48-F48]
+B49: '2013-1'
+C49: 1.875  [formula ='Data - META'!C6/'Data - META'!B6]
+F49: 1.6340361445783131  [formula ='Data - META'!I6/'Data - META'!B6]
+I49: 0.24096385542168686  [formula =C49-F49]
+B50: '2013-2'
+C50: 2.2875536480686693  [formula ='Data - META'!C7/'Data - META'!B7]
+F50: 1.7896995708154506  [formula ='Data - META'!I7/'Data - META'!B7]
+I50: 0.49785407725321873  [formula =C50-F50]
+B51: '2013-3'
+C51: 2.46978021978022  [formula ='Data - META'!C8/'Data - META'!B8]
+F51: 1.7582417582417582  [formula ='Data - META'!I8/'Data - META'!B8]
+I51: 0.7115384615384617  [formula =C51-F51]
+B52: '2013-4'
+C52: 3.096433289299868  [formula ='Data - META'!C9/'Data - META'!B9]
+F52: 1.918097754293263  [formula ='Data - META'!I9/'Data - META'!B9]
+I52: 1.178335535006605  [formula =C52-F52]
+B53: '2014-1'
+C53: 2.8241895261845387  [formula ='Data - META'!C10/'Data - META'!B10]
+D53: 2.8980897435897433  [formula ='Data - TWTR'!C10/'Data - TWTR'!B10]
+F53: 1.7793017456359101  [formula ='Data - META'!I10/'Data - META'!B10]
+G53: 4.870038461538462  [formula ='Data - TWTR'!I10/'Data - TWTR'!B10]
+I53: 1.0448877805486285  [formula =C53-F53]
+J53: -1.9719487179487185  [formula =D53-G53]
+B54: '2014-2'
+C54: 3.2279855247285885  [formula ='Data - META'!C11/'Data - META'!B11]
+D54: 3.3426506024096385  [formula ='Data - TWTR'!C11/'Data - TWTR'!B11]
+F54: 1.833534378769602  [formula ='Data - META'!I11/'Data - META'!B11]
+G54: 5.567192771084338  [formula ='Data - TWTR'!I11/'Data - TWTR'!B11]
+I54: 1.3944511459589866  [formula =C54-F54]
+J54: -2.2245421686746996  [formula =D54-G54]
+B55: '2014-3'
+C55: 3.4224537037037037  [formula ='Data - META'!C12/'Data - META'!B12]
+D55: 3.6804137931034484  [formula ='Data - TWTR'!C12/'Data - TWTR'!B12]
+F55: 2.0902777777777777  [formula ='Data - META'!I12/'Data - META'!B12]
+G55: 6.008011494252874  [formula ='Data - TWTR'!I12/'Data - TWTR'!B12]
+I55: 1.332175925925926  [formula =C55-F55]
+J55: -2.3275977011494255  [formula =D55-G55]
+B56: '2014-4'
+C56: 4.038202247191011  [formula ='Data - META'!C13/'Data - META'!B13]
+D56: 4.8539438202247185  [formula ='Data - TWTR'!C13/'Data - TWTR'!B13]
+F56: 3.053932584269663  [formula ='Data - META'!I13/'Data - META'!B13]
+G56: 6.485741573033707  [formula ='Data - TWTR'!I13/'Data - TWTR'!B13]
+I56: 0.9842696629213479  [formula =C56-F56]
+J56: -1.6317977528089882  [formula =D56-G56]
+B57: '2015-1'
+C57: 3.5438034188034186  [formula ='Data - META'!C14/'Data - META'!B14]
+D57: 4.1743118279569895  [formula ='Data - TWTR'!C14/'Data - TWTR'!B14]
+F57: 2.7884615384615383  [formula ='Data - META'!I14/'Data - META'!B14]
+G57: 6.264032258064517  [formula ='Data - TWTR'!I14/'Data - TWTR'!B14]
+I57: 0.7553418803418803  [formula =C57-F57]
+J57: -2.089720430107527  [formula =D57-G57]
+B58: '2015-2'
+C58: 3.9535123966942147  [formula ='Data - META'!C15/'Data - META'!B15]
+D58: 4.662659793814433  [formula ='Data - TWTR'!C15/'Data - TWTR'!B15]
+F58: 2.8605371900826446  [formula ='Data - META'!I15/'Data - META'!B15]
+G58: 6.529762886597937  [formula ='Data - TWTR'!I15/'Data - TWTR'!B15]
+I58: 1.09297520661157  [formula =C58-F58]
+J58: -1.8671030927835037  [formula =D58-G58]
+B59: '2015-3'
+C59: 4.269116186693148  [formula ='Data - META'!C16/'Data - META'!B16]
+D59: 5.456031914893616  [formula ='Data - TWTR'!C16/'Data - TWTR'!B16]
+F59: 3.0208540218470703  [formula ='Data - META'!I16/'Data - META'!B16]
+G59: 7.175255319148936  [formula ='Data - TWTR'!I16/'Data - TWTR'!B16]
+I59: 1.248262164846078  [formula =C59-F59]
+J59: -1.7192234042553194  [formula =D59-G59]
+B60: '2015-4'
+C60: 5.430635838150289  [formula ='Data - META'!C17/'Data - META'!B17]
+D60: 6.815744680851063  [formula ='Data - TWTR'!C17/'Data - TWTR'!B17]
+F60: 3.1608863198458574  [formula ='Data - META'!I17/'Data - META'!B17]
+G60: 8.272893617021277  [formula ='Data - TWTR'!I17/'Data - TWTR'!B17]
+I60: 2.269749518304432  [formula =C60-F60]
+J60: -1.4571489361702135  [formula =D60-G60]
+B61: '2016-1'
+C61: 4.771559633027523  [formula ='Data - META'!C18/'Data - META'!B18]
+D61: 5.586747368421053  [formula ='Data - TWTR'!C18/'Data - TWTR'!B18]
+F61: 3.093577981651376  [formula ='Data - META'!I18/'Data - META'!B18]
+G61: 6.880389473684211  [formula ='Data - TWTR'!I18/'Data - TWTR'!B18]
+I61: 1.6779816513761467  [formula =C61-F61]
+J61: -1.2936421052631584  [formula =D61-G61]
+B62: '2016-2'
+C62: 5.531028368794326  [formula ='Data - META'!C19/'Data - META'!B19]
+D62: 5.454326530612245  [formula ='Data - TWTR'!C19/'Data - TWTR'!B19]
+F62: 3.2819148936170213  [formula ='Data - META'!I19/'Data - META'!B19]
+G62: 7.023816326530613  [formula ='Data - TWTR'!I19/'Data - TWTR'!B19]
+I62: 2.2491134751773045  [formula =C62-F62]
+J62: -1.5694897959183685  [formula =D62-G62]
+B63: '2016-3'
+C63: 5.78117048346056  [formula ='Data - META'!C20/'Data - META'!B20]
+D63: 5.44966  [formula ='Data - TWTR'!C20/'Data - TWTR'!B20]
+F63: 3.3027989821882953  [formula ='Data - META'!I20/'Data - META'!B20]
+G63: 6.940230000000001  [formula ='Data - TWTR'!I20/'Data - TWTR'!B20]
+I63: 2.4783715012722647  [formula =C63-F63]
+J63: -1.4905700000000008  [formula =D63-G63]
+B64: '2016-4'
+C64: 7.032599837000815  [formula ='Data - META'!C21/'Data - META'!B21]
+D64: 6.192436893203884  [formula ='Data - TWTR'!C21/'Data - TWTR'!B21]
+F64: 3.4580277098614505  [formula ='Data - META'!I21/'Data - META'!B21]
+G64: 8.357601941747573  [formula ='Data - TWTR'!I21/'Data - TWTR'!B21]
+I64: 3.5745721271393642  [formula =C64-F64]
+J64: -2.165165048543689  [formula =D64-G64]
+B65: '2017-1'
+C65: 6.119158878504673  [formula ='Data - META'!C22/'Data - META'!B22]
+D65: 4.346605504587155  [formula ='Data - TWTR'!C22/'Data - TWTR'!B22]
+F65: 3.6643302180685358  [formula ='Data - META'!I22/'Data - META'!B22]
+G65: 5.399348623853211  [formula ='Data - TWTR'!I22/'Data - TWTR'!B22]
+I65: 2.4548286604361373  [formula =C65-F65]
+J65: -1.0527431192660552  [formula =D65-G65]
+B66: '2017-2'
+C66: 6.916226415094339  [formula ='Data - META'!C23/'Data - META'!B23]
+D66: 4.4468000000000005  [formula ='Data - TWTR'!C23/'Data - TWTR'!B23]
+E66: 1.050121387283237  [formula ='Data - SNAP'!C23/'Data - SNAP'!B23]
+F66: 3.7132075471698114  [formula ='Data - META'!I23/'Data - META'!B23]
+G66: 5.565581818181817  [formula ='Data - TWTR'!I23/'Data - TWTR'!B23]
+H66: 3.6456011560693646  [formula ='Data - SNAP'!H23/'Data - SNAP'!B23]
+I66: 3.203018867924528  [formula =C66-F66]
+J66: -1.1187818181818168  [formula =D66-G66]
+K66: -2.5954797687861277  [formula =E66-H66]
+B67: '2017-3'
+C67: 7.41374269005848  [formula ='Data - META'!C24/'Data - META'!B24]
+D67: 4.410543859649123  [formula ='Data - TWTR'!C24/'Data - TWTR'!B24]
+E67: 1.168185393258427  [formula ='Data - SNAP'!C24/'Data - SNAP'!B24]
+F67: 3.8055555555555554  [formula ='Data - META'!I24/'Data - META'!B24]
+G67: 5.108368421052631  [formula ='Data - TWTR'!I24/'Data - TWTR'!B24]
+H67: 3.7627191011235954  [formula ='Data - SNAP'!H24/'Data - SNAP'!B24]
+I67: 3.6081871345029244  [formula =C67-F67]
+J67: -0.6978245614035075  [formula =D67-G67]
+K67: -2.5945337078651685  [formula =E67-H67]
+B68: '2017-4'
+C68: 9.121341898643825  [formula ='Data - META'!C25/'Data - META'!B25]
+D68: 5.602234782608695  [formula ='Data - TWTR'!C25/'Data - TWTR'!B25]
+E68: 1.5277700534759358  [formula ='Data - SNAP'!C25/'Data - SNAP'!B25]
+F68: 4.011420413990007  [formula ='Data - META'!I25/'Data - META'!B25]
+G68: 5.404017391304348  [formula ='Data - TWTR'!I25/'Data - TWTR'!B25]
+H68: 3.458058823529412  [formula ='Data - SNAP'!H25/'Data - SNAP'!B25]
+I68: 5.109921484653818  [formula =C68-F68]
+J68: 0.19821739130434768  [formula =D68-G68]
+K68: -1.9302887700534763  [formula =E68-H68]
+B69: '2018-1'
+C69: 8.140096618357488  [formula ='Data - META'!C26/'Data - META'!B26]
+D69: 4.792966666666667  [formula ='Data - TWTR'!C26/'Data - TWTR'!B26]
+E69: 1.207675392670157  [formula ='Data - SNAP'!C26/'Data - SNAP'!B26]
+F69: 4.497584541062802  [formula ='Data - META'!I26/'Data - META'!B26]
+G69: 4.916216666666666  [formula ='Data - TWTR'!I26/'Data - TWTR'!B26]
+H69: 3.2628062827225133  [formula ='Data - SNAP'!H26/'Data - SNAP'!B26]
+I69: 3.6425120772946853  [formula =C69-F69]
+J69: -0.12324999999999964  [formula =D69-G69]
+K69: -2.0551308900523564  [formula =E69-H69]
+B70: '2018-2'
+C70: 8.863358259687288  [formula ='Data - META'!C27/'Data - META'!B27]
+D70: 4.92672131147541  [formula ='Data - TWTR'!C27/'Data - TWTR'!B27]
+E70: 1.3950159574468084  [formula ='Data - SNAP'!C27/'Data - SNAP'!B27]
+F70: 5.008837525492862  [formula ='Data - META'!I27/'Data - META'!B27]
+G70: 5.171450819672131  [formula ='Data - TWTR'!I27/'Data - TWTR'!B27]
+H70: 3.29843085106383  [formula ='Data - SNAP'!H27/'Data - SNAP'!B27]
+I70: 3.854520734194426  [formula =C70-F70]
+J70: -0.24472950819672157  [formula =D70-G70]
+K70: -1.9034148936170214  [formula =E70-H70]
+B71: '2018-3'
+C71: 9.0561872909699  [formula ='Data - META'!C28/'Data - META'!B28]
+D71: 5.240451612903226  [formula ='Data - TWTR'!C28/'Data - TWTR'!B28]
+E71: 1.6005107526881721  [formula ='Data - SNAP'!C28/'Data - SNAP'!B28]
+F71: 5.31505016722408  [formula ='Data - META'!I28/'Data - META'!B28]
+G71: 5.372927419354839  [formula ='Data - TWTR'!I28/'Data - TWTR'!B28]
+H71: 3.3390645161290324  [formula ='Data - SNAP'!H28/'Data - SNAP'!B28]
+I71: 3.74113712374582  [formula =C71-F71]
+J71: -0.1324758064516125  [formula =D71-G71]
+K71: -1.7385537634408603  [formula =E71-H71]
+B72: '2018-4'
+C72: 10.9258043335522  [formula ='Data - META'!C29/'Data - META'!B29]
+D72: 6.280674603174603  [formula ='Data - TWTR'!C29/'Data - TWTR'!B29]
+E72: 2.0958172043010754  [formula ='Data - SNAP'!C29/'Data - SNAP'!B29]
+F72: 5.971109652002626  [formula ='Data - META'!I29/'Data - META'!B29]
+G72: 5.570857142857143  [formula ='Data - TWTR'!I29/'Data - TWTR'!B29]
+H72: 3.1426290322580646  [formula ='Data - SNAP'!H29/'Data - SNAP'!B29]
+I72: 4.954694681549574  [formula =C72-F72]
+J72: 0.7098174603174598  [formula =D72-G72]
+K72: -1.0468118279569891  [formula =E72-H72]
+B73: '2019-1'
+C73: 9.54673495518566  [formula ='Data - META'!C30/'Data - META'!B30]
+D73: 5.0706417910447765  [formula ='Data - TWTR'!C30/'Data - TWTR'!B30]
+E73: 1.6864526315789472  [formula ='Data - SNAP'!C30/'Data - SNAP'!B30]
+F73: 7.528809218950064  [formula ='Data - META'!I30/'Data - META'!B30]
+G73: 5.173373134328359  [formula ='Data - TWTR'!I30/'Data - TWTR'!B30]
+H73: 3.349931578947369  [formula ='Data - SNAP'!H30/'Data - SNAP'!B30]
+I73: 2.017925736235595  [formula =C73-F73]
+J73: -0.10273134328358235  [formula =D73-G73]
+K73: -1.6634789473684217  [formula =E73-H73]
+B74: '2019-2'
+C74: 10.47511027095148  [formula ='Data - META'!C31/'Data - META'!B31]
+D74: 5.231100719424461  [formula ='Data - TWTR'!C31/'Data - TWTR'!B31]
+E74: 1.9114334975369458  [formula ='Data - SNAP'!C31/'Data - SNAP'!B31]
+F74: 7.725267800882167  [formula ='Data - META'!I31/'Data - META'!B31]
+G74: 5.508597122302159  [formula ='Data - TWTR'!I31/'Data - TWTR'!B31]
+H74: 3.4130000000000003  [formula ='Data - SNAP'!H31/'Data - SNAP'!B31]
+I74: 2.7498424700693134  [formula =C74-F74]
+J74: -0.2774964028776976  [formula =D74-G74]
+K74: -1.5015665024630545  [formula =E74-H74]
+B75: '2019-3'
+C75: 10.710412815773259  [formula ='Data - META'!C32/'Data - META'!B32]
+D75: 4.843151724137931  [formula ='Data - TWTR'!C32/'Data - TWTR'!B32]
+E75: 2.124757142857143  [formula ='Data - SNAP'!C32/'Data - SNAP'!B32]
+F75: 6.449168207024029  [formula ='Data - META'!I32/'Data - META'!B32]
+G75: 5.376358620689656  [formula ='Data - TWTR'!I32/'Data - TWTR'!B32]
+H75: 3.214533333333333  [formula ='Data - SNAP'!H32/'Data - SNAP'!B32]
+I75: 4.261244608749229  [formula =C75-F75]
+J75: -0.5332068965517252  [formula =D75-G75]
+K75: -1.08977619047619  [formula =E75-H75]
+B76: '2019-4'
+C76: 12.514182257091129  [formula ='Data - META'!C33/'Data - META'!B33]
+D76: 5.819381578947369  [formula ='Data - TWTR'!C33/'Data - TWTR'!B33]
+E76: 2.572880733944954  [formula ='Data - SNAP'!C33/'Data - SNAP'!B33]
+F76: 7.377187688593844  [formula ='Data - META'!I33/'Data - META'!B33]
+G76: 5.621427631578948  [formula ='Data - TWTR'!I33/'Data - TWTR'!B33]
+H76: 3.736165137614679  [formula ='Data - SNAP'!H33/'Data - SNAP'!B33]
+I76: 5.136994568497284  [formula =C76-F76]
+J76: 0.1979539473684211  [formula =D76-G76]
+K76: -1.1632844036697247  [formula =E76-H76]
+B77: '2020-1'
+C77: 10.05767012687428  [formula ='Data - META'!C34/'Data - META'!B34]
+D77: 4.109590361445783  [formula ='Data - TWTR'!C34/'Data - TWTR'!B34]
+E77: 2.0195545851528385  [formula ='Data - SNAP'!C34/'Data - SNAP'!B34]
+F77: 6.83044982698962  [formula ='Data - META'!I34/'Data - META'!B34]
+G77: 4.91012048192771  [formula ='Data - TWTR'!I34/'Data - TWTR'!B34]
+H77: 3.2700524017467254  [formula ='Data - SNAP'!H34/'Data - SNAP'!B34]
+I77: 3.22722029988466  [formula =C77-F77]
+J77: -0.8005301204819268  [formula =D77-G77]
+K77: -1.250497816593887  [formula =E77-H77]
+B78: '2020-2'
+C78: 10.263865546218488  [formula ='Data - META'!C35/'Data - META'!B35]
+D78: 3.02147311827957  [formula ='Data - TWTR'!C35/'Data - TWTR'!B35]
+E78: 1.9082268907563027  [formula ='Data - SNAP'!C35/'Data - SNAP'!B35]
+F78: 7.128291316526611  [formula ='Data - META'!I35/'Data - META'!B35]
+G78: 5.147139784946237  [formula ='Data - TWTR'!I35/'Data - TWTR'!B35]
+H78: 3.213302521008403  [formula ='Data - SNAP'!H35/'Data - SNAP'!B35]
+I78: 3.135574229691877  [formula =C78-F78]
+J78: -2.125666666666667  [formula =D78-G78]
+K78: -1.3050756302521005  [formula =E78-H78]
+B79: '2020-3'
+C79: 11.65989010989011  [formula ='Data - META'!C36/'Data - META'!B36]
+D79: 4.323256684491978  [formula ='Data - TWTR'!C36/'Data - TWTR'!B36]
+E79: 2.725574297188755  [formula ='Data - SNAP'!C36/'Data - SNAP'!B36]
+F79: 7.3791208791208796  [formula ='Data - META'!I36/'Data - META'!B36]
+G79: 4.70655614973262  [formula ='Data - TWTR'!I36/'Data - TWTR'!B36]
+H79: 3.399726907630522  [formula ='Data - SNAP'!H36/'Data - SNAP'!B36]
+I79: 4.280769230769231  [formula =C79-F79]
+J79: -0.3832994652406416  [formula =D79-G79]
+K79: -0.6741526104417672  [formula =E79-H79]
+B80: '2020-4'
+C80: 14.73550135501355  [formula ='Data - META'!C37/'Data - META'!B37]
+D80: 6.049015191199579  [formula ='Data - TWTR'!C37/'Data - TWTR'!B37]
+E80: 3.4389509433962266  [formula ='Data - SNAP'!C37/'Data - SNAP'!B37]
+F80: 8.29051490514905  [formula ='Data - META'!I37/'Data - META'!B37]
+G80: 5.432776322682032  [formula ='Data - TWTR'!I37/'Data - TWTR'!B37]
+H80: 3.805879245283019  [formula ='Data - SNAP'!H37/'Data - SNAP'!B37]
+I80: 6.4449864498644995  [formula =C80-F80]
+J80: 0.6162388685175468  [formula =D80-G80]
+K80: -0.36692830188679215  [formula =E80-H80]
+B81: '2021-1'
+C81: 13.545793397231098  [formula ='Data - META'!C38/'Data - META'!B38]
+D81: 4.548785425101215  [formula ='Data - TWTR'!C38/'Data - TWTR'!B38]
+E81: 2.7485142857142857  [formula ='Data - SNAP'!C38/'Data - SNAP'!B38]
+F81: 7.876996805111821  [formula ='Data - META'!I38/'Data - META'!B38]
+G81: 4.978881578947369  [formula ='Data - TWTR'!I38/'Data - TWTR'!B38]
+H81: 4.765192857142857  [formula ='Data - SNAP'!H38/'Data - SNAP'!B38]
+I81: 5.668796592119277  [formula =C81-F81]
+J81: -0.4300961538461534  [formula =D81-G81]
+K81: -2.0166785714285713  [formula =E81-H81]
+B82: '2021-2'
+C82: 14.979035639412999  [formula ='Data - META'!C39/'Data - META'!B39]
+D82: 5.163779411764706  [formula ='Data - TWTR'!C39/'Data - TWTR'!B39]
+E82: 3.351904436860068  [formula ='Data - SNAP'!C39/'Data - SNAP'!B39]
+F82: 8.757861635220126  [formula ='Data - META'!I39/'Data - META'!B39]
+G82: 5.687132352941176  [formula ='Data - TWTR'!I39/'Data - TWTR'!B39]
+H82: 4.008941979522184  [formula ='Data - SNAP'!H39/'Data - SNAP'!B39]
+I82: 6.221174004192873  [formula =C82-F82]
+J82: -0.5233529411764701  [formula =D82-G82]
+K82: -0.6570375426621164  [formula =E82-H82]
+B83: '2021-3'
+C83: 14.650777202072538  [formula ='Data - META'!C40/'Data - META'!B40]
+D83: 5.449135212613473  [formula ='Data - TWTR'!C40/'Data - TWTR'!B40]
+E83: 3.488467320261438  [formula ='Data - SNAP'!C40/'Data - SNAP'!B40]
+F83: 9.630569948186528  [formula ='Data - META'!I40/'Data - META'!B40]
+G83: 6.023239369326325  [formula ='Data - TWTR'!I40/'Data - TWTR'!B40]
+H83: 4.079395424836601  [formula ='Data - SNAP'!H40/'Data - SNAP'!B40]
+I83: 5.02020725388601  [formula =C83-F83]
+J83: -0.5741041567128526  [formula =D83-G83]
+K83: -0.5909281045751635  [formula =E83-H83]
+B84: '2021-4'
+C84: 16.92016588906169  [formula ='Data - META'!C41/'Data - META'!B41]
+D84: 6.580982766651141  [formula ='Data - TWTR'!C41/'Data - TWTR'!B41]
+E84: 4.06860501567398  [formula ='Data - SNAP'!C41/'Data - SNAP'!B41]
+F84: 10.931052358735096  [formula ='Data - META'!I41/'Data - META'!B41]
+G84: 6.519953423381463  [formula ='Data - TWTR'!I41/'Data - TWTR'!B41]
+H84: 3.328990595611286  [formula ='Data - SNAP'!H41/'Data - SNAP'!B41]
+I84: 5.989113530326593  [formula =C84-F84]
+J84: 0.061029343269678016  [formula =D84-G84]
+K84: 0.739614420062694  [formula =E84-H84]
+B85: '2022-1'
+C85: 13.774489795918367  [formula ='Data - META'!C42/'Data - META'!B42]
+D85: 4.8322183406113535  [formula ='Data - TWTR'!C42/'Data - TWTR'!B42]
+E85: 3.2009849397590364  [formula ='Data - SNAP'!C42/'Data - SNAP'!B42]
+F85: 9.889795918367346  [formula ='Data - META'!I42/'Data - META'!B42]
+G85: 5.802694323144105  [formula ='Data - TWTR'!I42/'Data - TWTR'!B42]
+H85: 4.01883734939759  [formula ='Data - SNAP'!H42/'Data - SNAP'!B42]
+I85: 3.8846938775510207  [formula =C85-F85]
+J85: -0.9704759825327516  [formula =D85-G85]
+K85: -0.817852409638554  [formula =E85-H85]
+B86: '2022-2'
+C86: 14.29035532994924  [formula ='Data - META'!C43/'Data - META'!B43]
+D86: 4.52482338099243  [formula ='Data - TWTR'!C43/'Data - TWTR'!B43]
+E86: 3.2014668587896256  [formula ='Data - SNAP'!C43/'Data - SNAP'!B43]
+F86: 10.38781725888325  [formula ='Data - META'!I43/'Data - META'!B43]
+G86: 6.393700588730025  [formula ='Data - TWTR'!I43/'Data - TWTR'!B43]
+H86: 4.356913544668588  [formula ='Data - SNAP'!H43/'Data - SNAP'!B43]
+I86: 3.9025380710659903  [formula =C86-F86]
+J86: -1.8688772077375946  [formula =D86-G86]
+K86: -1.1554466858789625  [formula =E86-H86]
+A90: '3.'
+B90: "Using information from Table 1, fill in Table 2 below, which shows each company's profit per user in the fourth quarter of each year and Meta's profit advantage over Twitter and Snapchat."
+B92: "Table 2. Meta's Profit Advantage"
+C93: 'Profit/User'
+F93: 'Profit Advantage'
+B94: 'Quarter'
+C94: 'META'
+D94: 'TWTR'
+E94: 'SNAP'
+F94: 'META-TWTR'
+H94: 'META-SNAP'
+B95: '2017-4'
+C95: 5.109921484653818  [formula =INDEX(I$47:I$86,MATCH($B95,$B$47:$B$86,0))]
+D95: 0.19821739130434768  [formula =INDEX(J$47:J$86,MATCH($B95,$B$47:$B$86,0))]
+E95: -1.9302887700534763  [formula =INDEX(K$47:K$86,MATCH($B95,$B$47:$B$86,0))]
+F95: 4.911704093349471  [formula =C95-D95]
+H95: 7.0402102547072944  [formula =C95-E95]
+B96: '2018-4'
+C96: 4.954694681549574  [formula =INDEX(I$47:I$86,MATCH($B96,$B$47:$B$86,0))]
+D96: 0.7098174603174598  [formula =INDEX(J$47:J$86,MATCH($B96,$B$47:$B$86,0))]
+E96: -1.0468118279569891  [formula =INDEX(K$47:K$86,MATCH($B96,$B$47:$B$86,0))]
+F96: 4.244877221232114  [formula =C96-D96]
+H96: 6.001506509506563  [formula =C96-E96]
+B97: '2019-4'
+C97: 5.136994568497284  [formula =INDEX(I$47:I$86,MATCH($B97,$B$47:$B$86,0))]
+D97: 0.1979539473684211  [formula =INDEX(J$47:J$86,MATCH($B97,$B$47:$B$86,0))]
+E97: -1.1632844036697247  [formula =INDEX(K$47:K$86,MATCH($B97,$B$47:$B$86,0))]
+F97: 4.939040621128863  [formula =C97-D97]
+H97: 6.300278972167009  [formula =C97-E97]
+B98: '2020-4'
+C98: 6.4449864498644995  [formula =INDEX(I$47:I$86,MATCH($B98,$B$47:$B$86,0))]
+D98: 0.6162388685175468  [formula =INDEX(J$47:J$86,MATCH($B98,$B$47:$B$86,0))]
+E98: -0.36692830188679215  [formula =INDEX(K$47:K$86,MATCH($B98,$B$47:$B$86,0))]
+F98: 5.828747581346953  [formula =C98-D98]
+H98: 6.811914751751292  [formula =C98-E98]
+B99: '2021-4'
+C99: 5.989113530326593  [formula =INDEX(I$47:I$86,MATCH($B99,$B$47:$B$86,0))]
+D99: 0.061029343269678016  [formula =INDEX(J$47:J$86,MATCH($B99,$B$47:$B$86,0))]
+E99: 0.739614420062694  [formula =INDEX(K$47:K$86,MATCH($B99,$B$47:$B$86,0))]
+F99: 5.928084187056915  [formula =C99-D99]
+H99: 5.2494991102638995  [formula =C99-E99]
+E100: 'average'
+F100: 5.170490740822863  [formula =AVERAGE(F95:F99)]
+H100: 6.280681919679212  [formula =AVERAGE(H95:H99)]
+B102: 'How much of a profit advantage does Meta enjoy relative to Twitter and Snapchat? What is the primary source of this advantage?'
+B103: 'Meta enjoys a large profit advantage. From 2017 to 2021, Meta earned on average about $5.17 more profit per user per quarter than Twitter and about $6.28 more than Snapchat. Meta averaged roughly $5.53 of profit per user. Twitter barely broke even ($0.36) and Snapchat lost money (-$0.75 per user).\n\nThe primary source of this advantage is revenue rather than cost. Meta spends more per user than either competitor, but its revenue per user is so much higher that it still earns far more profit on each user. Meta can charge advertisers more because of its scale and first-mover position. With nearly 2 billion daily users, compared with roughly 0.2 billion on Twitter and 0.3 billion on Snapchat, Meta offers advertisers who pay to be on the platoform a much greater reach, and its years of user data let it target ads. Because it started earlier, Meta has also moved further down the learning and experience curves, and network effects make its platform more valuable as it grows, which reinforces its lead.'
+A109: '4.'
+B109: 'Plot the advertising revenue per user over time using a line chart for Meta, Twitter, and Snapchat.'
+A130: '5.'
+B130: 'Plot the advertising revenue per user over time (beginning in 2014-Q1) using a 100% Stacked Area chart for Meta, Twitter, and Snapchat.'
+B152: "What economic factors or insights likely explain Meta's revenue advantage? (i.e. Why does Meta command so much more revenue per user compared to Twitter and Snapchat?)"
+B154: "Meta's revenue advantage comes mainly from network effects at scale, which create a self-reinforcing loop between users, data, and advertisers. By 2022, Meta earned $14.29 in advertising revenue per user, compared with $4.52 for Twitter and $3.20 for Snapchat, and its share of combined revenue per user grew from about 50% to 65%\n\nBecause 2 billion people use Facebook every day, the platform becomes more valuable to each new user, because their friends, family, and communities are already there. A more engaged user base generates far more data about who people are, what they like, and how they respond to ads. That data allows Meta to target ads more precisely, which raises advertisers returns and lets Meta charge more for each ad. Higher ad revenue then funds better products and features that attract and keep even more users, which produces even more data, and the cycle repeats.\n\nLearning and experience strengthen this loop. Every ad Meta shows teaches it which ads work for which people, so its targeting tools improve with more volume. Because Meta started earlier and operates at a much larger scale, it has moved further down the learning and experience curves than Twitter or Snapchat. Competitors with fewer users and less data learn more slowly, and they cannot match Meta's targeting quality."
+A160: '6. '
+B160: 'Examine the cost structure of each company by computing the cost of revenue, R&D, Sales & Marketing, General and Administrative, and total Operating Expenses as a percentage of Total revenue (i.e. advertising revenue + any other revenue) for Meta, Twitter, and Snapchat in Table 3 below. Then graph the relative operating expense (as a % of sales) for each company over time.\n'
+B165: 'Table 3. Comparison of Cost Structures Over Time'
+C166: 'Cost of Revenue (% of Sales)'
+F166: 'R&D (% of Sales)'
+I166: 'Sales & Marketing (% of Sales)'
+L166: 'General & Admin (% of Sales)'
+O166: 'Operating Expense (% of Sales)'
+B167: 'Quarter'
+C167: 'META'
+D167: 'TWTR'
+E167: 'SNAP'
+F167: 'META'
+G167: 'TWTR'
+H167: 'SNAP'
+I167: 'META'
+J167: 'TWTR'
+K167: 'SNAP'
+L167: 'META'
+M167: 'TWTR'
+N167: 'SNAP'
+O167: 'META'
+P167: 'TWTR'
+Q167: 'SNAP'
+B168: '2012-3'
+C168: 0.2551505546751189  [formula ='Data - META'!E4/('Data - META'!C4+'Data - META'!D4)]
+F168: 0.19334389857369255  [formula ='Data - META'!F4/('Data - META'!C4+'Data - META'!D4)]
+I168: 0.13312202852614896  [formula ='Data - META'!G4/('Data - META'!C4+'Data - META'!D4)]
+L168: 0.1196513470681458  [formula ='Data - META'!H4/('Data - META'!C4+'Data - META'!D4)]
+O168: 0.7012678288431062  [formula ='Data - META'!I4/('Data - META'!C4+'Data - META'!D4)]
+B169: '2012-4'
+C169: 0.25110410094637226  [formula ='Data - META'!E5/('Data - META'!C5+'Data - META'!D5)]
+F169: 0.18738170347003155  [formula ='Data - META'!F5/('Data - META'!C5+'Data - META'!D5)]
+I169: 0.12176656151419558  [formula ='Data - META'!G5/('Data - META'!C5+'Data - META'!D5)]
+L169: 0.10977917981072555  [formula ='Data - META'!H5/('Data - META'!C5+'Data - META'!D5)]
+O169: 0.670031545741325  [formula ='Data - META'!I5/('Data - META'!C5+'Data - META'!D5)]
+B170: '2013-1'
+C170: 0.2832647462277092  [formula ='Data - META'!E6/('Data - META'!C6+'Data - META'!D6)]
+F170: 0.200960219478738  [formula ='Data - META'!F6/('Data - META'!C6+'Data - META'!D6)]
+I170: 0.1392318244170096  [formula ='Data - META'!G6/('Data - META'!C6+'Data - META'!D6)]
+L170: 0.12071330589849108  [formula ='Data - META'!H6/('Data - META'!C6+'Data - META'!D6)]
+O170: 0.7441700960219478  [formula ='Data - META'!I6/('Data - META'!C6+'Data - META'!D6)]
+B171: '2013-2'
+C171: 0.2564809707666851  [formula ='Data - META'!E7/('Data - META'!C7+'Data - META'!D7)]
+F171: 0.1897407611693326  [formula ='Data - META'!F7/('Data - META'!C7+'Data - META'!D7)]
+I171: 0.14837286265857694  [formula ='Data - META'!G7/('Data - META'!C7+'Data - META'!D7)]
+L171: 0.0954219525648097  [formula ='Data - META'!H7/('Data - META'!C7+'Data - META'!D7)]
+O171: 0.6900165471594043  [formula ='Data - META'!I7/('Data - META'!C7+'Data - META'!D7)]
+B172: '2013-3'
+C172: 0.25148809523809523  [formula ='Data - META'!E8/('Data - META'!C8+'Data - META'!D8)]
+F172: 0.18303571428571427  [formula ='Data - META'!F8/('Data - META'!C8+'Data - META'!D8)]
+I172: 0.11557539682539683  [formula ='Data - META'!G8/('Data - META'!C8+'Data - META'!D8)]
+L172: 0.08482142857142858  [formula ='Data - META'!H8/('Data - META'!C8+'Data - META'!D8)]
+O172: 0.6349206349206349  [formula ='Data - META'!I8/('Data - META'!C8+'Data - META'!D8)]
+B173: '2013-4'
+C173: 0.1899419729206963  [formula ='Data - META'!E9/('Data - META'!C9+'Data - META'!D9)]
+F173: 0.15783365570599614  [formula ='Data - META'!F9/('Data - META'!C9+'Data - META'!D9)]
+I173: 0.11295938104448743  [formula ='Data - META'!G9/('Data - META'!C9+'Data - META'!D9)]
+L173: 0.10096711798839458  [formula ='Data - META'!H9/('Data - META'!C9+'Data - META'!D9)]
+O173: 0.5617021276595745  [formula ='Data - META'!I9/('Data - META'!C9+'Data - META'!D9)]
+B174: '2014-1'
+C174: 0.18465227817745802  [formula ='Data - META'!E10/('Data - META'!C10+'Data - META'!D10)]
+D174: 0.341340242402951  [formula ='Data - TWTR'!E10/('Data - TWTR'!C10+'Data - TWTR'!D10)]
+F174: 0.18185451638689049  [formula ='Data - META'!F10/('Data - META'!C10+'Data - META'!D10)]
+G174: 0.5963903038819602  [formula ='Data - TWTR'!F10/('Data - TWTR'!C10+'Data - TWTR'!D10)]
+I174: 0.12909672262190247  [formula ='Data - META'!G10/('Data - META'!C10+'Data - META'!D10)]
+J174: 0.42410536065024035  [formula ='Data - TWTR'!G10/('Data - TWTR'!C10+'Data - TWTR'!D10)]
+L174: 0.07474020783373302  [formula ='Data - META'!H10/('Data - META'!C10+'Data - META'!D10)]
+M174: 0.15463168484422657  [formula ='Data - TWTR'!H10/('Data - TWTR'!C10+'Data - TWTR'!D10)]
+O174: 0.570343725019984  [formula ='Data - META'!I10/('Data - META'!C10+'Data - META'!D10)]
+P174: 1.5164675917793782  [formula ='Data - TWTR'!I10/('Data - TWTR'!C10+'Data - TWTR'!D10)]
+B175: '2014-2'
+C175: 0.1625429553264605  [formula ='Data - META'!E11/('Data - META'!C11+'Data - META'!D11)]
+D175: 0.32042887438093837  [formula ='Data - TWTR'!E11/('Data - TWTR'!C11+'Data - TWTR'!D11)]
+F175: 0.16907216494845362  [formula ='Data - META'!F11/('Data - META'!C11+'Data - META'!D11)]
+G175: 0.5673103412927737  [formula ='Data - TWTR'!F11/('Data - TWTR'!C11+'Data - TWTR'!D11)]
+I175: 0.12302405498281786  [formula ='Data - META'!G11/('Data - META'!C11+'Data - META'!D11)]
+J175: 0.44931542832979887  [formula ='Data - TWTR'!G11/('Data - TWTR'!C11+'Data - TWTR'!D11)]
+L175: 0.06769759450171821  [formula ='Data - META'!H11/('Data - META'!C11+'Data - META'!D11)]
+M175: 0.1431738241832871  [formula ='Data - TWTR'!H11/('Data - TWTR'!C11+'Data - TWTR'!D11)]
+O175: 0.5223367697594502  [formula ='Data - META'!I11/('Data - META'!C11+'Data - META'!D11)]
+P175: 1.4802284681867983  [formula ='Data - TWTR'!I11/('Data - TWTR'!C11+'Data - TWTR'!D11)]
+B176: '2014-3'
+C176: 0.176397127692788  [formula ='Data - META'!E12/('Data - META'!C12+'Data - META'!D12)]
+D176: 0.3436968881655068  [formula ='Data - TWTR'!E12/('Data - TWTR'!C12+'Data - TWTR'!D12)]
+F176: 0.18982204183577897  [formula ='Data - META'!F12/('Data - META'!C12+'Data - META'!D12)]
+G176: 0.5074986298184717  [formula ='Data - TWTR'!F12/('Data - TWTR'!C12+'Data - TWTR'!D12)]
+I176: 0.11676553231345614  [formula ='Data - META'!G12/('Data - META'!C12+'Data - META'!D12)]
+J176: 0.45400065325826394  [formula ='Data - TWTR'!G12/('Data - TWTR'!C12+'Data - TWTR'!D12)]
+L176: 0.08086169216359662  [formula ='Data - META'!H12/('Data - META'!C12+'Data - META'!D12)]
+M176: 0.14165185763398713  [formula ='Data - TWTR'!H12/('Data - TWTR'!C12+'Data - TWTR'!D12)]
+O176: 0.5638463940056198  [formula ='Data - META'!I12/('Data - META'!C12+'Data - META'!D12)]
+P176: 1.4468480288762295  [formula ='Data - TWTR'!I12/('Data - TWTR'!C12+'Data - TWTR'!D12)]
+B177: '2014-4'
+C177: 0.16956634640353155  [formula ='Data - META'!E13/('Data - META'!C13+'Data - META'!D13)]
+D177: 0.28515815796175153  [formula ='Data - TWTR'!E13/('Data - TWTR'!C13+'Data - TWTR'!D13)]
+F177: 0.2884964944170345  [formula ='Data - META'!F13/('Data - META'!C13+'Data - META'!D13)]
+G177: 0.3793014916151441  [formula ='Data - TWTR'!F13/('Data - TWTR'!C13+'Data - TWTR'!D13)]
+I177: 0.1620358348480914  [formula ='Data - META'!G13/('Data - META'!C13+'Data - META'!D13)]
+J177: 0.4249809008136462  [formula ='Data - TWTR'!G13/('Data - TWTR'!C13+'Data - TWTR'!D13)]
+L177: 0.08569202804466372  [formula ='Data - META'!H13/('Data - META'!C13+'Data - META'!D13)]
+M177: 0.11543840460217335  [formula ='Data - TWTR'!H13/('Data - TWTR'!C13+'Data - TWTR'!D13)]
+O177: 0.7057907037133212  [formula ='Data - META'!I13/('Data - META'!C13+'Data - META'!D13)]
+P177: 1.204878954992715  [formula ='Data - TWTR'!I13/('Data - TWTR'!C13+'Data - TWTR'!D13)]
+B178: '2015-1'
+C178: 0.18458933107535985  [formula ='Data - META'!E14/('Data - META'!C14+'Data - META'!D14)]
+D178: 0.3291171471237948  [formula ='Data - TWTR'!E14/('Data - TWTR'!C14+'Data - TWTR'!D14)]
+F178: 0.29974597798475866  [formula ='Data - META'!F14/('Data - META'!C14+'Data - META'!D14)]
+G178: 0.43525814391463025  [formula ='Data - TWTR'!F14/('Data - TWTR'!C14+'Data - TWTR'!D14)]
+I178: 0.17499294383290998  [formula ='Data - META'!G14/('Data - META'!C14+'Data - META'!D14)]
+J178: 0.42106120351700577  [formula ='Data - TWTR'!G14/('Data - TWTR'!C14+'Data - TWTR'!D14)]
+L178: 0.07733559130680215  [formula ='Data - META'!H14/('Data - META'!C14+'Data - META'!D14)]
+M178: 0.150885789066819  [formula ='Data - TWTR'!H14/('Data - TWTR'!C14+'Data - TWTR'!D14)]
+O178: 0.7366638441998307  [formula ='Data - META'!I14/('Data - META'!C14+'Data - META'!D14)]
+P178: 1.33632228362225  [formula ='Data - TWTR'!I14/('Data - TWTR'!C14+'Data - TWTR'!D14)]
+B179: '2015-2'
+C179: 0.165264720435428  [formula ='Data - META'!E15/('Data - META'!C15+'Data - META'!D15)]
+D179: 0.33365579647400484  [formula ='Data - TWTR'!E15/('Data - TWTR'!C15+'Data - TWTR'!D15)]
+F179: 0.2894606630381  [formula ='Data - META'!F15/('Data - META'!C15+'Data - META'!D15)]
+G179: 0.3959270118614682  [formula ='Data - TWTR'!F15/('Data - TWTR'!C15+'Data - TWTR'!D15)]
+I179: 0.15487382483918852  [formula ='Data - META'!G15/('Data - META'!C15+'Data - META'!D15)]
+J179: 0.40198016254530905  [formula ='Data - TWTR'!G15/('Data - TWTR'!C15+'Data - TWTR'!D15)]
+L179: 0.07545769421078674  [formula ='Data - META'!H15/('Data - META'!C15+'Data - META'!D15)]
+M179: 0.12920222220895214  [formula ='Data - TWTR'!H15/('Data - TWTR'!C15+'Data - TWTR'!D15)]
+O179: 0.6850569025235033  [formula ='Data - META'!I15/('Data - META'!C15+'Data - META'!D15)]
+P179: 1.2607651930897341  [formula ='Data - TWTR'!I15/('Data - TWTR'!C15+'Data - TWTR'!D15)]
+B180: '2015-3'
+C180: 0.15996445234392356  [formula ='Data - META'!E16/('Data - META'!C16+'Data - META'!D16)]
+D180: 0.3516900693384302  [formula ='Data - TWTR'!E16/('Data - TWTR'!C16+'Data - TWTR'!D16)]
+F180: 0.2823816929571206  [formula ='Data - META'!F16/('Data - META'!C16+'Data - META'!D16)]
+G180: 0.36529073127713063  [formula ='Data - TWTR'!F16/('Data - TWTR'!C16+'Data - TWTR'!D16)]
+I180: 0.15685403243723617  [formula ='Data - META'!G16/('Data - META'!C16+'Data - META'!D16)]
+J180: 0.366801525550869  [formula ='Data - TWTR'!G16/('Data - TWTR'!C16+'Data - TWTR'!D16)]
+L180: 0.0766496334147967  [formula ='Data - META'!H16/('Data - META'!C16+'Data - META'!D16)]
+M180: 0.1010914610258996  [formula ='Data - TWTR'!H16/('Data - TWTR'!C16+'Data - TWTR'!D16)]
+O180: 0.6758498111530771  [formula ='Data - META'!I16/('Data - META'!C16+'Data - META'!D16)]
+P180: 1.1848737871923294  [formula ='Data - TWTR'!I16/('Data - TWTR'!C16+'Data - TWTR'!D16)]
+B181: '2015-4'
+C181: 0.1410717342920733  [formula ='Data - META'!E17/('Data - META'!C17+'Data - META'!D17)]
+D181: 0.306785761035254  [formula ='Data - TWTR'!E17/('Data - TWTR'!C17+'Data - TWTR'!D17)]
+F181: 0.22496147919876733  [formula ='Data - META'!F17/('Data - META'!C17+'Data - META'!D17)]
+G181: 0.29565937058832636  [formula ='Data - TWTR'!F17/('Data - TWTR'!C17+'Data - TWTR'!D17)]
+I181: 0.13216914911830166  [formula ='Data - META'!G17/('Data - META'!C17+'Data - META'!D17)]
+J181: 0.39014712733629575  [formula ='Data - TWTR'!G17/('Data - TWTR'!C17+'Data - TWTR'!D17)]
+L181: 0.06351652114363979  [formula ='Data - META'!H17/('Data - META'!C17+'Data - META'!D17)]
+M181: 0.10196305841319797  [formula ='Data - TWTR'!H17/('Data - TWTR'!C17+'Data - TWTR'!D17)]
+O181: 0.561718883752782  [formula ='Data - META'!I17/('Data - META'!C17+'Data - META'!D17)]
+P181: 1.0945553173730742  [formula ='Data - TWTR'!I17/('Data - TWTR'!C17+'Data - TWTR'!D17)]
+B182: '2016-1'
+C182: 0.15570419918246006  [formula ='Data - META'!E18/('Data - META'!C18+'Data - META'!D18)]
+D182: 0.33372244210044727  [formula ='Data - TWTR'!E18/('Data - TWTR'!C18+'Data - TWTR'!D18)]
+F182: 0.24953548866592346  [formula ='Data - META'!F18/('Data - META'!C18+'Data - META'!D18)]
+G182: 0.2620496164138862  [formula ='Data - TWTR'!F18/('Data - TWTR'!C18+'Data - TWTR'!D18)]
+I182: 0.1534745447788926  [formula ='Data - META'!G18/('Data - META'!C18+'Data - META'!D18)]
+J182: 0.3972458500204366  [formula ='Data - TWTR'!G18/('Data - TWTR'!C18+'Data - TWTR'!D18)]
+L182: 0.06781865477517651  [formula ='Data - META'!H18/('Data - META'!C18+'Data - META'!D18)]
+M182: 0.10641676240200094  [formula ='Data - TWTR'!H18/('Data - TWTR'!C18+'Data - TWTR'!D18)]
+O182: 0.6265328874024526  [formula ='Data - META'!I18/('Data - META'!C18+'Data - META'!D18)]
+P182: 1.099434670936771  [formula ='Data - TWTR'!I18/('Data - TWTR'!C18+'Data - TWTR'!D18)]
+B183: '2016-2'
+C183: 0.14247980111870728  [formula ='Data - META'!E19/('Data - META'!C19+'Data - META'!D19)]
+D183: 0.33717634785151124  [formula ='Data - TWTR'!E19/('Data - TWTR'!C19+'Data - TWTR'!D19)]
+F183: 0.22855811062771908  [formula ='Data - META'!F19/('Data - META'!C19+'Data - META'!D19)]
+G183: 0.29655058990826605  [formula ='Data - TWTR'!F19/('Data - TWTR'!C19+'Data - TWTR'!D19)]
+I183: 0.13999378495960224  [formula ='Data - META'!G19/('Data - META'!C19+'Data - META'!D19)]
+J183: 0.393082241618186  [formula ='Data - TWTR'!G19/('Data - TWTR'!C19+'Data - TWTR'!D19)]
+L183: 0.06417029210689869  [formula ='Data - META'!H19/('Data - META'!C19+'Data - META'!D19)]
+M183: 0.11668255924831966  [formula ='Data - TWTR'!H19/('Data - TWTR'!C19+'Data - TWTR'!D19)]
+O183: 0.5752019888129273  [formula ='Data - META'!I19/('Data - META'!C19+'Data - META'!D19)]
+P183: 1.143491738626283  [formula ='Data - TWTR'!I19/('Data - TWTR'!C19+'Data - TWTR'!D19)]
+B184: '2016-3'
+C184: 0.1407787762088147  [formula ='Data - META'!E20/('Data - META'!C20+'Data - META'!D20)]
+D184: 0.3655570239668536  [formula ='Data - TWTR'!E20/('Data - TWTR'!C20+'Data - TWTR'!D20)]
+F184: 0.21994009413778348  [formula ='Data - META'!F20/('Data - META'!C20+'Data - META'!D20)]
+G184: 0.2874480057928285  [formula ='Data - TWTR'!F20/('Data - TWTR'!C20+'Data - TWTR'!D20)]
+I184: 0.13207816288689203  [formula ='Data - META'!G20/('Data - META'!C20+'Data - META'!D20)]
+J184: 0.3643831969009667  [formula ='Data - TWTR'!G20/('Data - TWTR'!C20+'Data - TWTR'!D20)]
+L184: 0.06261588931678791  [formula ='Data - META'!H20/('Data - META'!C20+'Data - META'!D20)]
+M184: 0.1093932142080158  [formula ='Data - TWTR'!H20/('Data - TWTR'!C20+'Data - TWTR'!D20)]
+O184: 0.5554129225502782  [formula ='Data - META'!I20/('Data - META'!C20+'Data - META'!D20)]
+P184: 1.1267814408686645  [formula ='Data - TWTR'!I20/('Data - TWTR'!C20+'Data - TWTR'!D20)]
+B185: '2016-4'
+C185: 0.11885571574526053  [formula ='Data - META'!E21/('Data - META'!C21+'Data - META'!D21)]
+D185: 0.4262513141273218  [formula ='Data - TWTR'!E21/('Data - TWTR'!C21+'Data - TWTR'!D21)]
+F185: 0.17743217164263822  [formula ='Data - META'!F21/('Data - META'!C21+'Data - META'!D21)]
+G185: 0.2818269785807703  [formula ='Data - TWTR'!F21/('Data - TWTR'!C21+'Data - TWTR'!D21)]
+I185: 0.12691565444431832  [formula ='Data - META'!G21/('Data - META'!C21+'Data - META'!D21)]
+J185: 0.3633586445177536  [formula ='Data - TWTR'!G21/('Data - TWTR'!C21+'Data - TWTR'!D21)]
+L185: 0.05846293563401067  [formula ='Data - META'!H21/('Data - META'!C21+'Data - META'!D21)]
+M185: 0.12882212362975212  [formula ='Data - TWTR'!H21/('Data - TWTR'!C21+'Data - TWTR'!D21)]
+O185: 0.4816664774662277  [formula ='Data - META'!I21/('Data - META'!C21+'Data - META'!D21)]
+P185: 1.200259060855598  [formula ='Data - TWTR'!I21/('Data - TWTR'!C21+'Data - TWTR'!D21)]
+B186: '2017-1'
+C186: 0.14429780876494025  [formula ='Data - META'!E22/('Data - META'!C22+'Data - META'!D22)]
+D186: 0.40189438778953435  [formula ='Data - TWTR'!E22/('Data - TWTR'!C22+'Data - TWTR'!D22)]
+F186: 0.22833665338645417  [formula ='Data - META'!F22/('Data - META'!C22+'Data - META'!D22)]
+G186: 0.23479756534871804  [formula ='Data - TWTR'!F22/('Data - TWTR'!C22+'Data - TWTR'!D22)]
+I186: 0.13159860557768924  [formula ='Data - META'!G22/('Data - META'!C22+'Data - META'!D22)]
+J186: 0.30933641707903864  [formula ='Data - TWTR'!G22/('Data - TWTR'!C22+'Data - TWTR'!D22)]
+L186: 0.08154880478087649  [formula ='Data - META'!H22/('Data - META'!C22+'Data - META'!D22)]
+M186: 0.127437980049284  [formula ='Data - TWTR'!H22/('Data - TWTR'!C22+'Data - TWTR'!D22)]
+O186: 0.5857818725099602  [formula ='Data - META'!I22/('Data - META'!C22+'Data - META'!D22)]
+P186: 1.073466350266575  [formula ='Data - TWTR'!I22/('Data - TWTR'!C22+'Data - TWTR'!D22)]
+B187: '2017-2'
+C187: 0.1327110825018775  [formula ='Data - META'!E23/('Data - META'!C23+'Data - META'!D23)]
+D187: 0.37101358357076264  [formula ='Data - TWTR'!E23/('Data - TWTR'!C23+'Data - TWTR'!D23)]
+E187: 0.8374919497333091  [formula ='Data - SNAP'!D23/'Data - SNAP'!C23]
+F187: 0.20587919751099668  [formula ='Data - META'!F23/('Data - META'!C23+'Data - META'!D23)]
+G187: 0.24948985370868945  [formula ='Data - TWTR'!F23/('Data - TWTR'!C23+'Data - TWTR'!D23)]
+H187: 1.407682018594052  [formula ='Data - SNAP'!E23/'Data - SNAP'!C23]
+I187: 0.12058791975109967  [formula ='Data - META'!G23/('Data - META'!C23+'Data - META'!D23)]
+J187: 0.322896899042441  [formula ='Data - TWTR'!G23/('Data - TWTR'!C23+'Data - TWTR'!D23)]
+K187: 0.5003715507703487  [formula ='Data - SNAP'!F23/'Data - SNAP'!C23]
+L187: 0.06866216071236991  [formula ='Data - META'!H23/('Data - META'!C23+'Data - META'!D23)]
+M187: 0.12344407559400894  [formula ='Data - TWTR'!H23/('Data - TWTR'!C23+'Data - TWTR'!D23)]
+N187: 0.7260542409080151  [formula ='Data - SNAP'!G23/'Data - SNAP'!C23]
+O187: 0.5278403604763438  [formula ='Data - META'!I23/('Data - META'!C23+'Data - META'!D23)]
+P187: 1.066844411915902  [formula ='Data - TWTR'!I23/('Data - TWTR'!C23+'Data - TWTR'!D23)]
+Q187: 3.4715997600057253  [formula ='Data - SNAP'!H23/'Data - SNAP'!C23]
+B188: '2017-3'
+C188: 0.1402013942680093  [formula ='Data - META'!E24/('Data - META'!C24+'Data - META'!D24)]
+D188: 0.35618087861432446  [formula ='Data - TWTR'!E24/('Data - TWTR'!C24+'Data - TWTR'!D24)]
+E188: 1.0133357699687886  [formula ='Data - SNAP'!D24/'Data - SNAP'!C24]
+F188: 0.19868319132455461  [formula ='Data - META'!F24/('Data - META'!C24+'Data - META'!D24)]
+G188: 0.23084698448017665  [formula ='Data - TWTR'!F24/('Data - TWTR'!C24+'Data - TWTR'!D24)]
+H188: 1.1515122368794395  [formula ='Data - SNAP'!E24/'Data - SNAP'!C24]
+I188: 0.11328427575522851  [formula ='Data - META'!G24/('Data - META'!C24+'Data - META'!D24)]
+J188: 0.2933299187799868  [formula ='Data - TWTR'!G24/('Data - TWTR'!C24+'Data - TWTR'!D24)]
+K188: 0.4881815165170219  [formula ='Data - SNAP'!F24/'Data - SNAP'!C24]
+L188: 0.051897753679318356  [formula ='Data - META'!H24/('Data - META'!C24+'Data - META'!D24)]
+M188: 0.10729725100189438  [formula ='Data - TWTR'!H24/('Data - TWTR'!C24+'Data - TWTR'!D24)]
+N188: 0.5679652971813578  [formula ='Data - SNAP'!G24/'Data - SNAP'!C24]
+O188: 0.5040666150271108  [formula ='Data - META'!I24/('Data - META'!C24+'Data - META'!D24)]
+P188: 0.9876550328763822  [formula ='Data - TWTR'!I24/('Data - TWTR'!C24+'Data - TWTR'!D24)]
+Q188: 3.2209948205466077  [formula ='Data - SNAP'!H24/'Data - SNAP'!C24]
+B189: '2017-4'
+C189: 0.12419056429232192  [formula ='Data - META'!E25/('Data - META'!C25+'Data - META'!D25)]
+D189: 0.29796462354420694  [formula ='Data - TWTR'!E25/('Data - TWTR'!C25+'Data - TWTR'!D25)]
+E189: 0.6694108711098977  [formula ='Data - SNAP'!D25/'Data - SNAP'!C25]
+F189: 0.15024668516805428  [formula ='Data - META'!F25/('Data - META'!C25+'Data - META'!D25)]
+G189: 0.18316474383509215  [formula ='Data - TWTR'!F25/('Data - TWTR'!C25+'Data - TWTR'!D25)]
+H189: 0.8184939778013463  [formula ='Data - SNAP'!E25/'Data - SNAP'!C25]
+I189: 0.1059204440333025  [formula ='Data - META'!G25/('Data - META'!C25+'Data - META'!D25)]
+J189: 0.2591339056263328  [formula ='Data - TWTR'!G25/('Data - TWTR'!C25+'Data - TWTR'!D25)]
+K189: 0.3866318040694032  [formula ='Data - SNAP'!F25/'Data - SNAP'!C25]
+L189: 0.05288313290163429  [formula ='Data - META'!H25/('Data - META'!C25+'Data - META'!D25)]
+M189: 0.1092391601509104  [formula ='Data - TWTR'!H25/('Data - TWTR'!C25+'Data - TWTR'!D25)]
+N189: 0.3889314753949169  [formula ='Data - SNAP'!G25/'Data - SNAP'!C25]
+O189: 0.433240826395313  [formula ='Data - META'!I25/('Data - META'!C25+'Data - META'!D25)]
+P189: 0.8495024331565423  [formula ='Data - TWTR'!I25/('Data - TWTR'!C25+'Data - TWTR'!D25)]
+Q189: 2.2634681283755644  [formula ='Data - SNAP'!H25/'Data - SNAP'!C25]
+B190: '2018-1'
+C190: 0.1610396122346649  [formula ='Data - META'!E26/('Data - META'!C26+'Data - META'!D26)]
+D190: 0.335137192026724  [formula ='Data - TWTR'!E26/('Data - TWTR'!C26+'Data - TWTR'!D26)]
+E190: 0.8531729860490926  [formula ='Data - SNAP'!D26/'Data - SNAP'!C26]
+F190: 0.18702991810128697  [formula ='Data - META'!F26/('Data - META'!C26+'Data - META'!D26)]
+G190: 0.18551869460391565  [formula ='Data - TWTR'!F26/('Data - TWTR'!C26+'Data - TWTR'!D26)]
+H190: 0.871329107887595  [formula ='Data - SNAP'!E26/'Data - SNAP'!C26]
+I190: 0.13329433394618084  [formula ='Data - META'!G26/('Data - META'!C26+'Data - META'!D26)]
+J190: 0.2678098458197154  [formula ='Data - TWTR'!G26/('Data - TWTR'!C26+'Data - TWTR'!D26)]
+K190: 0.44268769562917815  [formula ='Data - SNAP'!F26/'Data - SNAP'!C26]
+L190: 0.06326257730235668  [formula ='Data - META'!H26/('Data - META'!C26+'Data - META'!D26)]
+M190: 0.0988432342514563  [formula ='Data - TWTR'!H26/('Data - TWTR'!C26+'Data - TWTR'!D26)]
+N190: 0.5345347818924332  [formula ='Data - SNAP'!G26/'Data - SNAP'!C26]
+O190: 0.5446264415844894  [formula ='Data - META'!I26/('Data - META'!C26+'Data - META'!D26)]
+P190: 0.8873089667018113  [formula ='Data - TWTR'!I26/('Data - TWTR'!C26+'Data - TWTR'!D26)]
+Q190: 2.7017245714582994  [formula ='Data - SNAP'!H26/'Data - SNAP'!C26]
+B191: '2018-2'
+C191: 0.1673342906809765  [formula ='Data - META'!E27/('Data - META'!C27+'Data - META'!D27)]
+D191: 0.32395737895490906  [formula ='Data - TWTR'!E27/('Data - TWTR'!C27+'Data - TWTR'!D27)]
+E191: 0.7304309033298636  [formula ='Data - SNAP'!D27/'Data - SNAP'!C27]
+F191: 0.1906885345023052  [formula ='Data - META'!F27/('Data - META'!C27+'Data - META'!D27)]
+G191: 0.19502604353584102  [formula ='Data - TWTR'!F27/('Data - TWTR'!C27+'Data - TWTR'!D27)]
+H191: 0.7749701635381279  [formula ='Data - SNAP'!E27/'Data - SNAP'!C27]
+I191: 0.14020104300506386  [formula ='Data - META'!G27/('Data - META'!C27+'Data - META'!D27)]
+J191: 0.264632160564978  [formula ='Data - TWTR'!G27/('Data - TWTR'!C27+'Data - TWTR'!D27)]
+K191: 0.38772148568421777  [formula ='Data - SNAP'!F27/'Data - SNAP'!C27]
+L191: 0.05865013982314262  [formula ='Data - META'!H27/('Data - META'!C27+'Data - META'!D27)]
+M191: 0.10432332546608854  [formula ='Data - TWTR'!H27/('Data - TWTR'!C27+'Data - TWTR'!D27)]
+N191: 0.47131696045572574  [formula ='Data - SNAP'!G27/'Data - SNAP'!C27]
+O191: 0.5568740080114881  [formula ='Data - META'!I27/('Data - META'!C27+'Data - META'!D27)]
+P191: 0.8879389085218166  [formula ='Data - TWTR'!I27/('Data - TWTR'!C27+'Data - TWTR'!D27)]
+Q191: 2.364439513007935  [formula ='Data - SNAP'!H27/'Data - SNAP'!C27]
+B192: '2018-3'
+C192: 0.17614919501711954  [formula ='Data - META'!E28/('Data - META'!C28+'Data - META'!D28)]
+D192: 0.32138301647120276  [formula ='Data - TWTR'!E28/('Data - TWTR'!C28+'Data - TWTR'!D28)]
+E192: 0.6636120861956029  [formula ='Data - SNAP'!D28/'Data - SNAP'!C28]
+F192: 0.19356013695636337  [formula ='Data - META'!F28/('Data - META'!C28+'Data - META'!D28)]
+G192: 0.1988679757977394  [formula ='Data - TWTR'!F28/('Data - TWTR'!C28+'Data - TWTR'!D28)]
+H192: 0.6836191403953711  [formula ='Data - SNAP'!E28/'Data - SNAP'!C28]
+I192: 0.14045312158519704  [formula ='Data - META'!G28/('Data - META'!C28+'Data - META'!D28)]
+J192: 0.25523439179750723  [formula ='Data - TWTR'!G28/('Data - TWTR'!C28+'Data - TWTR'!D28)]
+K192: 0.327691093233007  [formula ='Data - SNAP'!F28/'Data - SNAP'!C28]
+L192: 0.06869672907408757  [formula ='Data - META'!H28/('Data - META'!C28+'Data - META'!D28)]
+M192: 0.10333447212875159  [formula ='Data - TWTR'!H28/('Data - TWTR'!C28+'Data - TWTR'!D28)]
+N192: 0.4113270293421119  [formula ='Data - SNAP'!G28/'Data - SNAP'!C28]
+O192: 0.5788591826327676  [formula ='Data - META'!I28/('Data - META'!C28+'Data - META'!D28)]
+P192: 0.8788198561952009  [formula ='Data - TWTR'!I28/('Data - TWTR'!C28+'Data - TWTR'!D28)]
+Q192: 2.086249349166093  [formula ='Data - SNAP'!H28/'Data - SNAP'!C28]
+B193: '2018-4'
+C193: 0.1653068463994324  [formula ='Data - META'!E29/('Data - META'!C29+'Data - META'!D29)]
+D193: 0.2952622915465497  [formula ='Data - TWTR'!E29/('Data - TWTR'!C29+'Data - TWTR'!D29)]
+E193: 0.54626983597642  [formula ='Data - SNAP'!D29/'Data - SNAP'!C29]
+F193: 0.16879508099798984  [formula ='Data - META'!F29/('Data - META'!C29+'Data - META'!D29)]
+G193: 0.15533495592164043  [formula ='Data - TWTR'!F29/('Data - TWTR'!C29+'Data - TWTR'!D29)]
+H193: 0.42184125062207883  [formula ='Data - SNAP'!E29/'Data - SNAP'!C29]
+I193: 0.1458555043159513  [formula ='Data - META'!G29/('Data - META'!C29+'Data - META'!D29)]
+J193: 0.2330167378933053  [formula ='Data - TWTR'!G29/('Data - TWTR'!C29+'Data - TWTR'!D29)]
+K193: 0.2551780043199204  [formula ='Data - SNAP'!F29/'Data - SNAP'!C29]
+L193: 0.05770367742698356  [formula ='Data - META'!H29/('Data - META'!C29+'Data - META'!D29)]
+M193: 0.08872337803520107  [formula ='Data - TWTR'!H29/('Data - TWTR'!C29+'Data - TWTR'!D29)]
+N193: 0.27618759331181925  [formula ='Data - SNAP'!G29/'Data - SNAP'!C29]
+O193: 0.5376611091403571  [formula ='Data - META'!I29/('Data - META'!C29+'Data - META'!D29)]
+P193: 0.7723373633966965  [formula ='Data - TWTR'!I29/('Data - TWTR'!C29+'Data - TWTR'!D29)]
+Q193: 1.4994766842302385  [formula ='Data - SNAP'!H29/'Data - SNAP'!C29]
+B194: '2019-1'
+C194: 0.18677455727266698  [formula ='Data - META'!E30/('Data - META'!C30+'Data - META'!D30)]
+D194: 0.33551195211528934  [formula ='Data - TWTR'!E30/('Data - TWTR'!C30+'Data - TWTR'!D30)]
+E194: 0.6359252994451137  [formula ='Data - SNAP'!D30/'Data - SNAP'!C30]
+F194: 0.1896929097300524  [formula ='Data - META'!F30/('Data - META'!C30+'Data - META'!D30)]
+G194: 0.1858531688037718  [formula ='Data - TWTR'!F30/('Data - TWTR'!C30+'Data - TWTR'!D30)]
+H194: 0.6746799573068353  [formula ='Data - SNAP'!E30/'Data - SNAP'!C30]
+I194: 0.13397890827087616  [formula ='Data - META'!G30/('Data - META'!C30+'Data - META'!D30)]
+J194: 0.26153464906149526  [formula ='Data - TWTR'!G30/('Data - TWTR'!C30+'Data - TWTR'!D30)]
+K194: 0.3054745869561147  [formula ='Data - SNAP'!F30/'Data - SNAP'!C30]
+L194: 0.2695496451548717  [formula ='Data - META'!H30/('Data - META'!C30+'Data - META'!D30)]
+M194: 0.09807724078333693  [formula ='Data - TWTR'!H30/('Data - TWTR'!C30+'Data - TWTR'!D30)]
+N194: 0.3702976662318289  [formula ='Data - SNAP'!G30/'Data - SNAP'!C30]
+O194: 0.7799960204284672  [formula ='Data - META'!I30/('Data - META'!C30+'Data - META'!D30)]
+P194: 0.8809770107638935  [formula ='Data - TWTR'!I30/('Data - TWTR'!C30+'Data - TWTR'!D30)]
+Q194: 1.9863775099398928  [formula ='Data - SNAP'!H30/'Data - SNAP'!C30]
+B195: '2019-2'
+C195: 0.1958427099372261  [formula ='Data - META'!E31/('Data - META'!C31+'Data - META'!D31)]
+D195: 0.3303675742618385  [formula ='Data - TWTR'!E31/('Data - TWTR'!C31+'Data - TWTR'!D31)]
+E195: 0.5553616943412856  [formula ='Data - SNAP'!D31/'Data - SNAP'!C31]
+F195: 0.19631647518654508  [formula ='Data - META'!F31/('Data - META'!C31+'Data - META'!D31)]
+G195: 0.1892626527102466  [formula ='Data - TWTR'!F31/('Data - TWTR'!C31+'Data - TWTR'!D31)]
+H195: 0.6087273626942872  [formula ='Data - SNAP'!E31/'Data - SNAP'!C31]
+I195: 0.14295866398199691  [formula ='Data - META'!G31/('Data - META'!C31+'Data - META'!D31)]
+J195: 0.2855412708392511  [formula ='Data - TWTR'!G31/('Data - TWTR'!C31+'Data - TWTR'!D31)]
+K195: 0.28736588999049023  [formula ='Data - SNAP'!F31/'Data - SNAP'!C31]
+L195: 0.19092739547554186  [formula ='Data - META'!H31/('Data - META'!C31+'Data - META'!D31)]
+M195: 0.10487401070383096  [formula ='Data - TWTR'!H31/('Data - TWTR'!C31+'Data - TWTR'!D31)]
+N195: 0.33411593702402703  [formula ='Data - SNAP'!G31/'Data - SNAP'!C31]
+O195: 0.7260452445813099  [formula ='Data - META'!I31/('Data - META'!C31+'Data - META'!D31)]
+P195: 0.9100455085151673  [formula ='Data - TWTR'!I31/('Data - TWTR'!C31+'Data - TWTR'!D31)]
+Q195: 1.7855708840500901  [formula ='Data - SNAP'!H31/'Data - SNAP'!C31]
+B196: '2019-3'
+C196: 0.17873328801268978  [formula ='Data - META'!E32/('Data - META'!C32+'Data - META'!D32)]
+D196: 0.3412057781980948  [formula ='Data - TWTR'!E32/('Data - TWTR'!C32+'Data - TWTR'!D32)]
+E196: 0.5000907666758554  [formula ='Data - SNAP'!D32/'Data - SNAP'!C32]
+F196: 0.20099705415816904  [formula ='Data - META'!F32/('Data - META'!C32+'Data - META'!D32)]
+G196: 0.21676498117678766  [formula ='Data - TWTR'!F32/('Data - TWTR'!C32+'Data - TWTR'!D32)]
+H196: 0.4742256257858041  [formula ='Data - SNAP'!E32/'Data - SNAP'!C32]
+I196: 0.13686834353047814  [formula ='Data - META'!G32/('Data - META'!C32+'Data - META'!D32)]
+J196: 0.27461373262904615  [formula ='Data - TWTR'!G32/('Data - TWTR'!C32+'Data - TWTR'!D32)]
+K196: 0.27619963289922206  [formula ='Data - SNAP'!F32/'Data - SNAP'!C32]
+L196: 0.0763652843870383  [formula ='Data - META'!H32/('Data - META'!C32+'Data - META'!D32)]
+M196: 0.11382307273007598  [formula ='Data - TWTR'!H32/('Data - TWTR'!C32+'Data - TWTR'!D32)]
+N196: 0.26237844549180966  [formula ='Data - SNAP'!G32/'Data - SNAP'!C32]
+O196: 0.5929639700883752  [formula ='Data - META'!I32/('Data - META'!C32+'Data - META'!D32)]
+P196: 0.9464075647340047  [formula ='Data - TWTR'!I32/('Data - TWTR'!C32+'Data - TWTR'!D32)]
+Q196: 1.512894470852691  [formula ='Data - SNAP'!H32/'Data - SNAP'!C32]
+B197: '2019-4'
+C197: 0.16563893368750593  [formula ='Data - META'!E33/('Data - META'!C33+'Data - META'!D33)]
+D197: 0.3117196659323903  [formula ='Data - TWTR'!E33/('Data - TWTR'!C33+'Data - TWTR'!D33)]
+E197: 0.45185313288927553  [formula ='Data - SNAP'!D33/'Data - SNAP'!C33]
+F197: 0.1839009581633621  [formula ='Data - META'!F33/('Data - META'!C33+'Data - META'!D33)]
+G197: 0.19679532551539153  [formula ='Data - TWTR'!F33/('Data - TWTR'!C33+'Data - TWTR'!D33)]
+H197: 0.3913900814422844  [formula ='Data - SNAP'!E33/'Data - SNAP'!C33]
+I197: 0.14353476899724885  [formula ='Data - META'!G33/('Data - META'!C33+'Data - META'!D33)]
+J197: 0.23980062362199098  [formula ='Data - TWTR'!G33/('Data - TWTR'!C33+'Data - TWTR'!D33)]
+K197: 0.2245938583103935  [formula ='Data - SNAP'!F33/'Data - SNAP'!C33]
+L197: 0.08675647471776872  [formula ='Data - META'!H33/('Data - META'!C33+'Data - META'!D33)]
+M197: 0.09991452745396047  [formula ='Data - TWTR'!H33/('Data - TWTR'!C33+'Data - TWTR'!D33)]
+N197: 0.3842959735276918  [formula ='Data - SNAP'!G33/'Data - SNAP'!C33]
+O197: 0.5798311355658856  [formula ='Data - META'!I33/('Data - META'!C33+'Data - META'!D33)]
+P197: 0.8482301425237334  [formula ='Data - TWTR'!I33/('Data - TWTR'!C33+'Data - TWTR'!D33)]
+Q197: 1.4521330461696453  [formula ='Data - SNAP'!H33/'Data - SNAP'!C33]
+B198: '2020-1'
+C198: 0.19501606810621863  [formula ='Data - META'!E34/('Data - META'!C34+'Data - META'!D34)]
+D198: 0.3516889394616641  [formula ='Data - TWTR'!E34/('Data - TWTR'!C34+'Data - TWTR'!D34)]
+E198: 0.5479395776663971  [formula ='Data - SNAP'!D34/'Data - SNAP'!C34]
+F198: 0.22636297006258105  [formula ='Data - META'!F34/('Data - META'!C34+'Data - META'!D34)]
+G198: 0.24811641863857156  [formula ='Data - TWTR'!F34/('Data - TWTR'!C34+'Data - TWTR'!D34)]
+H198: 0.5159445422268735  [formula ='Data - SNAP'!E34/'Data - SNAP'!C34]
+I198: 0.15712916502226984  [formula ='Data - META'!G34/('Data - META'!C34+'Data - META'!D34)]
+J198: 0.27399314295902744  [formula ='Data - TWTR'!G34/('Data - TWTR'!C34+'Data - TWTR'!D34)]
+K198: 0.2642395962618762  [formula ='Data - SNAP'!F34/'Data - SNAP'!C34]
+L198: 0.08924846366352822  [formula ='Data - META'!H34/('Data - META'!C34+'Data - META'!D34)]
+M198: 0.13541727285897007  [formula ='Data - TWTR'!H34/('Data - TWTR'!C34+'Data - TWTR'!D34)]
+N198: 0.29107114284355146  [formula ='Data - SNAP'!G34/'Data - SNAP'!C34]
+O198: 0.6677566668545978  [formula ='Data - META'!I34/('Data - META'!C34+'Data - META'!D34)]
+P198: 1.009215773918233  [formula ='Data - TWTR'!I34/('Data - TWTR'!C34+'Data - TWTR'!D34)]
+Q198: 1.6191948589986984  [formula ='Data - SNAP'!H34/'Data - SNAP'!C34]
+B199: '2020-2'
+C199: 0.20490180339273292  [formula ='Data - META'!E35/('Data - META'!C35+'Data - META'!D35)]
+D199: 0.4214559330912241  [formula ='Data - TWTR'!E35/('Data - TWTR'!C35+'Data - TWTR'!D35)]
+E199: 0.5514688720665495  [formula ='Data - SNAP'!D35/'Data - SNAP'!C35]
+F199: 0.23877561941456626  [formula ='Data - META'!F35/('Data - META'!C35+'Data - META'!D35)]
+G199: 0.3157652925356799  [formula ='Data - TWTR'!F35/('Data - TWTR'!C35+'Data - TWTR'!D35)]
+H199: 0.574388208508933  [formula ='Data - SNAP'!E35/'Data - SNAP'!C35]
+I199: 0.1519773104297105  [formula ='Data - META'!G35/('Data - META'!C35+'Data - META'!D35)]
+J199: 0.30329890933778925  [formula ='Data - TWTR'!G35/('Data - TWTR'!C35+'Data - TWTR'!D35)]
+K199: 0.29090756961233755  [formula ='Data - SNAP'!F35/'Data - SNAP'!C35]
+L199: 0.08524642799807353  [formula ='Data - META'!H35/('Data - META'!C35+'Data - META'!D35)]
+M199: 0.3602916431336859  [formula ='Data - TWTR'!H35/('Data - TWTR'!C35+'Data - TWTR'!D35)]
+N199: 0.26715592370936986  [formula ='Data - SNAP'!G35/'Data - SNAP'!C35]
+O199: 0.6809011612350833  [formula ='Data - META'!I35/('Data - META'!C35+'Data - META'!D35)]
+P199: 1.400811778098379  [formula ='Data - TWTR'!I35/('Data - TWTR'!C35+'Data - TWTR'!D35)]
+Q199: 1.6839205738971899  [formula ='Data - SNAP'!H35/'Data - SNAP'!C35]
+B200: '2020-3'
+C200: 0.19534233814625057  [formula ='Data - META'!E36/('Data - META'!C36+'Data - META'!D36)]
+D200: 0.3860022024431952  [formula ='Data - TWTR'!E36/('Data - TWTR'!C36+'Data - TWTR'!D36)]
+E200: 0.43186801204712766  [formula ='Data - SNAP'!D36/'Data - SNAP'!C36]
+F200: 0.22184443409408477  [formula ='Data - META'!F36/('Data - META'!C36+'Data - META'!D36)]
+G200: 0.22310365048016895  [formula ='Data - TWTR'!F36/('Data - TWTR'!C36+'Data - TWTR'!D36)]
+H200: 0.4179348370631885  [formula ='Data - SNAP'!E36/'Data - SNAP'!C36]
+I200: 0.12496506753609687  [formula ='Data - META'!G36/('Data - META'!C36+'Data - META'!D36)]
+J200: 0.2299481005262579  [formula ='Data - TWTR'!G36/('Data - TWTR'!C36+'Data - TWTR'!D36)]
+K200: 0.21145980066836803  [formula ='Data - SNAP'!F36/'Data - SNAP'!C36]
+L200: 0.08337214718211458  [formula ='Data - META'!H36/('Data - META'!C36+'Data - META'!D36)]
+M200: 0.10101758857036656  [formula ='Data - TWTR'!H36/('Data - TWTR'!C36+'Data - TWTR'!D36)]
+N200: 0.18608067567647216  [formula ='Data - SNAP'!G36/'Data - SNAP'!C36]
+O200: 0.6255239869585468  [formula ='Data - META'!I36/('Data - META'!C36+'Data - META'!D36)]
+P200: 0.9400715420199887  [formula ='Data - TWTR'!I36/('Data - TWTR'!C36+'Data - TWTR'!D36)]
+Q200: 1.2473433254551562  [formula ='Data - SNAP'!H36/'Data - SNAP'!C36]
+B201: '2020-4'
+C201: 0.18559418637788544  [formula ='Data - META'!E37/('Data - META'!C37+'Data - META'!D37)]
+D201: 0.33594349571383464  [formula ='Data - TWTR'!E37/('Data - TWTR'!C37+'Data - TWTR'!D37)]
+E201: 0.4230623204531439  [formula ='Data - SNAP'!D37/'Data - SNAP'!C37]
+F201: 0.18548731832430893  [formula ='Data - META'!F37/('Data - META'!C37+'Data - META'!D37)]
+G201: 0.19239827389400482  [formula ='Data - TWTR'!F37/('Data - TWTR'!C37+'Data - TWTR'!D37)]
+H201: 0.3494330214786869  [formula ='Data - SNAP'!E37/'Data - SNAP'!C37]
+I201: 0.11687802792818466  [formula ='Data - META'!G37/('Data - META'!C37+'Data - META'!D37)]
+J201: 0.18934243618087032  [formula ='Data - TWTR'!G37/('Data - TWTR'!C37+'Data - TWTR'!D37)]
+K201: 0.17297288993352514  [formula ='Data - SNAP'!F37/'Data - SNAP'!C37]
+L201: 0.05692504987175834  [formula ='Data - META'!H37/('Data - META'!C37+'Data - META'!D37)]
+M201: 0.08710534259448227  [formula ='Data - TWTR'!H37/('Data - TWTR'!C37+'Data - TWTR'!D37)]
+N201: 0.1612295105352444  [formula ='Data - SNAP'!G37/'Data - SNAP'!C37]
+O201: 0.5448845825021373  [formula ='Data - META'!I37/('Data - META'!C37+'Data - META'!D37)]
+P201: 0.804789548383192  [formula ='Data - TWTR'!I37/('Data - TWTR'!C37+'Data - TWTR'!D37)]
+Q201: 1.1066977424006004  [formula ='Data - SNAP'!H37/'Data - SNAP'!C37]
+B202: '2021-1'
+C202: 0.19605670398532726  [formula ='Data - META'!E38/('Data - META'!C38+'Data - META'!D38)]
+D202: 0.36776195008194834  [formula ='Data - TWTR'!E38/('Data - TWTR'!C38+'Data - TWTR'!D38)]
+E202: 0.5469149566519055  [formula ='Data - SNAP'!D38/'Data - SNAP'!C38]
+F202: 0.1985785793435482  [formula ='Data - META'!F38/('Data - META'!C38+'Data - META'!D38)]
+G202: 0.24198421262951028  [formula ='Data - TWTR'!F38/('Data - TWTR'!C38+'Data - TWTR'!D38)]
+H202: 0.5919600719349675  [formula ='Data - SNAP'!E38/'Data - SNAP'!C38]
+I202: 0.10863169156700164  [formula ='Data - META'!G38/('Data - META'!C38+'Data - META'!D38)]
+J202: 0.226436220220112  [formula ='Data - TWTR'!G38/('Data - TWTR'!C38+'Data - TWTR'!D38)]
+K202: 0.31430747000977155  [formula ='Data - SNAP'!F38/'Data - SNAP'!C38]
+L202: 0.06197699743991441  [formula ='Data - META'!H38/('Data - META'!C38+'Data - META'!D38)]
+M202: 0.11344107920904849  [formula ='Data - TWTR'!H38/('Data - TWTR'!C38+'Data - TWTR'!D38)]
+N202: 0.28055157071872594  [formula ='Data - SNAP'!G38/'Data - SNAP'!C38]
+O202: 0.5652439723357915  [formula ='Data - META'!I38/('Data - META'!C38+'Data - META'!D38)]
+P202: 0.9496234621406191  [formula ='Data - TWTR'!I38/('Data - TWTR'!C38+'Data - TWTR'!D38)]
+Q202: 1.7337340693153704  [formula ='Data - SNAP'!H38/'Data - SNAP'!C38]
+B203: '2021-2'
+C203: 0.1856794029645424  [formula ='Data - META'!E39/('Data - META'!C39+'Data - META'!D39)]
+D203: 0.35023735180737664  [formula ='Data - TWTR'!E39/('Data - TWTR'!C39+'Data - TWTR'!D39)]
+E203: 0.45312837284697816  [formula ='Data - SNAP'!D39/'Data - SNAP'!C39]
+F203: 0.2096502390205317  [formula ='Data - META'!F39/('Data - META'!C39+'Data - META'!D39)]
+G203: 0.25189196817612497  [formula ='Data - TWTR'!F39/('Data - TWTR'!C39+'Data - TWTR'!D39)]
+H203: 0.3774238678434551  [formula ='Data - SNAP'!E39/'Data - SNAP'!C39]
+I203: 0.1120817140695395  [formula ='Data - META'!G39/('Data - META'!C39+'Data - META'!D39)]
+J203: 0.25360815908913353  [formula ='Data - TWTR'!G39/('Data - TWTR'!C39+'Data - TWTR'!D39)]
+K203: 0.18299820386352622  [formula ='Data - SNAP'!F39/'Data - SNAP'!C39]
+L203: 0.06726966330776903  [formula ='Data - META'!H39/('Data - META'!C39+'Data - META'!D39)]
+M203: 0.11884979087335887  [formula ='Data - TWTR'!H39/('Data - TWTR'!C39+'Data - TWTR'!D39)]
+N203: 0.1824687305265816  [formula ='Data - SNAP'!G39/'Data - SNAP'!C39]
+O203: 0.5746810193623827  [formula ='Data - META'!I39/('Data - META'!C39+'Data - META'!D39)]
+P203: 0.974587269945994  [formula ='Data - TWTR'!I39/('Data - TWTR'!C39+'Data - TWTR'!D39)]
+Q203: 1.196019175080541  [formula ='Data - SNAP'!H39/'Data - SNAP'!C39]
+B204: '2021-3'
+C204: 0.198931402964495  [formula ='Data - META'!E40/('Data - META'!C40+'Data - META'!D40)]
+D204: 0.3773738780527131  [formula ='Data - TWTR'!E40/('Data - TWTR'!C40+'Data - TWTR'!D40)]
+E204: 0.4154426677633397  [formula ='Data - SNAP'!D40/'Data - SNAP'!C40]
+F204: 0.21771802826611514  [formula ='Data - META'!F40/('Data - META'!C40+'Data - META'!D40)]
+G204: 0.252568707222291  [formula ='Data - TWTR'!F40/('Data - TWTR'!C40+'Data - TWTR'!D40)]
+H204: 0.38597863548517947  [formula ='Data - SNAP'!E40/'Data - SNAP'!C40]
+I204: 0.1225094794898311  [formula ='Data - META'!G40/('Data - META'!C40+'Data - META'!D40)]
+J204: 0.2345178479487341  [formula ='Data - TWTR'!G40/('Data - TWTR'!C40+'Data - TWTR'!D40)]
+K204: 0.20377696443275745  [formula ='Data - SNAP'!F40/'Data - SNAP'!C40]
+L204: 0.1015511892450879  [formula ='Data - META'!H40/('Data - META'!C40+'Data - META'!D40)]
+M204: 0.1175050649742136  [formula ='Data - TWTR'!H40/('Data - TWTR'!C40+'Data - TWTR'!D40)]
+N204: 0.16419649807816794  [formula ='Data - SNAP'!G40/'Data - SNAP'!C40]
+O204: 0.6407100999655291  [formula ='Data - META'!I40/('Data - META'!C40+'Data - META'!D40)]
+P204: 0.9819654981979519  [formula ='Data - TWTR'!I40/('Data - TWTR'!C40+'Data - TWTR'!D40)]
+Q204: 1.1693947657594446  [formula ='Data - SNAP'!H40/'Data - SNAP'!C40]
+B205: '2021-4'
+C205: 0.18853018918357042  [formula ='Data - META'!E41/('Data - META'!C41+'Data - META'!D41)]
+D205: 0.3286654075369125  [formula ='Data - TWTR'!E41/('Data - TWTR'!C41+'Data - TWTR'!D41)]
+E205: 0.3396718507417838  [formula ='Data - SNAP'!D41/'Data - SNAP'!C41]
+F205: 0.20926019423242553  [formula ='Data - META'!F41/('Data - META'!C41+'Data - META'!D41)]
+G205: 0.23729470016972734  [formula ='Data - TWTR'!F41/('Data - TWTR'!C41+'Data - TWTR'!D41)]
+H205: 0.25211170481205986  [formula ='Data - SNAP'!E41/'Data - SNAP'!C41]
+I205: 0.13029016067238872  [formula ='Data - META'!G41/('Data - META'!C41+'Data - META'!D41)]
+J205: 0.21590969997830559  [formula ='Data - TWTR'!G41/('Data - TWTR'!C41+'Data - TWTR'!D41)]
+K205: 0.11836796018137205  [formula ='Data - SNAP'!F41/'Data - SNAP'!C41]
+L205: 0.09815568293189986  [formula ='Data - META'!H41/('Data - META'!C41+'Data - META'!D41)]
+M205: 0.11132578706244178  [formula ='Data - TWTR'!H41/('Data - TWTR'!C41+'Data - TWTR'!D41)]
+N205: 0.1080627328307208  [formula ='Data - SNAP'!G41/'Data - SNAP'!C41]
+O205: 0.6262362270202845  [formula ='Data - META'!I41/('Data - META'!C41+'Data - META'!D41)]
+P205: 0.8931955947473873  [formula ='Data - TWTR'!I41/('Data - TWTR'!C41+'Data - TWTR'!D41)]
+Q205: 0.8182142485659365  [formula ='Data - SNAP'!H41/'Data - SNAP'!C41]
+B206: '2022-1'
+C206: 0.2151712770531747  [formula ='Data - META'!E42/('Data - META'!C42+'Data - META'!D42)]
+D206: 0.4225285266081813  [formula ='Data - TWTR'!E42/('Data - TWTR'!C42+'Data - TWTR'!D42)]
+E206: 0.39605373722508225  [formula ='Data - SNAP'!D42/'Data - SNAP'!C42]
+F206: 0.27615737422961156  [formula ='Data - META'!F42/('Data - META'!C42+'Data - META'!D42)]
+G206: 0.3094920498524543  [formula ='Data - TWTR'!F42/('Data - TWTR'!C42+'Data - TWTR'!D42)]
+H206: 0.42867359161854357  [formula ='Data - SNAP'!E42/'Data - SNAP'!C42]
+I206: 0.11867564855955282  [formula ='Data - META'!G42/('Data - META'!C42+'Data - META'!D42)]
+J206: 0.249636131705335  [formula ='Data - TWTR'!G42/('Data - TWTR'!C42+'Data - TWTR'!D42)]
+K206: 0.22760878381748084  [formula ='Data - SNAP'!F42/'Data - SNAP'!C42]
+L206: 0.0845635660025799  [formula ='Data - META'!H42/('Data - META'!C42+'Data - META'!D42)]
+M206: 0.1247835108544327  [formula ='Data - TWTR'!H42/('Data - TWTR'!C42+'Data - TWTR'!D42)]
+N206: 0.20316412399421485  [formula ='Data - SNAP'!G42/'Data - SNAP'!C42]
+O206: 0.694567865844919  [formula ='Data - META'!I42/('Data - META'!C42+'Data - META'!D42)]
+P206: 1.1064402190204032  [formula ='Data - TWTR'!I42/('Data - TWTR'!C42+'Data - TWTR'!D42)]
+Q206: 1.2555002366553214  [formula ='Data - SNAP'!H42/'Data - SNAP'!C42]
+B207: '2022-2'
+C207: 0.18014017070293525  [formula ='Data - META'!E43/('Data - META'!C43+'Data - META'!D43)]
+D207: 0.4595006204001157  [formula ='Data - TWTR'!E43/('Data - TWTR'!C43+'Data - TWTR'!D43)]
+E207: 0.4018123896736816  [formula ='Data - SNAP'!D43/'Data - SNAP'!C43]
+F207: 0.30150579418499757  [formula ='Data - META'!F43/('Data - META'!C43+'Data - META'!D43)]
+G207: 0.38656791256607687  [formula ='Data - TWTR'!F43/('Data - TWTR'!C43+'Data - TWTR'!D43)]
+H207: 0.45461599464942665  [formula ='Data - SNAP'!E43/'Data - SNAP'!C43]
+I207: 0.12473110818125044  [formula ='Data - META'!G43/('Data - META'!C43+'Data - META'!D43)]
+J207: 0.26201366579980623  [formula ='Data - TWTR'!G43/('Data - TWTR'!C43+'Data - TWTR'!D43)]
+K207: 0.2802875843115863  [formula ='Data - SNAP'!F43/'Data - SNAP'!C43]
+L207: 0.1036361113038651  [formula ='Data - META'!H43/('Data - META'!C43+'Data - META'!D43)]
+M207: 0.18406846497713872  [formula ='Data - TWTR'!H43/('Data - TWTR'!C43+'Data - TWTR'!D43)]
+N207: 0.22419568119440925  [formula ='Data - SNAP'!G43/'Data - SNAP'!C43]
+O207: 0.7100131843730484  [formula ='Data - META'!I43/('Data - META'!C43+'Data - META'!D43)]
+P207: 1.2921506637431375  [formula ='Data - TWTR'!I43/('Data - TWTR'!C43+'Data - TWTR'!D43)]
+Q207: 1.3609116498291036  [formula ='Data - SNAP'!H43/'Data - SNAP'!C43]
+B227: 'Based on the information in Table 3, what are the primary drivers that explain Meta\'s cost advantage? What economic factors might explain these results? For a description of each expense category, see Meta\'s 2021 annual report linked below (search for the term "Cost of Revenue and Operating Expenses" by typing Ctrl + F).'
+B229: "Link to Meta's 2021 Annual Report"
+B230: "Meta's cost advantage comes mainly from lower cost of revenue and sales & marketing expenses relative to its sales. In 2021 Meta's total operating expenses were 62% of revenue, compared with 89% for Twitter and 81% for Snapchat. The largest gap is in cost of revenue, which was 18% of sales for Meta versus 32% for Twitter and 34% for Snapchat. Meta also spent 13% of sales on sales & marketing, compared with 21% for Twitter.\n\nEconomies of Scale: Cost of revenue consists largely of data center, server, and network costs. Meta spreads these costs across nearly 2 billion daily users and with a much higher revenue per user. Meta also builds and operates its own data centers, while Snapchat rents cloud capacity from Google and Amazon and pays a higher price. R&D and general & administrative costs behave like fixed costs as well, and they shrink as a share of sales as revenue grows. Snapchat shows the same pattern, as its R&D fell from 81% of sales in 2017 to 25.2% in 2021.\n\nMeta's lower sales & marketing costs reflect its established position and self-serve advertising model. Because users join Facebook where their friends already are, Meta spends little to attract them, and millions of small businesses buy ads directly through its platform. Years of operating at this scale have also moved Meta further down the learning and experience curves, making it more efficient at running its infrastructure."
+A236: '7.'
+B236: "Do you think Meta will be the leading social media company in 10 years? 20 years? If yes, why? If not, why not? Keep in mind that our data do not include every competitor. For example, TikTok is not included because its parent company, ByteDance, is privately held, even though it grew into one of Meta's biggest competitors after 2020."
+B237: "I believe Meta will remain one of the leading social media companies in 10 years and likely in 20 years. The data in this worksheet show how strong its position is: by 2022, Facebook alone had about 1.97 billion daily active users, and Meta's family of apps reached 2.88 billion people daily. Meta also earned roughly three times more advertising revenue per user than Twitter and Snapchat while spending a smaller share of its sales on operating expenses. The network effects, data advantages, and economies of scale behind these results create barriers to entry that are very difficult for competitors to overcome.\n\nAlthough TikTok is growing rapidly and has become one of Meta's biggest competitors, it is unlikely to displace Meta entirely. TikTok competes mainly for entertainment and short-form video time, while Meta's apps are built around personal connections, such as friends, family, groups, and messaging through WhatsApp and Messenger. These social connections create high switching costs, because users cannot easily move their entire network to another platform. \n\nMeta is also constantly adapting-- it acquired Instagram and WhatsApp before they could become major threats, responded to Snapchat by copying Stories, responded to TikTok by launching Reels, and then Threads in 2023 to compete with Twitter. Its large profits allow it to invest heavily in new technologies. "
+A243: '8.'
+B243: "Based on your reading and understanding of the reading Strategies to Crack Well-Guarded Markets, describe how TikTok was able to grow into a major competitor despite Meta's dominant position. Then consider Meta's launch of Threads in 2023 to compete with Twitter (now X). Which strategies from the reading, if any, did TikTok and Threads use to overcome the barriers they faced?"
+B245: "Bryce and Dyer argue that the most attractive markets are the hardest to enter, so successful entrants use an indirect assault that main players do not notice or respond to until it is too late. They describe three strategies; leveraging existing assets, reconfiguring the value chain, and creating niches, and argue that entrants succeed by combining them.\n\nTikTok used all three. It created a niche in short-form entertainment video for younger users instead of competing directly with Facebook's friend-based networking. It reconfigured the value chain by using an interest-based algorithm to show content from strangers. It did not need a user's friends to already be on the platform, which let it get around Meta's network-effect barrier. Because TikTok looked like an entertainment app rather than a social network, Meta did not respond until it launched Reels.\n\nThreads relied mainly on leveraging existing assets because users could sign in with their Instagram accounts and bring their followers, which gave Threads a large user base almost immediately. Unlike TikTok, Threads was a direct attack on Twitter, timed to take advantage of the turmoil after Twitter's ownership change."
+## SHEET: Data - META (43 rows x 9 cols)
+A1: 'Meta'
+B2: 'Users'
+C2: 'Revenue'
+E2: 'Expenses'
+I2: 'Total Expense'
+A3: 'Quarter'
+B3: 'Daily Active Users (millions)'
+C3: 'Advertising Revenue (millions)'
+D3: 'Other revenue (millions)'
+E3: 'Cost of Revenue (millions)'
+F3: 'R&D (millions)'
+G3: 'Sales & Marketing (millions)'
+H3: 'General & Administrative (millions)'
+I3: 'Operating Expenses (millions)'
+A4: '2012-3'
+B4: 584
+C4: 1086
+D4: 176
+E4: 322
+F4: 244
+G4: 168
+H4: 151
+I4: 885  [formula =SUM(E4:H4)]
+A5: '2012-4'
+B5: 618
+C5: 1329
+D5: 256
+E5: 398
+F5: 297
+G5: 193
+H5: 174
+I5: 1062  [formula =SUM(E5:H5)]
+A6: '2013-1'
+B6: 664
+C6: 1245
+D6: 213
+E6: 413
+F6: 293
+G6: 203
+H6: 176
+I6: 1085  [formula =SUM(E6:H6)]
+A7: '2013-2'
+B7: 699
+C7: 1599
+D7: 214
+E7: 465
+F7: 344
+G7: 269
+H7: 173
+I7: 1251  [formula =SUM(E7:H7)]
+A8: '2013-3'
+B8: 728
+C8: 1798
+D8: 218
+E8: 507
+F8: 369
+G8: 233
+H8: 171
+I8: 1280  [formula =SUM(E8:H8)]
+A9: '2013-4'
+B9: 757
+C9: 2344
+D9: 241
+E9: 491
+F9: 408
+G9: 292
+H9: 261
+I9: 1452  [formula =SUM(E9:H9)]
+A10: '2014-1'
+B10: 802
+C10: 2265
+D10: 237
+E10: 462
+F10: 455
+G10: 323
+H10: 187
+I10: 1427  [formula =SUM(E10:H10)]
+A11: '2014-2'
+B11: 829
+C11: 2676
+D11: 234
+E11: 473
+F11: 492
+G11: 358
+H11: 197
+I11: 1520  [formula =SUM(E11:H11)]
+A12: '2014-3'
+B12: 864
+C12: 2957
+D12: 246
+E12: 565
+F12: 608
+G12: 374
+H12: 259
+I12: 1806  [formula =SUM(E12:H12)]
+A13: '2014-4'
+B13: 890
+C13: 3594
+D13: 257
+E13: 653
+F13: 1111
+G13: 624
+H13: 330
+I13: 2718  [formula =SUM(E13:H13)]
+A14: '2015-1'
+B14: 936
+C14: 3317
+D14: 226
+E14: 654
+F14: 1062
+G14: 620
+H14: 274
+I14: 2610  [formula =SUM(E14:H14)]
+A15: '2015-2'
+B15: 968
+C15: 3827
+D15: 215
+E15: 668
+F15: 1170
+G15: 626
+H15: 305
+I15: 2769  [formula =SUM(E15:H15)]
+A16: '2015-3'
+B16: 1007
+C16: 4299
+D16: 202
+E16: 720
+F16: 1271
+G16: 706
+H16: 345
+I16: 3042  [formula =SUM(E16:H16)]
+A17: '2015-4'
+B17: 1038
+C17: 5637
+D17: 204
+E17: 824
+F17: 1314
+G17: 772
+H17: 371
+I17: 3281  [formula =SUM(E17:H17)]
+A18: '2016-1'
+B18: 1090
+C18: 5201
+D18: 181
+E18: 838
+F18: 1343
+G18: 826
+H18: 365
+I18: 3372  [formula =SUM(E18:H18)]
+A19: '2016-2'
+B19: 1128
+C19: 6239
+D19: 197
+E19: 917
+F19: 1471
+G19: 901
+H19: 413
+I19: 3702  [formula =SUM(E19:H19)]
+A20: '2016-3'
+B20: 1179
+C20: 6816
+D20: 195
+E20: 987
+F20: 1542
+G20: 926
+H20: 439
+I20: 3894  [formula =SUM(E20:H20)]
+A21: '2016-4'
+B21: 1227
+C21: 8629
+D21: 180
+E21: 1047
+F21: 1563
+G21: 1118
+H21: 515
+I21: 4243  [formula =SUM(E21:H21)]
+A22: '2017-1'
+B22: 1284
+C22: 7857
+D22: 175
+E22: 1159
+F22: 1834
+G22: 1057
+H22: 655
+I22: 4705  [formula =SUM(E22:H22)]
+A23: '2017-2'
+B23: 1325
+C23: 9164
+D23: 157
+E23: 1237
+F23: 1919
+G23: 1124
+H23: 640
+I23: 4920  [formula =SUM(E23:H23)]
+A24: '2017-3'
+B24: 1368
+C24: 10142
+D24: 186
+E24: 1448
+F24: 2052
+G24: 1170
+H24: 536
+I24: 5206  [formula =SUM(E24:H24)]
+A25: '2017-4'
+B25: 1401
+C25: 12779
+D25: 193
+E25: 1611
+F25: 1949
+G25: 1374
+H25: 686
+I25: 5620  [formula =SUM(E25:H25)]
+A26: '2018-1'
+B26: 1449
+C26: 11795
+D26: 171
+E26: 1927
+F26: 2238
+G26: 1595
+H26: 757
+I26: 6517  [formula =SUM(E26:H26)]
+A27: '2018-2'
+B27: 1471
+C27: 13038
+D27: 193
+E27: 2214
+F27: 2523
+G27: 1855
+H27: 776
+I27: 7368  [formula =SUM(E27:H27)]
+A28: '2018-3'
+B28: 1495
+C28: 13539
+D28: 188
+E28: 2418
+F28: 2657
+G28: 1928
+H28: 943
+I28: 7946  [formula =SUM(E28:H28)]
+A29: '2018-4'
+B29: 1523
+C29: 16640
+D29: 274
+E29: 2796
+F29: 2855
+G29: 2467
+H29: 976
+I29: 9094  [formula =SUM(E29:H29)]
+A30: '2019-1'
+B30: 1562
+C30: 14912
+D30: 165
+E30: 2816
+F30: 2860
+G30: 2020
+H30: 4064
+I30: 11760  [formula =SUM(E30:H30)]
+A31: '2019-2'
+B31: 1587
+C31: 16624
+D31: 262
+E31: 3307
+F31: 3315
+G31: 2414
+H31: 3224
+I31: 12260  [formula =SUM(E31:H31)]
+A32: '2019-3'
+B32: 1623
+C32: 17383
+D32: 269
+E32: 3155
+F32: 3548
+G32: 2416
+H32: 1348
+I32: 10467  [formula =SUM(E32:H32)]
+A33: '2019-4'
+B33: 1657
+C33: 20736
+D33: 346
+E33: 3492
+F33: 3877
+G33: 3026
+H33: 1829
+I33: 12224  [formula =SUM(E33:H33)]
+A34: '2020-1'
+B34: 1734
+C34: 17440
+D34: 297
+E34: 3459
+F34: 4015
+G34: 2787
+H34: 1583
+I34: 11844  [formula =SUM(E34:H34)]
+A35: '2020-2'
+B35: 1785
+C35: 18321
+D35: 366
+E35: 3829
+F35: 4462
+G35: 2840
+H35: 1593
+I35: 12724  [formula =SUM(E35:H35)]
+A36: '2020-3'
+B36: 1820
+C36: 21221
+D36: 249
+E36: 4194
+F36: 4763
+G36: 2683
+H36: 1790
+I36: 13430  [formula =SUM(E36:H36)]
+A37: '2020-4'
+B37: 1845
+C37: 27187
+D37: 885
+E37: 5210
+F37: 5207
+G37: 3281
+H37: 1598
+I37: 15296  [formula =SUM(E37:H37)]
+A38: '2021-1'
+B38: 1878
+C38: 25439
+D38: 732
+E38: 5131
+F38: 5197
+G38: 2843
+H38: 1622
+I38: 14793  [formula =SUM(E38:H38)]
+A39: '2021-2'
+B39: 1908
+C39: 28580
+D39: 497
+E39: 5399
+F39: 6096
+G39: 3259
+H39: 1956
+I39: 16710  [formula =SUM(E39:H39)]
+A40: '2021-3'
+B40: 1930
+C40: 28276
+D40: 734
+E40: 5771
+F40: 6316
+G40: 3554
+H40: 2946
+I40: 18587  [formula =SUM(E40:H40)]
+A41: '2021-4'
+B41: 1929
+C41: 32639
+D41: 1032
+E41: 6348
+F41: 7046
+G41: 4387
+H41: 3305
+I41: 21086  [formula =SUM(E41:H41)]
+A42: '2022-1'
+B42: 1960
+C42: 26998
+D42: 910
+E42: 6005
+F42: 7707
+G42: 3312
+H42: 2360
+I42: 19384  [formula =SUM(E42:H42)]
+A43: '2022-2'
+B43: 1970  [comment: 'Source: Meta Platforms Form 10-Q, Q2 2022 ("Facebook DAUs were 1.97 billion on average for June 2022"), https://www.sec.gov/Archives/edgar/data/1326801/000132680122000082/meta-20220630.htm']
+C43: 28152  [comment: 'Source: Meta Platforms Form 10-Q, Q2 2022, revenue by source (Advertising, 3 months ended 6/30/22), https://www.sec.gov/Archives/edgar/data/1326801/000132680122000082/meta-20220630.htm']
+D43: 670  [formula =28822-C43]  [comment: 'Total revenue $28,822M less advertising. Source: Meta Platforms Form 10-Q, Q2 2022, Income Statement, https://www.sec.gov/Archives/edgar/data/1326801/000132680122000082/meta-20220630.htm']
+E43: 5192  [comment: 'Source: Meta Platforms Form 10-Q, Q2 2022, Income Statement, https://www.sec.gov/Archives/edgar/data/1326801/000132680122000082/meta-20220630.htm']
+F43: 8690  [comment: 'Source: Meta Platforms Form 10-Q, Q2 2022, Income Statement, https://www.sec.gov/Archives/edgar/data/1326801/000132680122000082/meta-20220630.htm']
+G43: 3595  [comment: 'Source: Meta Platforms Form 10-Q, Q2 2022, Income Statement (Marketing and sales), https://www.sec.gov/Archives/edgar/data/1326801/000132680122000082/meta-20220630.htm']
+H43: 2987  [comment: 'Source: Meta Platforms Form 10-Q, Q2 2022, Income Statement, https://www.sec.gov/Archives/edgar/data/1326801/000132680122000082/meta-20220630.htm']
+I43: 20464  [formula =SUM(E43:H43)]
+## SHEET: Data - TWTR (43 rows x 9 cols)
+A1: 'Twitter'
+B2: 'Users'
+C2: 'Revenue'
+E2: 'Expenses'
+I2: 'Total Expense'
+A3: 'Quarter'
+B3: 'Daily Active Users (millions)'
+C3: 'Advertising Revenue (millions)'
+D3: 'Data Licensing (millions)'
+E3: 'Cost of Revenue (millions)'
+F3: 'R&D (millions)'
+G3: 'Sales & Marketing (millions)'
+H3: 'General & Administrative (millions)'
+I3: 'Operating Expenses (millions)'
+A4: '2012-3'
+A5: '2012-4'
+A6: '2013-1'
+A7: '2013-2'
+A8: '2013-3'
+A9: '2013-4'
+A10: '2014-1'
+B10: 78
+C10: 226.051
+D10: 24.441
+E10: 85.503
+F10: 149.391
+G10: 106.235
+H10: 38.734
+I10: 379.863  [formula =SUM(E10:H10)]
+A11: '2014-2'
+B11: 83
+C11: 277.44
+D11: 34.726
+E11: 100.027
+F11: 177.095
+G11: 140.261
+H11: 44.694
+I11: 462.07700000000006  [formula =SUM(E11:H11)]
+A12: '2014-3'
+B12: 87
+C12: 320.196
+D12: 41.07
+E12: 124.166
+F12: 183.342
+G12: 164.015
+H12: 51.174
+I12: 522.697  [formula =SUM(E12:H12)]
+A13: '2014-4'
+B13: 89
+C13: 432.001
+D13: 47.077
+E13: 136.613
+F13: 181.715
+G13: 203.599
+H13: 55.304
+I13: 577.2309999999999  [formula =SUM(E13:H13)]
+A14: '2015-1'
+B14: 93
+C14: 388.211
+D14: 47.728
+E14: 143.475
+F14: 189.746
+G14: 183.557
+H14: 65.777
+I14: 582.5550000000001  [formula =SUM(E14:H14)]
+A15: '2015-2'
+B15: 97
+C15: 452.278
+D15: 50.105
+E15: 167.623
+F15: 198.907
+G15: 201.948
+H15: 64.909
+I15: 633.387  [formula =SUM(E15:H15)]
+A16: '2015-3'
+B16: 94
+C16: 512.867
+D16: 56.37
+E16: 200.195
+F16: 207.937
+G16: 208.797
+H16: 57.545
+I16: 674.4739999999999  [formula =SUM(E16:H16)]
+A17: '2015-4'
+B17: 94
+C17: 640.68
+D17: 69.793
+E17: 217.963
+F17: 210.058
+G17: 277.189
+H17: 72.442
+I17: 777.652  [formula =SUM(E17:H17)]
+A18: '2016-1'
+B18: 95
+C18: 530.741
+D18: 63.78
+E18: 198.405
+F18: 155.794
+G18: 236.171
+H18: 63.267
+I18: 653.6370000000001  [formula =SUM(E18:H18)]
+A19: '2016-2'
+B19: 98
+C19: 534.524
+D19: 67.434
+E19: 202.966
+F19: 178.511
+G19: 236.619
+H19: 70.238
+I19: 688.3340000000001  [formula =SUM(E19:H19)]
+A20: '2016-3'
+B20: 100
+C20: 544.966
+D20: 70.968
+E20: 225.159
+F20: 177.049
+G20: 224.436
+H20: 67.379
+I20: 694.023  [formula =SUM(E20:H20)]
+A21: '2016-4'
+B21: 103
+C21: 637.821
+D21: 79.385
+E21: 305.71
+F21: 202.128
+G21: 260.603
+H21: 92.392
+I21: 860.8330000000001  [formula =SUM(E21:H21)]
+A22: '2017-1'
+B22: 109
+C22: 473.78
+D22: 74.471
+E22: 220.339
+F22: 128.728
+G22: 169.594
+H22: 69.868
+I22: 588.529  [formula =SUM(E22:H22)]
+A23: '2017-2'
+B23: 110
+C23: 489.148
+D23: 84.707
+E23: 212.908
+F23: 143.171
+G23: 185.296
+H23: 70.839
+I23: 612.2139999999999  [formula =SUM(E23:H23)]
+A24: '2017-3'
+B24: 114
+C24: 502.802
+D24: 86.831
+E24: 210.016
+F24: 136.115
+G24: 172.957
+H24: 63.266
+I24: 582.3539999999999  [formula =SUM(E24:H24)]
+A25: '2017-4'
+B25: 115
+C25: 644.257
+D25: 87.303
+E25: 217.979
+F25: 133.996
+G25: 189.572
+H25: 79.915
+I25: 621.462  [formula =SUM(E25:H25)]
+A26: '2018-1'
+B26: 120
+C26: 575.156
+D26: 89.715
+E26: 222.823
+F26: 123.346
+G26: 178.059
+H26: 65.718
+I26: 589.9459999999999  [formula =SUM(E26:H26)]
+A27: '2018-2'
+B27: 122
+C27: 601.06
+D27: 109.481
+E27: 230.185
+F27: 138.574
+G27: 188.032
+H27: 74.126
+I27: 630.917  [formula =SUM(E27:H27)]
+A28: '2018-3'
+B28: 124
+C28: 649.816
+D28: 108.295
+E28: 243.644
+F28: 150.764
+G28: 193.496
+H28: 78.339
+I28: 666.2429999999999  [formula =SUM(E28:H28)]
+A29: '2018-4'
+B29: 126
+C29: 791.365
+D29: 117.471
+E29: 268.345
+F29: 141.174
+G29: 211.774
+H29: 80.635
+I29: 701.928  [formula =SUM(E29:H29)]
+A30: '2019-1'
+B30: 134
+C30: 679.466
+D30: 107.424
+E30: 264.011
+F30: 146.246
+G30: 205.799
+H30: 77.176
+I30: 693.2320000000001  [formula =SUM(E30:H30)]
+A31: '2019-2'
+B31: 139
+C31: 727.123
+D31: 114.258
+E31: 277.965
+F31: 159.242
+G31: 240.249
+H31: 88.239
+I31: 765.695  [formula =SUM(E31:H31)]
+A32: '2019-3'
+B32: 145
+C32: 702.257
+D32: 121.46
+E32: 281.057
+F32: 178.553
+G32: 226.204
+H32: 93.758
+I32: 779.5720000000001  [formula =SUM(E32:H32)]
+A33: '2019-4'
+B33: 152
+C33: 884.546
+D33: 122.795
+E33: 314.008
+F33: 198.24
+G33: 241.561
+H33: 100.648
+I33: 854.4570000000001  [formula =SUM(E33:H33)]
+A34: '2020-1'
+B34: 166
+C34: 682.192
+D34: 125.445
+E34: 284.037
+F34: 200.388
+G34: 221.287
+H34: 109.368
+I34: 815.0799999999999  [formula =SUM(E34:H34)]
+A35: '2020-2'
+B35: 186
+C35: 561.994
+D35: 121.444
+E35: 288.039
+F35: 215.806
+G35: 207.286
+H35: 246.237
+I35: 957.368  [formula =SUM(E35:H35)]
+A36: '2020-3'
+B36: 187
+C36: 808.449
+D36: 127.784
+E36: 361.388
+F36: 208.877
+G36: 215.285
+H36: 94.576
+I36: 880.126  [formula =SUM(E36:H36)]
+A37: '2020-4'
+B37: 190.9
+C37: 1154.7569999999996
+D37: 133.92399999999998
+E37: 432.924
+F37: 247.93999999999994
+G37: 244.00200000000007
+H37: 112.25099999999998
+I37: 1037.117
+A38: '2021-1'
+B38: 197.6
+C38: 898.84
+D38: 137.178
+E38: 381.008
+F38: 250.7
+G38: 234.592
+H38: 117.527
+I38: 983.827
+A39: '2021-2'
+B39: 204
+C39: 1053.411
+D39: 137.016
+E39: 416.932
+F39: 299.859
+G39: 301.902
+H39: 141.482
+I39: 1160.175
+A40: '2021-3'
+B40: 209.3
+C40: 1140.504
+D40: 143.313
+E40: 484.479
+F40: 324.252
+G40: 301.078
+H40: 150.855
+I40: 1260.664
+A41: '2021-4'
+B41: 214.7
+C41: 1412.937
+D41: 154.28300000000002
+E41: 515.0909999999999
+F41: 371.89300000000003
+G41: 338.37800000000004
+H41: 174.47199999999998
+I41: 1399.834
+A42: '2022-1'
+B42: 229
+C42: 1106.578
+D42: 94.406
+E42: 507.45
+F42: 371.695
+G42: 299.809
+H42: 149.863
+I42: 1328.817
+A43: '2022-2'
+B43: 237.8  [comment: 'Source: Twitter Form 10-Q, Q2 2022 (average mDAU 237.8 million), https://www.sec.gov/Archives/edgar/data/1418091/000141809122000147/twtr-20220630.htm']
+C43: 1076.003  [comment: 'Source: Twitter Form 10-Q, Q2 2022, Advertising services revenue ($1,076,003K), https://www.sec.gov/Archives/edgar/data/1418091/000141809122000147/twtr-20220630.htm']
+D43: 100.657  [comment: 'Source: Twitter Form 10-Q, Q2 2022, Subscription and other revenue ($100,657K), https://www.sec.gov/Archives/edgar/data/1418091/000141809122000147/twtr-20220630.htm']
+E43: 540.676  [comment: 'Source: Twitter Form 10-Q, Q2 2022, Income Statement ($540,676K), https://www.sec.gov/Archives/edgar/data/1418091/000141809122000147/twtr-20220630.htm']
+F43: 454.859  [comment: 'Source: Twitter Form 10-Q, Q2 2022, Income Statement ($454,859K), https://www.sec.gov/Archives/edgar/data/1418091/000141809122000147/twtr-20220630.htm']
+G43: 308.301  [comment: 'Source: Twitter Form 10-Q, Q2 2022, Income Statement ($308,301K), https://www.sec.gov/Archives/edgar/data/1418091/000141809122000147/twtr-20220630.htm']
+H43: 216.586  [comment: 'Source: Twitter Form 10-Q, Q2 2022, Income Statement ($216,586K), https://www.sec.gov/Archives/edgar/data/1418091/000141809122000147/twtr-20220630.htm']
+I43: 1520.422  [formula =SUM(E43:H43)]
+## SHEET: Data - SNAP (43 rows x 8 cols)
+A1: 'Snapchat'
+B2: 'Users'
+C2: 'Revenue'
+D2: 'Expenses'
+H2: 'Total Expense'
+A3: 'Quarter'
+B3: 'Daily Active Users (millions)'
+C3: 'Advertising Revenue (millions)'
+D3: 'Cost of Revenue (millions)'
+E3: 'R&D (millions)'
+F3: 'Sales & Marketing (millions)'
+G3: 'General & Administrative (millions)'
+H3: 'Operating Expenses (millions)'
+A4: '2012-3'
+A5: '2012-4'
+A6: '2013-1'
+A7: '2013-2'
+A8: '2013-3'
+A9: '2013-4'
+A10: '2014-1'
+A11: '2014-2'
+A12: '2014-3'
+A13: '2014-4'
+A14: '2015-1'
+A15: '2015-2'
+A16: '2015-3'
+A17: '2015-4'
+A18: '2016-1'
+A19: '2016-2'
+A20: '2016-3'
+A21: '2016-4'
+A22: '2017-1'
+A23: '2017-2'
+B23: 173
+C23: 181.671
+D23: 152.148
+E23: 255.735
+F23: 90.903
+G23: 131.903
+H23: 630.6890000000001  [formula =SUM(D23:G23)]
+A24: '2017-3'
+B24: 178
+C24: 207.937
+D24: 210.71
+E24: 239.442
+F24: 101.511
+G24: 118.101
+H24: 669.764  [formula =SUM(D24:G24)]
+A25: '2017-4'
+B25: 187
+C25: 285.693
+D25: 191.246
+E25: 233.838
+F25: 110.458
+G25: 111.115
+H25: 646.657  [formula =SUM(D25:G25)]
+A26: '2018-1'
+B26: 191
+C26: 230.666
+D26: 196.798
+E26: 200.986
+F26: 102.113
+G26: 123.299
+H26: 623.196  [formula =SUM(D26:G26)]
+A27: '2018-2'
+B27: 188
+C27: 262.263
+D27: 191.565
+E27: 203.246
+F27: 101.685
+G27: 123.609
+H27: 620.105  [formula =SUM(D27:G27)]
+A28: '2018-3'
+B28: 186
+C28: 297.695
+D28: 197.554
+E28: 203.51
+F28: 97.552
+G28: 122.45
+H28: 621.066  [formula =SUM(D28:G28)]
+A29: '2018-4'
+B29: 186
+C29: 389.822
+D29: 212.948
+E29: 164.443
+F29: 99.474
+G29: 107.664
+H29: 584.529  [formula =SUM(D29:G29)]
+A30: '2019-1'
+B30: 190
+C30: 320.426
+D30: 203.767
+E30: 216.185
+F30: 97.882
+G30: 118.653
+H30: 636.4870000000001  [formula =SUM(D30:G30)]
+A31: '2019-2'
+B31: 203
+C31: 388.021
+D31: 215.492
+E31: 236.199
+F31: 111.504
+G31: 129.644
+H31: 692.839  [formula =SUM(D31:G31)]
+A32: '2019-3'
+B32: 210
+C32: 446.199
+D32: 223.14
+E32: 211.599
+F32: 123.24
+G32: 117.073
+H32: 675.0519999999999  [formula =SUM(D32:G32)]
+A33: '2019-4'
+B33: 218
+C33: 560.888
+D33: 253.439
+E33: 219.526
+F33: 125.972
+G33: 215.547
+H33: 814.484  [formula =SUM(D33:G33)]
+A34: '2020-1'
+B34: 229
+C34: 462.478
+D34: 253.41
+E34: 238.613
+F34: 122.205
+G34: 134.614
+H34: 748.8420000000001  [formula =SUM(D34:G34)]
+A35: '2020-2'
+B35: 238
+C35: 454.158
+D35: 250.454
+E35: 260.863
+F35: 132.118
+G35: 121.331
+H35: 764.766  [formula =SUM(D35:G35)]
+A36: '2020-3'
+B36: 249
+C36: 678.668
+D36: 293.095
+E36: 283.639
+F36: 143.511
+G36: 126.287
+H36: 846.532  [formula =SUM(D36:G36)]
+A37: '2020-4'
+B37: 265
+C37: 911.3220000000001  [formula =2506.626-SUM(C34:C36)]
+D37: 385.54600000000005  [formula =1182.505-SUM(D34:D36)]
+E37: 318.4459999999999  [formula =1101.561-SUM(E34:E36)]
+F37: 157.63400000000001  [formula =555.468-SUM(F34:F36)]
+G37: 146.93200000000002  [formula =529.164-SUM(G34:G36)]
+H37: 1008.558  [formula =SUM(D37:G37)]
+A38: '2021-1'
+B38: 280
+C38: 769.584
+D38: 420.897
+E38: 455.563
+F38: 241.886
+G38: 215.908
+H38: 1334.254  [formula =SUM(D38:G38)]
+A39: '2021-2'
+B39: 293
+C39: 982.108
+D39: 445.021
+E39: 370.671
+F39: 179.724
+G39: 179.204
+H39: 1174.62  [formula =SUM(D39:G39)]
+A40: '2021-3'
+B40: 306
+C40: 1067.471
+D40: 443.473
+E40: 412.021
+F40: 217.526
+G40: 175.275
+H40: 1248.295  [formula =SUM(D40:G40)]
+A41: '2021-4'
+B41: 319
+C41: 1297.8849999999998  [formula =4117.048-SUM(C38:C40)]
+D41: 440.855  [formula =1750.246-SUM(D38:D40)]
+E41: 327.2120000000002  [formula =1565.467-SUM(E38:E40)]
+F41: 153.62800000000004  [formula =792.764-SUM(F38:F40)]
+G41: 140.25300000000004  [formula =710.64-SUM(G38:G40)]
+H41: 1061.9480000000003  [formula =SUM(D41:G41)]
+A42: '2022-1'
+B42: 332
+C42: 1062.727
+D42: 420.897
+E42: 455.563
+F42: 241.886
+G42: 215.908
+H42: 1334.254  [formula =SUM(D42:G42)]
+A43: '2022-2'
+B43: 347  [comment: 'Source: Snap Inc. Form 10-Q, Q2 2022 (DAUs 347 million), https://www.sec.gov/Archives/edgar/data/1564408/000156459022026210/snap-10q_20220630.htm']
+C43: 1110.909  [comment: 'Source: Snap Inc. Form 10-Q, Q2 2022, Income Statement, Revenue ($1,110,909K), https://www.sec.gov/Archives/edgar/data/1564408/000156459022026210/snap-10q_20220630.htm']
+D43: 446.377  [comment: 'Source: Snap Inc. Form 10-Q, Q2 2022, Income Statement ($446,377K), https://www.sec.gov/Archives/edgar/data/1564408/000156459022026210/snap-10q_20220630.htm']
+E43: 505.037  [comment: 'Source: Snap Inc. Form 10-Q, Q2 2022, Income Statement ($505,037K), https://www.sec.gov/Archives/edgar/data/1564408/000156459022026210/snap-10q_20220630.htm']
+F43: 311.374  [comment: 'Source: Snap Inc. Form 10-Q, Q2 2022, Income Statement ($311,374K), https://www.sec.gov/Archives/edgar/data/1564408/000156459022026210/snap-10q_20220630.htm']
+G43: 249.061  [comment: 'Source: Snap Inc. Form 10-Q, Q2 2022, Income Statement ($249,061K), https://www.sec.gov/Archives/edgar/data/1564408/000156459022026210/snap-10q_20220630.htm']
+H43: 1511.849  [formula =SUM(D43:G43)]

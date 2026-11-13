@@ -1,0 +1,310 @@
+[
+ {
+  "id": "S15-06-q001",
+  "los": [
+   "S15-06"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Value marginal product of labor equals:",
+  "choices": [
+   "Wage × marginal product of labor",
+   "Wage ÷ marginal product of labor",
+   "Price of output × marginal product of labor",
+   "Price of output × total product"
+  ],
+  "answer": 2,
+  "explain": "VMP_L = P × MP_L, the dollar value of what the last worker adds. Price times total product is total revenue (the J Dawgs 'total value of output'). The wage is the cost side, not part of VMP.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-06-q002",
+  "los": [
+   "S15-06"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: Value marginal product is on the equation sheet.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 1,
+  "explain": "False. The sheet has MP but not VMP. Memorize VMP_L = P × MP_L.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-06-q003",
+  "los": [
+   "S15-06",
+   "S15-10"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "In the J Dawgs solution, the VMP_L column is labeled MB. Why?",
+  "choices": [
+   "It is the marginal benefit of hiring one more worker",
+   "It is the benefit of the first worker only",
+   "It is the minimum benefit of the whole workforce",
+   "It is the marginal budget for labor"
+  ],
+  "answer": 0,
+  "explain": "VMP is the extra revenue the next worker brings in, the marginal benefit of hiring. The wage is the marginal cost (MC).",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-06-q004",
+  "los": [
+   "S15-06"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: If the price of the product rises, every worker's value marginal product rises.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explain": "True. VMP = P × MP, and MP does not depend on the price, so a higher P scales up every VMP.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-06-q005",
+  "los": [
+   "S15-06"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: A higher wage lowers each worker's value marginal product.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 1,
+  "explain": "False. VMP = P × MP does not include the wage. A higher wage changes the cost of a worker, not the value of what they produce.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-06-q006",
+  "los": [
+   "S15-06"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Use the table. Each loaf sells for $2.\n\n| Labor (L) | Output (Q) |\n|---|---|\n| 0 | 0 |\n| 1 | 10 |\n| 2 | 25 |\n| 3 | 45 |\n| 4 | 60 |\n| 5 | 70 |\n| 6 | 75 |\n| 7 | 76 |\n| 8 | 74 |\n\nWhat is the value marginal product of the 3rd worker?",
+  "answer": 40,
+  "unit": "$",
+  "tol": 0.01,
+  "explain": "MP of the 3rd worker = 45 - 25 = 20 loaves. VMP = $2 × 20 = $40. Using total product (2 × 45 = $90) gives total value of output, not VMP.",
+  "verify": {
+   "f": "table_vmp",
+   "L": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "Q": [
+    0,
+    10,
+    25,
+    45,
+    60,
+    70,
+    75,
+    76,
+    74
+   ],
+   "at": 3,
+   "P": 2
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-06-q007",
+  "los": [
+   "S15-06"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Use the J Dawgs table. Hot dogs sell for $4.\n\n| Labor (L) | Output (Q) |\n|---|---|\n| 0 | 0 |\n| 1 | 7 |\n| 2 | 19 |\n| 3 | 33 |\n| 4 | 46 |\n| 5 | 55 |\n| 6 | 57 |\n| 7 | 49 |\n| 8 | 28 |\n\nWhat is the value marginal product of the 5th worker?",
+  "answer": 36,
+  "unit": "$",
+  "tol": 0.01,
+  "explain": "MP = 55 - 46 = 9 hot dogs. VMP = $4 × 9 = $36, matching the professor's solution sheet.",
+  "verify": {
+   "f": "table_vmp",
+   "L": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "Q": [
+    0,
+    7,
+    19,
+    33,
+    46,
+    55,
+    57,
+    49,
+    28
+   ],
+   "at": 5,
+   "P": 4
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-06-q008",
+  "los": [
+   "S15-06"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Use the table. A car wash sells for $15.\n\n| Labor (L) | Output (Q) |\n|---|---|\n| 0 | 0 |\n| 1 | 8 |\n| 2 | 20 |\n| 3 | 36 |\n| 4 | 48 |\n| 5 | 56 |\n| 6 | 60 |\n| 7 | 58 |\n\nWhat is the value marginal product of the 4th worker?",
+  "answer": 180,
+  "unit": "$",
+  "tol": 0.01,
+  "explain": "MP = 48 - 36 = 12 washes. VMP = $15 × 12 = $180.",
+  "verify": {
+   "f": "table_vmp",
+   "L": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "Q": [
+    0,
+    8,
+    20,
+    36,
+    48,
+    56,
+    60,
+    58
+   ],
+   "at": 4,
+   "P": 15
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-06-q009",
+  "los": [
+   "S15-06",
+   "S15-09"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "\\(Q = 2K^{0.5}L^{0.5}\\) with K = 9 and L = 36. Output sells for $50. What is the value marginal product of labor?",
+  "answer": 25.0,
+  "unit": "$",
+  "tol": 0.01,
+  "explain": "MP_L = 2 × 0.5 × K^0.5 × L^-0.5 = √9 / √36 = 3 / 6 = 0.5. VMP = $50 × 0.5 = $25.",
+  "verify": {
+   "f": "cd_vmp",
+   "A": 2,
+   "a": 0.5,
+   "b": 0.5,
+   "K": 9,
+   "L": 36,
+   "P": 50
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-06-q010",
+  "los": [
+   "S15-06"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A bakery's 6th baker adds 30 loaves a day. Loaves sell for $3 and bakers earn $100 a day. What is the 6th baker's VMP, and should the bakery keep that baker?",
+  "choices": [
+   "$90; no, the baker adds less value than the $100 wage",
+   "$3,000; yes",
+   "$90; yes, because VMP is positive",
+   "$300; yes"
+  ],
+  "answer": 0,
+  "explain": "VMP = $3 × 30 = $90, which is below the $100 wage, so that baker loses the firm $10 a day. A positive VMP is not enough; it must cover the wage.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-06-q011",
+  "los": [
+   "S15-06"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "The price of a firm's product doubles. Holding the wage fixed, what happens to its value marginal product curve and hiring?",
+  "choices": [
+   "VMP doubles at every L, so the firm hires more workers",
+   "VMP is unchanged, so hiring is unchanged",
+   "VMP halves, so the firm hires fewer",
+   "MP doubles, so VMP quadruples"
+  ],
+  "answer": 0,
+  "explain": "VMP = P × MP, so doubling P doubles VMP for every worker. More workers now satisfy VMP ≥ w. MP depends on technology, not price.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-06-q012",
+  "los": [
+   "S15-06"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Which pair of numbers does a manager compare when deciding whether to add one more worker?",
+  "choices": [
+   "The worker's VMP and the wage",
+   "Average product and the wage",
+   "Total revenue and total cost",
+   "The worker's MP and the wage"
+  ],
+  "answer": 0,
+  "explain": "Compare dollars to dollars: VMP (marginal benefit) and the wage (marginal cost). MP is in units, so comparing it to a dollar wage is a units error.",
+  "source": "generated",
+  "verbatim": false
+ }
+]

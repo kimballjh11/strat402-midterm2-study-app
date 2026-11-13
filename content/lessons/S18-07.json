@@ -1,0 +1,34 @@
+{
+ "id": "S18-07",
+ "title": "First-mover advantage",
+ "calc": false,
+ "plain": "A **first-mover advantage** is the benefit a firm gets from being first: entering a market, setting capacity, or choosing a strategy before rivals can. The first mover gets to shape the game the others face.\n\n**Where it comes from:**\n- **Commitment** (textbook Module 3): moving first and committing, for example by building big capacity, forces rivals to respond to what you already did. The textbook shows that turning a simultaneous game into a sequential one can raise the leader's payoff. The commitment only works if it is **irreversible** and **observable** to rivals. You will see this again in game theory (S19, S20) and Stackelberg oligopoly.\n- **Network effects and lock-in** (Module 4): the first network to reach critical mass keeps its users even when a better one arrives. eBay's first-mover advantage beat Yahoo! auctions even though Yahoo! offered free listings.\n- **Learning curves**: the first mover has the most cumulative output and the lowest costs.\n- **Closing the door behind you** (Strategies to Crack Well-Guarded Markets): once in, an entrant should erect its own barriers: go mainstream quickly, secure scarce inputs or locations, invest preemptively in capacity, generate network effects, or race down the experience curve. JetBlue bought up Embraer's manufacturing capacity for two years when it launched its new jet service. Red Bull did not close the door, and more than 150 me-too brands followed.\n- In the Barriers to Entry exercise, Meta's head start (daily users before Twitter and Snapchat reported any) fed its network and learning advantages.\n\n**Second-mover advantage.** Moving first is not always better. A follower can free-ride on the leader's research and customer education, learn from its mistakes and enter with a better or cheaper product. The textbook's Metaverse example: being first means burning money on trial and error.",
+ "why": "Practice exam Q13 is mapped to this objective. It connects barriers to entry to the game theory sessions that follow.",
+ "definition": "First-mover advantage: the advantage a firm gains by moving (entering, committing, choosing) before its rivals, which lets it shape their best responses.",
+ "formulas": [],
+ "derivation": "",
+ "math": [],
+ "worked": [
+  {
+   "title": "Leader or follower (textbook Table M3-1)",
+   "problem": "Firms A and B each choose Low or High output. Payoffs (A, B): Low/Low (30, 10), Low/High (10, 15), High/Low (20, 5), High/High (1, 2). Simultaneously, Low is A's best choice either way, so B picks High: A gets 10. What happens if A moves first and B sees A's choice?",
+   "steps": [
+    "If A picks Low, B compares 10 vs 15 and picks High: A gets 10.",
+    "If A picks High, B compares 5 vs 2 and picks Low: A gets 20.",
+    "A picks High."
+   ],
+   "answer": "Moving first raises A's payoff from 10 to 20: a first-mover advantage. B falls from 15 to 5."
+  }
+ ],
+ "traps": [
+  "A first-mover advantage needs a commitment rivals can SEE and that cannot be UNDONE. A cheap promise is not a commitment.",
+  "Sometimes the second mover wins (free-riding on the leader's R&D). Do not assume first is always better.",
+  "First-mover advantage often works THROUGH other barriers: network lock-in, learning curves, scarce inputs."
+ ],
+ "sources": {
+  "slides": "S18 Barriers to Entry (study guide objective)",
+  "read": "Module Group A Module 3; Strategies to Crack Well-Guarded Markets (closing the door)",
+  "exercise": "Barriers to Entry Exercise",
+  "quiz": "Practice exam Q13"
+ }
+}

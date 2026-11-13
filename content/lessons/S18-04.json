@@ -1,0 +1,76 @@
+{
+ "id": "S18-04",
+ "title": "Network effects",
+ "calc": true,
+ "plain": "A product has **network effects** when it becomes more valuable to each user as more people use it. A phone is useless if no one else has one. A classifieds site is worth visiting only if sellers are there, and worth listing on only if buyers are there.\n\n**Why it is a barrier.** An incumbent with a big network offers more value than any newcomer can, even if the newcomer's product is better, because the newcomer starts with no users. Users stay put because switching alone gains nothing; everyone would have to move together. The textbook calls this **consumer lock-in**.\n\n**Slide examples:**\n- **KSL Classifieds** (p. 39): a Utah site owned by the Church defeated Craigslist in Utah. Once the local buyers and sellers were on KSL, Craigslist could not pull them away.\n- **Google** (p. 40): more searchers attract more advertisers, which raises revenue per user. In class this was the answer to why Google commands higher advertising revenue per user (Comprehension Quiz 8 Q3: network effects).\n\n**The Barriers to Entry exercise.** Meta, Twitter and Snapchat, 2022 Q2 (computed from the exercise data):\n\n| 2022 Q2 | Daily active users (millions) | Ad revenue ($ millions) | Ad revenue per user | Operating expense per user | Profit per user |\n|---|---|---|---|---|---|\n| Meta (Facebook) | 1,970 | 28,152 | $14.29 | $10.39 | $3.90 |\n| Twitter | 237.8 | 1,076 | $4.52 | $6.39 | -$1.87 |\n| Snapchat | 347 | 1,111 | $3.20 | $4.36 | -$1.16 |\n\nMeta earns about three times the ad revenue per user of Twitter and four times Snapchat's. The more people on the platform, the more data Meta has for targeting and the more advertisers want to reach them, so each user is worth more.\n\n**Textbook ideas (Module 4):**\n- A two-way network with n users has \\(n(n-1)\\) possible connections. Adding one user adds \\(2n\\) connections, which benefits every existing user.\n- **Critical mass**: the number of users needed before the network is attractive enough to keep growing on its own.\n- To overcome an incumbent's network, an entrant can use **penetration pricing** (S18-08): price very low or free to reach critical mass (Reading Quiz Q5).",
+ "why": "Network effects drive the Meta exercise, Reading Quiz Q5 and Comprehension Quiz 8 Q3, and they explain why platforms are so hard to enter.",
+ "definition": "Network effects exist when the value of a product to each user increases as more people use it.",
+ "formulas": [
+  {
+   "name": "Revenue per user",
+   "tex": "\\frac{\\text{Ad revenue}}{\\text{Users}}",
+   "onSheet": false
+  },
+  {
+   "name": "Profit per user",
+   "tex": "\\frac{\\text{Revenue}}{\\text{Users}} - \\frac{\\text{Operating expense}}{\\text{Users}}",
+   "onSheet": false
+  },
+  {
+   "name": "Connections in a two-way network",
+   "tex": "n(n-1)",
+   "onSheet": false,
+   "note": "Textbook Module 4. A new user adds 2n."
+  }
+ ],
+ "derivation": "Each of the n users can connect to each of the other \\(n - 1\\), and a connection from A to B is counted separately from B to A, so there are \\(n(n-1)\\). With \\(n + 1\\) users: \\((n+1)n - n(n-1) = n^2 + n - n^2 + n = 2n\\) new connections.",
+ "math": [
+  {
+   "title": "Per-unit numbers and percent of sales",
+   "body": "Per user (or per unit) means divide the total by the count: ad revenue per user = ad revenue / users. Percent of sales means divide a cost by revenue: \\(\\frac{21{,}086}{33{,}671} = 0.626 = 62.6\\%\\). Keep the units straight: if revenue is in millions of dollars and users are in millions, the result is dollars per user."
+  }
+ ],
+ "worked": [
+  {
+   "title": "Meta's revenue per user",
+   "problem": "In 2022 Q2 Meta had 1,970 million daily users, $28,152 million of ad revenue and $20,464 million of operating expense. Find ad revenue, cost and profit per user.",
+   "steps": [
+    "Ad revenue per user = 28,152 / 1,970 = $14.29.",
+    "Operating expense per user = 20,464 / 1,970 = $10.39.",
+    "Profit per user = 14.29 - 10.39 = $3.90 (this uses ad revenue only, as in Table 1 of the exercise)."
+   ],
+   "answer": "$14.29 revenue, $10.39 cost, $3.90 profit per user. Twitter's profit per user was -$1.87."
+  },
+  {
+   "title": "Counting connections",
+   "problem": "A messaging network has 10 users. How many possible connections? How many does an 11th user add?",
+   "steps": [
+    "\\(10 \\times 9 = 90\\).",
+    "New user adds \\(2 \\times 10 = 20\\); check: \\(11 \\times 10 = 110 = 90 + 20\\)."
+   ],
+   "answer": "90 connections; the 11th user adds 20."
+  }
+ ],
+ "graph": {
+  "component": "scale",
+  "params": {
+   "view": "network",
+   "k": 0.2,
+   "price": 40,
+   "N": 600
+  },
+  "caption": "Each user's value rises with the number of users. Below critical mass the network stalls; above it, it grows on its own. An entrant starts at zero users."
+ },
+ "traps": [
+  "Network effects raise value to USERS as the network grows. Economies of scale lower the FIRM's average cost as output grows. Meta has both; the exercise ties its REVENUE advantage to network effects and its COST advantage to scale.",
+  "A better product does not beat a big network by itself; users are locked in.",
+  "Penetration pricing is the entrant's tool against network effects; predatory pricing is not (it targets a rival, below cost).",
+  "Count connections as n(n - 1), not n squared."
+ ],
+ "sources": {
+  "slides": "S18 Barriers to Entry pp. 39 to 40",
+  "read": "Module Group A Module 4",
+  "exercise": "Barriers to Entry Exercise steps 2 to 5",
+  "quiz": "Reading Quiz Q5; Comprehension Quiz 8 Q3"
+ }
+}

@@ -1,0 +1,300 @@
+[
+ {
+  "id": "S22-03-q001",
+  "los": [
+   "S22-03"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Bryce's first question for determining market structure is:",
+  "choices": [
+   "What is the interest rate?",
+   "Who moved first?",
+   "What is the HHI?",
+   "How many firms are meaningfully engaged in direct competition?"
+  ],
+  "answer": 3,
+  "explain": "Bryce p. 9.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S22-03-q002",
+  "los": [
+   "S22-03"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Bryce's second question asks:",
+  "choices": [
+   "Are prices regulated?",
+   "What percentage of the firms' target customer base overlaps?",
+   "How old is the industry?",
+   "What is each firm's marginal cost?"
+  ],
+  "answer": 1,
+  "explain": "Bryce p. 10.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S22-03-q003",
+  "los": [
+   "S22-03"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Bryce's third question, which identifies the type of competition, asks:",
+  "choices": [
+   "What is the market's growth rate?",
+   "How many firms are there?",
+   "Who is the leader?",
+   "What is the primary strategic variable?"
+  ],
+  "answer": 3,
+  "explain": "Bryce p. 10: price, programs, features, lead time, or quantity.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S22-03-q004",
+  "los": [
+   "S22-03"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Which combination identifies standard Bertrand?",
+  "choices": [
+   "Quantity competition, homogeneous goods",
+   "Price competition, differentiated goods",
+   "One firm commits output first",
+   "Price competition, homogeneous goods, buyers see all prices"
+  ],
+  "answer": 3,
+  "explain": "Bryce's Figure 1.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S22-03-q005",
+  "los": [
+   "S22-03"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Which combination identifies differentiated Bertrand?",
+  "choices": [
+   "Quantity competition with identical goods",
+   "Lead time competition",
+   "Price competition with moderately differentiated goods",
+   "Perfect competition"
+  ],
+  "answer": 2,
+  "explain": "Bryce's Figure 1.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S22-03-q006",
+  "los": [
+   "S22-03"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: Defining a market too broadly (for example, all gas stations in a large city) can hide the real oligopoly at local intersections.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explain": "True (Bryce p. 9).",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S22-03-q007",
+  "los": [
+   "S22-03"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Airlines compete mainly on fares but also differ in routes, schedules and frequent flier programs. Which model does Bryce conclude fits?",
+  "choices": [
+   "Differentiated Bertrand",
+   "Cournot",
+   "Standard Bertrand",
+   "Stackelberg"
+  ],
+  "answer": 0,
+  "explain": "Bryce p. 10.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S22-03-q008",
+  "los": [
+   "S22-03"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Several online sellers list the identical model of a graphics card on a price comparison site; buyers sort by price and there are no switching costs. Which model fits?",
+  "choices": [
+   "Standard Bertrand",
+   "Stackelberg",
+   "Differentiated Bertrand",
+   "Cournot"
+  ],
+  "answer": 0,
+  "explain": "Identical goods, fully visible prices.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S22-03-q009",
+  "los": [
+   "S22-03"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Cell phone carriers compete on national networks. What does Bryce say about their market?",
+  "choices": [
+   "It is national in scale: an oligopoly",
+   "It is local to each intersection",
+   "It is perfectly competitive",
+   "It is a monopoly"
+  ],
+  "answer": 0,
+  "explain": "Bryce p. 9.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S22-03-q010",
+  "los": [
+   "S22-03"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Salt Lake ski resorts and high-end Colorado resorts both attract East Coast vacation skiers. What does this suggest?",
+  "choices": [
+   "They never compete",
+   "They are in standard Bertrand",
+   "At one level they may be in an oligopoly together because their target customers overlap",
+   "They are a cartel"
+  ],
+  "answer": 2,
+  "explain": "Bryce p. 10, question 2.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S22-03-q011",
+  "los": [
+   "S22-03"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Coke and Pepsi compete mainly through prices and promotions, and each has loyal drinkers. Which model fits?",
+  "choices": [
+   "Cournot",
+   "Standard Bertrand",
+   "Stackelberg",
+   "Differentiated Bertrand"
+  ],
+  "answer": 3,
+  "explain": "Bryce lists cola as an example.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S22-03-q012",
+  "los": [
+   "S22-03"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Two wheat cooperatives each decide how much grain to release, and the market price adjusts. Which model fits?",
+  "choices": [
+   "Differentiated Bertrand",
+   "Standard Bertrand",
+   "Stackelberg",
+   "Cournot"
+  ],
+  "answer": 3,
+  "explain": "Quantity is the strategic variable.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S22-03-q013",
+  "los": [
+   "S22-03"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Two gas stations face each other at the same intersection, sell the same fuel and post prices on big signs. Which model is the best starting point?",
+  "choices": [
+   "Standard Bertrand",
+   "Monopoly",
+   "Cournot",
+   "Stackelberg"
+  ],
+  "answer": 0,
+  "explain": "Identical good, visible prices, price competition at a local intersection.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S22-03-q014",
+  "los": [
+   "S22-03"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Which observation would make you doubt that a price-competitive market is standard Bertrand?",
+  "choices": [
+   "Products are identical",
+   "Buyers compare all prices online",
+   "Firms keep prices well above cost and customers stay loyal when a rival is cheaper",
+   "Prices equal marginal cost"
+  ],
+  "answer": 2,
+  "explain": "That points to differentiation (or capacity limits).",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S22-03-q015",
+  "los": [
+   "S22-03"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Car makers compete on price, features and brand. Which model does Bryce list them under?",
+  "choices": [
+   "Cournot",
+   "Differentiated Bertrand",
+   "Standard Bertrand",
+   "Stackelberg"
+  ],
+  "answer": 1,
+  "explain": "Bryce p. 8.",
+  "source": "generated",
+  "verbatim": false
+ }
+]

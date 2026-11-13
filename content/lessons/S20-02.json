@@ -1,0 +1,41 @@
+{
+ "id": "S20-02",
+ "title": "Finitely repeated games",
+ "calc": false,
+ "plain": "What if the game is repeated, but only a known number of times? Take Visa and Mastercard over **two periods** (slides p. 28):\n\n| Visa \\ Mastercard | Lower Fee | Maintain Fee |\n|---|---|---|\n| Lower Fee | 2, 2 | 4, 1 |\n| Maintain Fee | 1, 4 | 3, 3 |\n\n- **Second (last) period:** it is the last period, so both players treat it as a **one-shot game**: no one can be punished for defecting afterward. Both lower fees.\n- **First period:** a player has an incentive to break a promise in the second-to-last period, since there is **no effective punishment** in the last period (everyone already defects then). So both defect in period 1 too.\n- **Conclusion (p. 28): finite repeated games will always collapse back to a one-shot simultaneous game.** This works backward from the end however many periods there are (10, 100, 1,000): cooperation unravels from the last period to the first.\n\nThis applies when the one-shot game has a **unique** Nash equilibrium and the **final period is known**.\n\n**Comprehension Quiz 9 Q7.** You and your only rival have kept camera prices high through tacit collusion. You learn the rival will exit in one month. The game now has a known final period and no future punishment, so you should **defect and cut prices now**.\n\n**When the end is uncertain** (textbook): if each period has some probability of being the last, cooperation can survive, much like the infinite game, because there is always a chance of future punishment.\n\n**End-of-period problems** (textbook): a worker who has announced that she is quitting has little reason to work hard in her last weeks; a traveling seller who will never see the customer again has an incentive to sell junk. Good fixes make the relationship outlast the final period, like references and reputation.\n\nThe slides title the next page the \"Underwear Bomber\" Rule (p. 29); the page has no text, so the rule to know is the one stated on p. 28.",
+ "why": "Practice exam Q9 and Q12 and Comprehension Quiz 9 Q7 test the known-end unraveling logic.",
+ "definition": "A finitely repeated game is a game that is played a finite number of times. When the final period is known and the one-shot game has a unique Nash equilibrium, it collapses back to the one-shot outcome in every period.",
+ "formulas": [
+  {
+   "name": "PV of colluding when each period ends the game with probability θ",
+   "tex": "PV_{collude} = \\frac{\\pi_c}{\\theta}",
+   "onSheet": false,
+   "note": "Textbook, uncertain end. Not needed for the known-end logic."
+  }
+ ],
+ "derivation": "Backward induction: the last period is a one-shot game, so both defect. Knowing that, nothing a player does in the second-to-last period can be rewarded or punished later, so it is also a one-shot game. Repeat back to period 1.",
+ "math": [],
+ "worked": [
+  {
+   "title": "Ten-period pricing game",
+   "problem": "Two gas stations will compete for exactly 10 weeks before the road closes. Each week the one-shot game is a prisoner's dilemma with a unique equilibrium (both price low). What happens in week 1?",
+   "steps": [
+    "Week 10 is the last: both price low.",
+    "Week 9: nothing can punish cheating in week 10, since both price low anyway. Both price low.",
+    "Repeat back to week 1."
+   ],
+   "answer": "Both price low in every week, including week 1."
+  }
+ ],
+ "traps": [
+  "A KNOWN last period unravels cooperation all the way back to the first period.",
+  "If the end is UNCERTAIN, cooperation can survive.",
+  "When a rival announces it is leaving, the collusion game has a known end: expect defection (Quiz 9 Q7)."
+ ],
+ "sources": {
+  "slides": "S20 Game Theory II pp. 25 to 29",
+  "read": "Ch. 10 pp. 323 to 328",
+  "exercise": "",
+  "quiz": "Comprehension Quiz 9 Q7; Practice exam Q9, Q12"
+ }
+}

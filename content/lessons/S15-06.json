@@ -1,0 +1,93 @@
+{
+ "id": "S15-06",
+ "title": "Value marginal product",
+ "calc": true,
+ "plain": "Marginal product counts the extra output in units (hot dogs). A manager compares that with the wage, which is in dollars. To compare like with like, turn the extra output into dollars by multiplying by the price of the product:\n$$VMP_L = P \\times MP_L$$\nThat is the **value marginal product of labor**: the dollar value of what the last worker produces. At J Dawgs a hot dog sells for $4 and the 3rd worker adds 14 hot dogs, so that worker's \\(VMP_L = 4 \\times 14 = \\$56\\).\n\nIn the professor's J Dawgs table VMP is labeled MB, the marginal benefit of a worker, and the wage is labeled MC, the marginal cost of a worker.",
+ "why": "VMP is the marginal benefit side of the hiring decision. Hire while the value a worker adds is at least what the worker costs.",
+ "definition": "Value marginal product is the value of the output produced by the last unit of an input: \\(VMP_L = P \\times MP_L\\).",
+ "formulas": [
+  {
+   "name": "Value marginal product of labor",
+   "tex": "VMP_L = P \\times MP_L",
+   "onSheet": false
+  },
+  {
+   "name": "Value marginal product of capital",
+   "tex": "VMP_K = P \\times MP_K",
+   "onSheet": false
+  }
+ ],
+ "derivation": "Each extra worker adds \\(MP_L\\) units, and each unit sells for \\(P\\) dollars, so the worker adds \\(P \\times MP_L\\) dollars of revenue. This assumes the firm can sell all it makes at the going price P.",
+ "math": [],
+ "worked": [
+  {
+   "title": "J Dawgs VMP column",
+   "problem": "Hot dogs sell for $4. Compute VMP for workers 1 to 6.\n\n| Workers L | Hot dogs Q | MP_L | AP_L | VMP_L = $4 × MP_L | Wage |\n|---|---|---|---|---|---|\n| 0 | 0 |  |  |  | $8 |\n| 1 | 7 | 7 | 7 | $28 | $8 |\n| 2 | 19 | 12 | 9.5 | $48 | $8 |\n| 3 | 33 | 14 | 11 | $56 | $8 |\n| 4 | 46 | 13 | 11.5 | $52 | $8 |\n| 5 | 55 | 9 | 11 | $36 | $8 |\n| 6 | 57 | 2 | 9.5 | $8 | $8 |\n| 7 | 49 | -8 | 7 | $-32 | $8 |\n| 8 | 28 | -21 | 3.5 | $-84 | $8 |",
+   "steps": [
+    "Multiply each MP by $4.",
+    "Worker 1: 4 × 7 = $28. Worker 2: 4 × 12 = $48. Worker 3: 4 × 14 = $56.",
+    "Worker 4: 4 × 13 = $52. Worker 5: 4 × 9 = $36. Worker 6: 4 × 2 = $8."
+   ],
+   "answer": "VMP = $28, $48, $56, $52, $36, $8, matching the professor's solution."
+  }
+ ],
+ "graph": {
+  "component": "production",
+  "params": {
+   "form": "table",
+   "table": [
+    [
+     0,
+     0
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     2,
+     19
+    ],
+    [
+     3,
+     33
+    ],
+    [
+     4,
+     46
+    ],
+    [
+     5,
+     55
+    ],
+    [
+     6,
+     57
+    ],
+    [
+     7,
+     49
+    ],
+    [
+     8,
+     28
+    ]
+   ],
+   "P": 4,
+   "w": 8
+  },
+  "caption": "Bottom panel: VMP (purple) against the wage (red). Change the price P and the whole VMP curve stretches up or down."
+ },
+ "traps": [
+  "VMP multiplies MP by the PRICE of output, not by the wage and not by total product.",
+  "VMP is not total revenue. Total value of output is P × Q; VMP is P × MP.",
+  "VMP is not on the equation sheet. Memorize it.",
+  "A higher product price raises VMP for every worker, so the firm hires more. A higher wage does not change VMP at all; it changes the cost side."
+ ],
+ "sources": {
+  "slides": "S15 Production I, p. 30",
+  "read": "Ch. 5 pp. 142 to 145",
+  "exercise": "J Dawgs questions 3 and 4",
+  "quiz": "Reading Quiz Q4; Comprehension Quiz 7 Q3"
+ }
+}

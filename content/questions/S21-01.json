@@ -1,0 +1,299 @@
+[
+ {
+  "id": "S21-01-q001",
+  "los": [
+   "S21-01"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "What is the key feature that makes a market an oligopoly?",
+  "choices": [
+   "Products are identical",
+   "There are exactly two firms",
+   "Firms' actions are interdependent: each firm's best move depends on rivals' responses",
+   "The government sets prices"
+  ],
+  "answer": 2,
+  "explain": "Bryce p. 1: interdependence is the key determinant.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-01-q002",
+  "los": [
+   "S21-01"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "According to the professor's reading, roughly how many firms can an oligopoly have?",
+  "choices": [
+   "From two up to maybe 8 to 12, perhaps 15",
+   "Exactly one",
+   "At least 50",
+   "Any number, as long as products are identical"
+  ],
+  "answer": 0,
+  "explain": "Bryce p. 1. Once firms become price takers, it is no longer oligopoly.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-01-q003",
+  "los": [
+   "S21-01"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "An oligopoly with exactly two firms is called a:",
+  "choices": [
+   "Duopoly",
+   "Monopoly",
+   "Cartel",
+   "Monopsony"
+  ],
+  "answer": 0,
+  "explain": "Duo = two.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-01-q004",
+  "los": [
+   "S21-01"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "How do oligopolists choose their profit-maximizing output or price?",
+  "choices": [
+   "They set price equal to marginal cost",
+   "They copy the largest firm",
+   "They maximize revenue",
+   "They set MR = MC, but MR depends on rivals' choices"
+  ],
+  "answer": 3,
+  "explain": "Bryce p. 3: same rule as other firms, but the optimum depends on rivals.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-01-q005",
+  "los": [
+   "S21-01"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: In the professor's reading, the reasoning chain 'if I do a, they do b, then I do c...' ends at a Nash equilibrium.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explain": "True. Each firm plays its best response and no one wants to deviate (Bryce p. 1).",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-01-q006",
+  "los": [
+   "S21-01"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "According to the textbook, if rivals match a firm's price changes, the firm's demand is:",
+  "choices": [
+   "More elastic",
+   "Less elastic",
+   "Unaffected",
+   "Perfectly elastic"
+  ],
+  "answer": 1,
+  "explain": "Cut price and you gain few customers because rivals cut too; raise it and you lose few because they raise too.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-01-q007",
+  "los": [
+   "S21-01"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "What does Bryce call the levers oligopolists use to compete, such as price, capacity, lead time and frequent flier programs?",
+  "choices": [
+   "Sunk costs",
+   "Strategic variables",
+   "Reaction functions",
+   "Isoprofit curves"
+  ],
+  "answer": 1,
+  "explain": "Bryce p. 3.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-01-q008",
+  "los": [
+   "S21-01",
+   "S20-07"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: Bryce argues that oligopolists keying off rivals' behavior without any agreement is a legitimate form of collusion that is hard for regulators to detect.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explain": "True (Bryce p. 3).",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-01-q009",
+  "los": [
+   "S21-01"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Which market is most likely an oligopoly?",
+  "choices": [
+   "Three national wireless carriers",
+   "Thousands of corn farmers selling at the market price",
+   "A city's only water utility",
+   "Hundreds of nail salons in a large metro area"
+  ],
+  "answer": 0,
+  "explain": "Few firms whose moves affect each other.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-01-q010",
+  "los": [
+   "S21-01"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "In January 2005 Delta cut all fares for an indefinite period. How does Bryce describe this?",
+  "choices": [
+   "A standard tacitly collusive fare sale",
+   "Explicit price fixing",
+   "Abandoning the oligopoly norms of full-fare carriers to compete with discount carriers",
+   "A Stackelberg leader move"
+  ],
+  "answer": 2,
+  "explain": "Bryce p. 2: full-fare carriers normally run well-defined, temporary fare sales.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-01-q011",
+  "los": [
+   "S21-01"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Why did 11 corn wet milling firms in 1972 each have to think about rivals when deciding how much high-fructose corn syrup capacity to build?",
+  "choices": [
+   "The government set each firm's capacity",
+   "They had signed a contract",
+   "Too much total capacity would push prices too low for anyone to profit",
+   "Corn syrup had no substitutes"
+  ],
+  "answer": 2,
+  "explain": "Bryce pp. 1 to 2: each estimated the market while accounting for rival actions.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-01-q012",
+  "los": [
+   "S21-01"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A firm raises its price, and its only rival quickly matches. According to Bryce, how might the rival have interpreted the first price increase?",
+  "choices": [
+   "As a collusive signal to be matched",
+   "As illegal price fixing",
+   "As an invitation to cut price and take share",
+   "As a sign of exit"
+  ],
+  "answer": 0,
+  "explain": "Bryce p. 2, though a price hike can also signal higher costs (footnote 2).",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-01-q013",
+  "los": [
+   "S21-01"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Why are disruptive entrants like Amazon in bookselling a problem for established oligopolists, according to Bryce?",
+  "choices": [
+   "They always collude",
+   "They ignore industry norms, and incumbents' cost structures may not allow an effective response",
+   "They are regulated",
+   "They raise prices"
+  ],
+  "answer": 1,
+  "explain": "Bryce p. 3.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-01-q014",
+  "los": [
+   "S21-01"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Monitoring rivals becomes harder and retaliation weaker as:",
+  "choices": [
+   "The market shrinks to two firms",
+   "Prices are posted online",
+   "Firms meet more often",
+   "The number of firms increases"
+  ],
+  "answer": 3,
+  "explain": "Bryce p. 3: such industries move toward perfect competition.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-01-q015",
+  "los": [
+   "S21-01"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A gas station in north Provo and one in south Provo sell the same gasoline. According to Bryce, should they be treated as rivals in one oligopoly?",
+  "choices": [
+   "Yes; same product means same market",
+   "No; gasoline is a monopoly",
+   "Yes; all Provo stations are one oligopoly",
+   "No; at one level they do not really compete directly, since competition happens at local intersections"
+  ],
+  "answer": 3,
+  "explain": "Bryce p. 9: it is easy to define markets too broadly.",
+  "source": "generated",
+  "verbatim": false
+ }
+]

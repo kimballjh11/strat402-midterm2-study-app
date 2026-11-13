@@ -1,0 +1,113 @@
+Session 20: Game Theory II Session 20: Game Theory II 
+ Exported from Canvas (STRAT 402) on Nov 12, 2026. Files linked below are saved in this folder. 
+ Before Class 
+ Read: Chapter 10: Repeated & Multistage Games 
+ Page · Open in Canvas 
+
+ Read 
+
+ Chapter 10: Repeated & Multistage Games 
+
+ Read or skim Chapter 10: Game Theory: Inside Oligopoly (pp. 318–337). Then answer the Session 20: Reading Quiz questions. 
+
+ Textbook 
+ Baye & Prince, Managerial Economics and Business Strategy 
+
+ Chapter 
+ 10 — Game Theory: Inside Oligopoly 
+
+ Pages 
+ 318–337 
+
+ Sections 
+ Infinitely Repeated Games; Finitely Repeated Games; Multistage Games; Answering the Headline; Summary 
+
+ Learning Objectives for Session 20: Game Theory II 
+
+ Know and understand the following economic concepts: infinitely repeated games, finitely repeated games, trigger strategies, sequential games 
+
+ Know and understand the factors that influence the likelihood of collusion 
+
+ Know and understand how sequential games can be applied to business decisions such as market entry, innovation, and bargaining 
+
+ Next: Take the Session 20: Reading Quiz . You may take it as many times as you like, and your highest score counts. 
+
+ Session 20: Reading Quiz 
+ Quiz · Due Tue Nov 10, 2026 11:59 PM · Open in Canvas 
+ This reading quiz covers the content from Session 20: Game Theory II . It contains five questions based on the following learning objectives. You may take the quiz as many times as you want, but it must be completed before the scheduled due date. 
+ Learning Objectives for Session 20: Game Theory II 
+ Know and understand the following economic concepts: infinitely repeated games, finitely repeated games, trigger strategies, sequential games 
+ Know and understand the factors that influence the likelihood of collusion 
+ Know and understand how sequential games can be applied to business decisions such as market entry, innovation, and bargaining 
+
+ In Class 
+ Slides: Game Theory II 
+ File · Open in Canvas 
+ Saved as S20 Slides - Game Theory II.pdf 
+
+ After Class 
+ Comprehension Quiz 9 
+ Assignment · Due Sat Nov 14, 2026 11:59 PM · 10 pts · Open in Canvas 
+ This is an external-tool quiz; its questions can't be exported from Canvas. Open it in Canvas to review. 
+
+ Game Theory Exercise 
+ Assignment · Due Sat Nov 14, 2026 11:59 PM · 100 pts · Open in Canvas 
+
+ Spreadsheet Assignment 
+
+ Game Theory Exercise 
+
+ Background 
+
+ In October 2019, Twitter announced that it would stop running political ads. Facebook kept running them. Both companies were under pressure from activists and regulators over misleading content on their platforms, and both faced the same choice. They could ban political ads and give up that revenue, or keep them and risk government regulation. What each company stood to gain or lose depended on what the other one did. 
+
+ In this assignment you will go back to 2019 and model that choice as a game. Using each company's 2019 ad revenue from its 10-K, you will build the payoffs, find the Nash equilibrium, and check whether either company has a dominant strategy. Then you will change the game twice, first by letting Twitter move first and then by changing the regulatory risk, and see when the order of moves changes the outcome. 
+
+ Materials 
+
+ File 
+ What It's For 
+
+ Game Theory Exercise.xlsx 
+ The workbook you complete and submit 
+
+ Read: Chapter 10: Simultaneous-Move, One Shot Games 
+ Payoff matrices, Nash equilibrium, and dominant strategies, for Part 1 and Part 3 
+
+ Read: Chapter 10: Repeated & Multistage Games 
+ Game trees, backward induction, and subgame perfect equilibrium, for Part 2 and Part 3 
+
+ New York Times, October 30, 2019 
+ Background on Twitter's decision 
+
+ Instructions 
+
+ The workbook has three tabs, one for each part. Read the scenario at the top of each tab before you start, because each part changes the game. Links to both companies' 2019 10-Ks are on the Part 1 tab. 
+
+ Part 1 (steps 1–6). Find each company's 2019 ad revenue, build the payoff matrix for a one-shot simultaneous game, and explain each payoff. Then find the Nash equilibrium and decide whether either company has a dominant strategy. 
+
+ Part 2 (steps 1–4). Draw the same game as a sequential game with Twitter moving first, solve it with backward induction, and compare the result to Part 1. 
+
+ Part 3 (steps 1–5). Use the new regulatory risk assumptions to build both the payoff matrix and the game tree, then compare your results across all three parts. 
+
+ Report payoffs in millions of dollars, with losses as negative numbers. In the payoff matrices, list payoffs as (Facebook, Twitter). In the game trees, list them as (Twitter, Facebook), since Twitter moves first. 
+
+ This is an individual assignment. You are welcome to work alongside classmates and compare answers, but don't let a friend carry you. You will complete similar tasks on your own on Midterm Exam 2. 
+
+ Submission 
+
+ Upload your completed .xlsx workbook here. You may resubmit as many times as you like before the due date; your most recent submission is the one graded. 
+
+ Evaluation 
+
+ To receive full credit, you should be able to answer yes to each of these questions. 
+
+ Is my workbook complete? Did I answer every question? 
+
+ Is my spreadsheet cleanly formatted, professional in appearance, and free of clutter? 
+
+ Are my payoff matrices and game trees labeled, with the right payoffs highlighted in red? 
+
+ Are my payoffs accurate? 
+
+ Are my conclusions supported by my analysis?

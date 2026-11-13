@@ -1,0 +1,239 @@
+[
+ {
+  "id": "S15-01-q001",
+  "los": [
+   "S15-01"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Which statement best describes a production function?",
+  "choices": [
+   "It gives the revenue earned from each unit of input",
+   "It gives the minimum cost of producing each level of output",
+   "It gives the maximum output that can be produced from a given set of inputs",
+   "It gives the output each worker produces on average"
+  ],
+  "answer": 2,
+  "explain": "A production function is the maximum output possible from given inputs, Q = f(K, L). Minimum cost is a cost function (Session 16). Output per worker is average product. Revenue from an input is value marginal product.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-01-q002",
+  "los": [
+   "S15-01"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "In the production function \\(Q = f(K, L)\\), what do K and L stand for?",
+  "choices": [
+   "K is the wage and L is the rental rate of capital",
+   "K is the number of firms and L is the number of products",
+   "K is output and L is labor",
+   "K is units of capital and L is units of labor"
+  ],
+  "answer": 3,
+  "explain": "K is capital (machines, grills, buildings) and L is labor (workers or hours), as defined on the S15 slides. The wage and rental rate are prices of inputs, written w and r.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-01-q003",
+  "los": [
+   "S15-01"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "What distinguishes the short run from the long run in production?",
+  "choices": [
+   "In the short run all inputs are variable; in the long run capital is fixed",
+   "In the short run at least one input is fixed; in the long run all inputs can be changed",
+   "The short run is less than one year and the long run is more than one year",
+   "In the short run output is fixed; in the long run inputs are fixed"
+  ],
+  "answer": 1,
+  "explain": "Short run means some input (usually capital) cannot be changed right now. Long run means every input can be adjusted. It is defined by flexibility, not by a calendar length. The other choices reverse the definitions or confuse output with inputs.",
+  "source": "generated",
+  "verbatim": false,
+  "trap": "Short run is not a specific number of months."
+ },
+ {
+  "id": "S15-01-q004",
+  "los": [
+   "S15-01"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: A production function shows the output a firm actually produces, even if its workers are wasting effort.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 1,
+  "explain": "False. The production function is the MAXIMUM output possible from given inputs. A firm wasting effort produces below its production function. Getting the firm onto the production function is the manager's first short-run job.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-01-q005",
+  "los": [
+   "S15-01"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "According to the S15 slides, which is a strategist's LONG-run production task?",
+  "choices": [
+   "Ensure the firm sells at the highest possible price",
+   "Ensure the firm uses the optimal mix of inputs",
+   "Ensure the firm operates at its maximum level of efficiency",
+   "Ensure the firm uses the correct level of the variable input"
+  ],
+  "answer": 1,
+  "explain": "The slides list short-run tasks as (1) operate at maximum efficiency and (2) use the correct level of inputs, and the long-run task as (3) use the optimal mix of inputs. Pricing is not one of the production tasks.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-01-q006",
+  "los": [
+   "S15-01"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: A production function describes the technology the firm uses to turn inputs into outputs.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explain": "True. The slides define production as transforming inputs into outputs through some technology, and the production function summarizes that technology.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-01-q007",
+  "los": [
+   "S15-01"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "A production function holds capital fixed at 2 units and lets labor vary. This describes:",
+  "choices": [
+   "A demand function",
+   "A short-run production decision",
+   "A long-run production decision",
+   "A cost function"
+  ],
+  "answer": 1,
+  "explain": "With one input fixed, the firm is in the short run and chooses only labor. Long run would let capital change too. Cost and demand functions are different relationships.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-01-q008",
+  "los": [
+   "S15-01"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "J Dawgs has two grills and cannot add a third before the lunch rush. Its only choice today is how many workers to schedule. Which statement is correct?",
+  "choices": [
+   "J Dawgs cannot use a production function because capital is fixed",
+   "J Dawgs should choose the mix of grills and workers that minimizes cost",
+   "J Dawgs is making a short-run decision because capital is fixed",
+   "J Dawgs is making a long-run decision because labor can change"
+  ],
+  "answer": 2,
+  "explain": "Capital (grills) is fixed, so this is the short run, which is exactly the J Dawgs exercise setup. A production function still applies with K fixed. Choosing the mix of grills and workers is the long-run problem.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-01-q009",
+  "los": [
+   "S15-01"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A furniture maker is designing a new plant that will open in three years and can choose any number of machines and workers. This is:",
+  "choices": [
+   "A short-run decision, because labor is variable",
+   "A long-run decision, because all inputs are variable",
+   "A short-run decision, because the plant is not built yet",
+   "Neither, because no output is produced yet"
+  ],
+  "answer": 1,
+  "explain": "When every input, including capital, can be chosen, the firm is in the long run. Labor being variable is true in both runs, so it does not make this short run.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-01-q010",
+  "los": [
+   "S15-01"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Two coffee shops have identical baristas and espresso machines, but shop A serves 300 drinks a day and shop B serves 220 because its baristas are disorganized. Which statement is best?",
+  "choices": [
+   "Shop A is producing above its production function",
+   "Shop B has a different production function because its output is lower",
+   "Shop B is producing below its production function",
+   "Both shops are on the production function because they use the same inputs"
+  ],
+  "answer": 2,
+  "explain": "The production function is the maximum output from those inputs. With the same inputs and technology, B's lower output means it is operating inefficiently, below the function. No firm can produce above its production function.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-01-q011",
+  "los": [
+   "S15-01"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A manager says, 'Our production function tells us how to price our product.' What is wrong with this statement?",
+  "choices": [
+   "A production function only applies in the long run",
+   "A production function only measures labor, not capital",
+   "Nothing; production functions set prices",
+   "A production function relates inputs to output; it says nothing about prices"
+  ],
+  "answer": 3,
+  "explain": "A production function is a technical relationship between inputs and output. Prices come from demand and market structure. It applies in both runs and includes capital and labor.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-01-q012",
+  "los": [
+   "S15-01"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Which change would move a firm from the short run into the long run?",
+  "choices": [
+   "It hires two more workers",
+   "It raises its price",
+   "It becomes able to buy or sell machines, not just change its staffing",
+   "It produces more output with the same inputs"
+  ],
+  "answer": 2,
+  "explain": "The long run is when every input, including capital, can be changed. Hiring workers is a short-run change in the variable input. Raising price or producing more is not about which inputs are variable.",
+  "source": "generated",
+  "verbatim": false
+ }
+]

@@ -1,0 +1,543 @@
+
+=== PAGE 1 ===
+STRAT 402
+ECONOMICS OF STRATEGY
+Session 18
+Barriers to Entry
+
+=== PAGE 2 ===
+Agenda
+▪Spiritual Thought
+▪Review Economic Analysis with AI
+▪Review Production Exercise
+▪Barriers to Entry Lecture
+▪Introduce Barriers to Entry Exercise
+
+=== PAGE 3 ===
+Successfully Failing
+
+=== PAGE 4 ===
+Successfully Failing
+▪ “If you aren’t in over your head, how do you know how tall you are?”
+▪ “What do you do when, for the first time in your life, you get an A− or a B or a D,
+  even though you have worked very hard? What do you do then? Let me suggest
+  you follow the advice given in Hebrews 10:35: “Cast not away . . . your
+  confidence.” You were not admitted to this university on a whim. The process is
+  better than that. And you are better than that. More important, you have the
+  potential to be much better than that.”
+▪ “Because of the Atonement, all failures are changeable and temporary, except the
+  one that occurs when we give up. So whatever you do, don’t you dare give up.”
+
+               - Kevin J. Worthen, BYU Devotional, January 6, 2015 -
+
+=== PAGE 5 ===
+My BYU GPA Over Time
+                                                                       BYU GPA By Semester, 2001-2008
+                            4.00
+
+                            3.95
+
+
+
+
+Grade Point Average (GPA)
+                            3.90
+
+                            3.85
+
+                            3.80
+
+                            3.75
+
+                            3.70
+
+                            3.65
+
+                            3.60
+                                   Fall 2001 Winter   Summer Fall 2004 Winter   Spring   Fall 2005 Winter   Summer Fall 2006 Winter   Spring   Fall 2007 Winter   Spring
+                                             2002      2004            2005      2005              2006      2006            2007      2007              2008      2008
+
+                                                                           Cumulative GPA             Semester/Term GPA
+
+=== PAGE 6 ===
+How to Overcome Failures
+View failures as setbacks that are:
+1. Temporary (It’s going away quickly)
+2. Local (It’s just this one situation)
+3. Changeable (I can do something about it)
+
+=== PAGE 7 ===
+Economic Analysis with AI
+                                                                  THE KEY
+   The question, asked twice
+   On a typical leisure route of about 1,000 miles:               ≈ $82 cost gap
+   (1) How much lower are Frontier’s costs per                    band $70–$95
+   passenger than JetBlue’s?
+   (2) At a $39 fare, how much does Frontier
+                                                                  A loss at $39
+   make or lose per passenger?                                    ≈ −$12 (FY2025) or ≈ −$38 (2026 data)
+
+   (3) Should JetBlue match, partially match, or                  Cost per seat mile → adjust for trip length
+                                                                  → divide by load factor. Add fees before
+   hold?                                                          judging $39.
+   Baseline: paste once and accept the answer. Partnered: a new
+   chat, steered with course ideas.
+
+
+
+
+109 submissions, 107 with a partnered chat.
+
+=== PAGE 8 ===
+How We Get to $82
+                                                                                                    WHERE ANSWERS STOPPED
+FY2025 10-K data                                              JetBlue             Frontier
+
+1. Cost per seat mile (CASM)                                   14.51¢                 9.74¢            ≈ $48
+                                                                                                       Step 1 only: per seat, no adjustments
+2. Adjust to a 1,000-mile trip                                 16.55¢                 9.34¢
+× √(average flight ÷ 1,000): 1,301 vs 919 mi                     × 1.141             × 0.959
+
+Cost per seat, 1,000 miles                                    $165.50               $93.40             $51.86
+                                                                                                       Steps 1 and 3, skipping trip length.
+3. Divide by load factor                                      ÷ 82.4%             ÷ 78.4%              ChatGPT’s usual answer.
+
+
+Cost per passenger, 1,000 miles                               $200.85             $119.10
+                                                                                                       $82
+                                                                                                       All three steps
+Gap ≈ $82 Q2 2026 data: $228 vs $146, still ≈ $82
+Why step 2: every flight carries costs that don’t depend on distance (takeoff, landing fees, gate time, turnaround). Longer flights spread them
+over more miles. A milder or stronger adjustment gives $69–$95, the band.
+
+=== PAGE 9 ===
+Partnering Doubled the Hits
+
+
+
+
+30 of you moved into the band. 58 never got there, even after steering.
+
+Cost gap = Frontier’s cost advantage per passenger on a 1,000-mile trip, as the AI reported it
+
+=== PAGE 10 ===
+Trip Length Moved the Answer
+
+
+
+
+Load factor alone did nothing: most AIs already worked per passenger. Fixed per-flight costs
+over a longer trip did.
+Rows count only ideas YOU raised in the partnered chat, not ones the AI brought up on its own
+
+=== PAGE 11 ===
+Which AI You Used Mattered Most
+
+
+
+
+You chose your own tool, so this is an association, not a controlled test. Free and paid versions are mixed within each tool.
+
+=== PAGE 12 ===
+Ability Didn’t Pick the Tool
+Each tool drew the same students                                                               Stronger students did better
+
+
+
+
+Bottom to top third on Midterm 1: +18 points in the band. Claude instead of ChatGPT:
+about +45 (67% vs 21%).
+Each dot is one student; black bar = tool mean. 100 of 105 have admissions data; 84 have an ACT.
+
+=== PAGE 13 ===
+Was It the Students or the Tool?
+
+
+
+
+Holding ability fixed, Claude still leads in both halves. Paid Claude: 71% in the band. Paid
+ChatGPT: 17%.
+Tier is self-reported. Midterm 1 was taken before this assignment. Choices we can’t see, like effort, could still differ.
+
+=== PAGE 14 ===
+Good Steering Wasn’t Enough
+
+
+
+
+ChatGPT often flagged the trip-length problem itself, then kept the number. Read the
+caveats.
+Steering points = course concepts you raised, asking for a source, and challenging a specific number
+
+=== PAGE 15 ===
+Acting on the Right Warning
+                                                                                            The AI flagged a weakness in its own
+                                                                                            number in almost every chat. When
+                                                                                            students followed up:
+
+                                                                                               88%                     29%
+                                                                                               of the top third
+                                                                                                                       of the bottom
+                                                                                               reached the
+                                                                                                                       third
+                                                                                               band
+
+                                                                                            Named it: “Lets test the trip length
+                                                                                            seeing that it is our weakest point.”
+                                                                                            Stayed general: “How would you take
+                                                                                            into account this caveat that you just
+                                                                                            mentioned?”
+
+
+
+
+59 readable chats from the top and bottom thirds, coded without knowing scores. 88% and 29%: students whose first number missed and who
+followed up (8 top, 7 bottom).
+
+=== PAGE 16 ===
+What This Assignment Taught Us
+
+1                                   2                                 3
+Same question, very                 Partnering helped when            The AI lists its
+different answers                   it reached the method             weaknesses. Economics
+Pasted in once, answers ranged      In the band: 18% pasting once,    tells you which one
+from $30 to $90; only 18%           40% partnering. Sources and       matters.
+landed in the band. The answer      pushback didn’t predict
+                                                                      Almost every chat flagged a
+alone can’t tell you whether it’s   accuracy. Acting on trip length
+                                                                      weakness. The students who got
+right. The method can.              did: 67% vs 29%.
+                                                                      it right picked the one that
+                                                                      changes the answer and made
+                                                                      the AI fix it.
+
+
+
+
+Learn the economics first. Then AI becomes a partner, not an oracle.
+
+=== PAGE 17 ===
+AI vs. Humans: The Optimal Mix
+                                                  Isoquant at Average Monthly Output
+                         300,000
+
+
+                         250,000
+
+
+
+
+AI Assistant Hours (K)
+                         200,000
+
+
+                         150,000
+
+
+                         100,000
+
+
+                          50,000
+
+
+                              0
+                                   0     20,000    40,000   60,000       80,000           100,000   120,000   140,000   160,000
+                                                                  Human Agent Hours (L)
+                                                              Isoquant    Current Mix
+
+=== PAGE 18 ===
+AI vs. Humans: The Optimal Mix
+
+          The Current Mix                     The Optimal Mix
+L=                          54,574   L=                       69,249
+K=                          95,048   K=                       75,532
+w=                          $30.76   w=                       $30.76
+r=                          $29.70   r=                       $29.70
+MPL =                       34.49    Cost =                $4,373,421
+MPK =                       20.86    Q=                     3,674,495
+MPL/w =                     1.121    Q target =             3,674,495
+MPK/r =                     0.702    MPL =                    27.13
+                                     MPK =                    26.19
+                                     w/r =                    1.036
+                                     MPL/MPK =                1.036
+
+=== PAGE 19 ===
+AI vs. Humans: The Optimal Mix
+                                                   Cost-Minimizing Mix: Isoquant and Isocost
+                         180,000
+
+                         160,000
+
+                         140,000
+
+
+
+
+AI Assistant Hours (K)
+                         120,000
+
+                         100,000
+
+                          80,000
+
+                          60,000
+
+                          40,000
+
+                          20,000
+
+                              0
+                                   0      20,000         40,000      60,000         80,000           100,000   120,000   140,000
+                                                                     Human Agent Hours (L)
+
+                                                          Isoquant   Isocost       Cost-minimizing Mix
+
+=== PAGE 20 ===
+AI vs. Humans: The Optimal Mix
+Current cost:        $4,501,624
+Minimum cost:        $4,373,421
+Savings per month:    $128,204
+Savings per year:    $1,538,445
+
+=== PAGE 21 ===
+AI vs. Humans: The Optimal Mix
+1. What are some possible reasons that Klarna was not
+   operating at the cost-minimizing input mix?
+2. What would you do if you were Klarna's head of customer
+   service?
+
+=== PAGE 22 ===
+Course Organization
+Markets to Pursue
+• What industry, product, and geographic markets are most attractive as business arenas?
+
+Unique Value to Offer
+• What value proposition will offer unique value relative to competitors in the arenas of
+  cost or differentiation?
+
+Resources and Capabilities to Develop
+• What resources and capabilities are required to deliver that unique value better than
+  competitors?
+
+Sustaining Advantage
+• How to create barriers to imitation to prevent other companies from offering that same
+  value?
+
+=== PAGE 23 ===
+Theory in Practice*
+
+
+
+
+*Explicit Language Warning
+
+=== PAGE 24 ===
+Case Study: The Razor Industry
+Answer the following questions:
+1. Who were the big players in the
+   industry? What were their respective
+   markets shares?
+2. Why would DSC want to enter the
+   market?
+3. What barriers to entry did DSC face?
+   How did they overcome them?
+
+=== PAGE 25 ===
+The Razor Industry
+
+          60% Gross Margins
+        9% of P&G’s sales, but 16% of
+                their profits
+
+  $200 million in marketing for ProGlide with FlexBall
+                          vs.
+     $20,000 low-budget commercial on YouTube
+
+=== PAGE 26 ===
+Strategies to Crack Well-Guarded Markets
+
+
+
+“The most attractive markets are almost always the hardest to
+     profitability break into. The trick is to be indirect, so
+       incumbents don’t notice you until it’s too late.”
+                  - David Bryce and Jeff Dyer -
+
+=== PAGE 27 ===
+Learning Objectives
+▪Know and understand the following economic concepts:
+  oEconomies of scale
+  oLearning (or experience) curves
+  oEconomies of scope
+  oNetwork effects
+  oLimit pricing
+  oPredatory pricing
+  oPenetration pricing
+▪Know and understand common barriers to entry
+▪Know and understand how companies can circumvent these
+ barriers to enter profitable markets
+
+=== PAGE 28 ===
+What Is a Barrier to Entry?
+A barrier to entry is any factor that ____.
+
+▪Increases the cost born by potential entrants after they enter
+ the market
+▪Decreases the market share potential of entrants upon
+ entering an industry
+
+=== PAGE 29 ===
+Economies of Scale
+
+=== PAGE 30 ===
+Economies of Scale
+
+=== PAGE 31 ===
+Economies of Scale
+
+
+
+
+Source: Figure 8-11, Baye & Prince
+
+=== PAGE 32 ===
+Learning Curves
+A learning curve is graphical representation of learning that increases
+with experience
+  ▪ Learning = declining costs per unit
+  ▪ Experience = cumulative production
+                                            Learning Curve for Model T - 1910-1925
+                                         $35,000
+                                         $30,000
+                                         $25,000
+                        Cost per Unit    $20,000                                     y = 87244x-0.317
+                                                                                       R² = 0.9452
+                        (2013 dollars)
+                                         $15,000
+                                         $10,000
+                                          $5,000
+                                              $-
+                                                   -   2,000   4,000   6,000   8,000 10,000 12,000 14,000
+                                                                  Cumulative Production
+
+=== PAGE 33 ===
+Learning Curves as a Barrier
+
+Which of these learning curves poses the biggest barrier to entry?
+
+
+                                 Learning Curve #1                                Learning Curve #2                                Learning Curve #3
+
+
+
+
+         Average Cost per Unit                            Average Cost per Unit                            Average Cost per Unit
+
+
+                                  Cumulative Production                            Cumulative Production                            Cumulative Production
+
+=== PAGE 34 ===
+Learning Curves and Strategy
+What are some of the strategic implications of learning
+curves?
+
+1. Firms may be willing to price aggressively in order to
+   descend the learning curve faster
+2. Learning effects as a barrier assume no knowledge
+   spillovers/leakage
+
+=== PAGE 35 ===
+Brand/Reputation
+
+=== PAGE 36 ===
+Brand/Reputation
+
+=== PAGE 37 ===
+Patents and Other Legal Barriers
+
+
+
+
+Source: The Wall Street Journal, October 31, 2025
+
+=== PAGE 38 ===
+Patents and Other Legal Barriers
+
+
+
+
+Source: The Wall Street Journal, October 31, 2025
+
+=== PAGE 39 ===
+Network Effects
+
+=== PAGE 40 ===
+Network Effects
+        Google: The Origin of Search
+        Summer 2025, Episode 2
+
+        Ben Gilbert: But also as they scale, they
+        make more revenue per user. I don’t
+        know what that is.
+
+        David Rosenthal: Oh, is this just network
+        economies? The more queries you have,
+        the more advertisers you’ll have?
+
+=== PAGE 41 ===
+Pricing Strategies to Limit Entry/Competition
+
+Pricing Strategy    Definition
+Limit Pricing       A strategy where an incumbent maintains a price below the
+                    monopoly level in order to prevent entry
+Predatory Pricing   A strategy where a firm temporarily prices below marginal cost
+                    to drive competitors out of the market
+Penetration         A strategy where a firm charges a low price initially to
+Pricing             penetrate a market and gain critical mass of customers; useful
+                    when strong network effects are present
+
+=== PAGE 42 ===
+Limit Pricing
+
+
+
+
+Source: Journal of Political Economy, 2020
+
+=== PAGE 43 ===
+Limit Pricing
+
+
+
+
+Source: Figure M1-2, Baye & Prince
+
+=== PAGE 44 ===
+Predatory Pricing
+
+=== PAGE 45 ===
+Predatory Pricing
+
+=== PAGE 46 ===
+Limit vs. Predatory Pricing
+
+=== PAGE 47 ===
+Penetration Pricing
+
+=== PAGE 48 ===
+Penetration Pricing
+
+=== PAGE 49 ===
+Circumventing Barriers
+
+=== PAGE 50 ===
+Circumventing Barriers
+Three strategies to enter new markets
+ 1. Leverage existing assets
+ 2. Reconfigure the value chain
+ 3. Create a market niche
+
+  What present-day examples come to mind?
+
+=== PAGE 51 ===
+Barriers to Entry Exercise

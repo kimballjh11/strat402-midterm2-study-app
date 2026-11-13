@@ -1,0 +1,262 @@
+[
+ {
+  "id": "S19-03-q001",
+  "los": [
+   "S19-03"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "A dominant strategy is:",
+  "choices": [
+   "The strategy that gives the highest number in the matrix",
+   "The strategy the opponent is currently playing",
+   "A strategy that gives the highest payoff regardless of the opponent's action",
+   "A strategy that guarantees the best worst case"
+  ],
+  "answer": 2,
+  "explain": "Best against EVERY opposing choice. The best worst case is the secure (maximin) strategy.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-03-q002",
+  "los": [
+   "S19-03"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: Every player in every game has a dominant strategy.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 1,
+  "explain": "False. Dillard's has none in the in-class exercise.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-03-q003",
+  "los": [
+   "S19-03"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "If you have no dominant strategy but your rival does, the textbook says you should:",
+  "choices": [
+   "Pick randomly",
+   "Choose your secure strategy",
+   "Assume the rival plays its dominant strategy and choose your best response to it",
+   "Copy the rival's strategy"
+  ],
+  "answer": 2,
+  "explain": "Put yourself in your rival's shoes.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-03-q004",
+  "los": [
+   "S19-03"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "A secure (maximin) strategy:",
+  "choices": [
+   "Guarantees the highest payoff in the worst case",
+   "Maximizes the opponent's payoff",
+   "Is the Nash equilibrium",
+   "Is always the same as a dominant strategy"
+  ],
+  "answer": 0,
+  "explain": "It is cautious and can ignore what a rational rival will actually do.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-03-q005",
+  "los": [
+   "S19-03"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "A strategy is dominated if:",
+  "choices": [
+   "The rival prefers it",
+   "It is never part of an equilibrium in any game",
+   "It gives a negative payoff somewhere",
+   "Another strategy gives a higher payoff against every opposing choice"
+  ],
+  "answer": 3,
+  "explain": "A rational player never plays a strictly dominated strategy, so it can be crossed out.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-03-q006",
+  "los": [
+   "S19-03",
+   "S19-02"
+  ],
+  "type": "mc",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Firm X (rows) and Firm Y (columns):\n\n| X \\ Y | Left | Right |\n|---|---|---|\n| Top | 8, 3 | 12, 9 |\n| Bottom | 5, 6 | 4, 2 |\n\nWho has a dominant strategy?",
+  "choices": [
+   "Only Y (Left)",
+   "Only X (Top)",
+   "Both players",
+   "Neither player"
+  ],
+  "answer": 1,
+  "explain": "X's best responses: vs Left: Top; vs Right: Top. Y's best responses: vs Top: Right; vs Bottom: Left. A player whose best response never changes has a dominant strategy.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-03-q007",
+  "los": [
+   "S19-03",
+   "S19-02"
+  ],
+  "type": "mc",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Player A (rows) and Player B (columns):\n\n| A \\ B | Left | Right |\n|---|---|---|\n| Up | 10, 20 | 15, 8 |\n| Down | -10, 7 | 10, 10 |\n\nWho has a dominant strategy?",
+  "choices": [
+   "Only B (Left)",
+   "Only A (Up)",
+   "Both players",
+   "Neither player"
+  ],
+  "answer": 1,
+  "explain": "A's best responses: vs Left: Up; vs Right: Up. B's best responses: vs Up: Left; vs Down: Right. A player whose best response never changes has a dominant strategy.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-03-q008",
+  "los": [
+   "S19-03",
+   "S19-02"
+  ],
+  "type": "mc",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Dillard's (rows) and Nordstrom (columns):\n\n| Dillard's \\ Nordstrom | Girl's | Women's |\n|---|---|---|\n| Girl's | 2, 1 | 4, 2 |\n| Women's | 6, 4 | 3, 5 |\n\nWho has a dominant strategy?",
+  "choices": [
+   "Only Dillard's (Girl's)",
+   "Only Nordstrom (Women's)",
+   "Both players",
+   "Neither player"
+  ],
+  "answer": 1,
+  "explain": "Dillard's's best responses: vs Girl's: Women's; vs Women's: Girl's. Nordstrom's best responses: vs Girl's: Women's; vs Women's: Women's. A player whose best response never changes has a dominant strategy.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-03-q009",
+  "los": [
+   "S19-03"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Using the Visa matrix:\n\n| Visa \\ Mastercard | Lower Fee | Maintain Fee |\n|---|---|---|\n| Lower Fee | 2, 2 | 4, 1 |\n| Maintain Fee | 1, 4 | 3, 3 |\n\nWhy is Lower Fee dominant for Visa?",
+  "choices": [
+   "It maximizes the total payoff",
+   "It pays more whether Mastercard lowers (2 > 1) or maintains (4 > 3)",
+   "Mastercard lowers its fee",
+   "It gives Visa the highest number in the table"
+  ],
+  "answer": 1,
+  "explain": "Slide p. 22: no matter what Mastercard does, Visa's best option is to lower.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-03-q010",
+  "los": [
+   "S19-03"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Nordstrom's dominant strategy is to feature Women's. What should Dillard's do?\n\n| Dillard's \\ Nordstrom | Girl's | Women's |\n|---|---|---|\n| Girl's | 2, 1 | 4, 2 |\n| Women's | 6, 4 | 3, 5 |",
+  "choices": [
+   "Feature Girl's, its best response to Women's (4 > 3)",
+   "Copy Nordstrom",
+   "Feature Women's, since 6 is the biggest payoff",
+   "Randomize 50/50"
+  ],
+  "answer": 0,
+  "explain": "Expect the rival to play its dominant strategy and best-respond. 6 is only available if Nordstrom picks Girl's, which it will not.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-03-q011",
+  "los": [
+   "S19-03"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "In the 3 by 3 game below, which column strategy is strictly dominated?\n\n| Row \\ Column | Left | Center | Right |\n|---|---|---|---|\n| Top | 4, 3 | 5, 1 | 6, 2 |\n| Middle | 2, 1 | 8, 4 | 3, 6 |\n| Bottom | 3, 0 | 9, 6 | 2, 8 |",
+  "choices": [
+   "Center (Right beats it in every row)",
+   "Left",
+   "Right",
+   "None"
+  ],
+  "answer": 0,
+  "explain": "Column payoffs: Center 1, 4, 6 versus Right 2, 6, 8. Right is higher in every row.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-03-q012",
+  "los": [
+   "S19-03"
+  ],
+  "type": "mc",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Game Theory Exercise Part 1:\n\n| Facebook \\ Twitter | Ban | Don't Ban |\n|---|---|---|\n| Ban | -350, -3 | -350, 23 |\n| Don't Ban | -277, -3 | -280, -12 |\n\nWho has a dominant strategy?",
+  "choices": [
+   "Only Twitter (Ban)",
+   "Only Facebook (Don't Ban)",
+   "Both players",
+   "Neither player"
+  ],
+  "answer": 1,
+  "explain": "Facebook: -277 > -350 and -280 > -350. Twitter: 23 > -3 if Facebook bans, but -3 > -12 if it doesn't, so no dominant strategy.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-03-q013",
+  "los": [
+   "S19-03",
+   "S19-04"
+  ],
+  "type": "tf",
+  "kind": "apply",
+  "diff": 1,
+  "stem": "True or false: In Game Theory Exercise Part 3, Facebook still has a dominant strategy.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 1,
+  "explain": "False. It bans if Twitter doesn't (-350 > -420) and doesn't ban if Twitter bans (-137 > -350).",
+  "source": "generated",
+  "verbatim": false
+ }
+]

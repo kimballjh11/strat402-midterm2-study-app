@@ -1,0 +1,323 @@
+[
+ {
+  "id": "S22-02-q001",
+  "los": [
+   "S22-02"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Differentiated Bertrand is competition in:",
+  "choices": [
+   "Lead time",
+   "Price among sellers of moderately differentiated goods",
+   "Price among sellers of identical goods",
+   "Quantity among sellers of identical goods"
+  ],
+  "answer": 1,
+  "explain": "Bryce p. 8.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S22-02-q002",
+  "los": [
+   "S22-02"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "According to Bryce, which is the most common type of oligopoly today?",
+  "choices": [
+   "Cournot",
+   "Stackelberg",
+   "Standard Bertrand",
+   "Differentiated Bertrand"
+  ],
+  "answer": 3,
+  "explain": "Bryce p. 8.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S22-02-q003",
+  "los": [
+   "S22-02"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Price reaction functions in differentiated Bertrand slope:",
+  "choices": [
+   "Downward",
+   "They are flat",
+   "Vertically",
+   "Upward: a higher rival price raises your best price"
+  ],
+  "answer": 3,
+  "explain": "Prices are strategic complements.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S22-02-q004",
+  "los": [
+   "S22-02"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Why can firms in differentiated Bertrand keep prices above marginal cost without colluding?",
+  "choices": [
+   "They choose quantities",
+   "Prices are regulated",
+   "They collude explicitly",
+   "Loyal customers keep buying even when a rival is cheaper"
+  ],
+  "answer": 3,
+  "explain": "Bryce p. 8: the Coke drinker who pays 10 cents beside a free Pepsi.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S22-02-q005",
+  "los": [
+   "S22-02"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "If prices somehow start above the differentiated Bertrand equilibrium, what happens?",
+  "choices": [
+   "Nothing",
+   "They fall to marginal cost",
+   "They keep rising",
+   "They fall, but only to the equilibrium, not to marginal cost"
+  ],
+  "answer": 3,
+  "explain": "Bryce p. 9.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S22-02-q006",
+  "los": [
+   "S22-02"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: Even if its rival gives its product away, a differentiated Bertrand firm can charge a positive price.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explain": "True: p min > 0 (Bryce p. 8).",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S22-02-q007",
+  "los": [
+   "S22-02"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "How does the textbook compare differentiated Bertrand with monopolistic competition?",
+  "choices": [
+   "Monopolistic competition has upward reaction functions",
+   "They are identical",
+   "Bertrand firms earn zero profit",
+   "Both price above MC, but barriers to entry let Bertrand oligopolists keep profits in the long run"
+  ],
+  "answer": 3,
+  "explain": "Textbook appendix.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S22-02-q008",
+  "los": [
+   "S22-02",
+   "S22-04"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Bryce's demand: Q_i = 60 - p_i + p_j for each firm, marginal cost $10. What is the equilibrium price?",
+  "answer": 70,
+  "unit": "$",
+  "tol": 0.01,
+  "explain": "Reaction: p_i = (60 + p_j + 10)/2. Symmetric: p = (70 + p)/2, so p = a + c = $70.",
+  "verify": {
+   "f": "dbert",
+   "al": 60,
+   "be": 1,
+   "ga": 1,
+   "c": 10,
+   "who": "p"
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S22-02-q009",
+  "los": [
+   "S22-02",
+   "S22-04"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Bryce's demand: Q_i = 80 - p_i + p_j for each firm, marginal cost $20. What is the equilibrium price?",
+  "answer": 100,
+  "unit": "$",
+  "tol": 0.01,
+  "explain": "Reaction: p_i = (80 + p_j + 20)/2. Symmetric: p = (100 + p)/2, so p = a + c = $100.",
+  "verify": {
+   "f": "dbert",
+   "al": 80,
+   "be": 1,
+   "ga": 1,
+   "c": 20,
+   "who": "p"
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S22-02-q010",
+  "los": [
+   "S22-02",
+   "S22-04"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Bryce's demand: Q_i = 100 - p_i + p_j for each firm, marginal cost $0. What is the equilibrium price?",
+  "answer": 100,
+  "unit": "$",
+  "tol": 0.01,
+  "explain": "Reaction: p_i = (100 + p_j + 0)/2. Symmetric: p = (100 + p)/2, so p = a + c = $100.",
+  "verify": {
+   "f": "dbert",
+   "al": 100,
+   "be": 1,
+   "ga": 1,
+   "c": 0,
+   "who": "p"
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S22-02-q011",
+  "los": [
+   "S22-02"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Bryce's demand Q_i = 60 - p_i + p_j, MC = $10. What is each firm's profit in equilibrium?",
+  "answer": 3600,
+  "unit": "$",
+  "tol": 0.01,
+  "explain": "p = $70; Q = 60 - 70 + 70 = 60; profit = 60 × 60 = $3,600.",
+  "verify": {
+   "f": "dbert",
+   "al": 60,
+   "be": 1,
+   "ga": 1,
+   "c": 10,
+   "who": "pi"
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S22-02-q012",
+  "los": [
+   "S22-02"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "q_1 = 100 - 2p_1 + p_2 (symmetric for firm 2), MC = $10. What is the equilibrium price?",
+  "answer": 40.0,
+  "unit": "$",
+  "tol": 0.01,
+  "explain": "p_1 = (100 + 20 + p_2)/4 = 30 + 0.25p_2. Symmetric: 0.75p = 30, p = $40.",
+  "verify": {
+   "f": "dbert",
+   "al": 100,
+   "be": 2,
+   "ga": 1,
+   "c": 10,
+   "who": "p"
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S22-02-q013",
+  "los": [
+   "S22-02"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Which market best fits differentiated Bertrand?",
+  "choices": [
+   "Oil producers setting output",
+   "Two online sellers of the same USB cable",
+   "A city water utility",
+   "Ski resorts near Salt Lake City"
+  ],
+  "answer": 3,
+  "explain": "Price competition with differentiated products (Bryce p. 10).",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S22-02-q014",
+  "los": [
+   "S22-02"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Pepsi raises its price. In differentiated Bertrand, what should Coke do?",
+  "choices": [
+   "Keep its price",
+   "Raise its price, by less than Pepsi did",
+   "Cut its price",
+   "Raise its price by more than Pepsi"
+  ],
+  "answer": 1,
+  "explain": "Upward-sloping reaction function with slope below 1.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S22-02-q015",
+  "los": [
+   "S22-02"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A desktop computer maker builds a strong brand following. How does this affect its pricing in a differentiated Bertrand market?",
+  "choices": [
+   "It must price at MC",
+   "It becomes a Cournot firm",
+   "It can charge a higher price, since fewer customers switch when rivals are cheaper",
+   "It must cut price"
+  ],
+  "answer": 2,
+  "explain": "More differentiation, more pricing power.",
+  "source": "generated",
+  "verbatim": false
+ }
+]

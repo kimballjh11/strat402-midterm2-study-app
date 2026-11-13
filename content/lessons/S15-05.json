@@ -1,0 +1,59 @@
+{
+ "id": "S15-05",
+ "title": "Increasing, diminishing and negative marginal returns",
+ "calc": true,
+ "plain": "As you add more of one input to a fixed amount of the others, marginal product follows a typical pattern. The slides name three ranges:\n\n- **Increasing marginal returns:** each new unit adds MORE than the one before. MP is rising. Early workers specialize and help each other.\n- **Diminishing (decreasing) marginal returns:** each new unit still adds output, but LESS than the one before. MP is falling but not negative. The fixed input (the 2 grills) starts to limit what extra workers can do.\n- **Negative marginal returns:** a new unit REDUCES output. MP is below zero. Too many workers crowd the grills.\n\nStudying example from the slides:\n\n| Hours | Grade | MP (extra points) | Marginal returns |\n|---|---|---|---|\n| 0 | 40 |  |  |\n| 1 | 50 | 10 | Increasing |\n| 2 | 62 | 12 | Increasing |\n| 3 | 80 | 18 | Increasing |\n| 4 | 90 | 10 | Diminishing |\n| 5 | 95 | 5 | Diminishing |\n| 6 | 97 | 2 | Diminishing |\n| 7 | 98 | 1 | Diminishing |\n| 8 | 97 | -1 | Negative |\n| 9 | 95 | -2 | Negative |\n| 10 | 90 | -5 | Negative |\n\n**How the professor labels the ranges.** In the J Dawgs solution the MPs are 7, 12, 14, 13, 9, 2, -8, -21 for workers 1 to 8, and the answer is: increasing 0 to 3, decreasing 4 to 6, negative greater than 6. Comprehension Quiz 7 uses the same idea: MPs of 50, 100, 150, then 100, 50, 25, 0, then negative, so diminishing returns is labor 4 to 7. A worker who adds exactly 0 counts as diminishing, not negative.",
+ "why": "Diminishing marginal returns is why a firm cannot just keep adding workers to a fixed plant. It is the reason the marginal product curve slopes down in the range where firms actually operate, and so the reason VMP = wage has a unique answer.",
+ "definition": "Increasing marginal returns: the range of input usage over which marginal product increases. Diminishing marginal returns: the range over which marginal product declines. Negative marginal returns: the range over which marginal product is negative.",
+ "formulas": [
+  {
+   "name": "Classify each unit by comparing MPs",
+   "tex": "MP_n > MP_{n-1} \\Rightarrow \\text{increasing};\\quad 0 \\le MP_n < MP_{n-1} \\Rightarrow \\text{diminishing};\\quad MP_n < 0 \\Rightarrow \\text{negative}",
+   "onSheet": false
+  }
+ ],
+ "derivation": "",
+ "math": [
+  {
+   "title": "Marginal product from a table",
+   "body": "Subtract the row above from the current row. The MP of the 4th worker is Q(4) minus Q(3). There is no MP for the first row (L = 0) because nothing came before it. Write MP on the row of the worker who caused the change."
+  }
+ ],
+ "worked": [
+  {
+   "title": "J Dawgs ranges",
+   "problem": "Classify each J Dawgs worker.\n\n| Workers L | Hot dogs Q | MP_L | AP_L | VMP_L = $4 × MP_L | Wage |\n|---|---|---|---|---|---|\n| 0 | 0 |  |  |  | $8 |\n| 1 | 7 | 7 | 7 | $28 | $8 |\n| 2 | 19 | 12 | 9.5 | $48 | $8 |\n| 3 | 33 | 14 | 11 | $56 | $8 |\n| 4 | 46 | 13 | 11.5 | $52 | $8 |\n| 5 | 55 | 9 | 11 | $36 | $8 |\n| 6 | 57 | 2 | 9.5 | $8 | $8 |\n| 7 | 49 | -8 | 7 | $-32 | $8 |\n| 8 | 28 | -21 | 3.5 | $-84 | $8 |",
+   "steps": [
+    "MP column for workers 1 to 8: 7, 12, 14, 13, 9, 2, -8, -21.",
+    "Workers 1 to 3: each adds more than the one before (7, 12, 14). Increasing.",
+    "Workers 4 to 6: MP falls (13, 9, 2) but stays positive. Diminishing.",
+    "Workers 7 and 8: MP is negative (-8, -21). Negative."
+   ],
+   "answer": "Increasing marginal returns for L from 0 to 3, diminishing for 4 to 6, negative for more than 6 (the professor's solution)."
+  }
+ ],
+ "graph": {
+  "component": "production",
+  "params": {
+   "form": "cubic",
+   "a": 3.5,
+   "b": 4,
+   "c": 0.5,
+   "P": 4,
+   "w": 8
+  },
+  "caption": "Shaded bands mark increasing, diminishing and negative marginal returns. Diminishing returns begin where MP peaks, not where TP peaks. The readout L* uses calculus on the smooth curve, so it says 5.51; the professor's table answer is 6 whole workers."
+ },
+ "traps": [
+  "Diminishing returns starts when MP starts FALLING, not when total product starts falling. Output still rises during diminishing returns.",
+  "A unit with MP exactly 0 is diminishing, not negative (Quiz 7 counts L = 7 with MP 0 as diminishing).",
+  "Ranges are ranges of the INPUT (labor 4 to 7), not ranges of output (400 to 475). Quiz 7 uses output ranges as wrong choices.",
+  "Diminishing marginal returns is about adding one input while others are fixed. It is not the same as decreasing returns to scale, which is about growing all inputs together."
+ ],
+ "sources": {
+  "slides": "S15 Production I, pp. 25 to 29",
+  "read": "Ch. 5 pp. 141 to 142",
+  "exercise": "J Dawgs question 2",
+  "quiz": "Reading Quiz Q3; Comprehension Quiz 7 Q2"
+ }
+}

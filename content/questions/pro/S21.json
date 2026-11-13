@@ -1,0 +1,106 @@
+[
+ {
+  "id": "PRO-Session21quiz-Q1",
+  "los": [
+   "S21-01"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Which of the following U.S. industries would not be considered an oligopoly?",
+  "choices": [
+   "Wireless telecommunications industry (i.e. cell phones)",
+   "Credit card industry",
+   "Airline industry",
+   "Self-storage industry"
+  ],
+  "answer": 3,
+  "explain": "Correct! While the self-storage industry does have some big companies like Public Storage and Extra Space Storage, most self-storage companies (in the thousands) are locally owned. The main competitors in the airline industry include American, Delta, Southwest, and United. The main competitors in the credit card industry are American Express, Discover, Mastercard, and Visa. The main competitors in the wireless telecommunications industry include AT&T, T-Mobile, and Verizon.",
+  "source": "professor",
+  "verbatim": true,
+  "origin": "Session 21 quiz Q1"
+ },
+ {
+  "id": "PRO-Session21quiz-Q2",
+  "los": [
+   "S21-02",
+   "S21-05"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "In which of the following oligopoly models do firms compete on quantity?",
+  "choices": [
+   "Stackelberg",
+   "Bertrand",
+   "Cournot",
+   "None of these"
+  ],
+  "answer": 2,
+  "explain": "Correct! In a Cournot oligopoly, firms compete by determining the optimal level of quantity to produce (e.g., oil industry).",
+  "source": "professor",
+  "verbatim": true,
+  "origin": "Session 21 quiz Q2"
+ },
+ {
+  "id": "PRO-Session21quiz-Q3",
+  "los": [
+   "S21-04"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "True or false. A best-response or reaction function for a Cournot oligopoly defines the profit-maximizing level of output for a firm for given input levels of another firm.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 1,
+  "explain": "Correct! A best-response or reaction function defines the profit-maximizing level of output for a firm for given output levels of another firm.",
+  "source": "professor",
+  "verbatim": true,
+  "origin": "Session 21 quiz Q3"
+ },
+ {
+  "id": "PRO-Session21quiz-Q4",
+  "los": [
+   "S21-02",
+   "S21-05"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "True or false. The following scenario best reflects features of a Cournot oligopoly: Each manager charges a price that is a best response to the price charged by the rival.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 1,
+  "explain": "Correct! This statement would be true if each manager produced a quantity that is the best response to the quantity produced by the rival.",
+  "source": "professor",
+  "verbatim": true,
+  "origin": "Session 21 quiz Q4"
+ },
+ {
+  "id": "PRO-Session21quiz-Q5",
+  "los": [
+   "S21-02",
+   "S21-06"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Collusion in a Cournot oligopoly is difficult to achieve because _______.",
+  "choices": [
+   "it is often prohibited by law",
+   "Both: every firm has an incentive to cheat, and collusion is often prohibited by law",
+   "None of these",
+   "every firm has an incentive to cheat given that others follow the agreement"
+  ],
+  "answer": 1,
+  "explain": "Correct! Collusion is difficult to achieve because it is prohibited by law AND because every firm has an incentive to cheat given that others follow the agreement.",
+  "source": "professor",
+  "verbatim": true,
+  "origin": "Session 21 quiz Q5"
+ }
+]

@@ -1,0 +1,181 @@
+Session 16: Production II Session 16: Production II 
+ Exported from Canvas (STRAT 402) on Nov 12, 2026. Files linked below are saved in this folder. 
+ Before Class 
+ Read: Chapter 5: Isoquants and Cost Minimization 
+ Page · Open in Canvas 
+
+ Read 
+
+ Chapter 5: Isoquants and Cost Minimization 
+
+ Read or skim Chapter 5: The Production Process and Costs (pp. 148–156). Then answer the Session 16: Reading Quiz questions. 
+
+ Textbook 
+ Baye & Prince, Managerial Economics and Business Strategy 
+
+ Chapter 
+ 5 — The Production Process and Costs 
+
+ Pages 
+ 148–156 
+
+ Sections 
+ Isoquants; Isocosts; Cost Minimization; Optimal Input Substitution; Data-Driven Production Functions 
+
+ Learning Objectives for Session 16: Production II 
+
+ Know and understand the following economic concepts: isoquant, marginal rate of technical substitution (MRTS), law of diminishing MRTS, isocost 
+
+ Know and understand the cost-minimizing input rule 
+
+ Know and understand optimal input substitution 
+
+ Next: Take the Session 16: Reading Quiz . You may take it as many times as you like, and your highest score counts. 
+
+ Session 16: Reading Quiz 
+ Quiz · Due Tue Oct 27, 2026 10:59 PM · Open in Canvas 
+ This reading quiz covers the content from Session 16: Production II . It contains five questions based on the following learning objectives. You may take the quiz as many times as you want, but it must be completed before the scheduled due date. 
+ Learning Objectives for Session 16: Production II 
+ Know and understand the following economic concepts: isoquant, marginal rate of technical substitution (MRTS), law of diminishing MRTS, isocost 
+ Know and understand the cost-minimizing input rule 
+ Know and understand optimal input substitution 
+
+ In Class 
+ Slides: Production II 
+ File · Open in Canvas 
+ Saved as S16 Slides - Production II.pdf 
+
+ In-Class Exercise: Production Functions 
+ Page · Open in Canvas 
+
+ In-Class Exercise 
+
+ Production Functions 
+
+ A production function turns inputs into output, and an isoquant is every combination of capital and labor that produces the same amount. Seen in 3D, an isoquant is a slice through the production surface at one height. This workbook draws the surface and its isoquants for three common production functions. Nothing is graded and there's nothing to fill in: change the parameters and watch how the shape changes. 
+
+ Materials 
+
+ In-Class Exercise - Production Functions.xlsx 
+ 3D and 2D charts of each production function, driven by parameters you can change 
+
+ Chapter 5: Isoquants and Cost Minimization 
+ The reading you did before class 
+
+ What to Try 
+
+ Tab 
+ Function 
+ Experiment 
+
+ Linear 
+ Q = aK + bL 
+ Capital and labor are perfect substitutes, so the isoquants are straight lines. Change a and b and watch the slope of the lines tilt toward the more productive input. 
+
+ Cobb-Douglas 
+ Q = K a L b 
+ Inputs substitute imperfectly, so the isoquants bow toward the origin. Try values of a and b that sum to less than, equal to, and more than 1, and see how the surface bends. 
+
+ Leontief 
+ Q = min{aK, bL} 
+ Inputs must be used in fixed proportions, so the isoquants are L-shaped. Change a and b and watch where the corners move. 
+
+ Changing Levels of Production 
+ Q = AK a L b 
+ The chart shows the isoquant for 100 units. Type a new output level into the blank Adjusted Quantity cell (G2) to draw a second isoquant, and see which way it shifts. 
+
+ On the 3D charts, each colored band is a range of output. Look straight down on the surface and those bands become the isoquant map in the 2D chart beside it. 
+
+ In-Class Exercise: Cost Minimization 
+ Page · Open in Canvas 
+
+ In-Class Exercise 
+
+ Cost Minimization 
+
+ A firm minimizes the cost of producing a given output when the last dollar spent on each input buys the same amount of output. In this exercise you'll compare the marginal product per dollar of labor and of capital for a production line, decide which input the firm should use more of, and sketch how the cost-minimizing mix shifts when the rental rate on capital rises. Download the worksheet below and work through the three questions with the people around you. 
+
+ Materials 
+
+ In-Class Exercise - Cost Minimization.docx 
+ The questions on page 1, with the solution on page 2 to check your work 
+
+ Chapter 5: Isoquants and Cost Minimization 
+ The reading you did before class, including Figure 5-10 for question 3 
+
+ The cost-minimizing rule: produce where MP L /w = MP K /r. If one input gives more output per dollar than the other, shift spending toward it until the two ratios are equal. 
+
+ After Class 
+ Comprehension Quiz 7 
+ Assignment · Due Sat Oct 31, 2026 10:59 PM · 10 pts · Open in Canvas 
+ This is an external-tool quiz; its questions can't be exported from Canvas. Open it in Canvas to review. 
+
+ Production Exercise 
+ Assignment · Due Sat Oct 31, 2026 10:59 PM · 100 pts · Open in Canvas 
+
+ Spreadsheet Assignment 
+
+ Production Exercise 
+
+ Background 
+
+ In early 2024, Klarna, the buy-now-pay-later company, put an AI assistant in front of its customer service chats. Within a month Klarna said the assistant was doing the work of 700 full-time agents, and the company let its human support staff shrink through a hiring freeze. A year later the CEO said the push had gone too far: cost had driven the decision, quality had slipped, and Klarna started recruiting human agents again. 
+
+ Klarna's question is a production question. AI assistant hours and human agent hours are both inputs to resolving customer conversations, and they substitute for each other, but not perfectly. In this assignment you will estimate Klarna's customer service production function from monthly data, trace out its marginal products and isoquant, and use input prices to test whether Klarna is using the cost-minimizing mix of AI and human hours. Then you will find that mix with Solver, measure what moving to it would save, and translate the answer into the number of agents Klarna should employ. How far to automate, and how much to trust a model that recommends it, is a strategic decision nearly every service business now faces. 
+
+ The monthly data are simulated for this exercise and calibrated to Klarna's public statements; they are not Klarna's internal records. 
+
+ Materials 
+
+ File 
+ What It's For 
+
+ Production Exercise - Klarna.xlsx 
+ The workbook you complete and submit 
+
+ Read: Chapter 5: The Production Function 
+ Production functions, marginal product, and diminishing returns 
+
+ Read: Chapter 5: Isoquants and Cost Minimization 
+ Isoquants, isocost lines, and the cost-minimizing input mix 
+
+ Watch: Regression in Excel Demonstration 
+ Running a regression with the Analysis ToolPak, for step 1 
+
+ Instructions 
+
+ Start with the Overview tab, then complete all nine steps on the Exercise tab. The Data tab holds 32 months of Klarna's conversations resolved, AI assistant hours, and human agent hours. You will need Excel's Analysis ToolPak and Solver add-ins; the Log-linear Regression and Using Solver to Cost Minimize tabs explain how to use them. 
+
+ Estimate the production function (step 1). Take the natural log of output and both inputs, run a log-linear regression, and write out Klarna's Cobb-Douglas production function. 
+
+ Chart production and marginal products (steps 2–3). Plot the total product of human agent hours, then the marginal products of human and AI hours, holding the other input at its monthly average. 
+
+ Map the isoquant (step 4). Plot every mix of AI and human hours that produces Klarna's average monthly output, and mark where Klarna actually operates. 
+
+ Find the cost-minimizing mix (steps 5–6). Compare the marginal product per dollar of each input at Klarna's current mix, then use Solver to find the mix that produces the same output at the lowest cost. 
+
+ Show the tangency (step 7). Plot the isoquant and the isocost line on one chart so they touch at the cost-minimizing mix. 
+
+ Measure the payoff (steps 8–9). Calculate the monthly and annual savings, and how the number of full-time human agents would change. 
+
+ Answer the four questions. Answer in complete sentences, in terms Klarna's head of customer service could act on. 
+
+ This is an individual assignment. You are welcome to work alongside classmates and compare answers, but don't let a friend carry you. You will complete similar tasks on your own on Midterm Exam 2. 
+
+ Submission 
+
+ Upload your completed .xlsx workbook here. You may resubmit as many times as you like before the due date; your most recent submission is the one graded. 
+
+ Evaluation 
+
+ To receive full credit, you should be able to answer yes to each of these questions. 
+
+ Is my workbook complete? Did I answer every question? 
+
+ Is my spreadsheet cleanly formatted, professional in appearance, and free of clutter? 
+
+ Are my graphs and tables labeled, and do they clearly communicate what I intend? 
+
+ Are my calculations accurate? 
+
+ Are my conclusions supported by my analysis?

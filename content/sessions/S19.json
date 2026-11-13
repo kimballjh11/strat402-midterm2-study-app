@@ -1,0 +1,3 @@
+{
+ "overview": "Session 19 introduces game theory for oligopoly, where a few firms' profits depend on each other's choices. A simultaneous-move, one-shot game is shown in normal form: a payoff matrix with players, strategies and payoffs (row player's number first). A dominant strategy is best whatever the rival does. A Nash equilibrium is a set of strategies where no one can gain by changing alone; it can be worse for everyone (the prisoner's dilemma, Visa versus Mastercard). When no pure equilibrium exists, players randomize so the rival is indifferent. The same tools apply to pricing, advertising and coordination."
+}

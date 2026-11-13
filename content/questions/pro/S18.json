@@ -1,0 +1,110 @@
+[
+ {
+  "id": "PRO-Session18quiz-Q1",
+  "los": [
+   "S18-10"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "According to \"Strategies to Crack Well-Guarded Markets,\" which of the following is not one of the three basic strategies firms use to break into well-guarded markets?",
+  "choices": [
+   "Reconfigure the value chain",
+   "Directly attack the market leader",
+   "Create a niche",
+   "Leverage existing assets"
+  ],
+  "answer": 1,
+  "explain": "Correct! The three strategies suggested by the article Strategies to Crack Well-Guarded Markets are leverage existing assets, reconfigure the value chain, and create a niche.",
+  "source": "professor",
+  "verbatim": true,
+  "origin": "Session 18 quiz Q1"
+ },
+ {
+  "id": "PRO-Session18quiz-Q2",
+  "los": [
+   "S18-10"
+  ],
+  "type": "multi",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "As noted in the article, successful companies often use a combination of approaches to enter highly profitable markets. Based on your own understanding, which of the following strategies did Uber use to enter the ground transportation industry? Select all that apply.",
+  "choices": [
+   "Reconfigure the value chain",
+   "Create a niche",
+   "Leverage existing assets"
+  ],
+  "answer": [
+   0,
+   1,
+   2
+  ],
+  "explain": "Correct! Rather than buying its own fleet, Uber leveraged existing assets by having drivers use their own cars. Uber reconfigured the value chain by changing the way riders hail a ride: through an app, rather than waiting in line or at a particular location. Uber started in a niche, luxury black-car service, before expanding to everyday riders.",
+  "source": "professor",
+  "verbatim": true,
+  "origin": "Session 18 quiz Q2"
+ },
+ {
+  "id": "PRO-Session18quiz-Q3",
+  "los": [
+   "S18-09"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Which of the following is not a common barrier to entry?",
+  "choices": [
+   "Buyer price sensitivity",
+   "Capital requirements",
+   "Economies of scale",
+   "Network effects"
+  ],
+  "answer": 0,
+  "explain": "Correct! Common barriers to entry are factors that make it difficult for new firms to enter an industry. These include: Economies of scale: Existing firms have cost advantages from large-scale production. Capital requirements: High startup costs deter new entrants. Network effects: The value of a product increases as more people use it, favoring established players. Buyer price sensitivity, on the other hand, is not a barrier to entry. It affects competition within the market (how much buyers respond to price changes), but it doesn't prevent new firms from entering.",
+  "source": "professor",
+  "verbatim": true,
+  "origin": "Session 18 quiz Q3"
+ },
+ {
+  "id": "PRO-Session18quiz-Q4",
+  "los": [
+   "S18-05"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "An incumbent firm charges a price below the monopoly price so that a potential entrant expects to earn little or no profit if it enters. This strategy is called ______.",
+  "choices": [
+   "limit pricing",
+   "penetration pricing",
+   "peak-load pricing",
+   "predatory pricing"
+  ],
+  "answer": 0,
+  "explain": "Correct! Limit pricing occurs when a firm with market power prices below the monopoly price to keep potential rivals out. It works only if the preentry price is linked to the entrant's postentry profits, for example through a commitment to high output, learning curve effects, incomplete information, or a reputation for being tough. Predatory pricing is different: it prices below marginal cost to drive out rivals that have already entered.",
+  "source": "professor",
+  "verbatim": true,
+  "origin": "Session 18 quiz Q4"
+ },
+ {
+  "id": "PRO-Session18quiz-Q5",
+  "los": [
+   "S18-04"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "A new social media app is worth little to its first users, because the value of the app depends on how many other people use it. Which strategy helps an entrant overcome the network effects that protect established platforms?",
+  "choices": [
+   "Penetration pricing: charging a low price at first, or even giving the product away, to build a critical mass of users",
+   "Premium pricing: charging a high price to signal that the app is higher quality",
+   "Predatory pricing: pricing below cost to drive established platforms out of the market",
+   "Limit pricing: keeping the price below the monopoly level to discourage other firms from entering"
+  ],
+  "answer": 0,
+  "explain": "Correct! With network effects, each user values the product more as more people use it, so an entrant starts at a disadvantage. Penetration pricing accepts low or negative margins at first to build a critical mass of users. Once enough users join, the firm can raise its price.",
+  "source": "professor",
+  "verbatim": true,
+  "origin": "Session 18 quiz Q5"
+ }
+]

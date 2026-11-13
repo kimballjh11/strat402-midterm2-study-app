@@ -1,0 +1,156 @@
+## SHEET: J-Dawgs Exercise (38 rows x 11 cols)
+B1: 'Production Data - J-Dawgs'
+B2: 'K*'
+C2: 'L'
+D2: 'Q'
+E2: 'MPL'
+F2: 'APL'
+G2: 'Total Value of Output'
+H2: 'Total Cost of Labor'
+I2: 'VMPL (MB)'
+J2: 'Wage (MC)'
+B3: 2
+C3: 0
+D3: 0  [formula =-0.5*C3^3+4*C3^2+3.5*C3]
+E3: '-'
+F3: '-'
+B4: 2
+C4: 1
+D4: 7  [formula =-0.5*C4^3+4*C4^2+3.5*C4]
+B5: 2
+C5: 2
+D5: 19  [formula =-0.5*C5^3+4*C5^2+3.5*C5]
+B6: 2
+C6: 3
+D6: 33  [formula =-0.5*C6^3+4*C6^2+3.5*C6]
+B7: 2
+C7: 4
+D7: 46  [formula =-0.5*C7^3+4*C7^2+3.5*C7]
+B8: 2
+C8: 5
+D8: 55  [formula =-0.5*C8^3+4*C8^2+3.5*C8]
+B9: 2
+C9: 6
+D9: 57  [formula =-0.5*C9^3+4*C9^2+3.5*C9]
+B10: 2
+C10: 7
+D10: 49  [formula =-0.5*C10^3+4*C10^2+3.5*C10]
+B11: 2
+C11: 8
+D11: 28  [formula =-0.5*C11^3+4*C11^2+3.5*C11]
+B12: '*Capital is fixed at 2 grills'
+A13: '1.'
+B13: 'Provide definitions for the total product, average product, marginal product of labor, and value marginal product of labor.'
+A20: '2.'
+B20: 'Calculate the marginal product of labor (MPL) for each unit of labor (i.e. each worker) that you hire. In what ranges of L does the production function exhibit increasing marginal returns? Decreasing marginal returns? Negative marginal returns?'
+A27: '3.'
+B27: 'What profit-maximizing principle should you use to determine how many workers to hire?'
+A33: '4.'
+B33: 'If a hotdog sells for $4.00 and the wage is $8.00, how many workers should you hire? How do you know?'
+B34: 'Hint: Fill in the rest of the table and think about concept of marginal benefit and marginal cost.'
+## SHEET: J-Dawgs Exercise - Solution (38 rows x 11 cols)
+B1: 'Production Data - J-Dawgs'
+B2: 'K*'
+C2: 'L'
+D2: 'Q'
+E2: 'MPL'
+F2: 'APL'
+G2: 'Total Value of Output'
+H2: 'Total Cost of Labor'
+I2: 'VMPL (MB)'
+J2: 'Wage (MC)'
+B3: 2
+C3: 0
+D3: 0  [formula =-0.5*C3^3+4*C3^2+3.5*C3]
+E3: '-'
+F3: '-'
+G3: 0  [formula =D3*4]
+H3: 0  [formula =8*C3]
+I3: 0
+J3: 8
+B4: 2
+C4: 1
+D4: 7  [formula =-0.5*C4^3+4*C4^2+3.5*C4]
+E4: 7  [formula =D4-D3]
+F4: 7  [formula =D4/C4]
+G4: 28  [formula =D4*4]
+H4: 8  [formula =8*C4]
+I4: 28  [formula =E4*4]
+J4: 8
+B5: 2
+C5: 2
+D5: 19  [formula =-0.5*C5^3+4*C5^2+3.5*C5]
+E5: 12  [formula =D5-D4]
+F5: 9.5  [formula =D5/C5]
+G5: 76  [formula =D5*4]
+H5: 16  [formula =8*C5]
+I5: 48  [formula =E5*4]
+J5: 8
+B6: 2
+C6: 3
+D6: 33  [formula =-0.5*C6^3+4*C6^2+3.5*C6]
+E6: 14  [formula =D6-D5]
+F6: 11  [formula =D6/C6]
+G6: 132  [formula =D6*4]
+H6: 24  [formula =8*C6]
+I6: 56  [formula =E6*4]
+J6: 8
+B7: 2
+C7: 4
+D7: 46  [formula =-0.5*C7^3+4*C7^2+3.5*C7]
+E7: 13  [formula =D7-D6]
+F7: 11.5  [formula =D7/C7]
+G7: 184  [formula =D7*4]
+H7: 32  [formula =8*C7]
+I7: 52  [formula =E7*4]
+J7: 8
+B8: 2
+C8: 5
+D8: 55  [formula =-0.5*C8^3+4*C8^2+3.5*C8]
+E8: 9  [formula =D8-D7]
+F8: 11  [formula =D8/C8]
+G8: 220  [formula =D8*4]
+H8: 40  [formula =8*C8]
+I8: 36  [formula =E8*4]
+J8: 8
+B9: 2
+C9: 6
+D9: 57  [formula =-0.5*C9^3+4*C9^2+3.5*C9]
+E9: 2  [formula =D9-D8]
+F9: 9.5  [formula =D9/C9]
+G9: 228  [formula =D9*4]
+H9: 48  [formula =8*C9]
+I9: 8  [formula =E9*4]
+J9: 8
+B10: 2
+C10: 7
+D10: 49  [formula =-0.5*C10^3+4*C10^2+3.5*C10]
+E10: -8  [formula =D10-D9]
+F10: 7  [formula =D10/C10]
+G10: 196  [formula =D10*4]
+H10: 56  [formula =8*C10]
+I10: -32  [formula =E10*4]
+J10: 8
+B11: 2
+C11: 8
+D11: 28  [formula =-0.5*C11^3+4*C11^2+3.5*C11]
+E11: -21  [formula =D11-D10]
+F11: 3.5  [formula =D11/C11]
+G11: 112  [formula =D11*4]
+H11: 64  [formula =8*C11]
+I11: -84  [formula =E11*4]
+J11: 8
+B12: '*Capital is fixed at 2 grills'
+A13: '1.'
+B13: 'Provide definitions for the total product, average product, marginal product of labor, and value marginal product of labor.'
+B14: 'Total product of labor (Q) = the maximum level of output that can be produced with a given amount of inputs\nAverage product of labor (Q/L) = the output produced per unit of output\nMarginal product of labor (ΔQ/ΔL or ∂Q/∂L) = the change in total output attributable to the last unit of input\nValue marginal product of labor (P*MPL)= the value of the output produced by the last unit of an input'
+A20: '2.'
+B20: 'Calculate the marginal product of labor (MPL) for each unit of labor (i.e. each worker) that you hire. In what ranges of L does the production function exhibit increasing marginal returns? Decreasing marginal returns? Negative marginal returns?'
+B22: 'Increasing marginal returns = 0 to 3\nDecreasing marginal returns = 4 to 6\nNegative marginal returns = Greater than 6'
+A27: '3.'
+B27: 'What profit-maximizing principle should you use to determine how many workers to hire?'
+B28: 'Profit is maximized when the value of output for each additional unit of labor is equal to the wage. \n\n                                                                                            VMPL  =  P*MPL = w'
+A33: '4.'
+B33: 'If a hotdog sells for $4.00 and the wage is $8.00, how many workers should you hire? How do you know?'
+B34: 'Hint: Fill in the rest of the table and think about concept of marginal benefit and marginal cost.'
+B35: 'If a hotdog sells for $4.00 and the wage is $8.00, you should hire 6 workers. With six laborers, the VMPL (MB) and wage (MC) are equal at 8.'

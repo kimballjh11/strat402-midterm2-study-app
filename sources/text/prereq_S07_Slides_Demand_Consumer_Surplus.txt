@@ -1,0 +1,389 @@
+
+===== PAGE 1 =====
+STRAT 402
+ECONOMICS OF STRATEGY
+Session 7
+Demand
+
+===== PAGE 2 =====
+Agenda
+▪Admin Items
+▪Cost Advantage Debrief
+▪In-Class Exercise (Dr Pepper Taste Challenge)
+▪Introduce Differentiation Advantage Assignment
+
+===== PAGE 3 =====
+Admin Items
+▪Help from TAs
+oDo not ask the TAs to “check” your 
+assignment
+▪Grading Process for Assignments
+oAI first pass, audited and checked by 
+TAs
+▪TA Hours on Fridays and Saturdays
+oTreat them as labs, schedule them in 
+advance
+▪Reminder about the Late Policy
+oManaging your schedule is part of 
+character building, one of BYU's four 
+Aims
+
+===== PAGE 4 =====
+Cost Advantage Debrief
+
+===== PAGE 5 =====
+Same Job, Different Cost
+ $-
+ $0.10
+ $0.20
+ $0.30
+ $0.40
+ $0.50
+ $0.60
+ $0.70
+Marginal Cost per Entertainment Hour  ($)
+Year-Quarter
+Cost Advantage: Netflix vs. Redbox
+Netflix
+Redbox
+
+===== PAGE 6 =====
+Scale economies work in reverse
+ATC = 656.06R-0.476
+R² = 0.7519
+ $-
+ $0.50
+ $1.00
+ $1.50
+ $2.00
+ $2.50
+ $3.00
+ 100,000
+ 120,000
+ 140,000
+ 160,000
+ 180,000
+ 200,000
+ 220,000
+Cost per Rental ($)
+Number of Rentals (000s)
+Average Total Cost: Redbox
+
+===== PAGE 7 =====
+Look at the trend, not the snapshot
+
+===== PAGE 8 =====
+Theory Meets Practice
+
+===== PAGE 9 =====
+Theory Meets Practice
+
+===== PAGE 10 =====
+Theory Meets Practice
+Source: WSJ, March 15, 2020
+
+===== PAGE 11 =====
+Theory Meets Practice
+“Four centuries ago, Francis Bacon published “Novum Organum,” a 
+treatise describing the use of experiments to build knowledge and 
+“put Nature to the question.” The application of this method to 
+business has gained new urgency with the explosion of online 
+commerce and the recognition that small tweaks can generate 
+enormous profits. As Stefan Thomke notes in “Experimentation Works,” 
+tests at Microsoft in 2012 revealed that a tiny adjustment in the way its 
+Bing search engine displayed ad headlines resulted in a 12% increase in 
+revenue, translating into an extra $100 million annually for the 
+company in the U.S. alone.
+Source: WSJ, March 15, 2020
+
+===== PAGE 12 =====
+A/B Testing
+The comparison of two potential options—known as A/B testing—is 
+now routinely baked into the development of customer-facing 
+software, Mr. Thomke reports. Microsoft, Amazon, Facebook and 
+Google “each conduct more than ten thousand online experiments 
+annually,” he writes, adding that even companies without tech roots 
+(Nike, State Farm) run trials like this regularly. The tests might evaluate, 
+say, the components of a website—style of font, color of background, 
+shape of buttons, choice of words—and continuously adjust them 
+based on user response. Empiricism is critical, explains a Booking.com 
+data scientist: Without it, “our predictions of how customers behave 
+are wrong nine times out of ten.”
+Source: WSJ, March 15, 2020
+
+===== PAGE 13 =====
+Behavioral Nudges
+In “The Power of Experiments,” Michael Luca and Max Bazerman, also 
+professors at Harvard Business School, note that the experimental 
+method can be applied to broader social goals. The authors are 
+especially intrigued by “nudge units,” teams tasked with applying the 
+tools of behavioral economics to populations. In 2011, for instance, a 
+British team showed experimentally that, by adding a single sentence 
+to a letter mailed to delinquent taxpayers—“By now, 9 out 10 people in 
+your town have paid their taxes”—it could recover more revenue. 
+Similarly, the way decisions are framed makes a difference. Asking car 
+drivers whether they want to “opt out” of organ donation—instead of 
+requiring them to “opt in”—leads to more organ donors.
+Source: WSJ, March 15, 2020
+
+===== PAGE 14 =====
+Application to Personal Finance
+
+===== PAGE 15 =====
+Learning Objectives
+▪Know and understand the following concepts:
+oMarket demand curve
+oLaw of demand
+oChange in quantity demanded/shift in demand
+oNormal/inferior goods
+oSubstitutes/complements
+oDemand/inverse-demand function
+▪Know and understand how to construct and plot a demand curve
+▪Know how to calculate the revenue maximizing price using calculus
+▪Know how to calculate consumer surplus and describe what it means
+
+===== PAGE 16 =====
+Estimating a Demand Curve
+1. Experimental trial(s) (A/B Tests)
+2. Market surveys (Dr Pepper)
+3. Historical data (Redbox)
+
+===== PAGE 17 =====
+Surveys
+Dr Pepper vs. Mr. Pibb
+Open the In-Class Exercise posted on 
+Learning Suite to follow along
+
+===== PAGE 18 =====
+Dr Pepper Taste Test
+
+===== PAGE 19 =====
+Historical Data
+
+===== PAGE 20 =====
+Redbox, 2009-2015
+This Photo by Unknown Author is licensed under CC BY-SA
+0%
+50%
+100%
+150%
+200%
+250%
+300%
+350%
+2009
+2010
+2011
+2012
+2013
+2014
+2015
+Change in Stock Price (%)
+Outerwall’s Stock Price, 2009-2015
+
+===== PAGE 21 =====
+Redbox vs. Netflix
+0%
+500%
+1000%
+1500%
+2000%
+2500%
+2009
+2010
+2011
+2012
+2013
+2014
+2015
+Change in Stock Price (%)
+Redbox vs. Netflix, 2009-2015
+Outerwall
+Netflix
+
+===== PAGE 22 =====
+Redbox Data
+0
+100,000
+200,000
+300,000
+400,000
+500,000
+600,000
+Revenue (000s), Rentals
+Year-Quarter
+Redbox Revenue and Rentals, 2009-2015
+Revenue
+Rentals
+
+===== PAGE 23 =====
+Redbox Data
+0
+10,000
+20,000
+30,000
+40,000
+50,000
+Number of Kiosks
+Year-Quarter
+Number of Kiosks, 2009-2015
+
+===== PAGE 24 =====
+Redbox Data
+ $-
+ $0.50
+ $1.00
+ $1.50
+ $2.00
+ $2.50
+ $3.00
+ $3.50
+Revenue per DVD Rental
+Year-Quarter
+Revenue per DVD Rental, 2009-2015
+
+===== PAGE 25 =====
+Redbox Data
+ -
+ 1,000
+ 2,000
+ 3,000
+ 4,000
+ 5,000
+ 6,000
+Rentals per Kiosk
+Year-Quarter
+Rentals per Kiosk, 2009-2015
+
+===== PAGE 26 =====
+Redbox Data
+ -
+ 1,000
+ 2,000
+ 3,000
+ 4,000
+ 5,000
+ 6,000
+Rentals per Kiosk
+Year-Quarter
+Rentals per Kiosk, 2009-2015
+
+===== PAGE 27 =====
+Redbox’s Demand Curve
+Quarter
+Price
+Quantity (rentals per kiosk)
+2011-1
+$1.00
+5,169
+2011-2
+$1.00
+5,012
+2011-3
+$1.00
+5,172
+2012-2
+$1.20
+4,655
+2012-3
+$1.20
+4,160
+2012-4
+$1.20
+4,301
+
+===== PAGE 28 =====
+Redbox’s Demand Curve
+y = -3,728x + 8,845
+ 4,000
+ 4,200
+ 4,400
+ 4,600
+ 4,800
+ 5,000
+ 5,200
+ 5,400
+ $0.90
+ $1.00
+ $1.10
+ $1.20
+ $1.30
+Quantity (Rentals per kiosk)
+Price
+Quantity as a Function of Price
+
+===== PAGE 29 =====
+Revenue Maximization
+ $-
+ $1,000.00
+ $2,000.00
+ $3,000.00
+ $4,000.00
+ $5,000.00
+ $6,000.00
+ $-
+ $0.50
+ $1.00
+ $1.50
+ $2.00
+ $2.50
+Revenue
+Price
+Revenue as a Function of Price
+
+===== PAGE 30 =====
+Revenue Maximization
+Use the following demand curve to calculate the revenue maximizing 
+price for Redbox.
+Q = -3,728P+8,845
+Remember the following steps:
+1. Define the revenue function
+2. Find the derivative of the revenue function with respect to price 
+(dR/dP)
+3. Set the derivative equal to zero
+4. Solve for P
+
+===== PAGE 31 =====
+Redbox Case
+Based on this exercise, what do you think about the 
+more recent price increase to a $1.50? Was it a good or 
+bad idea?
+
+===== PAGE 32 =====
+Redbox’s Demand Curve(s)
+y = -0.0002x + 2.1817
+R² = 0.8499
+y = -0.0003x + 2.4537
+R² = 0.7152
+ $-
+ $0.50
+ $1.00
+ $1.50
+ $2.00
+ $2.50
+ -
+ 1,000
+ 2,000
+ 3,000
+ 4,000
+ 5,000
+ 6,000
+ 7,000
+ 8,000
+Rental Price
+Quantity Demanded (Rentals per kiosk)
+Demand: 2011 vs. 2014
+Demand - 2011-Q4
+Demand - 2014-Q4
+Linear (Demand - 2011-Q4)
+Linear (Demand - 2014-Q4)
+
+===== PAGE 33 =====
+Dr Pepper Taste Test
+
+===== PAGE 34 =====
+Differentiation Advantage Spreadsheet 
+
+===== PAGE 35 =====
+Next Class: Demand
+▪Read Chapter 3: Quantitative Demand Analysis

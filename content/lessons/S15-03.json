@@ -1,0 +1,60 @@
+{
+ "id": "S15-03",
+ "title": "Average product",
+ "calc": true,
+ "plain": "**Average product** is output per unit of input. For labor:\n$$AP_L = \\frac{Q}{L}$$\nIt is a productivity measure: how many hot dogs each worker makes on average. With 4 workers J Dawgs makes 46 hot dogs, so \\(AP_L = 46/4 = 11.5\\) per worker.\n\n**How AP moves.** Average product rises when the newest worker is more productive than the current average, and falls when the newest worker is less productive. This is the same logic as your GPA: a class grade above your GPA pulls it up, a grade below pulls it down. So:\n- If \\(MP > AP\\), AP is rising.\n- If \\(MP < AP\\), AP is falling.\n- MP crosses AP at the top (maximum) of AP.\n\nIn J Dawgs, the 4th worker adds 13, more than the average of 11 with three workers, so AP rises to 11.5. The 5th worker adds only 9, below 11.5, so AP falls to 11.",
+ "why": "Average product tells a manager how productive the workforce is on average. It is on the equation sheet. Exams ask you to compute it from a table or a function and to know how it relates to marginal product.",
+ "definition": "Average product is the output produced per unit of input: \\(AP_L = Q/L\\).",
+ "formulas": [
+  {
+   "name": "Average product of labor",
+   "tex": "AP_L = \\frac{Q}{L}",
+   "onSheet": true
+  },
+  {
+   "name": "Average product of capital",
+   "tex": "AP_K = \\frac{Q}{K}",
+   "onSheet": true,
+   "note": "The sheet writes it for any input I: AP_I = Q / I."
+  }
+ ],
+ "derivation": "Why MP crosses AP at AP's peak: adding a worker whose output is above the current average must raise the average, and one below must lower it. The average stops rising exactly when the newest worker's output equals the average. That is the top of AP.",
+ "math": [],
+ "worked": [
+  {
+   "title": "J Dawgs average product",
+   "problem": "Compute average product for 2, 4 and 6 workers. Where is AP highest?\n\n| Workers L | Hot dogs Q | MP_L | AP_L | VMP_L = $4 × MP_L | Wage |\n|---|---|---|---|---|---|\n| 0 | 0 |  |  |  | $8 |\n| 1 | 7 | 7 | 7 | $28 | $8 |\n| 2 | 19 | 12 | 9.5 | $48 | $8 |\n| 3 | 33 | 14 | 11 | $56 | $8 |\n| 4 | 46 | 13 | 11.5 | $52 | $8 |\n| 5 | 55 | 9 | 11 | $36 | $8 |\n| 6 | 57 | 2 | 9.5 | $8 | $8 |\n| 7 | 49 | -8 | 7 | $-32 | $8 |\n| 8 | 28 | -21 | 3.5 | $-84 | $8 |",
+   "steps": [
+    "\\(AP(2) = 19/2 = 9.5\\)",
+    "\\(AP(4) = 46/4 = 11.5\\)",
+    "\\(AP(6) = 57/6 = 9.5\\)",
+    "Scan the AP column: the largest is 11.5 at L = 4.",
+    "Check: the 4th worker's MP (13) is above the old AP (11), the 5th worker's MP (9) is below 11.5. AP peaks at 4."
+   ],
+   "answer": "AP = 9.5, 11.5 and 9.5. Average product is highest at 4 workers."
+  }
+ ],
+ "graph": {
+  "component": "production",
+  "params": {
+   "form": "cubic",
+   "a": 3.5,
+   "b": 4,
+   "c": 0.5,
+   "P": 4,
+   "w": 8
+  },
+  "caption": "Middle panel: MP (yellow) crosses AP (green) at the top of AP. Drag b or c and watch the crossing stay at AP's peak. The readout L* uses calculus on the smooth curve, so it says 5.51; the professor's table answer is 6 whole workers."
+ },
+ "traps": [
+  "AP is total output divided by the number of workers, not the change from the last worker. Using the MP column when the question asks for AP is the most common mistake.",
+  "Use the total Q at that L, not the Q of the last worker only.",
+  "AP falls while MP is still positive. Falling AP does not mean output is falling.",
+  "AP is maximized where MP = AP, not where MP is maximized and not where Q is maximized."
+ ],
+ "sources": {
+  "slides": "S15 Production I, pp. 21, 27",
+  "read": "Ch. 5 pp. 140 to 142",
+  "exercise": "J Dawgs"
+ }
+}

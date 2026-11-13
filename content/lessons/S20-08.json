@@ -1,0 +1,102 @@
+{
+ "id": "S20-08",
+ "title": "Sequential games in business: entry, innovation, bargaining",
+ "calc": true,
+ "plain": "**1. Market entry and deterrence.** An entrant decides In or Out; if In, the incumbent decides Fight or Accommodate. Example (payoffs Entrant, Incumbent): Out → (0, 12); In and Fight → (-3, 2); In and Accommodate → (4, 6).\n- Backward induction: after entry the incumbent compares Fight 2 vs Accommodate 6 and accommodates.\n- So the entrant compares In (4) with Out (0) and enters. **SPE: In, Accommodate.**\n- The incumbent's threat to fight is **not credible**. To deter entry, it must change the payoffs with a **commitment** (for example, building capacity that makes fighting cheaper, S18-05 and S18-07).\n\n**2. Innovation.** A firm decides whether to introduce a product; a rival decides whether to clone it. In Comprehension Quiz 9 Q9 the rival clones (15 > 1), and the first firm still introduces (2 > 0). If cloning makes introducing unprofitable, the firm will not innovate, which is why **patents** that block cloning encourage innovation.\n\n**3. Bargaining.** A proposer makes a take-it-or-leave-it offer; the responder accepts or rejects (both get 0). The responder prefers any positive amount to 0, so the proposer offers the smallest amount and keeps almost everything. A threat to reject a small offer is not credible. **The player who can make a credible take-it-or-leave-it offer captures most of the surplus.** If counteroffers are possible, the advantage shrinks.\n\n**4. Policy and strategy.** The slides apply the same logic to Putin and Crimea, Trump's tariff threats, and social media and misinformation (p. 70; the Game Theory Exercise Parts 2 and 3 model the political ads decision with Twitter moving first).\n\n**5. Sequential versus simultaneous.** Turning a simultaneous game into a sequential one can change the outcome, which is why firms race to commit first (or wait to move second).",
+ "why": "Practice exam Q13 and Q27 to Q29 and Comprehension Quiz 9 Q8 to Q10 apply sequential games to entry, innovation and bargaining.",
+ "definition": "Sequential games can be applied to business decisions such as market entry (credible versus non-credible deterrence), innovation (cloning and patents) and bargaining (take-it-or-leave-it offers).",
+ "formulas": [],
+ "derivation": "",
+ "math": [
+  {
+   "title": "Reading a game tree",
+   "body": "Start at the first node (the first mover). Each branch is an action. The next node shows who moves next. Payoffs at the ends are listed in the order stated in the problem, usually the first mover first. To solve, start at the LAST decisions and work back toward the start."
+  }
+ ],
+ "worked": [
+  {
+   "title": "Entry deterrence with commitment",
+   "problem": "Same entry game: Out (0, 12); In/Fight (-3, 2); In/Accommodate (4, 6). The incumbent can first sign contracts that make fighting pay it 8 instead of 2 if entry happens. Does that deter entry?",
+   "steps": [
+    "After entry the incumbent now compares Fight 8 vs Accommodate 6: it fights.",
+    "The entrant compares In (-3) with Out (0) and stays out.",
+    "Incumbent earns 12 instead of 6."
+   ],
+   "answer": "Yes. The commitment makes the threat credible, so the entrant stays out."
+  },
+  {
+   "title": "Bargaining over $100",
+   "problem": "A buyer makes a take-it-or-leave-it offer to split $100 of surplus in $1 steps. The seller accepts or rejects (both get $0). What is the SPE?",
+   "steps": [
+    "Seller accepts any offer of $1 or more ($1 > $0).",
+    "Buyer offers $1 and keeps $99."
+   ],
+   "answer": "Buyer offers $1, seller accepts: ($99, $1)."
+  },
+  {
+   "title": "Game Theory Exercise: when does the order of moves matter?",
+   "problem": "Compare Parts 1 and 2 (same outcome) with Part 3 (the sequential game picks one of two equilibria).",
+   "steps": [
+    "Parts 1 and 2: Facebook has a dominant strategy, so it does the same thing whatever Twitter does; moving first gives Twitter nothing.",
+    "Part 3: the regulation rule removes Facebook's dominant strategy; each firm's best move is the opposite of its rival's.",
+    "Then the first mover can commit and force the follower to give in: a first-mover advantage."
+   ],
+   "answer": "Sequential and simultaneous games predict the same outcome when the follower has a dominant strategy (or the one-shot game has a unique equilibrium that is also the leader's best choice). They can differ when the follower's best response depends on the leader's move."
+  }
+ ],
+ "graph": {
+  "component": "tree",
+  "params": {
+   "players": [
+    "Entrant",
+    "Incumbent"
+   ],
+   "tree": {
+    "p": 0,
+    "children": [
+     {
+      "a": "Enter",
+      "n": {
+       "p": 1,
+       "children": [
+        {
+         "a": "Fight",
+         "pay": [
+          -3,
+          2
+         ]
+        },
+        {
+         "a": "Accommodate",
+         "pay": [
+          4,
+          6
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "a": "Stay out",
+      "pay": [
+       0,
+       12
+      ]
+     }
+    ]
+   }
+  },
+  "caption": "Entry game, payoffs (Entrant, Incumbent). Change Fight's incumbent payoff to 8 to see a commitment deter entry."
+ },
+ "traps": [
+  "An incumbent's threat to fight is credible only if fighting pays it more than accommodating AFTER entry.",
+  "In take-it-or-leave-it bargaining the proposer gets most of the surplus; the responder's threat to reject is not credible.",
+  "Patents matter because they change the rival's payoff from cloning."
+ ],
+ "sources": {
+  "slides": "S20 Game Theory II pp. 42 to 70",
+  "read": "Ch. 10 pp. 330 to 337",
+  "exercise": "Game Theory Exercise (your submitted answers, payoffs rechecked)",
+  "quiz": "Comprehension Quiz 9 Q8 to Q10; Practice exam Q13, Q27 to Q29"
+ }
+}

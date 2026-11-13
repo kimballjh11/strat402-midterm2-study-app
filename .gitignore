@@ -1,0 +1,5 @@
+.venv/
+node_modules/
+sources/raw/
+.DS_Store
+inbox/done/

@@ -1,0 +1,284 @@
+[
+ {
+  "id": "S18-07-q001",
+  "los": [
+   "S18-07"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "A first-mover advantage is:",
+  "choices": [
+   "Lower cost from producing more per period",
+   "The benefit of waiting to learn from others' mistakes",
+   "The benefit a firm gets from moving before rivals, which lets it shape their responses",
+   "Lower cost from producing different products together"
+  ],
+  "answer": 2,
+  "explain": "Moving first lets you commit and shape rivals' best responses. Waiting is a second-mover advantage.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-07-q002",
+  "los": [
+   "S18-07"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "For a first move to work as a commitment, it must be:",
+  "choices": [
+   "Secret and reversible",
+   "Irreversible and observable to rivals",
+   "Cheap and flexible",
+   "Approved by regulators"
+  ],
+  "answer": 1,
+  "explain": "If rivals cannot see it or it can be undone, it does not change their best response.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-07-q003",
+  "los": [
+   "S18-07"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: Moving first is always better than moving second.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 1,
+  "explain": "False. A second mover can free-ride on the leader's R&D and customer education and avoid its mistakes.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-07-q004",
+  "los": [
+   "S18-07",
+   "S18-04"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "How do network effects create a first-mover advantage?",
+  "choices": [
+   "The first network to reach critical mass locks in users even when a better one arrives",
+   "They make predatory pricing legal",
+   "They lower the first mover's average cost",
+   "They let the first mover charge the monopoly price forever without entry"
+  ],
+  "answer": 0,
+  "explain": "Lock-in: users stay because everyone would have to switch together (eBay versus Yahoo! auctions).",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-07-q005",
+  "los": [
+   "S18-07",
+   "S18-02"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "How do learning curves create a first-mover advantage?",
+  "choices": [
+   "The first mover produces more per period",
+   "The first mover pays lower wages",
+   "The first mover has the most cumulative output and so the lowest unit cost",
+   "The first mover has more products"
+  ],
+  "answer": 2,
+  "explain": "Cumulative output, not size per period, moves a firm down the learning curve.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-07-q006",
+  "los": [
+   "S18-07",
+   "S18-10"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Strategies to Crack Well-Guarded Markets advises entrants to 'close the door on the way in.' Which is one way to do that?",
+  "choices": [
+   "Raise prices immediately",
+   "Stay in the niche forever",
+   "Share your know-how with followers",
+   "Secure scarce inputs or invest preemptively in capacity"
+  ],
+  "answer": 3,
+  "explain": "Also: go mainstream quickly, generate network effects, race down the experience curve.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-07-q007",
+  "los": [
+   "S18-07"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Which is a source of SECOND-mover advantage?",
+  "choices": [
+   "Building capacity before rivals",
+   "Securing scarce inputs",
+   "Free-riding on the leader's research and customer education",
+   "Locking in users"
+  ],
+  "answer": 2,
+  "explain": "The others are first-mover tactics.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-07-q008",
+  "los": [
+   "S18-07"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Payoffs (A, B): Low/Low (30, 10), Low/High (10, 15), High/Low (20, 5), High/High (1, 2). If A moves first and B sees A's choice, what does A choose and earn?",
+  "choices": [
+   "High; A earns 1",
+   "Low; A earns 30",
+   "High; A earns 20",
+   "Low; A earns 10"
+  ],
+  "answer": 2,
+  "explain": "If A picks Low, B picks High (15 > 10): A gets 10. If A picks High, B picks Low (5 > 2): A gets 20. A picks High.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-07-q009",
+  "los": [
+   "S18-07"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "In the same game (Low/Low (30, 10), Low/High (10, 15), High/Low (20, 5), High/High (1, 2)), how much is moving first worth to A compared with moving at the same time, when A earns 10?",
+  "choices": [
+   "20",
+   "10",
+   "0",
+   "30"
+  ],
+  "answer": 1,
+  "explain": "A earns 20 moving first versus 10 simultaneously: a first-mover advantage of 10.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-07-q010",
+  "los": [
+   "S18-07"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "JetBlue bought up Embraer's manufacturing capacity for two years when it launched service with a new 100-seat jet. What was JetBlue doing?",
+  "choices": [
+   "Limit pricing",
+   "Closing the door behind it by securing a scarce input",
+   "Predatory pricing",
+   "Creating a niche"
+  ],
+  "answer": 1,
+  "explain": "Locking up the scarce input kept rival airlines from copying its strategy quickly.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-07-q011",
+  "los": [
+   "S18-07"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Red Bull created the U.S. energy drink niche, and then more than 150 me-too brands entered. What lesson does the reading draw?",
+  "choices": [
+   "Entrants should close the door on the way in by building their own barriers",
+   "Red Bull should have used predatory pricing",
+   "First movers always keep their markets",
+   "Niches are never profitable"
+  ],
+  "answer": 0,
+  "explain": "Being first is not enough; you must build barriers once inside.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-07-q012",
+  "los": [
+   "S18-07",
+   "S18-04"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "eBay kept its auction users even when Yahoo! offered free listings. Which advantage protected eBay?",
+  "choices": [
+   "Economies of scope",
+   "A patent",
+   "First-mover advantage reinforced by network effects",
+   "Limit pricing"
+  ],
+  "answer": 2,
+  "explain": "Users were locked into eBay's larger network.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-07-q013",
+  "los": [
+   "S18-07"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A big tech firm spends billions to be first in a new virtual reality market, while a smaller rival waits and later launches a cheaper headset using lessons from the leader's mistakes. The smaller rival is using:",
+  "choices": [
+   "A first-mover advantage",
+   "Limit pricing",
+   "A second-mover advantage",
+   "Economies of scale"
+  ],
+  "answer": 2,
+  "explain": "Waiting and learning from the leader's trial and error is a second-mover advantage (textbook Metaverse example).",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-07-q014",
+  "los": [
+   "S18-07"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A firm announces it 'might' build a large plant to scare off entrants, but has not signed contracts or spent any money. Why might the announcement fail?",
+  "choices": [
+   "It is not an irreversible commitment, so entrants may not believe it",
+   "Entrants never pay attention",
+   "Announcements are illegal",
+   "It is predatory pricing"
+  ],
+  "answer": 0,
+  "explain": "A cheap, reversible promise does not change the entrant's expectations.",
+  "source": "generated",
+  "verbatim": false
+ }
+]

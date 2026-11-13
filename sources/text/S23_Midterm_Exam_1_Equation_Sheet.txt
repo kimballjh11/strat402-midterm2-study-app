@@ -1,0 +1,57 @@
+
+=== PAGE 1 ===
+EQUATION SHEET
+
+HERFINDAHL-HIRSCHMAN INDEX (HHI):                   ELASTICITY:
+
+                  𝑁                                         %𝛥𝑄 𝛥𝑄 𝑃 𝜕𝑄 𝑃
+        𝐻𝐻𝐼 = ∑ 𝑠𝑖2                                            =  ∙ =  ∙
+                                                            %𝛥𝑃 𝛥𝑃 𝑄 𝜕𝑃 𝑄
+                 𝑖=1
+
+where 𝑠𝑖 is the market share (in percent) of firm   MARGINAL PRODUCT (of input 𝐼 ):
+𝑖 and 𝑁 is the number of firms in the industry
+                                                                    𝛥𝑄 𝜕𝑄
+                                                            𝑀𝑃𝐼 =      =    or,
+                                                                    𝛥𝐼   𝜕𝐼
+AVERAGE FIXED COST:
+                                                            for a linear production function:
+              𝐹𝐶
+        𝐴𝐹𝐶 =
+              𝑄                                             𝑄 = 𝐹(𝐾, 𝐿) = 𝑎𝐾 + 𝑏𝐿, then
+                                                            𝑀𝑃𝐾 = 𝑎,     𝑀𝑃𝐿 = 𝑏, or
+AVERAGE VARIABLE COST:
+                                                            for a Cobb-Douglas production
+              𝑉𝐶(𝑄)                                         function:
+        𝐴𝑉𝐶 =
+                𝑄
+                                                            𝑄 = 𝐹(𝐾, 𝐿) = 𝐾 𝑎 𝐿𝑏 , then
+AVERAGE TOTAL COST:                                         𝑀𝑃𝐾 = 𝑎𝐾 𝑎−1 𝐿𝑏 ,
+                                                            𝑀𝑃𝐿 = 𝑏𝐾 𝑎 𝐿𝑏−1
+                 𝐶(𝑄)
+        𝐴𝑇𝐶 =
+                  𝑄
+                                                    AVERAGE PRODUCT (of input 𝐼 ):
+
+MARGINAL COST:                                                      𝑄
+                                                            𝐴𝑃𝐼 =
+                                                                    𝐼
+                𝛥𝐶 𝑑𝐶
+        𝑀𝐶 =      =   or,
+                𝛥𝑄 𝑑𝑄
+                                                    MARGINAL RATE OF TECHNICAL
+        for a cubic cost function                   SUBSTITUTION:
+        𝐶(𝑄) = 𝑓 + 𝑎𝑄 + 𝑏𝑄2 + 𝑐𝑄3 ,
+                                                                         𝑀𝑃𝐿
+                                                            𝑀𝑅𝑇𝑆𝐾𝐿 =
+        then marginal cost is                                            𝑀𝑃𝐾
+        𝑀𝐶(𝑄) = 𝑎 + 2𝑏𝑄 + 3𝑐𝑄2
+
+        for a power cost function                   SLOPE OF THE ISOCOST LINE:
+                       𝑏
+        𝐶(𝑄) = 𝑎𝑄 ,
+                                                                𝑤
+                                                            −
+        then marginal cost is                                   𝑟
+        𝑀𝐶(𝑄) = 𝑎𝑏𝑄𝑏−1
+                                                    where 𝑤 is the wage and 𝑟 is the cost of capital

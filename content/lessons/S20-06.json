@@ -1,0 +1,113 @@
+{
+ "id": "S20-06",
+ "title": "Subgame perfect equilibrium",
+ "calc": true,
+ "plain": "A **subgame perfect equilibrium** (SPE) is a set of strategies where **every player's choice is a best response at every point in the tree**, including points that are never reached. Equivalently (textbook): a Nash equilibrium that involves **only credible threats**. You find it with **backward induction**.\n\n**Putin and Obama** (slides pp. 49 to 55), payoffs (Putin, Obama):\n1. Obama's decision (after an invasion): Sanction gives Obama -2, Don't Sanction gives -5. **Obama sanctions.**\n2. Putin anticipates that. Invade leads to (2, -2), so Putin gets 2. Don't Invade gives Putin -5. **Putin invades.**\n3. **SPE: Putin invades, Obama sanctions**: (2, -2).\n\n**Trump and Xi** (pp. 56 to 69), payoffs (US, China):\n1. Last move, US after China resists: Impose gives the US -2, Back down gives 4. **The US backs down.**\n2. China, after a threat: Resist leads to (4, 4), so China gets 4; Concede gives China 2. **China resists.**\n3. US at the start: Threat leads to (4, 4), so the US gets 4; No threat gives 2. **The US threatens.**\n4. **SPE: the US threatens, China resists, the US backs down**: (4, 4).\n\nThe US threat to impose tariffs is **not credible**: when the time comes, imposing pays the US less than backing down, and China knows it.\n\n**Credible versus non-credible threats.** A threat is credible only if carrying it out is in the threatener's interest at that point. Nash equilibria that rely on non-credible threats are not subgame perfect. Lesson: do not let non-credible threats change your behavior.",
+ "why": "Practice exam Q27 and Q28 and Comprehension Quiz 9 Q9 and Q10 ask for the subgame perfect outcome.",
+ "definition": "A subgame perfect equilibrium is a condition describing a set of strategies that constitutes a Nash equilibrium and allows no player to improve his or her own payoff at any stage of the game by changing strategies; it involves only credible threats.",
+ "formulas": [],
+ "derivation": "",
+ "math": [
+  {
+   "title": "Reading a game tree",
+   "body": "Start at the first node (the first mover). Each branch is an action. The next node shows who moves next. Payoffs at the ends are listed in the order stated in the problem, usually the first mover first. To solve, start at the LAST decisions and work back toward the start."
+  }
+ ],
+ "worked": [
+  {
+   "title": "Innovation game (Comprehension Quiz 9 Q9)",
+   "problem": "A decides whether to introduce; then B decides whether to clone. Introduce and clone: (2, 15). Introduce, no clone: (8, 1). Don't introduce: (0, 0). Find the SPE.",
+   "steps": [
+    "B after Introduce: Clone 15 > Don't clone 1. B clones.",
+    "A: Introduce leads to (2, 15), so A gets 2; Don't introduce gives 0. 2 > 0, A introduces."
+   ],
+   "answer": "A introduces, B clones: (2, 15)."
+  },
+  {
+   "title": "Pepsi and Coke (Comprehension Quiz 9 Q10)",
+   "problem": "If PepsiCo introduces a lemon-lime drink, Coca-Cola can Fight (both earn $100 million) or Acquiesce (Coca-Cola $275 million, PepsiCo $227 million). Is fighting credible?",
+   "steps": [
+    "At Coca-Cola's node: Acquiesce 275 > Fight 100.",
+    "So Coca-Cola will acquiesce; fighting is not a credible threat.",
+    "PepsiCo compares 227 from introducing with its status quo payoff and introduces."
+   ],
+   "answer": "PepsiCo introduces and Coca-Cola acquiesces."
+  },
+  {
+   "title": "Game Theory Exercise Part 2: Twitter moves first",
+   "problem": "Same payoffs as Part 1, but Twitter decides first and Facebook observes. Payoffs (Twitter, Facebook): Ban/Ban (-3, -350); Ban/Don't (-3, -277); Don't/Ban (23, -350); Don't/Don't (-12, -280). Find the SPE.",
+   "steps": [
+    "Facebook after Twitter bans: Don't Ban -277 > -350.",
+    "Facebook after Twitter doesn't: Don't Ban -280 > -350.",
+    "Twitter compares Ban (-3) with Don't Ban (-12) and bans."
+   ],
+   "answer": "Twitter bans, Facebook doesn't: (-3, -277), the same as the Part 1 Nash equilibrium, because Facebook (the follower) has a dominant strategy."
+  },
+  {
+   "title": "Game Theory Exercise Part 3: Twitter moves first",
+   "problem": "Part 3 payoffs (Twitter, Facebook): Ban/Ban (-3, -350); Ban/Don't (-3, -137); Don't/Ban (29, -350); Don't/Don't (-18, -420). Find the SPE.",
+   "steps": [
+    "Facebook after Twitter bans: Don't Ban -137 > -350.",
+    "Facebook after Twitter doesn't ban: Ban -350 > -420.",
+    "Twitter compares Ban (-3) with Don't Ban (29) and does not ban."
+   ],
+   "answer": "Twitter doesn't ban, Facebook bans: (29, -350). Moving first lets Twitter pick its favorite of the two Part 3 equilibria."
+  }
+ ],
+ "graph": {
+  "component": "tree",
+  "params": {
+   "players": [
+    "Putin",
+    "Obama"
+   ],
+   "tree": {
+    "p": 0,
+    "children": [
+     {
+      "a": "Invade",
+      "n": {
+       "p": 1,
+       "children": [
+        {
+         "a": "Sanction",
+         "pay": [
+          2,
+          -2
+         ]
+        },
+        {
+         "a": "Don't sanction",
+         "pay": [
+          10,
+          -5
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "a": "Don't invade",
+      "pay": [
+       -5,
+       5
+      ]
+     }
+    ]
+   }
+  },
+  "caption": "Backward induction: Obama's best reply after an invasion is to sanction (-2 > -5); anticipating that, Putin invades (2 > -5). Green branches are the SPE choices."
+ },
+ "traps": [
+  "Solve from the LAST move backward. Starting from the first mover's biggest payoff is the classic error (Putin's 10 is never reached).",
+  "Specify a choice at EVERY decision node, including nodes off the equilibrium path.",
+  "A threat that the threatener would not carry out when the time comes is not credible and is ignored in the SPE.",
+  "A Nash equilibrium is not always subgame perfect; an SPE is always a Nash equilibrium."
+ ],
+ "sources": {
+  "slides": "S20 Game Theory II pp. 49 to 69",
+  "read": "Ch. 10 pp. 328 to 332",
+  "exercise": "Game Theory Exercise (your submitted answers, payoffs rechecked)",
+  "quiz": "Reading Quiz Q5; Comprehension Quiz 9 Q9, Q10; Practice exam Q27, Q28"
+ }
+}

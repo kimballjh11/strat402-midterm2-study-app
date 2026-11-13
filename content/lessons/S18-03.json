@@ -1,0 +1,41 @@
+{
+ "id": "S18-03",
+ "title": "Economies of scope",
+ "calc": false,
+ "plain": "**Economies of scope** are savings from making **different** products together. If one firm can produce two products more cheaply than two separate firms each producing one, there are economies of scope. The savings come from sharing something: a factory, a brand, a distribution network, customer data, a store.\n\nThe S18 slides list economies of scope among the concepts to know (p. 27), and the Session 6 slides list \"economies of scale and scope\" as a source of cost advantage. The slides give no separate example, so here is the textbook definition (Baye, Ch. 5): economies of scope exist when the total cost of producing two outputs together is less than the cost of producing each one separately:\n$$C(Q_1, 0) + C(0, Q_2) > C(Q_1, Q_2)$$\n\n**Why it is a barrier.** A firm already selling related products can add a new one at low extra cost. A one-product entrant has to pay for everything by itself, so it starts at a cost disadvantage.\n\n**Why it also helps entrants.** The same idea is how many entrants get in. \"Leverage existing assets\" in Strategies to Crack Well-Guarded Markets is economies of scope used as an entry strategy: McDonald's put Redbox DVD kiosks in restaurants it already had, Toys \"R\" Us used its brand, locations and distribution to open Babies \"R\" Us, and Costco Home used Costco's brand and member base.\n\n**Scale versus scope:**\n- Scale: MORE of the SAME product lowers average cost.\n- Scope: making DIFFERENT products TOGETHER lowers total cost.",
+ "why": "Exam questions describe a firm sharing assets across products and ask which concept applies. The usual mix-up is with economies of scale.",
+ "definition": "Economies of scope exist when the total cost of producing two products within the same firm is lower than when the products are produced by separate firms: C(Q1, 0) + C(0, Q2) > C(Q1, Q2).",
+ "formulas": [
+  {
+   "name": "Economies of scope",
+   "tex": "C(Q_1, 0) + C(0, Q_2) > C(Q_1, Q_2)",
+   "onSheet": false,
+   "note": "Memorize the idea: separate costs more than together."
+  }
+ ],
+ "derivation": "",
+ "math": [],
+ "worked": [
+  {
+   "title": "Testing for economies of scope",
+   "problem": "Making 1,000 phones alone costs $300,000. Making 1,000 tablets alone costs $200,000. Making both in the same plant with shared chips and engineers costs $420,000. Are there economies of scope? How much is saved?",
+   "steps": [
+    "Separate: $300,000 + $200,000 = $500,000.",
+    "Together: $420,000.",
+    "$500,000 > $420,000, so yes."
+   ],
+   "answer": "Economies of scope; producing together saves $80,000."
+  }
+ ],
+ "traps": [
+  "Scope is about DIFFERENT products made together. Scale is about MORE of one product.",
+  "Economies of scope compare TOTAL costs of the bundle with the sum of separate costs; you do not compare average costs of one product.",
+  "Leveraging existing assets to enter a new market is economies of scope in action, so a scope question can be dressed up as an entry strategy question."
+ ],
+ "sources": {
+  "slides": "S18 Barriers to Entry p. 27 (objective list); S06 Cost slides p. 8",
+  "read": "Ch. 5 (multiple-output cost functions); Strategies to Crack Well-Guarded Markets (leverage existing assets)",
+  "exercise": "",
+  "quiz": ""
+ }
+}

@@ -1,0 +1,1304 @@
+
+===== PAGE 1 =====
+STRAT 402
+ECONOMICS OF STRATEGY
+Session 10
+Marginal Analysis & Profit 
+Maximization Across Market
+Structures
+
+===== PAGE 2 =====
+Agenda
+▪Spiritual Thought
+▪Midterm Exam 1 Overview
+▪Additional Pricing Strategies: Lecture & Exercises
+▪Midterm Exam 1 Practice Questions
+
+===== PAGE 3 =====
+Healthcare Consulting
+
+===== PAGE 4 =====
+Women in Strategy
+
+===== PAGE 5 =====
+In Appreciation of Friction
+
+===== PAGE 6 =====
+In Appreciation of Friction
+“Friction is where discernment lives. It’s where thinking 
+starts.”
+We can’t let technology’s endless march toward a 
+frictionless society lead to what experts call “cognitive 
+offloading” or moral atrophy by allowing algorithms to 
+do the thinking for us.
+
+===== PAGE 7 =====
+Midterm Exam 1
+▪Opens Monday, October 19th at 8:00 AM
+▪Closes Friday, October 23rd at 9:00 PM
+▪Late fee begins on Friday ($5.00)
+▪Most likely a series of multiple-choice questions and short-answer 
+questions
+▪Multiple choice will focus on conceptual understanding (quizzes)
+▪Short-answer will be based on application (spreadsheets, calculations, 
+analysis)
+
+===== PAGE 8 =====
+How to Study
+▪I begin with the end in mind
+▪Learning objectives specify what I want you to know and understand
+▪I use the Learning Objectives when deciding what questions to ask 
+and include on the midterm
+▪A study guide (an excel spreadsheet) will provide a matrix listing each 
+learning objective and the corresponding readings, quiz questions, in-
+class exercises, and spreadsheet questions that correspond with each 
+learning objectives
+
+===== PAGE 9 =====
+Review Learning Objectives
+▪Know and understand the following statistical terms:
+oRegression coefficients
+oStandard error
+oT-statistics
+oP-values
+oR-squared
+▪Learn how to run a regression model in Excel
+▪Know and understand how to interpret and use regression 
+output
+
+===== PAGE 10 =====
+Provo Peaks Root Beer Co.
+Suppose that Provo Peaks Brewing Co. currently sells it’s root beer in a 
+seven-state area: Utah, Idaho, Arizona, Nevada, Wyoming, Montana, 
+and Colorado. The company’s marketing department has collected the 
+following data from its distributors:
+▪Quantity (cases) and price ($) of root beer sold
+▪Average income ($000/capita)
+Use the following regression output and provide an economic 
+interpretation of the results.
+
+===== PAGE 11 =====
+Provo Peaks Root Beer Co.
+SUMMARY 
+OUTPUT
+Regression Statistics
+Multiple R
+0.349
+R Square
+0.122
+Adjusted R Square
+0.117
+Standard Error
+148.844
+Observations
+350
+ANOVA
+df
+SS
+MS
+F
+Significance F
+Regression
+2
+1066304.331 533152.165
+24.065
+0.000
+Residual
+347
+7687664.529
+22154.653
+Total
+349
+8753968.860
+Coefficients
+Standard Error
+t Stat
+P-value
+Lower 95%
+Upper 95%
+Intercept
+200.152
+90.396
+2.214
+0.027
+22.358
+377.945
+Price
+-5.849
+2.719
+-2.151
+0.032
+-11.197
+-0.501
+Income
+7.804
+1.169
+6.677
+0.000
+5.505
+10.103
+
+===== PAGE 12 =====
+Learning Objectives
+▪Know and understand the following economic terms:
+oMarginal analysis
+oMarginal benefit
+oMarginal cost
+oMarginal revenue
+oMonopoly
+oMonopolistic competition
+oPerfectly competitive market
+
+===== PAGE 13 =====
+Learning Objectives
+▪Be able to identify when a firm operates in an industry that is 
+perfectly competitive, monopolistically competitive, or as a 
+monopoly
+▪Be able to identify the sources of (and strategies for 
+obtaining) monopoly power
+▪Know how to calculate the profit-maximizing levels of price 
+and quantity for perfectly competitive, monopolistically 
+competitive, and monopoly firms using marginal analysis
+
+===== PAGE 14 =====
+Marginal Analysis
+▪When should you stop studying for an exam?
+▪When should you stop driving around looking for a cheaper 
+gas station?
+▪How many scoops of Blue Goggles ice cream should you 
+purchase at the BYU Creamery?
+▪When should you stop scrolling social media?
+When the marginal benefit (MB) equal the marginal cost (MC)
+MB = MC
+
+===== PAGE 15 =====
+Advertising Spend for a Small Business
+Ads 
+Purchased
+Total 
+Revenue
+Total Cost
+Profit
+Marginal 
+Benefit (MB)
+Marginal Cost 
+(MC)
+0
+0
+0
+0
+0
+1
+90
+10
+80
+90
+10
+2
+170
+30
+140
+80
+20
+3
+240
+60
+180
+70
+30
+4
+300
+100
+200
+60
+40
+5
+350
+150
+200
+50
+50
+6
+390
+210
+180
+40
+60
+7
+420
+280
+140
+30
+70
+8
+440
+360
+80
+20
+80
+9
+450
+450
+0
+10
+90
+10
+450
+550
+-100
+0
+100
+
+===== PAGE 16 =====
+Graphical Analysis
+
+===== PAGE 17 =====
+Marginal Revenue
+What is marginal revenue?
+Marginal revenue is the additional revenue collected when one additional unit of 
+production or service is rendered
+𝑀𝑅= 𝑑𝑅
+𝑑𝑄
+Suppose the demand curve for a company can be represented by the following 
+inverse demand function:
+𝑃= 10 −𝑄
+Graph this function and determine the marginal revenue function (i.e., dR/dQ)
+
+===== PAGE 18 =====
+Marginal Revenue
+0
+2
+4
+6
+8
+10
+12
+0
+2
+4
+6
+8
+10
+12
+Price ($)
+Quantity Demanded
+Demand Curve: P = 10 - Q
+0
+5
+10
+15
+20
+25
+30
+0
+2
+4
+6
+8
+10
+12
+Revenue ($)
+Quantity Demanded
+Revenue Function: R = 10Q - Q2
+
+===== PAGE 19 =====
+Marginal Revenue
+0
+5
+10
+15
+20
+25
+30
+0
+2
+4
+6
+8
+10
+12
+Revenue ($)
+Quantity Demanded
+Revenue Function: R = 10Q - Q2
+0
+2
+4
+6
+8
+10
+12
+0
+2
+4
+6
+8
+10
+12
+Price ($)
+Quantity Demanded
+Demand Curve: P = 10 - Q
+
+===== PAGE 20 =====
+Market Structure
+Perfect Competition
+Monopolistic Competition
+Monopoly
+Number of firms
+Type of 
+goods/services
+Examples
+Perfect information?
+Transaction costs?
+Free entry/exit?
+Firm’s influence on 
+price?
+Demand curve
+Profit-maximizing 
+quantity
+Profit-maximizing 
+price
+
+===== PAGE 21 =====
+Market Structure
+Perfect Competition
+Monopolistic Competition
+Monopoly
+Number of firms
+Many firms
+Type of 
+goods/services
+Examples
+Perfect information?
+Transaction costs?
+Free entry/exit?
+Firm’s influence on 
+price?
+Demand curve
+Profit-maximizing 
+quantity
+Profit-maximizing 
+price
+
+===== PAGE 22 =====
+Market Structure
+Perfect Competition
+Monopolistic Competition
+Monopoly
+Number of firms
+Many firms
+Type of 
+goods/services
+Homogeneous
+Examples
+Perfect information?
+Transaction costs?
+Free entry/exit?
+Firm’s influence on 
+price?
+Demand curve
+Profit-maximizing 
+quantity
+Profit-maximizing 
+price
+
+===== PAGE 23 =====
+Market Structure
+Perfect Competition
+Monopolistic Competition
+Monopoly
+Number of firms
+Many firms
+Type of 
+goods/services
+Homogeneous
+Examples
+Commodities
+Perfect information?
+Transaction costs?
+Free entry/exit?
+Firm’s influence on 
+price?
+Demand curve
+Profit-maximizing 
+quantity
+Profit-maximizing 
+price
+
+===== PAGE 24 =====
+Market Structure
+Perfect Competition
+Monopolistic Competition
+Monopoly
+Number of firms
+Many firms
+Type of 
+goods/services
+Homogeneous
+Examples
+Commodities
+Perfect information?
+Yes
+Transaction costs?
+No
+Free entry/exit?
+Yes
+Firm’s influence on 
+price?
+Demand curve
+Profit-maximizing 
+quantity
+Profit-maximizing 
+price
+
+===== PAGE 25 =====
+Market Structure
+Perfect Competition
+Monopolistic Competition
+Monopoly
+Number of firms
+Many firms
+Type of 
+goods/services
+Homogeneous
+Examples
+Commodities
+Perfect information?
+Yes
+Transaction costs?
+No
+Free entry/exit?
+Yes
+Firm’s influence on 
+price?
+No (Price Taker)
+Demand curve
+Profit-maximizing 
+quantity
+Profit-maximizing 
+price
+
+===== PAGE 26 =====
+Market Structure
+Perfect Competition
+Monopolistic Competition
+Monopoly
+Number of firms
+Many firms
+Type of 
+goods/services
+Homogeneous
+Examples
+Commodities
+Perfect information?
+Yes
+Transaction costs?
+No
+Free entry/exit?
+Yes
+Firm’s influence on 
+price?
+No (Price Taker)
+Demand curve
+Dfirm
+ = Pmarket = MR
+Profit-maximizing 
+quantity
+Profit-maximizing 
+price
+
+===== PAGE 27 =====
+Market Structure
+Perfect Competition
+Monopolistic Competition
+Monopoly
+Number of firms
+Many firms
+Type of 
+goods/services
+Homogeneous
+Examples
+Commodities
+Perfect information?
+Yes
+Transaction costs?
+No
+Free entry/exit?
+Yes
+Firm’s influence on 
+price?
+No (Price Taker)
+Demand curve
+Dfirm
+ = Pmarket = MR
+Profit-maximizing 
+quantity
+Pmarket = MC(Q*)
+Profit-maximizing 
+price
+
+===== PAGE 28 =====
+Market Structure
+Perfect Competition
+Monopolistic Competition
+Monopoly
+Number of firms
+Many firms
+Type of 
+goods/services
+Homogeneous
+Examples
+Commodities
+Perfect information?
+Yes
+Transaction costs?
+No
+Free entry/exit?
+Yes
+Firm’s influence on 
+price?
+No (Price Taker)
+Demand curve
+Dfirm
+ = Pmarket = MR
+Profit-maximizing 
+quantity
+Pmarket = MC(Q*)
+Profit-maximizing 
+price
+P*=Pmarket
+
+===== PAGE 29 =====
+Market Structure
+Perfect Competition
+Monopolistic Competition
+Monopoly
+Number of firms
+Many firms
+One firm
+Type of 
+goods/services
+Homogeneous
+Examples
+Commodities
+Perfect information?
+Yes
+Transaction costs?
+No
+Free entry/exit?
+Yes
+Firm’s influence on 
+price?
+No (Price Taker)
+Demand curve
+Dfirm
+ = Pmarket = MR
+Profit-maximizing 
+quantity
+Pmarket = MC(Q*)
+Profit-maximizing 
+price
+P*=Pmarket
+
+===== PAGE 30 =====
+Market Structure
+Perfect Competition
+Monopolistic Competition
+Monopoly
+Number of firms
+Many firms
+One firm
+Type of 
+goods/services
+Homogeneous
+N/A
+Examples
+Commodities
+Perfect information?
+Yes
+Transaction costs?
+No
+Free entry/exit?
+Yes
+Firm’s influence on 
+price?
+No (Price Taker)
+Demand curve
+Dfirm
+ = Pmarket = MR
+Profit-maximizing 
+quantity
+Pmarket = MC(Q*)
+Profit-maximizing 
+price
+P*=Pmarket
+
+===== PAGE 31 =====
+Market Structure
+Perfect Competition
+Monopolistic Competition
+Monopoly
+Number of firms
+Many firms
+One firm
+Type of 
+goods/services
+Homogeneous
+N/A
+Examples
+Commodities
+Rural Gas Station
+Perfect information?
+Yes
+Transaction costs?
+No
+Free entry/exit?
+Yes
+Firm’s influence on 
+price?
+No (Price Taker)
+Demand curve
+Dfirm
+ = Pmarket = MR
+Profit-maximizing 
+quantity
+Pmarket = MC(Q*)
+Profit-maximizing 
+price
+P*=Pmarket
+
+===== PAGE 32 =====
+Market Structure
+Perfect Competition
+Monopolistic Competition
+Monopoly
+Number of firms
+Many firms
+One firm
+Type of 
+goods/services
+Homogeneous
+N/A
+Examples
+Commodities
+Rural Gas Station
+Perfect information?
+Yes
+N/A
+Transaction costs?
+No
+N/A
+Free entry/exit?
+Yes
+N/A
+Firm’s influence on 
+price?
+No (Price Taker)
+Demand curve
+Dfirm
+ = Pmarket = MR
+Profit-maximizing 
+quantity
+Pmarket = MC(Q*)
+Profit-maximizing 
+price
+P*=Pmarket
+
+===== PAGE 33 =====
+Market Structure
+Perfect Competition
+Monopolistic Competition
+Monopoly
+Number of firms
+Many firms
+One firm
+Type of 
+goods/services
+Homogeneous
+N/A
+Examples
+Commodities
+Rural Gas Station
+Perfect information?
+Yes
+N/A
+Transaction costs?
+No
+N/A
+Free entry/exit?
+Yes
+N/A
+Firm’s influence on 
+price?
+No (Price Taker)
+Yes (Price Maker)
+Demand curve
+Dfirm
+ = Pmarket = MR
+Profit-maximizing 
+quantity
+Pmarket = MC(Q*)
+Profit-maximizing 
+price
+P*=Pmarket
+
+===== PAGE 34 =====
+Market Structure
+Perfect Competition
+Monopolistic Competition
+Monopoly
+Number of firms
+Many firms
+One firm
+Type of 
+goods/services
+Homogeneous
+N/A
+Examples
+Commodities
+Rural Gas Station
+Perfect information?
+Yes
+N/A
+Transaction costs?
+No
+N/A
+Free entry/exit?
+Yes
+N/A
+Firm’s influence on 
+price?
+No (Price Taker)
+Yes (Price Maker)
+Demand curve
+Dfirm
+ = Pmarket = MR
+Dfirm = Dmarket
+Profit-maximizing 
+quantity
+Pmarket = MC(Q*)
+Profit-maximizing 
+price
+P*=Pmarket
+
+===== PAGE 35 =====
+Market Structure
+Perfect Competition
+Monopolistic Competition
+Monopoly
+Number of firms
+Many firms
+One firm
+Type of 
+goods/services
+Homogeneous
+N/A
+Examples
+Commodities
+Rural Gas Station
+Perfect information?
+Yes
+N/A
+Transaction costs?
+No
+N/A
+Free entry/exit?
+Yes
+N/A
+Firm’s influence on 
+price?
+No (Price Taker)
+Yes (Price Maker)
+Demand curve
+Dfirm
+ = Pmarket = MR
+Dfirm = Dmarket
+Profit-maximizing 
+quantity
+Pmarket = MC(Q*)
+MR(Q*) = MC(Q*)
+Profit-maximizing 
+price
+P*=Pmarket
+
+===== PAGE 36 =====
+Market Structure
+Perfect Competition
+Monopolistic Competition
+Monopoly
+Number of firms
+Many firms
+One firm
+Type of 
+goods/services
+Homogeneous
+N/A
+Examples
+Commodities
+Rural Gas Station
+Perfect information?
+Yes
+N/A
+Transaction costs?
+No
+N/A
+Free entry/exit?
+Yes
+N/A
+Firm’s influence on 
+price?
+No (Price Taker)
+Yes (Price Maker)
+Demand curve
+Dfirm
+ = Pmarket = MR
+Dfirm = Dmarket
+Profit-maximizing 
+quantity
+Pmarket = MC(Q*)
+MR(Q*) = MC(Q*)
+Profit-maximizing 
+price
+P*=Pmarket
+P*=P(Q*)
+
+===== PAGE 37 =====
+Market Structure
+Perfect Competition
+Monopolistic Competition
+Monopoly
+Number of firms
+Many firms
+Many firms
+One firm
+Type of 
+goods/services
+Homogeneous
+N/A
+Examples
+Commodities
+Rural Gas Station
+Perfect information?
+Yes
+N/A
+Transaction costs?
+No
+N/A
+Free entry/exit?
+Yes
+N/A
+Firm’s influence on 
+price?
+No (Price Taker)
+Yes (Price Maker)
+Demand curve
+Dfirm
+ = Pmarket = MR
+Dfirm = Dmarket
+Profit-maximizing 
+quantity
+Pmarket = MC(Q*)
+MR(Q*) = MC(Q*)
+Profit-maximizing 
+price
+P*=Pmarket
+P*=P(Q*)
+
+===== PAGE 38 =====
+Market Structure
+Perfect Competition
+Monopolistic Competition
+Monopoly
+Number of firms
+Many firms
+Many firms
+One firm
+Type of 
+goods/services
+Homogeneous
+Differentiated
+N/A
+Examples
+Commodities
+Rural Gas Station
+Perfect information?
+Yes
+N/A
+Transaction costs?
+No
+N/A
+Free entry/exit?
+Yes
+N/A
+Firm’s influence on 
+price?
+No (Price Taker)
+Yes (Price Maker)
+Demand curve
+Dfirm
+ = Pmarket = MR
+Dfirm = Dmarket
+Profit-maximizing 
+quantity
+Pmarket = MC(Q*)
+MR(Q*) = MC(Q*)
+Profit-maximizing 
+price
+P*=Pmarket
+P*=P(Q*)
+
+===== PAGE 39 =====
+Market Structure
+Perfect Competition
+Monopolistic Competition
+Monopoly
+Number of firms
+Many firms
+Many firms
+One firm
+Type of 
+goods/services
+Homogeneous
+Differentiated
+N/A
+Examples
+Commodities
+Fast Food
+Rural Gas Station
+Perfect information?
+Yes
+N/A
+Transaction costs?
+No
+N/A
+Free entry/exit?
+Yes
+N/A
+Firm’s influence on 
+price?
+No (Price Taker)
+Yes (Price Maker)
+Demand curve
+Dfirm
+ = Pmarket = MR
+Dfirm = Dmarket
+Profit-maximizing 
+quantity
+Pmarket = MC(Q*)
+MR(Q*) = MC(Q*)
+Profit-maximizing 
+price
+P*=Pmarket
+P*=P(Q*)
+
+===== PAGE 40 =====
+Market Structure
+Perfect Competition
+Monopolistic Competition
+Monopoly
+Number of firms
+Many firms
+Many firms
+One firm
+Type of 
+goods/services
+Homogeneous
+Differentiated
+N/A
+Examples
+Commodities
+Fast Food
+Rural Gas Station
+Perfect information?
+Yes
+No
+N/A
+Transaction costs?
+No
+Yes
+N/A
+Free entry/exit?
+Yes
+Yes
+N/A
+Firm’s influence on 
+price?
+No (Price Taker)
+Yes (Price Maker)
+Demand curve
+Dfirm
+ = Pmarket = MR
+Dfirm = Dmarket
+Profit-maximizing 
+quantity
+Pmarket = MC(Q*)
+MR(Q*) = MC(Q*)
+Profit-maximizing 
+price
+P*=Pmarket
+P*=P(Q*)
+
+===== PAGE 41 =====
+Market Structure
+Perfect Competition
+Monopolistic Competition
+Monopoly
+Number of firms
+Many firms
+Many firms
+One firm
+Type of 
+goods/services
+Homogeneous
+Differentiated
+N/A
+Examples
+Commodities
+Fast Food
+Rural Gas Station
+Perfect information?
+Yes
+No
+N/A
+Transaction costs?
+No
+Yes
+N/A
+Free entry/exit?
+Yes
+Yes
+N/A
+Firm’s influence on 
+price?
+No (Price Taker)
+Yes (Price Maker)
+Yes (Price Maker)
+Demand curve
+Dfirm
+ = Pmarket = MR
+Dfirm = Dmarket
+Profit-maximizing 
+quantity
+Pmarket = MC(Q*)
+MR(Q*) = MC(Q*)
+Profit-maximizing 
+price
+P*=Pmarket
+P*=P(Q*)
+
+===== PAGE 42 =====
+Market Structure
+Perfect Competition
+Monopolistic Competition
+Monopoly
+Number of firms
+Many firms
+Many firms
+One firm
+Type of 
+goods/services
+Homogeneous
+Differentiated
+N/A
+Examples
+Commodities
+Fast Food
+Rural Gas Station
+Perfect information?
+Yes
+No
+N/A
+Transaction costs?
+No
+Yes
+N/A
+Free entry/exit?
+Yes
+Yes
+N/A
+Firm’s influence on 
+price?
+No (Price Taker)
+Yes (Price Maker)
+Yes (Price Maker)
+Demand curve
+Dfirm
+ = Pmarket = MR
+Dfirm
+Dfirm = Dmarket
+Profit-maximizing 
+quantity
+Pmarket = MC(Q*)
+MR(Q*) = MC(Q*)
+Profit-maximizing 
+price
+P*=Pmarket
+P*=P(Q*)
+
+===== PAGE 43 =====
+Market Structure
+Perfect Competition
+Monopolistic Competition
+Monopoly
+Number of firms
+Many firms
+Many firms
+One firm
+Type of 
+goods/services
+Homogeneous
+Differentiated
+N/A
+Examples
+Commodities
+Fast Food
+Rural Gas Station
+Perfect information?
+Yes
+No
+N/A
+Transaction costs?
+No
+Yes
+N/A
+Free entry/exit?
+Yes
+Yes
+N/A
+Firm’s influence on 
+price?
+No (Price Taker)
+Yes (Price Maker)
+Yes (Price Maker)
+Demand curve
+Dfirm
+ = Pmarket = MR
+Dfirm
+Dfirm = Dmarket
+Profit-maximizing 
+quantity
+Pmarket = MC(Q*)
+MR(Q*) = MC(Q*)
+MR(Q*) = MC(Q*)
+Profit-maximizing 
+price
+P*=Pmarket
+P*=P(Q*)
+
+===== PAGE 44 =====
+Profit Maximization Across Markets
+Perfect Competition
+Monopolistic Competition
+Monopoly
+Number of firms
+Many firms
+Many firms
+One firm
+Type of 
+goods/services
+Homogeneous
+Differentiated
+N/A
+Examples
+Commodities
+Fast Food
+Rural Gas Station
+Perfect information?
+Yes
+No
+N/A
+Transaction costs?
+No
+Yes
+N/A
+Free entry/exit?
+Yes
+Yes
+N/A
+Firm’s influence on 
+price?
+No (Price Taker)
+Yes (Price Maker)
+Yes (Price Maker)
+Demand curve
+Dfirm
+ = Pmarket = MR
+Dfirm
+Dfirm = Dmarket
+Profit-maximizing 
+quantity
+Pmarket = MC(Q*)
+MR(Q*) = MC(Q*)
+MR(Q*) = MC(Q*)
+Profit-maximizing 
+price
+P*=Pmarket
+P*=P(Q*)
+P*=P(Q*)
+
+===== PAGE 45 =====
+In-Class Exercise – Market Structure
+Suppose that the cost function for your firm can be represented by the following 
+function:
+𝐶𝑄= 125 + 4𝑄2
+Determine the profit maximizing level of output and price, and expected level of 
+profits given the following scenarios. Discuss the strategic implications of each 
+situation.
+1. You are a price taker (i.e., perfectly competitive firm) and other firms in your 
+industry charge $40/unit.
+2. You are monopolist and the inverse demand function for your product is P = 100 
+– Q.
+3. You are a monopolistically competitive firm and the inverse demand function for 
+your brand is  P = 100 – Q. 
+
+===== PAGE 46 =====
+Perfect Competition
+You are a price taker (i.e. perfectly competitive firm) and 
+other firms in your industry charge $40/unit.
+MR = P = $40 and MC = 8Q
+Optimal Output: MR = MC,   40 = 8Q,   Q = 5 
+Cost of Production: C(5) = 125 + 4(5)2 = 125 + 100 = 225
+Revenue: R = PQ = 40 * 5 = 200
+Profits = R – C = 200 – 225 = -25
+Firm will continue to operate in the short run, but exit in 
+the long-run
+
+===== PAGE 47 =====
+Monopoly
+You are monopolist and the inverse demand function for your 
+product is P = 100 – Q.
+MR = 100 – 2Q and MC = 8Q
+Optimal Output: MR = MC,   100 – 2Q = 8Q,   𝑄𝑀 = 10 
+Optimal Price: 𝑃𝑀= 100 −𝑄= 100 −10 = 90 
+Cost of Production: C(10) = 125 + 4(10)2 = 125 + 400 = 525
+Revenue: R = PQ = 90 * 10 = 900
+Profits = R – C = 900 – 525 = 375
+Monopolist will not face entry (unless patent or other entry barriers 
+are eliminated)
+
+===== PAGE 48 =====
+Monopolistic Competition
+You are a monopolistically competitive firm and the inverse demand function for your brand is  P 
+= 100 – Q. 
+MR = 100 – 2Q and MC = 8Q
+Optimal Output: MR = MC,   100 – 2Q = 8Q,   𝑄𝑀 = 10 
+Optimal Price: 𝑃𝑀= 100 −𝑄= 100 −10 = 90 
+Cost of Production: C(10) = 125 + 4(10)2 = 125 + 400 = 525
+Revenue: R = PQ = 90 * 10 = 900
+Profits = R – C = 900 – 525 = 375
+Monopolistically competitive firms should expect other firms to imitate, so profits will decline with 
+entry.
+
+===== PAGE 49 =====
+Monopolistic Competition
+
+===== PAGE 50 =====
+Heartless Monopolists or Innovative Leaders?
+
+===== PAGE 51 =====
+Heartless Monopolists or Innovative Leaders?
+1. Creating value isn't enough. You have to capture it.
+2. Profits give a firm room to look past survival.
+3. Creative monopolies expand what customers can choose 
+from.
+The strategist's job:
+Avoid competition and move toward monopoly.

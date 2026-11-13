@@ -1,0 +1,352 @@
+[
+ {
+  "id": "S18-case1",
+  "title": "Meta, Twitter and Snapchat",
+  "los": [
+   "S18-04",
+   "S18-01",
+   "S18-09",
+   "S18-10"
+  ],
+  "stem": "From the Barriers to Entry exercise data, 2022 Q2 (Snapchat's revenue is all advertising).\n\n| 2022 Q2 | Daily active users (millions) | Ad revenue ($ millions) | Operating expense ($ millions) |\n|---|---|---|---|\n| Meta (Facebook) | 1,970 | 28,152 | 20,464 |\n| Twitter | 237.8 | 1,076 | 1,520 |\n| Snapchat | 347 | 1,111 | 1,512 |",
+  "parts": [
+   {
+    "los": [
+     "S18-04"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "What was Meta's advertising revenue per daily user?",
+    "answer": 14.29,
+    "unit": "$",
+    "tol": 0.01,
+    "explain": "28,152 / 1,970 = $14.29 per user for the quarter.",
+    "verify": {
+     "f": "ratio",
+     "num": 28152,
+     "den": 1970
+    },
+    "id": "S18-case1-p1",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S18-04"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "What was Twitter's profit per user (ad revenue minus operating expense, per user)?",
+    "answer": -1.87,
+    "unit": "$",
+    "tol": 0.01,
+    "explain": "Ad revenue per user = 1,076 / 237.8 = $4.52. Cost per user = 1,520.4 / 237.8 = $6.39. Profit = -$1.87.",
+    "verify": {
+     "f": "profit_per",
+     "rev": 1076.003,
+     "cost": 1520.422,
+     "users": 237.8
+    },
+    "id": "S18-case1-p2",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S18-04",
+     "S18-09"
+    ],
+    "type": "mc",
+    "kind": "apply",
+    "stem": "What best explains why Meta earns about three times Twitter's ad revenue per user?",
+    "choices": [
+     "Limit pricing against Twitter",
+     "A patent on social networking",
+     "Economies of scope in hardware",
+     "Network effects: more users and data make each user more valuable to advertisers"
+    ],
+    "answer": 3,
+    "explain": "More users bring more data for targeting and more reach for advertisers, so each user brings in more ad revenue.",
+    "id": "S18-case1-p3",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S18-01",
+     "S18-09"
+    ],
+    "type": "mc",
+    "kind": "apply",
+    "stem": "Meta's operating expenses were about 63% of revenue in 2021 Q4 versus about 89% for Twitter. Which barrier best explains Meta's lower cost share?",
+    "choices": [
+     "Predatory pricing",
+     "Economies of scale: mostly fixed infrastructure spread over far more users",
+     "Brand advertising",
+     "Penetration pricing"
+    ],
+    "answer": 1,
+    "explain": "Data centers, R&D and administration behave like fixed costs; spread over about 2 billion users they are a smaller share of sales.",
+    "id": "S18-case1-p4",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S18-10"
+    ],
+    "type": "mc",
+    "kind": "apply",
+    "stem": "Meta launched Threads in 2023, letting Instagram users join with one tap and keep their followers. Which strategy from Strategies to Crack Well-Guarded Markets is this primarily?",
+    "choices": [
+     "Create a market niche",
+     "Directly attack the market leader",
+     "Leverage existing assets",
+     "Reconfigure the value chain"
+    ],
+    "answer": 2,
+    "explain": "It used Instagram's user base and social graph, assets Meta already had, to get past Twitter's network effects.",
+    "id": "S18-case1-p5",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   }
+  ]
+ },
+ {
+  "id": "S18-case2",
+  "title": "The razor industry",
+  "los": [
+   "S18-09",
+   "S18-10",
+   "S18-05",
+   "S18-06"
+  ],
+  "stem": "From the S18 slides (pp. 24 to 25). Razors earned about 60% gross margins and were 9% of P&G's sales but 16% of its profits. Gillette spent $200 million marketing ProGlide with FlexBall. Dollar Shave Club entered with a $20,000 low-budget YouTube video and sold razors by monthly subscription online.",
+  "parts": [
+   {
+    "los": [
+     "S18-09"
+    ],
+    "type": "mc",
+    "kind": "concept",
+    "stem": "Why would Dollar Shave Club want to enter this market?",
+    "choices": [
+     "Razors have strong network effects",
+     "Gillette's patents had all expired",
+     "The market had no incumbents",
+     "High margins and profits signal that an entrant could earn above-normal returns"
+    ],
+    "answer": 3,
+    "explain": "Profits attract entry: 60% gross margins are the honey pot.",
+    "id": "S18-case2-p1",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S18-09"
+    ],
+    "type": "mc",
+    "kind": "apply",
+    "stem": "Which barriers to entry did Gillette's position mainly rest on?",
+    "choices": [
+     "Learning curves only",
+     "Network effects",
+     "Government licenses",
+     "Brand and reputation, plus control of retail shelf space"
+    ],
+    "answer": 3,
+    "explain": "A $200 million ad budget and store distribution are brand and shelf-space barriers.",
+    "id": "S18-case2-p2",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S18-10"
+    ],
+    "type": "mc",
+    "kind": "apply",
+    "stem": "Selling online by subscription and marketing with a cheap viral video instead of TV ads and store shelves is mainly which strategy?",
+    "choices": [
+     "Leverage existing assets",
+     "Directly attack the market leader",
+     "Limit pricing",
+     "Reconfigure the value chain"
+    ],
+    "answer": 3,
+    "explain": "DSC changed the activities that deliver value to customers (marketing, distribution, sales), bypassing Gillette's strongholds.",
+    "id": "S18-case2-p3",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S18-05",
+     "S18-06"
+    ],
+    "type": "mc",
+    "kind": "apply",
+    "stem": "Suppose, after DSC entered, Gillette had cut its razor prices below its own variable cost in the online channel to force DSC out, planning to raise them later. What would that be?",
+    "choices": [
+     "Predatory pricing",
+     "Limit pricing",
+     "Penetration pricing",
+     "Economies of scope"
+    ],
+    "answer": 0,
+    "explain": "Below cost, aimed at a rival already in the market, with recoupment later.",
+    "id": "S18-case2-p4",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S18-05"
+    ],
+    "type": "mc",
+    "kind": "apply",
+    "stem": "Suppose instead that, before DSC entered, Gillette had kept its prices below the monopoly level (but above its cost) to make entry look unprofitable. What would that be?",
+    "choices": [
+     "Limit pricing",
+     "A learning curve",
+     "Predatory pricing",
+     "Penetration pricing"
+    ],
+    "answer": 0,
+    "explain": "Below the monopoly price, above own cost, aimed at a potential entrant.",
+    "id": "S18-case2-p5",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   }
+  ]
+ },
+ {
+  "id": "S18-case3",
+  "title": "Drone startup",
+  "los": [
+   "S18-02",
+   "S18-01",
+   "S18-07"
+  ],
+  "stem": "SkyCo builds delivery drones. Its first drone cost $1,000 to build and it is on an 80% learning curve. It has built 64 drones so far. Its plant and software cost $200,000 per year regardless of output, plus parts that are included in the learning curve cost.",
+  "parts": [
+   {
+    "los": [
+     "S18-02"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "What did SkyCo's 8th drone cost to build?",
+    "answer": 512,
+    "unit": "$",
+    "tol": 0.01,
+    "explain": "3 doublings (1, 2, 4, 8): 1,000 × 0.8^3 = $512.",
+    "verify": {
+     "f": "learn",
+     "C1": 1000,
+     "rate": 0.8,
+     "n": 8
+    },
+    "id": "S18-case3-p1",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S18-02"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "What did its 64th drone cost?",
+    "answer": 262.144,
+    "unit": "$",
+    "tol": 0.01,
+    "explain": "6 doublings: 1,000 × 0.8^6 = 1,000 × 0.262144 = $262.14.",
+    "verify": {
+     "f": "learn",
+     "C1": 1000,
+     "rate": 0.8,
+     "n": 64
+    },
+    "id": "S18-case3-p2",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S18-01"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "If SkyCo spreads its $200,000 fixed cost over 400 drones this year, what is the fixed cost per drone?",
+    "answer": 500,
+    "unit": "$",
+    "tol": 0.01,
+    "explain": "200,000 / 400 = $500 per drone. At 100 drones it would be $2,000: economies of scale.",
+    "verify": {
+     "f": "ratio",
+     "num": 200000,
+     "den": 400
+    },
+    "id": "S18-case3-p3",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S18-02"
+    ],
+    "type": "mc",
+    "kind": "apply",
+    "stem": "A rival plans to enter by hiring SkyCo's lead production engineers. Why does this threaten SkyCo's learning-curve barrier?",
+    "choices": [
+     "It creates network effects for the rival",
+     "Learning is a barrier only if knowledge does not spill over to rivals",
+     "It is predatory pricing",
+     "It raises SkyCo's fixed cost"
+    ],
+    "answer": 1,
+    "explain": "Slide p. 34 and Quiz 8 Q2: no spillovers is the key assumption.",
+    "id": "S18-case3-p4",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S18-07",
+     "S18-02"
+    ],
+    "type": "mc",
+    "kind": "apply",
+    "stem": "SkyCo prices its drones below current unit cost to win a big early contract. Which reason from the S18 slides fits?",
+    "choices": [
+     "To descend the learning curve faster and lock in a first-mover cost lead",
+     "Limit pricing above cost",
+     "Predatory pricing against an existing rival",
+     "Economies of scope"
+    ],
+    "answer": 0,
+    "explain": "Slide p. 34: price aggressively to descend the learning curve faster.",
+    "id": "S18-case3-p5",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   }
+  ]
+ }
+]

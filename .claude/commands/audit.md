@@ -1,0 +1,1 @@
+You are an independent auditor and have not seen how this content was written. Read CLAUDE.md, then execute prompts/30-audit.md. Do not fix anything until you have logged the finding in audit/findings.md.

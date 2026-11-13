@@ -1,0 +1,370 @@
+
+===== SLIDE 1 =====
+STRAT 392/560
+Strategy & Economics
+Economic Costs
+===== SLIDE 2 =====
+Learning Objectives
+Know and understand the following economic concepts:
+Fixed costs, variable costs, total cost
+Average fixed, average variable, and average total cost
+Marginal cost
+Economies of scale
+Know and understand how these various measures of costs relate to one another
+===== SLIDE 3 =====
+The “Original” J. Dawgs
+===== SLIDE 4 =====
+J. Dawgs Example
+K
+L
+Q
+FC
+VC
+C
+1
+0
+0
+1
+1
+10
+1
+2
+28
+1
+3
+54
+1
+4
+84
+1
+5
+116
+1
+6
+146
+1
+7
+172
+1
+8
+190
+1
+9
+200
+===== SLIDE 5 =====
+Production Function
+===== SLIDE 6 =====
+Production Function
+Increasing Marginal Returns
+===== SLIDE 7 =====
+J. Dawgs Example
+K
+L
+Q
+FC
+VC
+C
+1
+0
+0
+1
+1
+10
+1
+2
+28
+1
+3
+54
+1
+4
+84
+1
+5
+116
+1
+6
+146
+1
+7
+172
+1
+8
+190
+1
+9
+200
+Assume the rental rate of capital is $8 and the wage is $10.
+===== SLIDE 8 =====
+J. Dawgs Example
+K
+L
+Q
+FC
+VC
+C
+1
+0
+0
+8
+1
+1
+10
+8
+1
+2
+28
+8
+1
+3
+54
+8
+1
+4
+84
+8
+1
+5
+116
+8
+1
+6
+146
+8
+1
+7
+172
+8
+1
+8
+190
+8
+1
+9
+200
+8
+Assume the rental rate of capital is $8 and the wage is $10.
+===== SLIDE 9 =====
+J. Dawgs Example
+K
+L
+Q
+FC
+VC
+C
+1
+0
+0
+8
+0
+1
+1
+10
+8
+10
+1
+2
+28
+8
+20
+1
+3
+54
+8
+30
+1
+4
+84
+8
+40
+1
+5
+116
+8
+50
+1
+6
+146
+8
+60
+1
+7
+172
+8
+70
+1
+8
+190
+8
+80
+1
+9
+200
+8
+90
+Assume the rental rate of capital is $8 and the wage is $10.
+===== SLIDE 10 =====
+J. Dawgs Example
+K
+L
+Q
+FC
+VC
+C
+1
+0
+0
+8
+0
+8
+1
+1
+10
+8
+10
+18
+1
+2
+28
+8
+20
+28
+1
+3
+54
+8
+30
+38
+1
+4
+84
+8
+40
+48
+1
+5
+116
+8
+50
+58
+1
+6
+146
+8
+60
+68
+1
+7
+172
+8
+70
+78
+1
+8
+190
+8
+80
+88
+1
+9
+200
+8
+90
+98
+Assume the rental rate of capital is $8 and the wage is $10.
+===== SLIDE 11 =====
+Cost Function
+===== SLIDE 12 =====
+Cost Function
+A cost function defines the relationship between production (Q) and total cost (C).
+Another way to model total costs is to break it down into fixed (FC) and variable costs (VC). 
+ 
+===== SLIDE 13 =====
+Cost Function
+===== SLIDE 14 =====
+Fixed Cost
+Suppose the estimated cost function is listed below.
+What is the fixed cost (FC) of producing 100 units of output?
+ 
+===== SLIDE 15 =====
+Variable Cost
+Suppose the estimated cost function is listed below.
+What is the variable cost (VC) of producing 100 units of output?
+ 
+ 
+ 
+ 
+===== SLIDE 16 =====
+Total Cost
+Suppose the estimated cost function is listed below.
+What is the total cost (C) of producing 100 units of output?
+ 
+ 
+===== SLIDE 17 =====
+Average Fixed Cost
+Suppose the estimated cost function is listed below.
+What is the average fixed cost (AFC) of producing 100 units of output?
+ 
+===== SLIDE 18 =====
+Average Variable Cost
+Suppose the estimated cost function is listed below.
+What is the average variable cost (AVC) of producing 100 units of output?
+ 
+===== SLIDE 19 =====
+Average Total Cost
+Suppose the estimated cost function is listed below.
+What is the average total cost (ATC) of producing 100 units of output?
+ 
+===== SLIDE 20 =====
+Marginal Cost
+Conceptually, 
+marginal cost 
+is the cost of producing an additional unit of output, or the change in cost attributable to the last unit of output.
+When we produce one more unit, how do our total costs change?
+What is the derivative of the total cost function at a given value of Q?
+ 
+===== SLIDE 21 =====
+Marginal Cost
+Suppose the estimated cost function is listed below.
+What is the marginal cost (MC) of producing 100 units of output?
+ 
+===== SLIDE 22 =====
+J. Dawgs Example
+===== SLIDE 23 =====
+J. Dawgs Expansion
+===== SLIDE 24 =====
+J. Dawgs Expansion
+Due to is success, J. Dawgs was able to expand its operation and purchase another grill to meet increased demand. Suppose the estimated cost function with two grills is listed below
+ 
+===== SLIDE 25 =====
+J. Dawgs Expansion
+===== SLIDE 26 =====
+J. Dawgs Expansion
+===== SLIDE 27 =====
+Short Run vs. Long Run
+In the short-run, we typically think of capital like the number of grills fixed and the number of employees as variable
+But in the long-run, a manager is free to adjust the levels of all inputs
+Buy more machines (e.g. grills)
+Build more plants (locations)
+In the long-run all costs are variable
+===== SLIDE 28 =====
+Economies of Scale
+===== SLIDE 29 =====
+Economies of Scale
+The 
+long-run average cost curve 
+defines the minimum average cost of producing alternative levels of output, allowing for optimal selection of fixed and variable factors of production
+Economies of scale 
+exist when the long-run average costs decline as output is increased.
+Diseconomies of scale 
+exist when long-run average costs rise as output is increased
+===== SLIDE 30 =====
+Economies of Scale
+===== SLIDE 31 =====
+Learning Objectives
+Know and understand the following economic concepts:
+Fixed costs, variable costs, total cost
+Average fixed, average variable, and average total cost
+Marginal cost
+Economies of scale
+Know and understand how these various measures of costs relate to one another

@@ -1,0 +1,275 @@
+[
+ {
+  "id": "S15-08-q001",
+  "los": [
+   "S15-08",
+   "S15-11"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "A Leontief production function assumes inputs are:",
+  "choices": [
+   "Imperfect substitutes",
+   "Used in fixed proportions, with no substitutability",
+   "Each subject to increasing returns",
+   "Perfect substitutes"
+  ],
+  "answer": 1,
+  "explain": "Leontief (fixed proportions) has no substitution between inputs. Perfect substitutes is linear; imperfect substitutes is Cobb-Douglas.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-08-q002",
+  "los": [
+   "S15-08",
+   "S15-11"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "The isoquant for \\(Q = \\min(aK, bL)\\) is:",
+  "choices": [
+   "L-shaped",
+   "A convex curve",
+   "A horizontal line",
+   "A straight line"
+  ],
+  "answer": 0,
+  "explain": "Extra of one input alone adds nothing, so the isoquant runs flat and vertical from a corner: an L shape.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-08-q003",
+  "los": [
+   "S15-08"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: For a Leontief production function, the MRTS equals b/a.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 1,
+  "explain": "False. The slides list the Leontief MRTS as N/A (undefined). b/a is the linear MRTS.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-08-q004",
+  "los": [
+   "S15-08"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: In a Leontief production function, adding more of an input that is already in excess has a marginal product of zero.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explain": "True. Output is limited by the binding input, so the excess input adds nothing.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-08-q005",
+  "los": [
+   "S15-08"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Which formula is the Leontief production function?",
+  "choices": [
+   "\\(Q = \\min(aK, bL)\\)",
+   "\\(Q = K^aL^b\\)",
+   "\\(Q = \\max(aK, bL)\\)",
+   "\\(Q = aK + bL\\)"
+  ],
+  "answer": 0,
+  "explain": "Leontief takes the minimum of aK and bL. The sum is linear, the product of powers is Cobb-Douglas, and max is not a production function used in this course.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-08-q006",
+  "los": [
+   "S15-08"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Is the Leontief production function on the equation sheet?",
+  "choices": [
+   "Yes, with its marginal products",
+   "Yes, but only the MRTS",
+   "Only the isoquant equation",
+   "No"
+  ],
+  "answer": 3,
+  "explain": "The sheet has linear and Cobb-Douglas marginal products only. Leontief must be memorized: Q = min(aK, bL).",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-08-q007",
+  "los": [
+   "S15-08"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "\\(Q = \\min(4K, 2L)\\). What is output with K = 5 and L = 12?",
+  "answer": 20,
+  "unit": "units",
+  "tol": 0.01,
+  "explain": "Q = min(4 × 5, 2 × 12) = min(20, 24) = 20. Capital binds.",
+  "verify": {
+   "f": "leontief_q",
+   "a": 4,
+   "b": 2,
+   "K": 5,
+   "L": 12
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-08-q008",
+  "los": [
+   "S15-08"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "\\(Q = \\min(4K, 2L)\\) with K = 5 and L = 12. What is the marginal product of one more worker?",
+  "answer": 0,
+  "unit": "units",
+  "tol": 0.01,
+  "explain": "Now min(20, 26) = 20. Output does not change, so MP_L = 0. Capital is the binding input.",
+  "verify": {
+   "f": "leontief_mp",
+   "a": 4,
+   "b": 2,
+   "K": 5,
+   "L": 12,
+   "wrt": "L"
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-08-q009",
+  "los": [
+   "S15-08"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "\\(Q = \\min(3K, L)\\). With K = 10, how many workers are needed so that neither input is wasted?",
+  "answer": 30,
+  "unit": "workers",
+  "tol": 0.01,
+  "explain": "No waste when 3K = L, so L = 3 × 10 = 30.",
+  "verify": {
+   "f": "leontief_ratio",
+   "a": 3,
+   "b": 1,
+   "K": 10
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-08-q010",
+  "los": [
+   "S15-08"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "\\(Q = \\min(10K, 5L)\\) with K = 4 and L = 6. What is the marginal product of one more unit of capital?",
+  "answer": 0,
+  "unit": "units",
+  "tol": 0.01,
+  "explain": "Q = min(40, 30) = 30: labor binds. With K = 5, min(50, 30) = 30. MP_K = 0.",
+  "verify": {
+   "f": "leontief_mp",
+   "a": 10,
+   "b": 5,
+   "K": 4,
+   "L": 6,
+   "wrt": "K"
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-08-q011",
+  "los": [
+   "S15-08",
+   "S15-11"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A trucking company needs exactly one driver per truck. It has 40 trucks and 35 drivers. What happens if it buys 5 more trucks?",
+  "choices": [
+   "Output rises by 1/8",
+   "Nothing; output is limited by the 35 drivers",
+   "Output rises by 5 truckloads",
+   "Output falls"
+  ],
+  "answer": 1,
+  "explain": "One driver per truck is Leontief: Q = min(trucks, drivers) = min(40, 35) = 35. More trucks leave Q = 35. The firm should hire drivers instead.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-08-q012",
+  "los": [
+   "S15-08",
+   "S15-11"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Which business setting best fits a Leontief production function?",
+  "choices": [
+   "A bus route that needs exactly one driver for each bus",
+   "A firm where software can replace any number of clerks at a fixed rate",
+   "A farm where adding workers to a fixed field adds less and less",
+   "A firm that can swap capital for labor more easily at some points than others"
+  ],
+  "answer": 0,
+  "explain": "Fixed one-to-one requirements are Leontief. A fixed replacement rate is linear. Diminishing returns with substitution is Cobb-Douglas.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-08-q013",
+  "los": [
+   "S15-08"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A kitchen's output is \\(Q = \\min(20K, 10L)\\) with 3 ovens and 8 workers. The manager wants more meals. What should she add?",
+  "choices": [
+   "Ovens, because capital is binding",
+   "Either, both add output",
+   "Workers, because labor is binding",
+   "Neither, the kitchen is at maximum"
+  ],
+  "answer": 0,
+  "explain": "Compare 20K = 60 and 10L = 80. Output is 60, limited by ovens. More workers add nothing; a 4th oven raises output to min(80, 80) = 80.",
+  "source": "generated",
+  "verbatim": false
+ }
+]

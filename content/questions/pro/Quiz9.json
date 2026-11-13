@@ -1,0 +1,512 @@
+[
+ {
+  "id": "PRO-Quiz9-Q1",
+  "los": [
+   "S19-01",
+   "S19-02",
+   "S19-06"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Two retail stores, Walmart and Target, are planning to launch a fall sale on their entire line of boy\u2019s and men\u2019s clothing. Because they are nearing the end of their fiscal year, both companies have limited advertising budgets. Neither store can afford to promote both lines, so each can promote either boy\u2019s or men\u2019s clothing but not both. Target chooses a row in the payoff matrix below, and Walmart chooses a column. The first number in each cell is Target\u2019s payoff; the second is Walmart\u2019s. Assume a one-shot, simultaneous-move game. [[TABLE 0]] Which company, if any, has a dominant strategy?",
+  "choices": [
+   "Walmart has a dominant strategy",
+   "Target has a dominant strategy",
+   "Both companies have a dominant strategy",
+   "Neither company has a dominant strategy"
+  ],
+  "answer": 1,
+  "explain": "Answer: Target has a dominant strategy. A dominant strategy is the best choice no matter what the other player does. Target: If Walmart promotes boy\u2019s: boy\u2019s pays 4, men\u2019s pays 2, so promote boy\u2019s. If Walmart promotes men\u2019s: boy\u2019s pays 8, men\u2019s pays 5, so promote boy\u2019s. Boy\u2019s is best either way, so it is Target\u2019s dominant strategy. Walmart: If Target promotes boy\u2019s: men\u2019s (7) beats boy\u2019s (3). If Target promotes men\u2019s: boy\u2019s (5) beats men\u2019s (4). Walmart\u2019s best choice depends on Target\u2019s, so it has no dominant strategy.",
+  "source": "professor",
+  "verbatim": true,
+  "origin": "Quiz 9 Q1",
+  "tables": {
+   "0": [
+    [
+     {
+      "t": "",
+      "r": 1,
+      "c": 1,
+      "h": true
+     },
+     {
+      "t": "",
+      "r": 1,
+      "c": 1,
+      "h": true
+     },
+     {
+      "t": "Walmart",
+      "r": 1,
+      "c": 2,
+      "h": true
+     }
+    ],
+    [
+     {
+      "t": "",
+      "r": 1,
+      "c": 1,
+      "h": true
+     },
+     {
+      "t": "",
+      "r": 1,
+      "c": 1,
+      "h": true
+     },
+     {
+      "t": "Boy\u2019s",
+      "r": 1,
+      "c": 1,
+      "h": true
+     },
+     {
+      "t": "Men\u2019s",
+      "r": 1,
+      "c": 1,
+      "h": true
+     }
+    ],
+    [
+     {
+      "t": "Target",
+      "r": 2,
+      "c": 1,
+      "h": true
+     },
+     {
+      "t": "Boy\u2019s",
+      "r": 1,
+      "c": 1,
+      "h": true
+     },
+     {
+      "t": "4, 3",
+      "r": 1,
+      "c": 1,
+      "h": false
+     },
+     {
+      "t": "8, 7",
+      "r": 1,
+      "c": 1,
+      "h": false
+     }
+    ],
+    [
+     {
+      "t": "Men\u2019s",
+      "r": 1,
+      "c": 1,
+      "h": true
+     },
+     {
+      "t": "2, 5",
+      "r": 1,
+      "c": 1,
+      "h": false
+     },
+     {
+      "t": "5, 4",
+      "r": 1,
+      "c": 1,
+      "h": false
+     }
+    ]
+   ]
+  }
+ },
+ {
+  "id": "PRO-Quiz9-Q2",
+  "los": [
+   "S19-01",
+   "S19-03",
+   "S19-06"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Two retail stores, Walmart and Target, are planning to launch a fall sale on their entire line of boy\u2019s and men\u2019s clothing. Because they are nearing the end of their fiscal year, both companies have limited advertising budgets. Neither store can afford to promote both lines, so each can promote either boy\u2019s or men\u2019s clothing but not both. Target chooses a row in the payoff matrix below, and Walmart chooses a column. The first number in each cell is Target\u2019s payoff; the second is Walmart\u2019s. Assume a one-shot, simultaneous-move game. [[TABLE 1]] Is there a Nash equilibrium in this game? If so, choose the set of strategies that defines it.",
+  "choices": [
+   "Target will promote boy\u2019s clothing and Walmart will promote men\u2019s clothing.",
+   "Target will promote men\u2019s clothing and Walmart will promote boy\u2019s clothing.",
+   "Both Target and Walmart will promote men\u2019s clothing.",
+   "Both Target and Walmart will promote boy\u2019s clothing.",
+   "There is no Nash equilibrium."
+  ],
+  "answer": 0,
+  "explain": "Answer: Target promotes boy\u2019s and Walmart promotes men\u2019s. Step 1: Start with the player who has a dominant strategy. Target always promotes boy\u2019s clothing. Step 2: Find Walmart\u2019s best response. If Target promotes boy\u2019s, Walmart earns 7 from men\u2019s and 3 from boy\u2019s, so Walmart promotes men\u2019s. The equilibrium is Target boy\u2019s, Walmart men\u2019s, with payoffs (8, 7). Any outcome where Target promotes men\u2019s cannot be an equilibrium, because Target would switch to boy\u2019s.",
+  "source": "professor",
+  "verbatim": true,
+  "origin": "Quiz 9 Q2",
+  "tables": {
+   "1": [
+    [
+     {
+      "t": "",
+      "r": 1,
+      "c": 1,
+      "h": true
+     },
+     {
+      "t": "",
+      "r": 1,
+      "c": 1,
+      "h": true
+     },
+     {
+      "t": "Walmart",
+      "r": 1,
+      "c": 2,
+      "h": true
+     }
+    ],
+    [
+     {
+      "t": "",
+      "r": 1,
+      "c": 1,
+      "h": true
+     },
+     {
+      "t": "",
+      "r": 1,
+      "c": 1,
+      "h": true
+     },
+     {
+      "t": "Boy\u2019s",
+      "r": 1,
+      "c": 1,
+      "h": true
+     },
+     {
+      "t": "Men\u2019s",
+      "r": 1,
+      "c": 1,
+      "h": true
+     }
+    ],
+    [
+     {
+      "t": "Target",
+      "r": 2,
+      "c": 1,
+      "h": true
+     },
+     {
+      "t": "Boy\u2019s",
+      "r": 1,
+      "c": 1,
+      "h": true
+     },
+     {
+      "t": "4, 3",
+      "r": 1,
+      "c": 1,
+      "h": false
+     },
+     {
+      "t": "8, 7",
+      "r": 1,
+      "c": 1,
+      "h": false
+     }
+    ],
+    [
+     {
+      "t": "Men\u2019s",
+      "r": 1,
+      "c": 1,
+      "h": true
+     },
+     {
+      "t": "2, 5",
+      "r": 1,
+      "c": 1,
+      "h": false
+     },
+     {
+      "t": "5, 4",
+      "r": 1,
+      "c": 1,
+      "h": false
+     }
+    ]
+   ]
+  }
+ },
+ {
+  "id": "PRO-Quiz9-Q3",
+  "los": [
+   "S19-01",
+   "S19-04",
+   "S19-06"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Two retail stores, Walmart and Target, are planning to launch a fall sale on their entire line of boy\u2019s and men\u2019s clothing. Because they are nearing the end of their fiscal year, both companies have limited advertising budgets. Neither store can afford to promote both lines, so each can promote either boy\u2019s or men\u2019s clothing but not both. Target chooses a row in the payoff matrix below, and Walmart chooses a column. The first number in each cell is Target\u2019s payoff; the second is Walmart\u2019s. Assume a one-shot, simultaneous-move game. [[TABLE 2]] True or false: In the equilibrium where Target promotes boy\u2019s clothing and Walmart promotes men\u2019s clothing, neither company has an incentive to deviate.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explain": "Answer: True. That is the definition of a Nash equilibrium: given what the other player is doing, neither player can do better by changing its own strategy. Target switching to men\u2019s would drop its payoff from 8 to 5. Walmart switching to boy\u2019s would drop its payoff from 7 to 3.",
+  "source": "professor",
+  "verbatim": true,
+  "origin": "Quiz 9 Q3",
+  "tables": {
+   "2": [
+    [
+     {
+      "t": "",
+      "r": 1,
+      "c": 1,
+      "h": true
+     },
+     {
+      "t": "",
+      "r": 1,
+      "c": 1,
+      "h": true
+     },
+     {
+      "t": "Walmart",
+      "r": 1,
+      "c": 2,
+      "h": true
+     }
+    ],
+    [
+     {
+      "t": "",
+      "r": 1,
+      "c": 1,
+      "h": true
+     },
+     {
+      "t": "",
+      "r": 1,
+      "c": 1,
+      "h": true
+     },
+     {
+      "t": "Boy\u2019s",
+      "r": 1,
+      "c": 1,
+      "h": true
+     },
+     {
+      "t": "Men\u2019s",
+      "r": 1,
+      "c": 1,
+      "h": true
+     }
+    ],
+    [
+     {
+      "t": "Target",
+      "r": 2,
+      "c": 1,
+      "h": true
+     },
+     {
+      "t": "Boy\u2019s",
+      "r": 1,
+      "c": 1,
+      "h": true
+     },
+     {
+      "t": "4, 3",
+      "r": 1,
+      "c": 1,
+      "h": false
+     },
+     {
+      "t": "8, 7",
+      "r": 1,
+      "c": 1,
+      "h": false
+     }
+    ],
+    [
+     {
+      "t": "Men\u2019s",
+      "r": 1,
+      "c": 1,
+      "h": true
+     },
+     {
+      "t": "2, 5",
+      "r": 1,
+      "c": 1,
+      "h": false
+     },
+     {
+      "t": "5, 4",
+      "r": 1,
+      "c": 1,
+      "h": false
+     }
+    ]
+   ]
+  }
+ },
+ {
+  "id": "PRO-Quiz9-Q4",
+  "los": [
+   "S19-06"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "At a time when demand for ready-to-eat cereal was stagnant, a spokesperson for the cereal maker Kellogg\u2019s was quoted as saying, \u201c. . . for the past several years, our individual company growth has come out of the other fellow\u2019s hide.\u201d Kellogg\u2019s has been producing cereal since 1906 and continues to implement strategies that make it a leader in the cereal industry. Suppose that when Kellogg\u2019s and its largest rival, General Mills, both advertise, each company earns $0 in profits. When neither company advertises, each earns profits of $4 billion. If one company advertises and the other does not, the company that advertises earns $44 billion and the company that does not advertise loses $4 billion. If both companies viewed this scenario as a one-shot simultaneous-move game, what set of strategies would you expect each company to choose?",
+  "choices": [
+   "Kellogg\u2019s would not advertise, General Mills would not advertise",
+   "Kellogg\u2019s would advertise, General Mills would not advertise",
+   "Kellogg\u2019s would not advertise, General Mills would advertise",
+   "Kellogg\u2019s would advertise, General Mills would advertise"
+  ],
+  "answer": 3,
+  "explain": "Answer: Both advertise. Set up the payoffs as a 2\u00d72 matrix (in billions): Both advertise: (0, 0) Neither advertises: (4, 4) One advertises: 44 for the advertiser, \u22124 for the other If the rival does not advertise, advertising pays 44 instead of 4. If the rival advertises, advertising pays 0 instead of \u22124. Advertising is a dominant strategy for both firms, so both advertise and each earns $0. Both would be better off not advertising, but in a one-shot game neither can trust the other not to cheat. This is a prisoner\u2019s dilemma.",
+  "source": "professor",
+  "verbatim": true,
+  "origin": "Quiz 9 Q4"
+ },
+ {
+  "id": "PRO-Quiz9-Q5",
+  "los": [
+   "S19-06"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "At a time when demand for ready-to-eat cereal was stagnant, a spokesperson for the cereal maker Kellogg\u2019s was quoted as saying, \u201c. . . for the past several years, our individual company growth has come out of the other fellow\u2019s hide.\u201d Kellogg\u2019s has been producing cereal since 1906 and continues to implement strategies that make it a leader in the cereal industry. Suppose that when Kellogg\u2019s and its largest rival, General Mills, both advertise, each company earns $0 in profits. When neither company advertises, each earns profits of $4 billion. If one company advertises and the other does not, the company that advertises earns $44 billion and the company that does not advertise loses $4 billion. Based on a history of declining sales, suppose both companies foresee the end of their industry within five years. If a period is one year, what set of strategies would you expect each company to choose in the first period?",
+  "choices": [
+   "Kellogg\u2019s would not advertise, General Mills would not advertise",
+   "Kellogg\u2019s would advertise, General Mills would not advertise",
+   "Kellogg\u2019s would not advertise, General Mills would advertise",
+   "Kellogg\u2019s would advertise, General Mills would advertise"
+  ],
+  "answer": 3,
+  "explain": "Answer: Both advertise. This is a finitely repeated game with a known last period, so solve it from the end. Year 5: there is no future in which to punish cheating, so year 5 is a one-shot game. Both advertise. Year 4: both firms know year 5 is settled, so cooperating in year 4 earns no reward later. Both advertise. The same reasoning unravels every year back to the first, so both advertise in year 1.",
+  "source": "professor",
+  "verbatim": true,
+  "origin": "Quiz 9 Q5"
+ },
+ {
+  "id": "PRO-Quiz9-Q6",
+  "los": [
+   "S19-06"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "At a time when demand for ready-to-eat cereal was stagnant, a spokesperson for the cereal maker Kellogg\u2019s was quoted as saying, \u201c. . . for the past several years, our individual company growth has come out of the other fellow\u2019s hide.\u201d Kellogg\u2019s has been producing cereal since 1906 and continues to implement strategies that make it a leader in the cereal industry. Suppose that when Kellogg\u2019s and its largest rival, General Mills, both advertise, each company earns $0 in profits. When neither company advertises, each earns profits of $4 billion. If one company advertises and the other does not, the company that advertises earns $44 billion and the company that does not advertise loses $4 billion. Now suppose the game is infinitely repeated and both firms use trigger strategies. If the interest rate is 12%, should Kellogg\u2019s collude with General Mills by agreeing not to advertise, or should it defect from the agreement and advertise?",
+  "choices": [
+   "Kellogg\u2019s should maintain the collusive agreement",
+   "Kellogg\u2019s should defect from the collusive agreement"
+  ],
+  "answer": 1,
+  "explain": "Answer: Defect from the agreement. Compare the present value of cheating to the present value of colluding. Cheat: earn $44 billion now. General Mills then advertises every period, and both earn $0 forever. PV of cheating = 44 + 0 = $44 billion Collude: earn $4 billion now and every period after. PV of colluding = 4 + 4/0.12 = 4 + 33.3 = $37.3 billion Because $44 billion > $37.3 billion, Kellogg\u2019s does better by defecting.",
+  "source": "professor",
+  "verbatim": true,
+  "origin": "Quiz 9 Q6"
+ },
+ {
+  "id": "PRO-Quiz9-Q7",
+  "los": [
+   "S20-01",
+   "S20-03",
+   "S20-07"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "You manage Digital Camera, Inc., which sells high-end cameras through an Internet price comparison service. For several years, you and your only rival, The Camera Shop, have sustained high prices through tacit collusion, supported by how easily each of you can see the other\u2019s prices online. You now learn that The Camera Shop will exit the market in one month because its funding has run out. Given this news, how should you adjust your pricing strategy today?",
+  "choices": [
+   "Maintain the collusive price for the remaining month to preserve mutual profits, since deviation could invite retaliation before exit.",
+   "Defect from the collusive outcome and cut prices immediately, since the game now has a known final period and there is no future punishment for undercutting your rival.",
+   "Gradually lower prices over the next month to avoid triggering a destructive price war before exit.",
+   "Keep prices high until your rival exits, then raise them further once you are a monopolist."
+  ],
+  "answer": 1,
+  "explain": "Answer: Defect and cut prices immediately. Collusion in an infinitely repeated game holds up because cheating today invites punishment, such as a price war, in the future. Once The Camera Shop\u2019s exit date is known, the game has a final period. Your rival has no future in which to punish you, so the incentive to keep prices high unravels. The best move is to cut prices now and win as many customers as you can before your rival leaves. This is the end-of-game problem from the finitely repeated prisoner\u2019s dilemma.",
+  "source": "professor",
+  "verbatim": true,
+  "origin": "Quiz 9 Q7"
+ },
+ {
+  "id": "PRO-Quiz9-Q8",
+  "los": [
+   "S20-04",
+   "S20-05",
+   "S20-08"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "From the scriptures, we learn that Eve was tempted to partake of the forbidden fruit. While we understand why Eve partook, we can use game theory to think about what was likely going on in her mind as she decided whether to partake. Eve chooses whether to partake of the fruit. Adam observes Eve\u2019s choice and then also chooses whether to partake. If Eve partakes and then convinces Adam to partake, both will be able to have children and experience joy. If Eve partakes but Adam does not, Eve will be cast out and Adam will be a lone man in the Garden of Eden. If Eve does not partake but Adam does, Eve will be a lone woman in the Garden of Eden and Adam will be cast out forever. If neither partakes, both will remain in the Garden of Eden in a state of innocence. Sketch the game tree described above. Which set of strategies, if any, is a subgame perfect equilibrium?",
+  "choices": [
+   "Eve partakes of the fruit; Adam partakes of the fruit",
+   "Eve partakes of the fruit; Adam does not partake of the fruit",
+   "Eve does not partake of the fruit; Adam partakes of the fruit",
+   "Eve does not partake of the fruit; Adam does not partake of the fruit"
+  ],
+  "answer": 0,
+  "explain": "Answer: Eve partakes; Adam partakes. Solve the tree with backward induction, starting with Adam\u2019s choices. If Eve partakes: Adam chooses between children and joy (partake) and being a lone man in the garden (not partake). He partakes. If Eve does not partake: Adam chooses between being cast out forever (partake) and staying in the garden in innocence (not partake). He does not partake. Eve\u2019s choice: she knows partaking leads to children and joy, and not partaking leads to a state of innocence. She partakes, and Adam follows.",
+  "source": "professor",
+  "verbatim": true,
+  "origin": "Quiz 9 Q8"
+ },
+ {
+  "id": "PRO-Quiz9-Q9",
+  "los": [
+   "S20-04",
+   "S20-05",
+   "S20-06",
+   "S20-08"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Consider the following innovation game. Firm A decides whether to introduce a new product. Firm B then decides whether to clone Firm A\u2019s product. If A introduces and B clones, A earns $2 and B earns $15. If A introduces and B does not clone, A earns $8 and B earns $1. If A does not introduce, both firms earn $0. Which of the following is true?",
+  "choices": [
+   "The subgame perfect profits are (2, 15)",
+   "The subgame perfect profits are (8, 1)",
+   "It is not in A\u2019s interest to introduce",
+   "None of the answers is correct"
+  ],
+  "answer": 0,
+  "explain": "Answer: The subgame perfect profits are (2, 15). Step 1: B\u2019s choice after A introduces. Cloning pays B $15 and not cloning pays $1, so B clones. Step 2: A\u2019s choice, knowing B will clone. Introducing pays A $2 and not introducing pays $0, so A introduces. The subgame perfect profits are (2, 15). (8, 1) is not an equilibrium, because B would clone rather than settle for $1. See Demonstration Problem 10-9 in Chapter 10.",
+  "source": "professor",
+  "verbatim": true,
+  "origin": "Quiz 9 Q9"
+ },
+ {
+  "id": "PRO-Quiz9-Q10",
+  "los": [
+   "S20-04",
+   "S20-06",
+   "S20-08"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Coca-Cola and PepsiCo are leading competitors in the market for cola products. In 1960 Coca-Cola introduced Sprite, which today is the worldwide leader in the lemon-lime soft drink market and ranks fourth among all soft drinks worldwide. Before 1999, PepsiCo did not have a product that competed directly against Sprite and had to decide whether to introduce one. If PepsiCo does not introduce a lemon-lime soft drink, it continues to earn $200 million in profit and Coca-Cola continues to earn $300 million. If PepsiCo introduces one, Coca-Cola has two possible responses: Fight: start a price war in both the lemon-lime and cola markets. Both companies earn $100 million. Acquiesce: keep the current 50/50 split of the cola market and split the lemon-lime market 30/70 (PepsiCo/Coca-Cola). Coca-Cola earns $275 million and PepsiCo earns $227 million. What is the subgame perfect equilibrium of this sequential game?",
+  "choices": [
+   "PepsiCo should not introduce the lemon-lime drink, since Coca-Cola would fight entry to protect its market share.",
+   "PepsiCo should introduce the drink, and Coca-Cola should acquiesce, since fighting is not a credible threat.",
+   "PepsiCo should introduce the drink, anticipating that Coca-Cola will fight to deter future competition.",
+   "PepsiCo should not introduce the drink, because even if Coca-Cola acquiesces, PepsiCo\u2019s payoff would not exceed the status quo."
+  ],
+  "answer": 1,
+  "explain": "Answer: PepsiCo introduces and Coca-Cola acquiesces. Step 1: Coca-Cola\u2019s choice after PepsiCo enters. Fighting pays $100 million and acquiescing pays $275 million, so Coca-Cola acquiesces. A threat to fight is not credible. Step 2: PepsiCo\u2019s choice, knowing Coca-Cola will acquiesce. Introducing pays $227 million and staying out pays $200 million, so PepsiCo introduces. 8482ef45-7fd2-45f8-987f-d9f7d7f63355",
+  "source": "professor",
+  "verbatim": true,
+  "origin": "Quiz 9 Q10"
+ }
+]

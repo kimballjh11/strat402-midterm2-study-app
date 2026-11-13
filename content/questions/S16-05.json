@@ -1,0 +1,247 @@
+[
+ {
+  "id": "S16-05-q001",
+  "los": [
+   "S16-05"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "A firm minimizes the cost of producing a given output when:",
+  "choices": [
+   "MP_L = MP_K",
+   "MP_L / MP_K = r / w",
+   "w = r",
+   "MP_L / w = MP_K / r"
+  ],
+  "answer": 3,
+  "explain": "Equal marginal product per dollar (bang for the buck). Equal MPs or equal prices are not the rule. MP_L/MP_K = r/w flips the price ratio; it should be w/r.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-05-q002",
+  "los": [
+   "S16-05"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "At the cost-minimizing input mix, the isoquant and the isocost are:",
+  "choices": [
+   "Tangent: MRTS = w/r",
+   "Crossing at a right angle",
+   "Parallel everywhere",
+   "Both straight lines"
+  ],
+  "answer": 0,
+  "explain": "At the cheapest point on the isoquant, the lowest isocost just touches it, so their slopes are equal: MRTS = w/r.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-05-q003",
+  "los": [
+   "S16-05"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: If MP_K / r > MP_L / w, the firm can lower its cost of producing the same output by using more capital and less labor.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explain": "True. Each dollar moved from labor to capital adds more output than it takes away.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-05-q004",
+  "los": [
+   "S16-05"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: The cost-minimizing input rule MP_L / w = MP_K / r is printed on the equation sheet.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 1,
+  "explain": "False. The sheet has the MRTS and the isocost slope, not the rule that sets them equal.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-05-q005",
+  "los": [
+   "S16-05"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "The professor calls MP/price for each input the:",
+  "choices": [
+   "Isocost slope",
+   "Bang for the buck",
+   "Marginal rate of substitution",
+   "Average product"
+  ],
+  "answer": 1,
+  "explain": "Slides p. 38: marginal product (bang) per dollar spent (buck).",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-05-q006",
+  "los": [
+   "S16-05"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Labor costs $12 per hour and the last worker made 84 rollers per hour. What is MP_L / w?",
+  "answer": 7,
+  "unit": "units per $",
+  "tol": 0.01,
+  "explain": "84 / 12 = 7 rollers per dollar (in-class exercise).",
+  "verify": {
+   "f": "ratio",
+   "num": 84,
+   "den": 12
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-05-q007",
+  "los": [
+   "S16-05"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Capital rents for $15 per hour and MP_K = 120 rollers per hour. What is MP_K / r?",
+  "answer": 8,
+  "unit": "units per $",
+  "tol": 0.01,
+  "explain": "120 / 15 = 8 rollers per dollar (in-class exercise). Since 8 > 7 for labor, use more capital.",
+  "verify": {
+   "f": "ratio",
+   "num": 120,
+   "den": 15
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-05-q008",
+  "los": [
+   "S16-05"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "\\(Q = 10K^{0.5}L^{0.5}\\), w = $40, r = $10. At (L, K) = (10, 10), what is MP_K / r?",
+  "answer": 0.5,
+  "unit": "units per $",
+  "tol": 0.01,
+  "explain": "MP_K = 0.5 × 10 × L^0.5 / K^0.5 = 5 × 1 = 5. MP_K/r = 5/10 = 0.5. Compare MP_L/w = 5/40 = 0.125: capital gives more per dollar.",
+  "verify": {
+   "f": "cd_bang",
+   "A": 10,
+   "a": 0.5,
+   "b": 0.5,
+   "K": 10,
+   "L": 10,
+   "price": 10,
+   "wrt": "K"
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-05-q009",
+  "los": [
+   "S16-05"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "w = $20, r = $50, MP_L = 60, MP_K = 150. Is the firm cost minimizing?",
+  "choices": [
+   "No, use more labor",
+   "Yes, both inputs give 3 units per dollar",
+   "No, use more capital",
+   "Cannot tell without output"
+  ],
+  "answer": 1,
+  "explain": "60/20 = 3 and 150/50 = 3. Equal bang for the buck, so the mix is cost minimizing.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-05-q010",
+  "los": [
+   "S16-05"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "w = $25, r = $40, MP_L = 50, MP_K = 120. What should the firm do?",
+  "choices": [
+   "Use more labor and less capital",
+   "Use more capital and less labor",
+   "Cut both inputs",
+   "Keep the same mix"
+  ],
+  "answer": 1,
+  "explain": "MP_L/w = 2 and MP_K/r = 3. Capital gives more per dollar, so shift toward capital.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-05-q011",
+  "los": [
+   "S16-05"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "w = $30, r = $20, MP_L = 90, MP_K = 40. What should the firm do?",
+  "choices": [
+   "Keep the same mix",
+   "Use more capital and less labor",
+   "Use only capital",
+   "Use more labor and less capital"
+  ],
+  "answer": 3,
+  "explain": "MP_L/w = 3 and MP_K/r = 2. Labor gives more per dollar, so shift toward labor.",
+  "source": "generated",
+  "verbatim": false,
+  "trap": "Raw MP_L (90) beats MP_K (40), but that is not why; compare per dollar."
+ },
+ {
+  "id": "S16-05-q012",
+  "los": [
+   "S16-05"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A firm has MP_L/w = MP_K/r. It hires more workers and keeps capital fixed. With diminishing marginal returns, how do the bang-for-the-buck ratios compare now?",
+  "choices": [
+   "MP_L/w < MP_K/r",
+   "They stay equal",
+   "MP_L/w > MP_K/r",
+   "Both ratios rise"
+  ],
+  "answer": 0,
+  "explain": "Adding labor lowers MP_L, so labor now gives less per dollar than capital. The new mix is not the cheapest way to make its new output level.",
+  "source": "generated",
+  "verbatim": false
+ }
+]

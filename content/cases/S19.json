@@ -1,0 +1,567 @@
+[
+ {
+  "id": "S19-case1",
+  "title": "Dillard's vs. Nordstrom (in-class exercise)",
+  "los": [
+   "S19-02",
+   "S19-03",
+   "S19-04",
+   "S19-06"
+  ],
+  "stem": "From the S19 in-class exercise. Dillard's (rows) and Nordstrom (columns) each choose which clothing line to feature. Payoffs: (Dillard's, Nordstrom).\n\n| Dillard's \\ Nordstrom | Girl's | Women's |\n|---|---|---|\n| Girl's | 2, 1 | 4, 2 |\n| Women's | 6, 4 | 3, 5 |",
+  "parts": [
+   {
+    "los": [
+     "S19-03"
+    ],
+    "type": "mc",
+    "kind": "calc",
+    "stem": "Does Dillard's have a dominant strategy?",
+    "choices": [
+     "Yes: Women's",
+     "Yes: both",
+     "No: Women's is best if Nordstrom picks Girl's, Girl's is best if Nordstrom picks Women's",
+     "Yes: Girl's"
+    ],
+    "answer": 2,
+    "explain": "Against Girl's: 6 > 2 (Women's). Against Women's: 4 > 3 (Girl's). The best response changes.",
+    "id": "S19-case1-p1",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S19-03"
+    ],
+    "type": "mc",
+    "kind": "calc",
+    "stem": "Does Nordstrom have a dominant strategy?",
+    "choices": [
+     "No",
+     "Yes: Girl's",
+     "Yes: Women's",
+     "Only if Dillard's picks Girl's"
+    ],
+    "answer": 2,
+    "explain": "Against Girl's: 2 > 1. Against Women's: 5 > 4. Women's both times.",
+    "id": "S19-case1-p2",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S19-04"
+    ],
+    "type": "mc",
+    "kind": "calc",
+    "stem": "What is the Nash equilibrium?",
+    "choices": [
+     "Dillard's Girl's, Nordstrom Girl's",
+     "Dillard's Girl's, Nordstrom Women's",
+     "Dillard's Women's, Nordstrom Girl's",
+     "Dillard's Women's, Nordstrom Women's"
+    ],
+    "answer": 1,
+    "explain": "Nordstrom plays Women's; Dillard's best response is Girl's (4 > 3).",
+    "id": "S19-case1-p3",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S19-02",
+     "S19-04"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "What is Dillard's payoff in the Nash equilibrium?",
+    "answer": 4,
+    "unit": "",
+    "tol": 0.01,
+    "explain": "Cell (Girl's, Women's) = (4, 2). First number = Dillard's.",
+    "verify": {
+     "f": "cell",
+     "pay": [
+      [
+       [
+        2,
+        1
+       ],
+       [
+        4,
+        2
+       ]
+      ],
+      [
+       [
+        6,
+        4
+       ],
+       [
+        3,
+        5
+       ]
+      ]
+     ],
+     "i": 0,
+     "j": 1,
+     "who": 0
+    },
+    "id": "S19-case1-p4",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S19-06"
+    ],
+    "type": "mc",
+    "kind": "apply",
+    "stem": "Dillard's would love the 6 in (Women's, Girl's). Why can't it get there?",
+    "choices": [
+     "Dillard's cannot choose Women's",
+     "6 is Nordstrom's payoff",
+     "The game has no equilibrium",
+     "Nordstrom would not pick Girl's, since Women's is its dominant strategy"
+    ],
+    "answer": 3,
+    "explain": "Put yourself in your rival's shoes: Nordstrom always picks Women's.",
+    "id": "S19-case1-p5",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   }
+  ]
+ },
+ {
+  "id": "S19-case2",
+  "title": "Visa vs. Mastercard",
+  "los": [
+   "S19-01",
+   "S19-03",
+   "S19-04",
+   "S19-06"
+  ],
+  "stem": "From the S19 slides. Visa (rows) and Mastercard (columns) each decide, without seeing the other's choice, whether to lower merchant fees. Payoffs: (Visa, Mastercard).\n\n| Visa \\ Mastercard | Lower Fee | Maintain Fee |\n|---|---|---|\n| Lower Fee | 2, 2 | 4, 1 |\n| Maintain Fee | 1, 4 | 3, 3 |",
+  "parts": [
+   {
+    "los": [
+     "S19-01"
+    ],
+    "type": "mc",
+    "kind": "concept",
+    "stem": "What kind of game is this?",
+    "choices": [
+     "Simultaneous-move, one-shot",
+     "Sequential-move",
+     "Repeated",
+     "Coordination"
+    ],
+    "answer": 0,
+    "explain": "Neither sees the other's choice, and it is analyzed as played once.",
+    "id": "S19-case2-p1",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S19-03"
+    ],
+    "type": "mc",
+    "kind": "calc",
+    "stem": "What should Visa do?",
+    "choices": [
+     "Lower its fee: it is dominant (2 > 1 and 4 > 3)",
+     "Maintain its fee: 3 is better than 2",
+     "Randomize",
+     "It depends on Mastercard"
+    ],
+    "answer": 0,
+    "explain": "Slide p. 22.",
+    "id": "S19-case2-p2",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S19-04"
+    ],
+    "type": "mc",
+    "kind": "calc",
+    "stem": "What is the Nash equilibrium?",
+    "choices": [
+     "Visa lowers, Mastercard maintains (4, 1)",
+     "There is none",
+     "Both lower fees (2, 2)",
+     "Both maintain fees (3, 3)"
+    ],
+    "answer": 2,
+    "explain": "Both play their dominant strategy Lower.",
+    "id": "S19-case2-p3",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S19-06"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "How much combined payoff do Visa and Mastercard give up in equilibrium compared with both maintaining fees?",
+    "answer": 2,
+    "unit": "",
+    "tol": 0.01,
+    "explain": "Both maintain: 3 + 3 = 6. Equilibrium: 2 + 2 = 4. Loss: 2.",
+    "verify": {
+     "f": "pd_loss",
+     "pay": [
+      [
+       [
+        2,
+        2
+       ],
+       [
+        4,
+        1
+       ]
+      ],
+      [
+       [
+        1,
+        4
+       ],
+       [
+        3,
+        3
+       ]
+      ]
+     ]
+    },
+    "id": "S19-case2-p4",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S19-06"
+    ],
+    "type": "mc",
+    "kind": "apply",
+    "stem": "Could they collude to maintain fees in a one-shot game?",
+    "choices": [
+     "Yes: maintaining is dominant",
+     "Yes: both are better off",
+     "No: maintaining is not allowed",
+     "No: each would have an incentive to defect and lower its fee"
+    ],
+    "answer": 3,
+    "explain": "Slide p. 36. Defecting from (3, 3) to Lower pays 4.",
+    "id": "S19-case2-p5",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   }
+  ]
+ },
+ {
+  "id": "S19-case3",
+  "title": "Monitoring the warehouse",
+  "los": [
+   "S19-04",
+   "S19-05"
+  ],
+  "stem": "A warehouse manager (Boss, rows) decides whether to monitor; a worker (Employee, columns) decides whether to work or shirk. Payoffs: (Boss, Employee).\n\n| Boss \\ Employee | Work | Shirk |\n|---|---|---|\n| Monitor | 6, 3 | 8, 0 |\n| Don't Monitor | 10, 3 | 2, 4 |",
+  "parts": [
+   {
+    "los": [
+     "S19-04"
+    ],
+    "type": "mc",
+    "kind": "calc",
+    "stem": "Is there a pure-strategy Nash equilibrium?",
+    "choices": [
+     "Yes: two of them",
+     "Yes: (Monitor, Work)",
+     "No: in every cell one player wants to switch",
+     "Yes: (Don't Monitor, Shirk)"
+    ],
+    "answer": 2,
+    "explain": "(Monitor, Work): boss switches to Don't (10 > 6). (Don't, Work): employee shirks (4 > 3). (Don't, Shirk): boss monitors (8 > 2). (Monitor, Shirk): employee works (3 > 0).",
+    "id": "S19-case3-p1",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S19-05"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "With what probability should the boss monitor?",
+    "answer": 0.25,
+    "unit": "probability",
+    "tol": 0.01,
+    "explain": "Make the employee indifferent: Work = 3; Shirk = 4(1 - p). 3 = 4 - 4p, p = 0.25.",
+    "verify": {
+     "f": "mix_p",
+     "pay": [
+      [
+       [
+        6,
+        3
+       ],
+       [
+        8,
+        0
+       ]
+      ],
+      [
+       [
+        10,
+        3
+       ],
+       [
+        2,
+        4
+       ]
+      ]
+     ]
+    },
+    "id": "S19-case3-p2",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S19-05"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "With what probability should the employee work?",
+    "answer": 0.6,
+    "unit": "probability",
+    "tol": 0.01,
+    "explain": "Make the boss indifferent: Monitor = 6q + 8(1 - q) = 8 - 2q; Don't = 10q + 2(1 - q) = 2 + 8q. q = 0.6.",
+    "verify": {
+     "f": "mix_q",
+     "pay": [
+      [
+       [
+        6,
+        3
+       ],
+       [
+        8,
+        0
+       ]
+      ],
+      [
+       [
+        10,
+        3
+       ],
+       [
+        2,
+        4
+       ]
+      ]
+     ]
+    },
+    "id": "S19-case3-p3",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S19-05"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "What is the boss's expected payoff in the mixed equilibrium?",
+    "answer": 6.8,
+    "unit": "",
+    "tol": 0.01,
+    "explain": "With q = 0.6: Monitor = 6(0.6) + 8(0.4) = 6.8 (Don't gives the same).",
+    "verify": {
+     "f": "mix_val_row",
+     "pay": [
+      [
+       [
+        6,
+        3
+       ],
+       [
+        8,
+        0
+       ]
+      ],
+      [
+       [
+        10,
+        3
+       ],
+       [
+        2,
+        4
+       ]
+      ]
+     ]
+    },
+    "id": "S19-case3-p4",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   }
+  ]
+ },
+ {
+  "id": "S19-case4",
+  "title": "Political ads: Facebook vs. Twitter (Game Theory Exercise Part 1)",
+  "los": [
+   "S19-01",
+   "S19-02",
+   "S19-03",
+   "S19-04"
+  ],
+  "stem": "From the professor's Game Theory Exercise (your submitted answers). Facebook and Twitter decide in 2019 whether to ban political ads. Political ads are 0.5% of Facebook's ad revenue ($70B, so $350M) and 0.1% of Twitter's ($3B, so $3M). A firm that does not ban faces a 10% chance of a fine of 4% of ad revenue (expected fine $280M for Facebook, $12M for Twitter). If Twitter bans and Facebook does not, Twitter's political ads go to Facebook. If Facebook bans and Twitter does not, 10% of Facebook's political ad revenue ($35M) goes to Twitter. Payoffs are the change in ad revenue in $ millions. Facebook is on the rows, payoffs (Facebook, Twitter):\n\n| Facebook \\ Twitter | Ban | Don't Ban |\n|---|---|---|\n| Ban | -350, -3 | -350, 23 |\n| Don't Ban | -277, -3 | -280, -12 |",
+  "parts": [
+   {
+    "los": [
+     "S19-01"
+    ],
+    "type": "mc",
+    "kind": "concept",
+    "stem": "How do both firms first view the decision in Part 1?",
+    "choices": [
+     "As a coordination game",
+     "As a one-shot simultaneous game",
+     "As a sequential game",
+     "As an infinitely repeated game"
+    ],
+    "answer": 1,
+    "explain": "Each decides without knowing the other's choice.",
+    "id": "S19-case4-p1",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S19-02"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "What is Facebook's expected regulatory fine if it does not ban ($ millions)?",
+    "answer": 280,
+    "unit": "",
+    "tol": 0.01,
+    "explain": "10% × 4% × 70,000 = 280.",
+    "verify": {
+     "f": "fine",
+     "p": 0.1,
+     "rate": 0.04,
+     "rev": 70000
+    },
+    "id": "S19-case4-p2",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S19-03"
+    ],
+    "type": "mc",
+    "kind": "calc",
+    "stem": "Which firm has a dominant strategy?",
+    "choices": [
+     "Only Twitter: Ban",
+     "Only Facebook: Don't Ban",
+     "Both players",
+     "Neither player"
+    ],
+    "answer": 1,
+    "explain": "Facebook: -277 > -350 and -280 > -350. Twitter's best response changes.",
+    "id": "S19-case4-p3",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S19-04"
+    ],
+    "type": "mc",
+    "kind": "calc",
+    "stem": "What is the Nash equilibrium?",
+    "choices": [
+     "Facebook Don't Ban, Twitter Ban (-277, -3)",
+     "Facebook Ban, Twitter Don't Ban (-350, 23)",
+     "Neither bans (-280, -12)",
+     "Both ban (-350, -3)"
+    ],
+    "answer": 0,
+    "explain": "Twitter best-responds to Facebook's dominant Don't Ban with Ban (-3 > -12). It matches 2019.",
+    "id": "S19-case4-p4",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S19-04"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "What is Twitter's payoff in the Nash equilibrium ($ millions)?",
+    "answer": -3,
+    "unit": "",
+    "tol": 0.01,
+    "explain": "Twitter gives up its $3M of political ads.",
+    "verify": {
+     "f": "cell",
+     "pay": [
+      [
+       [
+        -350,
+        -3
+       ],
+       [
+        -350,
+        23
+       ]
+      ],
+      [
+       [
+        -277,
+        -3
+       ],
+       [
+        -280,
+        -12
+       ]
+      ]
+     ],
+     "i": 1,
+     "j": 0,
+     "who": 1
+    },
+    "id": "S19-case4-p5",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   }
+  ]
+ }
+]

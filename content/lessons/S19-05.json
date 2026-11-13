@@ -1,0 +1,98 @@
+{
+ "id": "S19-05",
+ "title": "Mixed (randomized) strategy",
+ "calc": true,
+ "plain": "Some games have **no** pure-strategy Nash equilibrium: whatever you do, the rival wants to do something else, and then you want to switch, and so on. Then the best plan is to be unpredictable.\n\nA **mixed (randomized) strategy** is a strategy whereby a player **randomizes over two or more available actions in order to keep rivals from being able to predict his or her action** (slides p. 44). Examples: rock, paper, scissors; penalty kicks; play calling in football.\n\n**The Princess Bride** (pp. 41 to 43): Westley poisons one cup; Vizzini picks a cup.\n\n| Vizzini \\ Westley | Poison in his own cup | Poison in Vizzini's cup |\n|---|---|---|\n| Drink from Westley's cup | Die, Live | Live, Die |\n| Drink from his own cup | Live, Die | Die, Live |\n\nWhatever Westley does, Vizzini wants to do the opposite of what would kill him, and Westley wants to match the cup Vizzini will drink. No cell is stable, so neither should be predictable.\n\n**Employee monitoring** (pp. 45 to 46):\n\n| Boss \\ Employee | Work | Shirk |\n|---|---|---|\n| Monitor | -1, 1 | 1, -1 |\n| Don't Monitor | 1, -1 | -1, 1 |\n\nIf the boss always monitors, the employee works, so the boss would rather not monitor. If the boss never monitors, the employee shirks, so the boss wants to monitor. No pure equilibrium.\n\n**How to find the mix (indifference method).** Each player randomizes so that the **other** player is indifferent between his or her options. If the employee strictly preferred one action, the boss could exploit it.\n\nWith the slide's numbers everything is symmetric: the boss monitors with probability 1/2 and the employee works with probability 1/2. A non-symmetric version shows the method better:\n\n| Boss \\ Employee | Work | Shirk |\n|---|---|---|\n| Monitor | 6, 3 | 8, 0 |\n| Don't Monitor | 10, 3 | 2, 4 |\n\n1. Boss monitors with probability p. Employee's expected payoff from Work: \\(3p + 3(1 - p) = 3\\). From Shirk: \\(0p + 4(1 - p) = 4 - 4p\\). Set equal: \\(3 = 4 - 4p\\), so **p = 0.25**.\n2. Employee works with probability q. Boss's expected payoff from Monitor: \\(6q + 8(1 - q) = 8 - 2q\\). From Don't: \\(10q + 2(1 - q) = 2 + 8q\\). Set equal: \\(8 - 2q = 2 + 8q\\), so **q = 0.6**.\n\nNotice the boss's probability comes from the **employee's** payoffs, and the employee's from the **boss's**. The mixed strategy formulas are **not** on the equation sheet.",
+ "why": "Practice exam Q10 maps here. A game with no pure equilibrium is a classic exam setup.",
+ "definition": "A mixed (randomized) strategy is a strategy whereby a player randomizes over two or more available actions in order to keep rivals from being able to predict his or her action.",
+ "formulas": [
+  {
+   "name": "Indifference condition (column player indifferent)",
+   "tex": "p\\,c_{11} + (1-p)\\,c_{21} = p\\,c_{12} + (1-p)\\,c_{22}",
+   "onSheet": false,
+   "note": "p = probability the ROW player plays the top row; c = the column player's payoffs."
+  },
+  {
+   "name": "Solved for p",
+   "tex": "p = \\frac{c_{22} - c_{21}}{(c_{11} - c_{21}) - (c_{12} - c_{22})}",
+   "onSheet": false,
+   "note": "Easier to set up the two expected payoffs and solve than to memorize this."
+  }
+ ],
+ "derivation": "Expand \\(p c_{11} + (1-p) c_{21} = p c_{12} + (1-p) c_{22}\\): \\(c_{21} + p(c_{11} - c_{21}) = c_{22} + p(c_{12} - c_{22})\\). Collect p: \\(p[(c_{11} - c_{21}) - (c_{12} - c_{22})] = c_{22} - c_{21}\\). Divide.",
+ "math": [
+  {
+   "title": "Expected value",
+   "body": "If an outcome is worth \\(x_1\\) with probability \\(p\\) and \\(x_2\\) with probability \\(1 - p\\), its expected value is \\(p\\,x_1 + (1 - p)\\,x_2\\). Example: a 30% chance of $10 and a 70% chance of $0 is worth \\(0.3(10) + 0.7(0) = \\$3\\) on average."
+  },
+  {
+   "title": "Solving a linear equation in p",
+   "body": "Collect the p terms on one side and numbers on the other. Example: \\(3 = 4 - 4p\\). Subtract 4: \\(-1 = -4p\\). Divide by \\(-4\\): \\(p = 0.25\\). Another: \\(8 - 2q = 2 + 8q\\). Move terms: \\(6 = 10q\\), so \\(q = 0.6\\)."
+  }
+ ],
+ "worked": [
+  {
+   "title": "Penalty kick",
+   "problem": "A kicker shoots Left or Right; the goalie dives Left or Right. Probabilities of scoring (kicker's payoff; goalie's payoff is 1 minus it): kicker Left/goalie Left 0.4, Left/Right 0.9, Right/Left 0.8, Right/Right 0.3. With what probability should the kicker shoot Left?",
+   "steps": [
+    "Kicker shoots Left with probability p. Goalie's payoffs = 1 - scoring.",
+    "Goalie dives Left: scoring chance 0.4p + 0.8(1 - p) = 0.8 - 0.4p.",
+    "Goalie dives Right: 0.9p + 0.3(1 - p) = 0.3 + 0.6p.",
+    "Make the goalie indifferent: 0.8 - 0.4p = 0.3 + 0.6p, so 0.5 = p."
+   ],
+   "answer": "Shoot Left half the time. Scoring chance is then 0.8 - 0.2 = 0.6 whichever way the goalie dives."
+  }
+ ],
+ "graph": {
+  "component": "payoff",
+  "params": {
+   "players": [
+    "Boss",
+    "Employee"
+   ],
+   "rows": [
+    "Monitor",
+    "Don't Monitor"
+   ],
+   "cols": [
+    "Work",
+    "Shirk"
+   ],
+   "pay": [
+    [
+     [
+      6,
+      3
+     ],
+     [
+      8,
+      0
+     ]
+    ],
+    [
+     [
+      10,
+      3
+     ],
+     [
+      2,
+      4
+     ]
+    ]
+   ]
+  },
+  "caption": "No cell is outlined: no pure equilibrium. The readout gives the mixed equilibrium: the boss monitors 25% of the time and the employee works 60% of the time. Edit the payoffs and watch the probabilities move."
+ },
+ "traps": [
+  "Each player's mix makes the OTHER player indifferent. Use the opponent's payoffs to find your own probability.",
+  "Mixed strategies matter when there is NO pure-strategy equilibrium (or to find additional equilibria).",
+  "Randomizing is not 'any random choice': the probabilities are specific.",
+  "The mixed strategy formulas are not on the equation sheet; set up the two expected payoffs and solve."
+ ],
+ "sources": {
+  "slides": "S19 Game Theory I pp. 41 to 46",
+  "read": "Ch. 10 pp. 314 to 315 (monitoring workers)",
+  "exercise": "",
+  "quiz": "Practice exam Q10"
+ }
+}

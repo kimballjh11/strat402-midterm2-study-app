@@ -1,0 +1,78 @@
+{
+ "id": "S21-02",
+ "title": "Cournot oligopoly",
+ "calc": true,
+ "plain": "In a **Cournot oligopoly**, firms compete by choosing **how much to produce** (quantity), at the same time, and let the price float on the demand curve (Bryce p. 4).\n\n**Textbook conditions:** (1) few firms serving many consumers; (2) homogeneous or differentiated products; (3) each firm believes rivals will **hold their output constant** if it changes its output; (4) barriers to entry.\n\n**Where it fits** (Bryce p. 4): commodity markets like oil and agriculture. OPEC's members set output targets: a Cournot cartel. Corn wet milling capacity (1972) is another example.\n\n**How to solve it** (setting MR = MC):\n1. Write firm 1's revenue with demand \\(P = a - b(Q_1 + Q_2)\\) and find \\(MR_1 = a - bQ_2 - 2bQ_1\\).\n2. Set \\(MR_1 = MC_1 = c_1\\) and solve for \\(Q_1\\): this is firm 1's **reaction function**, \\(Q_1 = \\frac{a - c_1}{2b} - \\frac{1}{2}Q_2\\).\n3. Do the same for firm 2.\n4. The **Cournot equilibrium** is where the two reaction functions cross: neither firm wants to change its output given the other's (a Nash equilibrium in quantities).\n\n**Textbook Demonstration Problem 9-4:** \\(P = 10 - (Q_1 + Q_2)\\), zero costs.\n- \\(MR_1 = 10 - Q_2 - 2Q_1\\). Set equal to 0: \\(Q_1 = 5 - \\frac{1}{2}Q_2\\). Likewise \\(Q_2 = 5 - \\frac{1}{2}Q_1\\).\n- Solve: \\(Q_1 = Q_2 = 10/3\\). Total \\(Q = 20/3\\), price \\(P = 10 - 20/3 = 10/3\\).\n\n**Shortcut for identical costs:** each firm produces \\(\\frac{a - c}{3b}\\). (Unequal costs: \\(Q_1 = \\frac{a - 2c_1 + c_2}{3b}\\).) None of these formulas is on the equation sheet; derive from MR = MC if you forget.\n\n**Compared with other structures:** Cournot output is above the monopoly (collusion) level and below the competitive level, so P > MC. With more firms, price falls toward MC (textbook).\n\n**Collusion is tempting but unstable.** Splitting the monopoly output earns more for both, but it is hard to achieve for **two** reasons (Session 21 reading quiz Q5): it is **often prohibited by law**, AND **every firm has an incentive to cheat given that the others follow the agreement**. If firm 2 sticks to its quota, firm 1's reaction function says produce more (Bryce p. 6). That is why OPEC members exceed their quotas.",
+ "why": "Practice exam Q14 and Q31 to Q34 and Comprehension Quiz 10 Q1 to Q5 are expected to test Cournot.",
+ "definition": "Cournot oligopoly: a few firms producing homogeneous or differentiated products choose output simultaneously, each believing rivals hold output constant, with barriers to entry. Equilibrium is where the reaction functions intersect.",
+ "formulas": [
+  {
+   "name": "Marginal revenue in Cournot duopoly",
+   "tex": "MR_1 = a - bQ_2 - 2bQ_1",
+   "onSheet": false
+  },
+  {
+   "name": "Cournot reaction function",
+   "tex": "Q_1 = \\frac{a - c_1}{2b} - \\frac{1}{2}Q_2",
+   "onSheet": false
+  },
+  {
+   "name": "Cournot output, identical costs",
+   "tex": "Q_1 = Q_2 = \\frac{a - c}{3b}",
+   "onSheet": false,
+   "note": "Shortcut. Derive it if unsure."
+  }
+ ],
+ "derivation": "Set \\(MR_1 = c_1\\): \\(a - bQ_2 - 2bQ_1 = c_1\\), so \\(Q_1 = \\frac{a - c_1}{2b} - \\frac{Q_2}{2}\\). With identical firms, put \\(Q_2 = Q_1 = q\\): \\(q = \\frac{a - c}{2b} - \\frac{q}{2}\\), so \\(\\frac{3}{2}q = \\frac{a - c}{2b}\\) and \\(q = \\frac{a - c}{3b}\\).",
+ "math": [
+  {
+   "title": "Marginal revenue with two firms",
+   "body": "Revenue for firm 1 is price times its own quantity: \\(R_1 = P \\cdot Q_1 = [a - b(Q_1 + Q_2)]Q_1 = aQ_1 - bQ_1^2 - bQ_1Q_2\\). Take the derivative with respect to \\(Q_1\\), treating \\(Q_2\\) as a fixed number: the derivative of \\(aQ_1\\) is a, of \\(bQ_1^2\\) is \\(2bQ_1\\), of \\(bQ_1Q_2\\) is \\(bQ_2\\). So \\(MR_1 = a - 2bQ_1 - bQ_2\\). Tiny example: P = 10 - (Q_1 + Q_2) gives \\(MR_1 = 10 - 2Q_1 - Q_2\\)."
+  },
+  {
+   "title": "Solving two reaction functions together",
+   "body": "Substitute one into the other. With \\(Q_1 = 5 - \\tfrac{1}{2}Q_2\\) and \\(Q_2 = 5 - \\tfrac{1}{2}Q_1\\): \\(Q_1 = 5 - \\tfrac{1}{2}(5 - \\tfrac{1}{2}Q_1) = 2.5 + \\tfrac{1}{4}Q_1\\). Subtract \\(\\tfrac{1}{4}Q_1\\): \\(\\tfrac{3}{4}Q_1 = 2.5\\), so \\(Q_1 = 10/3 \\approx 3.33\\). Then \\(Q_2 = 5 - \\tfrac{1}{2}(3.33) = 3.33\\). With identical firms you can skip the algebra: set \\(Q_1 = Q_2 = q\\) in one reaction function."
+  },
+  {
+   "title": "Profit with constant marginal cost",
+   "body": "With cost \\(C = cQ\\) and no fixed cost, profit is \\((P - c) \\times Q\\). Example: P = $336, c = $4, Q = 332: profit = 332 × 332 = $110,224."
+  }
+ ],
+ "worked": [
+  {
+   "title": "Textbook comparison market",
+   "problem": "P = 1,000 - (Q_1 + Q_2), each firm's cost is C = 4Q. Find the Cournot outputs, price and profit.",
+   "steps": [
+    "Reaction: \\(Q_1 = \\frac{1000 - 4}{2} - \\frac{1}{2}Q_2 = 498 - \\frac{1}{2}Q_2\\).",
+    "Identical firms: \\(q = \\frac{1000 - 4}{3} = 332\\).",
+    "Q = 664, P = 1,000 - 664 = $336.",
+    "Profit = (336 - 4) × 332 = $110,224 each."
+   ],
+   "answer": "332 each, P = $336, profit $110,224 each."
+  }
+ ],
+ "graph": {
+  "component": "reaction",
+  "params": {
+   "mode": "quantity",
+   "a": 1000,
+   "b": 1,
+   "c1": 4,
+   "c2": 4
+  },
+  "caption": "The textbook's comparison market. The reaction functions cross at the Cournot point (332, 332)."
+ },
+ "traps": [
+  "MR for one firm has 2b on its OWN quantity and b on the rival's.",
+  "Firms in Cournot choose QUANTITY; price comes from the demand curve.",
+  "Cournot output per firm is (a - c)/(3b), not (a - c)/(2b) (that is the monopoly or Stackelberg leader output).",
+  "Each firm assumes the rival's output stays fixed.",
+  "Why is Cournot collusion hard? BOTH reasons: it is often illegal AND each firm wants to cheat (Session 21 reading quiz Q5)."
+ ],
+ "sources": {
+  "slides": "S21 slides not posted",
+  "read": "Ch. 9: Cournot Oligopoly; Bryce pp. 4 to 6",
+  "exercise": "Oligopoly Exercise (not yet available)",
+  "quiz": "Session 21 Reading Quiz Q2, Q4, Q5; Comprehension Quiz 10 Q1 to Q5 (not yet available); Practice exam Q14, Q31 to Q34"
+ }
+}

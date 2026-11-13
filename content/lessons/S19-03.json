@@ -1,0 +1,99 @@
+{
+ "id": "S19-03",
+ "title": "Dominant strategy",
+ "calc": false,
+ "plain": "A **dominant strategy** is a strategy that results in the **highest payoff to a player regardless of the opponent's actions** (slides p. 22; Reading Quiz Q4). If you have one, play it; you do not need to guess what the rival will do.\n\n**How to check (row player):** for EACH of the opponent's strategies, find your best response. If the same strategy is best every time, it is dominant.\n\n**Visa (slides pp. 16 to 22):**\n- If Mastercard lowers: Visa gets 2 from Lower vs 1 from Maintain. Lower is better.\n- If Mastercard maintains: Visa gets 4 from Lower vs 3 from Maintain. Lower is better.\n- Lower is best either way: **Visa's dominant strategy is to lower its fee.**\n\n**Mastercard (pp. 23 to 29):** compare the second numbers across each row. If Visa lowers: 2 vs 1, Lower. If Visa maintains: 4 vs 3, Lower. **Mastercard also has a dominant strategy to lower.**\n\n**Not every player has one.** Dillard's versus Nordstrom (in-class exercise, pp. 38 to 40):\n\n| Dillard's \\ Nordstrom | Girl's | Women's |\n|---|---|---|\n| Girl's | 2, 1 | 4, 2 |\n| Women's | 6, 4 | 3, 5 |\n\n- Dillard's: if Nordstrom picks Girl's, Women's is better (6 > 2); if Nordstrom picks Women's, Girl's is better (4 > 3). The best choice changes, so **Dillard's has no dominant strategy**.\n- Nordstrom: if Dillard's picks Girl's, Women's (2 > 1); if Dillard's picks Women's, Women's (5 > 4). **Nordstrom's dominant strategy is Women's.**\n- **Put yourself in your rival's shoes** (textbook): Dillard's should expect Nordstrom to play Women's and respond with Girl's (4 > 3).\n\n**Iterated elimination.** A strategy is **dominated** if another strategy is better against everything the rival might do. A rational player never plays it, so you can cross it out and look again. In bigger games this can shrink the table down to the answer.\n\n**Secure (maximin) strategy** (textbook): pick the strategy whose worst case is best. It guarantees a minimum but ignores what the rival will rationally do, so it can cost you.",
+ "why": "Reading Quiz Q4, Comprehension Quiz 9 Q1 and Q2, and practice exam Q6 and Q24 test dominant strategies.",
+ "definition": "A dominant strategy is a strategy that results in the highest payoff to a player regardless of the opponent's actions.",
+ "formulas": [],
+ "derivation": "",
+ "math": [
+  {
+   "title": "Reading a payoff matrix",
+   "body": "Each cell has two numbers. The FIRST belongs to the row player, the SECOND to the column player. To compare the row player's options, hold the column fixed and look down that column at the first numbers. To compare the column player's options, hold the row fixed and look across that row at the second numbers."
+  }
+ ],
+ "worked": [
+  {
+   "title": "Comprehension Quiz 9 matrix",
+   "problem": "Target (rows) and Walmart (columns) each promote boy's or men's clothing.\n\n| Target \\ Walmart | Boy's | Men's |\n|---|---|---|\n| Boy's | 4, 3 | 8, 7 |\n| Men's | 2, 5 | 5, 4 |\n\nWho has a dominant strategy?",
+   "steps": [
+    "Target vs Walmart Boy's: Boy's 4 > Men's 2. Vs Walmart Men's: Boy's 8 > Men's 5. Boy's both times: dominant.",
+    "Walmart vs Target Boy's: Men's 7 > Boy's 3. Vs Target Men's: Boy's 5 > Men's 4. Changes: no dominant strategy."
+   ],
+   "answer": "Only Target has a dominant strategy (promote boy's clothing)."
+  },
+  {
+   "title": "Iterated elimination in a 3 by 3",
+   "problem": "Find what survives iterated elimination.\n\n| Row \\ Column | Left | Center | Right |\n|---|---|---|---|\n| Top | 4, 3 | 5, 1 | 6, 2 |\n| Middle | 2, 1 | 8, 4 | 3, 6 |\n| Bottom | 3, 0 | 9, 6 | 2, 8 |",
+   "steps": [
+    "Rows first: no row is worse than another row in every column (for example Top beats Middle under Left but loses under Center).",
+    "Column: Center (1, 4, 6) vs Right (2, 6, 8): Right is higher in every row, so Center is dominated. Cross it out.",
+    "Now rows over Left and Right only: Top (4, 6), Middle (2, 3), Bottom (3, 2). Top beats both, so cross out Middle and Bottom.",
+    "Only Top is left; Column compares Left 3 vs Right 2 and picks Left."
+   ],
+   "answer": "(Top, Left) with payoffs (4, 3)."
+  },
+  {
+   "title": "Game Theory Exercise Part 1: dominant strategies",
+   "problem": "Using the Part 1 matrix (Facebook rows, Twitter columns):\n\n| Facebook \\ Twitter | Ban | Don't Ban |\n|---|---|---|\n| Ban | -350, -3 | -350, 23 |\n| Don't Ban | -277, -3 | -280, -12 |\n\nDoes either firm have a dominant strategy?",
+   "steps": [
+    "Facebook: if Twitter bans, Don't Ban -277 > Ban -350; if Twitter doesn't, Don't Ban -280 > -350. Same answer both times.",
+    "Twitter: if Facebook bans, Don't Ban 23 > -3; if Facebook doesn't, Ban -3 > -12. The answer changes."
+   ],
+   "answer": "Facebook: Don't Ban is dominant (its $280M expected fine is less than the $350M it would give up). Twitter has no dominant strategy."
+  }
+ ],
+ "graph": {
+  "component": "payoff",
+  "params": {
+   "players": [
+    "Dillard's",
+    "Nordstrom"
+   ],
+   "rows": [
+    "Girl's",
+    "Women's"
+   ],
+   "cols": [
+    "Girl's",
+    "Women's"
+   ],
+   "pay": [
+    [
+     [
+      2,
+      1
+     ],
+     [
+      4,
+      2
+     ]
+    ],
+    [
+     [
+      6,
+      4
+     ],
+     [
+      3,
+      5
+     ]
+    ]
+   ]
+  },
+  "caption": "Dillard's versus Nordstrom. The readout names any dominant strategy: Nordstrom has one, Dillard's does not."
+ },
+ "traps": [
+  "A dominant strategy must be best against EVERY opposing choice, not just the one the rival is playing now.",
+  "Compare the row player's payoffs DOWN a column (first numbers); compare the column player's ACROSS a row (second numbers).",
+  "If one player has no dominant strategy, check the rival: if the rival has one, assume they play it and best-respond.",
+  "A dominant strategy does not mean the player gets the highest number in the table."
+ ],
+ "sources": {
+  "slides": "S19 Game Theory I pp. 16 to 29, 38 to 40",
+  "read": "Ch. 10 pp. 309 to 311",
+  "exercise": "Game Theory Exercise (your submitted answers, payoffs rechecked)",
+  "quiz": "Reading Quiz Q4; Comprehension Quiz 9 Q1, Q2"
+ }
+}

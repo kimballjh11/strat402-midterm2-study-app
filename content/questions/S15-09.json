@@ -1,0 +1,260 @@
+[
+ {
+  "id": "S15-09-q001",
+  "los": [
+   "S15-09",
+   "S15-11"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "The Cobb-Douglas production function \\(Q = K^aL^b\\) assumes the inputs are:",
+  "choices": [
+   "Unrelated",
+   "Perfect substitutes",
+   "Perfect complements",
+   "Imperfect substitutes"
+  ],
+  "answer": 3,
+  "explain": "Cobb-Douglas allows some, but not perfect, substitution (Reading Quiz Q5). Perfect substitutes is linear; perfect complements is Leontief.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-09-q002",
+  "los": [
+   "S15-09"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "For \\(Q = K^aL^b\\), the equation sheet gives \\(MP_L\\) as:",
+  "choices": [
+   "\\(aK^{a-1}L^b\\)",
+   "\\(bL^{b-1}\\)",
+   "\\(bK^aL^{b-1}\\)",
+   "\\(K^aL^b / L\\)"
+  ],
+  "answer": 2,
+  "explain": "Differentiate with respect to L, holding K: bK^aL^{b-1}. aK^{a-1}L^b is MP_K. Dropping K^a forgets that K multiplies the term. K^aL^b / L is average product.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-09-q003",
+  "los": [
+   "S15-09"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: For \\(Q = K^{0.5}L^{0.5}\\), the marginal product of labor falls as more labor is used with fixed capital.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explain": "True. MP_L = 0.5K^0.5 / L^0.5, and L is in the denominator, so MP_L falls as L rises: diminishing marginal returns.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-09-q004",
+  "los": [
+   "S15-09"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: With a Cobb-Douglas production function, the firm can produce output using only labor.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 1,
+  "explain": "False. If K = 0, then K^a = 0 and Q = 0. Both inputs are needed.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-09-q005",
+  "los": [
+   "S15-09",
+   "S15-11"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "For a Cobb-Douglas production function, the MRTS:",
+  "choices": [
+   "Always equals 1",
+   "Is undefined",
+   "Changes along the isoquant",
+   "Is constant"
+  ],
+  "answer": 2,
+  "explain": "MRTS = bK / (aL) depends on K and L, so it changes. Constant is linear; undefined is Leontief.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-09-q006",
+  "los": [
+   "S15-09"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "\\(Q = K^{0.25}L^{0.75}\\). What is \\(MP_L\\) at K = 16 and L = 81? Round to 3 decimals.",
+  "answer": 0.5,
+  "unit": "",
+  "tol": 0.01,
+  "explain": "MP_L = 0.75 K^0.25 L^-0.25 = 0.75 × (16/81)^0.25 = 0.75 × (2/3) = 0.5.",
+  "verify": {
+   "f": "cd_mp",
+   "A": 1,
+   "a": 0.25,
+   "b": 0.75,
+   "K": 16,
+   "L": 81,
+   "wrt": "L"
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-09-q007",
+  "los": [
+   "S15-09"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "\\(Q = K^{0.5}L^{0.5}\\). What is \\(MP_K\\) at K = 4 and L = 36?",
+  "answer": 1.5,
+  "unit": "",
+  "tol": 0.01,
+  "explain": "MP_K = 0.5 K^-0.5 L^0.5 = 0.5 × √36 / √4 = 0.5 × 6 / 2 = 1.5.",
+  "verify": {
+   "f": "cd_mp",
+   "A": 1,
+   "a": 0.5,
+   "b": 0.5,
+   "K": 4,
+   "L": 36,
+   "wrt": "K"
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-09-q008",
+  "los": [
+   "S15-09"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "\\(Q = 3K^{0.5}L^{0.5}\\). What is \\(MP_L\\) at K = 100 and L = 25?",
+  "answer": 3.0,
+  "unit": "",
+  "tol": 0.01,
+  "explain": "With a constant: MP_L = 3 × 0.5 × K^0.5 × L^-0.5 = 1.5 × 10 / 5 = 3. Forgetting the 3 in front gives 1.",
+  "verify": {
+   "f": "cd_mp",
+   "A": 3,
+   "a": 0.5,
+   "b": 0.5,
+   "K": 100,
+   "L": 25,
+   "wrt": "L"
+  },
+  "source": "generated",
+  "verbatim": false,
+  "trap": "Multiply by the constant in front; the sheet formula assumes there is none."
+ },
+ {
+  "id": "S15-09-q009",
+  "los": [
+   "S15-09"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "\\(Q = K^{0.5}L^{0.5}\\). What is output with K = 9 and L = 49?",
+  "answer": 21,
+  "unit": "units",
+  "tol": 0.01,
+  "explain": "Q = √9 × √49 = 3 × 7 = 21.",
+  "verify": {
+   "f": "cd_q",
+   "A": 1,
+   "a": 0.5,
+   "b": 0.5,
+   "K": 9,
+   "L": 49
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-09-q010",
+  "los": [
+   "S15-09"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "An economist estimates a factory's production as \\(Q = 5K^{0.3}L^{0.7}\\). Which statement is correct?",
+  "choices": [
+   "Labor and capital can substitute for each other, and each has diminishing marginal product",
+   "Labor's marginal product is constant at 0.7",
+   "One unit of capital always replaces exactly 0.3/0.7 units of labor",
+   "Labor and capital must be used in a fixed ratio"
+  ],
+  "answer": 0,
+  "explain": "This is Cobb-Douglas (with a constant 5): imperfect substitutes and, with exponents below 1, diminishing MP. Fixed ratio is Leontief. A constant replacement rate or constant MP is linear.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-09-q011",
+  "los": [
+   "S15-09"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "For \\(Q = K^{0.5}L^{0.5}\\) with K fixed at 16, a manager adds workers one at a time. What happens to each new worker's marginal product?",
+  "choices": [
+   "It rises with every worker",
+   "It falls with every worker",
+   "It is zero once L > K",
+   "It stays constant"
+  ],
+  "answer": 1,
+  "explain": "MP_L = 0.5 × 4 / √L = 2 / √L, which falls as L rises. Constant MP would be linear; zero beyond a ratio would be Leontief.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-09-q012",
+  "los": [
+   "S15-09"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A consultant fits \\(Q = K^{0.4}L^{0.6}\\) to a print shop. The owner asks what happens to each new hire's productivity if she keeps adding workers without buying presses. Best answer?",
+  "choices": [
+   "Each new worker adds exactly 0.6 units",
+   "Each new worker adds more, because L has the larger exponent",
+   "Each new worker adds less than the one before, because MP_L = 0.6K^0.4 / L^0.4 falls as L rises",
+   "New workers add nothing until a press is bought"
+  ],
+  "answer": 2,
+  "explain": "MP_L = 0.6K^0.4 L^-0.4 has L in the denominator, so it falls as L grows: diminishing marginal returns. A constant 0.6 would be linear. Adding nothing until a press is bought would be Leontief. The larger exponent does not make MP rise.",
+  "source": "generated",
+  "verbatim": false
+ }
+]

@@ -1,0 +1,511 @@
+
+===== PAGE 1 =====
+STRAT 402 Math Review 
+ 
+The Quantitative Skills of a Strategist 
+ 
+Strategic management is all about helping companies achieve superior performance. Good strategists 
+will make decisions informed by rigorous analysis of data. You can learn how to analyze data and make 
+good decisions by enhancing your quantitative analysis skills. The purpose of this math review is to 
+ensure that you have the necessary quantitative skills to make good strategic decisions. 
+ 
+In strategy, you use quantitative analysis to help optimize common managerial decisions. For example, a 
+business strategist may be concerned about maximizing a firm’s revenue, profit, or productivity. 
+Conversely, a manager might also be interested in minimizing cost, lead times, or defects. All of these 
+decisions reflect the notion that there is some optimal level of inputs that help to produce a desired 
+level of output.  
+ 
+The primary mathematical tool used to optimize common managerial decisions is calculus. Calculus is 
+simply the mathematical study of continuous change. In this course, you will use our knowledge of 
+calculus for two primary purposes:  
+1. Optimizing common managerial decisions 
+2. Isolating the effects of specific variables 
+ 
+By the end of this review, my hope is that you will have a solid understanding about why you use 
+calculus in business and how it can help you make good managerial decisions. 
+ 
+Introduction to Mathematical Functions 
+ 
+In order to use calculus correctly, you must first understand mathematical functions. A function is a 
+quantitative formula that defines the relationship between a set of inputs and outputs. For example, 
+imagine you were asked to draw the relationship between revenue and price. Intuitively, you should 
+know that if you charge nothing (i.e. offer your product or service for free) your revenue will be zero. 
+You should also know that if you charge an obscene amount of money demand may also be zero thus 
+leading to zero revenue. What that means is that the conceptual relationship between revenue and 
+price should look like an upside down parabola that intersects the x-axis at 0 (where Price = 0) and some 
+larger value (where an obscene price leads to zero demand). This parabola should also have a peak or 
+maximum value. The price that produces that maximum amount of revenue is known as the revenue-
+maximizing price. 
+ 
+Take for instance the function 𝑅𝑅(𝑃𝑃) = 100𝑃𝑃−2𝑃𝑃2 where R is revenue and P is price. If you graph this 
+function with R on the y-axis and P on the x-axis you should see something similar to Figure 1 below. As 
+you can observe, this function intersects the x-axis at P = 0 and P = 50. Visually it appears that revenue is 
+maximized at a P = 25.  Although the revenue-maximizing price in this figure is readily observable, that 
+may not always be the case, particularly with a more complex function that is harder to graph.  
+
+===== PAGE 2 =====
+ 
+ 
+ 
+Here is another example of function 𝐴𝐴𝐴𝐴𝐴𝐴(𝑄𝑄) = 2𝑄𝑄2 −100𝑄𝑄+ 1,400 where ATC is the average total 
+cost per unit and Q is the quantity produced. If you were to graph this function, you would see 
+something similar to Figure 2. As you can observe, there is a cost minimizing level of production that lies 
+somewhere between 20 and 30 units. 
+ 
+ 
+ 
+ 
+Whether you’re focused on revenue maximization or cost minimization, the point I want to emphasize is 
+that in a few simple steps, you can use calculus to optimize the managerial decision you care about, no 
+matter how complex the underlying mathematical function. 
+y = -2x2 + 100x + 2E-12
+0
+500
+1000
+1500
+0
+10
+20
+30
+40
+50
+Total Revenue ($)
+Price ($)
+Figure 1. Revenue as a Function of 
+Price
+y = 2x2 - 100x + 1400
+0
+200
+400
+600
+800
+1000
+1200
+1400
+0
+10
+20
+30
+40
+50
+Average Total Cost ($)
+Quantity (Q)
+Figure 2. Cost as a Function of 
+Quantity
+
+===== PAGE 3 =====
+ 
+Mathematical Functions Continued: Lines, Curves, Slopes 
+  
+To deepen your understanding of functions, you must also know and remember the concept of a slope. 
+Conceptually, the slope of a function is defined as the rise over the run or the change in y over the 
+change in x ቀ
+∆𝑦𝑦
+∆𝑥𝑥ቁ. To review the concept of a slope, graph and analyze the following three functions (see 
+Figures 2a-c below): 
+ 
+1. 𝑦𝑦= 3 
+2. 𝑦𝑦= 2𝑥𝑥+ 3 
+3. 𝑦𝑦= 𝑥𝑥2 + 3 
+ 
+If I were to ask what the slope was for the function in Figure 3a, what would you say? A quick visual 
+inspection would suggest that the slope of this function is zero since there is no change in y no matter 
+where you are the horizontal line. It may also help to remember the generic function of line 𝑦𝑦= 𝑚𝑚𝑚𝑚+ 𝑏𝑏 
+where y is the dependent variable, x is the independent variable, m is the slope, and b is the intercept. If   
+the slope of this function is indeed zero, then the equation for this line could be reinterpreted as 𝑦𝑦=
+0𝑥𝑥+ 3 which would simplify again to 𝑦𝑦= 3. 
+ 
+What about the function in Figure 3b? Because it is a straight line, you can choose any two points on the 
+line and then compute the rise over the run ቀ
+∆𝑦𝑦
+∆𝑥𝑥ቁ. For example, you could choose to analyze the slope of 
+the line between the red point at (1,5) and the green point at (0,3). In this case, the rise 
+(∆𝑦𝑦= 5 −3 = 2) would be 2 and the run (∆𝑥𝑥= 1 −0 = 1) would be 1, giving you a slope of 2 
+ቀ
+∆𝑦𝑦
+∆𝑥𝑥=
+2
+1 = 2ቁ. Alternatively, you could use the generic function of a line 𝑦𝑦= 𝑚𝑚𝑚𝑚+ 𝑏𝑏 and understand 
+that the coefficient in front of the x variable is the slope for the function 𝑦𝑦= 2𝑥𝑥+ 3, thus the slope is 
+equal to 2 (𝑚𝑚= 2).  
+ 
+Finally, let’s look at the function 𝑦𝑦= 𝑥𝑥2 + 3 in Figure 3c. If I were to ask you, what is the slope of this 
+function, what would you say? Intuitively, you might say “it depends.” Why? Because this function is not 
+a straight line but rather a curve and the slope of the line is changing depending on where you are on 
+the curve (i.e. the value of x).  
+ 
+From a visual perspective, you can see that the slope of the function is negative when x is less than zero 
+and positive when x is greater than zero. But what if I were to ask, what is the slope at x = 2? How could 
+you easily determine the slope? Fortunately, you have a mathematical tool that will tell you what the 
+slope of function is at any given value of x. That tool is the derivative. 
+
+===== PAGE 4 =====
+ 
+ 
+ 
+ 
+Table 1. The Relationship Between the Slope and the Derivative 
+  
+Functions 
+  
+y = 3 
+y = 2x + 3 
+y = x2 + 3 
+Slope (m) 
+m = 0 
+m = 2 
+Depends on x 
+Derivative (dy/dx) 
+ dy/dx = 0 
+dy/dx = 2 
+dy/dx = 2x 
+ 
+ 
+ 
+ 
+ 
+ 
+-10
+-8
+-6
+-4
+-2
+0
+2
+4
+6
+8
+10
+-4
+-2
+0
+2
+4
+Figure 3a: y=3
+-10
+-8
+-6
+-4
+-2
+0
+2
+4
+6
+8
+10
+-4
+-2
+0
+2
+4
+Figure 3b: y=2x+3
+0
+2
+4
+6
+8
+10
+-4
+-2
+0
+2
+4
+Figure 3c: y=x2+3
+
+===== PAGE 5 =====
+The Derivative: A Function that Evaluates the Rate of Change 
+ 
+The derivative is a function that evaluates the instantaneous rate of change of some original function i.e. 
+it tells you the slope ቀ
+∆𝑦𝑦
+∆𝑥𝑥ቁ at any given value of x. It is derived from the original function, hence the name 
+derivative.  
+ 
+The notation for a derivative is 
+𝑑𝑑𝑑𝑑
+𝑑𝑑𝑑𝑑. When the original function is straight line (see Figures 2a-b), the slope 
+and the derivative are equal   
+∆𝑦𝑦
+∆𝑥𝑥=
+𝑑𝑑𝑑𝑑
+𝑑𝑑𝑑𝑑 since the slope of the function is constant no matter where you 
+are on the line. When the original function is curved, the derivative will tell you the slope of a line that is 
+tangent to the original function at any particular value of x. The slope of the tangent line is the 
+instantaneous rate of change at that point and will vary as x changes so long as the original function is 
+not a straight line. 
+ 
+Finding the Derivative for a Polynomial Function: The Power Rule 
+ 
+Derivatives can easily be calculated using a set of rules. Which rule you use depends on the shape or 
+initial form of the original function. In this class, you will only be asked to calculate derivatives for 
+polynomial functions, i.e., functions that involve powers of x like the quadratic (x2) or cubic (x3) 
+functions.  
+ 
+The primary rule used to evaluate the derivative of polynomial function is the power rule. The power 
+rule states that for any polynomial function,  
+ 
+𝑦𝑦= 𝑥𝑥𝑎𝑎 
+ 
+the derivative of the function y with respect to variable x will be 
+ 
+𝑑𝑑𝑑𝑑
+𝑑𝑑𝑑𝑑= 𝑎𝑎𝑥𝑥𝑎𝑎−1 
+ 
+The Power Rule: An Application 
+ 
+Let’s now apply this power rule to help evaluate the derivative of the function 𝑦𝑦= 𝑥𝑥2 + 3 at various 
+points of x. To find the derivative of this function, you bring the exponent 2 down in front and then 
+subtract 1 from original exponent (2 – 1 = 1). After simplifying the expression, you should see that the 
+derivative is equal to 2x. You can ignore the 3 in the original function because there is no x term 
+associated with it. 
+ 
+𝑑𝑑𝑑𝑑
+𝑑𝑑𝑑𝑑= 2𝑥𝑥2−1 = 2𝑥𝑥1 = 2𝑥𝑥 
+ 
+
+===== PAGE 6 =====
+Again, this derivative is a function that is derived from the original function 𝑦𝑦= 𝑥𝑥2 + 3. It will tell you 
+what the slope of the original function is at any given value of x. Notice that you can use the derivative 
+to calculate the rate of change (i.e. the slope) at any given value of x (see Table 2 below).  
+ 
+Table 2. The derivative of function y = x2 +3 
+  
+x 
+y = x2 + 3 
+dy/dx = 2x 
+0 
+3 
+0 
+1 
+4 
+2 
+2 
+7 
+4 
+3 
+12 
+? 
+ 
+You can also see this pattern visually in Figure 3 below. When x = 0, the line tangent to the original 
+function is the line y = 0 with a slope or derivative equal to zero. When x =1, the slope of the tangent line 
+is 2. When x =2, the slope of the tangent line is 4 and so on and so forth.  
+ 
+Although they are not shown on the graph, you use the derivative to evaluate the slope of the original 
+function at any given value of x. For example, what would the slope of the original function be at x = 3? 
+To find the answer, you would simply plug 3 into the derivative function 
+𝑑𝑑𝑑𝑑
+𝑑𝑑𝑑𝑑= 2𝑥𝑥 = 2(3) = 6.  
+ 
+ 
+ 
+In summary the derivative is a very powerful tool that makes it easy to determine the slope of any 
+function at any given value of x.1 To see how this knowledge can help you make good strategic 
+decisions, let’s turn back to original example involving the relationship between revenue and price. 
+ 
+1 There are other mathematical rules like the exponential rule, product rule, quotient rule, etc. that allow you to 
+easily calculate the derivative of other functions forms, but in this class we only focus on calculating the derivative 
+of polynomial functions using the power rule.  
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+-4
+-3
+-2
+-1
+0
+1
+2
+3
+4
+Figure 3: y = x2 + 3
+m=0
+m=2
+m=4
+
+===== PAGE 7 =====
+An Application of Calculus in Business: The Revenue-Maximizing Price 
+ 
+Above I introduced the function 𝑅𝑅(𝑃𝑃) = 100𝑃𝑃−2𝑃𝑃2 where R is revenue and P is price. If I were to ask 
+you to determine the revenue maximizing price, you could do it in one of three ways: 
+ 
+1. You could plug various prices into the function to see if revenue increases or decreases, 
+ultimately zeroing on the revenue maximizing price using trial-and-error. While simple, this 
+process is likely to be inefficient, particularly for complex polynomial functions with multiple 
+terms. 
+2. You could graph the function and visually estimate the revenue-maximizing price. Again, this 
+could readily be accomplished with simple functions, but could be extremely hard to do with 
+more complex functions. 
+3. You could use calculus to solve for the revenue-maximizing price. This three-step process relies 
+upon the notion that you know something unique about the maximal point of a function i.e. that 
+the instantaneous rate of change or the slope of the function at any maximum point is equal to 
+zero. As you will see, this process is likely to be the most efficient method for determining the 
+revenue-maximizing price because you can solve for the optimal price in three simple steps. 
+ 
+The Three-Step Process to Solving Any Optimization Problem 
+ 
+1. Find the derivative of the original function 
+2. Set the derivative equal to 0 
+3. Solve the function for x. 
+ 
+Step 1: Find the derivative of the original function 
+ 
+If 𝑅𝑅(𝑃𝑃) = 100𝑃𝑃−2𝑃𝑃2 
+ 
+then using the power rule, you can calculate the derivative to be  
+ 
+𝑑𝑑𝑑𝑑
+𝑑𝑑𝑑𝑑= (1)(100)𝑃𝑃1−1 −(2)(2)𝑃𝑃2−1 = 100 −4𝑃𝑃 
+ 
+Step 2: Set the derivative equal to 0 
+ 
+In the second step, you set the derivative equal to zero because you know that the slope of the 
+original revenue function is zero at its maximum value.  
+ 
+𝑑𝑑𝑑𝑑
+𝑑𝑑𝑑𝑑= 100 −4𝑃𝑃= 0 
+ 
+ 
+
+===== PAGE 8 =====
+Step 3: Solve the function for x 
+ 
+Solving the derivative function for our x-variable, in this case price, should give you the price that 
+maximizes revenue.  
+ 
+100 −4𝑃𝑃= 0        →        4𝑃𝑃= 100        →        𝑃𝑃∗= 25 
+ 
+An Application of Calculus in Business: The Cost-Minimizing Quantity 
+ 
+Earlier I introduced the function 𝐴𝐴𝐴𝐴𝐴𝐴(𝑄𝑄) = 2𝑄𝑄2 −100𝑄𝑄+ 1,400 where ATC is the average total cost 
+per unit and Q is the quantity produced. If I were to ask you to determine the cost-minimizing quantity 
+of production, you could do it in one of three ways: 
+ 
+1. You could plug various quantities into the function to see if the average total cost increases or 
+decreases, ultimately zeroing on the cost-minimizing level of quantity using trial-and-error. 
+While simple, this process is likely to be inefficient, particularly for complex polynomial 
+functions with multiple terms. 
+2. You could graph the function and visually estimate the cost-minimizing quantity. Again, this 
+could readily be accomplished with simple functions, but could be extremely hard to do with 
+more complex functions. 
+3. You could use calculus to solve for the cost-minimizing quantity. This three-step process relies 
+upon the notion that you know something unique about the maximal point of a function i.e. that 
+the instantaneous rate of change or the slope of the function at any maximum point is equal to 
+zero. As you will see, this process is likely to be the most efficient method for determining the 
+cost-minimizing quantity because you can solve for the optimal quantity in three simple steps. 
+ 
+The Three-Step Process to Solving Any Optimization Problem 
+ 
+1. Find the derivative of the original cost function 
+2. Set the derivative equal to 0 
+3. Solve the function for Q. 
+ 
+Step 1: Find the derivative of the original function 
+ 
+If 𝐴𝐴𝐴𝐴𝐴𝐴(𝑄𝑄) = 2𝑄𝑄2 −100𝑄𝑄+ 1,400  
+ 
+then using the power rule, you can calculate the derivative to be  
+ 
+𝑑𝑑𝑑𝑑
+𝑑𝑑𝑑𝑑= (2)(2)𝑄𝑄2−1 −(1)(100)𝑄𝑄1−1 = 4𝑄𝑄−100 
+ 
+ 
+
+===== PAGE 9 =====
+Step 2: Set the derivative equal to 0 
+ 
+In the second step, you set the derivative equal to zero because you know that the slope of the 
+original function is zero at its minimum value.  
+ 
+𝑑𝑑𝑑𝑑
+𝑑𝑑𝑑𝑑= 100 −4𝑄𝑄= 0 
+ 
+Step 3: Solve the function for Q 
+ 
+Solving the derivative function for our x-variable, in this case quantity, should give you the quantity 
+that minimizes cost. 
+ 
+100 −4𝑄𝑄= 0        →        4𝑄𝑄= 100        →        𝑄𝑄∗= 25 
+ 
+Isolating Effects of Individual Variables 
+ 
+Sometimes the output or dependent variable that you care about is affected by more than one input i.e. 
+the outcome is a multivariate function of several independent variables. For example, suppose you’re a 
+product manager at Apple and you’re trying to forecast how many IPhones you might sell next quarter. 
+What other factors besides the price might influence how many IPhones you sell?  
+ 
+Certainly, the price of substitute goods (i.e. Android phones) could have an impact. What about the 
+overall health of the economy? Would advertising make a difference? Change in consumer tastes? The 
+list could go on and on. The bottom line is that many outcomes managers care about, such as demand, 
+are impacted by multiple independent variables. Such situations, while very common, make managing 
+an outcome like demand more complex. How for example, would demand change if you raised the 
+price, knowing that demand can also be affected by many other factors including the price of substitute 
+goods, advertising, income of the target market, etc. To solve this conundrum, you would use calculus! 
+ 
+Let’s continue on with IPhone example. Suppose that the forecasted demand for the IPhone next 
+quarter can be represented by the following function: 
+ 
+𝑄𝑄𝐼𝐼𝐼𝐼= 1,000 −4𝑃𝑃𝐼𝐼𝐼𝐼+ 2𝑃𝑃𝑆𝑆𝑆𝑆+ 100𝐴𝐴𝐼𝐼𝐼𝐼+ 500𝐼𝐼2 
+ 
+where QIP is quantity demanded for the IPhone, PIP is the price of the IPhone, PSG is the price of the 
+Samsung Galaxy, AIP is the amount of money that Apple spends on advertising, and I is the average 
+income of the target market. If Apple were to increase the price of the IPhone by just $1 and everything 
+was held constant (i.e. nothing else changed), how would the forecasted demand change? 
+ 
+ 
+Solving for Individual Effects Using Partial Derivatives 
+
+===== PAGE 10 =====
+ 
+To answer this question, you must understand the concept of a partial derivative. A partial derivative is 
+simply the derivative of a function with respect to one individual independent variable while the other 
+variables are held constant. This concept thus applies only to multivariate functions with more than one 
+independent variable. You should find the partial derivative of a function when you see the following 
+notation 
+𝜕𝜕𝜕𝜕
+𝜕𝜕𝜕𝜕. 
+ 
+Returning to the example above, if you wanted to know how increasing the price of the IPhone would 
+impact sales, you would simply take the partial derivative of the function QIP with respect to PIP ቀ
+𝜕𝜕𝜕𝜕𝐼𝐼𝐼𝐼
+𝜕𝜕𝑃𝑃𝐼𝐼𝐼𝐼ቁ. 
+You would only pay attention to terms with the variable PIP and ignore all other variables since they are 
+assumed to be constant (i.e. not changing). Ignoring all other variable and terms would simplify the 
+function to 𝑄𝑄𝐼𝐼𝐼𝐼= −4𝑃𝑃𝐼𝐼𝐼𝐼. Taking the derivative of this simplified function would yield the following: 
+ 
+𝜕𝜕𝜕𝜕𝐼𝐼𝐼𝐼
+𝜕𝜕𝑃𝑃𝐼𝐼𝐼𝐼= −4  
+ 
+Thus the partial derivative of the function QIP with respect to PIP would be -4. The interpretation of this 
+value would mean that every time Apple raises the price of the IPhone by $1, the quantity demanded 
+would be expected to decrease by 4 units.  
+ 
+Now suppose the Apple wanted to keep the price of the IPhone the same but Samsung recently 
+announced that they were going to increase the price of the Galaxy phone by $10. Intuitively, we should 
+expected that a price increase for a substitute good would increase demand for the focal good, but by 
+how much? Again we can address this question using the partial derivative. 
+ 
+Assuming everything else is held constant, we know that a $1 increase in the price of the Samsung 
+Galaxy phone should lead to a 2 unit increase in demand since the partial derivative of the function QIP 
+with respect to PSG is 2 ቀ
+𝜕𝜕𝜕𝜕𝐼𝐼𝐼𝐼
+𝜕𝜕𝑃𝑃𝑆𝑆𝑆𝑆= 2ቁ. Thus a $10 increase in the price of the Galaxy phone (a factor of 10) 
+should lead to a 20 unit increase (2 x 10) in quantity demanded. 
+ 
+Concluding Comments 
+ 
+Calculus can be a valuable tool in business. My hope is that you now know and feel comfortable using 
+calculus to (1) optimize common managerial decisions and (2) isolate the effects of individual variable in 
+multivariate functions. To provide additional opportunities for learning, I’ve included several optional 
+problems with solutions so that you can check your answers. 
+ 
+ 
+ 
+ 

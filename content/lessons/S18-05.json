@@ -1,0 +1,42 @@
+{
+ "id": "S18-05",
+ "title": "Limit pricing",
+ "calc": false,
+ "plain": "A monopolist would normally charge the monopoly price \\(P^M\\). But a high price and fat profits invite entry. **Limit pricing** is when the incumbent deliberately keeps its price **below the monopoly level to prevent entry** (slides p. 41).\n\n**How it works (Figure M1-2, slides p. 43).** The incumbent produces \\(Q^L\\), more than the monopoly quantity \\(Q^M\\), so the price falls to \\(P^L\\). An entrant can only sell to the demand the incumbent leaves over, its **residual demand** (market demand minus \\(Q^L\\)). If that residual demand lies below the entrant's average cost curve everywhere, there is no output at which the entrant can make a profit, so it stays out.\n\n**Limit versus predatory pricing (slides p. 46):**\n\n|  | Limit pricing | Predatory pricing |\n|---|---|---|\n| Target | Potential entrants not yet in the market | A rival already in the market |\n| Timing | Before entry, to keep entrants out | After entry, to drive the rival out |\n| Price | Below the monopoly price, usually still above the incumbent's cost | Below cost (usual legal test: below average variable cost) |\n| Profit | Lower than monopoly profit, but still positive | Losses now, recouped later |\n| Logic | Low price signals a low-cost or tough incumbent, so entry looks unprofitable | Push the rival out, then raise prices to recoup the losses |\n| Legality (US) | Generally legal: it is just a low price | Can violate Sherman Act §2 (Brooke Group, 1993: below cost plus a dangerous probability of recoupment) |\n\n**Examples.**\n- Airlines and Southwest (slides p. 42, a 2020 Journal of Political Economy model of dynamic limit pricing in airlines): incumbents cut fares on routes Southwest threatens to enter.\n- Comprehension Quiz 8 Q5: a drug company lowers prices before its patent expires to signal to generic makers that profits would be minimal. That is limit pricing, not predatory pricing, because the generics have not entered yet.\n\n**The catch (textbook).** A fully informed entrant cares about the price **after** it enters. A low price today only deters entry if it is tied to the entrant's future profits: a commitment (such as large capacity the incumbent will use anyway), learning-curve cost advantages, signaling low costs when the entrant cannot see them, or a reputation for fighting entry. The S18 overview says to focus on the concept, not the textbook's present-value math.",
+ "why": "Reading Quiz Q4 and Comprehension Quiz 8 Q5 test limit pricing directly, and the distinction from predatory pricing is a classic exam question.",
+ "definition": "Limit pricing: a strategy where an incumbent maintains a price below the monopoly level in order to prevent entry.",
+ "formulas": [
+  {
+   "name": "Entrant's residual demand",
+   "tex": "D^M - Q^L",
+   "onSheet": false,
+   "note": "Entry is deterred if residual demand is below the entrant's AC at every output."
+  }
+ ],
+ "derivation": "",
+ "math": [],
+ "worked": [
+  {
+   "title": "Does the limit price deter entry?",
+   "problem": "An incumbent's monopoly price is $50. Its own average cost is $20. A potential entrant's lowest possible average cost is $32. The incumbent sets a price of $30. Does this deter entry? Is it limit or predatory pricing?",
+   "steps": [
+    "The entrant could not cover its $32 average cost at $30, so entry is unprofitable.",
+    "$30 is below the $50 monopoly price but above the incumbent's $20 cost, so the incumbent still earns $10 per unit.",
+    "The entrant has not entered yet."
+   ],
+   "answer": "Entry is deterred. This is limit pricing: below monopoly price, above own cost, aimed at a potential entrant."
+  }
+ ],
+ "traps": [
+  "Limit pricing targets firms NOT YET in the market. Predatory pricing targets a rival ALREADY in the market.",
+  "A limit price is usually still ABOVE the incumbent's cost, so it still earns a profit. Predatory pricing is BELOW cost.",
+  "Limit pricing is generally legal. Predatory pricing can violate the Sherman Act.",
+  "Penetration pricing is a low price by an ENTRANT or new product to build a customer base, not to block others."
+ ],
+ "sources": {
+  "slides": "S18 Barriers to Entry pp. 41 to 43, 46",
+  "read": "Module Group A Module 1",
+  "exercise": "",
+  "quiz": "Reading Quiz Q4; Comprehension Quiz 8 Q5"
+ }
+}

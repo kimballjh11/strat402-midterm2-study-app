@@ -1,0 +1,98 @@
+{
+ "id": "S20-05",
+ "title": "Extensive-form representation",
+ "calc": false,
+ "plain": "The **extensive form** is a **game tree**. It shows four things (slides pp. 43 to 48), all of which are elements of an extensive-form game (Reading Quiz Q4):\n1. **Players**: who moves at each decision node (circles labeled P and O).\n2. **Strategies**: the branches out of each node (Invade or Don't Invade; Sanction or Don't Sanction).\n3. **Payoffs**: at the end of each path.\n4. **Sequence**: the order of moves, from left to right.\n\n**The slides' tree (Putin and Obama), payoffs (Putin, Obama):**\n- Putin: **Invade** → Obama: **Sanction** → (2, -2)\n- Putin: **Invade** → Obama: **Don't Sanction** → (10, -5)\n- Putin: **Don't Invade** → (-5, 5)\n\n**Reading payoffs.** The first number goes with the first mover (Putin), the second with Obama. If Putin invades and Obama does not sanction, Putin gets 10 and Obama gets -5.\n\n**Trump, tariffs and trade** (pp. 56 to 69), payoffs (US, China):\n- US: **No threat** → (2, 6)\n- US: **Threat** → China: **Concede** → (6, 2)\n- US: **Threat** → China: **Resist** → US: **Impose** → (-2, -2), or **Back down** → (4, 4)\n\nThe slides built these payoffs by ranking each side's preferences (US: concede 1st, back down 2nd, no threat 3rd, impose 4th; China: no threat 1st, back down 2nd, concede 3rd, impose last) and turning the ranks into numbers.",
+ "why": "Reading Quiz Q4 and practice exam Q27 test the elements of a game tree; Comprehension Quiz 9 Q8 asks you to sketch one.",
+ "definition": "The extensive-form representation of a game summarizes the players, the information available to them at each stage, the strategies available to them, the sequence of moves, and the payoffs resulting from alternative strategies.",
+ "formulas": [],
+ "derivation": "",
+ "math": [
+  {
+   "title": "Reading a game tree",
+   "body": "Start at the first node (the first mover). Each branch is an action. The next node shows who moves next. Payoffs at the ends are listed in the order stated in the problem, usually the first mover first. To solve, start at the LAST decisions and work back toward the start."
+  }
+ ],
+ "worked": [
+  {
+   "title": "Sketch a tree from a story (Comprehension Quiz 9 Q9)",
+   "problem": "Firm A decides whether to introduce a new product. Firm B then decides whether to clone it. Introduce and clone: (A 2, B 15). Introduce, no clone: (8, 1). Don't introduce: (0, 0). Draw the tree.",
+   "steps": [
+    "First node: A chooses Introduce or Don't introduce.",
+    "Don't introduce ends the game at (0, 0).",
+    "After Introduce, B's node: Clone → (2, 15) or Don't clone → (8, 1)."
+   ],
+   "answer": "Two decision nodes (A, then B) and three end points. Solving it is S20-06."
+  }
+ ],
+ "graph": {
+  "component": "tree",
+  "params": {
+   "players": [
+    "US",
+    "China"
+   ],
+   "tree": {
+    "p": 0,
+    "children": [
+     {
+      "a": "Threat",
+      "n": {
+       "p": 1,
+       "children": [
+        {
+         "a": "Resist",
+         "n": {
+          "p": 0,
+          "children": [
+           {
+            "a": "Impose",
+            "pay": [
+             -2,
+             -2
+            ]
+           },
+           {
+            "a": "Back down",
+            "pay": [
+             4,
+             4
+            ]
+           }
+          ]
+         }
+        },
+        {
+         "a": "Concede",
+         "pay": [
+          6,
+          2
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "a": "No threat",
+      "pay": [
+       2,
+       6
+      ]
+     }
+    ]
+   }
+  },
+  "caption": "The trade game from the slides. Payoffs: (US, China). Edit a payoff to see how the solution changes."
+ },
+ "traps": [
+  "The extensive form includes players, strategies, payoffs AND sequence (Reading Quiz Q4: all are elements).",
+  "Follow the branch order: a payoff at the end of a path depends on every move along it.",
+  "Check which player's payoff is listed first."
+ ],
+ "sources": {
+  "slides": "S20 Game Theory II pp. 43 to 48, 56 to 61",
+  "read": "Ch. 10 pp. 328 to 330 (Figure 10-1)",
+  "exercise": "Game Theory Exercise Parts 2 and 3",
+  "quiz": "Reading Quiz Q4; Comprehension Quiz 9 Q8, Q9"
+ }
+}

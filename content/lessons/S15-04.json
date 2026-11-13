@@ -1,0 +1,87 @@
+{
+ "id": "S15-04",
+ "title": "Marginal product",
+ "calc": true,
+ "plain": "**Marginal product** is the extra output from one more unit of an input, holding the other inputs fixed. \"Marginal\" in economics always means \"the next one\" or \"the last one\".\n\nFrom a table, subtract: the marginal product of the 4th J Dawgs worker is \\(Q(4) - Q(3) = 46 - 33 = 13\\) hot dogs.\n\nFrom a formula, take the derivative: \\(MP_L = \\frac{\\partial Q}{\\partial L}\\), the slope of the total product curve. The equation sheet gives the ready-made results for the two common forms:\n- Linear \\(Q = aK + bL\\): \\(MP_K = a\\), \\(MP_L = b\\). Constant.\n- Cobb-Douglas \\(Q = K^aL^b\\): \\(MP_K = aK^{a-1}L^b\\), \\(MP_L = bK^aL^{b-1}\\).\n\n**MP and TP.** MP is the slope of TP. When MP is positive, TP rises. When MP is zero, TP is at its peak. When MP is negative, TP falls.",
+ "why": "Marginal product drives every decision in this unit. Hiring stops where the value of the last worker's marginal product equals the wage (S15-10). The cost minimizing mix compares marginal product per dollar (Session 16).",
+ "definition": "Marginal product is the change in total output attributable to the last unit of an input: \\(MP_L = \\Delta Q / \\Delta L\\) or \\(\\partial Q / \\partial L\\).",
+ "formulas": [
+  {
+   "name": "Marginal product (general)",
+   "tex": "MP_I = \\frac{\\Delta Q}{\\Delta I} = \\frac{\\partial Q}{\\partial I}",
+   "onSheet": true
+  },
+  {
+   "name": "Linear production function",
+   "tex": "Q = aK + bL \\;\\Rightarrow\\; MP_K = a,\\; MP_L = b",
+   "onSheet": true
+  },
+  {
+   "name": "Cobb-Douglas",
+   "tex": "Q = K^aL^b \\;\\Rightarrow\\; MP_K = aK^{a-1}L^b,\\; MP_L = bK^aL^{b-1}",
+   "onSheet": true
+  }
+ ],
+ "derivation": "For a cubic like J Dawgs, \\(Q = -0.5L^3 + 4L^2 + 3.5L\\), the calculus version is \\(MP_L = -1.5L^2 + 8L + 3.5\\). The professor's J Dawgs solution uses the table difference instead (Q(L) minus Q(L-1)). When a question gives a table, subtract. When it gives a Cobb-Douglas or linear function, use the sheet formula. The two methods give slightly different numbers for a curved function because the difference measures the whole step from L-1 to L.",
+ "math": [
+  {
+   "title": "Marginal product from a table",
+   "body": "Subtract the row above from the current row. The MP of the 4th worker is Q(4) minus Q(3). There is no MP for the first row (L = 0) because nothing came before it. Write MP on the row of the worker who caused the change."
+  },
+  {
+   "title": "The power rule for derivatives",
+   "body": "A derivative is the slope of a function: how much the output changes when the input rises a tiny bit. For a power of \\(x\\), bring the exponent down in front and subtract one from it: $$\\frac{d}{dx}x^n = n x^{n-1}$$ A constant multiplier stays: \\(\\frac{d}{dx} 5x^3 = 15x^2\\). A plain constant has slope 0. Example: \\(Q = 4L^2 + 3.5L\\) gives \\(\\frac{dQ}{dL} = 8L + 3.5\\)."
+  },
+  {
+   "title": "Partial derivatives: hold the other input fixed",
+   "body": "With two inputs, \\(\\frac{\\partial Q}{\\partial L}\\) means: take the derivative with respect to \\(L\\) and treat \\(K\\) as an ordinary number. Example: \\(Q = K^{0.5}L^{0.5}\\). Treat \\(K^{0.5}\\) like the 5 in \\(5L^{0.5}\\): $$\\frac{\\partial Q}{\\partial L} = K^{0.5}\\cdot 0.5L^{-0.5} = \\frac{0.5K^{0.5}}{L^{0.5}}$$"
+  }
+ ],
+ "worked": [
+  {
+   "title": "From a table (Comprehension Quiz 7 setup)",
+   "problem": "Labor 0 to 6 produces output 0, 50, 150, 300, 400, 450, 475. What is the MP of labor at L = 4?",
+   "steps": [
+    "MP at L = 4 is the change from L = 3 to L = 4.",
+    "\\(MP_L = 400 - 300 = 100\\)",
+    "400 is total product, not marginal product."
+   ],
+   "answer": "100 units."
+  },
+  {
+   "title": "From a Cobb-Douglas function (S15 slides p. 44)",
+   "problem": "\\(Q = K^{0.25}L^{0.75}\\). Find \\(MP_L\\), then evaluate at \\(K = 16\\), \\(L = 81\\).",
+   "steps": [
+    "Sheet formula: \\(MP_L = bK^aL^{b-1} = 0.75K^{0.25}L^{-0.25}\\).",
+    "Rewrite the negative exponent: \\(MP_L = 0.75\\left(\\frac{K}{L}\\right)^{0.25}\\).",
+    "\\(16^{0.25} = 2\\) and \\(81^{0.25} = 3\\), so \\(MP_L = 0.75 \\times \\frac{2}{3} = 0.5\\)."
+   ],
+   "answer": "MP_L = 0.5 units of output per extra unit of labor."
+  }
+ ],
+ "graph": {
+  "component": "production",
+  "params": {
+   "form": "cubic",
+   "a": 3.5,
+   "b": 4,
+   "c": 0.5,
+   "P": 4,
+   "w": 8
+  },
+  "caption": "MP is the slope of the top curve. Where TP is steepest, MP is highest. Where TP is flat at its peak, MP is zero. The readout L* uses calculus on the smooth curve, so it says 5.51; the professor's table answer is 6 whole workers."
+ },
+ "traps": [
+  "MP is the CHANGE in output, not the output itself. Quiz 7 lists 400 (total product) as a wrong choice.",
+  "The MP of the 4th worker uses rows 3 and 4, not rows 4 and 5.",
+  "When taking \\(\\partial Q/\\partial L\\) treat K as a constant. Do not differentiate K.",
+  "In Cobb-Douglas, a is the exponent on K and b is on L. MP_L uses b, not a.",
+  "Diminishing marginal product does not mean negative marginal product. Output still rises, just by less."
+ ],
+ "sources": {
+  "slides": "S15 Production I, pp. 21, 26 to 29, 43, 44",
+  "read": "Ch. 5 pp. 140 to 142, 146 to 148",
+  "exercise": "J Dawgs",
+  "quiz": "Reading Quiz Q2; Comprehension Quiz 7 Q1"
+ }
+}

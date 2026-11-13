@@ -1,0 +1,348 @@
+[
+ {
+  "id": "S21-case1",
+  "title": "One market, three models (textbook comparison)",
+  "los": [
+   "S21-02",
+   "S21-03",
+   "S21-06"
+  ],
+  "stem": "From the textbook's model comparison. Two firms face inverse demand P = 1,000 - (Q_1 + Q_2). Each has cost C_i = 4Q_i (marginal cost $4, no fixed cost).",
+  "parts": [
+   {
+    "los": [
+     "S21-02",
+     "S21-04"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "If both choose output at the same time, what is each firm's Cournot output?",
+    "answer": 332.0,
+    "unit": "",
+    "tol": 0.01,
+    "explain": "Reaction: Q_1 = 498 - 0.5Q_2. Identical firms: (1,000 - 4)/3 = 332.",
+    "verify": {
+     "f": "cournot",
+     "a": 1000,
+     "b": 1,
+     "c1": 4,
+     "c2": 4,
+     "who": "q1"
+    },
+    "id": "S21-case1-p1",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S21-02"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "What is each firm's Cournot profit?",
+    "answer": 110224.0,
+    "unit": "$",
+    "tol": 0.01,
+    "explain": "P = 1,000 - 664 = $336; (336 - 4) × 332 = $110,224.",
+    "verify": {
+     "f": "cournot",
+     "a": 1000,
+     "b": 1,
+     "c1": 4,
+     "c2": 4,
+     "who": "pi1"
+    },
+    "id": "S21-case1-p2",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S21-03"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "If firm 1 commits to its output first, how much does it produce?",
+    "answer": 498.0,
+    "unit": "",
+    "tol": 0.01,
+    "explain": "(1,000 + 4 - 8)/2 = 498.",
+    "verify": {
+     "f": "stack",
+     "a": 1000,
+     "b": 1,
+     "c1": 4,
+     "c2": 4,
+     "who": "q1"
+    },
+    "id": "S21-case1-p3",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S21-03"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "What price results in the Stackelberg case?",
+    "answer": 253.0,
+    "unit": "$",
+    "tol": 0.01,
+    "explain": "Follower 498 - 249 = 249; Q = 747; P = $253.",
+    "verify": {
+     "f": "stack",
+     "a": 1000,
+     "b": 1,
+     "c1": 4,
+     "c2": 4,
+     "who": "P"
+    },
+    "id": "S21-case1-p4",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S21-06"
+    ],
+    "type": "mc",
+    "kind": "calc",
+    "stem": "If the firms could legally collude, how would each firm's profit compare with Cournot?",
+    "choices": [
+     "Zero",
+     "$110,224 instead of $124,002",
+     "$124,002 instead of $110,224",
+     "The same"
+    ],
+    "answer": 2,
+    "explain": "Collusion: Q = 498, P = $502, 249 each, profit 498 × 249 = $124,002.",
+    "id": "S21-case1-p5",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   }
+  ]
+ },
+ {
+  "id": "S21-case2",
+  "title": "A two-member oil cartel",
+  "los": [
+   "S21-02",
+   "S21-04",
+   "S21-06"
+  ],
+  "stem": "Two oil producers face inverse demand P = 120 - 2(Q_1 + Q_2) (millions of barrels, $ per barrel). Each has marginal cost $20. They meet to set production quotas.",
+  "parts": [
+   {
+    "los": [
+     "S21-04"
+    ],
+    "type": "mc",
+    "kind": "calc",
+    "stem": "What is producer 1's reaction function?",
+    "choices": [
+     "Q_1 = 30 - 0.5Q_2",
+     "Q_1 = 25 + 0.5Q_2",
+     "Q_1 = 50 - Q_2",
+     "Q_1 = 25 - 0.5Q_2"
+    ],
+    "answer": 3,
+    "explain": "MR_1 = 120 - 2Q_2 - 4Q_1 = 20, so 4Q_1 = 100 - 2Q_2.",
+    "id": "S21-case2-p1",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S21-06"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "If they split the monopoly output, what is each producer's quota?",
+    "answer": 12.5,
+    "unit": "",
+    "tol": 0.01,
+    "explain": "MR = 120 - 4Q = 20 gives Q = 25; 12.5 each.",
+    "verify": {
+     "f": "collude",
+     "a": 120,
+     "b": 2,
+     "c1": 20,
+     "c2": 20,
+     "who": "q1"
+    },
+    "id": "S21-case2-p2",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S21-06"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "Producer 2 keeps its quota. What is producer 1's best output?",
+    "answer": 18.75,
+    "unit": "",
+    "tol": 0.01,
+    "explain": "Q_1 = 25 - 0.5(12.5) = 18.75.",
+    "verify": {
+     "f": "br",
+     "a": 120,
+     "b": 2,
+     "c1": 20,
+     "c2": 20,
+     "who": "q1",
+     "q2": 12.5
+    },
+    "id": "S21-case2-p3",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S21-06"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "What does producer 1 earn by cheating?",
+    "answer": 703.12,
+    "unit": "$",
+    "tol": 0.01,
+    "explain": "P = 120 - 2(31.25) = $57.50; (57.50 - 20) × 18.75 = $703.13, more than $625 from keeping the quota.",
+    "verify": {
+     "f": "cheat",
+     "a": 120,
+     "b": 2,
+     "c1": 20,
+     "c2": 20,
+     "who": "pi1",
+     "quota": 12.5
+    },
+    "id": "S21-case2-p4",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S21-02"
+    ],
+    "type": "mc",
+    "kind": "apply",
+    "stem": "If both cheat and best-respond to each other, where do they end up?",
+    "choices": [
+     "The Cournot equilibrium, 16.67 each at P = $53.33",
+     "Price equal to $20",
+     "The monopoly outcome",
+     "Producer 1 at 25, producer 2 at 0"
+    ],
+    "answer": 0,
+    "explain": "Bryce p. 6: back in the Cournot game.",
+    "id": "S21-case2-p5",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   }
+  ]
+ },
+ {
+  "id": "S21-case3",
+  "title": "Which oligopoly model?",
+  "los": [
+   "S21-01",
+   "S21-05"
+  ],
+  "stem": "A made-up example. A consultant studies three industries: (A) four potash mines that each set annual output without seeing the others' plans; (B) a market where one battery maker has already built a giant plant and a newcomer is deciding how big to build; (C) two online sellers of an identical phone charger whose prices appear side by side on a comparison site.",
+  "parts": [
+   {
+    "los": [
+     "S21-05"
+    ],
+    "type": "mc",
+    "kind": "apply",
+    "stem": "Which model fits industry A?",
+    "choices": [
+     "Standard Bertrand",
+     "Cournot",
+     "Differentiated Bertrand",
+     "Stackelberg"
+    ],
+    "answer": 1,
+    "explain": "Quantity, simultaneous, homogeneous.",
+    "id": "S21-case3-p1",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S21-05"
+    ],
+    "type": "mc",
+    "kind": "apply",
+    "stem": "Which model fits industry B?",
+    "choices": [
+     "Stackelberg",
+     "Sweezy",
+     "Standard Bertrand",
+     "Cournot"
+    ],
+    "answer": 0,
+    "explain": "Committed capacity first, follower observes.",
+    "id": "S21-case3-p2",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S21-05"
+    ],
+    "type": "mc",
+    "kind": "apply",
+    "stem": "Which model fits industry C?",
+    "choices": [
+     "Differentiated Bertrand",
+     "Stackelberg",
+     "Cournot",
+     "Standard Bertrand"
+    ],
+    "answer": 3,
+    "explain": "Price, identical goods, buyers see all prices (S22).",
+    "id": "S21-case3-p3",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S21-01"
+    ],
+    "type": "mc",
+    "kind": "concept",
+    "stem": "What makes all three oligopolies rather than perfectly competitive markets?",
+    "choices": [
+     "Prices are regulated",
+     "Each has exactly two firms",
+     "Each firm's actions affect the others' prospects",
+     "Each sells differentiated products"
+    ],
+    "answer": 2,
+    "explain": "Interdependence (Bryce p. 1).",
+    "id": "S21-case3-p4",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   }
+  ]
+ }
+]

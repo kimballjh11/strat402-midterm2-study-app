@@ -1,0 +1,91 @@
+{
+ "id": "S19-02",
+ "title": "Normal-form representation",
+ "calc": false,
+ "plain": "The **normal form** is a table (a **payoff matrix**) that shows a simultaneous game. It contains three things (Reading Quiz Q3: all of the above):\n1. a list of **players**,\n2. the **strategies** available to each,\n3. the **payoffs** for every combination of strategies.\n\n**Convention:** one player picks a **row**, the other picks a **column**. In each cell, the **first number is the row player's payoff and the second is the column player's**.\n\nThe slides' example (pp. 10 to 15):\n\n| Visa \\ Mastercard | Lower Fee | Maintain Fee |\n|---|---|---|\n| Lower Fee | 2, 2 | 4, 1 |\n| Maintain Fee | 1, 4 | 3, 3 |\n\nHow to read it: if Visa lowers its fee and Mastercard maintains, the cell is (4, 1): Visa earns 4 and Mastercard earns 1. If both maintain, each earns 3.\n\n- **Visa's payoffs** are the first numbers: 2, 4, 1, 3.\n- **Mastercard's payoffs** are the second numbers: 2, 1, 4, 3.\n\nA normal-form game can be bigger than 2 by 2. With three strategies each it is a 3 by 3 table, read the same way.",
+ "why": "Every simultaneous-game exam question gives a payoff matrix. Misreading which number belongs to whom is the most common error.",
+ "definition": "The normal-form representation of a game indicates the players, their possible strategies, and the payoffs resulting from alternative strategies.",
+ "formulas": [],
+ "derivation": "",
+ "math": [
+  {
+   "title": "Reading a payoff matrix",
+   "body": "Each cell has two numbers. The FIRST belongs to the row player, the SECOND to the column player. To compare the row player's options, hold the column fixed and look down that column at the first numbers. To compare the column player's options, hold the row fixed and look across that row at the second numbers."
+  }
+ ],
+ "worked": [
+  {
+   "title": "Reading the Visa matrix",
+   "problem": "In the Visa versus Mastercard game, what does Mastercard earn if Visa maintains its fee and Mastercard lowers its fee?",
+   "steps": [
+    "Visa is the row player: row Maintain Fee.",
+    "Mastercard is the column player: column Lower Fee.",
+    "Cell (1, 4). The second number is Mastercard's."
+   ],
+   "answer": "Mastercard earns 4 (and Visa earns 1)."
+  },
+  {
+   "title": "Game Theory Exercise Part 1: building the matrix",
+   "problem": "Facebook and Twitter decide in 2019 whether to ban political ads. Political ads are 0.5% of Facebook's ad revenue ($70B, so $350M) and 0.1% of Twitter's ($3B, so $3M). A firm that does not ban faces a 10% chance of a fine of 4% of ad revenue (expected fine $280M for Facebook, $12M for Twitter). If Twitter bans and Facebook does not, Twitter's political ads go to Facebook. If Facebook bans and Twitter does not, 10% of Facebook's political ad revenue ($35M) goes to Twitter. Payoffs are the change in ad revenue in $ millions. Put Facebook on the rows and fill in each cell as (Facebook, Twitter).",
+   "steps": [
+    "Expected fine for not banning = 10% × 4% × ad revenue: Facebook 0.004 × 70,000 = 280; Twitter 0.004 × 3,000 = 12.",
+    "Both ban: each loses its political ads: (-350, -3).",
+    "Facebook bans, Twitter doesn't: Facebook -350; Twitter gains 35 and bears its 12 fine: 35 - 12 = 23.",
+    "Twitter bans, Facebook doesn't: Twitter -3; Facebook gains 3 and bears 280: -277.",
+    "Neither bans: only the expected fines: (-280, -12)."
+   ],
+   "answer": "| Facebook \\ Twitter | Ban | Don't Ban |\n|---|---|---|\n| Ban | -350, -3 | -350, 23 |\n| Don't Ban | -277, -3 | -280, -12 |"
+  }
+ ],
+ "graph": {
+  "component": "payoff",
+  "params": {
+   "players": [
+    "Visa",
+    "Mastercard"
+   ],
+   "rows": [
+    "Lower Fee",
+    "Maintain Fee"
+   ],
+   "cols": [
+    "Lower Fee",
+    "Maintain Fee"
+   ],
+   "pay": [
+    [
+     [
+      2,
+      2
+     ],
+     [
+      4,
+      1
+     ]
+    ],
+    [
+     [
+      1,
+      4
+     ],
+     [
+      3,
+      3
+     ]
+    ]
+   ]
+  },
+  "caption": "Edit any number to see how the analysis changes. First number = Visa (rows), second = Mastercard (columns)."
+ },
+ "traps": [
+  "The FIRST number is the ROW player's payoff. Read the stem: some questions put a different firm on the rows.",
+  "To compare the row player's choices, look DOWN a column. To compare the column player's choices, look ACROSS a row.",
+  "The normal form has players, strategies AND payoffs."
+ ],
+ "sources": {
+  "slides": "S19 Game Theory I pp. 10 to 15",
+  "read": "Ch. 10 pp. 307 to 309",
+  "exercise": "Game Theory Exercise (your submitted answers, payoffs rechecked)",
+  "quiz": "Reading Quiz Q3; Comprehension Quiz 9 Q1"
+ }
+}

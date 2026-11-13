@@ -1,0 +1,74 @@
+{
+ "id": "S16-04",
+ "title": "Isocost lines",
+ "calc": true,
+ "plain": "An **isocost** line shows every combination of inputs that costs the same total amount. Total cost is labor cost plus capital cost:\n$$C = wL + rK$$\n\\(w\\) is the wage (price of labor) and \\(r\\) is the rental rate (price of capital). To graph it with K on the vertical axis, solve for K (slides p. 28):\n$$K = \\frac{C}{r} - \\frac{w}{r}L$$\n- **Vertical intercept** \\(C/r\\): the most capital the budget buys if you hire no labor.\n- **Horizontal intercept** \\(C/w\\): the most labor if you use no capital.\n- **Slope** \\(-w/r\\) (on the equation sheet).\n\n**How it moves** (slides pp. 30 to 34, budget $1,000, w = $10, r = $25):\n- Max labor = 1000/10 = 100 hours, max capital = 1000/25 = 40 machine hours, slope = -0.4.\n- Budget up 50% to $1,500: parallel shift out (intercepts 150 and 60, same slope). Budget down: parallel shift in.\n- Wage doubles to $20: max labor falls to 50, max capital stays 40. The line pivots around the vertical intercept and gets steeper (slope -0.8).\n- Wage falls: horizontal intercept moves out, line flatter (Quiz 7 Q9).\n- Rental rate rises: vertical intercept falls, slope gets flatter in magnitude (Reading Quiz Q5).",
+ "why": "The isocost is the cost side of the long-run decision. The cheapest way to make a target output is on the lowest isocost that still touches the isoquant.",
+ "definition": "An isocost is a line that defines the combinations of inputs that will cost the producer the same amount of money: C = wL + rK.",
+ "formulas": [
+  {
+   "name": "Isocost equation",
+   "tex": "C = wL + rK",
+   "onSheet": false
+  },
+  {
+   "name": "Solved for K",
+   "tex": "K = \\frac{C}{r} - \\frac{w}{r}L",
+   "onSheet": false
+  },
+  {
+   "name": "Slope of the isocost",
+   "tex": "-\\frac{w}{r}",
+   "onSheet": true
+  },
+  {
+   "name": "Intercepts",
+   "tex": "L_{max} = \\frac{C}{w},\\qquad K_{max} = \\frac{C}{r}",
+   "onSheet": false
+  }
+ ],
+ "derivation": "From \\(C = wL + rK\\): subtract wL, \\(rK = C - wL\\); divide by r, \\(K = C/r - (w/r)L\\).",
+ "math": [
+  {
+   "title": "Slope and intercepts of a line",
+   "body": "A line \\(K = m L + c\\) has slope \\(m\\) (rise over run) and vertical intercept \\(c\\) (the value of K when L = 0). The horizontal intercept is where \\(K = 0\\). For the isocost \\(K = \\frac{C}{r} - \\frac{w}{r}L\\): slope \\(-\\frac{w}{r}\\), vertical intercept \\(\\frac{C}{r}\\), horizontal intercept \\(\\frac{C}{w}\\)."
+  }
+ ],
+ "worked": [
+  {
+   "title": "Slides pp. 30 to 34",
+   "problem": "Budget $1,000, w = $10, r = $25. Find the intercepts and slope. Then the wage doubles to $20: what changes?",
+   "steps": [
+    "Max labor = C/w = 1000/10 = 100. Max capital = C/r = 1000/25 = 40.",
+    "Slope = -w/r = -10/25 = -0.4.",
+    "Wage $20: max labor = 1000/20 = 50, max capital still 40, slope = -20/25 = -0.8 (steeper)."
+   ],
+   "answer": "Intercepts 100 (L) and 40 (K), slope -0.4. After the wage doubles: 50 and 40, slope -0.8."
+  }
+ ],
+ "graph": {
+  "component": "costmin",
+  "params": {
+   "A": 2,
+   "a": 0.5,
+   "b": 0.5,
+   "Q": 100,
+   "w": 10,
+   "r": 25,
+   "L": 60
+  },
+  "caption": "Drag w and r and watch the green isocost pivot. A change in C alone (the target Q here) shifts it in parallel."
+ },
+ "traps": [
+  "The slope is -w/r, not -r/w. The wage is on top when L is on the horizontal axis.",
+  "Max labor is C/w (horizontal intercept); max capital is C/r (vertical intercept). Do not swap them.",
+  "A budget change shifts the line in parallel. A price change rotates it around the OTHER input's intercept.",
+  "When w falls the line gets FLATTER and the horizontal intercept moves OUT; the vertical intercept does not change (Quiz 7 Q9)."
+ ],
+ "sources": {
+  "slides": "S16 Production II, pp. 27 to 34",
+  "read": "Ch. 5 pp. 150 to 151",
+  "exercise": "Cost Minimization exercise",
+  "quiz": "Reading Quiz Q4, Q5; Comprehension Quiz 7 Q9"
+ }
+}

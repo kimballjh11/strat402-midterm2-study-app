@@ -1,0 +1,156 @@
+{
+ "source": "S18/Session 18 Reading Quiz (attempt 1).html",
+ "title": "Session 18: Reading Quiz",
+ "questions": [
+  {
+   "n": 1,
+   "qid": "question_7295596",
+   "type": "multiple_choice_question",
+   "text": "According to \"Strategies to Crack Well-Guarded Markets,\" which of the following is not one of the three basic strategies firms use to break into well-guarded markets?",
+   "answers": [
+    {
+     "text": "Reconfigure the value chain",
+     "correct": false,
+     "comment": ""
+    },
+    {
+     "text": "Directly attack the market leader",
+     "correct": true,
+     "comment": ""
+    },
+    {
+     "text": "Create a niche",
+     "correct": false,
+     "comment": ""
+    },
+    {
+     "text": "Leverage existing assets",
+     "correct": false,
+     "comment": ""
+    }
+   ],
+   "feedback": [
+    "Correct! The three strategies suggested by the article Strategies to Crack Well-Guarded Markets are leverage existing assets, reconfigure the value chain, and create a niche."
+   ]
+  },
+  {
+   "n": 2,
+   "qid": "question_7295597",
+   "type": "multiple_answers_question",
+   "text": "As noted in the article, successful companies often use a combination of approaches to enter highly profitable markets. Based on your own understanding, which of the following strategies did Uber use to enter the ground transportation industry? Select all that apply.",
+   "answers": [
+    {
+     "text": "Reconfigure the value chain",
+     "correct": true,
+     "comment": ""
+    },
+    {
+     "text": "Create a niche",
+     "correct": true,
+     "comment": ""
+    },
+    {
+     "text": "Leverage existing assets",
+     "correct": true,
+     "comment": ""
+    }
+   ],
+   "feedback": [
+    "Correct! Rather than buying its own fleet, Uber leveraged existing assets by having drivers use their own cars. Uber reconfigured the value chain by changing the way riders hail a ride: through an app, rather than waiting in line or at a particular location. Uber started in a niche, luxury black-car service, before expanding to everyday riders."
+   ]
+  },
+  {
+   "n": 3,
+   "qid": "question_7295598",
+   "type": "multiple_choice_question",
+   "text": "Which of the following is not a common barrier to entry?",
+   "answers": [
+    {
+     "text": "Buyer price sensitivity",
+     "correct": true,
+     "comment": ""
+    },
+    {
+     "text": "Capital requirements",
+     "correct": false,
+     "comment": ""
+    },
+    {
+     "text": "Economies of scale",
+     "correct": false,
+     "comment": ""
+    },
+    {
+     "text": "Network effects",
+     "correct": false,
+     "comment": ""
+    }
+   ],
+   "feedback": [
+    "Correct! Common barriers to entry are factors that make it difficult for new firms to enter an industry. These include: Economies of scale: Existing firms have cost advantages from large-scale production. Capital requirements: High startup costs deter new entrants. Network effects: The value of a product increases as more people use it, favoring established players. Buyer price sensitivity, on the other hand, is not a barrier to entry. It affects competition within the market (how much buyers respond to price changes), but it doesn't prevent new firms from entering."
+   ]
+  },
+  {
+   "n": 4,
+   "qid": "question_7295599",
+   "type": "multiple_choice_question",
+   "text": "An incumbent firm charges a price below the monopoly price so that a potential entrant expects to earn little or no profit if it enters. This strategy is called ______.",
+   "answers": [
+    {
+     "text": "limit pricing",
+     "correct": true,
+     "comment": ""
+    },
+    {
+     "text": "penetration pricing",
+     "correct": false,
+     "comment": ""
+    },
+    {
+     "text": "peak-load pricing",
+     "correct": false,
+     "comment": ""
+    },
+    {
+     "text": "predatory pricing",
+     "correct": false,
+     "comment": ""
+    }
+   ],
+   "feedback": [
+    "Correct! Limit pricing occurs when a firm with market power prices below the monopoly price to keep potential rivals out. It works only if the preentry price is linked to the entrant's postentry profits, for example through a commitment to high output, learning curve effects, incomplete information, or a reputation for being tough. Predatory pricing is different: it prices below marginal cost to drive out rivals that have already entered."
+   ]
+  },
+  {
+   "n": 5,
+   "qid": "question_7295600",
+   "type": "multiple_choice_question",
+   "text": "A new social media app is worth little to its first users, because the value of the app depends on how many other people use it. Which strategy helps an entrant overcome the network effects that protect established platforms?",
+   "answers": [
+    {
+     "text": "Penetration pricing: charging a low price at first, or even giving the product away, to build a critical mass of users",
+     "correct": true,
+     "comment": ""
+    },
+    {
+     "text": "Premium pricing: charging a high price to signal that the app is higher quality",
+     "correct": false,
+     "comment": ""
+    },
+    {
+     "text": "Predatory pricing: pricing below cost to drive established platforms out of the market",
+     "correct": false,
+     "comment": ""
+    },
+    {
+     "text": "Limit pricing: keeping the price below the monopoly level to discourage other firms from entering",
+     "correct": false,
+     "comment": ""
+    }
+   ],
+   "feedback": [
+    "Correct! With network effects, each user values the product more as more people use it, so an entrant starts at a disadvantage. Penetration pricing accepts low or negative margins at first to build a critical mass of users. Once enough users join, the firm can raise its price."
+   ]
+  }
+ ]
+}

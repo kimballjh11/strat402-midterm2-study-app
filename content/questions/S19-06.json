@@ -1,0 +1,267 @@
+[
+ {
+  "id": "S19-06-q001",
+  "los": [
+   "S19-06"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "In a prisoner's dilemma:",
+  "choices": [
+   "Cooperation is the equilibrium",
+   "Each player's dominant strategy leads to an outcome worse for both than cooperating",
+   "There are many Nash equilibria",
+   "Players have no dominant strategies"
+  ],
+  "answer": 1,
+  "explain": "Visa and Mastercard: (Lower, Lower) = (2, 2) versus (3, 3).",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-06-q002",
+  "los": [
+   "S19-06"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Why do firms in a coordination game not want to cheat once they agree on a standard?",
+  "choices": [
+   "Matching the other's choice is already each firm's best response",
+   "They have a dominant strategy to defect",
+   "Coordination games have no equilibrium",
+   "Cheating is illegal"
+  ],
+  "answer": 0,
+  "explain": "Unlike pricing, the agreed outcome is itself a Nash equilibrium.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-06-q003",
+  "los": [
+   "S19-06"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "When does advertising become a prisoner's dilemma?",
+  "choices": [
+   "When ads grow total demand a lot",
+   "When advertising is free",
+   "When ads mostly steal customers from rivals rather than grow the market",
+   "When only one firm can advertise"
+  ],
+  "answer": 2,
+  "explain": "Both advertise, the effects cancel, and both earn less.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-06-q004",
+  "los": [
+   "S19-06"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "In Golden Balls, why is Steal never worse than Split for a player?",
+  "choices": [
+   "Steal pays the whole jackpot if the other splits and the same zero if the other steals",
+   "Steal is dominated",
+   "Split always pays zero",
+   "Players must split by rule"
+  ],
+  "answer": 0,
+  "explain": "Steal gives 100 vs 50 if the other splits and 0 vs 0 if the other steals.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-06-q005",
+  "los": [
+   "S19-06"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Why are Nash bargaining outcomes hard to predict?",
+  "choices": [
+   "Every split that exactly uses the pie is an equilibrium",
+   "There is no equilibrium",
+   "Only a 50-50 split is an equilibrium",
+   "One side always gets everything"
+  ],
+  "answer": 0,
+  "explain": "Many equilibria; stalemates are common.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-06-q006",
+  "los": [
+   "S19-06",
+   "S19-04"
+  ],
+  "type": "mc",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Kellogg's (rows) and General Mills (columns), $ billions (Comprehension Quiz 9):\n\n| Kellogg's \\ General Mills | Advertise | Don't |\n|---|---|---|\n| Advertise | 0, 0 | 44, -4 |\n| Don't | -4, 44 | 4, 4 |\n\nWhat is the Nash equilibrium?",
+  "choices": [
+   "Kellogg's Don't, General Mills Advertise",
+   "Kellogg's Advertise, General Mills Don't",
+   "Kellogg's Don't, General Mills Don't",
+   "Kellogg's Advertise, General Mills Advertise"
+  ],
+  "answer": 3,
+  "explain": "Advertise is dominant for each (0 > -4, 44 > 4). Both advertise and earn 0, although both would earn 4 by not advertising.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-06-q007",
+  "los": [
+   "S19-06",
+   "S19-04"
+  ],
+  "type": "mc",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Two firms set prices (textbook-style pricing game):\n\n| Firm A \\ Firm B | Low price | High price |\n|---|---|---|\n| Low price | 0, 0 | 12, -1 |\n| High price | -1, 12 | 10, 10 |\n\nWhat is the Nash equilibrium?",
+  "choices": [
+   "Firm A High price, Firm B Low price",
+   "Firm A High price, Firm B High price",
+   "Firm A Low price, Firm B High price",
+   "Firm A Low price, Firm B Low price"
+  ],
+  "answer": 3,
+  "explain": "Low is dominant for each (0 > -1, 12 > 10), so both price low at (0, 0), even though (10, 10) is better for both.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-06-q008",
+  "los": [
+   "S19-06"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "In the pricing game where both pricing low pays (0, 0) and both pricing high pays (10, 10), how much combined profit do the two firms lose by ending up at the Nash equilibrium?",
+  "answer": 20,
+  "unit": "",
+  "tol": 0.01,
+  "explain": "Cooperative total 10 + 10 = 20; equilibrium total 0 + 0 = 0. They lose 20.",
+  "verify": {
+   "f": "pd_loss",
+   "pay": [
+    [
+     [
+      0,
+      0
+     ],
+     [
+      12,
+      -1
+     ]
+    ],
+    [
+     [
+      -1,
+      12
+     ],
+     [
+      10,
+      10
+     ]
+    ]
+   ]
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-06-q009",
+  "los": [
+   "S19-06"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Kellogg's versus General Mills ($ billions): both advertise (0, 0); neither (4, 4); one advertises (44, -4). How much does Kellogg's gain by defecting (advertising) if General Mills keeps an agreement not to advertise?",
+  "answer": 40,
+  "unit": "$ billions",
+  "tol": 0.01,
+  "explain": "Keeping the agreement: 4. Defecting: 44. Gain 44 - 4 = $40 billion this period, which is why the one-shot agreement fails.",
+  "verify": {
+   "f": "diff",
+   "x1": 4,
+   "x2": 44
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-06-q010",
+  "los": [
+   "S19-06"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Two networks each earn 40 if both pick USB-C or both pick a proprietary plug, and 5 each if they mismatch. If they fail to coordinate, how much does each lose compared with coordinating?",
+  "answer": 35,
+  "unit": "",
+  "tol": 0.01,
+  "explain": "40 - 5 = 35 each. The challenge is reaching an equilibrium, not resisting cheating.",
+  "verify": {
+   "f": "diff",
+   "x1": 5,
+   "x2": 40
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-06-q011",
+  "los": [
+   "S19-06"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Two airlines each decide whether to cut fares on a route for the holidays. Each earns more by cutting if the other does not, but both earn less if both cut than if neither does. What should you predict in a one-shot game?",
+  "choices": [
+   "They randomize",
+   "One cuts and one does not",
+   "Both cut fares",
+   "Neither cuts"
+  ],
+  "answer": 2,
+  "explain": "Cutting is dominant for each: a pricing prisoner's dilemma.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-06-q012",
+  "los": [
+   "S19-06"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Two appliance makers must choose an outlet voltage. Each earns 100 if they match and 0 if they do not. What helps them reach a good outcome?",
+  "choices": [
+   "Predatory pricing",
+   "Always choosing the opposite of the rival",
+   "Communicating or a government standard",
+   "Secret randomization"
+  ],
+  "answer": 2,
+  "explain": "A coordination game: agreement helps, and once agreed, no one cheats.",
+  "source": "generated",
+  "verbatim": false
+ }
+]

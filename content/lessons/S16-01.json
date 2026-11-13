@@ -1,0 +1,73 @@
+{
+ "id": "S16-01",
+ "title": "Isoquants",
+ "calc": true,
+ "plain": "In the long run a manager can change both capital and labor. Usually there are many ways to make the same output: lots of machines and few workers, or few machines and lots of workers. An **isoquant** (\"iso\" = same, \"quant\" = quantity) is the line that connects every combination of K and L that gives the **same** output.\n\nDraw it with labor on the horizontal axis and capital on the vertical axis. Facts to know:\n- Each isoquant is one output level. **Isoquants farther from the origin mean more output.** Closer to the origin means less (Reading Quiz Q3 is a false statement saying the opposite).\n- Shape depends on the production function: straight line for linear, convex curve for Cobb-Douglas, L-shape for Leontief.\n- An isoquant does NOT show different output levels; along one isoquant output is constant (Reading Quiz Q1).\n\n**Graphing an isoquant (S16 slides pp. 24 to 25).** Fix Q at the target and solve the production function for K. With \\(Q = 2K^{0.5}L^{0.5}\\) and Q = 100:\n$$100 = 2K^{0.5}L^{0.5} \\;\\Rightarrow\\; K^{0.5} = \\frac{100}{2L^{0.5}} = \\frac{50}{L^{0.5}} \\;\\Rightarrow\\; K = \\frac{2500}{L}$$\nPoints on it: (L, K) = (25, 100), (50, 50), (100, 25).",
+ "why": "The isoquant shows a manager every way to hit a production target. Choosing the cheapest point on it is cost minimization (S16-05). Comprehension Quiz 7 Q6 asks you to write the isoquant equation.",
+ "definition": "An isoquant is a line that defines the combinations of inputs that yield the same level of output.",
+ "formulas": [
+  {
+   "name": "Cobb-Douglas isoquant solved for K",
+   "tex": "K = \\left(\\frac{Q}{AL^b}\\right)^{1/a}",
+   "onSheet": false,
+   "note": "Derive it: plug in the target Q and solve the production function for K."
+  },
+  {
+   "name": "Linear isoquant",
+   "tex": "K = \\frac{Q - bL}{a}",
+   "onSheet": false
+  },
+  {
+   "name": "Leontief isoquant corner",
+   "tex": "L = \\frac{Q}{b},\\; K = \\frac{Q}{a}",
+   "onSheet": false
+  }
+ ],
+ "derivation": "Comprehension Quiz 7 Q6: \\(Q = 4K^{0.25}L^{0.75}\\), target 400. Divide by 4: \\(100 = K^{0.25}L^{0.75}\\). Divide by \\(L^{0.75}\\): \\(K^{0.25} = 100/L^{0.75}\\). Raise to the 4th power: \\(K = (100/L^{0.75})^4\\).",
+ "math": [
+  {
+   "title": "Solving an equation for K",
+   "body": "To graph an isoquant you rewrite \\(Q = AK^aL^b\\) as K in terms of L. Divide both sides by \\(AL^b\\): \\(K^a = \\frac{Q}{AL^b}\\). Then undo the exponent \\(a\\) by raising both sides to \\(1/a\\): $$K = \\left(\\frac{Q}{AL^b}\\right)^{1/a}$$ For \\(a = 0.5\\), \\(1/a = 2\\): square. For \\(a = 0.25\\), \\(1/a = 4\\): raise to the 4th power."
+  },
+  {
+   "title": "Exponent rules (S15 slides pp. 36 to 42)",
+   "body": "- Multiply, same base: add exponents. \\(a^x a^y = a^{x+y}\\)\n- Divide, same base: subtract. \\(\\frac{a^x}{a^y} = a^{x-y}\\)\n- Power of a product: \\((xy)^a = x^a y^a\\)\n- Power of a quotient: \\(\\left(\\frac{x}{y}\\right)^a = \\frac{x^a}{y^a}\\)\n- Power of a power: multiply. \\((a^x)^y = a^{xy}\\)\n- Zero power: \\(x^0 = 1\\)\n- Negative power is a reciprocal: \\(x^{-a} = \\frac{1}{x^a}\\), so \\(L^{-0.5} = \\frac{1}{\\sqrt{L}}\\)\n- Fractional power is a root: \\(x^{0.5} = \\sqrt{x}\\), \\(x^{0.25} = \\sqrt[4]{x}\\)\n\nOn a calculator: \\(16^{0.25}\\) is 16, then the \\(y^x\\) or ^ key, then 0.25. Answer 2."
+  }
+ ],
+ "worked": [
+  {
+   "title": "Graphing the slide isoquant",
+   "problem": "\\(Q = 2K^{0.5}L^{0.5}\\), target Q = 100. How much capital is needed with L = 20? With L = 125?",
+   "steps": [
+    "Isoquant: \\(K = 2500/L\\) (solved above).",
+    "L = 20: \\(K = 2500/20 = 125\\).",
+    "L = 125: \\(K = 2500/125 = 20\\).",
+    "Check: \\(2\\sqrt{125}\\sqrt{20} = 2\\sqrt{2500} = 2(50) = 100\\)."
+   ],
+   "answer": "K = 125 with 20 workers; K = 20 with 125 workers."
+  }
+ ],
+ "graph": {
+  "component": "isoquant",
+  "params": {
+   "form": "cd",
+   "a": 0.5,
+   "b": 0.5,
+   "Q": 100,
+   "L": 50
+  },
+  "caption": "Q = 2K^0.5 L^0.5. The blue curve is Q = 100: K = 2500/L. The lighter curves are higher output, farther from the origin."
+ },
+ "traps": [
+  "Isoquants farther from the origin are HIGHER output. Closer to the origin is less.",
+  "An isoquant holds output constant. It does not show different output levels.",
+  "When solving for K, divide by the constant in front first. Quiz 7 Q6 offers (400/L^0.75)^4, which forgets to divide by 4.",
+  "Use the exponent on L inside and 1/(exponent on K) outside. Quiz 7 Q6 offers L^0.25, the exponent on capital, as a wrong choice."
+ ],
+ "sources": {
+  "slides": "S16 Production II, pp. 8 to 12, 24 to 26",
+  "read": "Ch. 5 pp. 148 to 150",
+  "exercise": "Production Functions workbook; Klarna production exercise Q4",
+  "quiz": "Reading Quiz Q1, Q3; Comprehension Quiz 7 Q6"
+ }
+}

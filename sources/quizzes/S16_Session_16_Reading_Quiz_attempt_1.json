@@ -1,0 +1,141 @@
+{
+ "source": "S16/Session 16 Reading Quiz (attempt 1).html",
+ "title": "Session 16: Reading Quiz",
+ "questions": [
+  {
+   "n": 1,
+   "qid": "question_7285101",
+   "type": "true_false_question",
+   "text": "An isoquant defines the combinations of inputs that yield different levels of output.",
+   "answers": [
+    {
+     "text": "True",
+     "correct": false,
+     "comment": ""
+    },
+    {
+     "text": "False",
+     "correct": true,
+     "comment": ""
+    }
+   ],
+   "feedback": [
+    "Correct! An isoquant defines the combinations of inputs that yield the same level of output."
+   ]
+  },
+  {
+   "n": 2,
+   "qid": "question_7285102",
+   "type": "multiple_choice_question",
+   "text": "The marginal rate of technical substitution (MRTS) is _______.",
+   "answers": [
+    {
+     "text": "the absolute value of the slope of the isoquant",
+     "correct": false,
+     "comment": ""
+    },
+    {
+     "text": "the rate at which a producer can substitute between two outputs and maintain the same level of input",
+     "correct": false,
+     "comment": ""
+    },
+    {
+     "text": "the rate at which a producer can substitute between two inputs and maintain the same level of output",
+     "correct": false,
+     "comment": ""
+    },
+    {
+     "text": "both the rate at which a producer can substitute between two inputs and maintain the same level of output, and the absolute value of the slope of the isoquant",
+     "correct": true,
+     "comment": ""
+    }
+   ],
+   "feedback": [
+    "Correct! The MRTS is the rate at which a producer can substitute between two inputs and maintain the same level of output. It is also the absolute value of the slope of the isoquant."
+   ]
+  },
+  {
+   "n": 3,
+   "qid": "question_7285103",
+   "type": "true_false_question",
+   "text": "Isoquants closer to the origin are associated with higher levels of output.",
+   "answers": [
+    {
+     "text": "True",
+     "correct": false,
+     "comment": ""
+    },
+    {
+     "text": "False",
+     "correct": true,
+     "comment": ""
+    }
+   ],
+   "feedback": [
+    "Correct! Isoquants that are closer to the origin are associated with lower levels of output."
+   ]
+  },
+  {
+   "n": 4,
+   "qid": "question_7285104",
+   "type": "multiple_choice_question",
+   "text": "The slope of an isocost line is equal to _____.",
+   "answers": [
+    {
+     "text": "-w/r",
+     "correct": true,
+     "comment": ""
+    },
+    {
+     "text": "C/w",
+     "correct": false,
+     "comment": ""
+    },
+    {
+     "text": "C",
+     "correct": false,
+     "comment": ""
+    },
+    {
+     "text": "C/r",
+     "correct": false,
+     "comment": ""
+    }
+   ],
+   "feedback": [
+    "Correct! The slope of an isocost line is equal to -w/r."
+   ]
+  },
+  {
+   "n": 5,
+   "qid": "question_7285105",
+   "type": "multiple_choice_question",
+   "text": "An isocost line is drawn with capital (K) on the vertical axis. Its y-intercept is C/r and its slope is -w/r. If the price of capital (r) increases, what happens to the isocost line?",
+   "answers": [
+    {
+     "text": "The y-intercept will decrease and the slope will increase in magnitude.",
+     "correct": false,
+     "comment": ""
+    },
+    {
+     "text": "The y-intercept will increase and the slope will increase in magnitude.",
+     "correct": false,
+     "comment": ""
+    },
+    {
+     "text": "The y-intercept will increase and the slope will decrease in magnitude.",
+     "correct": false,
+     "comment": ""
+    },
+    {
+     "text": "The y-intercept will decrease and the slope will decrease in magnitude.",
+     "correct": true,
+     "comment": ""
+    }
+   ],
+   "feedback": [
+    "Correct! The y-intercept is C/r and the slope is -w/r. When r rises, the y-intercept falls and the slope becomes less steep (it decreases in magnitude)."
+   ]
+  }
+ ]
+}

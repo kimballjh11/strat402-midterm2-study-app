@@ -1,0 +1,271 @@
+[
+ {
+  "id": "S15-02-q001",
+  "los": [
+   "S15-02"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Total product is:",
+  "choices": [
+   "Output per unit of labor",
+   "The change in output from the last worker",
+   "Total revenue from all units sold",
+   "The maximum level of output produced with a given amount of inputs"
+  ],
+  "answer": 3,
+  "explain": "Total product is Q, the output itself. Output per worker is AP, the change from the last worker is MP, and revenue is price times quantity.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-02-q002",
+  "los": [
+   "S15-02",
+   "S15-04"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Total product reaches its maximum where:",
+  "choices": [
+   "Marginal product equals zero",
+   "Marginal product is at its maximum",
+   "Marginal product equals average product",
+   "Average product is at its maximum"
+  ],
+  "answer": 0,
+  "explain": "Output keeps rising while each extra unit adds something (MP > 0) and falls once MP < 0, so TP peaks where MP = 0. MP is largest where TP is steepest, and MP = AP marks the top of AP, not TP.",
+  "source": "generated",
+  "verbatim": false,
+  "trap": "MP max, AP max and TP max happen at three different input levels, in that order."
+ },
+ {
+  "id": "S15-02-q003",
+  "los": [
+   "S15-02"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: Adding more workers to a fixed amount of capital can reduce total product.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explain": "True. With negative marginal returns, extra workers crowd the fixed capital and output falls. J Dawgs output drops from 57 with 6 workers to 28 with 8.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-02-q004",
+  "los": [
+   "S15-02"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: A firm maximizes profit by hiring labor until total product is as large as possible.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 1,
+  "explain": "False. Workers cost money, so the firm stops where VMP = wage, which is before total product peaks unless labor is free.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-02-q005",
+  "los": [
+   "S15-02"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "In the slides' studying example, grade is the total product. What is the input?",
+  "choices": [
+   "The exam's difficulty",
+   "Hours of study",
+   "Grade points per hour",
+   "The extra points from the last hour"
+  ],
+  "answer": 1,
+  "explain": "Hours studied is the input and the grade is the output. Grade per hour would be average product and extra points from the last hour is marginal product.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-02-q006",
+  "los": [
+   "S15-02"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Use the table.\n\n| Labor (L) | Output (Q) |\n|---|---|\n| 0 | 0 |\n| 1 | 10 |\n| 2 | 25 |\n| 3 | 45 |\n| 4 | 60 |\n| 5 | 70 |\n| 6 | 75 |\n| 7 | 76 |\n| 8 | 74 |\n\nWhat is total product with 4 workers?",
+  "answer": 60,
+  "unit": "units",
+  "tol": 0.01,
+  "explain": "Total product is the Q column at L = 4: 60 units. It is not 60 / 4 (average product, 15) and not 60 - 45 (marginal product, 15).",
+  "verify": {
+   "f": "table_q",
+   "L": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "Q": [
+    0,
+    10,
+    25,
+    45,
+    60,
+    70,
+    75,
+    76,
+    74
+   ],
+   "at": 4
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-02-q007",
+  "los": [
+   "S15-02"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Use the table.\n\n| Labor (L) | Output (Q) |\n|---|---|\n| 0 | 0 |\n| 1 | 10 |\n| 2 | 25 |\n| 3 | 45 |\n| 4 | 60 |\n| 5 | 70 |\n| 6 | 75 |\n| 7 | 76 |\n| 8 | 74 |\n\nHow many workers maximize total product?",
+  "answer": 7,
+  "unit": "workers",
+  "tol": 0.01,
+  "explain": "Scan Q for the largest value: 76 at L = 7. Check MP: the 7th worker adds 1 (positive), the 8th adds -2 (negative), so output peaks at 7.",
+  "verify": {
+   "f": "tp_max",
+   "L": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "Q": [
+    0,
+    10,
+    25,
+    45,
+    60,
+    70,
+    75,
+    76,
+    74
+   ]
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-02-q008",
+  "los": [
+   "S15-02",
+   "S15-01"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "A firm's production function with capital fixed is \\(Q = -L^3 + 9L^2 + 2L\\). What is total product with 5 workers?",
+  "answer": 110,
+  "unit": "units",
+  "tol": 0.01,
+  "explain": "Plug in L = 5: \\(-(5^3) + 9(5^2) + 2(5) = -125 + 225 + 10 = 110\\).",
+  "verify": {
+   "f": "poly_q",
+   "coef": [
+    0,
+    2,
+    9,
+    -1
+   ],
+   "at": 5
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-02-q009",
+  "los": [
+   "S15-02",
+   "S15-04"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A restaurant manager notices that adding a 9th cook to a kitchen with four burners caused the number of meals served to drop. What does this tell you?",
+  "choices": [
+   "Total product is at its maximum with 9 cooks",
+   "The 9th cook's marginal product is negative and total product fell",
+   "Average product must be rising",
+   "The 9th cook's marginal product is positive but smaller than the 8th cook's"
+  ],
+  "answer": 1,
+  "explain": "If output drops when a cook is added, that cook's MP is negative, so TP fell. Positive but smaller MP would be diminishing returns with output still rising. AP falls when MP is below it, and TP peaked before the 9th cook.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-02-q010",
+  "los": [
+   "S15-02"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A call center's output rises from 400 to 460 calls when it adds a 6th agent, then to 470 with a 7th. Which statement is true?",
+  "choices": [
+   "Total product is still rising, but each agent adds less",
+   "Total product is at its maximum with 6 agents",
+   "Total product is falling",
+   "The 7th agent has negative marginal product"
+  ],
+  "answer": 0,
+  "explain": "Output went 400, 460, 470: still rising, so TP is not at a max and MP is positive. MP fell from 60 to 10, which is diminishing returns.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-02-q011",
+  "los": [
+   "S15-02"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A farm doubles its workers on the same field and its harvest goes from 1,000 to 1,500 bushels. A consultant says this proves labor is unproductive. Best response?",
+  "choices": [
+   "The consultant is right because output did not double",
+   "Total product rose by 500, so the added workers were productive, though less than the first group",
+   "Total product fell",
+   "Average product rose"
+  ],
+  "answer": 1,
+  "explain": "Total product rose, so the additional workers had positive marginal product. Output not doubling reflects diminishing returns, not unproductive labor. AP fell from 1,000/n to 1,500/(2n).",
+  "source": "generated",
+  "verbatim": false
+ }
+]

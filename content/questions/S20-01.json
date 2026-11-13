@@ -1,0 +1,289 @@
+[
+ {
+  "id": "S20-01-q001",
+  "los": [
+   "S20-01"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "An infinitely repeated game is:",
+  "choices": [
+   "A game in which players move one after another",
+   "A game played over and over forever, with payoffs received each time it is played",
+   "A game with infinitely many players",
+   "A game played once with infinite payoffs"
+  ],
+  "answer": 1,
+  "explain": "Slides p. 31.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-01-q002",
+  "los": [
+   "S20-01"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Why can collusion be sustained in an infinitely repeated game but not in a one-shot game?",
+  "choices": [
+   "A player who defects can be punished in later periods",
+   "Cheating is illegal in repeated games",
+   "Payoffs are larger in repeated games",
+   "Players have no dominant strategy"
+  ],
+  "answer": 0,
+  "explain": "Slides p. 31: players that defect can be punished in subsequent periods.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-01-q003",
+  "los": [
+   "S20-01"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "According to the slides, a player should defect when:",
+  "choices": [
+   "The interest rate is zero",
+   "The rival has a dominant strategy",
+   "The one-time payoff from cheating is positive",
+   "The present value of cheating is greater than the present value of collusion"
+  ],
+  "answer": 3,
+  "explain": "Slides p. 33.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-01-q004",
+  "los": [
+   "S20-01"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "What happens to the present value of a payment received every year forever when the interest rate rises?",
+  "choices": [
+   "It falls",
+   "It stays the same",
+   "It becomes infinite",
+   "It rises"
+  ],
+  "answer": 0,
+  "explain": "PV = payment / i. A bigger i means a smaller PV: the future counts for less.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-01-q005",
+  "los": [
+   "S20-01"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: A higher discount (interest) rate makes cheating on a collusive agreement more attractive.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explain": "True. The future punishment is worth less today, so the one-time gain from cheating weighs more.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-01-q006",
+  "los": [
+   "S20-01"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "In the formula PV cheat = 15 + 2/i for Kellogg's, what does the 2 represent?",
+  "choices": [
+   "The interest rate",
+   "The payoff each period after General Mills starts punishing",
+   "General Mills' payoff from colluding",
+   "The one-time gain from cheating"
+  ],
+  "answer": 1,
+  "explain": "After cheating, both advertise forever and Kellogg's earns 2 per period.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-01-q007",
+  "los": [
+   "S20-01"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Kellogg's versus General Mills (slides p. 34):\n\n| Kellogg's \\ General Mills | Don't advertise | Advertise |\n|---|---|---|\n| Don't advertise | 12, 12 | -1, 15 |\n| Advertise | 15, -1 | 2, 2 |\n\nAt i = 10%, what is the present value of colluding (not advertising) forever, counting this period's payoff?",
+  "answer": 132,
+  "unit": "",
+  "tol": 0.01,
+  "explain": "PV collude = 12 + 12/0.10 = 12 + 120 = 132.",
+  "verify": {
+   "f": "pvc",
+   "c": 12,
+   "i": 0.1
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-01-q008",
+  "los": [
+   "S20-01"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Same Kellogg's game at i = 10%. What is the present value of cheating this period, then being punished forever?",
+  "answer": 35,
+  "unit": "",
+  "tol": 0.01,
+  "explain": "PV cheat = 15 + 2/0.10 = 15 + 20 = 35.",
+  "verify": {
+   "f": "pvd",
+   "d": 15,
+   "n": 2,
+   "i": 0.1
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-01-q009",
+  "los": [
+   "S20-01",
+   "S20-03"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Comprehension Quiz 9 Q6 numbers ($ billions): neither advertises 4 each; the lone advertiser 44; both advertise 0 each. At i = 12%, what is the present value of colluding?",
+  "answer": 37.33,
+  "unit": "$ billions",
+  "tol": 0.01,
+  "explain": "PV collude = 4 + 4/0.12 = 4 + 33.33 = 37.33. Cheating is worth 44 + 0/0.12 = 44, so Kellogg's defects.",
+  "verify": {
+   "f": "pvc",
+   "c": 4,
+   "i": 0.12
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-01-q010",
+  "los": [
+   "S20-01"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "A firm earns $50 every year forever starting next year. At an interest rate of 20%, what is that stream worth today?",
+  "answer": 250,
+  "unit": "$",
+  "tol": 0.01,
+  "explain": "Perpetuity: 50 / 0.20 = 250. (No payment today, so nothing is added.)",
+  "verify": {
+   "f": "perp",
+   "c": 50,
+   "i": 0.2
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-01-q011",
+  "los": [
+   "S20-01"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Two airlines collude on a route and each earns $30 million per year. If one cheats it earns $55 million this year, then $10 million per year forever. At i = 25%, what is the present value of cheating?",
+  "answer": 95,
+  "unit": "$ millions",
+  "tol": 0.01,
+  "explain": "PV cheat = 55 + 10/0.25 = 55 + 40 = 95. (PV collude = 30 + 30/0.25 = 150, so they keep colluding.)",
+  "verify": {
+   "f": "pvd",
+   "d": 55,
+   "n": 10,
+   "i": 0.25
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-01-q012",
+  "los": [
+   "S20-01",
+   "S20-03"
+  ],
+  "type": "mc",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Same airlines at i = 25%: collude 30 per year forever; cheat 55 once then 10 per year. Should an airline cheat?",
+  "choices": [
+   "No: colluding is worth 150 and cheating 95",
+   "It cannot be determined without the rival's payoffs",
+   "Yes: 55 is more than 30",
+   "Yes: cheating is worth 150"
+  ],
+  "answer": 0,
+  "explain": "PV collude = 30 + 30/0.25 = 150. PV cheat = 55 + 10/0.25 = 95. Collude.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-01-q013",
+  "los": [
+   "S20-01"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A firm's owner becomes very impatient and now discounts the future at 300% a year. What does this do to its collusive agreement with a rival?",
+  "choices": [
+   "Forces the rival to cheat first",
+   "Has no effect",
+   "Makes collusion more stable",
+   "Makes cheating more likely, because future punishment is worth little to it"
+  ],
+  "answer": 3,
+  "explain": "With a high i, the future punishment term (payoff / i) shrinks.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-01-q014",
+  "los": [
+   "S20-01"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Two cereal firms have colluded on advertising for decades. Which change would most threaten that collusion?",
+  "choices": [
+   "Interest rates fall",
+   "The game is expected to last forever",
+   "The one-time gain from cheating grows much larger",
+   "The punishment payoff falls"
+  ],
+  "answer": 2,
+  "explain": "A bigger temptation (cheat minus collude) raises the PV of cheating relative to colluding.",
+  "source": "generated",
+  "verbatim": false
+ }
+]

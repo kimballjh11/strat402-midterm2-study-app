@@ -1,0 +1,543 @@
+
+=== PAGE 1 ===
+Rivalry in Oligopoly
+Situated on a continuum between markets of one firm (monopoly) and markets of many firms
+(perfect competition) are markets of a few firms. These markets are called oligopoly. In
+oligopolies the number of firms ranges from two (duopoly) up to some number, maybe 8-12,
+perhaps as many as 15. Stating the upper bound precisely is difficult. When there are enough
+firms that each becomes a price taker, the industry is no longer an oligopoly. The key
+determinant is whether the firms are acting and reacting to one another in repeated waves of
+competition. If a single firm’s actions have enough impact on the market demand curve to affect
+the market price-quantity combination and thus prospects for other firms, the firms’ actions are
+interdependent and usually oligopoly is present.
+
+In oligopoly, each firm maximizes profits by considering its rivals’ reactions to its own strategic
+moves. For example, before a firm sets a particular price on a product, establishes a particular
+production schedule, develops new product features, offers new programs, or makes other
+competitive moves, it considers how its rivals are likely to respond to its actions. For example, in
+a duopoly, Firm 1 reasons as follows: If I do a, then Firm 2 will do b. But if Firm 2 does b, then I
+must do c. But if I do c, then they will do d. But if they do d, I will get the best of them by doing e.
+But if I do e, I know for sure that they will probably do f, and so I will do g. But if I do g, they will
+… and so it goes. Where does it end? It ends at a point when the firms reach a decision that they
+no longer desire to change because it’s the best possible decision to all possible rival actions. In
+game theory, this point is also called a Nash equilibrium: Each firm is playing its optimal
+response to other firms, and there is no incentive for them to deviate from that response. Thus,
+the reasoning of game theory is very useful in predicting the outcomes of oligopolistic rivalry.
+
+In practice, firms work the steps through reason before they play them in the market. Since they
+already conjecture what their competitor will do in response to their move, and what they will do
+in response to their competitor’s move and so forth, they simply reason through the game before
+they begin, find the equilibrium strategy, and play it. Each rival knows that the others are playing
+the game in the same way, so each just plays the equilibrium strategy.
+
+The equilibrium strategy isn’t always exactly clear. Firms may not know the exact form of the
+demand curve, for example, or exactly how much the extent of their differentiation matters to
+consumers. In these cases, a series of actions may be taken by the firm to work out an optimal
+strategy while it observes its competitors’ responses. But such experimentation, surprisingly,
+seems to be the exception rather than the rule. In real markets, even complex ones, equilibria are
+reached rapidly, often with little adjustment, i.e. no experimentation. Firms simply arrive
+together at the equilibrium strategy as they make conjectures about what their rivals will do.
+Such conjectures in some ways become self-fulfilling with respect to overall market demand
+realized, but the gaming aspect of the conjectures assures that each firm takes their optimal share
+of whatever pie is created.
+
+The classic case of the foregoing is the corn wet milling industry. Throughout the 1960s, a stable
+oligopoly of corn processors prevailed in an industry that produced corn starch and corn syrup.
+But in 1972, a new technology for creating high-fructose corn syrup appeared. Eleven major
+competitors had to decide how much new plant capacity to build, knowing that other rivals were
+also building capacity. If too much industry capacity were collectively created, prices would be
+too low to make a profit for any producer in the industry. On the other hand, if any one
+producer built too little capacity, others building more would take higher share and profits. Thus,
+they all reasoned simultaneously and without coordination on how much capacity to produce,
+each estimating the size of the market while taking into account expected rival actions.
+
+Professor David J. Bryce, Marriott School, Brigham Young University, prepared this note for class discussion.
+
+Copyright © 2005. David J. Bryce. All Rights Reserved.
+
+=== PAGE 2 ===
+Interestingly, they achieved a stable equilibrium outcome in which the amount supplied to the
+industry was split among all firms consistent with cost structures, and each producer was
+profitable. Capacity expansions then proceeded in like fashion as the industry grew.1
+
+The tendency by oligopolists to reason through to the equilibrium outcome before taking
+strategic actions also results in what might be termed “tacit” collusion, or truce. If the firm
+reasons that undercutting the competition will bring it certain market share, the firm must realize
+that it is not the only firm thinking the same way. Knowing that its rivals will undercut its price
+in turn, and that the firm must then further cut price to retain share leads the firm to the obvious
+conclusion that nobody wins if the firm cuts price. So the firm refuses to do so. Its rivals reason
+the same way, and even without explicit coordination, they reach a collusive outcome, a pricing
+truce. Furthermore, the firm may realize that if it raises its price, rivals will view the opportunity
+as one to be exploited either by keeping price low and taking share, or by raising price and
+earning profits. If the firm thinks they prefer the latter (and if firm demand curves support the
+reasoning), the firm will expect the rival to respond to price increases with increases of its own.
+On the other hand, if the firm thinks the rival prefers the former—to leave price low to take share
+when the firm raises its price—then the firm may never raise its price in the first place because it
+knows it will lose share. But here’s the catch: the rival knows that the firm knows this, so the rival
+will interpret a price increase as a collusive signal. And the firm knows that the rival knows that
+the firm knows that the rival knows (…etc.) how to interpret a price increase, so the firm knows
+that the rival will also raise price. Thus, when a rival raises price, it may signal a new collusive
+move that others simply match.2 This response behavior is explored more rigorously in a later
+section.
+
+The full-fare airline industry illustrates well the tendency of oligopolists to reach tacitly collusive
+pricing outcomes. Price hikes are gladly matched by rivals, while price cuts are likewise
+aggressively matched. For this reason, oligopolists play the game carefully. Price hikes are
+rarely discussed with much fanfare, yet ubiquitous information means that competitors can
+immediately respond with hikes of their own. In contrast, price cuts among the full-fare airlines
+are well defined and publicized: Full-fare carriers cutting fares are very specific about the dates,
+routes, prices, and other constraints on fare sales. This information is immediately seen by rivals
+who respond in kind within the defined parameters of the first mover. All tacitly agree that when
+the fare sale expires, it’s back to business as usual. No firm is so foolish as to cut all fares all the
+time for an indeterminate length of time. Not until January 2005, that is, when Delta did exactly
+that. In that case, however, Delta’s strategy was clearly to abandon the oligopolistic norms of full-
+fare carriers in order to compete more favorably with discount fare carriers like JetBlue and
+Southwest. Even an oligopolist’s neat little world can be shaken by a disruptive innovator.
+
+Tacitly collusive outcomes arise in oligopoly partly due to the repetitive nature of the
+competition. Oligopolists engage each period with no certain ending date. As a result, they have
+incentive to avoid certain types of aggressive competition in their own best interests. The
+incentive to avoid competition may lead them to test high price strategies for example as a way to
+offer a sort of truce on price competition. If their rivals follow suit, a norm is established, at least
+temporarily.
+
+
+
+1
+  See “The capacity expansion process in a growing oligopoly: the case of corn wet milling.” In The
+Economics of Information and Uncertainty, ed. John J. McCall. The University of Chicago Press, Chicago.
+2
+  The scenario painted here is admittedly stylized and is not a general rule. For example, a price increase by
+a rival might signal an increase in costs rather than conjectures about rival pricing responses. Likewise, loss
+of market share is only one of many considerations. Thus, rivals must interpret a rival price increase
+correctly. The point is that in practice, they often do this quite adeptly.
+
+
+
+                                                       2
+
+=== PAGE 3 ===
+Once a norm is established in an industry, oligopolists tend to monitor one another carefully.
+Violations of norms can be swiftly punished if rivals have the capacity to do so. Punishment
+might entail periods of price cutting or other types of gaming by rivals that demonstrate they will
+not tolerate spoilers. If monitoring is difficult, or retaliation weak, defections from norms become
+commonplace and industry profitability suffers. Monitoring is especially difficult and retaliation
+especially half-hearted as the number of firms increases. Such industries rapidly move toward
+perfect competition, in part because of numbers but also because of strategic behavior.
+Unfortunately for the oligopolists, as in airlines, spoilers often enter an industry with a disruptive
+model and care little about established norms. Amazon.com is a good example in this regard as
+it clearly entered bookselling with prices that oligopolists Borders and Barnes & Noble simply
+would never have considered on their own. Established oligopolists are often incapable of
+responding to the disruptor because their cost structures or value chains simply won’t support an
+effective response, hence the power of disruptive innovations.
+
+To be clear, oligopolists reason in response to rivals with their own best interests at heart. In that
+regard they are profit maximizing. But even when they are not tacitly colluding to grow profits,
+they are still keying off of the behavior of rivals as they make strategic choices. This by itself is a
+form of collusion, but it is a completely legitimate form. Thus, while regulators are concerned
+about collusion among oligopolists, such collusion is difficult to detect and nearly impossible to
+regulate.
+
+Oligopolists operate precisely the same as firms in other market settings in one important feature:
+They are profit maximizing. An oligopolist computes its marginal revenue (MR) from the demand
+curve and sets MR equal to marginal cost (MC) to find price or quantity combinations that are
+optimal, or profit maximizing. But here is the point of departure. The price or quantity
+combination that is optimal is always dependent on the price or quantity combination selected by
+rivals (since the moves of each firm affect the market equilibrium on the demand curve). Thus,
+each firm has a range of possible prices or quantities that it can offer dependent on the price or
+quantity choices of rivals. In game theory, such schedules of responses are called strategies. A
+strategy is a set of actions for every possible rival move. For oligopolists, another name for the
+complete set of responses is a “reaction function.” More on reaction functions below.
+
+                              Types of Competition in Oligopoly
+
+This note has been rather general in referring to oligopoly, conveniently treating all oligopolies
+the same. In reality, there are differences, based largely on the strategic variables that are used in
+competition. Strategic variables are the levers used by oligopolists to compete. They include such
+mechanisms as pricing, capacity decisions (quantity), lead time, or other non-price mechanisms
+(e.g. frequent flier programs, coupons, geographic location choices, etc.). Likewise, oligopolists
+may produce homogeneous goods, or goods that are at least moderately differentiated. 3
+
+Despite the variety of oligopolies suggested by the list of strategic variables and differentiation
+considerations, only four archetypical or pure-type oligopolies are commonly modeled to
+describe real-world competitive dynamics. For homogeneous-good oligopolies, competition in
+quantities is called Cournot, competition in prices is called Bertrand (or here Standard Bertrand),
+
+3 Conceptually, differentiation varies along a continuum. Clearly, when goods are perfectly differentiated
+
+(cross-price elasticity equals 0), the goods in question are not part of the same industry. As similarity rises,
+goods become more and more a substitute one for another. Eventually, the substitution rate is such that the
+goods are considered part of the same industry. (Think of the cross-price elasticity being relatively high and
+positive). Nevertheless, this does not necessarily mean that substitution must be infinite (goods perfectly
+alike) in an oligopoly. Some differentiation, albeit with high substitution, may prevail.
+
+
+
+                                                       3
+
+=== PAGE 4 ===
+and competition in lead times is called Stackleberg. 4 For differentiated-good oligopolies,
+competition in prices is called Differentiated Bertrand, while competition in quantities or lead
+time is modeled less commonly (see Figure 1). Each of these important pure types is summarized
+below.
+
+
+
+                            Figure 1 – Types of Competition in Oligopoly
+
+                                                         Competition in …
+                                     Quantity                   Price               Lead Time
+
+
+
+                   Homogeneous       Cournot                Bertrand              Stackleberg
+
+
+     Goods are …
+                                                         Differentiated
+                   Differentiated
+                                                           Bertrand
+
+
+Cournot
+
+In a Cournot oligopoly, homogeneous-good firms compete primarily by setting output quantity
+and letting the price float on the demand curve. The use of quantity as the main strategic
+variable occurs primarily in commodity goods markets such as oil or agriculture when these
+markets are not otherwise perfectly competitive. Although many agricultural markets are
+traditionally considered perfectly competitive, the formation of large cooperatives essentially
+creates a Cournot oligopoly overlay in which the amount of produce made available for sale by
+each of the large cooperatives is established through Cournot-style gaming. The corn wet milling
+market mentioned above is another example.
+
+The world’s largest oil producers function in a type of Cournot oligopoly via 11 country
+organizations that are part of the Organization of Petroleum Exporting Countries (OPEC). OPEC,
+a cartel, sets output targets for each of its members. Since OPEC explicitly recognizes that its
+member nations are developing countries with significant economic development needs, a
+primary objective is to create “stability” (read profitability) for its members. In fact, OPEC has
+the stated objective of “ensur[ing] a balance between supply and demand” in world oil markets. 5
+However, since price regulates this balance, what they’re really saying is that they control output
+to achieve a target price. Thus, OPEC practices a very explicit form of Cournot collusion.
+
+Cournot oligopolists set quantity output where marginal revenue (MR) equals marginal cost
+(MC). Each firm derives marginal revenue by multiplying (inverse) demand by its own quantity
+
+4 The name for each reflects the name of the individual who first popularized a particular mathematical
+
+model to explain the respective oligopolistic competition.
+5 “Since oil revenues are so vital for the economic development of [our 11 member] nations, they aim to
+
+bring stability and harmony to the oil market by adjusting their oil output to help ensure a balance between
+supply and demand.” – OPEC home page at opec.org. It should be noted that OPEC collectively controls
+only about 40 percent of world oil output.
+
+
+
+                                                     4
+
+=== PAGE 5 ===
+to create a total revenue function from which marginal revenue is determined. Note that since the
+market demand curve includes quantities sold by all firms in the market, an individual
+oligopolist’s marginal revenue is expressed in terms of both its own and its rivals’ output. Thus,
+after equating marginal revenue to marginal cost and solving for quantity, the firm finds that its
+maximum profits depend on the quantity produced by its rivals. 6 This profit maximizing
+quantity is called a reaction function because it shows how a firm reacts to every possible fixed
+output level of rivals.
+
+The two-firm case is illustrated in Figure 2. The horizontal axis q1 represents possible Firm 1
+quantities, while the vertical axis q2 represents quantity output levels for Firm 2. Notice that
+when Firm 2 produces 0 output, Firm 1’s reaction curve (denoted R1) intersects the horizontal
+axis at q1M, the monopoly level of output. As q2 rises along the vertical axis, representing higher
+levels of output by Firm 2, Firm 1 reacts with smaller levels of output along the horizontal axis.
+Thus, the reaction function R1 slopes upward and to the left. A similar explanation applies to
+Firm 2’s reaction function R2. When Firm 1 produces no output (0 on the horizontal axis) Firm 2
+reacts by producing the monopoly level of output q2M. As Firm one produces higher levels of
+output moving right along the horizontal axis, Firm 2 maximizes its profits by producing less.
+Thus, R2 slopes downward and to the right.
+
+
+
+                Figure 2 – Cournot Duopoly Reaction Functions and the
+                              Cournot-Nash Equilibrium
+
+               q2
+
+                             R1(q2)
+
+                 M                      Cournot-Nash Equilibrium
+               q2
+
+               q*2                         e
+                                                    c
+               q2c                  m       d                    a
+                                                b
+                                                                                R2(q1)
+
+                                                             M
+                                    q1c q1*                 q1                                q1
+
+
+Now let’s apply game theoretic reasoning to these duopolists. Let’s suppose that Firm 1 thinks
+that it would like to produce the monopoly output level q1M, since being a monopolist delivers
+
+
+6
+  To illustrate, consider the following (inverse) demand curve: P = a – q1 – q2 , where q1 and q2 are the
+quantities of Firm 1 and Firm 2, respectively, and a is a constant. Total revenue for Firm 1 is q1P = aq1 – q12 –
+q1q2 . To compute marginal revenue, differentiate with respect to q1 yielding MR = a - 2q1 – q2. Set MR equal
+to marginal cost c and solve for optimal quantity yielding q1* = (a – q2 – c)/2 . Thus, the profit maximizing
+quantity of output for Firm 1 depends on the output of rival Firm 2. This is also the equation of the reaction
+function R1(q2) shown in Figure 2.
+
+
+
+
+                                                        5
+
+=== PAGE 6 ===
+the absolute maximum profits that it can hope to gain from this market. But if Firm 2 believes
+that Firm 1 will produce at q1M , then Firm 2 maximizes its profits by producing directly above
+q1M on its reaction function R2. This point is labeled a (Firm 2’s level of output at that point is
+determined from the vertical axis). If Firm 1 believes that Firm 2 will produce at a, however, it
+should react by producing at point b since this is where its profits are maximized given a. But if
+Firm 2 believes Firm 1 will produce at point b, then it maximizes profits by producing at point c.
+The reasoning continues until point e is reached from which neither firm has an incentive to
+deviate. Thus, point e is called the Cournot-Nash equilibrium. It is the point at which reaction
+functions intersect.7
+
+The Cournot-Nash equilibrium is the expected outcome for oligopolists that profit-maximize by
+taking their rival’s output as given. If these Cournot oligopolists were explicitly colluding,
+however, they might be able to achieve higher profits. This is the goal of a cartel. Recall that the
+monopoly level of output is the profit maximizing output for a single firm and that it is the point
+at which any particular market maximizes total profit. So if the oligopolists collude to simply
+split the monopoly output, both of them would receive monopoly profits. This collusive outcome
+is shown in Figure 2 on line m. Notice that the line intersects at the monopoly output levels of
+each individual firm. Thus, the line represents all possible combinations of output that the firms
+could respectively produce to generate monopoly profits. A natural expectation is that the firms
+will split the monopoly quantity evenly at point m and each firm will produce the collusive
+quantity qc.
+
+Collusive agreements of this sort, however, are notoriously difficult to hold, as evidenced by the
+oil cartel. Once output quotas have been set by OPEC, it seems a number of member countries
+produce more than their quota. To see why, imagine that OPEC has only two members, Firm 1
+and Firm 2. They hold a meeting and decide to limit each firm to the collusive output, qc (point m).
+But if Firm 1 knows that Firm 2 will produce qc, then it maximizes its profits by producing on its
+reaction function at a point horizontal to qc on R1. This lies somewhere below point d on the
+graphic and represents a quantity output level above even the Cournot-Nash equilibrium. If Firm
+2 thinks Firm 1 will defect from the collusive outcome and produce on its reaction function, it
+maximizes profit by producing on its own reaction function, and the duopolists are right back
+into the Cournot game. This incentive to defect from collusive agreements means that they often
+don’t last long.
+
+Bertrand
+
+Standard Bertrand oligopoly is competition in price among homogeneous producers. These are
+markets in which there are few information constraints so that consumers can see most prices
+most of the time (in modeling, it’s all prices all of the time) and goods are truly homogeneous.
+Markets fitting these constraints were at one time rare—non-consolidated commodity markets
+were among the few good examples. However, in an Internet world, Bertrand markets are much
+more common. Indeed, the Internet has made many markets commodity-like. The Internet
+lowers constraints to the free flow of information so that sellers are required to compete
+vigorously on price with other sellers of the same good. With few information constraints price
+is king—the lowest price impresses consumers and they buy, rewarding low-price firms with
+business. Naturally, this fact creates intense price competition among rivals.
+
+In the formal model, we assume two firms with homogeneous technology offer homogeneous
+products to a market. Consumers see all prices, there are no switching costs, no transaction costs,
+
+7 The analytical task of finding the intersecting point is to set the reaction functions equal to one another and
+
+solve for n equations in n unknowns, where n is the number of firms competing in the oligopoly.
+
+
+
+                                                        6
+
+=== PAGE 7 ===
+no capacity constraints, and the firms have identical cost structures; i.e. marginal cost is equal.
+Suppose Firm 1 sets price at P. Firm 2 has a choice to set its price either above, equal to, or below
+Firm 1’s price. If it sets price above, Firm 2 sells 0, since consumers prefer the lowest price and
+give all their business to Firm 1. If Firm 2 sets price equal to Firm 1, each firm obtains half of the
+market. If Firm 2 sets price below Firm 1, then Firm 2 takes the whole market since it is offering
+the lowest price. Since by setting price just slightly below price P, Firm 1 can take the whole
+market rather than just fifty percent, Firm 2 always prefers undercutting in the short run. But
+Firm 1 knows this, so it does not hold its price at P either. Anticipating that it will be undercut by
+Firm 2, Firm 1 has already determined to lower price P to be sure it falls below whatever Firm 2
+establishes as their price. But Firm 2 knows that Firm 1 is thinking this way and has already
+anticipated that reaction, and so has gone even further below Firm 1. But Firm 1 knows that Firm
+2 knows that Firm 1 knows this, so it anticipates that particular price cut already. Proceeding in
+this fashion the firms “race to the bottom,” stopping only when they arrive at marginal cost.
+
+The reality is that the above reasoning plays out instantaneously before prices are set in the first
+place. Thus, the standard Bertrand-Nash equilibrium is P1=P2=MC1=MC2. Prices are simply set
+at marginal cost, which here we assumed were equal between the two firms.
+
+A question arises about whether these standard Bertrand oligopolists can sustain collusion at a
+point above marginal cost. Must they race to the bottom? The answer is no, not necessarily, but
+avoidance of this is extremely difficult in these markets. Knowing that they will play the game
+together every period for some unknown time horizon could give them strong incentive to
+cooperate. In this context, cooperation means that Firm 2 matches price P rather than
+undercutting. Observing this, Firm 1 holds steady and the firms split the market. This collusive
+outcome is sustainable only when it clearly benefits the firms over the long run. Unfortunately,
+the pull of taking the entire market at only a slightly lower price is a strong one, so pressure to
+defect is great. But if players are wise, they already know the end game so they’d rather split the
+market at a higher price than at a price equal to marginal cost. The fly in the ointment is that if
+price is already at marginal cost, raising price is very difficult. If either firm raises price, they lose
+all sales for a period—a very costly outcome. An illegal phone call to a rival is of course not an
+option.
+
+Even if collusion is reached, however, it is likely to be temporary at best in these types of markets.
+Others can often enter and quickly spoil the norms. Or, if there are many firms, no firm can be
+certain that all rivals understand clearly what’s going on. So they expect price cutting and reason
+their way to the bottom at the outset.
+
+An important variation on the standard Bertrand model is as follows: What if marginal costs are not
+equal while goods remain homogeneous? In these circumstances the lower cost firm easily drives the
+other out of the market. However, to do so, the low-cost firm need not price at their own
+marginal cost; instead, they price just below the high-cost firm’s marginal cost. That way, they
+maximize their profit on each unit sold while still taking the whole market.
+
+A final variation of the model is to impose capacity constraints. A Bertrand firm can take the
+whole market by undercutting their rival, but if they have capacity constraints and cannot serve
+the whole market, undercutting is pointless. To do so would simply reduce profitability by
+lowering price without raising sales (once capacity is filled). But capacity constraints have effects
+beyond just eliminating price cuts. They actually put upward pressure on price. Firms reason that
+all they have to do is fill their capacity, at any price. So they raise price up to the point that sales
+just dip below their target capacity and then stop. With homogeneous firms, capacity constraints
+mean that prices above marginal cost may be sustainable in Standard Bertrand.
+
+
+
+
+                                                    7
+
+=== PAGE 8 ===
+Stackleberg
+
+Stackleberg oligopoly is mentioned here only briefly and no formal models are provided.
+Stackleberg competition refers to a very specific case of a race to build or expand capacity in a
+market in which it becomes clear that one firm will make its capacity choices before others. Both
+the leader firm and the follower firms know about the others. In the two-firm case, Firm 1 makes
+its build choices before Firm 2, knowing that Firm 2 will also build capacity. Firm 2 knows that
+Firm 1 knows this and so builds a smaller plant while Firm 1 builds a larger plant. Thus,
+Stackleberg is a type of first-mover advantage in which the leader takes a greater market share
+than the follower. However, the formal model is complicated and probably the most unrealistic
+of all the models discussed here so let’s move on …
+
+Differentiated Bertrand8
+
+Differentiated Bertrand is the most common type of oligopoly in today’s world. It is a market in
+which goods are moderately differentiated and price is the primary strategic variable. Think of
+cola, desktop computers, automobiles, airlines, ski resorts, and a long list of other markets.
+
+In contrast to standard Bertrand competition, high sustainable prices in differentiated Bertrand
+markets are possible because of product differentiation. The reasoning is as follows: Suppose that
+Firm 1 and Firm 2 compete together with products that are differentiated but are nevertheless
+strong substitutes. Because Firm 1 has a loyal following among at least some of its customers, it
+can command a positive (but low) price for its product even if Firm 2 is giving away its product
+for nothing (many loyal Coke drinkers would still pay 10 cents for a can of Coke even if a free can
+of Pepsi were being offered right beside it). In terms of Figure 3 below, even if p2 is 0, Firm 1 can
+charge positive price p1min. Firm 2 enjoys the same effects with their product—they can charge a
+positive price and get some sales even if Firm 1 is giving away its product for free. Since both
+firms know this to be the case, each reasons that they can increase price. They each know that the
+differences in product features mean that if their rival moves from 0 to a higher price, they can
+charge that higher price plus a premium for some of their customers. So each firm continues to
+raise price until they’ve exhausted the willingness of consumers to pay the premium. In practice,
+each additional price increase lowers the premium that consumers are willing to pay until finally
+consumers reach a point at which they’re indifferent between products. This happens as
+elasticity changes along the demand curve. The effect is upward sloping reaction functions that
+eventually cross.9
+
+The game reasoning is as follows. Suppose Firm 2 sets price at 0. Then Firm 1 charges positive
+price p1min. But if Firm 1 charges positive price p1min, then Firm 2 maximizes profits by charging
+the price corresponding to point a on its reaction function R2 (Firm 2’s price is read off of the
+
+8 Although convention in the Industrial Organization literature refers to the equilibrium under
+
+Differentiated Bertrand competition as Bertrand-Nash, neither label is proper as pointed out by Morrison
+(1998). Augustin Cournot (1838) was the originator of both quantity competition models and the classic
+models of heterogeneous-good competition in price with upward sloping reaction functions. Although the
+naming convention is unfortunate we maintain the status quo here.
+9
+  To illustrate, consider the following demand curve for each firm i: Qi = a – pi + pj , where pi and pj are the
+prices of Firm i and Firm j, respectively, and a is a constant. Total revenue for Firm i is piQi = api – pi2 + pipj .
+To compute marginal revenue, differentiate with respect to pi yielding MR = a - 2pi + pj. Set MR equal to
+marginal cost of –c (cost falls as price rises) and solve for optimal price yielding pi* = (a + pj + c)/2 . Thus, the
+profit maximizing price for Firm i depends on the price of rival Firm j. This is also the equation of the
+reaction function R1(p2) shown in Figure 3. Notice that it slopes upward (pi increases with increases in pj ),
+and that when pj = 0, pi is a positive (a + c)/2. To find the equilibrium, solve the system of reaction functions.
+Doing so yields pi = a + c .
+
+
+
+                                                         8
+
+=== PAGE 9 ===
+vertical axis corresponding to point a). But if Firm 1 knows Firm 2 charges a price at a, then it
+maximizes profits by charging a price at point b. Knowing this, however, Firm 2 sets price at c,
+and so forth until equilibrium point d is reached from which the firms have no incentive to
+deviate. Notice again that firms are only maximizing their profits and not explicitly colluding,
+while still reaching high price points.
+
+As shown, in differentiated Bertrand, there is upward pressure on price, but this upward
+pressure eventually evaporates at the (differentiated) Bertrand-Nash equilibrium. If prices
+somehow initialize above this equilibrium point, then there is downward pressure on price in
+standard Bertrand fashion except that here prices do not fall to marginal cost, only to the
+equilibrium point.
+
+
+
+     Figure 3 – Differentiated Bertrand Duopoly Reaction Functions and the
+                           Bertrand-Nash Equilibrium
+
+
+
+
+Determining Market Structure and Competition
+
+When examining markets to ascertain the type of market structure (i.e. monopoly, oligopoly, etc.)
+and competition (i.e. Cournot, Bertrand, etc.), focus on a few key market and firm characteristics.
+Ask first,
+
+     1.   How many firms are meaningfully engaged in direct competition? It’s easy to define markets
+          too broadly. Gasoline stations in north Provo don’t really compete directly with gasoline
+          stations in south Provo, so at one level at least, they shouldn’t be placed in the same
+          market.10 Rather, competition in retail gasoline mimics oligopoly at local intersections.
+          Likewise, cell phone companies are competing on the basis of national networks so their
+          market is national in scale: oligopoly. Another way to think about market boundaries is
+          to ask,
+
+10
+  In this case, other levels of competition are present. For example, most gasoline stations are supplied by
+what is now a recently consolidated industry of vertically integrated, oligopolistic refiners (e.g.
+ChevronTexaco, ExxonMobile).
+
+
+
+                                                      9
+
+=== PAGE 10 ===
+2.   What percentage of the firms’ target customer base overlaps? If the percentage is high, the
+     firms in question are probably in direct competition. The respective customer bases of
+     ski resorts in the vicinity of Salt Lake City overlap quite significantly. On the other hand,
+     perhaps some of the target population of ski resorts in Salt Lake and ski resorts in
+     Colorado overlaps in the target customer group of vacation skiers living on the East coast.
+     So while ski resorts in Salt Lake are definitely in a (Differentiated Bertrand) oligopoly
+     together, at another level, they may be in an oligopoly with high-end resorts in Colorado.
+     Lastly, when determining the type of competition in an oligopoly ask,
+
+3.   What is the primary strategic variable in competition? What are firms using to differentiate
+     themselves from competitors or to attract customers? Price? Programs? Product
+     features? Lead time? Are firms choosing quantity and letting price float, or are they
+     making explicit attempts to set price? In airlines, for example, the primary strategic
+     variable is price, while firms also like to avoid price competition where possible and use
+     non-price features, such as frequent flier programs as a differentiator. Nevertheless, in
+     this case, the dominant consideration used to attract consumers is price. Thus, we
+     conclude that airlines operate in Bertrand competition. If we observe that the airlines are
+     at least slightly differentiated (in location, routes, or programs, for example), then we
+     further conclude they operate in Differentiated Bertrand oligopoly.
+
+
+
+
+                                             10

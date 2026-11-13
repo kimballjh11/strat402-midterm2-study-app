@@ -1,0 +1,635 @@
+
+=== PAGE 1 ===
+STRAT 402
+ECONOMICS OF STRATEGY
+Session 16
+Production II
+
+=== PAGE 2 ===
+WSA Event
+
+=== PAGE 3 ===
+Agenda
+▪Office Hours
+▪Group Project Checkpoint #3
+▪Production Lecture
+▪In-Class Exercise
+▪Introduce Production Spreadsheet
+
+=== PAGE 4 ===
+Prior Class
+▪Know and understand the following economic concepts:
+  oTotal product
+  oAverage product
+  oMarginal product
+  oIncreasing, decreasing, and negative marginal returns
+  oValue marginal product
+  oProduction functions (Linear, Leontief, Cobb-Douglas)
+▪Know how to calculate the profit-maximizing input usage
+▪Know and understand the characteristics of the linear, Leontief, and
+ Cobb-Douglas production functions
+
+=== PAGE 5 ===
+Production Function
+A production function defines the relationship between inputs and
+outputs
+
+                                    Q = f(K,L)
+
+where K is the units of capital and L is the units of labor.
+
+Types of production functions
+  1. Linear
+  2. Cobb-Douglas
+  3. Leontief (Fixed-Proportions)
+
+=== PAGE 6 ===
+Comparing Production Functions
+               Linear                 Cobb-Douglas          Leontief (Fixed-proportions)
+Equation       𝑄 = 𝑓 𝐾, 𝐿 = 𝑎𝐾 + 𝑏𝐿   𝑄 = 𝑓 𝐾, 𝐿 = 𝐾 𝑎 𝐿𝑏     𝑄 = 𝑓 𝐾, 𝐿 = min(𝑎𝐾, 𝑏𝐿)
+Example             𝑄 = 4𝐾 + 1𝐿          𝑄 = 𝐾 0.5 𝐿0.5            𝑄 = min(1𝐾, 1𝐿)
+
+=== PAGE 7 ===
+Learning Objectives
+▪Know and understand the following economic concepts:
+ oIsoquants
+ oMarginal rate of technical substitution (MRTS)
+ oLaw of diminishing MRTS
+ oIsocosts
+▪Know and understand how to graph and isoquant
+▪Know and understand the cost-minimizing input rule
+▪Know and understand optimal input substitution
+
+=== PAGE 8 ===
+Isoquants in 3D
+
+=== PAGE 9 ===
+Isoquants in 2D
+                       Cobb-Douglas Function
+                       10
+
+                       9
+
+                       8
+
+                       7
+
+
+
+
+         Capital (K)
+                       6
+
+                       5
+
+                       4
+
+                       3
+
+                       2
+
+                       1
+
+                       0
+                            0   1   2   3   4   5   6   7   8   9   10
+                                            Labor (L)
+
+=== PAGE 10 ===
+Isoquant
+Isoquant – a line that defines the combination of inputs that
+yield the same output
+                         Linear Function                         Cobb-Douglas                                Leontief Function
+                    10                                             Function                                 10
+                     9                                                                                       9
+                                                                10
+                     8                                                                                       8
+                                                                 9
+                     7                                           8                                           7
+
+
+
+      Capital (K)                                 Capital (K)                                 Capital (K)
+                     6                                           7                                           6
+                     5                                           6                                           5
+                     4                                           5                                           4
+                     3                                           4
+                                                                                                             3
+                                                                 3
+                     2                                           2                                           2
+                     1                                           1                                           1
+                     0                                           0                                           0
+                         0 1 2 3 4 5 6 7 8 9 10                      0 1 2 3 4 5 6 7 8 9 10                      0 1 2 3 4 5 6 7 8 9 10
+                                Labor (L)                                  Labor (L)                                    Labor (L)
+
+=== PAGE 11 ===
+Comparing Production Functions
+               Linear                   Cobb-Douglas          Leontief (Fixed-proportions)
+Equation       𝑄 = 𝑓 𝐾, 𝐿 = 𝑎𝐾 + 𝑏𝐿     𝑄 = 𝑓 𝐾, 𝐿 = 𝐾 𝑎 𝐿𝑏     𝑄 = 𝑓 𝐾, 𝐿 = min(𝑎𝐾, 𝑏𝐿)
+Example             𝑄 = 4𝐾 + 1𝐿            𝑄 = 𝐾 0.5 𝐿0.5            𝑄 = min(1𝐾, 1𝐿)
+Isoquant                Straight line      Convex curve                  L-shaped
+
+=== PAGE 12 ===
+Comparing Production Functions
+                   Linear                   Cobb-Douglas          Leontief (Fixed-proportions)
+Equation           𝑄 = 𝑓 𝐾, 𝐿 = 𝑎𝐾 + 𝑏𝐿     𝑄 = 𝑓 𝐾, 𝐿 = 𝐾 𝑎 𝐿𝑏     𝑄 = 𝑓 𝐾, 𝐿 = min(𝑎𝐾, 𝑏𝐿)
+Example                 𝑄 = 4𝐾 + 1𝐿            𝑄 = 𝐾 0.5 𝐿0.5            𝑄 = min(1𝐾, 1𝐿)
+Isoquant                    Straight line      Convex curve                  L-shaped
+Substitutability              Perfect            Imperfect                    None
+
+=== PAGE 13 ===
+Rate of Substitution
+Marginal rate of technical substitution (MRTS) – the rate at which a
+producer can substitute between two inputs and maintain the same
+level of output
+
+                                     𝜕𝑄
+                           𝑀𝑃𝐿       𝜕𝐿     𝜕𝐾   ∆𝐾
+                    𝑀𝑅𝑇𝑆 =     =     𝜕𝑄   =    ≈
+                           𝑀𝑃𝐾              𝜕𝐿   ∆𝐿
+                                     𝜕𝐾
+
+
+
+The MRTS is simply the slope of the isoquant.
+
+=== PAGE 14 ===
+Isoquant
+Isoquant – a line that defines the combination of inputs that
+yield the same output
+                         Linear Function                         Cobb-Douglas                                Leontief Function
+                    10                                             Function                                 10
+                     9                                                                                       9
+                                                                10
+                     8                                                                                       8
+                                                                 9
+                     7                                           8                                           7
+
+
+
+      Capital (K)                                 Capital (K)                                 Capital (K)
+                     6                                           7                                           6
+                     5                                           6                                           5
+                     4                                           5                                           4
+                     3                                           4
+                                                                                                             3
+                                                                 3
+                     2                                           2                                           2
+                     1                                           1                                           1
+                     0                                           0                                           0
+                         0 1 2 3 4 5 6 7 8 9 10                      0 1 2 3 4 5 6 7 8 9 10                      0 1 2 3 4 5 6 7 8 9 10
+                                Labor (L)                                  Labor (L)                                    Labor (L)
+
+=== PAGE 15 ===
+Comparing Production Functions
+                     Linear                   Cobb-Douglas          Leontief (Fixed-proportions)
+Equation             𝑄 = 𝑓 𝐾, 𝐿 = 𝑎𝐾 + 𝑏𝐿     𝑄 = 𝑓 𝐾, 𝐿 = 𝐾 𝑎 𝐿𝑏     𝑄 = 𝑓 𝐾, 𝐿 = min(𝑎𝐾, 𝑏𝐿)
+Example                   𝑄 = 4𝐾 + 1𝐿            𝑄 = 𝐾 0.5 𝐿0.5            𝑄 = min(1𝐾, 1𝐿)
+Isoquant                      Straight line      Convex curve                  L-shaped
+Substitutability                Perfect            Imperfect                    None
+MRTS (Formula)                 𝑀𝑃𝐿 𝑏          𝑀𝑃𝐿 𝑏𝐾 𝑎 𝐿𝑏−1 𝑏𝐾                   N/A
+                                  =              =         =
+                               𝑀𝑃𝐾 𝑎          𝑀𝑃𝐾 𝑎𝐾 𝑎−1 𝐿𝑏 𝑎𝐿
+MRTS (Description)             Constant             Changes                   Undefined
+
+=== PAGE 16 ===
+Law of Diminishing MRTS
+For every unit decrease in
+one input of production,                            Marginal Rate of Technical
+increasing amounts of                                 Substitution (MRTS)
+                                           10
+another input must be                                     D
+employed to produce the                    8
+
+same level of output
+                             Capital (K)
+                                           6                      C
+
+                                           4                                 B
+                                                                                      A
+                                           2
+
+                                           0
+                                                0     1       2          3        4       5   6
+                                                                      Labor (L)
+
+=== PAGE 17 ===
+Law of Diminishing MRTS
+Point   Q         L      K    ΔL   ΔK   MRTS = ΔK/ΔL
+ A      100       4      3     -    -        -
+ B      100       3      4
+ C      100       2      6
+ D      100       1      9
+
+=== PAGE 18 ===
+Law of Diminishing MRTS
+Point   Q         L      K    ΔL   ΔK   MRTS = ΔK/ΔL
+ A      100       4      3     -    -        -
+ B      100       3      4    -1    1        -1
+ C      100       2      6    -1    2        -2
+ D      100       1      9    -1    3        -3
+
+=== PAGE 19 ===
+Law of Diminishing MRTS
+Why would it take increasing amounts of capital to maintain a production level of
+100?
+                                                    Total Product
+                                       70
+                                       60
+
+
+
+                        Quantity (Q)
+                                       50
+                                       40
+                                       30
+                                       20
+                                       10
+                                        0
+                                            0   1    2   3       4         5   6   7   8
+                                                             Capital (K)
+
+
+
+                Diminishing marginal returns (4-6 units of capital)
+
+=== PAGE 20 ===
+In-Class Exercise: Production Functions
+
+                          Cobb-Douglas Production                                                                                     Cobb-Douglas Production
+                               Function - 3D                                                                                               Function - 2D
+                                                                                                                        9-10                 10                                              9-10
+                                                                                                                        8-9                  9                                               8-9
+                                                                                                                                             8
+                                                                                                                        7-8                                                                  7-8
+
+
+
+
+ Quantity Produced (Q)
+                         10                                                                                                                  7
+                          9                                                                                             6-7                                                                  6-7
+                          8                                                                                                                  6
+                                                                                                                        5-6                                                                  5-6
+
+                                                                                                                               Capital (K)
+                          7
+                          6                                                                                                                  5
+                          5                                                                                             4-5                                                                  4-5
+                          4                                                                                                                  4
+                          3                                                                                             3-4                  3                                               3-4
+                                                                                                     10
+
+
+                                                                                                          Capital (K)
+                          2                                                                          9
+                          1                                                                      8                      2-3                  2                                               2-3
+                                                                                             7
+                          0                                                              6
+                                                                                     5
+                              0 1                                            3
+                                                                                 4                                      1-2                  1                                               1-2
+                                    2 3                                  2
+                                          4 5                        1                                                                       0
+                                                6 7              0                                                      0-1                                                                  0-1
+                                                      8 9
+                                                            10                                                                                    0   1   2   3   4   5   6   7   8   9 10
+                                      Labor (L)                                                                                                                   Labor (L)
+
+=== PAGE 21 ===
+Math Review: Simplifying Exponents
+
+=== PAGE 22 ===
+Computing the MPL/MPK
+Suppose you have the following Cobb-Douglas production
+function below.
+
+                       𝑄 = 𝐾 0.25 𝐿0.75
+
+What is the formula for the marginal product of capital?
+
+=== PAGE 23 ===
+Computing the MPL/MPK
+                 𝑄 = 𝐾 0.25 𝐿0.75
+
+      𝜕𝑄
+𝑀𝑃𝐾 =    = 0.25 𝐾 0.25−1 𝐿0.75 = 0.25𝐾 −0.75 𝐿0.75
+      𝜕𝐾
+                         0.75              0.75
+            𝜕𝑄 0.25𝐿                   𝐿
+      𝑀𝑃𝐾 =    =                = 0.25
+            𝜕𝐾   𝐾 0.75                𝐾
+
+=== PAGE 24 ===
+Graphing Isoquants
+Suppose that the production process for your company could be
+modeled by the following equation:
+
+                             𝑄 = 2𝐾 0.5 𝐿0.5
+
+Also suppose that your daily target output is Q = 100.
+
+How could you graph an isoquant depicting the various combinations
+of K and L that would give you 100 units of output?
+
+=== PAGE 25 ===
+Graphing Isoquants
+1. Plug in target output into the equation
+
+                                 100 = 2𝐾 0.5 𝐿0.5
+
+2. Solve the equation for K
+
+                                 100 = 2𝐾 0.5 𝐿0.5
+
+                                  100       0.5
+                                        = 𝐾
+                                  2𝐿0.5        2
+                                        100
+                                  𝐾=
+                                        2𝐿0.5
+
+=== PAGE 26 ===
+Managerial Question
+As a manager, suppose you’ve forecasted that demand for the next month will be 100 units. Based
+on your understanding of an isoquant, what combination of capital and labor should you use to
+reach your production target?
+
+                                              Isoquant, Q = 100 units
+                                             40
+                                             35
+                                             30
+
+
+
+                               Capital (K)
+                                             25
+                                             20
+                                             15
+                                             10
+                                             5
+                                             0
+                                                  0   10      20       30   40
+                                                           Labor (L)
+
+=== PAGE 27 ===
+Cost Model
+How might we mathematically model the cost of production?
+
+        𝑇𝑜𝑡𝑎𝑙 𝐶𝑜𝑠𝑡 = 𝐿𝑎𝑏𝑜𝑟 𝐶𝑜𝑠𝑡 + 𝐶𝑎𝑝𝑖𝑡𝑎𝑙 𝐶𝑜𝑠𝑡
+
+                      𝐶 = 𝑤𝐿 + 𝑟𝐾
+
+=== PAGE 28 ===
+Cost Model
+How could you plot the cost equation on a graph where K is on the y-
+axis and L is on the x-axis?
+
+                             𝐶 = 𝑤𝐿 + 𝑟𝐾
+
+                            𝐶 − 𝑤𝐿 = 𝑟𝐾
+
+                             𝐶 − 𝑤𝐿
+                                    =𝐾
+                               𝑟
+                               𝑤   𝐶
+                            𝐾=− 𝐿+
+                               𝑟   𝑟
+
+=== PAGE 29 ===
+Isocost
+Isocost – a line that defines the                 Isocost, Total Cost = C
+combination of inputs that will
+cost the producer the same
+amount of money
+
+                                    Capital (K)
+            𝑤   𝐶
+         𝐾=− 𝐿+
+            𝑟   𝑟
+
+What is the slope? Intercept?
+                                                           Labor (L)
+
+=== PAGE 30 ===
+Changes in Isocosts
+Suppose the CEO of your company has given you a weekly production
+budget of $1,000 and the current wage rate is $10 and the current
+rental rate is $25. Draw a graph of the isocost line and then answer the
+following questions:
+
+1. How many labor/machine hours could I employ if I only used
+   labor/capital?
+2. Suppose your production budget was increased/decreased by
+   50%. How would that shift or alter the isocost line?
+3. Suppose the standard wage in your industry doubled to $20. How
+   would that shift or alter your isocost line?
+
+=== PAGE 31 ===
+Changes in the Isocost Line
+How many labor/machine hours could I employ if I only used
+labor/capital?
+
+                            𝐶                         𝐶
+                𝑀𝑎𝑥 𝐿𝑎𝑏𝑜𝑟 =             𝑀𝑎𝑥 𝐶𝑎𝑝𝑖𝑡𝑎𝑙 =
+                            𝑤                         𝑟
+
+If C = $1,000, and I only used labor than I could potentially pay for 100
+labor hours (1,000/10).
+
+If C = $1,000, and I only used capital than I could potentially pay for 40
+machine hours (1,000/25).
+
+=== PAGE 32 ===
+Changes in the Isocost Line
+Suppose your production budget was increased/decreased
+by 50%. How would that shift or alter the isocost line?
+
+=== PAGE 33 ===
+Changes in the Isocost Line
+
+                        50% increase (C = $1,500)                                                     50% decrease (C = $500)
+                              Isocost Line                                                                 Isocost Line
+              80
+                                                                                           80
+              70
+                                                                                           70
+              60
+                                                                                           60
+
+
+Capital (K)
+              50
+
+
+                                                                             Capital (K)
+                                                                                           50
+              40                                                                           40
+              30                                                                           30
+              20                                                                           20
+              10                                                                           10
+              0                                                                            0
+                   0    20   40    60       80       100   120   140   160                      0    20    40   60       80 100 120 140 160
+                                         Labor (L)                                                                    Labor (L)
+                       Baseline Budget           Adjusted Budget                                    Baseline Budget       Adjusted Budget
+
+=== PAGE 34 ===
+Changes in the Isocost Line
+
+Suppose the standard wage                                       Isocost Line
+in your industry doubled to                 80
+
+                                            70
+$20. How would that shift                   60
+or alter your isocost line?                 50
+
+
+                              Capital (K)
+                                            40
+
+                                            30
+
+                                            20
+
+                                            10
+
+                                            0
+                                                 0   20    40       60         80       100     120   140   160
+                                                                            Labor (L)
+
+                                                          Baseline Budget           Adjusted Budget
+
+=== PAGE 35 ===
+Cost Minimization
+
+If I’m a cost minimizing manager                          Cost Minimization
+that needs to produce 100 units,                 40
+
+which combination of L and K do                  35
+
+I employ when w = $40 and r =                    30
+
+$10?                                             25
+
+
+                                   Capital (K)
+                                                 20
+
+                                                 15
+
+                                                 10
+
+                                                 5
+
+                                                 0
+                                                      0    10        20       30   40
+                                                                  Labor (L)
+
+=== PAGE 36 ===
+Cost-Minimizing Input Rule
+
+To minimize cost the cost of production, a firm should employ inputs
+such that the MRTS (the slope of the isoquant) is equal to the ratio of
+the input prices (the slope of the isocost).
+
+                               𝑀𝑃𝐿 𝑤
+                                  =
+                               𝑀𝑃𝐾 𝑟
+
+=== PAGE 37 ===
+Cost Minimization
+
+If I’m a cost minimizing manager                                    Cost Minimization
+that needs to produce 100 units,                 40
+
+which combination of L and K do                  35
+
+I employ when w = $40 and r =                    30
+
+$10?                                             25
+
+
+                                   Capital (K)
+                                                 20
+
+                                                 15
+
+                                                 10
+
+                                                 5
+
+                                                 0
+                                                      0         10              20             30            40
+                                                                            Labor (L)
+                                             Quantity = 100 Units     Cost = $1,600     Cost = $2,000   Cost - $4,160
+
+=== PAGE 38 ===
+Cost-Minimizing Input Rule
+To minimize cost the cost of production, a firm should employ inputs such
+that the MRTS (the slope of the isoquant) is equal to the ratio of the input
+prices (the slope of the isocost).
+                                  𝑀𝑃𝐿 𝑤
+                                     =
+                                  𝑀𝑃𝐾 𝑟
+
+Alternatively, we can say using algebra that the cost of producing a given
+level of output will be minimized when the marginal product (bang) per
+dollar spent (buck) is equal for all inputs.
+
+                                𝑀𝑃𝐿 𝑀𝑃𝐾
+                                   =
+                                 𝑤   𝑟
+
+=== PAGE 39 ===
+Cost-Minimizing Input Rule
+
+Fill in the table below using the “bang-for-the buck” formula. What
+patterns do you see? At what point are costs minimized?
+
+                               𝑀𝑃𝐿 𝑀𝑃𝐾
+                                  =
+                                𝑤   𝑟
+
+   (L,K)     MPL       MPK         w          r       MPL/w      MPK/r
+  25, 4       2         12.5       40        10
+  10, 10      5          5         40        10
+  5, 20       10        2.5        40        10
+
+=== PAGE 40 ===
+Cost-Minimizing Input Rule
+
+Fill in the table below using the “bang-for-the buck” formula. What
+patterns do you see? At what point are costs minimized?
+
+                               𝑀𝑃𝐿 𝑀𝑃𝐾
+                                  =
+                                𝑤   𝑟
+
+   (L,K)     MPL       MPK         w          r       MPL/w      MPK/r
+  25, 4       2         12.5       40        10       0.050      1.250
+  10, 10      5          5         40        10       0.125      0.500
+  5, 20       10        2.5        40        10       0.250      0.250
+
+=== PAGE 41 ===
+Log-Linear Regression
+         𝑄 = 𝑐𝐾 𝑎 𝐿𝑏
+
+      𝑙𝑛𝑄 = 𝑙𝑛 𝑐𝐾 𝑎 𝐿𝑏
+
+   𝑙𝑛𝑄 = 𝑙𝑛𝑐 + 𝑙𝑛𝐾 𝑎 + 𝑙𝑛𝐿𝑏
+
+ 𝑙𝑛𝑄 = 𝑙𝑛𝑐 + 𝑎 𝑙𝑛𝐾 + 𝑏 𝑙𝑛𝐿
+
+=== PAGE 42 ===
+Log-Linear Regression
+     ln(𝑐) = constant
+
+ 𝑎 = 𝑐𝑜𝑒𝑓𝑓𝑖𝑐𝑖𝑒𝑛𝑡 𝑓𝑜𝑟 ln(𝐾)
+
+ 𝑏 = 𝑐𝑜𝑒𝑓𝑓𝑖𝑐𝑖𝑒𝑛𝑡 𝑓𝑜𝑟 ln(𝐿)
+
+    𝑄 = 𝑒 𝑐𝑜𝑛𝑠𝑡𝑎𝑛𝑡 𝐾 𝑎 𝐿𝑏
+
+=== PAGE 43 ===
+In-Class Exercise
+▪Work on the In-Class Exercise with the groups
+▪Check your answers on Learning Suite

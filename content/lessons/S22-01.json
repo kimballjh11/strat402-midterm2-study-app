@@ -1,0 +1,67 @@
+{
+ "id": "S22-01",
+ "title": "Standard Bertrand oligopoly",
+ "calc": true,
+ "plain": "**Standard Bertrand oligopoly** is competition in **price** among firms selling **homogeneous** (identical) goods (Bryce p. 6).\n\n**The model's assumptions** (Bryce pp. 6 to 7): two firms with the same technology sell identical products; consumers see all prices; no switching costs, no transaction costs, no capacity constraints; identical marginal costs. Textbook conditions: few firms serving many consumers; identical products at a constant marginal cost; firms compete on price and react optimally to rivals' prices; consumers have perfect information and no transaction costs; barriers to entry.\n\n**The race to the bottom** (Bryce p. 7). Firm 1 sets price P. Firm 2 can price above (sells 0), equal (gets half), or just below (gets the whole market). Undercutting always pays, so each firm undercuts the other, and they stop only at marginal cost. The firms reason through this instantly, so:\n$$P_1 = P_2 = MC_1 = MC_2$$\n**Each firm earns zero economic profit, even with only two firms.** This is the textbook's \"Bertrand trap\": the perfectly competitive outcome with no deadweight loss.\n\n**Variations** (Bryce p. 7):\n- **Unequal marginal costs:** the low-cost firm takes the whole market by pricing **just below the high-cost firm's marginal cost**, not at its own MC, earning a margin on every unit.\n- **Capacity constraints:** a firm that cannot serve the whole market gains nothing by undercutting, so prices above MC may be sustainable.\n- **Repeated play:** with no certain end, firms might match instead of undercut, but holding prices above MC is very hard here; entrants or many rivals spoil it.\n\n**Where it fits:** markets where consumers see all prices and goods are truly alike. Bryce: the Internet made many markets commodity-like and Bertrand markets much more common. Textbook evidence (Inside Business 9-3): on a price comparison site, the gap between the two lowest prices averaged 22% with two sellers and under 3% with more than 20.\n\n**Escaping the trap** (textbook): raise switching costs or make buyers see the products as different (why Kellogg's and General Mills advertise their corn flakes).\n\n**Contestable markets** (textbook): if all producers have the same technology, consumers respond quickly, incumbents cannot quickly cut price after entry, and there are **no sunk costs**, then even one incumbent must price at cost, because a hit-and-run entrant would undercut. Sunk costs (costs an entrant cannot recover on exit) protect incumbents.",
+ "why": "Practice exam Q30, Comprehension Quiz 10 Q7 and Q8 and the Session 22 reading quiz Q1 and Q3 are expected to test standard Bertrand.",
+ "definition": "Standard Bertrand oligopoly: a few firms selling identical products at constant marginal cost compete on price; consumers have perfect information and no switching or transaction costs. The equilibrium is P = MC with zero economic profit.",
+ "formulas": [
+  {
+   "name": "Standard Bertrand equilibrium, equal costs",
+   "tex": "P_1 = P_2 = MC",
+   "onSheet": false
+  },
+  {
+   "name": "Unequal costs (c_1 < c_2)",
+   "tex": "P \\approx c_2, \\quad \\pi_1 \\approx (c_2 - c_1)\\,Q(c_2)",
+   "onSheet": false,
+   "note": "Low-cost firm prices just below the rival's MC and serves the whole market (if its monopoly price is higher than c_2)."
+  }
+ ],
+ "derivation": "Any price above MC can be undercut by a penny to take the whole market, so it is not an equilibrium. A price below MC loses money. Only P = MC survives.",
+ "math": [],
+ "worked": [
+  {
+   "title": "Unequal costs",
+   "problem": "Two sellers of an identical part face market demand Q = 1,000 - 10P. Firm 1's MC is $20, firm 2's is $30. Consumers see all prices. What price and profits result?",
+   "steps": [
+    "Firm 1 prices just below $30 (call it $30).",
+    "Q = 1,000 - 10(30) = 700, all from firm 1.",
+    "Firm 1's profit is about (30 - 20) × 700 = $7,000; firm 2 sells nothing.",
+    "Check: firm 1's monopoly price would be higher than $30, so it does not want to price above $30."
+   ],
+   "answer": "P just under $30; firm 1 earns about $7,000; firm 2 earns 0."
+  },
+  {
+   "title": "Sunk costs and entry (textbook numbers)",
+   "problem": "An entrant must pay $100,000 for a moving truck it could resell for $80,000 on exit. How much of that is sunk?",
+   "steps": [
+    "Sunk = what cannot be recovered: 100,000 - 80,000."
+   ],
+   "answer": "$20,000 is sunk. If incumbents would cut prices before the entrant earns that back, it stays out."
+  }
+ ],
+ "graph": {
+  "component": "reaction",
+  "params": {
+   "mode": "quantity",
+   "a": 1000,
+   "b": 1,
+   "c1": 4,
+   "c2": 4
+  },
+  "caption": "The table under the graph includes the Bertrand row: price equals MC ($4) and profit is zero."
+ },
+ "traps": [
+  "Bertrand with identical goods and equal costs gives P = MC with only TWO firms.",
+  "With unequal costs the low-cost firm prices just below the RIVAL's MC, not its own.",
+  "Bertrand firms choose PRICE; Cournot firms choose quantity.",
+  "Capacity constraints and differentiation are the escapes; a contestable market with no sunk costs disciplines even a single firm."
+ ],
+ "sources": {
+  "slides": "S22 slides not yet available",
+  "read": "Ch. 9: Bertrand Oligopoly; Comparing Oligopoly Models; Contestable Markets; Bryce pp. 6 to 7",
+  "exercise": "Oligopoly Exercise (not yet available)",
+  "quiz": "Session 22 Reading Quiz Q1, Q3; Comprehension Quiz 10 Q7, Q8 (not yet available); Practice exam Q30"
+ }
+}

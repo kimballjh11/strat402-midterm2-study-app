@@ -1,0 +1,215 @@
+S21 Textbook Notes – Cournot & Stackelberg 
+
+ Session 21 · Oligopoly I — Study Notes 
+ ↓ Jump to textbook figures, formulas & book examples 
+
+ Reading: Baye & Prince, Ch. 9 “Basic Oligopoly Models,” pp. 274–292 (Conditions for Oligopoly; Role of Beliefs; Sweezy, Cournot, and Stackelberg). My own summary — all worked numbers are my own. The S21 slides weren't posted on Canvas, so lean on these notes plus the book in Bookshelf. 
+
+ 1. What makes a market an oligopoly 
+
+ A few large firms (roughly 2–10; two firms = duopoly ). Products can be identical or differentiated. 
+
+ The defining feature is interdependence : your best decision depends on how rivals respond, and theirs depends on you. No single model fits every oligopoly — the right model depends on what you believe rivals will do. 
+
+ 2. Beliefs drive demand 
+
+ A firm's demand curve depends on whether rivals match its price changes: 
+
+ If rivals match price changes → your demand is less elastic (cut price and you gain few customers; raise it and you lose few). 
+
+ If rivals don't match → your demand is more elastic . 
+
+ Either way you still maximize profit at MR = MC ; the hard part is knowing which demand curve you face. 
+
+ 3. The four models at a glance 
+
+ Model Firms choose Timing Key belief 
+
+ Sweezy Price — Rivals match cuts, ignore increases 
+
+ Cournot Quantity Simultaneous Rival's output stays fixed 
+
+ Stackelberg Quantity Leader first, follower second Leader anticipates follower's reaction 
+
+ Bertrand Price Simultaneous Session 22 
+
+ 4. Sweezy oligopoly (kinked demand) 
+
+ Conditions: few firms, many consumers, differentiated products, barriers to entry, and each firm believes rivals will match price cuts but not price increases . 
+
+ Demand is kinked at the current price: elastic above it (raise price → rivals don't follow → you lose lots of sales), inelastic below it (cut price → rivals follow → you gain little). 
+
+ MR has a vertical gap at the kink. If MC moves anywhere within that gap, the profit-maximizing price and output don't change → explains sticky prices . 
+
+ Criticism: it doesn't explain how the initial price (the kink) is set. Use it when experience says rivals behave this way. 
+
+ 5. Cournot oligopoly 
+
+ Conditions: few firms, many buyers, homogeneous or differentiated products, firms choose output simultaneously, each believes rivals hold their output constant, barriers to entry. (Think oil producers choosing how much to pump.) 
+
+ Reaction (best-response) functions 
+
+ Firm 1's reaction function Q₁ = r₁(Q₂) gives its profit-maximizing output for every output the rival might produce. It slopes downward : more output from the rival → lower price → you should produce less. If the rival produces 0, you produce the monopoly quantity. 
+
+ Linear formulas — inverse demand P = a − b(Q₁ + Q₂) , costs C₁ = c₁Q₁ , C₂ = c₂Q₂ : 
+
+Marginal revenue: MR₁ = a − bQ₂ − 2bQ₁   (and symmetrically for firm 2) 
+
+Reaction functions (set MR = MC and solve): 
+
+ Q₁ = (a − c₁)/(2b) − ½·Q₂    Q₂ = (a − c₂)/(2b) − ½·Q₁ 
+
+ Cournot equilibrium = where the reaction functions cross: neither firm wants to change its output given the other's output (a Nash equilibrium in quantities). 
+
+ Practice (my numbers): P = 120 − 2(Q₁ + Q₂), c₁ = c₂ = 20. 
+
+r₁: Q₁ = (120 − 20)/(2·2) − ½Q₂ = 25 − ½Q₂. By symmetry r₂: Q₂ = 25 − ½Q₁. 
+
+Solve: Q₁ = 25 − ½(25 − ½Q₁) → Q₁ = 12.5 + ¼Q₁ → ¾Q₁ = 12.5 → Q₁ = Q₂ ≈ 16.67 . 
+
+Total Q ≈ 33.33 → P = 120 − 2(33.33) ≈ $53.33 . Each firm's profit ≈ (53.33 − 20) × 16.67 ≈ $555.6 . 
+
+ Shortcut for identical costs: each firm makes (a − c)/(3b) = 100/6 ≈ 16.67 ✔ 
+
+ Isoprofit curves 
+
+ An isoprofit curve shows all (Q₁, Q₂) combinations that give firm 1 the same profit. 
+
+ Curves closer to firm 1's monopoly point (on its own axis) = higher profit for firm 1. 
+
+ Each curve peaks where it crosses firm 1's reaction function — that's the best Q₁ for that Q₂. Curves never cross each other. 
+
+ Changes in marginal cost 
+
+ Unlike Sweezy, in Cournot a lower MC shifts that firm's reaction function out → it produces more, the rival produces less, and the low-cost firm gains market share and profit. 
+
+ Collusion in Cournot 
+
+ There's a lens-shaped area of output combinations where both firms earn more than at the Cournot equilibrium (each produces less, price is higher). Jointly producing the monopoly output maximizes industry profit. 
+
+ But each firm has an incentive to cheat: given the rival sticks to the low quota, your reaction function says to expand output. That's why cartels (e.g., OPEC members exceeding production quotas) keep breaking down — and why repeated-game punishment (Session 20) matters. 
+
+ Practice: Same market, collusion splits the monopoly output. Monopoly: MR = 120 − 4Q = 20 → Q = 25, P = $70, industry profit = 50 × 25 = $1,250 → $625 each (vs. ≈ $555.6 in Cournot). If firm 1 cheats while firm 2 keeps 12.5: Q₁ = 25 − ½(12.5) = 18.75 → P = 120 − 2(31.25) = $57.50 → firm 1 earns 37.5 × 18.75 ≈ $703 > $625. Cheating pays in a one-shot game. 
+
+ 6. Stackelberg oligopoly 
+
+ Conditions: few firms, many buyers, homogeneous or differentiated products, barriers to entry, and a leader picks output first ; the follower sees it and best-responds (takes the leader's output as given). 
+
+ The follower uses its ordinary Cournot reaction function. 
+
+ The leader knows this and picks the point on the follower's reaction function that gives the leader the highest isoprofit curve (tangency). 
+
+ Linear formulas (same demand and costs as above): 
+
+Follower: Q₂ = (a − c₂)/(2b) − ½·Q₁ 
+
+Leader: Q₁ = (a + c₂ − 2c₁)/(2b) 
+
+ Result vs. Cournot: leader produces more and earns more ; follower produces less and earns less ; total output is higher and price is lower. This is a first-mover advantage — committing to big output “crowds out” the rival (the textbook ties this to firms racing into new markets like generative AI with early, high volume). 
+
+ Practice (my numbers): P = 120 − 2(Q₁ + Q₂), c₁ = c₂ = 20. Firm 1 leads. 
+
+Leader: Q₁ = (120 + 20 − 40)/(2·2) = 100/4 = 25 . 
+
+Follower: Q₂ = 25 − ½(25) = 12.5 . 
+
+Q = 37.5 → P = 120 − 75 = $45 . 
+
+Profits: leader (45 − 20) × 25 = $625 ; follower 25 × 12.5 = $312.5 . Compare Cournot ≈ $555.6 each → the leader gains and the follower loses. 
+
+ 7. Quick self-test 
+
+ Why are prices “sticky” in a Sweezy oligopoly? 
+
+ Why do Cournot reaction functions slope downward? 
+
+ P = 90 − (Q₁ + Q₂), c = 30 for both. Find each firm's Cournot output and the price. 
+
+ Same market, firm 1 is a Stackelberg leader. Find Q₁, Q₂, and P. 
+
+ Why is collusion hard to sustain in a one-shot Cournot game? 
+
+ What happens to firm 2's reaction function if its MC falls? 
+
+ Answers: (1) the MR gap at the kink means modest cost changes don't change the optimal price; (2) more rival output lowers price and your MR, so your best output falls; (3) each (90 − 30)/3 = 20, Q = 40, P = $50; (4) Q₁ = (90 + 30 − 60)/2 = 30, Q₂ = (60/2) − 15 = 15, P = 90 − 45 = $45; (5) each firm's best response to the rival's quota is to expand output; (6) it shifts out — firm 2 produces more, firm 1 less. 
+
+ Textbook Figures, Formulas & Book Examples 
+ The diagrams are my redrawings of the book's figures, labeled with the same figure numbers so you can find each original in Bookshelf. The formulas match the book's notation. The book's worked examples are summarized with their actual numbers. 
+
+ A. Formulas as the book writes them 
+
+ Reaction (best-response) functions: Q₁ = r₁(Q₂)    Q₂ = r₂(Q₁) 
+
+ Formula: marginal revenue for Cournot duopoly. For inverse demand P = a − b(Q₁ + Q₂): 
+
+  MR₁(Q₁, Q₂) = a − bQ₂ − 2bQ₁     MR₂(Q₁, Q₂) = a − bQ₁ − 2bQ₂ 
+
+ Calculus alternative: R₁ = PQ₁ = [a − b(Q₁ + Q₂)]Q₁, so MR₁ = ∂R₁/∂Q₁ = a − bQ₂ − 2bQ₁. 
+
+ Formula: reaction functions for Cournot duopoly. With C₁(Q₁) = c₁Q₁ and C₂(Q₂) = c₂Q₂: 
+
+   Q₁ = r₁(Q₂) = (a − c₁)/(2b) − ½Q₂     Q₂ = r₂(Q₁) = (a − c₂)/(2b) − ½Q₁ 
+
+Derivation: set MR₁ = MC₁, so a − bQ₂ − 2bQ₁ = c₁, then solve for Q₁. 
+
+ Formula: equilibrium outputs in Stackelberg oligopoly (same demand and costs): 
+
+  Follower: Q₂ = r₂(Q₁) = (a − c₂)/(2b) − ½Q₁     Leader: Q₁ = (a + c₂ − 2c₁)/(2b) 
+
+ Calculus alternative: the leader maximizes π₁ = {a − b[Q₁ + ((a − c₂)/(2b) − ½Q₁)]}Q₁ − c₁Q₁. 
+
+FOC: dπ₁/dQ₁ = a − 2bQ₁ − (a − c₂)/2 + bQ₁ − c₁ = 0, so Q₁ = (a + c₂ − 2c₁)/(2b).
+
+ Book definitions and conditions (as listed): 
+
+ Sweezy oligopoly: (1) few firms serving many consumers; (2) differentiated products; (3) each firm believes rivals will cut prices in response to a price reduction but will not raise prices in response to a price increase; (4) barriers to entry. 
+
+ Cournot oligopoly: (1) few firms serving many consumers; (2) differentiated or homogeneous products; (3) each firm believes rivals will hold their output constant if it changes its output; (4) barriers to entry. 
+
+ Cournot equilibrium: neither firm has an incentive to change its output given the other firm's output. Graphically, the reaction functions intersect. 
+
+ Isoprofit curve: the combinations of outputs of all firms that give a firm the same level of profit. The book lists four properties: (1) every point on a curve gives the same profit; (2) curves closer to the firm's monopoly output mean higher profit; (3) each curve peaks where it crosses the firm's own reaction function; (4) curves don't cross each other. 
+
+ Stackelberg oligopoly: (1) few firms serving many consumers; (2) differentiated or homogeneous products; (3) a single firm (the leader) chooses an output before all other firms; (4) all other firms (the followers) take the leader's output as given and maximize profits given it; (5) barriers to entry. 
+
+ B. The book's figures (redrawn) 
+
+ Q P D₁ (rivals match) D₂ (rivals don’t match) B C A Q₀ P₀ Figure 9–1: a firm’s demand depends on rivals’ actions. D₁ (rivals match every price change) is less elastic than D₂ (rivals match none). Rivals match cuts only → demand is A-B-D₁ (Sweezy). Rivals match increases only → C-B-D₂. Q P A D₁ D₂ MR₂ MR₁ MC₀ MC₁ B C E Q₀ P₀ MR gap Figure 9–2: Sweezy oligopoly. Demand is A-B-D₁ (kinked at B), and MR is the red line with a vertical break between MR₂ and MR₁ at Q₀. MC₀ crosses MR at C and MC₁ at E. Both are in the gap, so Q₀ and P₀ don’t change. 
+ Sweezy takeaways (book): output Q₀ is below the efficient level (P₀ > MC₀), so there's deadweight loss. Over the range CE, changes in MC don't change the profit-maximizing price or output. The criticism is that the model doesn't explain how the industry reached the initial price P₀. The book's advice: if experience or market analytics show rivals match cuts but not increases, Sweezy is probably the best tool for pricing decisions. 
+
+ Q₁ Q₂ r₁ (firm 1) r₂ (firm 2) A B C D E Q₁* = 10/3 Q₁ᴹ = 5 Q₂ᴹ Q₂* Figure 9–3: Cournot reaction functions, drawn with Demonstration Problem 9–4’s numbers (P = 10 − Q₁ − Q₂, MC = 0). Starting from the monopoly output Q₁ᴹ, the adjustment A → B → C → D converges to E, the Cournot equilibrium (10/3, 10/3). Q₁ Q₂ r₁ π₀ π₁ π₂ Monopoly point Q₁ᴹ π₀ < π₁ < π₂ Figure 9–4: isoprofit curves for firm 1. Each curve peaks where it crosses r₁. Curves closer to firm 1’s monopoly point mean higher profit, and the curves never cross. Q₁ Q₂ r₁ Q₂* π₁ᶜ π₁ᴬ A C D Q₁ᶜ Figure 9–5: firm 1’s best response to Q₂*. Points A and D (same isoprofit curve) earn less than C, where the highest attainable isoprofit curve just touches the line Q₂ = Q₂*. C is on r₁. Q₁ Q₂ r₂ π₁ π₂ π₃ Q₂ᴹ (monopoly pt.) π₃ > π₂ > π₁ Figure 9–6 (Demonstration Problem 9–5): firm 2’s isoprofit curves are the mirror image of firm 1’s. They bend back where they cross r₂, and they rise toward firm 2’s monopoly point on the Q₂ axis. Q₁ Q₂ r₁ r₂ B A C (Cournot) D (collude) G (1 cheats) lens (between the two curves): both earn more than at C Figures 9–7, 9–9 & 9–10 combined: at the Cournot equilibrium C, firm 1’s isoprofit curve (red) and firm 2’s (blue) pass through C, and the lens between them holds output pairs that pay both firms more. Line A–B is where total output equals the monopoly level. Collusion at D splits monopoly output, but with firm 2 at its collusive output, firm 1’s best response on r₁ is G (cheat). 
+ Collusion (book): collusion gives monopoly price and output, so P > MC and there's deadweight loss, but each colluder earns more than in Cournot. It's hard to sustain because π₁ cheat > π₁ collude , and the firm that keeps its quota earns even less when the other cheats. 
+
+ Q₁ Q₂ r₁ r₂ r₂** (lower MC₂) E F Q₁** Q₁* Q₂* Q₂** Figure 9–8: lower marginal cost for firm 2 shifts r₂ out to r₂**, so equilibrium moves from E to F. Firm 2 produces more and firm 1 less. (Illustrated with P = 10 − Q, MC = 2 for both, then MC₂ = 0, which moves the equilibrium from (8/3, 8/3) to (2, 4).) 
+ Book contrast: in Sweezy, a fall in MC may leave output unchanged. In Cournot, it raises the firm's output. The right decision depends on how you think rivals will respond. 
+
+ Q₁ (leader) Q₂ r₁ r₂ π₁ˢ C (Cournot) S (Stackelberg) Q₁ˢ=5 Q₂ˢ=2.5 Figure 9–11: Stackelberg equilibrium. The leader picks the point on the follower’s reaction function r₂ that reaches its highest isoprofit curve, where π₁ˢ is tangent to r₂ at S. Compared with Cournot (C), the leader produces and earns more and the follower less. (Drawn with P = 10 − Q, MC = 0.) 
+ C. Book demonstration problems & examples 
+
+ Demonstration Problem 9–1: starting at point B, a manager who thinks rivals will not match cuts but will match increases faces demand C-B-D₂ . 
+
+ Demonstration Problem 9–2: rivals match cuts but not increases, so demand is A-B-D₁ (the Sweezy case). 
+
+ Demonstration Problem 9–3 (Fig. 9–3): if firm 1 produces 0, firm 2 produces its monopoly output Q₂ᴹ. If firm 1 produces Q₁*, firm 2 produces Q₂*. 
+
+ Demonstration Problem 9–4: P = 10 − (Q₁ + Q₂), costs are zero. 
+
+(1) MR₁ = 10 − Q₂ − 2Q₁, MR₂ = 10 − Q₁ − 2Q₂. 
+
+(2) Q₁ = r₁(Q₂) = 10/2 − ½Q₂ = 5 − ½Q₂, and Q₂ = 5 − ½Q₁. 
+
+(3) Substitute: Q₁ = 5 − ½[5 − ½Q₁], so Q₁ = 10/3 , and then Q₂ = 5 − ½(10/3) = 10/3 . 
+
+(4) Q = 20/3, so P = 10 − 20/3 = $10/3 . 
+
+ Book note: Cournot output is below the efficient level, so P > MC. As the number of firms grows, price falls toward MC. With very many firms in a homogeneous-product Cournot market, the result approaches perfect competition with no deadweight loss. 
+
+ Inside Business 9–1 (OPEC members can't help but cheat): OPEC sets production quotas, a collusive agreement among Cournot-style oil producers. Each member has an incentive to exceed its quota, as Figure 9–10 shows. A 2010 demand surge brought overproduction to a six-year high, and overproduction continued into 2017 as rising U.S. output pushed prices down further. 
+
+ Inside Business 9–2 (racing to be the AI leader): early generative AI looked like a Stackelberg market. OpenAI, Google and Microsoft rushed products out first and in high volume. Moving first with big output “crowds out” rivals and earns higher profits. 
+
+ Demonstration Problem 9–6: P = 50 − (Q₁ + Q₂), C₁ = 2Q₁, C₂ = 2Q₂, firm 1 leads. 
+
+(1) Follower: Q₂ = 24 − ½Q₁. (2) Leader: Q₁ = (50 + 2 − 4)/2 = 24 . (3) Q₂ = 24 − ½(24) = 12 . (4) P = 50 − 36 = $14 . 
+
+ Headline (Ch. 9 opener): crude oil prices fell, but gas prices in a few isolated areas stayed high, and consumer groups alleged collusion. The book's point is that in a Sweezy market, a cost drop within the MR gap doesn't change the profit-maximizing price, so sticky prices aren't proof of collusion.

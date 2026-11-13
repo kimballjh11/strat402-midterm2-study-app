@@ -1,0 +1,201 @@
+[
+ {
+  "id": "S20-05-q001",
+  "los": [
+   "S20-05"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Which of these is NOT shown in an extensive-form game?",
+  "choices": [
+   "The market interest rate",
+   "The order of moves",
+   "The payoffs",
+   "The players"
+  ],
+  "answer": 0,
+  "explain": "A tree shows players, information, strategies, sequence and payoffs.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-05-q002",
+  "los": [
+   "S20-05"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "In a game tree, a decision node represents:",
+  "choices": [
+   "A final payoff",
+   "The interest rate",
+   "A random draw",
+   "A point where a player chooses an action"
+  ],
+  "answer": 3,
+  "explain": "Branches out of the node are the actions.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-05-q003",
+  "los": [
+   "S20-05"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "In a game tree, the payoffs appear:",
+  "choices": [
+   "At the first node only",
+   "Above each branch label",
+   "At the end of each path",
+   "In a separate matrix"
+  ],
+  "answer": 2,
+  "explain": "Each complete path ends in a payoff vector.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-05-q004",
+  "los": [
+   "S20-05"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: The extensive form shows the sequence of moves, which a normal-form matrix does not.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explain": "True. That is why sequential games use trees.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-05-q005",
+  "los": [
+   "S20-05"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "In the Putin and Obama tree, payoffs are listed (Putin, Obama). What does (10, −5) mean?",
+  "choices": [
+   "Putin invades and Obama does not sanction: Putin gets 10, Obama −5",
+   "Obama gets 10",
+   "Putin does not invade",
+   "Both get 10"
+  ],
+  "answer": 0,
+  "explain": "First number = first mover.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-05-q006",
+  "los": [
+   "S20-05"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "In the trade game (payoffs US, China), the US threatens, China resists, and the US imposes tariffs. What are the payoffs?",
+  "choices": [
+   "(6, 2)",
+   "(−2, −2)",
+   "(2, 6)",
+   "(4, 4)"
+  ],
+  "answer": 1,
+  "explain": "Slides p. 61.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-05-q007",
+  "los": [
+   "S20-05"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "In the trade game, what is China's payoff if the US makes no threat?",
+  "choices": [
+   "6",
+   "2",
+   "4",
+   "−2"
+  ],
+  "answer": 0,
+  "explain": "No threat: (US 2, China 6). China ranked this outcome first.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-05-q008",
+  "los": [
+   "S20-05"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "How many decision nodes does the slides' trade game have?",
+  "choices": [
+   "2",
+   "1",
+   "3 (US, China, then US again)",
+   "4"
+  ],
+  "answer": 2,
+  "explain": "US threat decision, China's response, and the US decision after resistance.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-05-q009",
+  "los": [
+   "S20-05",
+   "S20-08"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Firm A decides whether to introduce a product; if it does, Firm B decides whether to clone it. How many possible outcomes (end points) does this tree have?",
+  "choices": [
+   "3",
+   "2",
+   "4",
+   "6"
+  ],
+  "answer": 0,
+  "explain": "Don't introduce; Introduce and clone; Introduce and don't clone.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-05-q010",
+  "los": [
+   "S20-05"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "The slides turned rankings into payoffs. The US ranked Concede 1st, Back down 2nd, No threat 3rd, Impose 4th. Which payoffs match?",
+  "choices": [
+   "Concede 2, Back down 4, No threat 6, Impose −2",
+   "Concede 6, Back down 4, No threat 2, Impose −2",
+   "Concede −2, Back down 2, No threat 4, Impose 6",
+   "All equal to 4"
+  ],
+  "answer": 1,
+  "explain": "Higher rank, higher number: 6 > 4 > 2 > −2.",
+  "source": "generated",
+  "verbatim": false
+ }
+]

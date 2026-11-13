@@ -1,0 +1,103 @@
+[
+ {
+  "id": "PRO-Session20quiz-Q1",
+  "los": [
+   "S20-07"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "It is easier to sustain tacit collusion in an infinitely repeated game if _______.",
+  "choices": [
+   "a firm charges a single price to all of its customers",
+   "there are many players",
+   "the present value of cheating is less than the present value of collusion",
+   "the interest rate is higher"
+  ],
+  "answer": 2,
+  "explain": "Correct! Tacit collusion is easier to sustain when the present value of cheating is less than the present value of collusion.",
+  "source": "professor",
+  "verbatim": true,
+  "origin": "Session 20 quiz Q1"
+ },
+ {
+  "id": "PRO-Session20quiz-Q2",
+  "los": [
+   "S20-07"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Tacit collusion occurs when firms accomplish collusive outcomes indirectly by learning from experience how each other will behave in a market.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explain": "Correct! Tacit collusion occurs when firms learn from experience how other firms will behave in a market.",
+  "source": "professor",
+  "verbatim": true,
+  "origin": "Session 20 quiz Q2"
+ },
+ {
+  "id": "PRO-Session20quiz-Q3",
+  "los": [
+   "S20-04"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "A sequential-move game is a game in which each player makes decisions without knowledge of the other players' decisions.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 1,
+  "explain": "Correct! That is the definition of a simultaneous-move game. In a sequential-move game, one player moves after observing the other player's move.",
+  "source": "professor",
+  "verbatim": true,
+  "origin": "Session 20 quiz Q3"
+ },
+ {
+  "id": "PRO-Session20quiz-Q4",
+  "los": [
+   "S20-05"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Which of the following is not an element of an extensive-form game?",
+  "choices": [
+   "Strategies",
+   "Payoffs",
+   "Sequence of player decisions",
+   "All of the above are elements of an extensive-form game"
+  ],
+  "answer": 3,
+  "explain": "Correct! Payoffs, strategies, and the sequence of player decisions are all elements of an extensive-form game.",
+  "source": "professor",
+  "verbatim": true,
+  "origin": "Session 20 quiz Q4"
+ },
+ {
+  "id": "PRO-Session20quiz-Q5",
+  "los": [
+   "S20-04",
+   "S20-06",
+   "S20-08"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "To solve sequential games, one should use a logical reasoning process known as backward induction.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explain": "Correct! To solve sequential games, one should use a logical reasoning process known as backward induction, whereby players rule out non-rational actions at the end of the game, to reason what the appropriate action should be at the beginning of the game.",
+  "source": "professor",
+  "verbatim": true,
+  "origin": "Session 20 quiz Q5"
+ }
+]

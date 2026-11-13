@@ -1,0 +1,314 @@
+[
+ {
+  "id": "S16-01-q001",
+  "los": [
+   "S16-01"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "An isoquant shows:",
+  "choices": [
+   "The maximum output from each level of labor",
+   "How output changes as one input increases",
+   "All combinations of inputs that produce the same output",
+   "All combinations of inputs that cost the same"
+  ],
+  "answer": 2,
+  "explain": "Iso-quant = same quantity. Same cost is an isocost. Output as one input rises is a total product curve.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-01-q002",
+  "los": [
+   "S16-01"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "With K on the vertical axis and L on the horizontal axis, an isoquant farther from the origin represents:",
+  "choices": [
+   "A higher level of output",
+   "The same output with less capital",
+   "A lower level of output",
+   "A higher cost"
+  ],
+  "answer": 0,
+  "explain": "More of both inputs means more output, so isoquants farther out are higher output. Cost is shown by isocosts.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-01-q003",
+  "los": [
+   "S16-01"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: Moving along a single isoquant, output stays constant.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explain": "True. Every point on an isoquant produces the same quantity; only the input mix changes.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-01-q004",
+  "los": [
+   "S16-01",
+   "S15-11"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Which isoquant shape goes with a Cobb-Douglas production function?",
+  "choices": [
+   "Straight line",
+   "L-shape",
+   "Upward sloping line",
+   "Convex curve"
+  ],
+  "answer": 3,
+  "explain": "Cobb-Douglas: convex. Linear: straight line. Leontief: L-shape. Isoquants slope down because giving up one input requires more of the other.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-01-q005",
+  "los": [
+   "S16-01"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: To graph a Cobb-Douglas isoquant with K on the vertical axis, you set Q equal to the target output and solve the production function for K.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explain": "True. That is the slides' method (pp. 24 to 25): plug in the target, then solve for K as a function of L.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-01-q006",
+  "los": [
+   "S16-01"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Two isoquants for the same production function cross each other. What is wrong?",
+  "choices": [
+   "Nothing; isoquants usually cross",
+   "They must be isocosts instead",
+   "Isoquants of one production function cannot cross, since the crossing point would produce two output levels at once",
+   "Only Leontief isoquants can cross"
+  ],
+  "answer": 2,
+  "explain": "Each input combination gives one maximum output, so it cannot lie on two different isoquants.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-01-q007",
+  "los": [
+   "S16-01"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "\\(Q = 2K^{0.5}L^{0.5}\\) and the target is Q = 100. How much capital is needed with L = 50?",
+  "answer": 49.99999999999999,
+  "unit": "units of capital",
+  "tol": 0.01,
+  "explain": "Isoquant: \\(K = (100 / (2L^{0.5}))^2 = 2500/L\\). With L = 50, K = 2500/50 = 50.",
+  "verify": {
+   "f": "iso_k",
+   "A": 2,
+   "a": 0.5,
+   "b": 0.5,
+   "Q": 100,
+   "L": 50
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-01-q008",
+  "los": [
+   "S16-01"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "\\(Q = K^{0.5}L^{0.5}\\) and the target is Q = 60. How much capital is needed with L = 90?",
+  "answer": 39.99999999999999,
+  "unit": "units of capital",
+  "tol": 0.01,
+  "explain": "\\(K = (60/L^{0.5})^2 = 3600/L = 3600/90 = 40\\).",
+  "verify": {
+   "f": "iso_k",
+   "A": 1,
+   "a": 0.5,
+   "b": 0.5,
+   "Q": 60,
+   "L": 90
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-01-q009",
+  "los": [
+   "S16-01"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "\\(Q = 4K^{0.25}L^{0.75}\\) and the target is Q = 64. How much capital is needed with L = 16?",
+  "answer": 16.0,
+  "unit": "units of capital",
+  "tol": 0.01,
+  "explain": "Divide by 4: \\(K^{0.25} = 16/L^{0.75}\\). \\(16^{0.75} = 8\\), so \\(K^{0.25} = 2\\) and \\(K = 2^4 = 16\\). Raise to the 4th power because 1/0.25 = 4.",
+  "verify": {
+   "f": "iso_k",
+   "A": 4,
+   "a": 0.25,
+   "b": 0.75,
+   "Q": 64,
+   "L": 16
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-01-q010",
+  "los": [
+   "S16-01",
+   "S15-07"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "\\(Q = 2K + 4L\\) and the target is Q = 100. How much capital is needed with L = 15?",
+  "answer": 20,
+  "unit": "units of capital",
+  "tol": 0.01,
+  "explain": "Linear isoquant: \\(K = (Q - bL)/a = (100 - 60)/2 = 20\\).",
+  "verify": {
+   "f": "lin_iso_k",
+   "a": 2,
+   "b": 4,
+   "Q": 100,
+   "L": 15
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-01-q011",
+  "los": [
+   "S16-01"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A manager forecasts demand of 100 units next month and has the isoquant for Q = 100. What does the isoquant tell her?",
+  "choices": [
+   "How much she can spend on inputs",
+   "The single cheapest mix of capital and labor",
+   "How many units she will sell",
+   "Every mix of capital and labor that would meet the target"
+  ],
+  "answer": 3,
+  "explain": "The isoquant lists all mixes that make 100 units (slides p. 26). Picking the cheapest one requires isocost lines and input prices.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-01-q012",
+  "los": [
+   "S16-01"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A firm moves from (L = 10, K = 40) to (L = 20, K = 20) and output stays at 200. What happened?",
+  "choices": [
+   "It moved to a higher isoquant",
+   "It moved along one isoquant, substituting labor for capital",
+   "It moved to a lower isoquant",
+   "It moved along an isocost line"
+  ],
+  "answer": 1,
+  "explain": "Same output means the same isoquant. More L and less K is substitution of labor for capital. Whether cost changed depends on prices, which are not given.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-01-q013",
+  "los": [
+   "S16-01"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Klarna's average month needs a fixed number of resolved conversations. On a graph with AI hours (K) up and agent hours (L) across, Klarna's actual mix sits on that isoquant. A cheaper mix that resolves the same number of conversations would be:",
+  "choices": [
+   "A point on a higher isoquant",
+   "The origin",
+   "A point on a lower isoquant",
+   "Another point on the same isoquant"
+  ],
+  "answer": 3,
+  "explain": "Same output means the same isoquant. Cost minimization picks a point along it; it never moves you to a different output level.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-01-q014",
+  "los": [
+   "S16-01",
+   "S15-09"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "A log-linear regression of ln(Q) on ln(K) and ln(L) gives an intercept of 1.5, a coefficient of 0.3 on ln(K) and 0.6 on ln(L). What is the Cobb-Douglas production function?",
+  "choices": [
+   "\\(Q = e^{1.5}K^{0.3}L^{0.6}\\)",
+   "\\(Q = 1.5 + 0.3K + 0.6L\\)",
+   "\\(Q = e^{1.5}K^{0.6}L^{0.3}\\)",
+   "\\(Q = 1.5K^{0.3}L^{0.6}\\)"
+  ],
+  "answer": 0,
+  "explain": "ln(Q) = ln(A) + a ln(K) + b ln(L), so a is the ln(K) coefficient, b the ln(L) coefficient, and A = e^(intercept) (slides pp. 41 to 42). Forgetting to exponentiate the intercept is the common slip.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-01-q015",
+  "los": [
+   "S15-09"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: You estimate a Cobb-Douglas production function with a linear regression after taking the natural log of output and both inputs.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explain": "True. Logs turn \\(Q = AK^aL^b\\) into ln(Q) = ln(A) + a ln(K) + b ln(L), which is linear in the logs.",
+  "source": "generated",
+  "verbatim": false
+ }
+]

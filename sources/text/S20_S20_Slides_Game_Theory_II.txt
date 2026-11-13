@@ -1,0 +1,867 @@
+
+=== PAGE 1 ===
+STRAT 402
+ECONOMICS OF STRATEGY
+Session 20
+Game Theory II
+
+=== PAGE 2 ===
+Agenda
+▪Midcourse Evaluation Feedback
+▪Review of Simultaneous Games
+▪Finite and Infinite Repeated Games
+▪Sequential Games
+▪Introduce Game Theory Exercise
+
+=== PAGE 3 ===
+Midterm Exam 1
+▪Opens Thursday, November 19th at 8:00 AM
+▪Closes Tuesday, November 24th at 9:00 PM
+▪Paper exam in the BYU Testing Center
+▪Closed book and closed note. No Excel, phones, or other devices
+▪A scientific or financial calculator is allowed; graphing calculators are
+ not
+▪4 hour-time limit
+▪I will record an optional Review Video by Saturday
+▪The equation sheet is the last page of the booklet
+▪Scratch paper is allowed BUT don’t write in the booklet
+
+=== PAGE 4 ===
+Your Midcourse Evaluation
+Things I Learned from Your Response on the Midcourse Evaluation:
+▪ Attending, reading and effort hardly separate students, because almost
+  everyone says they do them. They’re the minimum, not what makes the
+  difference.
+▪ Procrastination is the gap. Only 14 students strongly agree they don’t
+  procrastinate, and they average about 4 points higher on Midterm 1 and lead on
+  current grade too (90.7 vs 88.0)
+▪ Group study correlates slightly negatively with Midterm 1. That’s probably not
+  because groups hurt. More likely, some students lean on the group and can’t do
+  the steps alone when the exam comes. Struggling students probably also seek out
+  groups and help more, so don’t read these numbers as cause and effect.
+
+=== PAGE 5 ===
+Your Midcourse Evaluation
+Things to Start Doing
+  ▪Start the weekly spreadsheet and the reading earlier in the week
+  ▪Go to the TAs early in the week, with a specific question
+  ▪Use the practice exam as a floor, not a forecast
+Things to Stop Doing
+  ▪Stop letting your group carry steps you can’t do alone
+Things to Continue
+  ▪Attending, doing the reading quizzes, and participating
+
+=== PAGE 6 ===
+Prior Class
+▪Know and understand the following economic concepts:
+  oSimultaneous-move games
+  oNormal-form representation
+  oDominant strategy
+  oNash equilibrium
+  oMixed (randomized) strategy
+▪Be able to apply game theoretic logic to business decisions including
+ pricing, coordination, and advertising
+
+=== PAGE 7 ===
+Your Midcourse Evaluation
+Things to Start Doing
+  ▪Start the weekly spreadsheet and the reading earlier in the week
+  ▪Go to the TAs early in the week, with a specific question
+  ▪Use the practice exam as a floor, not a forecast
+Things to Stop Doing
+  ▪Stop letting your group carry steps you can’t do alone
+Things to Continue
+  ▪Attending, doing the reading quizzes, and participating
+
+=== PAGE 8 ===
+Game Theory: A Beautiful Mind
+
+=== PAGE 9 ===
+John Nash: Nobel Prize Winner in 1994
+
+=== PAGE 10 ===
+Game Theory: A Beautiful Mind
+Questions:
+  1. Is the scene shown above an example of a Nash
+     equilibrium?
+  2. How could you model this situation using game theory?
+
+=== PAGE 11 ===
+A Beautiful Mind
+
+                                        Friend
+
+
+                         Blonde                     Brunette
+
+
+       Blonde        Nothing, Nothing       Blonde, Brunette + Envy
+
+Nash
+       Brunette   Brunette + Envy, Blonde        Brunette, Brunette
+
+=== PAGE 12 ===
+What should Nash do?
+
+                                         Friend
+
+
+                          Blonde                     Brunette
+
+
+        Blonde        Nothing, Nothing       Blonde, Brunette + Envy
+
+Nash
+        Brunette   Brunette + Envy, Blonde        Brunette, Brunette
+
+=== PAGE 13 ===
+What should Nash do?
+
+                                         Friend
+
+
+                          Blonde                     Brunette
+
+
+        Blonde        Nothing, Nothing       Blonde, Brunette + Envy
+
+Nash
+        Brunette   Brunette + Envy, Blonde        Brunette, Brunette
+
+=== PAGE 14 ===
+What should Nash do?
+
+                                         Friend
+
+
+                          Blonde                     Brunette
+
+
+        Blonde        Nothing, Nothing       Blonde, Brunette + Envy
+
+Nash
+        Brunette   Brunette + Envy, Blonde        Brunette, Brunette
+
+=== PAGE 15 ===
+What should Nash do?
+
+                                         Friend
+
+
+                          Blonde                     Brunette
+
+
+        Blonde        Nothing, Nothing       Blonde, Brunette + Envy
+
+Nash
+        Brunette   Brunette + Envy, Blonde        Brunette, Brunette
+
+=== PAGE 16 ===
+What should Nash do?
+
+                                         Friend
+
+
+                          Blonde                     Brunette
+
+
+        Blonde        Nothing, Nothing       Blonde, Brunette + Envy
+
+Nash
+        Brunette   Brunette + Envy, Blonde        Brunette, Brunette
+
+=== PAGE 17 ===
+What should the friend do?
+
+                                        Friend
+
+
+                         Blonde                     Brunette
+
+
+       Blonde        Nothing, Nothing       Blonde, Brunette + Envy
+
+Nash
+       Brunette   Brunette + Envy, Blonde        Brunette, Brunette
+
+=== PAGE 18 ===
+What should the friend do?
+
+                                        Friend
+
+
+                         Blonde                     Brunette
+
+
+       Blonde        Nothing, Nothing       Blonde, Brunette + Envy
+
+Nash
+       Brunette   Brunette + Envy, Blonde        Brunette, Brunette
+
+=== PAGE 19 ===
+What should the friend do?
+
+                                        Friend
+
+
+                         Blonde                     Brunette
+
+
+       Blonde        Nothing, Nothing       Blonde, Brunette + Envy
+
+Nash
+       Brunette   Brunette + Envy, Blonde        Brunette, Brunette
+
+=== PAGE 20 ===
+What should the friend do?
+
+                                        Friend
+
+
+                         Blonde                     Brunette
+
+
+       Blonde        Nothing, Nothing       Blonde, Brunette + Envy
+
+Nash
+       Brunette   Brunette + Envy, Blonde        Brunette, Brunette
+
+=== PAGE 21 ===
+What should the friend do?
+
+                                        Friend
+
+
+                        Blonde                      Brunette
+
+
+       Blonde        Nothing, Nothing       Blonde, Brunette + Envy
+
+Nash
+       Brunette   Brunette + Envy, Blonde        Brunette, Brunette
+
+=== PAGE 22 ===
+What should the friend do?
+
+                                        Friend
+
+
+                        Blonde                      Brunette
+
+
+       Blonde        Nothing, Nothing       Blonde, Brunette + Envy
+
+Nash
+       Brunette   Brunette + Envy, Blonde        Brunette, Brunette
+
+=== PAGE 23 ===
+Is there a Nash equilibrium?
+
+                                        Friend
+
+
+                        Blonde                      Brunette
+
+
+       Blonde        Nothing, Nothing       Blonde, Brunette + Envy
+
+Nash
+       Brunette   Brunette + Envy, Blonde        Brunette, Brunette
+
+=== PAGE 24 ===
+Learning Objectives
+▪Know and understand the following economic terms:
+  oFinite repeated games
+  oInfinite repeated games
+  oTrigger strategies
+  oSequential games
+  oExtensive-form representation
+  oSubgame perfect equilibrium
+▪Know and understand the factors that influence the likelihood of
+ collusion
+▪Know and understand how sequential games can be applied to
+ business decisions such as market entry, innovation, and
+ bargaining
+
+=== PAGE 25 ===
+Simultaneous Game
+                           Mastercard
+                      Lower Fee   Maintain Fee
+
+
+        Lower Fee      2    2       4    1
+Visa
+       Maintain Fee    1    4       3    3
+
+=== PAGE 26 ===
+Simultaneous Game
+Is there Nash equilibrium in this game?
+Yes, both companies would lower their fees and neither would an incentive to
+deviate from this equilibrium.
+
+
+If they could both agree to maintain high fees, they could each earn a
+payoff of 3. Why wouldn’t this strategy work?
+
+Collusion wouldn’t work in this case because both companies would have an
+incentive to cheat on the agreement.
+
+=== PAGE 27 ===
+Repeated Game
+                           Mastercard
+                      Lower Fee   Maintain Fee
+
+
+        Lower Fee      2    2       4    1
+Visa
+       Maintain Fee    1    4       3    3
+
+=== PAGE 28 ===
+Finite Repeated Game
+Suppose, for example, that we played these companies played the game over two
+periods. What would happen in the second period?
+
+Because the second period is the last period, both players would treat the last period as one-shot
+game as they would not be punished for defecting from an agreement to collude.
+
+
+What would happen in the first period?
+▪ A player has an incentive to break a promise in the second to last period (first period), since there
+  is no effective punishment in the last period (second period).
+▪ Finite repeated games will always collapse back to a one-shot simultaneous game.
+
+=== PAGE 29 ===
+“Underwear Bomber” Rule
+
+=== PAGE 30 ===
+Infinitely Repeated Game
+
+                                  General Mills
+
+
+                        Don’t advertise      Advertise
+
+              Don’t
+                          12      12         -1    15
+            advertise
+Kellogg’s
+            Advertise     15      -1          2     2
+
+=== PAGE 31 ===
+Infinitely Repeated Game
+What is an infinitely repeated game?
+A game that is played over and over again forever and in which players
+receive payoffs during each play of the game.
+
+Is collusion sustainable in an infinitely repeated game? If so,
+why?
+▪Yes. Collusion is sustainable because players that defect can punish players
+ in subsequent periods.
+▪This strategy is known as a trigger strategy, which is a strategy that is
+ contingent on the last play of the game and in which some past particular
+ action “triggers” a different action by a player.
+
+=== PAGE 32 ===
+Infinitely Repeated Game
+
+                                  General Mills
+
+
+                        Don’t advertise      Advertise
+
+              Don’t
+                          12      12         -1    15
+            advertise
+Kellogg’s
+            Advertise     15      -1          2     2
+
+=== PAGE 33 ===
+Infinitely Repeated Game
+Would it ever make sense to defect from collusion?
+▪The decision to defect from collusion would depend on how much the
+ firm values money now versus money in the future.
+▪We evaluate the value of money in the future using a discount rate.
+▪The higher the discount rate, the more each future payoff is
+ discounted.
+▪A player should defect if the present value of cheating is greater than
+ the present value of collusion.
+
+=== PAGE 34 ===
+Infinitely Repeated Game
+Suppose Kellogg’s discount rate is 10%. Should they collude
+or defect?
+▪PV cheating = Payoff now + Payoffs in the future
+  o15 + (2/i)
+  o15 + (2/0.10) = 35
+▪PV collusion = Payoff now + Payoffs in the future
+  o12 + (12/i)
+  o12 + (12/0.10) = 132
+▪Since the PV collusion is greater than the PV of cheating, Kellogg’s
+ should continue to collude.
+
+=== PAGE 35 ===
+Infinitely Repeated Game
+What discount rate would make Kellogg’s indifferent? At what point
+would the benefits of defection outweigh the benefits of collusion.
+▪ Set PV cheating = PV collusion
+▪ Solve for the discount rate
+                                       2       12
+                                   15 + = 12 +
+                                       𝑖        𝑖
+                                             12 2
+                                   15 − 12 =    −
+                                              𝑖   𝑖
+                                          10
+                                      3=
+                                           𝑖
+                                  10
+                               i=    = 3.33 𝑜𝑟 333%
+                                  3
+
+=== PAGE 36 ===
+In-Class Exercise
+▪ Find a friend and work together
+▪ Draw out the normal form
+  representation
+▪ Remember that you are determining
+  the payoff for the current period and
+  the cashflow for the indefinite future
+  for both collusion and defection
+▪ Remember that the value of a
+  perpetuity (an infinite cash flow) is the
+  cash flow divided by the interest or
+  discount rate
+
+=== PAGE 37 ===
+Factors That Influence Collusion
+1. Number of firms
+2. Firm size
+3. History of the Market
+4. Punishment Mechanisms
+
+=== PAGE 38 ===
+What is Collusion?
+▪Secret or illegal cooperation or conspiracy, especially in order
+ to cheat or deceive others
+▪Forms of collusion
+  oExplicit collusion (illegal & uncommon)
+    • Price fixing
+    • Bid rigging
+    • Market allocation
+  oImplicit or tacit collusion (legal & common)
+     •   Signaling
+
+=== PAGE 39 ===
+Examples of Explicit Collusion
+
+
+
+
+Source: The Wall Street Journal , April 24, 2014
+
+=== PAGE 40 ===
+Examples of Tacit Collusion
+
+
+
+
+Source: The New York Times, June 11, 2015
+
+=== PAGE 41 ===
+Examples of Tacit Collusion
+
+
+
+
+Source: The Wall Street Journal, July 1, 2015
+
+=== PAGE 42 ===
+Sequential Games
+In early 2014, Vladimir Putin threatened to invade Crimea to
+quell Ukrainian opposition towards Russian separatists. While
+we know what happened in hindsight, how could we have
+predicted what Putin would do beforehand? What factors
+would have influenced his decision?
+
+=== PAGE 43 ===
+Extensive Form Representation
+                     Sanction   2,-2
+
+        Invade   O
+
+                      Don’t     10,-5
+P
+                     Sanction
+
+         Don’t
+        Invade
+                                -5,5
+
+=== PAGE 44 ===
+Players
+                   Sanction   2,-2
+
+    Invade    O
+
+                    Don’t     10,-5
+P
+                   Sanction
+
+     Don’t
+    Invade
+                              -5,5
+
+=== PAGE 45 ===
+Strategies
+                    Sanction   2,-2
+
+    Invade     O
+
+                     Don’t     10,-5
+P
+                    Sanction
+
+     Don’t
+    Invade
+                               -5,5
+
+=== PAGE 46 ===
+Payoffs
+                   Sanction   2,-2
+
+    Invade    O
+
+                    Don’t     10,-5
+P
+                   Sanction
+
+     Don’t
+    Invade
+                              -5,5
+
+=== PAGE 47 ===
+Sequence
+                   Sanction   2,-2
+
+    Invade     O
+
+                    Don’t     10,-5
+P
+                   Sanction
+
+     Don’t
+    Invade
+                              -5,5
+
+=== PAGE 48 ===
+Sequence
+                   Sanction   2,-2
+
+    Invade     O
+
+                    Don’t     10,-5
+P
+                   Sanction
+
+     Don’t
+    Invade
+                              -5,5
+
+=== PAGE 49 ===
+What should Obama do?
+                  Sanction   2,-2
+
+     Invade   O
+
+                   Don’t     10,-5
+P
+                  Sanction
+
+      Don’t
+     Invade
+                             -5,5
+
+=== PAGE 50 ===
+What should Obama do?
+                  Sanction   2,-2
+
+     Invade   O
+
+                   Don’t     10,-5
+P
+                  Sanction
+
+      Don’t
+     Invade
+                             -5,5
+
+=== PAGE 51 ===
+What should Obama do?
+                  Sanction   2,-2
+
+     Invade   O
+
+                   Don’t     10,-5
+P
+                  Sanction
+
+      Don’t
+     Invade
+                             -5,5
+
+=== PAGE 52 ===
+What should Putin do?
+                 Sanction   2,-2
+
+    Invade   O
+
+                  Don’t     10,-5
+P
+                 Sanction
+
+     Don’t
+    Invade
+                            -5,5
+
+=== PAGE 53 ===
+What should Putin do?
+                 Sanction   2,-2
+
+    Invade   O
+
+                  Don’t     10,-5
+P
+                 Sanction
+
+     Don’t
+    Invade
+                            -5,5
+
+=== PAGE 54 ===
+What should Putin do?
+                 Sanction   2,-2
+
+    Invade   O
+
+                  Don’t     10,-5
+P
+                 Sanction
+
+     Don’t
+    Invade
+                            -5,5
+
+=== PAGE 55 ===
+Subgame Perfect Equilibrium
+                    Sanction   2,-2
+
+       Invade   O
+
+                     Don’t     10,-5
+P
+                    Sanction
+
+        Don’t
+       Invade
+                               -5,5
+
+=== PAGE 56 ===
+Trump, Tariffs, and Trade
+
+=== PAGE 57 ===
+Trump, Tariffs, and Trade
+
+                                     Impose
+
+                      Resist
+                                US
+      Threat
+                 CH
+                                     Back
+US                                   Down
+                      Concede
+
+     No Threat
+
+=== PAGE 58 ===
+What would Trump prefer?
+
+                                       Impose   4th
+
+                       Resist
+                                 US
+      Threat
+                 CH
+                                       Back     2nd
+US                                     Down
+                       Concede
+                                 1st
+     No Threat   3rd
+
+=== PAGE 59 ===
+What would Trump prefer?
+
+                                     Impose   -2,
+
+                      Resist
+                                US
+      Threat
+                 CH
+                                     Back
+                                     Down     4,
+US
+                      Concede
+                                6,
+     No Threat   2,
+
+=== PAGE 60 ===
+What would Xi prefer?
+
+                                       Impose   4th
+
+                       Resist
+                                 US
+      Threat
+                 CH
+                                       Back
+                                                2nd
+US                                     Down
+                       Concede   3rd
+     No Threat   1st
+
+=== PAGE 61 ===
+What would Xi prefer?
+
+                                         Impose   -2, -2
+
+                        Resist
+                                  US
+      Threat
+                 CH
+                                         Back
+                                         Down     4, 4
+US
+                        Concede
+                                  6, 2
+     No Threat   2, 6
+
+=== PAGE 62 ===
+Subgame Perfect Equilibrium
+
+                                         Impose   -2, -2
+
+                        Resist
+                                  US
+      Threat
+                 CH
+                                         Back
+                                         Down     4, 4
+US
+                        Concede
+                                  6, 2
+     No Threat   2, 6
+
+=== PAGE 63 ===
+Subgame Perfect Equilibrium
+
+                                         Impose   -2, -2
+
+                        Resist
+                                  US
+      Threat
+                 CH
+                                         Back
+                                         Down     4, 4
+US
+                        Concede
+                                  6, 2
+     No Threat   2, 6
+
+=== PAGE 64 ===
+Subgame Perfect Equilibrium
+
+
+                        Resist
+                                  US
+      Threat
+                 CH
+                                         Back
+                                         Down   4, 4
+US
+                        Concede
+                                  6, 2
+     No Threat   2, 6
+
+=== PAGE 65 ===
+Subgame Perfect Equilibrium
+
+
+                        Resist
+                                  US
+      Threat
+                 CH
+                                         Back
+                                         Down   4, 4
+US
+                        Concede
+                                  6, 2
+     No Threat   2, 6
+
+=== PAGE 66 ===
+Subgame Perfect Equilibrium
+
+
+                        Resist
+                                 US
+      Threat
+                 CH
+                                      Back
+                                      Down   4, 4
+US
+
+     No Threat   2, 6
+
+=== PAGE 67 ===
+Subgame Perfect Equilibrium
+
+
+                        Resist
+                                 US
+      Threat
+                 CH
+                                      Back
+                                      Down   4, 4
+US
+
+     No Threat   2, 6
+
+=== PAGE 68 ===
+Subgame Perfect Equilibrium
+
+
+                    Resist
+                             US
+      Threat
+               CH
+                                  Back
+                                  Down   4, 4
+US
+
+=== PAGE 69 ===
+Subgame Perfect Equilibrium
+
+                                         Impose   -2, -2
+
+                        Resist
+                                  US
+      Threat
+                 CH
+                                         Back
+                                         Down     4, 4
+US
+                        Concede
+                                  6, 2
+     No Threat   2, 6
+
+=== PAGE 70 ===
+Social Media and Misinformation

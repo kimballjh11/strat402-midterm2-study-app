@@ -1,0 +1,281 @@
+[
+ {
+  "id": "S18-06-q001",
+  "los": [
+   "S18-06"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Predatory pricing is:",
+  "choices": [
+   "A low initial price to build a critical mass of customers",
+   "An incumbent keeping price below the monopoly level to prevent entry",
+   "A firm temporarily pricing below marginal cost to drive competitors out of the market",
+   "Charging different prices to different customers"
+  ],
+  "answer": 2,
+  "explain": "Slide p. 41 definition.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-06-q002",
+  "los": [
+   "S18-06"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "What is the usual legal test for the 'below cost' part of a predatory pricing case?",
+  "choices": [
+   "Price below the monopoly price",
+   "Price below last year's price",
+   "Price below average total cost of the rival",
+   "Price below average variable cost"
+  ],
+  "answer": 3,
+  "explain": "Slide p. 46: the usual legal test is below average variable cost.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-06-q003",
+  "los": [
+   "S18-06"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Under Brooke Group (1993), what must be shown besides pricing below cost?",
+  "choices": [
+   "That the rival was more efficient",
+   "A dangerous probability of recoupment",
+   "That prices were above the monopoly level",
+   "That the firm had a patent"
+  ],
+  "answer": 1,
+  "explain": "Below cost plus a dangerous probability of recouping the losses (slide p. 46).",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-06-q004",
+  "los": [
+   "S18-06"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: Predatory pricing means accepting losses now in the hope of recouping them with higher prices after the rival exits.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explain": "True. Losses now, recouped later.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-06-q005",
+  "los": [
+   "S18-06",
+   "S18-05"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: Predatory pricing targets potential entrants who have not yet entered.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 1,
+  "explain": "False. It targets a rival already in the market. Potential entrants are the target of limit pricing.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-06-q006",
+  "los": [
+   "S18-06"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Which law can predatory pricing violate?",
+  "choices": [
+   "Sherman Act §2",
+   "The Clean Air Act",
+   "No law; it is always legal",
+   "The patent statute"
+  ],
+  "answer": 0,
+  "explain": "Slide p. 46: it can violate Sherman Act §2.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-06-q007",
+  "los": [
+   "S18-06"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Why is predatory pricing hard to prove?",
+  "choices": [
+   "Courts ignore costs",
+   "It never involves low prices",
+   "It only happens in regulated industries",
+   "Aggressive but legal competition also produces low prices"
+  ],
+  "answer": 3,
+  "explain": "Low prices are usually good for consumers, so courts need evidence of below-cost pricing and likely recoupment.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-06-q008",
+  "los": [
+   "S18-06"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "According to the textbook, which situation makes predatory pricing most likely to pay off?",
+  "choices": [
+   "Two equally funded rivals",
+   "A rival that can easily shut down and reopen",
+   "A market with very low entry barriers",
+   "A deep-pocketed firm against a cash-strapped rival, with little chance of re-entry"
+  ],
+  "answer": 3,
+  "explain": "The predator must outlast the prey and then keep others out long enough to recoup.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-06-q009",
+  "los": [
+   "S18-06"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "After a predator drives out its rival, what can undermine the payoff?",
+  "choices": [
+   "The predator gains market share",
+   "Prices rise",
+   "Demand grows",
+   "The rival re-enters, or someone buys its assets and comes back"
+  ],
+  "answer": 3,
+  "explain": "If entry returns once prices rise, the predator cannot recoup its losses.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-06-q010",
+  "los": [
+   "S18-06"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A taxi company sued Uber, claiming Uber priced rides below cost to drive taxis out of San Francisco (slides p. 44). What type of claim is this?",
+  "choices": [
+   "Predatory pricing",
+   "Economies of scale",
+   "Limit pricing",
+   "Penetration pricing"
+  ],
+  "answer": 0,
+  "explain": "The rivals (taxis) were already in the market, and the claim is below-cost pricing to drive them out.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-06-q011",
+  "los": [
+   "S18-06"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A national chain sells hammers at $6 next to a local store when the hammers cost the chain $9, planning to raise prices once the local store closes. Classify it.",
+  "choices": [
+   "Predatory pricing",
+   "Penetration pricing",
+   "Economies of scope",
+   "Limit pricing"
+  ],
+  "answer": 0,
+  "explain": "Below cost, aimed at an existing rival, with recoupment planned.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-06-q012",
+  "los": [
+   "S18-06",
+   "S18-08"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A new food delivery app charges $0 delivery for its first year, below its cost, to get people to try it in a city where an established app dominates. Is this predatory pricing?",
+  "choices": [
+   "No, it is limit pricing",
+   "Yes, because the incumbent is hurt",
+   "Probably not; it is penetration pricing aimed at building a customer base",
+   "Yes, any below-cost price is predatory"
+  ],
+  "answer": 2,
+  "explain": "A newcomer pricing low (even free) to win customers is penetration pricing. Predatory pricing is aimed at driving a rival out and recouping later.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-06-q013",
+  "los": [
+   "S18-06",
+   "S18-05"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A firm cuts its price from $40 to $30. Its average variable cost is $25. An entrant has not yet come in. Is this predatory pricing?",
+  "choices": [
+   "Yes: any price cut is predatory",
+   "No: price is above cost and the target is a potential entrant, so it is limit pricing",
+   "No: it is penetration pricing",
+   "Yes: the price fell 25%"
+  ],
+  "answer": 1,
+  "explain": "Predatory pricing requires below-cost pricing aimed at an existing rival.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-06-q014",
+  "los": [
+   "S18-06"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "In the textbook, Microsoft gave Internet Explorer away free and tied it to Windows to cut off Netscape. What was the outcome?",
+  "choices": [
+   "Microsoft lost the antitrust suit",
+   "There was no lawsuit",
+   "Microsoft was found innocent",
+   "Netscape was found guilty of predatory pricing"
+  ],
+  "answer": 0,
+  "explain": "Microsoft lost the suit, and the EU later ruled the tying illegal.",
+  "source": "generated",
+  "verbatim": false
+ }
+]

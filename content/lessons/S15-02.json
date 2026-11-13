@@ -1,0 +1,89 @@
+{
+ "id": "S15-02",
+ "title": "Total product",
+ "calc": true,
+ "plain": "**Total product** is just output: the number of units the firm produces, \\(Q\\). In a table it is the output column. On a graph it is the height of the production curve.\n\nThe slides' running example is studying for an exam. Hours of study are the input and your grade is the total product:\n\n| Hours | Grade | MP (extra points) | Marginal returns |\n|---|---|---|---|\n| 0 | 40 |  |  |\n| 1 | 50 | 10 | Increasing |\n| 2 | 62 | 12 | Increasing |\n| 3 | 80 | 18 | Increasing |\n| 4 | 90 | 10 | Diminishing |\n| 5 | 95 | 5 | Diminishing |\n| 6 | 97 | 2 | Diminishing |\n| 7 | 98 | 1 | Diminishing |\n| 8 | 97 | -1 | Negative |\n| 9 | 95 | -2 | Negative |\n| 10 | 90 | -5 | Negative |\n\nThe grade rises quickly at first, flattens out, and after 7 hours it actually falls because you are exhausted. Total product can go **down** when you add too much of one input while the others stay fixed. Picture 8 workers crowded around J Dawgs' 2 grills: they get in each other's way and output drops from 57 to 28.\n\n**Where total product peaks.** Total product is highest at the point where one more unit of input adds nothing: where marginal product hits zero. Before that point each unit adds output; after it, each unit subtracts output.",
+ "why": "Total product is the starting column for every production table. Average product, marginal product and value marginal product are all computed from it.",
+ "definition": "Total product (Q) is the maximum level of output that can be produced with a given amount of inputs.",
+ "formulas": [
+  {
+   "name": "Total product",
+   "tex": "TP = Q = f(K, L)",
+   "onSheet": false,
+   "note": "Read straight from the table or plug the input into the production function."
+  }
+ ],
+ "derivation": "Total product is highest where marginal product equals zero. Each unit of input changes total product by its marginal product, so total product keeps rising while MP is positive and starts falling once MP is negative. With calculus: set \\(\\frac{dQ}{dL} = 0\\).",
+ "math": [],
+ "worked": [
+  {
+   "title": "J Dawgs total product",
+   "problem": "Using the J Dawgs table below, what is total product with 5 workers, and how many workers give the most hot dogs?\n\n| Workers L | Hot dogs Q | MP_L | AP_L | VMP_L = $4 × MP_L | Wage |\n|---|---|---|---|---|---|\n| 0 | 0 |  |  |  | $8 |\n| 1 | 7 | 7 | 7 | $28 | $8 |\n| 2 | 19 | 12 | 9.5 | $48 | $8 |\n| 3 | 33 | 14 | 11 | $56 | $8 |\n| 4 | 46 | 13 | 11.5 | $52 | $8 |\n| 5 | 55 | 9 | 11 | $36 | $8 |\n| 6 | 57 | 2 | 9.5 | $8 | $8 |\n| 7 | 49 | -8 | 7 | $-32 | $8 |\n| 8 | 28 | -21 | 3.5 | $-84 | $8 |",
+   "steps": [
+    "Total product at L = 5 is the Q column: 55 hot dogs.",
+    "Scan the Q column for the largest value: 57 at L = 6.",
+    "Check with marginal product: the 6th worker adds 2 (still positive), the 7th adds -8 (negative). Output peaks at 6."
+   ],
+   "answer": "Q = 55 with 5 workers. Total product peaks at 57 hot dogs with 6 workers."
+  }
+ ],
+ "graph": {
+  "component": "production",
+  "params": {
+   "form": "table",
+   "table": [
+    [
+     0,
+     0
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     2,
+     19
+    ],
+    [
+     3,
+     33
+    ],
+    [
+     4,
+     46
+    ],
+    [
+     5,
+     55
+    ],
+    [
+     6,
+     57
+    ],
+    [
+     7,
+     49
+    ],
+    [
+     8,
+     28
+    ]
+   ],
+   "P": 4,
+   "w": 8
+  },
+  "caption": "The J Dawgs table from the professor's workbook. The top panel is total product."
+ },
+ "traps": [
+  "Total product is output, not output per worker. If a question asks for output per worker, that is average product.",
+  "Total product can fall. Do not assume more workers always means more output.",
+  "The maximum of total product is where MP = 0, not where MP is at its maximum and not where AP is at its maximum.",
+  "Profit is usually maximized BEFORE total product peaks, because workers cost money. Do not hire to the TP peak unless labor is free."
+ ],
+ "sources": {
+  "slides": "S15 Production I, pp. 21, 23 to 29",
+  "read": "Ch. 5 pp. 140 to 142",
+  "exercise": "J Dawgs",
+  "quiz": "Comprehension Quiz 7 Q1 to Q3"
+ }
+}

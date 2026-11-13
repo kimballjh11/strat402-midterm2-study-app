@@ -1,0 +1,1037 @@
+## SHEET: Questions (249 rows x 17 cols)
+A1: 'Barriers to Entry Spreadsheet Exercise'
+A2: 'Overview: In this exercise, you will be asked to graph and interpret operating results for three social media companies, Meta (formerly Facebook), Twitter, and Snapchat. The purpose of this exercise is to (1) understand how barriers to entry or imitation can lead to a sustained competitive advantage and (2) to consider how a company might overcome or circumvent a barrier to entry or imitation.\n\nThe data end in the second quarter of 2022. Twitter was taken private in October 2022 and stopped filing reports with the SEC, so this is the last quarter in which we can compare all three companies. Facebook changed its company name to Meta Platforms in October 2021. The Meta data use the company\'s total revenue and expenses, which include Instagram and WhatsApp, along with the daily active users of the Facebook app.\n\nInstructions: Complete steps 1-8 using the data in the "Data" tabs for each company. Please note that you will need to fill in the last quarter of information for each company by searching company filings (10-Q\'s) on the SEC EDGAR database.\n\nYou can find the corresponding 10-Q\'s below.\n\n'
+A10: 'Meta 2022-Q2 10-Q'
+A11: 'Twitter 2022-Q2 10-Q'
+A12: 'Snapchat 2022-Q2 10-Q'
+A14: '1.'
+B14: 'Plot the daily active users over time using a line chart for Meta, Twitter, and Snapchat.'
+B35: 'What trend(s) do you observe? What historical factors or insights likely explain these trends?'
+A42: '2.'
+B42: 'Compute the advertising revenue per user, the cost (operating expense) per user, and the profit per user by filling out Table 1 below.'
+B44: 'Table 1. Revenue, Cost, and Profit per User'
+C45: 'Ad Revenue/User'
+F45: 'Operating Expense/User'
+I45: 'Profit/User'
+B46: 'Quarter'
+C46: 'META'
+D46: 'TWTR'
+E46: 'SNAP'
+F46: 'META'
+G46: 'TWTR'
+H46: 'SNAP'
+I46: 'META'
+J46: 'TWTR'
+K46: 'SNAP'
+B47: '2012-3'
+B48: '2012-4'
+B49: '2013-1'
+B50: '2013-2'
+B51: '2013-3'
+B52: '2013-4'
+B53: '2014-1'
+B54: '2014-2'
+B55: '2014-3'
+B56: '2014-4'
+B57: '2015-1'
+B58: '2015-2'
+B59: '2015-3'
+B60: '2015-4'
+B61: '2016-1'
+B62: '2016-2'
+B63: '2016-3'
+B64: '2016-4'
+B65: '2017-1'
+B66: '2017-2'
+B67: '2017-3'
+B68: '2017-4'
+B69: '2018-1'
+B70: '2018-2'
+B71: '2018-3'
+B72: '2018-4'
+B73: '2019-1'
+B74: '2019-2'
+B75: '2019-3'
+B76: '2019-4'
+B77: '2020-1'
+B78: '2020-2'
+B79: '2020-3'
+B80: '2020-4'
+B81: '2021-1'
+B82: '2021-2'
+B83: '2021-3'
+B84: '2021-4'
+B85: '2022-1'
+B86: '2022-2'
+A90: '3.'
+B90: "Using information from Table 1, fill in Table 2 below, which shows each company's profit per user in the fourth quarter of each year and Meta's profit advantage over Twitter and Snapchat."
+B92: "Table 2. Meta's Profit Advantage"
+C93: 'Profit/User'
+F93: 'Profit Advantage'
+B94: 'Quarter'
+C94: 'META'
+D94: 'TWTR'
+E94: 'SNAP'
+F94: 'META-TWTR'
+H94: 'META-SNAP'
+B95: '2017-4'
+B96: '2018-4'
+B97: '2019-4'
+B98: '2020-4'
+B99: '2021-4'
+B102: 'How much of a profit advantage does Meta enjoy relative to Twitter and Snapchat? What is the primary source of this advantage?'
+A109: '4.'
+B109: 'Plot the advertising revenue per user over time using a line chart for Meta, Twitter, and Snapchat.'
+A130: '5.'
+B130: 'Plot the advertising revenue per user over time (beginning in 2014-Q1) using a 100% Stacked Area chart for Meta, Twitter, and Snapchat.'
+B152: "What economic factors or insights likely explain Meta's revenue advantage? (i.e. Why does Meta command so much more revenue per user compared to Twitter and Snapchat?)"
+A160: '6. '
+B160: 'Examine the cost structure of each company by computing the cost of revenue, R&D, Sales & Marketing, General and Administrative, and total Operating Expenses as a percentage of Total revenue (i.e. advertising revenue + any other revenue) for Meta, Twitter, and Snapchat in Table 3 below. Then graph the relative operating expense (as a % of sales) for each company over time.\n'
+B165: 'Table 3. Comparison of Cost Structures Over Time'
+C166: 'Cost of Revenue (% of Sales)'
+F166: 'R&D (% of Sales)'
+I166: 'Sales & Marketing (% of Sales)'
+L166: 'General & Admin (% of Sales)'
+O166: 'Operating Expense (% of Sales)'
+B167: 'Quarter'
+C167: 'META'
+D167: 'TWTR'
+E167: 'SNAP'
+F167: 'META'
+G167: 'TWTR'
+H167: 'SNAP'
+I167: 'META'
+J167: 'TWTR'
+K167: 'SNAP'
+L167: 'META'
+M167: 'TWTR'
+N167: 'SNAP'
+O167: 'META'
+P167: 'TWTR'
+Q167: 'SNAP'
+B168: '2012-3'
+B169: '2012-4'
+B170: '2013-1'
+B171: '2013-2'
+B172: '2013-3'
+B173: '2013-4'
+B174: '2014-1'
+B175: '2014-2'
+B176: '2014-3'
+B177: '2014-4'
+B178: '2015-1'
+B179: '2015-2'
+B180: '2015-3'
+B181: '2015-4'
+B182: '2016-1'
+B183: '2016-2'
+B184: '2016-3'
+B185: '2016-4'
+B186: '2017-1'
+B187: '2017-2'
+B188: '2017-3'
+B189: '2017-4'
+B190: '2018-1'
+B191: '2018-2'
+B192: '2018-3'
+B193: '2018-4'
+B194: '2019-1'
+B195: '2019-2'
+B196: '2019-3'
+B197: '2019-4'
+B198: '2020-1'
+B199: '2020-2'
+B200: '2020-3'
+B201: '2020-4'
+B202: '2021-1'
+B203: '2021-2'
+B204: '2021-3'
+B205: '2021-4'
+B206: '2022-1'
+B207: '2022-2'
+B227: 'Based on the information in Table 3, what are the primary drivers that explain Meta\'s cost advantage? What economic factors might explain these results? For a description of each expense category, see Meta\'s 2021 annual report linked below (search for the term "Cost of Revenue and Operating Expenses" by typing Ctrl + F).'
+B229: "Link to Meta's 2021 Annual Report"
+A236: '7.'
+B236: "Do you think Meta will be the leading social media company in 10 years? 20 years? If yes, why? If not, why not? Keep in mind that our data do not include every competitor. For example, TikTok is not included because its parent company, ByteDance, is privately held, even though it grew into one of Meta's biggest competitors after 2020."
+A243: '8.'
+B243: "Based on your reading and understanding of the reading Strategies to Crack Well-Guarded Markets, describe how TikTok was able to grow into a major competitor despite Meta's dominant position. Then consider Meta's launch of Threads in 2023 to compete with Twitter (now X). Which strategies from the reading, if any, did TikTok and Threads use to overcome the barriers they faced?"
+## SHEET: Data - META (43 rows x 9 cols)
+A1: 'Meta'
+B2: 'Users'
+C2: 'Revenue'
+E2: 'Expenses'
+I2: 'Total Expense'
+A3: 'Quarter'
+B3: 'Daily Active Users (millions)'
+C3: 'Advertising Revenue (millions)'
+D3: 'Other revenue (millions)'
+E3: 'Cost of Revenue (millions)'
+F3: 'R&D (millions)'
+G3: 'Sales & Marketing (millions)'
+H3: 'General & Administrative (millions)'
+I3: 'Operating Expenses (millions)'
+A4: '2012-3'
+B4: 584
+C4: 1086
+D4: 176
+E4: 322
+F4: 244
+G4: 168
+H4: 151
+I4: 885  [formula =SUM(E4:H4)]
+A5: '2012-4'
+B5: 618
+C5: 1329
+D5: 256
+E5: 398
+F5: 297
+G5: 193
+H5: 174
+I5: 1062  [formula =SUM(E5:H5)]
+A6: '2013-1'
+B6: 664
+C6: 1245
+D6: 213
+E6: 413
+F6: 293
+G6: 203
+H6: 176
+I6: 1085  [formula =SUM(E6:H6)]
+A7: '2013-2'
+B7: 699
+C7: 1599
+D7: 214
+E7: 465
+F7: 344
+G7: 269
+H7: 173
+I7: 1251  [formula =SUM(E7:H7)]
+A8: '2013-3'
+B8: 728
+C8: 1798
+D8: 218
+E8: 507
+F8: 369
+G8: 233
+H8: 171
+I8: 1280  [formula =SUM(E8:H8)]
+A9: '2013-4'
+B9: 757
+C9: 2344
+D9: 241
+E9: 491
+F9: 408
+G9: 292
+H9: 261
+I9: 1452  [formula =SUM(E9:H9)]
+A10: '2014-1'
+B10: 802
+C10: 2265
+D10: 237
+E10: 462
+F10: 455
+G10: 323
+H10: 187
+I10: 1427  [formula =SUM(E10:H10)]
+A11: '2014-2'
+B11: 829
+C11: 2676
+D11: 234
+E11: 473
+F11: 492
+G11: 358
+H11: 197
+I11: 1520  [formula =SUM(E11:H11)]
+A12: '2014-3'
+B12: 864
+C12: 2957
+D12: 246
+E12: 565
+F12: 608
+G12: 374
+H12: 259
+I12: 1806  [formula =SUM(E12:H12)]
+A13: '2014-4'
+B13: 890
+C13: 3594
+D13: 257
+E13: 653
+F13: 1111
+G13: 624
+H13: 330
+I13: 2718  [formula =SUM(E13:H13)]
+A14: '2015-1'
+B14: 936
+C14: 3317
+D14: 226
+E14: 654
+F14: 1062
+G14: 620
+H14: 274
+I14: 2610  [formula =SUM(E14:H14)]
+A15: '2015-2'
+B15: 968
+C15: 3827
+D15: 215
+E15: 668
+F15: 1170
+G15: 626
+H15: 305
+I15: 2769  [formula =SUM(E15:H15)]
+A16: '2015-3'
+B16: 1007
+C16: 4299
+D16: 202
+E16: 720
+F16: 1271
+G16: 706
+H16: 345
+I16: 3042  [formula =SUM(E16:H16)]
+A17: '2015-4'
+B17: 1038
+C17: 5637
+D17: 204
+E17: 824
+F17: 1314
+G17: 772
+H17: 371
+I17: 3281  [formula =SUM(E17:H17)]
+A18: '2016-1'
+B18: 1090
+C18: 5201
+D18: 181
+E18: 838
+F18: 1343
+G18: 826
+H18: 365
+I18: 3372  [formula =SUM(E18:H18)]
+A19: '2016-2'
+B19: 1128
+C19: 6239
+D19: 197
+E19: 917
+F19: 1471
+G19: 901
+H19: 413
+I19: 3702  [formula =SUM(E19:H19)]
+A20: '2016-3'
+B20: 1179
+C20: 6816
+D20: 195
+E20: 987
+F20: 1542
+G20: 926
+H20: 439
+I20: 3894  [formula =SUM(E20:H20)]
+A21: '2016-4'
+B21: 1227
+C21: 8629
+D21: 180
+E21: 1047
+F21: 1563
+G21: 1118
+H21: 515
+I21: 4243  [formula =SUM(E21:H21)]
+A22: '2017-1'
+B22: 1284
+C22: 7857
+D22: 175
+E22: 1159
+F22: 1834
+G22: 1057
+H22: 655
+I22: 4705  [formula =SUM(E22:H22)]
+A23: '2017-2'
+B23: 1325
+C23: 9164
+D23: 157
+E23: 1237
+F23: 1919
+G23: 1124
+H23: 640
+I23: 4920  [formula =SUM(E23:H23)]
+A24: '2017-3'
+B24: 1368
+C24: 10142
+D24: 186
+E24: 1448
+F24: 2052
+G24: 1170
+H24: 536
+I24: 5206  [formula =SUM(E24:H24)]
+A25: '2017-4'
+B25: 1401
+C25: 12779
+D25: 193
+E25: 1611
+F25: 1949
+G25: 1374
+H25: 686
+I25: 5620  [formula =SUM(E25:H25)]
+A26: '2018-1'
+B26: 1449
+C26: 11795
+D26: 171
+E26: 1927
+F26: 2238
+G26: 1595
+H26: 757
+I26: 6517  [formula =SUM(E26:H26)]
+A27: '2018-2'
+B27: 1471
+C27: 13038
+D27: 193
+E27: 2214
+F27: 2523
+G27: 1855
+H27: 776
+I27: 7368  [formula =SUM(E27:H27)]
+A28: '2018-3'
+B28: 1495
+C28: 13539
+D28: 188
+E28: 2418
+F28: 2657
+G28: 1928
+H28: 943
+I28: 7946  [formula =SUM(E28:H28)]
+A29: '2018-4'
+B29: 1523
+C29: 16640
+D29: 274
+E29: 2796
+F29: 2855
+G29: 2467
+H29: 976
+I29: 9094  [formula =SUM(E29:H29)]
+A30: '2019-1'
+B30: 1562
+C30: 14912
+D30: 165
+E30: 2816
+F30: 2860
+G30: 2020
+H30: 4064
+I30: 11760  [formula =SUM(E30:H30)]
+A31: '2019-2'
+B31: 1587
+C31: 16624
+D31: 262
+E31: 3307
+F31: 3315
+G31: 2414
+H31: 3224
+I31: 12260  [formula =SUM(E31:H31)]
+A32: '2019-3'
+B32: 1623
+C32: 17383
+D32: 269
+E32: 3155
+F32: 3548
+G32: 2416
+H32: 1348
+I32: 10467  [formula =SUM(E32:H32)]
+A33: '2019-4'
+B33: 1657
+C33: 20736
+D33: 346
+E33: 3492
+F33: 3877
+G33: 3026
+H33: 1829
+I33: 12224  [formula =SUM(E33:H33)]
+A34: '2020-1'
+B34: 1734
+C34: 17440
+D34: 297
+E34: 3459
+F34: 4015
+G34: 2787
+H34: 1583
+I34: 11844  [formula =SUM(E34:H34)]
+A35: '2020-2'
+B35: 1785
+C35: 18321
+D35: 366
+E35: 3829
+F35: 4462
+G35: 2840
+H35: 1593
+I35: 12724  [formula =SUM(E35:H35)]
+A36: '2020-3'
+B36: 1820
+C36: 21221
+D36: 249
+E36: 4194
+F36: 4763
+G36: 2683
+H36: 1790
+I36: 13430  [formula =SUM(E36:H36)]
+A37: '2020-4'
+B37: 1845
+C37: 27187
+D37: 885
+E37: 5210
+F37: 5207
+G37: 3281
+H37: 1598
+I37: 15296  [formula =SUM(E37:H37)]
+A38: '2021-1'
+B38: 1878
+C38: 25439
+D38: 732
+E38: 5131
+F38: 5197
+G38: 2843
+H38: 1622
+I38: 14793  [formula =SUM(E38:H38)]
+A39: '2021-2'
+B39: 1908
+C39: 28580
+D39: 497
+E39: 5399
+F39: 6096
+G39: 3259
+H39: 1956
+I39: 16710  [formula =SUM(E39:H39)]
+A40: '2021-3'
+B40: 1930
+C40: 28276
+D40: 734
+E40: 5771
+F40: 6316
+G40: 3554
+H40: 2946
+I40: 18587  [formula =SUM(E40:H40)]
+A41: '2021-4'
+B41: 1929
+C41: 32639
+D41: 1032
+E41: 6348
+F41: 7046
+G41: 4387
+H41: 3305
+I41: 21086  [formula =SUM(E41:H41)]
+A42: '2022-1'
+B42: 1960
+C42: 26998
+D42: 910
+E42: 6005
+F42: 7707
+G42: 3312
+H42: 2360
+I42: 19384  [formula =SUM(E42:H42)]
+A43: '2022-2'
+## SHEET: Data - TWTR (43 rows x 9 cols)
+A1: 'Twitter'
+B2: 'Users'
+C2: 'Revenue'
+E2: 'Expenses'
+I2: 'Total Expense'
+A3: 'Quarter'
+B3: 'Daily Active Users (millions)'
+C3: 'Advertising Revenue (millions)'
+D3: 'Data Licensing (millions)'
+E3: 'Cost of Revenue (millions)'
+F3: 'R&D (millions)'
+G3: 'Sales & Marketing (millions)'
+H3: 'General & Administrative (millions)'
+I3: 'Operating Expenses (millions)'
+A4: '2012-3'
+A5: '2012-4'
+A6: '2013-1'
+A7: '2013-2'
+A8: '2013-3'
+A9: '2013-4'
+A10: '2014-1'
+B10: 78
+C10: 226.051
+D10: 24.441
+E10: 85.503
+F10: 149.391
+G10: 106.235
+H10: 38.734
+I10: 379.863  [formula =SUM(E10:H10)]
+A11: '2014-2'
+B11: 83
+C11: 277.44
+D11: 34.726
+E11: 100.027
+F11: 177.095
+G11: 140.261
+H11: 44.694
+I11: 462.07700000000006  [formula =SUM(E11:H11)]
+A12: '2014-3'
+B12: 87
+C12: 320.196
+D12: 41.07
+E12: 124.166
+F12: 183.342
+G12: 164.015
+H12: 51.174
+I12: 522.697  [formula =SUM(E12:H12)]
+A13: '2014-4'
+B13: 89
+C13: 432.001
+D13: 47.077
+E13: 136.613
+F13: 181.715
+G13: 203.599
+H13: 55.304
+I13: 577.2309999999999  [formula =SUM(E13:H13)]
+A14: '2015-1'
+B14: 93
+C14: 388.211
+D14: 47.728
+E14: 143.475
+F14: 189.746
+G14: 183.557
+H14: 65.777
+I14: 582.5550000000001  [formula =SUM(E14:H14)]
+A15: '2015-2'
+B15: 97
+C15: 452.278
+D15: 50.105
+E15: 167.623
+F15: 198.907
+G15: 201.948
+H15: 64.909
+I15: 633.387  [formula =SUM(E15:H15)]
+A16: '2015-3'
+B16: 94
+C16: 512.867
+D16: 56.37
+E16: 200.195
+F16: 207.937
+G16: 208.797
+H16: 57.545
+I16: 674.4739999999999  [formula =SUM(E16:H16)]
+A17: '2015-4'
+B17: 94
+C17: 640.68
+D17: 69.793
+E17: 217.963
+F17: 210.058
+G17: 277.189
+H17: 72.442
+I17: 777.652  [formula =SUM(E17:H17)]
+A18: '2016-1'
+B18: 95
+C18: 530.741
+D18: 63.78
+E18: 198.405
+F18: 155.794
+G18: 236.171
+H18: 63.267
+I18: 653.6370000000001  [formula =SUM(E18:H18)]
+A19: '2016-2'
+B19: 98
+C19: 534.524
+D19: 67.434
+E19: 202.966
+F19: 178.511
+G19: 236.619
+H19: 70.238
+I19: 688.3340000000001  [formula =SUM(E19:H19)]
+A20: '2016-3'
+B20: 100
+C20: 544.966
+D20: 70.968
+E20: 225.159
+F20: 177.049
+G20: 224.436
+H20: 67.379
+I20: 694.023  [formula =SUM(E20:H20)]
+A21: '2016-4'
+B21: 103
+C21: 637.821
+D21: 79.385
+E21: 305.71
+F21: 202.128
+G21: 260.603
+H21: 92.392
+I21: 860.8330000000001  [formula =SUM(E21:H21)]
+A22: '2017-1'
+B22: 109
+C22: 473.78
+D22: 74.471
+E22: 220.339
+F22: 128.728
+G22: 169.594
+H22: 69.868
+I22: 588.529  [formula =SUM(E22:H22)]
+A23: '2017-2'
+B23: 110
+C23: 489.148
+D23: 84.707
+E23: 212.908
+F23: 143.171
+G23: 185.296
+H23: 70.839
+I23: 612.2139999999999  [formula =SUM(E23:H23)]
+A24: '2017-3'
+B24: 114
+C24: 502.802
+D24: 86.831
+E24: 210.016
+F24: 136.115
+G24: 172.957
+H24: 63.266
+I24: 582.3539999999999  [formula =SUM(E24:H24)]
+A25: '2017-4'
+B25: 115
+C25: 644.257
+D25: 87.303
+E25: 217.979
+F25: 133.996
+G25: 189.572
+H25: 79.915
+I25: 621.462  [formula =SUM(E25:H25)]
+A26: '2018-1'
+B26: 120
+C26: 575.156
+D26: 89.715
+E26: 222.823
+F26: 123.346
+G26: 178.059
+H26: 65.718
+I26: 589.9459999999999  [formula =SUM(E26:H26)]
+A27: '2018-2'
+B27: 122
+C27: 601.06
+D27: 109.481
+E27: 230.185
+F27: 138.574
+G27: 188.032
+H27: 74.126
+I27: 630.917  [formula =SUM(E27:H27)]
+A28: '2018-3'
+B28: 124
+C28: 649.816
+D28: 108.295
+E28: 243.644
+F28: 150.764
+G28: 193.496
+H28: 78.339
+I28: 666.2429999999999  [formula =SUM(E28:H28)]
+A29: '2018-4'
+B29: 126
+C29: 791.365
+D29: 117.471
+E29: 268.345
+F29: 141.174
+G29: 211.774
+H29: 80.635
+I29: 701.928  [formula =SUM(E29:H29)]
+A30: '2019-1'
+B30: 134
+C30: 679.466
+D30: 107.424
+E30: 264.011
+F30: 146.246
+G30: 205.799
+H30: 77.176
+I30: 693.2320000000001  [formula =SUM(E30:H30)]
+A31: '2019-2'
+B31: 139
+C31: 727.123
+D31: 114.258
+E31: 277.965
+F31: 159.242
+G31: 240.249
+H31: 88.239
+I31: 765.695  [formula =SUM(E31:H31)]
+A32: '2019-3'
+B32: 145
+C32: 702.257
+D32: 121.46
+E32: 281.057
+F32: 178.553
+G32: 226.204
+H32: 93.758
+I32: 779.5720000000001  [formula =SUM(E32:H32)]
+A33: '2019-4'
+B33: 152
+C33: 884.546
+D33: 122.795
+E33: 314.008
+F33: 198.24
+G33: 241.561
+H33: 100.648
+I33: 854.4570000000001  [formula =SUM(E33:H33)]
+A34: '2020-1'
+B34: 166
+C34: 682.192
+D34: 125.445
+E34: 284.037
+F34: 200.388
+G34: 221.287
+H34: 109.368
+I34: 815.0799999999999  [formula =SUM(E34:H34)]
+A35: '2020-2'
+B35: 186
+C35: 561.994
+D35: 121.444
+E35: 288.039
+F35: 215.806
+G35: 207.286
+H35: 246.237
+I35: 957.368  [formula =SUM(E35:H35)]
+A36: '2020-3'
+B36: 187
+C36: 808.449
+D36: 127.784
+E36: 361.388
+F36: 208.877
+G36: 215.285
+H36: 94.576
+I36: 880.126  [formula =SUM(E36:H36)]
+A37: '2020-4'
+B37: 190.9
+C37: 1154.7569999999996
+D37: 133.92399999999998
+E37: 432.924
+F37: 247.93999999999994
+G37: 244.00200000000007
+H37: 112.25099999999998
+I37: 1037.117
+A38: '2021-1'
+B38: 197.6
+C38: 898.84
+D38: 137.178
+E38: 381.008
+F38: 250.7
+G38: 234.592
+H38: 117.527
+I38: 983.827
+A39: '2021-2'
+B39: 204
+C39: 1053.411
+D39: 137.016
+E39: 416.932
+F39: 299.859
+G39: 301.902
+H39: 141.482
+I39: 1160.175
+A40: '2021-3'
+B40: 209.3
+C40: 1140.504
+D40: 143.313
+E40: 484.479
+F40: 324.252
+G40: 301.078
+H40: 150.855
+I40: 1260.664
+A41: '2021-4'
+B41: 214.7
+C41: 1412.937
+D41: 154.28300000000002
+E41: 515.0909999999999
+F41: 371.89300000000003
+G41: 338.37800000000004
+H41: 174.47199999999998
+I41: 1399.834
+A42: '2022-1'
+B42: 229
+C42: 1106.578
+D42: 94.406
+E42: 507.45
+F42: 371.695
+G42: 299.809
+H42: 149.863
+I42: 1328.817
+A43: '2022-2'
+## SHEET: Data - SNAP (43 rows x 8 cols)
+A1: 'Snapchat'
+B2: 'Users'
+C2: 'Revenue'
+D2: 'Expenses'
+H2: 'Total Expense'
+A3: 'Quarter'
+B3: 'Daily Active Users (millions)'
+C3: 'Advertising Revenue (millions)'
+D3: 'Cost of Revenue (millions)'
+E3: 'R&D (millions)'
+F3: 'Sales & Marketing (millions)'
+G3: 'General & Administrative (millions)'
+H3: 'Operating Expenses (millions)'
+A4: '2012-3'
+A5: '2012-4'
+A6: '2013-1'
+A7: '2013-2'
+A8: '2013-3'
+A9: '2013-4'
+A10: '2014-1'
+A11: '2014-2'
+A12: '2014-3'
+A13: '2014-4'
+A14: '2015-1'
+A15: '2015-2'
+A16: '2015-3'
+A17: '2015-4'
+A18: '2016-1'
+A19: '2016-2'
+A20: '2016-3'
+A21: '2016-4'
+A22: '2017-1'
+A23: '2017-2'
+B23: 173
+C23: 181.671
+D23: 152.148
+E23: 255.735
+F23: 90.903
+G23: 131.903
+H23: 630.6890000000001  [formula =SUM(D23:G23)]
+A24: '2017-3'
+B24: 178
+C24: 207.937
+D24: 210.71
+E24: 239.442
+F24: 101.511
+G24: 118.101
+H24: 669.764  [formula =SUM(D24:G24)]
+A25: '2017-4'
+B25: 187
+C25: 285.693
+D25: 191.246
+E25: 233.838
+F25: 110.458
+G25: 111.115
+H25: 646.657  [formula =SUM(D25:G25)]
+A26: '2018-1'
+B26: 191
+C26: 230.666
+D26: 196.798
+E26: 200.986
+F26: 102.113
+G26: 123.299
+H26: 623.196  [formula =SUM(D26:G26)]
+A27: '2018-2'
+B27: 188
+C27: 262.263
+D27: 191.565
+E27: 203.246
+F27: 101.685
+G27: 123.609
+H27: 620.105  [formula =SUM(D27:G27)]
+A28: '2018-3'
+B28: 186
+C28: 297.695
+D28: 197.554
+E28: 203.51
+F28: 97.552
+G28: 122.45
+H28: 621.066  [formula =SUM(D28:G28)]
+A29: '2018-4'
+B29: 186
+C29: 389.822
+D29: 212.948
+E29: 164.443
+F29: 99.474
+G29: 107.664
+H29: 584.529  [formula =SUM(D29:G29)]
+A30: '2019-1'
+B30: 190
+C30: 320.426
+D30: 203.767
+E30: 216.185
+F30: 97.882
+G30: 118.653
+H30: 636.4870000000001  [formula =SUM(D30:G30)]
+A31: '2019-2'
+B31: 203
+C31: 388.021
+D31: 215.492
+E31: 236.199
+F31: 111.504
+G31: 129.644
+H31: 692.839  [formula =SUM(D31:G31)]
+A32: '2019-3'
+B32: 210
+C32: 446.199
+D32: 223.14
+E32: 211.599
+F32: 123.24
+G32: 117.073
+H32: 675.0519999999999  [formula =SUM(D32:G32)]
+A33: '2019-4'
+B33: 218
+C33: 560.888
+D33: 253.439
+E33: 219.526
+F33: 125.972
+G33: 215.547
+H33: 814.484  [formula =SUM(D33:G33)]
+A34: '2020-1'
+B34: 229
+C34: 462.478
+D34: 253.41
+E34: 238.613
+F34: 122.205
+G34: 134.614
+H34: 748.8420000000001  [formula =SUM(D34:G34)]
+A35: '2020-2'
+B35: 238
+C35: 454.158
+D35: 250.454
+E35: 260.863
+F35: 132.118
+G35: 121.331
+H35: 764.766  [formula =SUM(D35:G35)]
+A36: '2020-3'
+B36: 249
+C36: 678.668
+D36: 293.095
+E36: 283.639
+F36: 143.511
+G36: 126.287
+H36: 846.532  [formula =SUM(D36:G36)]
+A37: '2020-4'
+B37: 265
+C37: 911.3220000000001  [formula =2506.626-SUM(C34:C36)]
+D37: 385.54600000000005  [formula =1182.505-SUM(D34:D36)]
+E37: 318.4459999999999  [formula =1101.561-SUM(E34:E36)]
+F37: 157.63400000000001  [formula =555.468-SUM(F34:F36)]
+G37: 146.93200000000002  [formula =529.164-SUM(G34:G36)]
+H37: 1008.558  [formula =SUM(D37:G37)]
+A38: '2021-1'
+B38: 280
+C38: 769.584
+D38: 412.601
+E38: 348.58
+F38: 150.286
+G38: 161.723
+H38: 1073.19  [formula =SUM(D38:G38)]
+A39: '2021-2'
+B39: 293
+C39: 982.108
+D39: 445.021
+E39: 370.671
+F39: 179.724
+G39: 179.204
+H39: 1174.62  [formula =SUM(D39:G39)]
+A40: '2021-3'
+B40: 306
+C40: 1067.471
+D40: 443.473
+E40: 412.021
+F40: 217.526
+G40: 175.275
+H40: 1248.295  [formula =SUM(D40:G40)]
+A41: '2021-4'
+B41: 319
+C41: 1297.8849999999998  [formula =4117.048-SUM(C38:C40)]
+D41: 449.15100000000007  [formula =1750.246-SUM(D38:D40)]
+E41: 434.19500000000016  [formula =1565.467-SUM(E38:E40)]
+F41: 245.22799999999995  [formula =792.764-SUM(F38:F40)]
+G41: 194.438  [formula =710.64-SUM(G38:G40)]
+H41: 1323.0120000000002  [formula =SUM(D41:G41)]
+A42: '2022-1'
+B42: 332
+C42: 1062.727
+D42: 420.897
+E42: 455.563
+F42: 241.886
+G42: 215.908
+H42: 1334.254  [formula =SUM(D42:G42)]
+A43: '2022-2'

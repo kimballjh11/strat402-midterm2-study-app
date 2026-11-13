@@ -1,0 +1,35 @@
+{
+ "id": "S18-06",
+ "title": "Predatory pricing",
+ "calc": false,
+ "plain": "**Predatory pricing** is when a firm **temporarily prices below marginal cost to drive competitors out of the market** (slides p. 41). It takes losses now in the hope of monopoly profits later: push the rival out, then raise prices to recoup the losses (slides p. 46).\n\n**Legality.** It can violate **Sherman Act §2**. Under **Brooke Group (1993)**, a plaintiff must show pricing below cost plus a dangerous probability of recoupment (the predator can later raise prices enough to make back its losses). Courts usually use **below average variable cost** as the test for \"below cost.\" It is hard to prove, because aggressive but legal competition also looks like low prices.\n\n**Slide examples.** Uber was sued for predatory pricing by a San Francisco taxi company (p. 44). The slides also show iBAHN (p. 45).\n\n**Why it often fails (textbook).** The losses must be recouped later, which only works if the rival actually exits and no one else enters once prices rise. The rival can re-enter, or someone can buy its assets cheaply and come back. It works best for a deep-pocketed firm against a cash-strapped rival. Textbook example: Microsoft gave Internet Explorer away free and bundled it with Windows to cut off Netscape; it lost the antitrust case.\n\n**Compare (slides p. 46):** limit pricing is aimed at potential entrants, before entry, at a price usually still above cost, and is generally legal. Predatory pricing is aimed at an existing rival, after entry, below cost, with losses now and recoupment later.",
+ "why": "The limit versus predatory comparison table (slides p. 46) is built to be tested: target, timing, price, profit, logic, legality.",
+ "definition": "Predatory pricing: a strategy where a firm temporarily prices below marginal cost to drive competitors out of the market.",
+ "formulas": [],
+ "derivation": "",
+ "math": [],
+ "worked": [
+  {
+   "title": "Classifying a price cut",
+   "problem": "A national chain opens next to a local hardware store and sells hammers at $6 when they cost it $9 each. Once the local store closes, the chain raises the price to $15. Classify it and say what a court would look for.",
+   "steps": [
+    "The rival is already in the market: that rules out limit pricing.",
+    "The price is below the chain's cost and the plan is to raise it after the rival exits.",
+    "Court test: price below cost (usually average variable cost) and a dangerous probability of recouping the losses."
+   ],
+   "answer": "Predatory pricing; potentially illegal under Sherman Act §2."
+  }
+ ],
+ "traps": [
+  "Predatory = BELOW COST, aimed at an EXISTING rival. A low price that is still above cost is not predatory.",
+  "Predatory pricing means losses NOW and recoupment LATER. Limit pricing keeps a positive profit throughout.",
+  "Penetration pricing can also be below cost, but its goal is to win customers and reach critical mass, not to drive a rival out.",
+  "Being below cost is not enough for a legal case: Brooke Group also requires a dangerous probability of recoupment."
+ ],
+ "sources": {
+  "slides": "S18 Barriers to Entry pp. 41, 44 to 46",
+  "read": "Module Group A Module 2",
+  "exercise": "",
+  "quiz": ""
+ }
+}

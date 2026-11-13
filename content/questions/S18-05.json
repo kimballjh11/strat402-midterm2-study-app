@@ -1,0 +1,160 @@
+[
+ {
+  "id": "S18-05-q001",
+  "los": [
+   "S18-05"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Limit pricing is:",
+  "choices": [
+   "A low initial price to gain a critical mass of customers",
+   "A firm temporarily pricing below marginal cost to drive rivals out",
+   "Pricing at the monopoly level to maximize profit",
+   "An incumbent keeping its price below the monopoly level to prevent entry"
+  ],
+  "answer": 3,
+  "explain": "Slide p. 41. The second is predatory pricing; the third is penetration pricing.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-05-q002",
+  "los": [
+   "S18-05",
+   "S18-06"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Who is the target of limit pricing?",
+  "choices": [
+   "A rival already in the market",
+   "Price-sensitive customers",
+   "Suppliers",
+   "Potential entrants not yet in the market"
+  ],
+  "answer": 3,
+  "explain": "Slide p. 46: limit pricing targets potential entrants, before entry.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-05-q003",
+  "los": [
+   "S18-05",
+   "S18-06"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: Under limit pricing the incumbent's price is usually still above its own cost, so it keeps earning a profit.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explain": "True. Profit is lower than monopoly profit but still positive (slide p. 46).",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-05-q004",
+  "los": [
+   "S18-05"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: Limit pricing is generally illegal under the Sherman Act.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 1,
+  "explain": "False. It is generally legal; it is just a low price. Predatory pricing is the one that can violate Sherman Act §2.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-05-q005",
+  "los": [
+   "S18-05"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "In Figure M1-2, why does the entrant stay out when the incumbent produces \\(Q^L\\)?",
+  "choices": [
+   "The entrant's demand is perfectly elastic",
+   "The incumbent's price is below marginal cost",
+   "The entrant has a patent problem",
+   "Its residual demand lies below its average cost at every output"
+  ],
+  "answer": 3,
+  "explain": "Residual demand = market demand minus \\(Q^L\\). If it never reaches the entrant's AC, no output earns a profit.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-05-q006",
+  "los": [
+   "S18-05"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "According to the textbook, why might a low pre-entry price fail to deter a fully informed entrant?",
+  "choices": [
+   "Low prices always attract more entrants",
+   "The entrant cares about the price after it enters, and the incumbent may not keep it low",
+   "Entrants never look at prices",
+   "Limit prices are always above the monopoly price"
+  ],
+  "answer": 1,
+  "explain": "Without a commitment, learning-curve advantage, signaling or reputation linking today's price to post-entry profits, the threat is not credible.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-05-q007",
+  "los": [
+   "S18-05"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Before a big airline's route is entered by a low-cost carrier, the airline cuts fares on that route even though it is still profitable. This is best described as:",
+  "choices": [
+   "Penetration pricing",
+   "Limit pricing",
+   "Predatory pricing",
+   "Economies of scale"
+  ],
+  "answer": 1,
+  "explain": "The rival has not entered yet and the price is still above cost: limit pricing (the slides' airline example on p. 42).",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-05-q008",
+  "los": [
+   "S18-05"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "An incumbent's monopoly price is $50 and its cost is $20. An entrant's lowest average cost would be $35. Which price deters entry while keeping the incumbent profitable?",
+  "choices": [
+   "$40",
+   "$50",
+   "$32",
+   "$15"
+  ],
+  "answer": 2,
+  "explain": "The price must be below the entrant's $35 AC (so entry is unprofitable) and above the incumbent's $20 cost. $15 is below the incumbent's own cost.",
+  "source": "generated",
+  "verbatim": false
+ }
+]

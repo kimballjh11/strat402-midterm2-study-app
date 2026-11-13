@@ -1,0 +1,776 @@
+
+===== PAGE 1 =====
+STRAT 402
+ECONOMICS OF STRATEGY
+Session 4
+Math & Excel Review
+
+===== PAGE 2 =====
+Agenda
+▪Announcements
+▪Industry Analysis Debrief
+▪Math Review
+
+===== PAGE 3 =====
+Eastern Europe Business Study Abroad
+
+===== PAGE 4 =====
+Eastern Europe Business Study Abroad
+
+===== PAGE 5 =====
+Industry Analysis Debrief
+
+===== PAGE 6 =====
+Industry Analysis Debrief
+
+===== PAGE 7 =====
+BP 1.1 Buyer concentration
+1.1 Buyer concentration (top 4 buyers as a % of total industry volume sold by 
+buyer)
+▪Who are the buyers in the industry?
+▪Even though the report doesn’t give a direct number, what do you think the market share of 
+the top 4 buyers would be in this industry?
+Outcome: 20 rated this dimension a 5 (< 40%), 3 groups rated it as a 1 ( > 70%)
+Response by groups that rated it as a 1
+▪
+Long-term residential customers: 52.5% ($21.0bn), Short-term residential customers: 22.5% ($9.0bn), Commercial 
+operators: 18.7% ($7.5bn), Students: 3.2%
+▪
+The top 4 buyers according to the report are Long-term residential, Short-term residential, Commercial, and Students 
+equaling a total of 96.9% of industry revenue.“
+▪
+"Public Storage (11.5%), Extra Space Storage (8.8%), U-Haul (2.5-5%), Cubesmart (2.5-5%) = roughly 27.8%."
+
+===== PAGE 8 =====
+BP 2.1 Profitability of the average buyer
+2.1 Profitability of average buyer
+▪For what purpose would we want to know the profitability of the average buyer?
+▪How would you describe the affluence of the prototypical self-storage buyer?
+Mode 1 — the element doesn't apply, so they parked in the middle
+▪
+We will say medium as homewoners don't have a profitability metric.
+▪
+This metric doesn't apply well because we don't have the available profitability of most 
+buyers.
+▪
+The profitability of the average buyer isn't stated in this report… To be conservative, we'll sit 
+at 5-10%.
+Mode 2 — they used the industry's own 45% margin as the buyer's.
+▪
+Profit Margin: 45%(page 8)
+▪
+we could assume the operators' 45% profit margin tells us that buyers similary enjoy strong 
+margins
+
+===== PAGE 9 =====
+R.3 Industry Growth Rate
+R.3 Industry Growth Rate
+▪How does the growth rate of the industry relate to industry attractiveness?
+▪For what purpose might someone engage in an industry analysis?
+Challenge: There were three listed industry growth rates
+▪4.3%: 2021-2026 revenue CAGR – trailing (p. 8)
+▪0.3%: 2026 revenue growth – current year (p. 9)
+▪-0.1%: 2026-3031 revenue CAGR – forward (p. 9)
+What industry growth rate would be best to use if your interested in 
+evaluating the attractiveness of an industry?
+
+===== PAGE 10 =====
+Session 5 Learning Objectives
+▪Know and understand the following mathematical 
+concepts:
+oFunction
+oSlope
+oDerivative
+oPower rule
+▪Know and understand how to use calculus to optimize 
+managerial decisions
+
+===== PAGE 11 =====
+Session 5 Learning Objectives
+▪Know and understand how to do the following in 
+Excel:
+oCreate a scatterplot in Excel
+oAdjust the horizontal and vertical axes to fit the range of 
+the data
+oAdd a title and label to your x- and y-axes
+oAdd a trendline to a plot
+oUse solver to optimize managerial decisions
+
+===== PAGE 12 =====
+Why Use Calculus?
+We use calculus in business for two primary reasons:
+1. To optimize common managerial decisions
+2. To isolate the effects of specific variables
+
+===== PAGE 13 =====
+What is a function?
+A function is a mathematical 
+function is a relationship between 
+a set of inputs and outputs
+𝑅𝑃= 100𝑃−2𝑃2
+y = -2x2 + 100x + 2E-12
+0
+200
+400
+600
+800
+1000
+1200
+1400
+0
+10
+20
+30
+40
+50
+Revenue ($)
+Price ($)
+Revenue as a Function of Price
+
+===== PAGE 14 =====
+What is a function?
+Suppose we have three functions:
+𝑦= 3
+𝑦= 2𝑥+ 3
+𝑦= 𝑥2 + 3
+Take a moment to draw a graph of these functions.
+
+===== PAGE 15 =====
+Function: y = 3
+What is the slope of this line? 
+(Remember y=mx+b)
+𝑚= 0
+What is the intercept?
+𝑏= 3
+-10
+-9
+-8
+-7
+-6
+-5
+-4
+-3
+-2
+-1
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+-6
+-5
+-4
+-3
+-2
+-1
+0
+1
+2
+3
+4
+5
+6
+Function: y = 3
+
+===== PAGE 16 =====
+Function: y = 2x + 3
+What is the slope of this line? 
+(Remember y=mx+b)
+𝑚= 2
+What is the intercept?
+𝑏= 3
+-10
+-9
+-8
+-7
+-6
+-5
+-4
+-3
+-2
+-1
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+-6
+-5
+-4
+-3
+-2
+-1
+0
+1
+2
+3
+4
+5
+6
+Function: y = 2x + 3
+
+===== PAGE 17 =====
+Function: y = 2x + 3
+What does the slope represent?
+The slope can be defined as the rise over run or the 
+∆𝑦
+∆𝑥. In this case, 
+2
+1 = 2.
+Does the slope of this line change?
+No, the slope is constant no matter where you are on the line. For every unit 
+increase in x, y will increase by 2.
+
+===== PAGE 18 =====
+Function: y = x2+ 3
+What is the slope of this curve? 
+It depends
+On what?
+On what point you are on the curve (i.e. 
+on the value of x)
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+-4
+-3
+-2
+-1
+0
+1
+2
+3
+4
+Function: y = x2 + 3
+
+===== PAGE 19 =====
+What is a derivative?
+The derivative is function that evaluates the instantaneous rate of change of 
+some original function. It tells you the rate of change (i.e. the slope 
+∆𝑦
+∆𝑥) at 
+any given value of x.
+∆𝒚
+∆𝒙≈𝒅𝒚
+𝒅𝒙
+
+===== PAGE 20 =====
+What is a derivative?
+How is it related to the slope?
+▪When the function is a straight line, the derivative is the same as the average rate 
+of change (i.e. the slope is constant)
+▪When a function is curved, the derivative will tell the slope of the line that is 
+tangent to original function at that particular point
+
+===== PAGE 21 =====
+What is a derivative?
+x
+y
+m
+0
+3
+1
+4
+2
+7
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+-4
+-3
+-2
+-1
+0
+1
+2
+3
+4
+Function: y = x2 + 3
+
+===== PAGE 22 =====
+What is a derivative?
+x
+y
+m
+0
+3
+0
+1
+4
+2
+7
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+-4
+-3
+-2
+-1
+0
+1
+2
+3
+4
+Function: y = x2 + 3
+m=0
+
+===== PAGE 23 =====
+What is a derivative?
+x
+y
+m
+0
+3
+0
+1
+4
+2
+7
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+-4
+-3
+-2
+-1
+0
+1
+2
+3
+4
+Function: y = x2 + 3
+
+===== PAGE 24 =====
+What is a derivative?
+x
+y
+m
+0
+3
+0
+1
+4
+2
+2
+7
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+-4
+-3
+-2
+-1
+0
+1
+2
+3
+4
+Function: y = x2 + 3
+m=2
+
+===== PAGE 25 =====
+What is a derivative?
+x
+y
+m
+0
+3
+0
+1
+4
+2
+2
+7
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+-4
+-3
+-2
+-1
+0
+1
+2
+3
+4
+Function: y = x2 + 3
+
+===== PAGE 26 =====
+What is a derivative?
+x
+y
+m
+0
+3
+0
+1
+4
+2
+2
+7
+4
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+-4
+-3
+-2
+-1
+0
+1
+2
+3
+4
+Function: y = x2 + 3
+m=4
+
+===== PAGE 27 =====
+The Power Rule
+For any polynomial function:
+𝑦= 𝑥𝑎
+The derivative of function y at any given value of x will be:
+𝑑𝑦
+𝑑𝑥= 𝑎𝑥𝑎−1
+
+===== PAGE 28 =====
+The Power Rule
+For the polynomial function:
+𝑦= 𝑥2 + 3
+𝑑𝑦
+𝑑𝑥= 2𝑥2−1
+𝑑𝑦
+𝑑𝑥= 2𝑥1 = 2𝑥
+
+===== PAGE 29 =====
+What is a derivative?
+x
+y
+dy/dx=2x
+0
+3
+0
+1
+4
+2
+2
+7
+4
+3
+12
+?
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+-4
+-3
+-2
+-1
+0
+1
+2
+3
+4
+Function: y = x2 + 3
+m=0
+m=2
+m=4
+
+===== PAGE 30 =====
+What is a derivative?
+x
+y
+dy/dx=2x
+0
+3
+0
+1
+4
+2
+2
+7
+4
+3
+11
+6
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+-4
+-2
+0
+2
+4
+Function: y = x2 + 3
+m=0
+m=2
+m=4
+
+===== PAGE 31 =====
+Practice
+What is the derivative of the following function?
+𝑦= −5𝑥3 + 4𝑥+ 1
+If,
+𝑦= 𝑥𝑎
+Then,
+𝑑𝑦
+𝑑𝑥= 𝑎𝑥𝑎−1
+
+===== PAGE 32 =====
+Practice
+What is the derivative of the following function:
+𝑦= −5𝑥3 + 4𝑥+ 1
+𝑑𝑦
+𝑑𝑥= 3
+−5𝑥3−1 + (1)(4𝑥1−1)
+𝑑𝑦
+𝑑𝑥= −15𝑥2 + 4
+
+===== PAGE 33 =====
+Optimization
+If the relationship between revenue and 
+price is represented by the function,
+𝑅𝑃= 100𝑃−2𝑃2
+then at what point would revenue be 
+maximized?
+0
+200
+400
+600
+800
+1000
+1200
+1400
+0
+10
+20
+30
+40
+50
+Revenue ($)
+Price ($)
+Revenue as a Function of Price
+
+===== PAGE 34 =====
+Optimization
+Why do we use calculus to solve for the revenue-maximizing price?
+Rather than varying the input and watching the value of a function to see when it 
+reaches a maximum, we can use calculus to solve for the precise value of the input 
+that optimizes the function. 
+
+===== PAGE 35 =====
+Optimization
+Steps to find the revenue-maximizing price:
+1. Find the derivative of the original function
+2. Set the derivative equal to 0
+3. Solve the function for P
+
+===== PAGE 36 =====
+Optimization
+1. Find the derivative of the 
+original function
+2. Set the derivative equal to 0
+3. Solve the function for P
+𝑅𝑃= 100𝑃−2𝑃2
+𝑑𝑅
+𝑑𝑃= 100 −4𝑃
+0 = 100 −4𝑃
+𝑃∗= 25
+
+===== PAGE 37 =====
+Optimization
+1. Find the derivative of the 
+original function
+2. Set the derivative equal to 0
+3. Solve the function for P
+𝑃∗= 25
+0
+200
+400
+600
+800
+1000
+1200
+1400
+0
+10
+20
+30
+40
+50
+Revenue ($)
+Price ($)
+Revenue as a Function of Price
+
+===== PAGE 38 =====
+Cost Minimization
+Why do we use calculus to solve for the cost-minimizing quantity?
+Rather than varying the input and watching the value of a function to see when it 
+reaches a minimum, we can use calculus to solve for the precise value of the input 
+that optimizes the function. 
+
+===== PAGE 39 =====
+Cost Minimization
+What is the cost-minimizing quantity of 
+the following function?
+Steps to find the cost-minimizing 
+quantity:
+1. Find the derivative of the original function
+2. Set the derivative equal to 0
+3. Solve the function for Q
+𝐴𝑇𝐶𝑄= 2𝑄2 −100𝑄+ 1,400
+
+===== PAGE 40 =====
+Cost Minimization
+1. Find the derivative of 
+the original function
+2. Set the derivative equal 
+to 0
+3. Solve the function for Q
+𝐴𝑇𝐶𝑄= 2𝑄2 −100𝑄+ 1,400
+𝑑𝐴𝑇𝐶
+𝑑𝑄
+= 2 2𝑄2−1 −1 100𝑄1−1
+0 = 4𝑄−100
+𝑄∗= 25
+
+===== PAGE 41 =====
+Isolating Effects
+Sometimes the output or dependent variable has more than one input. 
+For example, suppose you’re Apple and you’re trying to forecast how 
+many I-Phones you might sell next year. What other factors besides 
+price might influence how many I-Phones you might sell?
+▪Price of the I-Phone
+▪Price of related goods
+▪Income of target market
+▪Advertising/consumer preferences
+▪Population of target market
+
+===== PAGE 42 =====
+Isolating Effects
+Suppose this complex relationship could be represented by the 
+following function:
+𝑄𝐼𝑃= 1,000 −4𝑃𝐼𝑃+ 2𝑃𝑆𝐺+ 100𝐴𝐼𝑃+ 500𝐼2
+If we increased our price by $1, and everything else was held constant 
+(i.e., nothing else changed), how would our forecasted demand 
+change?
+
+===== PAGE 43 =====
+Partial Derivative
+A partial derivative of a multivariate function is its derivative with 
+respect to one of those variables, with the others held constant. It will 
+help you isolate the effect of specific variables.
+You should find the partial derivative of a function when you see the 
+following notation:
+𝜕𝑦
+𝜕𝑥
+
+===== PAGE 44 =====
+Optimization with Multiple Variables
+Suppose this complex relationship could be 
+represented by the following function:
+𝑄𝐼𝑃= 1,000 −4𝑃𝐼𝑃+ 2𝑃𝑆𝐺+ 100𝐴+ 500𝐼2
+What is the partial derivative of function 𝑸𝑰𝑷 
+with respect to 𝑷𝑰𝑷, 𝑷𝑺𝑮, 𝑨, 𝐚𝐧𝐝 𝐈?
+
+===== PAGE 45 =====
+Isolating Effects
+What is the partial derivative of function 𝑸𝑰𝑷 with respect to 
+𝑷𝑰𝑷, 𝑷𝒚, 𝑨𝑰𝑷, 𝐚𝐧𝐝 𝐈?
+𝑄𝐼𝑃= 1,000 −4𝑃𝐼𝑃+ 2𝑃𝑆𝐺+ 100𝐴𝐼𝑃+ 500𝐼2
+𝜕𝑄𝐼𝑃
+𝜕𝑃𝐼𝑃= −4
+𝜕𝑄𝐼𝑃
+𝜕𝑃𝑆𝐺= 2
+𝜕𝑄𝐼𝑃
+𝜕𝐴𝐼𝑃= 100
+𝜕𝑄𝑥
+𝜕𝐼= 1,000𝐼
+
+===== PAGE 46 =====
+Next Class: Costs & Economies of Scale
+▪Watch Cost and Scale Videos
+▪Read Chapter 5: Costs
+▪Read: HSIA Wars: iBahn and Guest-Tek

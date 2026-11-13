@@ -1,0 +1,288 @@
+[
+ {
+  "id": "S16-03-q001",
+  "los": [
+   "S16-03"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "The law of diminishing MRTS says that:",
+  "choices": [
+   "Output falls as more of an input is used",
+   "For every unit decrease in one input, increasing amounts of the other input are needed to keep output the same",
+   "The isocost line gets flatter as the budget grows",
+   "Each worker adds less output than the one before"
+  ],
+  "answer": 1,
+  "explain": "That is the slides' definition (p. 16). Each worker adding less is diminishing marginal returns, related but a different concept.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-03-q002",
+  "los": [
+   "S16-03"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Which production function's isoquants show a diminishing MRTS?",
+  "choices": [
+   "Linear",
+   "Leontief",
+   "Cobb-Douglas",
+   "All three"
+  ],
+  "answer": 2,
+  "explain": "Cobb-Douglas MRTS = bK/(aL) falls as L rises. Linear MRTS is constant and Leontief MRTS is undefined.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-03-q003",
+  "los": [
+   "S16-03"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: A diminishing MRTS is what makes Cobb-Douglas isoquants convex (bowed toward the origin).",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explain": "True. The slope flattens as you move right, which is the convex shape.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-03-q004",
+  "los": [
+   "S16-03",
+   "S15-07"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: A linear production function obeys the law of diminishing MRTS.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 1,
+  "explain": "False. Linear MRTS = b/a is constant at every point.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-03-q005",
+  "los": [
+   "S16-03"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "The S16 slides explain the law of diminishing MRTS by pointing to:",
+  "choices": [
+   "Economies of scale",
+   "Rising input prices",
+   "Network effects",
+   "Diminishing marginal returns"
+  ],
+  "answer": 3,
+  "explain": "As you add more of one input its marginal product falls, so it takes more and more of it to replace the other input (slide p. 19).",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-03-q006",
+  "los": [
+   "S16-03"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Moving down and to the right along a convex isoquant (more L, less K), the MRTS:",
+  "choices": [
+   "Becomes negative infinity",
+   "Falls",
+   "Stays the same",
+   "Rises"
+  ],
+  "answer": 1,
+  "explain": "With more labor and less capital, MP_L falls and MP_K rises, so MP_L/MP_K falls.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-03-q007",
+  "los": [
+   "S16-03"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Points on one isoquant (Q = 100): A (L = 4, K = 3), B (L = 3, K = 4), C (L = 2, K = 6), D (L = 1, K = 9). How many units of capital replace the unit of labor given up going from C to D?",
+  "answer": 3,
+  "unit": "units of capital",
+  "tol": 0.01,
+  "explain": "K rises from 6 to 9 when L falls from 2 to 1: 3 units of capital. From A to B it took only 1. That growing amount is the law of diminishing MRTS.",
+  "verify": {
+   "f": "diff",
+   "x1": 6,
+   "x2": 9
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-03-q008",
+  "los": [
+   "S16-03",
+   "S16-02"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "\\(Q = K^{0.5}L^{0.5}\\) along the isoquant Q = 20 (so K = 400/L). What is the MRTS at L = 10?",
+  "answer": 4,
+  "unit": "",
+  "tol": 0.01,
+  "explain": "K = 400/10 = 40. MRTS = K/L = 40/10 = 4.",
+  "verify": {
+   "f": "cd_mrts",
+   "A": 1,
+   "a": 0.5,
+   "b": 0.5,
+   "K": 40,
+   "L": 10
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-03-q009",
+  "los": [
+   "S16-03",
+   "S16-02"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Same isoquant (Q = 20, K = 400/L). What is the MRTS at L = 40?",
+  "answer": 0.25,
+  "unit": "",
+  "tol": 0.01,
+  "explain": "K = 400/40 = 10. MRTS = 10/40 = 0.25. It fell from 4 at L = 10 to 0.25 at L = 40: diminishing MRTS.",
+  "verify": {
+   "f": "cd_mrts",
+   "A": 1,
+   "a": 0.5,
+   "b": 0.5,
+   "K": 10,
+   "L": 40
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-03-q010",
+  "los": [
+   "S16-03"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A restaurant replaces cooks with kitchen robots one at a time. The first robot replaces 4 cooks, the next replaces 3, then 2. This pattern reflects:",
+  "choices": [
+   "Fixed proportions",
+   "Constant MRTS",
+   "Negative marginal returns",
+   "Diminishing MRTS"
+  ],
+  "answer": 3,
+  "explain": "Each additional unit of capital replaces less labor: the substitution rate falls. Constant MRTS would mean every robot replaces the same number.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-03-q011",
+  "los": [
+   "S16-03"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Why do most firms use some of both capital and labor instead of going all-in on one?",
+  "choices": [
+   "Because MRTS is always 1",
+   "Because isocosts are curved",
+   "With diminishing MRTS, replacing the last bits of one input takes huge amounts of the other",
+   "Because inputs are perfect substitutes"
+  ],
+  "answer": 2,
+  "explain": "As one input gets scarce it becomes very hard to replace, so the cheapest mix uses some of both. Isocosts are straight lines. Perfect substitutes would allow all-in.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-03-q012",
+  "los": [
+   "S16-03"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A firm's isoquant is a straight line. A consultant warns about diminishing MRTS as it automates. Is the warning relevant?",
+  "choices": [
+   "No, a straight-line isoquant means a constant MRTS",
+   "No, because the MRTS is undefined",
+   "Yes, every isoquant has diminishing MRTS",
+   "Yes, because the isoquant slopes down"
+  ],
+  "answer": 0,
+  "explain": "A straight-line isoquant (linear production) has a constant MRTS. Downward slope alone does not imply diminishing MRTS. Undefined MRTS is Leontief.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-03-q013",
+  "los": [
+   "S16-03"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: Along a Cobb-Douglas isoquant, the MRTS is higher where the firm uses little labor and lots of capital.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explain": "True. MRTS = bK/(aL) is large when K is large and L is small, which is the steep upper left of the isoquant.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S16-03-q014",
+  "los": [
+   "S16-03"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Klarna's AI assistant handles routine chats well, but disputes and fraud still need a person. As Klarna replaces more agents with AI, what does diminishing MRTS predict?",
+  "choices": [
+   "Each additional agent removed takes more AI hours to replace",
+   "AI hours replace agents at a constant rate",
+   "Each agent removed takes fewer AI hours to replace",
+   "Output rises as agents are removed"
+  ],
+  "answer": 0,
+  "explain": "The last agents handle the hard cases the AI is worst at, so replacing them takes more and more AI hours. A constant rate would mean perfect substitutes.",
+  "source": "generated",
+  "verbatim": false
+ }
+]

@@ -1,0 +1,321 @@
+[
+ {
+  "id": "S19-04-q001",
+  "los": [
+   "S19-04"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "A Nash equilibrium is a set of strategies in which:",
+  "choices": [
+   "Players can improve by changing together",
+   "No player can improve his or her payoff by unilaterally changing strategy",
+   "Each player uses a dominant strategy",
+   "Both players get their highest possible payoff"
+  ],
+  "answer": 1,
+  "explain": "Slide p. 32. It need not be the best outcome, and players need not have dominant strategies.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-04-q002",
+  "los": [
+   "S19-04"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: A Nash equilibrium is always the outcome that gives the players the highest combined payoff.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 1,
+  "explain": "False. In the Visa game the equilibrium (2, 2) is worse for both than (3, 3).",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-04-q003",
+  "los": [
+   "S19-04"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: A game can have more than one pure-strategy Nash equilibrium.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explain": "True. Coordination games have several.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-04-q004",
+  "los": [
+   "S19-04"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "In the underline method, a cell is a Nash equilibrium when:",
+  "choices": [
+   "At least one number is underlined",
+   "Its two numbers are equal",
+   "Its first number is the largest in the matrix",
+   "Both numbers in it are underlined as best responses"
+  ],
+  "answer": 3,
+  "explain": "Each player must be best-responding to the other.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-04-q005",
+  "los": [
+   "S19-04",
+   "S19-06"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Visa and Mastercard would both be better off maintaining fees. Why can't they agree to do so in a one-shot game?",
+  "choices": [
+   "Payoffs are unknown",
+   "Agreements are always illegal",
+   "Maintaining is a dominant strategy",
+   "Each has an incentive to defect from the agreement"
+  ],
+  "answer": 3,
+  "explain": "Slide p. 36: both would have an incentive to defect.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-04-q006",
+  "los": [
+   "S19-04"
+  ],
+  "type": "mc",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Visa (rows) and Mastercard (columns), from the slides:\n\n| Visa \\ Mastercard | Lower | Maintain |\n|---|---|---|\n| Lower | 2, 2 | 4, 1 |\n| Maintain | 1, 4 | 3, 3 |\n\nWhat is the Nash equilibrium?",
+  "choices": [
+   "Visa Maintain, Mastercard Maintain",
+   "Visa Lower, Mastercard Maintain",
+   "Visa Maintain, Mastercard Lower",
+   "Visa Lower, Mastercard Lower"
+  ],
+  "answer": 3,
+  "explain": "Both have the dominant strategy Lower, so (Lower, Lower) = (2, 2). At (Maintain, Maintain) each could switch to Lower and get 4.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-04-q007",
+  "los": [
+   "S19-04"
+  ],
+  "type": "mc",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Dillard's (rows) and Nordstrom (columns), from the in-class exercise:\n\n| Dillard's \\ Nordstrom | Girl's | Women's |\n|---|---|---|\n| Girl's | 2, 1 | 4, 2 |\n| Women's | 6, 4 | 3, 5 |\n\nWhat is the Nash equilibrium?",
+  "choices": [
+   "Dillard's Girl's, Nordstrom Girl's",
+   "Dillard's Women's, Nordstrom Women's",
+   "Dillard's Girl's, Nordstrom Women's",
+   "Dillard's Women's, Nordstrom Girl's"
+  ],
+  "answer": 2,
+  "explain": "Nordstrom's dominant strategy is Women's; Dillard's best response is Girl's (4 > 3). Check Nordstrom: given Girl's, Women's 2 > 1.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-04-q008",
+  "los": [
+   "S19-04"
+  ],
+  "type": "mc",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Firm X (rows) and Firm Y (columns):\n\n| X \\ Y | Left | Right |\n|---|---|---|\n| Top | 8, 3 | 12, 9 |\n| Bottom | 5, 6 | 4, 2 |\n\nWhat is the Nash equilibrium?",
+  "choices": [
+   "X Top, Y Left",
+   "X Top, Y Right",
+   "X Bottom, Y Right",
+   "X Bottom, Y Left"
+  ],
+  "answer": 1,
+  "explain": "Top is dominant for X (8 > 5, 12 > 4). Y's best response to Top is Right (9 > 3).",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-04-q009",
+  "los": [
+   "S19-04"
+  ],
+  "type": "mc",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Player A (rows) and Player B (columns), textbook Table 10-1:\n\n| A \\ B | Left | Right |\n|---|---|---|\n| Up | 10, 20 | 15, 8 |\n| Down | -10, 7 | 10, 10 |\n\nWhat is the Nash equilibrium?",
+  "choices": [
+   "A Up, B Left",
+   "A Up, B Right",
+   "A Down, B Left",
+   "A Down, B Right"
+  ],
+  "answer": 0,
+  "explain": "Up is dominant for A (10 > -10, 15 > 10). B's best response to Up is Left (20 > 8).",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-04-q010",
+  "los": [
+   "S19-04"
+  ],
+  "type": "mc",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Row (rows) and Column (columns), a 3 by 3 game:\n\n| Row \\ Column | Left | Center | Right |\n|---|---|---|---|\n| Top | 4, 3 | 5, 1 | 6, 2 |\n| Middle | 2, 1 | 8, 4 | 3, 6 |\n| Bottom | 3, 0 | 9, 6 | 2, 8 |\n\nWhat is the Nash equilibrium?",
+  "choices": [
+   "Row Top, Column Left",
+   "Row Top, Column Right",
+   "Row Middle, Column Left",
+   "Row Top, Column Center"
+  ],
+  "answer": 0,
+  "explain": "Underline: Row's best vs Left is Top (4), vs Center Bottom (9), vs Right Top (6). Column's best vs Top is Left (3), vs Middle Right (6), vs Bottom Right (8). Only (Top, Left) has both.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-04-q011",
+  "los": [
+   "S19-04"
+  ],
+  "type": "mc",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "How many pure-strategy Nash equilibria does this game have?\n\n| Firm A \\ Firm B | USB-C | Proprietary |\n|---|---|---|\n| USB-C | 40, 40 | 5, 5 |\n| Proprietary | 5, 5 | 40, 40 |",
+  "choices": [
+   "0",
+   "2",
+   "1",
+   "4"
+  ],
+  "answer": 1,
+  "explain": "(USB-C, USB-C) and (Proprietary, Proprietary): matching is each firm's best response.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-04-q012",
+  "los": [
+   "S19-04"
+  ],
+  "type": "mc",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "How many pure-strategy Nash equilibria does the employee monitoring game have?\n\n| Boss \\ Employee | Work | Shirk |\n|---|---|---|\n| Monitor | -1, 1 | 1, -1 |\n| Don't Monitor | 1, -1 | -1, 1 |",
+  "choices": [
+   "2",
+   "0",
+   "1",
+   "4"
+  ],
+  "answer": 1,
+  "explain": "Every cell has one player who wants to switch, so there is no pure equilibrium. Players randomize.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-04-q013",
+  "los": [
+   "S19-04"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Two coffee chains each pick a new store location: Downtown or Campus. Each earns 5 if they pick different spots and 2 if they pick the same spot. Which outcomes are Nash equilibria?",
+  "choices": [
+   "(Downtown, Campus) and (Campus, Downtown)",
+   "There is none",
+   "(Campus, Campus) only",
+   "(Downtown, Downtown) only"
+  ],
+  "answer": 0,
+  "explain": "If the rival is Downtown, your best is Campus (5 > 2), and vice versa. Splitting up is stable either way.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-04-q014",
+  "los": [
+   "S19-04",
+   "S19-06"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "In a Nash equilibrium, a manager says, \"We could earn more if our rival changed its price.\" Does that mean the outcome is not a Nash equilibrium?",
+  "choices": [
+   "No; Nash equilibria require both players to earn the same",
+   "Yes; any player who could earn more means no equilibrium",
+   "No; Nash only requires that no player gains by changing ITS OWN strategy",
+   "Yes; equilibria maximize total profit"
+  ],
+  "answer": 2,
+  "explain": "The test is unilateral deviation, not whether a better outcome exists.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-04-q015",
+  "los": [
+   "S19-04",
+   "S19-03"
+  ],
+  "type": "mc",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Game Theory Exercise Part 1 (payoffs in $ millions, Facebook, Twitter):\n\n| Facebook \\ Twitter | Ban | Don't Ban |\n|---|---|---|\n| Ban | -350, -3 | -350, 23 |\n| Don't Ban | -277, -3 | -280, -12 |\n\nWhat is the Nash equilibrium?",
+  "choices": [
+   "Facebook Ban, Twitter Don't Ban (-350, 23)",
+   "Facebook Don't Ban, Twitter Ban (-277, -3)",
+   "Both ban (-350, -3)",
+   "Neither bans (-280, -12)"
+  ],
+  "answer": 1,
+  "explain": "Facebook's Don't Ban is dominant; Twitter's best response to it is Ban (-3 > -12).",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-04-q016",
+  "los": [
+   "S19-04"
+  ],
+  "type": "mc",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Game Theory Exercise Part 3 (regulation risk 15% if both don't ban, 5% if only one doesn't):\n\n| Facebook \\ Twitter | Ban | Don't Ban |\n|---|---|---|\n| Ban | -350, -3 | -350, 29 |\n| Don't Ban | -137, -3 | -420, -18 |\n\nHow many pure-strategy Nash equilibria are there?",
+  "choices": [
+   "One: both ban",
+   "Two: (Ban, Don't Ban) and (Don't Ban, Ban)",
+   "One: (Don't Ban, Ban)",
+   "None"
+  ],
+  "answer": 1,
+  "explain": "Each firm's best response is the opposite of its rival's: Facebook -350 > -420 and -137 > -350; Twitter 29 > -3 and -3 > -18.",
+  "source": "generated",
+  "verbatim": false
+ }
+]

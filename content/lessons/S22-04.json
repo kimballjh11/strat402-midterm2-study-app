@@ -1,0 +1,66 @@
+{
+ "id": "S22-04",
+ "title": "Optimal decisions and competitor responses (Bertrand)",
+ "calc": true,
+ "plain": "**Standard Bertrand decisions:**\n- Equal costs: price at marginal cost; any higher price will be undercut. Profit is zero.\n- You have lower cost: price just below the rival's marginal cost and take the whole market (unless your monopoly price is even lower).\n- You have higher cost: you cannot profitably match; you sell nothing.\n- To escape: differentiate, add switching costs, or be capacity constrained.\n\n**Differentiated Bertrand decisions:**\n- Your best price depends on the rival's price through your reaction function. With Bryce's demand \\(Q_i = a - p_i + p_j\\): \\(p_i = \\frac{a + p_j + c}{2}\\).\n- **Rival raises price:** you raise yours too, but by **half as much** in Bryce's model.\n- **Rival cuts price:** you cut yours, by half as much.\n- **Your cost rises:** your reaction function shifts up; the rival responds by raising its price a bit (upward slope).\n- Equilibrium with identical firms: \\(p = a + c\\).\n\n**Comparing the four models** (textbook, \\(P = 1{,}000 - (Q_1 + Q_2)\\), MC = $4):\n\n| Model | Outputs | Total Q | Price | Profit per firm |\n|---|---|---|---|---|\n| Collusion | 249 each | 498 | $502 | $124,002 each |\n| Cournot | 332 each | 664 | $336 | $110,224 each |\n| Stackelberg (firm 1 leads) | 498 and 249 | 747 | $253 | Leader $124,002, follower $62,001 |\n| Bertrand | 498 each | 996 | $4 | $0 |\n\n**Takeaway** (textbook): the profit you earn depends heavily on which kind of rivalry your industry has, so work out which model describes your market before choosing a strategy.",
+ "why": "Practice exam Q30 and Q36 to Q38 and Comprehension Quiz 10 Q7, Q9 and Q10 are expected to ask for prices and responses.",
+ "definition": "Optimal Bertrand decisions: with identical products, price at (or just under the rival's) marginal cost; with differentiated products, set price on your reaction function, which rises with the rival's price.",
+ "formulas": [
+  {
+   "name": "Best response to rival price (Bryce)",
+   "tex": "p_i = \\frac{a + p_j + c}{2}",
+   "onSheet": false
+  },
+  {
+   "name": "General best response",
+   "tex": "p_1 = \\frac{\\alpha + \\beta c + \\gamma p_2}{2\\beta}",
+   "onSheet": false
+  }
+ ],
+ "derivation": "From \\(\\pi_1 = (p_1 - c)(\\alpha - \\beta p_1 + \\gamma p_2)\\): \\(\\frac{d\\pi_1}{dp_1} = \\alpha - 2\\beta p_1 + \\gamma p_2 + \\beta c = 0\\).",
+ "math": [
+  {
+   "title": "Derivative when price is the choice",
+   "body": "With demand \\(q_1 = \\alpha - \\beta p_1 + \\gamma p_2\\) and marginal cost c, profit is \\(\\pi_1 = (p_1 - c)(\\alpha - \\beta p_1 + \\gamma p_2)\\). Use the product rule: derivative of the first factor (1) times the second, plus the first times the derivative of the second \\((-\\beta)\\): \\(\\frac{d\\pi_1}{dp_1} = (\\alpha - \\beta p_1 + \\gamma p_2) - \\beta(p_1 - c)\\). Set it to 0: \\(2\\beta p_1 = \\alpha + \\beta c + \\gamma p_2\\). Tiny example: \\(\\alpha = 100, \\beta = 2, \\gamma = 1, c = 10\\): \\(4p_1 = 120 + p_2\\), so \\(p_1 = 30 + 0.25p_2\\)."
+  },
+  {
+   "title": "Symmetric equilibrium in prices",
+   "body": "If both firms are identical, set \\(p_1 = p_2 = p\\) in one reaction function. From \\(p = 30 + 0.25p\\): \\(0.75p = 30\\), so \\(p = 40\\). In general \\(p^* = \\frac{\\alpha + \\beta c}{2\\beta - \\gamma}\\). With Bryce's demand \\(Q_i = a - p_i + p_j\\) (\\(\\beta = \\gamma = 1\\)): \\(p^* = a + c\\)."
+  }
+ ],
+ "worked": [
+  {
+   "title": "Responding to a rival's price increase",
+   "problem": "Q_i = 80 - p_i + p_j, MC = $20. The rival raises its price from $100 to $120. What should you charge before and after?",
+   "steps": [
+    "Before: \\(p = \\frac{80 + 100 + 20}{2} = 100\\).",
+    "After: \\(p = \\frac{80 + 120 + 20}{2} = 110\\).",
+    "You raise your price by $10, half the rival's $20 increase."
+   ],
+   "answer": "$100, then $110. (Equilibrium is a + c = $100, so the rival's move to $120 is off equilibrium.)"
+  }
+ ],
+ "graph": {
+  "component": "reaction",
+  "params": {
+   "mode": "price",
+   "al": 80,
+   "be": 1,
+   "ga": 1,
+   "c": 20
+  },
+  "caption": "Bryce's demand with a = 80, c = 20. The equilibrium is a + c = $100."
+ },
+ "traps": [
+  "In differentiated Bertrand, match a rival's price increase only partly (half, in Bryce's model).",
+  "In standard Bertrand with equal costs, any price above MC is undercut.",
+  "Stackelberg leader and colluding firms tie for the highest profit in the textbook comparison; Bertrand firms earn zero.",
+  "Do not mix up the models: price competition with identical goods gives the LOWEST price of all four."
+ ],
+ "sources": {
+  "slides": "S22 slides not yet available",
+  "read": "Ch. 9: Bertrand Oligopoly; Comparing Oligopoly Models; Appendix; Bryce pp. 6 to 9",
+  "exercise": "Oligopoly Exercise (not yet available)",
+  "quiz": "Session 22 Reading Quiz Q3; Comprehension Quiz 10 Q7, Q9, Q10 (not yet available); Practice exam Q36 to Q38"
+ }
+}

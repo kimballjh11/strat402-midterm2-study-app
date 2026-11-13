@@ -1,0 +1,101 @@
+[
+ {
+  "id": "PRO-Session19quiz-Q1",
+  "los": [
+   "S19-06"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Game theory is especially useful for analysis in which of the following market structures?",
+  "choices": [
+   "Perfect competition",
+   "Monopoly",
+   "Oligopoly",
+   "Monopolistic competition"
+  ],
+  "answer": 2,
+  "explain": "Correct! Game theory is a general framework used to make managerial decisions where your actions (as a firm) depend on the actions of other players (i.e. other firms). These competitive dynamics generally model actions taken by firms that compete in oligopolistic markets, where the actions of one firm will have significant impact on the profits and decisions of rivals.",
+  "source": "professor",
+  "verbatim": true,
+  "origin": "Session 19 quiz Q1"
+ },
+ {
+  "id": "PRO-Session19quiz-Q2",
+  "los": [
+   "S19-01"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "A simultaneous-move game is a game in which one player makes a move after observing the other player's move.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 1,
+  "explain": "Correct! That describes a sequential-move game. A simultaneous-move game is a game in which each player makes decisions without the knowledge of the other players' decisions.",
+  "source": "professor",
+  "verbatim": true,
+  "origin": "Session 19 quiz Q2"
+ },
+ {
+  "id": "PRO-Session19quiz-Q3",
+  "los": [
+   "S19-02"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "The normal-form representation of a game contains which of the following game theoretic elements?",
+  "choices": [
+   "A list of players",
+   "A set of possible strategies",
+   "A set of corresponding payoffs",
+   "All of the above"
+  ],
+  "answer": 3,
+  "explain": "Correct! The normal-form representation of a game indicates the players in the game, their possible strategies, and the payoffs associated with each possible strategy.",
+  "source": "professor",
+  "verbatim": true,
+  "origin": "Session 19 quiz Q3"
+ },
+ {
+  "id": "PRO-Session19quiz-Q4",
+  "los": [
+   "S19-03"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "A dominant strategy is a strategy that results in the highest payoff to a player regardless of the opponent's action.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explain": "Correct! A dominant strategy is a strategy that results in the highest payoff to a player regardless of the opponent's action.",
+  "source": "professor",
+  "verbatim": true,
+  "origin": "Session 19 quiz Q4"
+ },
+ {
+  "id": "PRO-Session19quiz-Q5",
+  "los": [
+   "S19-04"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "A Nash equilibrium is a condition describing a set of strategies where both players can improve their payoffs by unilaterally changing their strategy.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 1,
+  "explain": "Correct! This statement would be true if it said that \"no player\" rather than \"both players\" could improve his or her payoff by changing his or her strategy.",
+  "source": "professor",
+  "verbatim": true,
+  "origin": "Session 19 quiz Q5"
+ }
+]

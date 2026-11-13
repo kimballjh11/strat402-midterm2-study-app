@@ -1,0 +1,299 @@
+[
+ {
+  "id": "S20-02-q001",
+  "los": [
+   "S20-02"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "In a game repeated a KNOWN finite number of times, how do players treat the last period?",
+  "choices": [
+   "As a sequential game",
+   "As an infinitely repeated game",
+   "As a one-shot game, since no one can be punished afterward",
+   "As a cooperative game"
+  ],
+  "answer": 2,
+  "explain": "Slides p. 28.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-02-q002",
+  "los": [
+   "S20-02"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "According to the slides, finite repeated games:",
+  "choices": [
+   "Turn into sequential games",
+   "Always sustain collusion",
+   "Always collapse back to a one-shot simultaneous game",
+   "Have no equilibrium"
+  ],
+  "answer": 2,
+  "explain": "Slides p. 28.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-02-q003",
+  "los": [
+   "S20-02"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Why does a player have an incentive to break a promise in the second-to-last period of a finitely repeated game?",
+  "choices": [
+   "Promises are illegal",
+   "There is no effective punishment in the last period, because both defect then anyway",
+   "The rival cannot see the move",
+   "The payoffs are larger in that period"
+  ],
+  "answer": 1,
+  "explain": "Slides p. 28.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-02-q004",
+  "los": [
+   "S20-02"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: In a prisoner's dilemma repeated exactly 100 times with a known end, firms should cooperate in the first 99 periods and cheat only in the last.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 1,
+  "explain": "False. Backward induction unravels cooperation from period 100 all the way back to period 1.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-02-q005",
+  "los": [
+   "S20-02"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Cooperation can survive in a finitely repeated game when:",
+  "choices": [
+   "Players do not know when the game will end",
+   "Payoffs are listed in a tree",
+   "There is only one period",
+   "The last period is announced in advance"
+  ],
+  "answer": 0,
+  "explain": "With an uncertain end there is always a chance of future punishment (textbook).",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-02-q006",
+  "los": [
+   "S20-02"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: The unraveling argument for finitely repeated games uses backward induction, starting from the final period.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explain": "True. Solve the last period first, then step back.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-02-q007",
+  "los": [
+   "S20-02",
+   "S20-07"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Your only rival announces it will close its store in two weeks. You have kept prices high together for years. What does game theory predict?",
+  "choices": [
+   "Collusion breaks down now, since the game has a known end",
+   "Nothing changes",
+   "Prices stay high until the rival closes",
+   "You should raise prices further"
+  ],
+  "answer": 0,
+  "explain": "Like Comprehension Quiz 9 Q7: a known final period removes the threat of punishment.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-02-q008",
+  "los": [
+   "S20-02"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "An employee has announced she will retire in three weeks. Why might her effort drop?",
+  "choices": [
+   "She has a dominant strategy to work",
+   "The game is infinitely repeated",
+   "The end-of-period problem: there is no future relationship to protect",
+   "Her pay rises"
+  ],
+  "answer": 2,
+  "explain": "The textbook's end-of-period problem. Firms respond with things like retirement bonuses or references.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-02-q009",
+  "los": [
+   "S20-02"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A tourist-area street vendor will never see a customer again. Which statement fits?",
+  "choices": [
+   "This is an infinitely repeated game",
+   "The vendor will always sell high quality",
+   "The vendor has an incentive to sell low-quality goods, since there is no repeat business to lose",
+   "Customers can punish the vendor next period"
+  ],
+  "answer": 2,
+  "explain": "One-shot interactions remove the reputation incentive.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-02-q010",
+  "los": [
+   "S20-02"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "How could a firm reduce the end-of-period problem with a worker who will leave in a year?",
+  "choices": [
+   "Pay everything up front",
+   "Pay part of compensation as a bonus at the end, or make future references depend on performance",
+   "Shorten the notice period",
+   "Announce the exact last day to everyone"
+  ],
+  "answer": 1,
+  "explain": "Making something depend on the last periods keeps a future reward in play.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-02-q011",
+  "los": [
+   "S20-02",
+   "S20-01"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Gas stations A and B will compete for exactly 10 weeks before a highway bypass closes their road. Each week's game is a prisoner's dilemma with a unique Nash equilibrium (both price low). What happens in week 1?",
+  "choices": [
+   "They alternate",
+   "Both price low",
+   "Both price high, then low in week 10",
+   "Both price high every week"
+  ],
+  "answer": 1,
+  "explain": "Week 10 is one-shot, so both price low; then week 9 has nothing to protect, and so on back to week 1.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-02-q012",
+  "los": [
+   "S20-02"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Which change would make collusion between two firms easier to sustain?",
+  "choices": [
+   "The game is played only once",
+   "One firm says it will exit next month",
+   "The firms are unsure when their competition will end",
+   "A regulator announces the market will close on a fixed date"
+  ],
+  "answer": 2,
+  "explain": "Uncertain end = always a chance of future punishment.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-02-q013",
+  "los": [
+   "S20-02"
+  ],
+  "type": "tf",
+  "kind": "apply",
+  "diff": 1,
+  "stem": "True or false: Visa and Mastercard playing the fee game for exactly two periods would both lower fees in both periods.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explain": "True (slides p. 28). The second period is one-shot; the first has no effective punishment.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-02-q014",
+  "los": [
+   "S20-02"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "What condition makes a finitely repeated game unravel to the one-shot outcome in every period?",
+  "choices": [
+   "Players move sequentially",
+   "The payoffs are large",
+   "The final period is known and the one-shot game has a unique Nash equilibrium",
+   "The players are patient"
+  ],
+  "answer": 2,
+  "explain": "Both conditions are needed for the backward-induction argument.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-02-q015",
+  "los": [
+   "S20-02",
+   "S20-01"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Each year there is a 10% chance that a new law ends two firms' market. Compared with a market that ends on a known date, collusion is:",
+  "choices": [
+   "Required by law",
+   "Impossible",
+   "Harder to sustain",
+   "Easier to sustain, since every period may be followed by another"
+  ],
+  "answer": 3,
+  "explain": "An uncertain end works like an infinite horizon with extra discounting (textbook).",
+  "source": "generated",
+  "verbatim": false
+ }
+]

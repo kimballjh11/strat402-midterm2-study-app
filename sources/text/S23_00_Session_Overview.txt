@@ -1,0 +1,82 @@
+Session 23: Midterm Exam 2 Session 23: Midterm Exam 2 
+ Exported from Canvas (STRAT 402) on Nov 12, 2026. Files linked below are saved in this folder. 
+ Exam Prep 
+ Study Guide: Midterm Exam 2 
+ Page · Open in Canvas 
+ Exam Prep 
+ Midterm Exam 2 Study Guide 
+
+ Begin with the End in Mind 
+
+ Each session's learning objectives spell out what I want you to know and be able to do, and I use them to decide which questions go on the midterm. The best way to study is to start from those objectives and work back to the material. 
+
+ Midterm Exam 2 covers Sessions 15–22 only: production, barriers to entry, game theory, and oligopoly. The study guide is an Excel matrix with one row for each learning objective from those sessions. Its columns list the resources that cover each objective: readings, reading quiz and comprehension quiz questions, slides and in-class exercises, practice exam questions, and spreadsheet assignments. 
+
+ Download the Study Guide (Excel) Download the Equation Sheet (PDF) 
+
+ How to Use the Study Guide 
+
+ Test yourself on each objective. Read it and ask whether you could explain the idea or do the calculation without your notes. 
+
+ Follow the row for the ones you can't. Start with the quiz questions listed for that objective, especially any you missed, then go back to the reading or slides. 
+
+ Rework the application objectives by hand. For anything you calculated in an in-class exercise or spreadsheet assignment, redo it with a calculator and scratch paper. You won't have Excel or Solver on the exam. 
+
+ How to Use the Practice Exam 
+
+ The Practice Midterm Exam 2 follows the format of the real exam at about two-thirds the length: 14 conceptual questions, followed by six short cases with application questions. Its topics are weighted about the same way as the midterm. None of its questions appear on the real exam. It is ungraded, and you can take it as many times as you like. 
+
+ Take it after you have worked through the study guide , not as your first step. It is most useful as a check on what you still need to learn. 
+
+ Take it under exam conditions. Close your book and notes, put your phone away, and use only a scientific or financial calculator, scratch paper, and a printed copy of the equation sheet . Time yourself. 
+
+ Read every explanation after you submit, including the ones for questions you got right. A correct guess is still a gap. 
+
+ Trace each miss back to its objective. The study guide's Practice Exam column shows which objective each question tests. Find the question number, then study that row. 
+
+ Retake it a few days later. The questions stay the same, so an immediate retake mostly measures memory. Give it time, then see whether the misses stick. 
+
+ The practice exam is not comprehensive. It doesn’t cover every topic or learning objective that could appear on the midterm, and the real exam will include questions on material the practice exam never touches. What it does show is the types of questions to expect and how they are asked. Use it to find gaps, and use the study guide to make sure you have studied every objective. 
+
+ What the Exam Looks Like 
+
+ Format: a paper exam in the BYU Testing Center. It has 59 multiple-choice questions worth 100 points in total. 
+
+ Conceptual questions (25): similar to the quiz questions, worth 1 point each. 
+
+ Application questions (34): short cases similar to the spreadsheet exercises, worth 2–4 points each. 
+
+ What you can bring: a scientific or financial calculator. Graphing calculators, Excel, phones, and other devices are not allowed, and the exam is closed book and closed notes. 
+
+ Equation sheet: printed as the last page of the exam booklet. It is the same equation sheet as Midterm 1, so practice with it. The production formulas are the ones you need for Midterm 2. 
+
+ Scratch paper: allowed, but don't write in the booklet. 
+
+ Things I Will Ask You to Do 
+
+ Use a production function to calculate average and marginal product and the profit-maximizing amount of an input 
+
+ Find an isocost line and the MRTS, compare marginal product per dollar, and find the cost-minimizing input mix 
+
+ Identify the barriers to entry and the entry strategy in a real company's story 
+
+ Solve one-shot games for dominant strategies and Nash equilibrium, and sequential games by backward induction 
+
+ Use present values to decide whether a trigger strategy can sustain collusion 
+
+ Calculate Cournot, collusive, Stackelberg, and Bertrand outcomes from a demand curve and costs, and use reaction functions to find differentiated Bertrand prices 
+
+ Practice Midterm Exam 2 
+ Assignment · 62 pts · Open in Canvas 
+ This is an external-tool quiz; its questions can't be exported from Canvas. Open it in Canvas to review. 
+
+ Watch: Midterm Exam 2 Review Video and Slides (Optional) 
+ Page · Open in Canvas 
+
+ Watch (Optional) 
+
+ Midterm Exam 2 Review Video and Slides 
+
+ Coming soon. The review video and slides will be posted here by Saturday, November 14, at 11:59 PM . 
+
+ In the meantime, start with the Midterm Exam 2 study guide and the Practice Midterm Exam 2 .

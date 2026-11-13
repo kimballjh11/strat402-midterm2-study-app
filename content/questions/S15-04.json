@@ -1,0 +1,310 @@
+[
+ {
+  "id": "S15-04-q001",
+  "los": [
+   "S15-04"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Marginal product of labor measures:",
+  "choices": [
+   "The maximum output for given labor",
+   "The value of output from the last worker",
+   "Total output divided by labor",
+   "The change in total output from the last unit of labor"
+  ],
+  "answer": 3,
+  "explain": "MP_L = ΔQ / ΔL. Q / L is AP; P × MP is VMP; maximum output is total product.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-04-q002",
+  "los": [
+   "S15-04"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Marginal product is the ______ of the total product curve.",
+  "choices": [
+   "Average",
+   "Area underneath",
+   "Slope",
+   "Height"
+  ],
+  "answer": 2,
+  "explain": "MP = dQ/dL, the slope of TP. The height of TP is Q itself. Average is AP.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-04-q003",
+  "los": [
+   "S15-04",
+   "S15-05"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: If marginal product is falling, total product must be falling.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 1,
+  "explain": "False. Falling but positive MP (diminishing returns) still raises total product, just by less each time. TP falls only when MP is negative.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-04-q004",
+  "los": [
+   "S15-04"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: To find the marginal product of labor for a production function that includes capital, you treat capital as a constant while taking the derivative with respect to labor.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explain": "True. MP_L is a partial derivative: hold K fixed and differentiate with respect to L.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-04-q005",
+  "los": [
+   "S15-04",
+   "S15-07"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "For \\(Q = aK + bL\\), the marginal product of labor is:",
+  "choices": [
+   "a + b",
+   "bL",
+   "b",
+   "a"
+  ],
+  "answer": 2,
+  "explain": "The derivative of bL with respect to L is b, and aK does not change with L. bL is the contribution of all labor, not the marginal one.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-04-q006",
+  "los": [
+   "S15-04"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Use the table.\n\n| Labor (L) | Output (Q) |\n|---|---|\n| 0 | 0 |\n| 1 | 10 |\n| 2 | 25 |\n| 3 | 45 |\n| 4 | 60 |\n| 5 | 70 |\n| 6 | 75 |\n| 7 | 76 |\n| 8 | 74 |\n\nWhat is the marginal product of the 5th worker?",
+  "answer": 10,
+  "unit": "units",
+  "tol": 0.01,
+  "explain": "MP of the 5th worker = Q(5) - Q(4) = 70 - 60 = 10. Using 70 (total product) or 14 (AP = 70/5) are the common errors.",
+  "verify": {
+   "f": "table_mp",
+   "L": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "Q": [
+    0,
+    10,
+    25,
+    45,
+    60,
+    70,
+    75,
+    76,
+    74
+   ],
+   "at": 5
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-04-q007",
+  "los": [
+   "S15-04"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Use the J Dawgs table.\n\n| Labor (L) | Output (Q) |\n|---|---|\n| 0 | 0 |\n| 1 | 7 |\n| 2 | 19 |\n| 3 | 33 |\n| 4 | 46 |\n| 5 | 55 |\n| 6 | 57 |\n| 7 | 49 |\n| 8 | 28 |\n\nWhat is the marginal product of the 3rd worker?",
+  "answer": 14,
+  "unit": "hot dogs",
+  "tol": 0.01,
+  "explain": "MP = Q(3) - Q(2) = 33 - 19 = 14 hot dogs, matching the professor's MPL column.",
+  "verify": {
+   "f": "table_mp",
+   "L": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "Q": [
+    0,
+    7,
+    19,
+    33,
+    46,
+    55,
+    57,
+    49,
+    28
+   ],
+   "at": 3
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-04-q008",
+  "los": [
+   "S15-04"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Use the table.\n\n| Labor (L) | Output (Q) |\n|---|---|\n| 0 | 0 |\n| 1 | 8 |\n| 2 | 20 |\n| 3 | 36 |\n| 4 | 48 |\n| 5 | 56 |\n| 6 | 60 |\n| 7 | 58 |\n\nWhat is the marginal product of the 7th worker?",
+  "answer": -2,
+  "unit": "cars",
+  "tol": 0.01,
+  "explain": "MP = Q(7) - Q(6) = 58 - 60 = -2. Negative: the 7th worker reduces output.",
+  "verify": {
+   "f": "table_mp",
+   "L": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "Q": [
+    0,
+    8,
+    20,
+    36,
+    48,
+    56,
+    60,
+    58
+   ],
+   "at": 7
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-04-q009",
+  "los": [
+   "S15-04",
+   "S15-09"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "\\(Q = K^{0.5}L^{0.5}\\). What is \\(MP_L\\) at K = 25 and L = 4?",
+  "answer": 1.25,
+  "unit": "",
+  "tol": 0.01,
+  "explain": "Sheet formula: \\(MP_L = bK^aL^{b-1} = 0.5K^{0.5}L^{-0.5} = 0.5\\sqrt{K}/\\sqrt{L} = 0.5 \\times 5 / 2 = 1.25\\).",
+  "verify": {
+   "f": "cd_mp",
+   "A": 1,
+   "a": 0.5,
+   "b": 0.5,
+   "K": 25,
+   "L": 4,
+   "wrt": "L"
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-04-q010",
+  "los": [
+   "S15-04"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A delivery company adds a 10th driver and deliveries rise from 940 to 990 per day. What is the 10th driver's marginal product?",
+  "choices": [
+   "50 deliveries",
+   "990 deliveries",
+   "94 deliveries",
+   "99 deliveries"
+  ],
+  "answer": 0,
+  "explain": "MP = 990 - 940 = 50. 990 is total product, 99 is AP with 10 drivers, 94 is AP with the old 10 drivers' output divided wrongly.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-04-q011",
+  "los": [
+   "S15-04"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A manager must choose which department gets one more employee. Which measure should guide the choice?",
+  "choices": [
+   "Total product in each department",
+   "The number of employees each department already has",
+   "Average product in each department",
+   "Marginal product (and its value) in each department"
+  ],
+  "answer": 3,
+  "explain": "The decision is about ONE more worker, so the relevant number is that worker's added output (MP), ideally in dollars (VMP). A department with high average product may gain little from one more person.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-04-q012",
+  "los": [
+   "S15-04"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Workers 1, 2 and 3 at a print shop add 30, 40 and 35 posters. A manager says, 'The 3rd worker is less productive than the 2nd, so we have negative returns.' Is this right?",
+  "choices": [
+   "Yes, because total product fell",
+   "No. MP fell but is still positive, which is diminishing, not negative, returns",
+   "Yes, because MP fell",
+   "No, because MP is increasing"
+  ],
+  "answer": 1,
+  "explain": "Total product rose (30, 70, 105). MP fell from 40 to 35 but stayed positive, so this is diminishing marginal returns. Negative returns require MP < 0.",
+  "source": "generated",
+  "verbatim": false
+ }
+]

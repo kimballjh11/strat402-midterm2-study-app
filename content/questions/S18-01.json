@@ -1,0 +1,292 @@
+[
+ {
+  "id": "S18-01-q001",
+  "los": [
+   "S18-01"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Economies of scale exist when:",
+  "choices": [
+   "Long-run average costs decline as output is increased",
+   "Unit costs decline as cumulative production increases",
+   "Producing two products together costs less than producing them separately",
+   "A product becomes more valuable as more people use it"
+  ],
+  "answer": 0,
+  "explain": "That is the professor's definition. Falling cost with cumulative production is a learning curve, joint production is economies of scope, and value rising with users is network effects.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-01-q002",
+  "los": [
+   "S18-01"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Diseconomies of scale exist when:",
+  "choices": [
+   "Long-run average costs rise as output increases",
+   "A firm produces several products",
+   "Long-run average costs fall as output increases",
+   "Marginal cost is zero"
+  ],
+  "answer": 0,
+  "explain": "Past the lowest point of the long-run average cost curve, average cost rises: diseconomies of scale.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-01-q003",
+  "los": [
+   "S18-01",
+   "S18-09"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: Economies of scale are a barrier to entry because a small entrant has a higher average cost than a large incumbent.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explain": "True. The entrant spreads its fixed costs over fewer units.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-01-q004",
+  "los": [
+   "S18-01"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "In Figure 8-11 (S18 slides p. 31), why would a second firm not enter?",
+  "choices": [
+   "Splitting the market leaves each firm at an average cost above the price",
+   "The incumbent's price is below marginal cost",
+   "The second firm would face network effects",
+   "The market is protected by a patent"
+  ],
+  "answer": 0,
+  "explain": "One firm at \\(Q^M\\) has \\(ATC(Q^M)\\) below \\(P^M\\). Two firms at \\(Q^M/2\\) each have \\(ATC(Q^M/2)\\) above the price, so both would lose money.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-01-q005",
+  "los": [
+   "S18-01",
+   "S18-02"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: Economies of scale depend on cumulative output over the firm's history.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 1,
+  "explain": "False. Scale depends on output per period. Cumulative output is the learning curve.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-01-q006",
+  "los": [
+   "S18-01"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "The S18 slides show high-voltage power lines under economies of scale. What is the point?",
+  "choices": [
+   "Power is a commodity with no brand",
+   "A utility's network costs so much that one firm can serve a region more cheaply than two",
+   "Utilities have strong network effects among customers",
+   "Electricity prices are regulated below cost"
+  ],
+  "answer": 1,
+  "explain": "The huge fixed cost of the grid means average cost keeps falling with output, so a second network would raise average cost for everyone.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-01-q007",
+  "los": [
+   "S18-01"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "A firm's total cost is TC = 10,000 + 5Q. What is its average total cost at Q = 100?",
+  "answer": 105,
+  "unit": "$",
+  "tol": 0.01,
+  "explain": "ATC = TC/Q = (10,000 + 500)/100 = 105. Or F/Q + c = 100 + 5.",
+  "verify": {
+   "f": "ac",
+   "F": 10000,
+   "c": 5,
+   "Q": 100
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-01-q008",
+  "los": [
+   "S18-01"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Same firm (TC = 10,000 + 5Q). What is ATC at Q = 1,000?",
+  "answer": 15,
+  "unit": "$",
+  "tol": 0.01,
+  "explain": "ATC = 10,000/1,000 + 5 = 10 + 5 = $15. Average cost fell from $105 to $15: economies of scale.",
+  "verify": {
+   "f": "ac",
+   "F": 10000,
+   "c": 5,
+   "Q": 1000
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-01-q009",
+  "los": [
+   "S18-01"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "A streaming service spends $600 million per year on content and technology plus $2 per subscriber per year. With 50 million subscribers, what is its average cost per subscriber?",
+  "answer": 14,
+  "unit": "$",
+  "tol": 0.01,
+  "explain": "ATC = 600/50 + 2 = 12 + 2 = $14 per subscriber per year.",
+  "verify": {
+   "f": "ac",
+   "F": 600,
+   "c": 2,
+   "Q": 50
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-01-q010",
+  "los": [
+   "S18-01"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Same streaming cost structure ($600 million fixed plus $2 per subscriber). An entrant expects 5 million subscribers. How much higher is its average cost than the incumbent's at 50 million?",
+  "answer": 108,
+  "unit": "$",
+  "tol": 0.01,
+  "explain": "Entrant: 600/5 + 2 = $122. Incumbent: 600/50 + 2 = $14. Difference: $108 per subscriber.",
+  "verify": {
+   "f": "ac_gap",
+   "F": 600,
+   "c": 2,
+   "Q1": 5,
+   "Q2": 50
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-01-q011",
+  "los": [
+   "S18-01",
+   "S18-09"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Meta's 2021 Q4 total operating expenses were $21,086 million on total revenue of $33,671 million. What percent of revenue were operating expenses? Answer in percent.",
+  "answer": 62.62,
+  "unit": "%",
+  "tol": 0.01,
+  "explain": "21,086 / 33,671 = 0.626, or about 62.6%. Twitter's ratio was about 89% and Snapchat's about 81% in 2021 (from the exercise). Spreading costs over far more users helps Meta.",
+  "verify": {
+   "f": "pct",
+   "num": 21086,
+   "den": 33671
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-01-q012",
+  "los": [
+   "S18-01"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A grocery chain negotiates lower prices from suppliers because it buys in enormous volume, so its cost per item falls as it grows. Which concept is this?",
+  "choices": [
+   "Network effects",
+   "Economies of scope",
+   "Economies of scale",
+   "Learning curve"
+  ],
+  "answer": 2,
+  "explain": "Cost per unit falls with the SIZE of output (volume purchasing). Not experience over time, not different products together, not user value.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-01-q013",
+  "los": [
+   "S18-01",
+   "S18-09"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A small town has one hardware store that barely breaks even. A chain considers opening a second store there. What barrier is it most likely facing?",
+  "choices": [
+   "Economies of scale relative to the size of the market",
+   "Predatory pricing",
+   "Patents",
+   "Network effects"
+  ],
+  "answer": 0,
+  "explain": "Like the abandoned truck stop on slide p. 30: the market is too small for two stores to each reach a low average cost.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S18-01-q014",
+  "los": [
+   "S18-01"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "In the Barriers to Entry exercise, Meta's cost of revenue (data centers, servers, network) was about 19% of sales versus about 33% for Twitter and 34% for Snapchat in 2021 Q4. Which concept best explains Meta's lower share?",
+  "choices": [
+   "Economies of scale",
+   "Penetration pricing",
+   "Economies of scope",
+   "Limit pricing"
+  ],
+  "answer": 0,
+  "explain": "These are largely fixed infrastructure costs spread over about 2 billion daily users: average cost per user falls with size.",
+  "source": "generated",
+  "verbatim": false
+ }
+]

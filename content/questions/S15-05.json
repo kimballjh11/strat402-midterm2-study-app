@@ -1,0 +1,317 @@
+[
+ {
+  "id": "S15-05-q001",
+  "los": [
+   "S15-05"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Increasing marginal returns is the range of input usage over which:",
+  "choices": [
+   "Total product increases",
+   "Marginal product is positive but falling",
+   "Marginal product increases",
+   "Average product is positive"
+  ],
+  "answer": 2,
+  "explain": "The slides define increasing marginal returns as MP rising. TP increases during both increasing and diminishing returns. MP positive but falling is diminishing returns.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-05-q002",
+  "los": [
+   "S15-05"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Negative marginal returns is the range over which:",
+  "choices": [
+   "Marginal product is falling",
+   "Average product is falling",
+   "Marginal product is negative",
+   "Total product is below its maximum"
+  ],
+  "answer": 2,
+  "explain": "Negative returns means each added unit reduces output: MP < 0. Falling MP alone is diminishing returns. AP falling happens whenever MP < AP.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-05-q003",
+  "los": [
+   "S15-05"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: Diminishing marginal returns means each additional worker reduces total output.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 1,
+  "explain": "False. Under diminishing returns each worker still adds output, just less than the previous one. Reducing output is negative returns.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-05-q004",
+  "los": [
+   "S15-05"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: Diminishing marginal returns happen because other inputs are held fixed while one input increases.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explain": "True. With a fixed number of grills, each extra worker has less capital to work with, so their added output eventually falls.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-05-q005",
+  "los": [
+   "S15-05"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "A worker whose marginal product is exactly 0 is in the range of:",
+  "choices": [
+   "Diminishing marginal returns",
+   "Negative marginal returns",
+   "Increasing marginal returns",
+   "None of the ranges"
+  ],
+  "answer": 0,
+  "explain": "Quiz 7 counts the worker with MP = 0 (L = 7) inside the diminishing range 4 to 7. Negative returns need MP below 0.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-05-q006",
+  "los": [
+   "S15-05"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Use the table.\n\n| Labor (L) | Output (Q) |\n|---|---|\n| 0 | 0 |\n| 1 | 10 |\n| 2 | 25 |\n| 3 | 45 |\n| 4 | 60 |\n| 5 | 70 |\n| 6 | 75 |\n| 7 | 76 |\n| 8 | 74 |\n\nWhich worker is the FIRST to show diminishing marginal returns (MP lower than the previous worker's)?",
+  "answer": 4,
+  "unit": "th worker",
+  "tol": 0.01,
+  "explain": "MPs: 10, 15, 20, 15, 10, 5, 1, -2. MP rises through worker 3 (20) and falls at worker 4 (15). Diminishing returns begin with the 4th worker.",
+  "verify": {
+   "f": "first_diminishing",
+   "L": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "Q": [
+    0,
+    10,
+    25,
+    45,
+    60,
+    70,
+    75,
+    76,
+    74
+   ]
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-05-q007",
+  "los": [
+   "S15-05"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Use the table.\n\n| Labor (L) | Output (Q) |\n|---|---|\n| 0 | 0 |\n| 1 | 8 |\n| 2 | 20 |\n| 3 | 36 |\n| 4 | 48 |\n| 5 | 56 |\n| 6 | 60 |\n| 7 | 58 |\n\nWhich worker is the FIRST to show negative marginal returns?",
+  "answer": 7,
+  "unit": "th worker",
+  "tol": 0.01,
+  "explain": "MPs: 8, 12, 16, 12, 8, 4, -2. The first negative MP is the 7th worker's (-2).",
+  "verify": {
+   "f": "first_negative",
+   "L": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "Q": [
+    0,
+    8,
+    20,
+    36,
+    48,
+    56,
+    60,
+    58
+   ]
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-05-q008",
+  "los": [
+   "S15-05"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Use the J Dawgs table.\n\n| Labor (L) | Output (Q) |\n|---|---|\n| 0 | 0 |\n| 1 | 7 |\n| 2 | 19 |\n| 3 | 33 |\n| 4 | 46 |\n| 5 | 55 |\n| 6 | 57 |\n| 7 | 49 |\n| 8 | 28 |\n\nHow many workers are in the range of diminishing marginal returns (MP falling but not negative)?",
+  "answer": 3,
+  "unit": "workers",
+  "tol": 0.01,
+  "explain": "MPs: 7, 12, 14, 13, 9, 2, -8, -21. Falling and nonnegative for workers 4, 5 and 6: three workers. The professor's answer: decreasing marginal returns = 4 to 6.",
+  "verify": {
+   "f": "count_diminishing",
+   "L": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "Q": [
+    0,
+    7,
+    19,
+    33,
+    46,
+    55,
+    57,
+    49,
+    28
+   ]
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-05-q009",
+  "los": [
+   "S15-05"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Use the table.\n\n| Labor (L) | Output (Q) |\n|---|---|\n| 0 | 0 |\n| 1 | 3 |\n| 2 | 8 |\n| 3 | 12 |\n| 4 | 15 |\n| 5 | 17 |\n| 6 | 18 |\n\nWhat is the LAST worker with increasing marginal returns?",
+  "answer": 2,
+  "unit": "th worker",
+  "tol": 0.01,
+  "explain": "MPs: 3, 5, 4, 3, 2, 1. MP rises from 3 to 5 at worker 2, then falls. Worker 2 is the last with increasing returns.",
+  "verify": {
+   "f": "last_increasing",
+   "L": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "Q": [
+    0,
+    3,
+    8,
+    12,
+    15,
+    17,
+    18
+   ]
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-05-q010",
+  "los": [
+   "S15-05"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Use the table.\n\n| Labor (L) | Output (Q) |\n|---|---|\n| 0 | 0 |\n| 1 | 10 |\n| 2 | 25 |\n| 3 | 45 |\n| 4 | 60 |\n| 5 | 70 |\n| 6 | 75 |\n| 7 | 76 |\n| 8 | 74 |\n\nOver what range of labor does the bakery have diminishing marginal returns?",
+  "choices": [
+   "4 to 7",
+   "60 to 76",
+   "8 and above",
+   "1 to 3"
+  ],
+  "answer": 0,
+  "explain": "MPs for workers 4 to 7 are 15, 10, 5, 1: falling and positive. Workers 1 to 3 are increasing (10, 15, 20). 60 to 76 is a range of OUTPUT, not labor. Worker 8 is negative (-2).",
+  "source": "generated",
+  "verbatim": false,
+  "trap": "Answer with a range of the input, not of output."
+ },
+ {
+  "id": "S15-05-q011",
+  "los": [
+   "S15-05"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A student's exam score rises 10, 12, then 18 points for the first three hours of study and 10, 5, 2 for the next three. When do diminishing returns to studying begin?",
+  "choices": [
+   "Only once the score starts to fall",
+   "With the 3rd hour",
+   "With the 4th hour",
+   "With the 1st hour"
+  ],
+  "answer": 2,
+  "explain": "MP rises through hour 3 (18) and falls at hour 4 (10). That is the start of diminishing returns, as in the slides' studying table. The score is still rising, so this is not negative returns.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S15-05-q012",
+  "los": [
+   "S15-05"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A warehouse keeps adding pickers to the same floor space. Eventually pickers block each other's aisles and total orders filled falls. This last stage is:",
+  "choices": [
+   "Increasing marginal returns",
+   "Constant returns",
+   "Diminishing marginal returns",
+   "Negative marginal returns"
+  ],
+  "answer": 3,
+  "explain": "Output falling as pickers are added means MP < 0, negative marginal returns.",
+  "source": "generated",
+  "verbatim": false
+ }
+]

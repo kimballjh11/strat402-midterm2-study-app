@@ -1,0 +1,333 @@
+[
+ {
+  "id": "S22-01-q001",
+  "los": [
+   "S22-01"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Standard Bertrand oligopoly is competition in:",
+  "choices": [
+   "Quantity among sellers of homogeneous goods",
+   "Price among sellers of differentiated goods",
+   "Lead time",
+   "Price among sellers of homogeneous goods"
+  ],
+  "answer": 3,
+  "explain": "Bryce p. 6.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S22-01-q002",
+  "los": [
+   "S22-01"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "In standard Bertrand with identical marginal costs, the equilibrium price is:",
+  "choices": [
+   "Halfway between MC and the monopoly price",
+   "Above average total cost",
+   "Equal to marginal cost",
+   "The monopoly price"
+  ],
+  "answer": 2,
+  "explain": "Bryce p. 7: P1 = P2 = MC1 = MC2.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S22-01-q003",
+  "los": [
+   "S22-01"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Why does undercutting continue until price reaches marginal cost?",
+  "choices": [
+   "Consumers prefer higher prices",
+   "Costs fall as price falls",
+   "Pricing slightly below the rival takes the whole market instead of half",
+   "The government requires it"
+  ],
+  "answer": 2,
+  "explain": "Bryce p. 7: the race to the bottom.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S22-01-q004",
+  "los": [
+   "S22-01"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "With unequal costs and identical goods, the low-cost firm prices:",
+  "choices": [
+   "At the monopoly price always",
+   "Just below the high-cost firm's marginal cost",
+   "Above the rival's price",
+   "At its own marginal cost"
+  ],
+  "answer": 1,
+  "explain": "Bryce p. 7: it maximizes profit per unit while taking the whole market.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S22-01-q005",
+  "los": [
+   "S22-01"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "How can capacity constraints change the standard Bertrand outcome?",
+  "choices": [
+   "Undercutting is pointless if you cannot serve the extra customers, so prices above MC may be sustainable",
+   "They have no effect",
+   "They make the market Cournot",
+   "They force price below MC"
+  ],
+  "answer": 0,
+  "explain": "Bryce p. 7.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S22-01-q006",
+  "los": [
+   "S22-01"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: In standard Bertrand, two firms are enough to reach the perfectly competitive price.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 0,
+  "explain": "True. The textbook calls this the Bertrand trap.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S22-01-q007",
+  "los": [
+   "S22-01"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Which is NOT a condition for a contestable market (textbook)?",
+  "choices": [
+   "Large sunk costs of entry",
+   "Incumbents cannot quickly cut price after entry",
+   "Consumers respond quickly to price changes",
+   "All producers have the same technology"
+  ],
+  "answer": 0,
+  "explain": "Contestable markets need NO sunk costs.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S22-01-q008",
+  "los": [
+   "S22-01"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "According to Bryce, why are Bertrand markets more common today?",
+  "choices": [
+   "Switching costs are higher",
+   "Products are more differentiated",
+   "The Internet lets consumers see most prices, making many markets commodity-like",
+   "There are fewer firms"
+  ],
+  "answer": 2,
+  "explain": "Bryce p. 6.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S22-01-q009",
+  "los": [
+   "S22-01"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "On a price comparison site, the textbook reports the gap between the two lowest prices was about 22% with two sellers and under 3% with more than 20. What does this show?",
+  "choices": [
+   "Online markets are monopolies",
+   "Prices rise with more sellers",
+   "Real markets behave more like Bertrand as sellers are added",
+   "Bertrand theory is exactly right with two sellers"
+  ],
+  "answer": 2,
+  "explain": "Inside Business 9-3.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S22-01-q010",
+  "los": [
+   "S22-01"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Why do Kellogg's and General Mills spend heavily on advertising corn flakes, according to the textbook?",
+  "choices": [
+   "To raise switching costs to zero",
+   "To make consumers see the products as different and escape pricing at marginal cost",
+   "To signal low prices",
+   "To create a Cournot market"
+  ],
+  "answer": 1,
+  "explain": "Eliminating the perception of identical products escapes the Bertrand trap.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S22-01-q011",
+  "los": [
+   "S22-01"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A firm can buy a truck for $100,000 and resell it for $80,000 if it exits. How does this sunk cost affect entry?",
+  "choices": [
+   "It makes the market contestable",
+   "The $20,000 that cannot be recovered can deter entry if incumbents would cut prices",
+   "It has no effect",
+   "It lowers marginal cost"
+  ],
+  "answer": 1,
+  "explain": "Textbook sunk-cost example.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S22-01-q012",
+  "los": [
+   "S22-01",
+   "S22-04"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Two sellers of an identical part face market demand Q = 1,000 - 10P. Firm 1's MC is $20, firm 2's is $30. Consumers see all prices. About how much profit does firm 1 earn? (Treat 'just below $30' as $30.)",
+  "answer": 7000,
+  "unit": "$",
+  "tol": 0.01,
+  "explain": "Firm 1 prices just under $30 and sells Q = 1,000 - 300 = 700. Profit ≈ (30 - 20) × 700 = $7,000. Its monopoly price (60) is higher, so $30 is the binding price.",
+  "verify": {
+   "f": "bert",
+   "A": 1000,
+   "k": 10,
+   "c1": 20,
+   "c2": 30,
+   "who": "pi1"
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S22-01-q013",
+  "los": [
+   "S22-01"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Two identical sellers with marginal cost $15 face market demand Q = 500 - 5P and compete in price. What is the equilibrium price?",
+  "answer": 15,
+  "unit": "$",
+  "tol": 0.01,
+  "explain": "Equal costs: P = MC = $15.",
+  "verify": {
+   "f": "bert",
+   "A": 500,
+   "k": 5,
+   "c1": 15,
+   "c2": 15,
+   "who": "P"
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S22-01-q014",
+  "los": [
+   "S22-01"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Same market (Q = 500 - 5P, both MC = $15). How many units does each firm sell?",
+  "answer": 212.5,
+  "unit": "",
+  "tol": 0.01,
+  "explain": "Q = 500 - 75 = 425, split evenly: 212.5 each. Profit is zero.",
+  "verify": {
+   "f": "bert_half",
+   "A": 500,
+   "k": 5,
+   "c1": 15,
+   "c2": 15
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S22-01-q015",
+  "los": [
+   "S22-01"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Textbook sunk-cost example: an entrant would lose $2,000 a month for six months while waiting for customers to switch. How much is sunk?",
+  "answer": 12000,
+  "unit": "$",
+  "tol": 0.01,
+  "explain": "2,000 × 6 = $12,000.",
+  "verify": {
+   "f": "mult",
+   "x": 2000,
+   "y": 6
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S22-01-q016",
+  "los": [
+   "S22-01"
+  ],
+  "type": "mc",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Textbook lab experiment: MC = $2, monopoly price $100. With two sellers, theory predicts $2 but winning prices averaged about $27. With three or four sellers they averaged about $9. What does this show?",
+  "choices": [
+   "Theory is exactly right",
+   "Bertrand never applies",
+   "More sellers raise prices",
+   "Prices fall quickly toward MC as sellers are added, though not as sharply as theory predicts"
+  ],
+  "answer": 3,
+  "explain": "Dufwenberg and Gneezy, textbook Inside Business 9-3.",
+  "source": "generated",
+  "verbatim": false
+ }
+]

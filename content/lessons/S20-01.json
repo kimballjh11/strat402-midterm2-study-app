@@ -1,0 +1,72 @@
+{
+ "id": "S20-01",
+ "title": "Infinitely repeated games",
+ "calc": true,
+ "plain": "In a one-shot game, collusion falls apart because cheating has no future cost (Visa and Mastercard both lower fees). But real rivals meet again and again. An **infinitely repeated game** is a game that is **played over and over again forever, and in which players receive payoffs during each play of the game** (slides p. 31).\n\n**Is collusion sustainable?** Yes. Collusion is sustainable because **players that defect can be punished in subsequent periods** (p. 31). The punishment plan is a **trigger strategy** (S20-03).\n\n**Kellogg's versus General Mills** (slides pp. 30 to 35):\n\n| Kellogg's \\ General Mills | Don't advertise | Advertise |\n|---|---|---|\n| Don't advertise | 12, 12 | -1, 15 |\n| Advertise | 15, -1 | 2, 2 |\n\nIn one play, Advertise is dominant and both earn 2. If they collude by not advertising forever, each earns 12 every period. If Kellogg's cheats, it earns 15 once, and then General Mills punishes by advertising forever, so Kellogg's earns 2 every period after.\n\n**Would it ever make sense to defect?** It depends on how much the firm values money now versus money in the future, measured with a **discount rate** i. The higher the discount rate, the more each future payoff is discounted. **A player should defect if the present value of cheating is greater than the present value of collusion** (p. 33).\n\n**The professor's present values** (p. 34), with i = 10%:\n- PV cheating = payoff now + payoffs in the future = \\(15 + \\frac{2}{i} = 15 + \\frac{2}{0.10} = 35\\)\n- PV collusion = \\(12 + \\frac{12}{i} = 12 + \\frac{12}{0.10} = 132\\)\n- 132 > 35, so Kellogg's should keep colluding.\n\n**Indifference rate** (p. 35): set them equal. \\(15 + \\frac{2}{i} = 12 + \\frac{12}{i}\\) gives \\(3 = \\frac{10}{i}\\), so \\(i = 3.33\\), or 333%. Kellogg's would only cheat if it discounted the future at more than 333% per period.\n\nThe value of a perpetuity (a payment forever) is the payment divided by the interest rate (slides p. 36). This is not on the equation sheet.",
+ "why": "Practice exam Q25 and Comprehension Quiz 9 Q6 and Q7 test whether collusion holds. The calculation is short and very testable.",
+ "definition": "An infinitely repeated game is a game that is played over and over again forever and in which players receive payoffs during each play of the game.",
+ "formulas": [
+  {
+   "name": "PV of colluding forever (starting now)",
+   "tex": "PV_{collude} = \\pi_c + \\frac{\\pi_c}{i}",
+   "onSheet": false
+  },
+  {
+   "name": "PV of cheating once, then punishment forever",
+   "tex": "PV_{cheat} = \\pi_d + \\frac{\\pi_n}{i}",
+   "onSheet": false,
+   "note": "π_d = one-time payoff from defecting; π_n = punishment (one-shot Nash) payoff each later period."
+  },
+  {
+   "name": "Perpetuity",
+   "tex": "PV = \\frac{\\pi}{i}",
+   "onSheet": false,
+   "note": "A payment every period forever, starting next period."
+  }
+ ],
+ "derivation": "A payment \\(\\pi\\) every period starting next period is worth \\(\\frac{\\pi}{1+i} + \\frac{\\pi}{(1+i)^2} + \\dots\\). This geometric series sums to \\(\\frac{\\pi}{i}\\). Adding this period's payment gives \\(\\pi + \\frac{\\pi}{i} = \\pi\\frac{1+i}{i}\\), the textbook's form.",
+ "math": [
+  {
+   "title": "Present value of a payoff that lasts forever",
+   "body": "A payoff \\(\\pi\\) received every period forever, starting next period, is worth \\(\\pi / i\\) today, where i is the interest (discount) rate. Example: $12 a year forever at 10% is worth \\(12 / 0.10 = \\$120\\). Add today's payoff if it starts now: \\(12 + 12/0.10 = \\$132\\). A higher i makes future payoffs worth less: at 50%, \\(12/0.5 = \\$24\\)."
+  },
+  {
+   "title": "Solving for the interest rate",
+   "body": "Set the two present values equal and solve for i. \\(15 + \\frac{2}{i} = 12 + \\frac{12}{i}\\). Move the numbers to one side and the 1/i terms to the other: \\(15 - 12 = \\frac{12}{i} - \\frac{2}{i}\\), so \\(3 = \\frac{10}{i}\\). Multiply both sides by i and divide by 3: \\(i = \\frac{10}{3} = 3.33\\), or 333%."
+  }
+ ],
+ "worked": [
+  {
+   "title": "Comprehension Quiz 9 Q6",
+   "problem": "Kellogg's and General Mills: both advertise 0 each; neither 4 each; the advertiser alone 44 and the other -4 ($ billions). Infinitely repeated with trigger strategies, i = 12%. Collude or defect?",
+   "steps": [
+    "PV collude = 4 + 4/0.12 = 4 + 33.33 = 37.33.",
+    "PV cheat = 44 + 0/0.12 = 44.",
+    "44 > 37.33."
+   ],
+   "answer": "Defect. The one-time gain (40) is bigger than the future loss (4 per year, worth 33.33)."
+  }
+ ],
+ "graph": {
+  "component": "repeated",
+  "params": {
+   "coop": 12,
+   "cheat": 15,
+   "nash": 2,
+   "i": 0.1
+  },
+  "caption": "The Kellogg's example. Raise the interest rate past 333% and cheating becomes worth more than colluding."
+ },
+ "traps": [
+  "Use the PUNISHMENT payoff (one-shot Nash) for the future periods after cheating, not the collusive payoff.",
+  "The professor's convention: today's payoff plus payoff/i for the future, on both sides.",
+  "A HIGHER interest rate makes cheating MORE attractive, because the future punishment is worth less.",
+  "Collusion can be sustained only because there is a future; in a one-shot game it fails."
+ ],
+ "sources": {
+  "slides": "S20 Game Theory II pp. 27, 30 to 36",
+  "read": "Ch. 10 pp. 318 to 323",
+  "exercise": "",
+  "quiz": "Comprehension Quiz 9 Q6, Q7; Practice exam Q25"
+ }
+}

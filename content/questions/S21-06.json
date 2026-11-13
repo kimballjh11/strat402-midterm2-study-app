@@ -1,0 +1,312 @@
+[
+ {
+  "id": "S21-06-q001",
+  "los": [
+   "S21-06"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Two Cournot firms collude. What output does each produce?",
+  "choices": [
+   "Half the monopoly output",
+   "Half the competitive output",
+   "The Stackelberg leader output",
+   "The Cournot output"
+  ],
+  "answer": 0,
+  "explain": "Bryce p. 6, point m.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-06-q002",
+  "los": [
+   "S21-06"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "In a one-shot game, why does a Cournot cartel break down?",
+  "choices": [
+   "Collusion lowers profits",
+   "Each firm's best response to the rival's quota is to produce more",
+   "The leader moves first",
+   "Price equals MC"
+  ],
+  "answer": 1,
+  "explain": "Cheating pays.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-06-q003",
+  "los": [
+   "S21-06"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Ranking total output from lowest to highest for the same market:",
+  "choices": [
+   "Cournot, Collusion, Bertrand, Stackelberg",
+   "Collusion, Cournot, Stackelberg, Bertrand",
+   "Bertrand, Stackelberg, Cournot, Collusion",
+   "Stackelberg, Cournot, Collusion, Bertrand"
+  ],
+  "answer": 1,
+  "explain": "Textbook comparison: 498, 664, 747, 996.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-06-q004",
+  "los": [
+   "S21-06"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Which firm earns the least among collusion, Cournot and Stackelberg (in the textbook's comparison)?",
+  "choices": [
+   "The Stackelberg leader",
+   "A Cournot firm",
+   "A colluding firm",
+   "The Stackelberg follower"
+  ],
+  "answer": 3,
+  "explain": "$62,001 vs $110,224 and $124,002.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-06-q005",
+  "los": [
+   "S21-06"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Your marginal cost falls in a Cournot duopoly. How does your rival respond?",
+  "choices": [
+   "It produces less",
+   "It produces more",
+   "It keeps output unchanged",
+   "It exits"
+  ],
+  "answer": 0,
+  "explain": "Your reaction function shifts out; the new intersection has you higher and the rival lower.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-06-q006",
+  "los": [
+   "S21-06",
+   "S21-02"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "P = 120 - 2(Q_1 + Q_2), MC = $20 for both. If the firms collude and split the monopoly output, what is each firm's profit?",
+  "answer": 625.0,
+  "unit": "$",
+  "tol": 0.01,
+  "explain": "MR = 120 - 4Q = 20 gives Q = 25, P = $70. Each makes 12.5 and earns (70 - 20) × 12.5 = $625.",
+  "verify": {
+   "f": "collude",
+   "a": 120,
+   "b": 2,
+   "c1": 20,
+   "c2": 20,
+   "who": "pi1"
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-06-q007",
+  "los": [
+   "S21-06",
+   "S21-04"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Same market. Firm 2 keeps its collusive quota of 12.5. If firm 1 cheats with its best response, what is firm 1's profit?",
+  "answer": 703.12,
+  "unit": "$",
+  "tol": 0.01,
+  "explain": "Q_1 = 25 - 0.5(12.5) = 18.75. Q = 31.25, P = 120 - 62.5 = $57.50. Profit = 37.5 × 18.75 = $703.13 > $625.",
+  "verify": {
+   "f": "cheat",
+   "a": 120,
+   "b": 2,
+   "c1": 20,
+   "c2": 20,
+   "who": "pi1",
+   "quota": 12.5
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-06-q008",
+  "los": [
+   "S21-06",
+   "S21-02"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "P = 100 - (Q_1 + Q_2), MC_1 = $10, MC_2 = $25. What is firm 1's Cournot output?",
+  "answer": 35.0,
+  "unit": "",
+  "tol": 0.01,
+  "explain": "Q_1 = (100 - 20 + 25)/3 = 35.",
+  "verify": {
+   "f": "cournot",
+   "a": 100,
+   "b": 1,
+   "c1": 10,
+   "c2": 25,
+   "who": "q1"
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-06-q009",
+  "los": [
+   "S21-06",
+   "S21-02"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Same market. What is the Cournot price?",
+  "answer": 45.0,
+  "unit": "$",
+  "tol": 0.01,
+  "explain": "Q_2 = (100 - 50 + 10)/3 = 20. P = 100 - 55 = $45.",
+  "verify": {
+   "f": "cournot",
+   "a": 100,
+   "b": 1,
+   "c1": 10,
+   "c2": 25,
+   "who": "P"
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-06-q010",
+  "los": [
+   "S21-06"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Textbook comparison market (P = 1,000 - Q, MC = 4). Under collusion, what is the price?",
+  "answer": 502.0,
+  "unit": "$",
+  "tol": 0.01,
+  "explain": "MR = 1,000 - 2Q = 4 gives Q = 498; P = $502; 249 each.",
+  "verify": {
+   "f": "collude",
+   "a": 1000,
+   "b": 1,
+   "c1": 4,
+   "c2": 4,
+   "who": "P"
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-06-q011",
+  "los": [
+   "S21-06",
+   "S21-03"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "P = 200 - 2(Q_1 + Q_2), MC = $20 for both, firm 1 leads. What is the leader's profit?",
+  "answer": 2025.0,
+  "unit": "$",
+  "tol": 0.01,
+  "explain": "Leader (200 - 20)/4 = 45; follower 45 - 22.5 = 22.5; P = 200 - 135 = $65; leader profit 45 × 45 = $2,025.",
+  "verify": {
+   "f": "stack",
+   "a": 200,
+   "b": 2,
+   "c1": 20,
+   "c2": 20,
+   "who": "pi1"
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-06-q012",
+  "los": [
+   "S21-06"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "You are a Cournot duopolist. Your rival just announced a big expansion that it will definitely carry out. What should you do?",
+  "choices": [
+   "Increase your output by the same amount",
+   "Nothing",
+   "Cut price to marginal cost",
+   "Reduce your output along your reaction function"
+  ],
+  "answer": 3,
+  "explain": "Reaction functions slope down.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-06-q013",
+  "los": [
+   "S21-06"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Two firms in a Cournot market are deciding whether to sign a (legal) joint venture that makes one of them the clear first mover on capacity. Which firm benefits?",
+  "choices": [
+   "Only the follower",
+   "The firm that becomes the leader; the follower earns less than in Cournot",
+   "Both benefit equally",
+   "Neither; profits are the same"
+  ],
+  "answer": 1,
+  "explain": "Leader earns more, follower less.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S21-06-q014",
+  "los": [
+   "S21-06"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "You and one rival split a cartel quota. You learn the rival will secretly produce its best response to your quota next month. What is your best move?",
+  "choices": [
+   "Cut output",
+   "Raise your price above the cartel price",
+   "Expand output along your reaction function; the outcome moves toward Cournot",
+   "Keep your quota"
+  ],
+  "answer": 2,
+  "explain": "Bryce p. 6: if the other defects, you best-respond too.",
+  "source": "generated",
+  "verbatim": false
+ }
+]

@@ -1,0 +1,235 @@
+S20 Textbook Notes – Repeated & Multistage Games 
+
+ Session 20 · Game Theory II — Study Notes 
+ ↓ Jump to textbook figures, formulas & book examples 
+
+ Reading: Baye & Prince, Ch. 10, pp. 318–337 (Infinitely Repeated Games, Finitely Repeated Games, Multistage Games). My own summary — all payoffs and numbers below are my own. Pair with the S20 slides and the Game Theory Exercise (Twitter vs. Facebook political ads). 
+
+ 1. Why repetition changes everything 
+
+ In a one-shot pricing game, collusion falls apart because cheating has no future cost. When firms meet again and again , today's cheating can be punished tomorrow — so cooperation (high prices, no ad wars) can be sustained. 
+
+ 2. Present value refresher 
+
+ PV of a profit stream: π₀ + π₁/(1+i) + π₂/(1+i)² + … 
+
+Constant π forever, starting today : PV = π(1+i)/i . Starting next period : π/i . 
+
+ 3. Infinitely repeated games & trigger strategies 
+
+ A trigger strategy depends on past play: “I'll cooperate as long as you always have; if you ever cheat, I'll play the one-shot Nash strategy forever after” (grim-trigger punishment). 
+
+ Collusion can be sustained when 
+
+ (π Cheat − π Coop ) / (π Coop − π N ) ≤ 1/i 
+
+Equivalently: π Cheat − π Coop ≤ (1/i)·(π Coop − π N ) 
+
+Left = one-time gain from cheating today. Right = PV of what you lose every future period once punishment starts. 
+
+π Coop = per-period payoff from cooperating, π Cheat = best one-period payoff from cheating, π N = one-shot Nash payoff (the punishment). 
+
+ Key insight: lower interest rates (patient firms) make collusion easier — the future matters more. 
+
+ Practice (my numbers): Cooperate (High, High) = $20 each; cheat = $45; Nash (Low, Low) = $5. 
+
+Ratio = (45 − 20)/(20 − 5) = 25/15 ≈ 1.67. Collusion holds if 1/i ≥ 1.67 → i ≤ 60% . 
+
+At i = 25%: 1/i = 4 ≥ 1.67 ✔ sustainable. At i = 80%: 1/i = 1.25 < 1.67 ✘ someone cheats. 
+
+ Max interest rate formula: i* = (π Coop − π N )/(π Cheat − π Coop ). 
+
+ 4. What makes tacit collusion easier (or harder) 
+
+ Punishment only works if firms know who their rivals are, who their rivals' customers are , when a rival cheats, and can actually punish . Industry factors: 
+
+ Factor Collusion easier when… 
+
+ Number of firms Few firms. With n firms, n(n−1) monitoring relationships are needed (2 firms → 2; 5 firms → 20). 
+
+ Firm size / capacity Firms can credibly punish — a tiny firm may lack capacity to steal a big rival's customers; scale economies can also make punishment costly. 
+
+ History of the market Firms have learned how rivals behave; punishments have actually been carried out before (credible). 
+
+ Punishment mechanisms Practices like price-matching guarantees make undercutting pointless and punishment automatic. Multimarket contact (meeting rivals in many markets) also softens competition. 
+
+ Legal note: explicit agreements to fix prices are illegal (cartels using direct communication get caught and fined). The textbook's point is tacit collusion through repeated interaction. 
+
+ 5. Repetition and product quality 
+
+ One-shot: the seller is tempted to sell junk and consumers anticipate it (“take the money and run”) → no sale. Repeated: a buyer who will stop buying (and tell friends) after one bad experience makes high quality the seller's best choice, if the interest rate isn't too high. That's why reputation matters. 
+
+ 6. Finitely repeated games 
+
+ a) Uncertain final period 
+
+ If each round has probability θ of being the last, cooperating looks just like the infinite case, with (1 − θ) playing the role of the discount factor 1/(1+i). Collusion can still be sustained if the chance of ending isn't too big. 
+
+ PV of cooperating with end-probability θ = π Coop /θ 
+
+ Practice: Cooperate = $8/round, cheat once = $15 then $0 after. θ = 0.25 → PV(coop) = 8/0.25 = $32 > $15 → don't cheat . If θ = 0.6 → 8/0.6 ≈ $13.33 < $15 → cheat . 
+
+ b) Known final period — the end-of-period problem 
+
+ If everyone knows exactly when the game ends, no one can be punished after the last round → everyone cheats in the last round → so no one can be punished for cheating in the second-to-last round either → backward unraveling to cheating every round. Collusion collapses no matter how many rounds. 
+
+ Workers who announce they're quitting: they have less reason to work hard. Firing quitters doesn't fix it (people just stop announcing). Better fix: rewards that outlast the job — e.g., references and a strong professional network — so quitting isn't “the end of the game.” 
+
+ “Snake-oil” sellers: sellers who can't be found again (traveling vendors, fly-by-night sellers) have no reputation to protect and an incentive to sell junk. 
+
+ 7. Multistage (sequential) games 
+
+ Represented in extensive form (a game tree): decision nodes, branches for each move, payoffs at the end (first number = first mover). 
+
+ Subgame perfect equilibrium (SPE): a Nash equilibrium in which every threat/promise is credible — each player's strategy is optimal at every point in the tree, even off the equilibrium path. Find it with backward induction : solve the last mover's choice first, then work back to the start. 
+
+ A Nash equilibrium that depends on a non-credible threat (something the player wouldn't actually do when the time came) is not subgame perfect. Lesson: don't let non-credible threats change your behavior. 
+
+ Applications 
+
+ Entry game (my numbers): Entrant decides In/Out. If Out: (0, 12) to (Entrant, Incumbent). If In, incumbent picks Fight → (−3, 2) or Accommodate → (4, 6). 
+
+Backward induction: if entry happens, the incumbent prefers Accommodate (6 > 2), so “I'll fight” is a non-credible threat. Entrant compares In (4) vs. Out (0) → enters . SPE: (In, Accommodate) = (4, 6). (Out, “Fight if In”) is a Nash equilibrium but not subgame perfect. 
+
+ Innovation game (my numbers): You decide Introduce / Don't (Don't → (2, 2)). If you introduce, rival chooses Clone → (−8, 15) or Don't Clone → (60, 0). 
+
+Rival would clone (15 > 0), so introducing yields −8 < 2 → don't introduce . A rival's promise not to clone isn't credible. With a patent blocking cloning, you get 60 → introduce. That's why patents encourage innovation. 
+
+ Sequential bargaining (my numbers): Split $50. Proposer offers $1, $25, or $49; responder accepts (gets offer) or rejects (both get 0). 
+
+Responder accepts anything > 0, so the proposer offers $1 and keeps $49 . A threat to reject a $1 offer isn't credible. The player who makes a credible take-it-or-leave-it offer captures almost all the surplus. 
+
+ Real-world caveats: (1) players often don't know each other's true payoffs (e.g., a dealer's cost or a buyer's max price) — so it pays to research your counterpart; (2) bargaining may not end after one offer — if counteroffers are possible, a take-it-or-leave-it stance only works if it's a credible commitment. 
+
+ 8. Quick self-test 
+
+ Why can collusion work in an infinitely repeated game but not a one-shot game? 
+
+ Coop = $12, Cheat = $30, Nash = $3. What's the highest interest rate at which collusion holds? 
+
+ Why does collusion unravel when the final period is known? 
+
+ Name two industry conditions that make tacit collusion easier. 
+
+ What makes a Nash equilibrium fail to be subgame perfect? 
+
+ In a one-round take-it-or-leave-it bargaining game, who gets most of the surplus? 
+
+ Answers: (1) the threat of future punishment makes cheating costly; (2) i* = (12 − 3)/(30 − 12) = 9/18 = 50%; (3) no punishment possible in the last round → cheat then → logic unravels backward to round 1; (4) few firms, easy monitoring/known customers, credible punishment, price-matching policies, low interest rates; (5) it relies on a non-credible threat; (6) the proposer (first mover). 
+
+ Textbook Figures, Formulas & Book Examples 
+ The diagrams are my redrawings of the book's figures, labeled with the same figure numbers so you can find each original in Bookshelf. The formulas match the book's notation. The book's worked examples are summarized with their actual numbers. 
+
+ A. Formulas as the book writes them 
+
+ Present value of a firm's profits: PV Firm = π 0 + π 1 /(1+i) + π 2 /(1+i) 2 + … = Σ π t /(1+i) t 
+
+Same profit π every period forever: PV Firm = ((1+i)/i)·π 
+
+ Table 10–7 pricing game with trigger strategies: 
+
+PV Cheat Firm A = 50 + 0 + 0 + … = $50 
+
+PV Coop Firm A = 10 + 10/(1+i) + 10/(1+i) 2 + … = 10(1+i)/i 
+
+No incentive to cheat if 50 ≤ 10(1+i)/i, i.e. i ≤ 1/4 (25%) . 
+
+ Principle (sustaining cooperative outcomes with trigger strategies): a one-shot game repeated infinitely (or with uncertain end), with interest rate i, can support cooperation if 
+
+    (π Cheat − π Coop ) / (π Coop − π N ) ≤ 1/i 
+
+π Cheat = one-period profit from cheating, π Coop = per-period profit from cooperating, π N = per-period one-shot Nash profit. 
+
+ Trigger strategy: cooperate as long as no one has cheated; once someone cheats, play the one-shot Nash strategy forever after. 
+
+ Uncertain final period (θ = probability the game ends after any given play, 0 < θ < 1; interest rate 0): 
+
+Π Cheat Firm A = $50 (no matter when the game ends) 
+
+Π Coop Firm A = 10 + (1−θ)10 + (1−θ) 2 10 + (1−θ) 3 10 + … = 10/θ 
+
+Compare with the infinite game, 10 + 10/(1+i) + … = 10(1+i)/i: (1 − θ) plays the role of 1/(1+i) . Players discount the future because future play isn't certain, not because of interest. 
+
+No cheating if 50 ≤ 10/θ, i.e. θ ≤ 1/5 (less than a 20% chance each period that the game ends). If θ = 1 it's a one-shot game and both firms charge the low price. 
+
+With θ = ½: a ½ chance the game ends after 1 play, ¼ after 2, ⅛ after 3, and (½) t after t plays, like flipping a coin after each play.
+
+ Subgame perfect equilibrium (book definition): a set of strategies such that (1) it is a Nash equilibrium and (2) at each stage of the game (decision node), neither player can improve their payoff by changing their own strategy. Equivalently, a Nash equilibrium that involves only credible threats. 
+
+ B. The book's tables and game trees (redrawn) 
+
+ Table 10–7 (same payoffs reused as Tables 10–9 and 10–11): a pricing game repeated over time. One-shot Nash equilibrium highlighted. 
+ Firm B 
+ Low price High price 
+ Firm A Low price 0, 0 50, −40 
+ High price −40, 50 10, 10 
+
+ In a one-shot game, Low price is dominant for both firms, so the outcome is (Low, Low) = (0, 0). Repeated forever with trigger strategies, (High, High) = $10 each period can be sustained if i ≤ 25%. 
+
+ Table 10–8: a product-quality game (consumer’s payoff first). One-shot Nash equilibrium highlighted. 
+ Firm 
+ Low quality High quality 
+ Consumer Don't buy 0, 0 0, −10 
+ Buy −10, 10 1, 1 
+
+ One-shot: the firm's dominant strategy is low quality (10 > 1 if the consumer buys; 0 > −10 if not), so the consumer won't buy, and the result is (0, 0). Repeated: a consumer who threatens to stop buying (and tell friends) after one bad product makes high quality worth it if i is low. 
+
+ Table 10–10: online advertising game between two wedding photographers ($ thousands; Demonstration Problem 10–7). 
+ Firm B 
+ Advertise Don't advertise 
+ Firm A Advertise 0, 0 20, −1 
+ Don't advertise −1, 20 10, 10 
+
+ A Up B Up (10, 15) Down (5, 5) Down B Up (0, 0) Down (6, 20) Figure 10–1: a sequential-move game in extensive form (A’s payoff first). Subgame perfect path in red. 
+ How the book reads Figure 10–1. A strategy for B must say what B does at each node. Suppose B's strategy is “Down no matter what.” Then A's best move is Down (6 > 5), giving (6, 20). That is a Nash equilibrium, but it relies on B's threat to play Down after Up, and that threat isn't credible: at that node B gets 15 from Up and only 5 from Down. The other Nash equilibrium is B: “Up if A plays Up, Down if A plays Down,” with A playing Up, giving (10, 15) . That one is subgame perfect . 
+
+ The book's story: a father says, “If you're not home by midnight, I'll burn down the house.” If she believes it, she comes home and he never has to act, so the pair of strategies is a Nash equilibrium. But he'd never actually burn his own house down, so the threat isn't credible and the equilibrium isn't subgame perfect. 
+
+ A In B Hard (−1, 1) Soft (5, 5) Out (0, 10) Figure 10–2: the entry game ($ millions; entrant A first, incumbent B second). SPE path in red. 
+ Entry game. B is the incumbent and A the potential entrant. If A stays out, B earns $10M. If A enters, B picks a price war (Hard: A loses $1M, B earns $1M) or shares the market (Soft: $5M each). Nash equilibrium 1: B threatens Hard, and A stays Out → (0, 10). It isn't subgame perfect, because once A enters, B earns 5 > 1 by playing Soft. Nash equilibrium 2 (the unique SPE): A plays In and B plays Soft → (5, 5). Lesson: it doesn't pay to heed threats that aren't credible. 
+
+ A Introduce B Clone (−5, 20) Don't clone (100, 0) Don't introduce (1, 1) Figure 10–3: the innovation game ($ millions; Demonstration Problem 10–9). Without a patent the SPE is Don’t introduce (red). 
+ M Offer $1 U Accept ($99, $1) Reject ($0, $0) Offer $50 U Accept ($50, $50) Reject ($0, $0) Offer $99 U Accept ($1, $99) Reject ($0, $0) Figure 10–4: sequential bargaining over $100 (management offers, union accepts or rejects). SPE path in red. 
+ “Give us $99 or else we'll reject” supports a Nash equilibrium of (Mgmt $1, Union $99). But rejecting a $1 offer gives the union $0 instead of $1, so the threat isn't credible. Unique SPE: management offers $1 and the union accepts → management $99, union $1. 
+
+ C. Book demonstration problems & examples 
+
+ Demonstration Problem 10–6: Table 10–7 is repeated forever with trigger strategies, and i = 40%. Cooperating: PV = 10(1 + 0.4)/0.4 = $35 . Cheating: $50 . Since 35 < 50, firms cheat, so the equilibrium is the low price with $0 each period. 
+
+ Factors affecting collusion (book's list): collusion is easier when firms know who their rivals are, who the rivals' customers are, when a rival deviates, and can punish the deviation. 
+
+• Number of firms: n firms need n(n−1) monitoring links. 2 firms → 2 links; 5 firms → 20 . 
+
+• Firm size: monitoring has economies of scale. A firm with 20 outlets can watch rivals' prices more cheaply per outlet than a firm with one outlet. 
+
+• History of the market: tacit collusion is easier where firms have learned from experience how rivals behave. 
+
+• Punishment mechanisms: with posted prices, punishing a cheater means cutting price to everyone, which is costly. With customer-specific prices, a firm can target only the cheater's customers, which is cheaper. 
+
+ Inside Business 10–3 (Canadian gasoline cartels): the Competition Bureau wiretapped gas retailers who were coordinating price increases. Ultramar had led price cuts backed by a low-price guarantee. The investigation ended in guilty pleas and fines. 
+
+ Product quality: firms should forgive an honest “bad run” instead of losing a customer for good, and guarantees help preserve the repeated relationship. 
+
+ Inside Business 10–4 (multimarket contact): firms that meet in many markets, such as airlines, hotels and hospitals, compete less aggressively in each one, because cheating in one market can be punished in all of them. The book quotes Corwin Edwards on this point. 
+
+ Demonstration Problem 10–7 (wedding photographers, Table 10–10): both advertise → $0 each; neither → $10K each; one advertises → $20K vs. −$1K. Each year has a 10% chance a recession drives them out of business (θ = 0.10, i = 0). Cheat: $20K today, then $0. Cooperate: 10 + (0.9)10 + (0.9) 2 10 + … = 10/0.10 = $100K . Since 20 < 100, they can collude by not advertising. 
+
+ Known final period: the end-of-period problem (Table 10–11 played twice). In period 2 there's no tomorrow, so both play the one-shot strategy (Low). Knowing that, period 1 is effectively the last period too, so both play Low. This backward unraveling works for 3, 4 or even 1,000 periods as long as the end is known. 
+
+ Demonstration Problem 10–8: you play “High each period unless your rival has gone Low before” for two periods (i = 0). Your rival's best reply is High in period 1 and Low in period 2: 10 + 50 = 60 for the rival, while you get 10 − 40 = −30 . Trigger strategies don't help when the end is known. 
+
+ Resignations and quits: a worker who announces they're quitting tomorrow has little reason to work hard on the last day, because the threat of firing has no bite. Firing people as soon as they give notice backfires: workers just wait until the end of the day to say they're quitting, so they still shirk and you get no lead time to replace them. Better: offer rewards that last past the job. For example, a well-connected manager can write recommendation letters, which tells workers that quitting isn't really the end of the game. 
+
+ The “snake-oil” salesman: in old westerns, salesmen moved from town to town selling worthless elixirs. Buyers couldn't track them down to punish them, and in that era bad news didn't travel ahead of them. Over time towns learned to “run them out.” Modern version: sidewalk vendors sell inferior goods because buyers can't find them later. 
+
+ Inside Business 10–5 (referring customers to competitors): online retailers sometimes link to their direct rivals. Research by Zhang, Liu & Rao (2018) offers an entry-deterrence explanation. Two incumbents that refer customers to each other compete harder. A potential entrant looks down the game tree, forecasts low profits after entering, and stays out. More competition today means less competition later. 
+
+ Demonstration Problem 10–9 (innovation, Fig. 10–3): Don't introduce → $1M each. Introduce and the rival clones → you lose $5M and the rival earns $20M (it skips the R&D cost). Introduce and no clone → you earn $100M, the rival $0. 
+
+(2) The rival would clone, so introducing gives you −5 < 1, and you don't introduce . (3) A rival's “promise” not to clone isn't credible. (4) With a patent that stops cloning, introduce and earn $100M . Patents lead firms to introduce products they otherwise wouldn't. 
+
+ Demonstration Problem 10–10 (reversed bargaining): the union offers and management accepts or rejects. Management accepts anything above $0, so the SPE is the union offering management $1 and keeping $99 . A threat by management to refuse $1 or $50 isn't credible. The first mover makes a take-it-or-leave-it offer and captures almost all of the surplus. 
+
+ Car bargaining: the dealer's cost is $10,000 and the consumer values the car at $12,000 , so they're bargaining over $2,000. If the consumer moves first with a credible “$10,001 or I buy down the road,” the dealer accepts ($1 beats $0). If the dealer moves first with “Pay $11,999 or I sell to another buyer,” the consumer buys ($1 below her valuation). 
+
+ Two real-world complications: (1) players often don't know each other's payoffs, such as the dealer's cost or the buyer's maximum, so it pays to research your opponent (which is why dealer-cost guides exist). (2) Bargaining may not end after one offer. If counteroffers are possible, a take-it-or-leave-it stance works only if the commitment is credible. Otherwise you may end up “eating crow.”

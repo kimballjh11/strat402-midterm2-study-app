@@ -1,0 +1,296 @@
+[
+ {
+  "id": "S19-02-q001",
+  "los": [
+   "S19-02"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "In a payoff matrix, the first number in each cell is:",
+  "choices": [
+   "The probability of that outcome",
+   "The column player's payoff",
+   "The row player's payoff",
+   "The sum of both payoffs"
+  ],
+  "answer": 2,
+  "explain": "By convention: row player first, column player second.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-02-q002",
+  "los": [
+   "S19-02"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: A normal-form game must have exactly two strategies for each player.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 1,
+  "explain": "False. A player can have 3 or more strategies (a 3 by 3 matrix, for example).",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-02-q003",
+  "los": [
+   "S19-02"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "The normal form is best suited to which kind of game?",
+  "choices": [
+   "Games with one player",
+   "Simultaneous-move games",
+   "Repeated games only",
+   "Sequential-move games only"
+  ],
+  "answer": 1,
+  "explain": "Sequential games are usually drawn as game trees (extensive form, S20).",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-02-q004",
+  "los": [
+   "S19-02"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "To compare the column player's payoffs from its two strategies, you:",
+  "choices": [
+   "Hold the row fixed and compare the second numbers across that row",
+   "Compare the first numbers across a row",
+   "Hold the column fixed and compare the first numbers down that column",
+   "Add the numbers in each cell"
+  ],
+  "answer": 0,
+  "explain": "The column player chooses a column, so you look across a row at its (second) numbers.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-02-q005",
+  "los": [
+   "S19-02"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "In the Visa (rows) versus Mastercard (columns) matrix, the cell (Lower, Maintain) shows (4, 1). What does the 1 mean?",
+  "choices": [
+   "Visa earns 1 when it lowers",
+   "Mastercard earns 1 when Visa lowers and Mastercard maintains",
+   "Mastercard earns 1 when it lowers",
+   "Both earn 1"
+  ],
+  "answer": 1,
+  "explain": "Second number = column player = Mastercard.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-02-q006",
+  "los": [
+   "S19-02"
+  ],
+  "type": "num",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Using the Visa matrix:\n\n| Visa \\ Mastercard | Lower Fee | Maintain Fee |\n|---|---|---|\n| Lower Fee | 2, 2 | 4, 1 |\n| Maintain Fee | 1, 4 | 3, 3 |\n\nWhat does Mastercard earn if Visa maintains its fee and Mastercard lowers its fee?",
+  "answer": 4,
+  "unit": "",
+  "tol": 0.01,
+  "explain": "Row Maintain Fee, column Lower Fee: cell (1, 4). Second number = Mastercard = 4.",
+  "verify": {
+   "f": "cell",
+   "pay": [
+    [
+     [
+      2,
+      2
+     ],
+     [
+      4,
+      1
+     ]
+    ],
+    [
+     [
+      1,
+      4
+     ],
+     [
+      3,
+      3
+     ]
+    ]
+   ],
+   "i": 1,
+   "j": 0,
+   "who": 1
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-02-q007",
+  "los": [
+   "S19-02"
+  ],
+  "type": "num",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Using the Dillard's (rows) versus Nordstrom (columns) matrix:\n\n| Dillard's \\ Nordstrom | Girl's | Women's |\n|---|---|---|\n| Girl's | 2, 1 | 4, 2 |\n| Women's | 6, 4 | 3, 5 |\n\nWhat does Dillard's earn if Dillard's features Women's and Nordstrom features Girl's?",
+  "answer": 6,
+  "unit": "",
+  "tol": 0.01,
+  "explain": "Row Women's, column Girl's: (6, 4). First number = Dillard's = 6.",
+  "verify": {
+   "f": "cell",
+   "pay": [
+    [
+     [
+      2,
+      1
+     ],
+     [
+      4,
+      2
+     ]
+    ],
+    [
+     [
+      6,
+      4
+     ],
+     [
+      3,
+      5
+     ]
+    ]
+   ],
+   "i": 1,
+   "j": 0,
+   "who": 0
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-02-q008",
+  "los": [
+   "S19-02"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Two firms choose High or Low output. If both choose High, A earns 1 and B earns 2. If A chooses High and B Low, A earns 20 and B earns 5. Writing A on the rows, which cell is (High, Low)?",
+  "choices": [
+   "(5, 20)",
+   "(20, 5)",
+   "(1, 2)",
+   "(2, 1)"
+  ],
+  "answer": 1,
+  "explain": "Row player A first: A's 20, then B's 5.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-02-q009",
+  "los": [
+   "S19-02"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Game Theory Exercise Part 1: Facebook bans political ads and Twitter does not. Twitter receives 10% of Facebook's $350M political ad revenue and faces a 10% chance of a fine of 4% of its $3,000M ad revenue. What is Twitter's payoff ($ millions)?",
+  "answer": 23,
+  "unit": "$ millions",
+  "tol": 0.01,
+  "explain": "Gain 0.10 × 350 = 35. Expected fine 0.10 × 0.04 × 3,000 = 12. Payoff 35 - 12 = 23.",
+  "verify": {
+   "f": "cell",
+   "pay": [
+    [
+     [
+      -350,
+      -3
+     ],
+     [
+      -350,
+      23
+     ]
+    ],
+    [
+     [
+      -277,
+      -3
+     ],
+     [
+      -280,
+      -12
+     ]
+    ]
+   ],
+   "i": 0,
+   "j": 1,
+   "who": 1
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S19-02-q010",
+  "los": [
+   "S19-02"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Game Theory Exercise Part 1: Twitter bans and Facebook does not. Facebook picks up Twitter's $3M of political ads and faces a 10% chance of a fine of 4% of its $70,000M ad revenue. What is Facebook's payoff ($ millions)?",
+  "answer": -277,
+  "unit": "$ millions",
+  "tol": 0.01,
+  "explain": "Expected fine 0.10 × 0.04 × 70,000 = 280. Payoff 3 - 280 = -277.",
+  "verify": {
+   "f": "cell",
+   "pay": [
+    [
+     [
+      -350,
+      -3
+     ],
+     [
+      -350,
+      23
+     ]
+    ],
+    [
+     [
+      -277,
+      -3
+     ],
+     [
+      -280,
+      -12
+     ]
+    ]
+   ],
+   "i": 1,
+   "j": 0,
+   "who": 0
+  },
+  "source": "generated",
+  "verbatim": false
+ }
+]

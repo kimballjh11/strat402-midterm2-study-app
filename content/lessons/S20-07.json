@@ -1,0 +1,35 @@
+{
+ "id": "S20-07",
+ "title": "Factors that influence the likelihood of collusion",
+ "calc": false,
+ "plain": "**What is collusion?** Secret or illegal cooperation or conspiracy, especially in order to cheat or deceive others (slides p. 38). Two forms:\n- **Explicit collusion** (illegal and uncommon): price fixing, bid rigging, market allocation. Slide example: Apple, Google, Intel and Adobe settling a 2014 suit over agreements not to poach each other's workers (p. 39).\n- **Implicit or tacit collusion** (legal and common): signaling. Firms reach collusive outcomes indirectly, by learning from experience how each other will behave (Reading Quiz Q2: true). Slide examples: airline \"capacity discipline\" (2015) and the Justice Department probing United, American, Delta and Southwest for collusion (pp. 40 to 41).\n\n**Factors that influence collusion** (slides p. 37):\n1. **Number of firms.** Fewer firms make collusion easier: it is easier to watch a few rivals and to punish cheaters. (Textbook: with n firms there are n(n - 1) monitoring relationships; 2 firms need 2, 5 firms need 20.)\n2. **Firm size.** Punishment must be possible: a small firm may not have the capacity to punish a large rival by stealing its customers.\n3. **History of the market.** Firms that have learned how rivals behave, and have seen punishments carried out before, can sustain collusion more easily.\n4. **Punishment mechanisms.** Practices that make punishment quick and automatic, like price-matching guarantees, support collusion.\n\n**From the trigger strategy math (S20-03):** collusion is easier when\n- the **present value of cheating is less than the present value of collusion** (Reading Quiz Q1),\n- the **interest rate is low** (firms care about the future),\n- the gain from cheating is small and the punishment is harsh,\n- cheating is **seen quickly** (Comprehension Quiz 9 Q7: prices visible on a comparison site made tacit collusion easy to sustain).",
+ "why": "Reading Quiz Q1 and Q2, Comprehension Quiz 9 Q7 and practice exam Q11, Q12 and Q26 test what makes collusion more or less likely.",
+ "definition": "Collusion is cooperation among rivals to raise joint profits. Explicit collusion (price fixing, bid rigging, market allocation) is illegal; tacit collusion (signaling, learning how rivals behave) is legal. It is more likely with few firms, firms able to punish, a market history of cooperation, and effective punishment mechanisms.",
+ "formulas": [],
+ "derivation": "",
+ "math": [],
+ "worked": [
+  {
+   "title": "Which market colludes more easily?",
+   "problem": "Market A: 2 firms, prices posted online daily, the same managers for 20 years, low interest rates. Market B: 15 firms, secret negotiated prices, frequent new entrants. Where is tacit collusion more likely?",
+   "steps": [
+    "Number of firms: A has 2, B has 15.",
+    "Detection: A's prices are public; B's are secret, so cheating is hard to see.",
+    "History: A's managers know each other's behavior.",
+    "Patience: low interest rates in A make future punishment matter."
+   ],
+   "answer": "Market A."
+  }
+ ],
+ "traps": [
+  "Collusion is EASIER with FEWER firms and LOWER interest rates (Reading Quiz Q1 offers 'many players' and 'higher interest rate' as wrong answers).",
+  "Explicit collusion is illegal; tacit collusion (signaling) is legal.",
+  "Charging one price to all customers is not one of the factors (it is a distractor in Reading Quiz Q1)."
+ ],
+ "sources": {
+  "slides": "S20 Game Theory II pp. 37 to 41",
+  "read": "Ch. 10 pp. 321 to 323 (factors affecting collusion)",
+  "exercise": "",
+  "quiz": "Reading Quiz Q1, Q2; Comprehension Quiz 9 Q7; Practice exam Q11, Q12, Q26"
+ }
+}

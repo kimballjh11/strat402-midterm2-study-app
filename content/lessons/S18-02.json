@@ -1,0 +1,63 @@
+{
+ "id": "S18-02",
+ "title": "Learning curves",
+ "calc": true,
+ "plain": "The more of something you have ever made, the better you get at making it: workers find shortcuts, engineers fix the process, suppliers adapt. A **learning curve** is a graph of that learning: **cost per unit falls as cumulative production rises** (S18 slides p. 32).\n- Learning = declining costs per unit.\n- Experience = cumulative production (everything you have produced so far, not output this month).\n\n**The Model T (slide p. 32).** From 1910 to 1925 Ford's cost per unit (in 2013 dollars) fell along the curve \\(y = 87{,}244x^{-0.317}\\), where x is cumulative production. Each time cumulative production doubled, cost fell to \\(2^{-0.317} \\approx 0.80\\) of its old level, about a 20% drop per doubling. That is an **80% learning curve**.\n\n**Why it is a barrier.** An incumbent far down the curve has low costs. An entrant starts at the top with high costs, so it cannot match the incumbent's price until it has produced a lot.\n\n**Which curve is the bigger barrier (slide p. 33)?** Compare how far costs fall and how long it takes. A curve that drops almost all the way in the first few units is a weak barrier, since an entrant gets there quickly too. A curve that keeps falling over a long range of cumulative output, so the incumbent's lead holds for a long time, is a stronger barrier. A curve that barely falls gives the incumbent little advantage.\n\n**Strategic implications (slide p. 34):**\n1. Firms may be willing to **price aggressively to descend the learning curve faster** (sell more now to get cheaper sooner).\n2. Learning effects as a barrier **assume no knowledge spillovers or leakage**. If employees leave for rivals or the know-how is easy to copy, the entrant learns for free (Comprehension Quiz 8 Q2: true).",
+ "why": "Comprehension Quiz 8 Q2 tests the spillover condition. Learning also explains why incumbents price low early and why first movers can stay ahead (S18-07).",
+ "definition": "A learning curve is a graphical representation of learning that increases with experience: cost per unit declines as cumulative production increases.",
+ "formulas": [
+  {
+   "name": "Unit cost after k doublings",
+   "tex": "C = C_1 \\times (\\text{rate})^k",
+   "onSheet": false,
+   "note": "An 80% curve has rate 0.8. k = number of times cumulative output has doubled."
+  },
+  {
+   "name": "Power form",
+   "tex": "C(x) = C_1 x^{b},\\quad \\text{rate} = 2^{b}",
+   "onSheet": false,
+   "note": "Model T: b = -0.317, so the rate is about 0.80."
+  }
+ ],
+ "derivation": "If \\(C(x) = C_1x^b\\), doubling x gives \\(C(2x) = C_1(2x)^b = 2^b C_1x^b = 2^b C(x)\\). So every doubling multiplies cost by the same factor \\(2^b\\), the learning rate. For the Model T, \\(2^{-0.317} = 0.803\\).",
+ "math": [
+  {
+   "title": "Doublings and powers of 2",
+   "body": "Doubling from 1 unit: 2, 4, 8, 16, 32, 64, 128. Going from unit 1 to unit 8 is 3 doublings because \\(2^3 = 8\\). With an 80% learning curve, each doubling multiplies unit cost by 0.8, so after 3 doublings the cost is \\(C_1 \\times 0.8^3 = 0.512\\,C_1\\). From unit 100 to unit 400 is 2 doublings (100, 200, 400)."
+  }
+ ],
+ "worked": [
+  {
+   "title": "An 80% learning curve",
+   "problem": "The first unit of a new drone costs $1,000 to build. The firm is on an 80% learning curve. What does the 8th unit cost? The 64th?",
+   "steps": [
+    "Unit 8 is 3 doublings past unit 1 (1, 2, 4, 8).",
+    "\\(1{,}000 \\times 0.8^3 = 1{,}000 \\times 0.512 = \\$512\\).",
+    "Unit 64 is 6 doublings: \\(1{,}000 \\times 0.8^6 = 1{,}000 \\times 0.262 = \\$262\\)."
+   ],
+   "answer": "$512 for unit 8, $262 for unit 64. An entrant starting today pays $1,000 for its first unit."
+  }
+ ],
+ "graph": {
+  "component": "scale",
+  "params": {
+   "view": "learning",
+   "C1": 1000,
+   "rate": 0.8,
+   "N": 128
+  },
+  "caption": "Each doubling of cumulative output multiplies unit cost by the learning rate. Lower the rate (faster learning) and the incumbent's lead over a new entrant grows."
+ },
+ "traps": [
+  "The x axis is CUMULATIVE production, not output per period. That is the difference from economies of scale.",
+  "An 80% learning curve means cost falls TO 80% (a 20% drop) per doubling, not BY 80%.",
+  "Learning is only a barrier if knowledge does not spill over to rivals.",
+  "A curve that falls very fast and then goes flat is a weak barrier: entrants catch up quickly."
+ ],
+ "sources": {
+  "slides": "S18 Barriers to Entry pp. 32 to 34",
+  "read": "Module Group A Module 1 (learning-curve effects)",
+  "exercise": "Barriers to Entry Exercise (Meta's experience advantage)",
+  "quiz": "Comprehension Quiz 8 Q2"
+ }
+}

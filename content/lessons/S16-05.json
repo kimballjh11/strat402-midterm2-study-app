@@ -1,0 +1,71 @@
+{
+ "id": "S16-05",
+ "title": "The cost-minimizing input rule",
+ "calc": true,
+ "plain": "To make a target output at the lowest cost, pick the point on the isoquant that touches the lowest possible isocost. At that point the two lines are **tangent**, so their slopes match:\n$$MRTS = \\frac{MP_L}{MP_K} = \\frac{w}{r}$$\nRearranged, this is the professor's **\"bang for the buck\"** rule: the marginal product per dollar must be the same for every input.\n$$\\frac{MP_L}{w} = \\frac{MP_K}{r}$$\n\n**Using it.** Compute both ratios.\n- Equal: you are cost minimizing.\n- \\(MP_K/r > MP_L/w\\): a dollar on capital buys more output than a dollar on labor. Use **more capital and less labor**.\n- \\(MP_L/w > MP_K/r\\): use **more labor and less capital**.\n\nAs you shift toward an input its marginal product falls (diminishing returns), so the ratios move toward each other until they are equal.\n\n**In-class exercise.** Labor costs $12/hour and the last worker made 84 rollers; capital rents for $15/hour with MP_K = 120. \\(MP_L/w = 84/12 = 7\\), \\(MP_K/r = 120/15 = 8\\). Not equal, so not cost minimizing. Capital gives more bang for the buck: **increase capital**.\n\n**Slides' table** (\\(Q = 10K^{0.5}L^{0.5}\\), Q = 100, w = $40, r = $10):\n\n| (L, K) | MP_L | MP_K | w | r | MP_L / w | MP_K / r |\n|---|---|---|---|---|---|---|\n| 25, 4 | 2 | 12.5 | 40 | 10 | 0.05 | 1.25 |\n| 10, 10 | 5 | 5 | 40 | 10 | 0.125 | 0.5 |\n| 5, 20 | 10 | 2.5 | 40 | 10 | 0.25 | 0.25 |\n\nOnly (L, K) = (5, 20) has equal ratios, and it is the cheapest: $40(5) + $10(20) = $400, versus $500 at (10, 10) and $1,040 at (25, 4).",
+ "why": "The professor lists it among the things he will ask: find an isocost and the MRTS, compare marginal product per dollar, and find the cost-minimizing input mix. Quiz 7 Q7 and Q8 and practice exam Q4, Q18 and Q19 use it.",
+ "definition": "To minimize the cost of production, a firm should employ inputs so that the MRTS (slope of the isoquant) equals the ratio of input prices (slope of the isocost): MP_L / MP_K = w / r, or equivalently MP_L / w = MP_K / r.",
+ "formulas": [
+  {
+   "name": "Tangency form",
+   "tex": "\\frac{MP_L}{MP_K} = \\frac{w}{r}",
+   "onSheet": false,
+   "note": "The sheet has MRTS = MP_L / MP_K and the isocost slope -w/r, but not the rule that sets them equal."
+  },
+  {
+   "name": "Bang for the buck",
+   "tex": "\\frac{MP_L}{w} = \\frac{MP_K}{r}",
+   "onSheet": false
+  }
+ ],
+ "derivation": "Suppose \\(MP_K/r = 8\\) and \\(MP_L/w = 7\\). Move $1 from labor to capital: you lose 7 units of output and gain 8, so output rises with the same budget. Equivalently, you can make the same output for less money. You keep moving until no switch helps, which is when the two ratios are equal.",
+ "math": [],
+ "worked": [
+  {
+   "title": "In-class exercise (professor's solution)",
+   "problem": "w = $12, MP_L = 84 rollers/hour, r = $15, MP_K = 120 rollers/hour. Is the firm cost minimizing? What should it do?",
+   "steps": [
+    "\\(MP_L/w = 84/12 = 7\\) rollers per dollar.",
+    "\\(MP_K/r = 120/15 = 8\\) rollers per dollar.",
+    "7 ≠ 8, so the firm is not minimizing cost.",
+    "Capital gives more output per dollar, so shift spending toward capital."
+   ],
+   "answer": "No. Increase capital (and use less labor)."
+  },
+  {
+   "title": "Comprehension Quiz 7 Q7 and Q8",
+   "problem": "w = $10, r = $25, MP_L = 40, MP_K = 125. Cost minimizing? Increase or decrease capital?",
+   "steps": [
+    "\\(40/10 = 4\\), \\(125/25 = 5\\).",
+    "Not equal: not cost minimizing.",
+    "Capital's ratio is higher: increase capital."
+   ],
+   "answer": "No; increase capital."
+  }
+ ],
+ "graph": {
+  "component": "costmin",
+  "params": {
+   "A": 10,
+   "a": 0.5,
+   "b": 0.5,
+   "Q": 100,
+   "w": 40,
+   "r": 10,
+   "L": 10
+  },
+  "caption": "The slides' setup: Q = 10K^0.5 L^0.5 = 100, w = $40, r = $10. Move the trial point: the readout compares MP_L/w and MP_K/r and names the cheaper direction. The minimum is L = 5, K = 20, cost $400."
+ },
+ "traps": [
+  "Compare marginal product PER DOLLAR, not raw marginal products. MP_K = 120 > MP_L = 84 alone does not decide anything.",
+  "If MP_K/r is bigger, use MORE capital. Students often flip the direction.",
+  "MP_L/MP_K = w/r is the same condition as MP_L/w = MP_K/r. Both are correct forms.",
+  "The rule is not on the equation sheet. Only the MRTS formula and the isocost slope are."
+ ],
+ "sources": {
+  "slides": "S16 Production II, pp. 35 to 40",
+  "read": "Ch. 5 pp. 151 to 153",
+  "exercise": "Cost Minimization exercise (rollers); Klarna exercise Q5",
+  "quiz": "Comprehension Quiz 7 Q7, Q8"
+ }
+}

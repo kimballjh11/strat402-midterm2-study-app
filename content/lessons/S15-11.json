@@ -1,0 +1,62 @@
+{
+ "id": "S15-11",
+ "title": "Comparing linear, Leontief and Cobb-Douglas",
+ "calc": false,
+ "plain": "The slides compare the three production functions side by side. Learn this table; most conceptual questions about the three forms come straight from it.\n\n|  | Linear | Cobb-Douglas | Leontief (fixed proportions) |\n|---|---|---|---|\n| Equation | Q = aK + bL | Q = K^a L^b | Q = min(aK, bL) |\n| Slide example | Q = 4K + 1L | Q = K^0.5 L^0.5 | Q = min(1K, 1L) |\n| Isoquant shape | Straight line | Convex curve | L-shaped |\n| MRTS formula | MP_L / MP_K = b / a | MP_L / MP_K = bK / (aL) | N/A |\n| MRTS behavior | Constant | Changes | Undefined |\n| Substitutability of inputs | Perfect | Imperfect (some) | None |\n\nHow to tell which one a business story describes:\n- **Linear (perfect substitutes):** one input can fully replace the other at a fixed rate. \"A robot does the work of 3 workers, always.\" Constant marginal products.\n- **Leontief (no substitution):** inputs must be combined in a fixed ratio. \"One pilot per plane.\" Extra of one input alone adds nothing.\n- **Cobb-Douglas (imperfect substitutes):** you can trade one input for the other, but it gets harder the further you push it. Both inputs are needed and each has diminishing marginal product.",
+ "why": "Exams ask you to match a function to its isoquant shape, MRTS behavior, or substitutability, and to recognize the right form in a business scenario.",
+ "definition": "Linear: perfect substitutes, straight-line isoquant, constant MRTS. Cobb-Douglas: imperfect substitutes, convex isoquant, MRTS that changes. Leontief: no substitution, L-shaped isoquant, MRTS undefined.",
+ "formulas": [
+  {
+   "name": "Linear",
+   "tex": "Q = aK + bL,\\quad MRTS = \\frac{b}{a}",
+   "onSheet": true
+  },
+  {
+   "name": "Cobb-Douglas",
+   "tex": "Q = K^aL^b,\\quad MRTS = \\frac{bK}{aL}",
+   "onSheet": true
+  },
+  {
+   "name": "Leontief",
+   "tex": "Q = \\min(aK, bL),\\quad MRTS\\ \\text{undefined}",
+   "onSheet": false
+  }
+ ],
+ "derivation": "",
+ "math": [],
+ "worked": [
+  {
+   "title": "Classify the technology",
+   "problem": "A trucking firm needs exactly one driver for each truck. A bakery can swap one dough mixer for 2 bakers at any scale. A farm uses land and labor, and the more labor it adds to a fixed plot, the less each extra worker adds. Which production function fits each?",
+   "steps": [
+    "Trucking: fixed one-to-one ratio, no substitution. Leontief, Q = min(K, L).",
+    "Bakery: a constant trade rate between inputs. Linear, Q = aK + bL with a = 2b.",
+    "Farm: substitution is possible and each input shows diminishing marginal product. Cobb-Douglas."
+   ],
+   "answer": "Leontief, linear, Cobb-Douglas."
+  }
+ ],
+ "graph": {
+  "component": "isoquant",
+  "params": {
+   "form": "cd",
+   "a": 0.5,
+   "b": 0.5,
+   "Q": 100,
+   "L": 50
+  },
+  "caption": "Use the Function menu to switch between linear, Leontief and Cobb-Douglas and compare isoquant shapes and MRTS."
+ },
+ "traps": [
+  "Linear is PERFECT substitution, not 'some' substitution. Cobb-Douglas is the 'some, but not perfect' one.",
+  "Leontief has NO substitution. Its isoquant is L-shaped, not a straight line.",
+  "Only Cobb-Douglas has an MRTS that changes along the isoquant. Linear is constant; Leontief is undefined.",
+  "Fixed proportions is another name for Leontief."
+ ],
+ "sources": {
+  "slides": "S15 Production I, pp. 32 to 35",
+  "read": "Ch. 5 pp. 146 to 148",
+  "exercise": "Production Functions workbook",
+  "quiz": "Reading Quiz Q5; Comprehension Quiz 7 Q5"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "S20-03",
+ "title": "Trigger strategies",
+ "calc": true,
+ "plain": "A **trigger strategy** is a strategy that is **contingent on the last play of the game** and in which **some past particular action \"triggers\" a different action by a player** (slides p. 31).\n\nThe standard version (grim trigger): **cooperate as long as the rival has always cooperated; if the rival ever cheats, play the one-shot Nash strategy forever after.** The threat of losing the collusive payoff forever is what keeps everyone honest.\n\n**When does a trigger strategy sustain collusion?** Compare the present values (professor's convention):\n$$\\underbrace{\\pi_c + \\frac{\\pi_c}{i}}_{\\text{collude}} \\;\\ge\\; \\underbrace{\\pi_d + \\frac{\\pi_n}{i}}_{\\text{cheat}}$$\nwhere \\(\\pi_c\\) is the collusive payoff per period, \\(\\pi_d\\) the one-time payoff from defecting, and \\(\\pi_n\\) the punishment (one-shot Nash) payoff per period after.\n\nRearranged, collusion holds when the interest rate is low enough:\n$$i \\le i^* = \\frac{\\pi_c - \\pi_n}{\\pi_d - \\pi_c}$$\n- Numerator: what you lose **every** future period once punishment starts.\n- Denominator: what you gain **once** by cheating.\n\n**Kellogg's** (slides p. 35): \\(i^* = \\frac{12 - 2}{15 - 12} = \\frac{10}{3} = 333\\%\\).\n\n**Comprehension Quiz 9 Q6:** \\(i^* = \\frac{4 - 0}{44 - 4} = 0.10\\). At i = 12% > 10%, Kellogg's should defect.\n\nNeither formula is on the equation sheet; setting the two present values equal (as on slide p. 35) always works.",
+ "why": "The trigger strategy calculation is the main computation in S20 (practice exam Q25, Comprehension Quiz 9 Q6).",
+ "definition": "A trigger strategy is a strategy that is contingent on the last play of the game and in which some past particular action triggers a different action by a player.",
+ "formulas": [
+  {
+   "name": "Collusion condition",
+   "tex": "\\pi_c + \\frac{\\pi_c}{i} \\ge \\pi_d + \\frac{\\pi_n}{i}",
+   "onSheet": false
+  },
+  {
+   "name": "Highest interest rate that sustains collusion",
+   "tex": "i^* = \\frac{\\pi_c - \\pi_n}{\\pi_d - \\pi_c}",
+   "onSheet": false,
+   "note": "Collusion holds if i ≤ i*."
+  }
+ ],
+ "derivation": "Start from \\(\\pi_c + \\frac{\\pi_c}{i} \\ge \\pi_d + \\frac{\\pi_n}{i}\\). Subtract \\(\\pi_c\\) and \\(\\frac{\\pi_n}{i}\\) from both sides: \\(\\frac{\\pi_c - \\pi_n}{i} \\ge \\pi_d - \\pi_c\\). Multiply by i and divide by \\(\\pi_d - \\pi_c\\): \\(i \\le \\frac{\\pi_c - \\pi_n}{\\pi_d - \\pi_c}\\).",
+ "math": [
+  {
+   "title": "Present value of a payoff that lasts forever",
+   "body": "A payoff \\(\\pi\\) received every period forever, starting next period, is worth \\(\\pi / i\\) today, where i is the interest (discount) rate. Example: $12 a year forever at 10% is worth \\(12 / 0.10 = \\$120\\). Add today's payoff if it starts now: \\(12 + 12/0.10 = \\$132\\). A higher i makes future payoffs worth less: at 50%, \\(12/0.5 = \\$24\\)."
+  },
+  {
+   "title": "Solving for the interest rate",
+   "body": "Set the two present values equal and solve for i. \\(15 + \\frac{2}{i} = 12 + \\frac{12}{i}\\). Move the numbers to one side and the 1/i terms to the other: \\(15 - 12 = \\frac{12}{i} - \\frac{2}{i}\\), so \\(3 = \\frac{10}{i}\\). Multiply both sides by i and divide by 3: \\(i = \\frac{10}{3} = 3.33\\), or 333%."
+  }
+ ],
+ "worked": [
+  {
+   "title": "Threshold interest rate",
+   "problem": "Colluding pays $20 per period. Cheating pays $45 once, then $5 per period forever under punishment. What is the highest interest rate at which collusion holds? Should a firm collude at i = 25%?",
+   "steps": [
+    "\\(i^* = \\frac{20 - 5}{45 - 20} = \\frac{15}{25} = 0.60\\), or 60%.",
+    "At 25%: PV collude = 20 + 20/0.25 = 100. PV cheat = 45 + 5/0.25 = 65.",
+    "100 > 65, consistent with 25% < 60%."
+   ],
+   "answer": "Collusion holds for any i up to 60%; at 25% the firm colludes."
+  }
+ ],
+ "graph": {
+  "component": "repeated",
+  "params": {
+   "coop": 20,
+   "cheat": 45,
+   "nash": 5,
+   "i": 0.25
+  },
+  "caption": "Slide the interest rate: below 60% the present value of colluding beats cheating."
+ },
+ "traps": [
+  "The NUMERATOR is collude minus punishment; the DENOMINATOR is cheat minus collude. Flipping them is the classic error.",
+  "Collusion holds when i is BELOW the threshold, not above.",
+  "The punishment must be credible: the one-shot Nash payoff is credible because each firm is best-responding."
+ ],
+ "sources": {
+  "slides": "S20 Game Theory II pp. 31 to 36",
+  "read": "Ch. 10 pp. 318 to 323",
+  "exercise": "",
+  "quiz": "Comprehension Quiz 9 Q6; Practice exam Q25"
+ }
+}

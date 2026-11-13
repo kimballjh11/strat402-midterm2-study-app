@@ -1,0 +1,383 @@
+## SHEET: Overview (6 rows x 10 cols)
+A1: "Production Exercise: Klarna's AI Assistant and Human Agents"
+A2: 'Overview\nIn late January 2024, Klarna, the buy-now-pay-later company, launched an AI customer service assistant built on OpenAI\'s models. A month later Klarna announced that the assistant had already handled 2.3 million conversations, two-thirds of all customer service chats, and was doing the equivalent work of 700 full-time agents. Customers resolved their errands in under 2 minutes, compared with 11 minutes before. Klarna froze hiring and let its human customer service staff shrink through attrition. By late 2025, Klarna said the assistant was doing the work of 853 agents.\n\nIn May 2025, the CEO changed course. He said cost had been "a too predominant evaluation factor" and had led to lower quality, and Klarna began recruiting human agents again. AI and humans are not perfect substitutes: the assistant handles routine errands well, but disputes, fraud, and unusual cases still need a person, and a conversation the AI handles badly comes back as a repeat contact.\n\nIn this exercise you will estimate Klarna\'s customer service production function, check whether Klarna is using the cost-minimizing mix of AI assistant hours and human agent hours, find that mix, and quantify what moving to it would save. Output (Q) is customer conversations resolved per month. Capital (K) is AI assistant hours: AI-handled conversations × 2 minutes. Labor (L) is human agent hours. The monthly data on the Data tab are simulated for this exercise, calibrated to Klarna\'s public statements; they are not Klarna\'s internal records.\n\nInstructions: Complete Steps 1–9 in the Exercise tab using production data from the Data tab. Enter your answers in the yellow cells, and use formulas that reference your regression output and the data rather than typed-in numbers. Then answer the questions at the bottom.'
+## SHEET: Data (36 rows x 8 cols)
+A1: 'Klarna Customer Service, Monthly (February 2024 – September 2026)'
+A2: "Simulated for this exercise and calibrated to Klarna's public statements; not Klarna's internal data. Q = conversations resolved, K = AI assistant hours, L = human agent hours."
+A3: 'Year'
+B3: 'Month'
+C3: 'Conversations Resolved (Q)'
+D3: 'AI Assistant Hours (K)'
+E3: 'Human Agent Hours (L)'
+F3: 'ln(Q)'
+G3: 'ln(K)'
+H3: 'ln(L)'
+A4: 2024
+B4: 2
+C4: 3619630
+D4: 79149
+E4: 60149
+A5: 2024
+B5: 3
+C5: 3977279
+D5: 98219
+E5: 62948
+A6: 2024
+B6: 4
+C6: 3471196
+D6: 79390
+E6: 60384
+A7: 2024
+B7: 5
+C7: 3406537
+D7: 78419
+E7: 56376
+A8: 2024
+B8: 6
+C8: 3540310
+D8: 83789
+E8: 55805
+A9: 2024
+B9: 7
+C9: 3573152
+D9: 87995
+E9: 56818
+A10: 2024
+B10: 8
+C10: 3175560
+D10: 77119
+E10: 53152
+A11: 2024
+B11: 9
+C11: 3171842
+D11: 80133
+E11: 48540
+A12: 2024
+B12: 10
+C12: 3497649
+D12: 87677
+E12: 54678
+A13: 2024
+B13: 11
+C13: 4136542
+D13: 105763
+E13: 57987
+A14: 2024
+B14: 12
+C14: 4145330
+D14: 101966
+E14: 63960
+A15: 2025
+B15: 1
+C15: 3854593
+D15: 102836
+E15: 53294
+A16: 2025
+B16: 2
+C16: 3307458
+D16: 95984
+E16: 47129
+A17: 2025
+B17: 3
+C17: 3496947
+D17: 96989
+E17: 48149
+A18: 2025
+B18: 4
+C18: 3140395
+D18: 86670
+E18: 43532
+A19: 2025
+B19: 5
+C19: 3561527
+D19: 91027
+E19: 54704
+A20: 2025
+B20: 6
+C20: 3457498
+D20: 88100
+E20: 51825
+A21: 2025
+B21: 7
+C21: 3591219
+D21: 102748
+E21: 47329
+A22: 2025
+B22: 8
+C22: 3716593
+D22: 104452
+E22: 54531
+A23: 2025
+B23: 9
+C23: 3546922
+D23: 93550
+E23: 47331
+A24: 2025
+B24: 10
+C24: 3961860
+D24: 105900
+E24: 52085
+A25: 2025
+B25: 11
+C25: 4430179
+D25: 126884
+E25: 59181
+A26: 2025
+B26: 12
+C26: 4179522
+D26: 106443
+E26: 59499
+A27: 2026
+B27: 1
+C27: 3843158
+D27: 100170
+E27: 59308
+A28: 2026
+B28: 2
+C28: 3477708
+D28: 99633
+E28: 48925
+A29: 2026
+B29: 3
+C29: 3628324
+D29: 92406
+E29: 54730
+A30: 2026
+B30: 4
+C30: 3882414
+D30: 93818
+E30: 55214
+A31: 2026
+B31: 5
+C31: 3553750
+D31: 92591
+E31: 51759
+A32: 2026
+B32: 6
+C32: 3361323
+D32: 94568
+E32: 49253
+A33: 2026
+B33: 7
+C33: 4415122
+D33: 119053
+E33: 60190
+A34: 2026
+B34: 8
+C34: 3836670
+D34: 98772
+E34: 58588
+A35: 2026
+B35: 9
+C35: 3625629
+D35: 89335
+E35: 59006
+B36: 'Monthly Average'
+C36: 3674494.9375  [formula =AVERAGE(C4:C35)]
+D36: 95048.375  [formula =AVERAGE(D4:D35)]
+E36: 54573.71875  [formula =AVERAGE(E4:E35)]
+## SHEET: Exercise (214 rows x 11 cols)
+A2: '1.'
+B2: 'Estimate Klarna\'s production function (assume Cobb-Douglas, Q = A·K^a·L^b) with a log-linear regression of ln(Q) on ln(K) and ln(L). See the "Log-linear Regression" tab for instructions. Insert the regression output in cell B4.'
+B4: 'SUMMARY OUTPUT'
+B6: 'Regression Statistics'
+B7: 'Multiple R'
+B8: 'R Square'
+B9: 'Adjusted R Square'
+B10: 'Standard Error'
+B11: 'Observations'
+B13: 'ANOVA'
+C14: 'df'
+D14: 'SS'
+E14: 'MS'
+F14: 'F'
+G14: 'Significance F'
+B15: 'Regression'
+B16: 'Residual'
+B17: 'Total'
+C19: 'Coefficients'
+D19: 'Standard Error'
+E19: 't Stat'
+F19: 'P-value'
+G19: 'Lower 95%'
+H19: 'Upper 95%'
+I19: 'Lower 95.0%'
+J19: 'Upper 95.0%'
+B20: 'Intercept'
+B21: 'ln(K)'
+B22: 'ln(L)'
+B24: 'Write out the production function. Round to two decimal places.'
+A28: '2.'
+B28: 'Using the estimated production function, plot total production (Q) against human agent hours (L), fixing AI assistant hours (K) at the monthly average.'
+B29: 'K (monthly average)'
+C29: 'L'
+D29: 'Q'
+C30: 0
+C31: 2500
+C32: 5000
+C33: 10000
+C34: 15000
+C35: 20000
+C36: 30000
+C37: 40000
+C38: 50000
+C39: 60000
+C40: 80000
+C41: 100000
+C42: 120000
+A48: '3.'
+B48: 'Using the estimated production function, plot the marginal product of labor (MPL) and the marginal product of AI hours (MPK). Fix the "other" input at its monthly average.'
+B49: 'Hint: take the derivative of the production function with respect to each input. For Q = A·K^a·L^b, MPL = b·A·K^a·L^(b−1) and MPK = a·A·K^(a−1)·L^b.'
+B50: 'K (monthly average)'
+C50: 'L'
+D50: 'MPL'
+C51: 5000
+C52: 10000
+C53: 15000
+C54: 20000
+C55: 30000
+C56: 40000
+C57: 50000
+C58: 60000
+C59: 80000
+C60: 100000
+C61: 120000
+B69: 'L (monthly average)'
+C69: 'K'
+D69: 'MPK'
+C70: 10000
+C71: 20000
+C72: 30000
+C73: 40000
+C74: 60000
+C75: 80000
+C76: 100000
+C77: 120000
+C78: 150000
+C79: 200000
+A88: '4.'
+B88: 'Plot the isoquant in input space (K on the vertical axis, L on the horizontal axis) at the average monthly output. Indicate where Klarna is producing on the isoquant.'
+B89: 'Hints: fix Q at the monthly average, enter a range of values for L, and solve the production function for K: K = (Q / (A·L^b))^(1/a). To show the current mix, fill in the Current mix row with the monthly averages of L and K and plot it as a separate series with a marker in a different color.'
+B90: 'Q (monthly average)'
+C90: 'L'
+D90: 'K'
+C91: 20000
+C92: 25000
+C93: 30000
+C94: 40000
+C95: 50000
+C96: 60000
+C97: 70000
+C98: 80000
+C99: 100000
+C100: 120000
+C101: 150000
+B102: 'Current mix'
+A109: '5.'
+B109: 'Now assume the price of a human agent hour (w) is $30.76 and the price of an AI assistant hour (r) is $29.70. Determine whether Klarna is using the cost-minimizing input mix.'
+B110: 'Where the prices come from: w is the BLS median wage for customer service representatives ($21.53/hour) divided by 0.70, because wages are 70% of total compensation (BLS Employer Costs for Employee Compensation). r is Intercom\'s market price for AI customer service, $0.99 per resolution, at 30 conversations per AI hour. Hint: read the "Using Solver to Cost Minimize" tab.'
+B111: 'L ='
+B112: 'K ='
+B113: 'w ='
+C113: 30.76
+B114: 'r ='
+C114: 29.7
+B115: 'MPL ='
+D115: 'Use the equation from Step 3.'
+B116: 'MPK ='
+D116: 'Use the equation from Step 3.'
+B117: 'MPL/w ='
+D117: 'Check figure: 1.00–1.30'
+B118: 'MPK/r ='
+D118: 'Check figure: 0.63–0.78'
+A120: '6.'
+B120: 'Now find the cost-minimizing combination of K and L that produces the average monthly output. Use Solver to minimize Cost by changing L and K, subject to Q = the monthly average.'
+B121: 'Hint: read the "Using Solver to Cost Minimize" tab. At the solution, MPL/MPK should equal w/r.'
+B122: 'L ='
+D122: 'Check figure: 63,000–75,000 (Solver changes this cell)'
+B123: 'K ='
+D123: 'Check figure: 69,000–82,000 (Solver changes this cell)'
+B124: 'w ='
+C124: 30.76
+B125: 'r ='
+C125: 29.7
+B126: 'Cost ='
+B127: 'Q ='
+B128: 'Q target ='
+B129: 'MPL ='
+D129: 'Use the equation from Step 3.'
+B130: 'MPK ='
+D130: 'Use the equation from Step 3.'
+B131: 'w/r ='
+D131: 'Check figure: 0.98–1.10'
+B132: 'MPL/MPK ='
+D132: 'Check figure: 0.98–1.10'
+A134: '7.'
+B134: 'Plot the isocost line and the isoquant on one chart so that they touch at the cost-minimizing L and K from Step 6.'
+B135: 'Hint: solve both for K so you can graph them with K on the vertical axis. Isoquant: K = (Q / (A·L^b))^(1/a). Isocost: K = C/r − (w/r)·L, using the minimum cost from Step 6. To put both on one scatter chart, add the second table as a second series (Select Data → Add).'
+B136: 'Q (monthly average)'
+C136: 'L'
+D136: 'K (isoquant)'
+F136: 'C (minimum cost)'
+G136: 'L'
+H136: 'K (isocost)'
+C137: 30000
+G137: 30000
+C138: 40000
+G138: 40000
+C139: 50000
+G139: 50000
+C140: 55000
+G140: 55000
+C141: 60000
+G141: 60000
+C142: 65000
+G142: 65000
+C144: 75000
+G144: 75000
+C145: 80000
+G145: 80000
+C146: 90000
+G146: 90000
+C147: 100000
+G147: 100000
+C148: 120000
+G148: 120000
+B149: 'Row 143 of each table is the cost-minimizing L from Step 6.'
+A169: '8.'
+B169: 'At the average monthly output, how much would Klarna save each month by moving to the cost-minimizing input mix?'
+B170: 'Hint: calculate current cost as C = wL + rK at the monthly averages.'
+B171: 'Current cost:'
+B172: 'Minimum cost:'
+B173: 'Savings per month:'
+B174: 'Savings per year:'
+D174: 'Check figure: $1.30 million–$1.70 million'
+A176: '9.'
+B176: 'How many full-time human agents does the cost-minimizing mix require, compared with the current mix? Assume a full-time agent works 40 hours per week, 52 weeks per year.'
+C177: 'Hours per Month'
+D177: 'Full-Time Agents'
+B178: 'Current labor:'
+B179: 'Cost-minimizing labor:'
+B180: 'Change (+ hire, − cut):'
+E180: 'Check figure: 76–94'
+B182: 'QUESTIONS'
+B183: '1. What are some possible reasons that Klarna is not operating at the cost-minimizing input mix?'
+B191: '2. Compare the cost-minimizing mix from Step 6 (AI hours per human hour, K/L) with the mixes Klarna actually used in the data. How confident are you in the recommendation?'
+B198: "3. Klarna builds its own assistant, so its cost per AI hour may be far below Intercom's market price. Klarna's 2024 claim that the assistant would add $40 million in profit, after replacing 700 agents, implies an AI cost of about $5.20 per AI hour. Recompute the cost-minimizing mix at that price (use K/L = (a/b)·(w/r) or rerun Solver). What changes, and what does that tell you?"
+C199: 'r'
+D199: 'K/L*'
+E199: 'L*'
+F199: 'K*'
+G199: 'Full-Time Agents'
+B200: "At Klarna's implied r"
+C200: 5.2
+B208: "4. What would you do if you were Klarna's head of customer service?"
+## SHEET: Log-linear Regression (6 rows x 1 cols)
+A1: 'Steps to Perform Log-Linear Regression'
+A2: "A Cobb-Douglas production function has the form Q = A·K^a·L^b, where A is a constant and a and b are parameters that define how inputs are turned into output. Because a and b are exponents, you can't estimate them with an ordinary linear regression on Q, K, and L. Cobb-Douglas functions have diminishing marginal rates of technical substitution: as one input replaces more and more of the other, it takes more and more of it to keep output the same. That makes it a good fit for AI and human agents, which can substitute for each other but not perfectly.\n\n1. Take the natural log of both sides: ln(Q) = ln(A) + a·ln(K) + b·ln(L). This is a standard linear form in which ln(Q) is the dependent variable, ln(A) is the intercept, and a and b are the coefficients on ln(K) and ln(L). On the Data tab, fill in the ln(Q), ln(K), and ln(L) columns with the LN function and copy the formulas down for all months.\n\n2. Go to Data → Data Analysis (you may need to enable the Analysis ToolPak add-in) and choose Regression. Set the Input Y Range to the ln(Q) column, and select both the ln(K) and ln(L) columns for the Input X Range. Include the column titles in both ranges and check the Labels box so the output labels the variables correctly.\n\n3. Under Output options, choose Output Range and select the cell indicated in Step 1 on the Exercise tab. Click OK.\n\n4. Interpret the results. The coefficients on ln(K) and ln(L) are a and b. To convert the estimated function back to Cobb-Douglas form, exponentiate both sides, which undoes the log. Don't forget to exponentiate the intercept as well: A = e^(intercept)."
+## SHEET: Using Solver to Cost Minimize (23 rows x 1 cols)
+A1: 'Using Solver to Cost Minimize in Production Theory'
+A2: "Overview\n\nTo find the cost-minimizing input mix, you need the point where the slope of the isoquant (MPL/MPK) equals the slope of the isocost line (w/r). In other words, the ratio of the marginal products must equal the ratio of the input prices.\n\nOne approach is to fix K or L and vary the other until MPL/MPK = w/r. That finds the right mix, but almost certainly not on the isoquant for your output goal: you can't cut one input without adding the other and still produce the same output.\n\nEconomists solve this as a constrained optimization (with a Lagrange multiplier): minimize total cost subject to producing a target level of output. Because the production function already links K and L, the slopes will automatically be equal at the minimum-cost point. Instead of the calculus, you'll use Solver to do the same thing.\n\nThe total cost function is C = wL + rK, the input quantities times their prices. This is Solver's objective. The constraint is that Q, from your estimated production function, must equal the average monthly output.\n\nSteps to Using Solver\n\n1. In Step 6 on the Exercise tab, L, K, w, r, Cost, and Q are listed in separate cells.\n\nL=_____\nK=_____\nw=_____\nr=_____\nC=_____\nQ=_____\n\n2. For L and K, enter starting values (the monthly averages work well); Solver will change them. For w and r, use the given prices. Enter formulas for Cost and Q that reference those cells.\n\n3. Open Solver (Data → Solver; you may need to enable the Solver add-in).\n\n4. Set Objective: the Cost cell. Select Min.\n\n5. By Changing Variable Cells: the L and K cells, separated by a comma.\n\n6. Subject to the Constraints: click Add, select the Q cell, choose =, and reference the Q target cell (the average monthly output). Click OK.\n\n7. Click Solve. Solver will find the cost-minimizing L and K. If Solver doesn't land on the target output, go to Options and set Constraint Precision to 0.000001, or use Automatic Scaling. Then check that MPL/MPK equals w/r."
+## SHEET: Sources & Assumptions (6 rows x 1 cols)
+A1: 'Sources and Assumptions'
+A2: 'Klarna press release, Feb 27 2024: the assistant had 2.3 million conversations in its first month (two-thirds of chats), did the equivalent work of 700 full-time agents, cut errand time from 11 minutes to under 2, and was estimated to add $40 million in profit in 2024. https://www.klarna.com/international/press/klarna-ai-assistant-handles-two-thirds-of-customer-service-chats-in-its-first-month/\n\nMay 2025 reversal: the CEO said cost had been "a too predominant evaluation factor" leading to lower quality, and Klarna began recruiting human agents. https://www.maginative.com/article/klarna-dials-back-its-ai-customer-service-strategy-now-its-hiring-humans-again/\n\nQ3 2025 earnings call (reported Nov 2025): the assistant does the work of more than 853 full-time agents and has saved about $60 million. https://www.customerexperiencedive.com/news/klarna-says-ai-agent-work-853-employees/\n\nw = $30.76: BLS OEWS May 2025 median wage for customer service representatives (43-4051), $21.53/hour (https://www.onetonline.org/link/localwages/43-4051.00), divided by 0.700, the wage share of private-industry compensation in BLS ECEC, June 2026 (https://www.bls.gov/opub/ted/2026/compensation-costs-for-private-industry-workers-averaged-46-89-per-hour-worked-in-june-2026.htm).\n\nr = $29.70: Intercom Fin\'s $0.99 per resolution (https://www.intercom.com/pricing, as listed in 2026) × 30 AI conversations per hour (under 2 minutes each).\n\nQuestion 3\'s r = $5.20: labor saved on 700 FTE (700 × 2,080 hours × w) minus the $40 million claim, divided by a year of launch-month AI hours (76,667 × 12).'

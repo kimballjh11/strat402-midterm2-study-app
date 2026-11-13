@@ -1,0 +1,36 @@
+{
+ "id": "S21-05",
+ "title": "Identifying Cournot or Stackelberg conditions",
+ "calc": false,
+ "plain": "To decide which model fits, look at **what firms compete with** (the strategic variable), **whether goods are alike**, and **who moves when**.\n\n**Bryce's Figure 1, Types of Competition in Oligopoly** (p. 4):\n\n| Goods are | Quantity | Price | Lead time |\n|---|---|---|---|\n| Homogeneous | Cournot | Bertrand (standard) | Stackelberg |\n| Differentiated | (less common) | Differentiated Bertrand | (less common) |\n\n**Cournot fits when** (textbook conditions plus Bryce):\n- a few firms serve many consumers, with barriers to entry;\n- firms choose **output or capacity** and let the price float (commodities: oil, agriculture co-ops, corn wet milling);\n- they choose **at the same time**;\n- each believes rivals hold output constant.\n\n**Stackelberg fits when:**\n- the same, but **one firm commits to its output first** and the others see it before choosing (a race to build capacity where one firm clearly moves first, Bryce p. 8).\n- The leader must be able to commit: built plants, signed contracts, launched products.\n\n**Not Cournot or Stackelberg:**\n- If firms set **prices** for identical goods and buyers see all prices: standard **Bertrand** (S22).\n- If firms set **prices** for somewhat different goods: **differentiated Bertrand** (S22), the most common type today (Bryce p. 8).\n- **Sweezy** (optional in the reading): firms believe rivals match price cuts but not price increases, giving a kinked demand curve and sticky prices.\n\n**Bryce's three questions** (pp. 9 to 10): (1) How many firms are meaningfully in direct competition? (2) How much do the firms' target customers overlap? (3) What is the primary strategic variable (price, quantity, lead time, features)?",
+ "why": "Practice exam Q14 and Comprehension Quiz 10 Q4 and Q5 are expected to ask which model describes a market.",
+ "definition": "A market fits Cournot when a few firms with barriers to entry choose quantities simultaneously, each taking rivals' outputs as given; it fits Stackelberg when one firm commits to its quantity first and followers take that output as given.",
+ "formulas": [],
+ "derivation": "",
+ "math": [],
+ "worked": [
+  {
+   "title": "Classify three markets",
+   "problem": "(a) Four large potash mines each decide how much to mine this year without seeing the others' plans. (b) An established chipmaker finishes a giant new fab before a rival decides how big its fab will be. (c) Two online sellers of the same phone charger set prices on a comparison site.",
+   "steps": [
+    "(a) Quantity, simultaneous, homogeneous: Cournot.",
+    "(b) Quantity (capacity), one firm commits first: Stackelberg.",
+    "(c) Price, identical goods, buyers see all prices: standard Bertrand."
+   ],
+   "answer": "Cournot, Stackelberg, standard Bertrand."
+  }
+ ],
+ "traps": [
+  "'Each manager charges a price that is a best response to the rival's price' is NOT Cournot; Cournot is quantity as a best response to the rival's quantity (Session 21 reading quiz Q4).",
+  "Quantity versus price is the first question: Cournot and Stackelberg are quantity (capacity) models.",
+  "Simultaneous quantity choice = Cournot; sequential with a committed leader = Stackelberg.",
+  "Cournot allows homogeneous OR differentiated goods in the textbook's conditions; Bryce's figure puts the classic case in homogeneous goods.",
+  "Bryce: Stackelberg is the least realistic model and the professor's reading gives it no formal model."
+ ],
+ "sources": {
+  "slides": "S21 slides not posted",
+  "read": "Ch. 9: Conditions for Oligopoly; Cournot; Stackelberg; Bryce pp. 3 to 4, 8 to 10",
+  "exercise": "Oligopoly Exercise (not yet available)",
+  "quiz": "Session 21 Reading Quiz Q2, Q4; Comprehension Quiz 10 Q4, Q5 (not yet available); Practice exam Q14"
+ }
+}

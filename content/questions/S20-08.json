@@ -1,0 +1,327 @@
+[
+ {
+  "id": "S20-08-q001",
+  "los": [
+   "S20-08"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "An incumbent threatens to start a price war if a rival enters. When is that threat credible?",
+  "choices": [
+   "Whenever it is announced",
+   "Never",
+   "When fighting pays the incumbent more than accommodating after entry occurs",
+   "When the entrant is small"
+  ],
+  "answer": 2,
+  "explain": "Check the incumbent's payoffs at its own node.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-08-q002",
+  "los": [
+   "S20-08"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "How can an incumbent make an entry-deterring threat credible?",
+  "choices": [
+   "Ask the entrant to stay out",
+   "Lower its price after entry only if it loses money",
+   "Repeat the threat louder",
+   "Make a commitment that changes its own payoffs, such as building extra capacity"
+  ],
+  "answer": 3,
+  "explain": "A commitment changes the payoff from fighting.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-08-q003",
+  "los": [
+   "S20-08"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "Why do patents encourage innovation, in game theory terms?",
+  "choices": [
+   "They make the game simultaneous",
+   "They remove the rival's option to clone, so introducing pays",
+   "They guarantee a monopoly price forever",
+   "They raise the interest rate"
+  ],
+  "answer": 1,
+  "explain": "In the innovation game, cloning can make introducing unprofitable.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-08-q004",
+  "los": [
+   "S20-08"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "In a one-shot take-it-or-leave-it bargaining game, who gets most of the surplus?",
+  "choices": [
+   "They always split evenly",
+   "The player who makes the offer",
+   "The player who responds",
+   "Neither gets anything"
+  ],
+  "answer": 1,
+  "explain": "The responder prefers any positive amount to nothing.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-08-q005",
+  "los": [
+   "S20-08"
+  ],
+  "type": "tf",
+  "kind": "concept",
+  "diff": 1,
+  "stem": "True or false: A responder's threat to reject any offer below half is credible in a one-shot take-it-or-leave-it game.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": 1,
+  "explain": "False. Once the offer is made, accepting a small positive amount beats getting nothing.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-08-q006",
+  "los": [
+   "S20-08"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Entry game (Entrant, Incumbent): Stay out (0, 12); Enter and Fight (−3, 2); Enter and Accommodate (4, 6). What is the SPE?",
+  "choices": [
+   "Stay out",
+   "Enter, Accommodate",
+   "Enter, Fight",
+   "There is none"
+  ],
+  "answer": 1,
+  "explain": "Incumbent: Accommodate 6 > Fight 2. Entrant: Enter 4 > 0.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-08-q007",
+  "los": [
+   "S20-08"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "Same entry game, but the incumbent first commits so that fighting pays it 8. What is the SPE now?",
+  "choices": [
+   "Enter, Accommodate (4, 6)",
+   "No equilibrium",
+   "Entrant stays out (0, 12)",
+   "Enter, Fight (−3, 8)"
+  ],
+  "answer": 2,
+  "explain": "Fight 8 > Accommodate 6, so entering pays −3 < 0.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-08-q008",
+  "los": [
+   "S20-08",
+   "S20-06"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "A buyer makes a take-it-or-leave-it offer on how to split $200 of surplus, in $1 steps. The seller accepts any positive amount. How much does the buyer keep in the SPE?",
+  "answer": 199,
+  "unit": "$",
+  "tol": 0.01,
+  "explain": "Seller accepts $1 (better than $0). Buyer keeps 200 − 1 = $199.",
+  "verify": {
+   "f": "diff",
+   "x1": 1,
+   "x2": 200
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-08-q009",
+  "los": [
+   "S20-08",
+   "S20-06"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Entry game:\n\nPayoffs: (Entrant, Incumbent).\n\n- Entrant Enter → Incumbent Fight: (-2, 3)\n- Entrant Enter → Incumbent Accommodate: (5, 7)\n- Entrant Stay out: (0, 15)\n\nWhat does the incumbent earn in the SPE?",
+  "answer": 7,
+  "unit": "",
+  "tol": 0.01,
+  "explain": "Incumbent: Accommodate 7 > Fight 3. Entrant: Enter 5 > 0. The incumbent earns 7, not the 15 it would get if the entrant stayed out.",
+  "verify": {
+   "f": "spe",
+   "g": {
+    "players": [
+     "Entrant",
+     "Incumbent"
+    ],
+    "tree": {
+     "p": 0,
+     "children": [
+      {
+       "a": "Enter",
+       "n": {
+        "p": 1,
+        "children": [
+         {
+          "a": "Fight",
+          "pay": [
+           -2,
+           3
+          ]
+         },
+         {
+          "a": "Accommodate",
+          "pay": [
+           5,
+           7
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "a": "Stay out",
+       "pay": [
+        0,
+        15
+       ]
+      }
+     ]
+    }
+   },
+   "who": 1
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-08-q010",
+  "los": [
+   "S20-08"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Same entry game: Stay out (0, 15); Enter/Fight (−2, F); Enter/Accommodate (5, 7). The incumbent's threat to fight becomes credible once F is greater than what value?",
+  "answer": 7,
+  "unit": "",
+  "tol": 0.01,
+  "explain": "Fighting is credible when F > 7 (the accommodate payoff). Any F of 8 or more deters entry.",
+  "verify": {
+   "f": "diff",
+   "x1": 0,
+   "x2": 7
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-08-q011",
+  "los": [
+   "S20-08",
+   "S20-06"
+  ],
+  "type": "num",
+  "kind": "calc",
+  "diff": 2,
+  "stem": "Pepsi and Coke (Comprehension Quiz 9 Q10 numbers): if PepsiCo introduces, Coca-Cola can Fight (each earns $100 million) or Acquiesce (Coke $275 million, Pepsi $227 million). How much more does Coca-Cola earn by acquiescing than by fighting?",
+  "answer": 175,
+  "unit": "$ millions",
+  "tol": 0.01,
+  "explain": "275 − 100 = $175 million, so the threat to fight is not credible.",
+  "verify": {
+   "f": "diff",
+   "x1": 100,
+   "x2": 275
+  },
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-08-q012",
+  "los": [
+   "S20-08"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A firm decides whether to develop a new drug. Without a patent, a rival clones it: (developer 2, rival 15) versus (developer 8, rival 1) if no clone; not developing pays (0, 0). Development costs rise by 3 in every outcome where it develops. What happens?",
+  "choices": [
+   "The rival does not clone",
+   "The firm still develops",
+   "The firm does not develop: introducing now pays −1 < 0",
+   "Both earn 8"
+  ],
+  "answer": 2,
+  "explain": "Rival still clones (15 > 1), so developing pays 2 − 3 = −1, worse than 0. A patent that blocks cloning would restore 8 − 3 = 5.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-08-q013",
+  "los": [
+   "S20-08"
+  ],
+  "type": "mc",
+  "kind": "apply",
+  "diff": 2,
+  "stem": "A union says it will strike for a year unless it gets a raise, but a strike would cost workers far more than the raise. If management believes the threat is not credible, what does game theory predict?",
+  "choices": [
+   "Management refuses the raise",
+   "Management gives the raise",
+   "The union strikes",
+   "Both exit"
+  ],
+  "answer": 0,
+  "explain": "Non-credible threats should not change behavior.",
+  "source": "generated",
+  "verbatim": false
+ },
+ {
+  "id": "S20-08-q014",
+  "los": [
+   "S20-08",
+   "S20-04"
+  ],
+  "type": "mc",
+  "kind": "concept",
+  "diff": 2,
+  "stem": "In the Game Theory Exercise, why did Twitter moving first change nothing in Part 2 but change the outcome in Part 3?",
+  "choices": [
+   "Facebook moved first in Part 3",
+   "Twitter's payoffs were larger in Part 2",
+   "In Part 2 Facebook had a dominant strategy; in Part 3 its best response depended on Twitter's move",
+   "Part 3 was a repeated game"
+  ],
+  "answer": 2,
+  "explain": "A first mover gains only when the follower's best response depends on what the leader does.",
+  "source": "generated",
+  "verbatim": false
+ }
+]

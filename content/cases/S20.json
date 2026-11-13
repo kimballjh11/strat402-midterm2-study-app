@@ -1,0 +1,641 @@
+[
+ {
+  "id": "S20-case1",
+  "title": "Kellogg's vs. General Mills, forever",
+  "los": [
+   "S20-01",
+   "S20-02",
+   "S20-03"
+  ],
+  "stem": "From the S20 slides. Kellogg's (rows) and General Mills (columns) decide whether to advertise. Payoffs: (Kellogg's, General Mills).\n\n| Kellogg's \\ General Mills | Don't advertise | Advertise |\n|---|---|---|\n| Don't advertise | 12, 12 | -1, 15 |\n| Advertise | 15, -1 | 2, 2 |\n\nThey play this game every year. Each uses a trigger strategy: keep not advertising unless the other ever advertises, then advertise forever.",
+  "parts": [
+   {
+    "los": [
+     "S20-01"
+    ],
+    "type": "mc",
+    "kind": "concept",
+    "stem": "In a single play of this game, what happens?",
+    "choices": [
+     "Kellogg's advertises alone",
+     "There is no equilibrium",
+     "Both advertise and earn 2 each",
+     "Neither advertises and both earn 12"
+    ],
+    "answer": 2,
+    "explain": "Advertise is dominant for each (15 > 12, 2 > -1).",
+    "id": "S20-case1-p1",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S20-01"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "At i = 10%, what is Kellogg's present value of colluding (not advertising) forever?",
+    "answer": 132,
+    "unit": "",
+    "tol": 0.01,
+    "explain": "12 + 12/0.10 = 132.",
+    "verify": {
+     "f": "pvc",
+     "c": 12,
+     "i": 0.1
+    },
+    "id": "S20-case1-p2",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S20-01"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "At i = 10%, what is Kellogg's present value of cheating?",
+    "answer": 35,
+    "unit": "",
+    "tol": 0.01,
+    "explain": "15 + 2/0.10 = 35.",
+    "verify": {
+     "f": "pvd",
+     "d": 15,
+     "n": 2,
+     "i": 0.1
+    },
+    "id": "S20-case1-p3",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S20-03"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "At what interest rate (as a decimal) is Kellogg's indifferent?",
+    "answer": 3.33,
+    "unit": "",
+    "tol": 0.01,
+    "explain": "15 + 2/i = 12 + 12/i, so 3 = 10/i, i = 3.33 (333%).",
+    "verify": {
+     "f": "istar",
+     "c": 12,
+     "d": 15,
+     "n": 2
+    },
+    "id": "S20-case1-p4",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S20-02"
+    ],
+    "type": "mc",
+    "kind": "apply",
+    "stem": "Suppose instead both firms know the cereal market will be banned after exactly 5 years. What happens?",
+    "choices": [
+     "They alternate",
+     "Both advertise every year",
+     "Neither advertises for 4 years, then both advertise",
+     "Neither ever advertises"
+    ],
+    "answer": 1,
+    "explain": "Known end: year 5 is one-shot, and cooperation unravels back to year 1 (slides p. 28).",
+    "id": "S20-case1-p5",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   }
+  ]
+ },
+ {
+  "id": "S20-case2",
+  "title": "Tariff threats (slides trade game)",
+  "los": [
+   "S20-04",
+   "S20-05",
+   "S20-06"
+  ],
+  "stem": "From the S20 slides. The US decides whether to threaten tariffs. If it threatens, China concedes or resists. If China resists, the US imposes tariffs or backs down. Payoffs (US, China): No threat (2, 6); Threat, Concede (6, 2); Threat, Resist, Impose (-2, -2); Threat, Resist, Back down (4, 4).",
+  "parts": [
+   {
+    "los": [
+     "S20-05"
+    ],
+    "type": "mc",
+    "kind": "concept",
+    "stem": "How many decision nodes does this tree have?",
+    "choices": [
+     "2",
+     "3",
+     "4",
+     "1"
+    ],
+    "answer": 1,
+    "explain": "US, China, then US again.",
+    "id": "S20-case2-p1",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S20-06"
+    ],
+    "type": "mc",
+    "kind": "calc",
+    "stem": "If China resists, what will the US do?",
+    "choices": [
+     "Back down (4 > -2)",
+     "Impose (-2 > 4)",
+     "Threaten again",
+     "Concede"
+    ],
+    "answer": 0,
+    "explain": "Last move first.",
+    "id": "S20-case2-p2",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S20-06"
+    ],
+    "type": "mc",
+    "kind": "calc",
+    "stem": "Anticipating that, what does China do after a threat?",
+    "choices": [
+     "Resist (4 > 2)",
+     "Impose",
+     "Concede (2 > 4)",
+     "Nothing"
+    ],
+    "answer": 0,
+    "explain": "Resisting leads to (4, 4).",
+    "id": "S20-case2-p3",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S20-06"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "What is the US payoff in the subgame perfect equilibrium?",
+    "answer": 4,
+    "unit": "",
+    "tol": 0.01,
+    "explain": "Threat leads to Resist and Back down: 4, better than No threat (2).",
+    "verify": {
+     "f": "spe",
+     "g": {
+      "players": [
+       "US",
+       "China"
+      ],
+      "tree": {
+       "p": 0,
+       "children": [
+        {
+         "a": "Threat",
+         "n": {
+          "p": 1,
+          "children": [
+           {
+            "a": "Resist",
+            "n": {
+             "p": 0,
+             "children": [
+              {
+               "a": "Impose",
+               "pay": [
+                -2,
+                -2
+               ]
+              },
+              {
+               "a": "Back down",
+               "pay": [
+                4,
+                4
+               ]
+              }
+             ]
+            }
+           },
+           {
+            "a": "Concede",
+            "pay": [
+             6,
+             2
+            ]
+           }
+          ]
+         }
+        },
+        {
+         "a": "No threat",
+         "pay": [
+          2,
+          6
+         ]
+        }
+       ]
+      }
+     },
+     "who": 0
+    },
+    "id": "S20-case2-p4",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S20-06"
+    ],
+    "type": "mc",
+    "kind": "concept",
+    "stem": "Why does the US end up backing down?",
+    "choices": [
+     "Tariffs are illegal",
+     "China moves first",
+     "The US has a dominant strategy to impose",
+     "Its threat to impose tariffs is not credible"
+    ],
+    "answer": 3,
+    "explain": "When the time comes, imposing pays the US less than backing down.",
+    "id": "S20-case2-p5",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   }
+  ]
+ },
+ {
+  "id": "S20-case3",
+  "title": "StreamCo's ad tier (extra practice)",
+  "los": [
+   "S20-04",
+   "S20-06",
+   "S20-08"
+  ],
+  "stem": "A made-up example. StreamCo decides whether to launch a cheaper ad-supported tier. If it launches, rival FlixNet decides whether to copy it. Payoffs (StreamCo, FlixNet): Don't launch (4, 4); Launch, Copy (3, 7); Launch, Don't copy (9, 2).",
+  "parts": [
+   {
+    "los": [
+     "S20-04"
+    ],
+    "type": "mc",
+    "kind": "concept",
+    "stem": "Why is this a sequential game?",
+    "choices": [
+     "It is repeated forever",
+     "Payoffs are random",
+     "FlixNet sees StreamCo's choice before deciding",
+     "Both decide at the same time"
+    ],
+    "answer": 2,
+    "explain": "Observation of the earlier move.",
+    "id": "S20-case3-p1",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S20-06"
+    ],
+    "type": "mc",
+    "kind": "calc",
+    "stem": "What does FlixNet do if StreamCo launches?",
+    "choices": [
+     "Don't copy (2 > 7)",
+     "Copy (7 > 2)",
+     "Exit",
+     "Randomize"
+    ],
+    "answer": 1,
+    "explain": "Compare FlixNet's payoffs at its node.",
+    "id": "S20-case3-p2",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S20-06"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "What is StreamCo's payoff in the subgame perfect equilibrium?",
+    "answer": 4,
+    "unit": "",
+    "tol": 0.01,
+    "explain": "Launch leads to Copy: StreamCo gets 3 < 4 from not launching. StreamCo does not launch.",
+    "verify": {
+     "f": "spe",
+     "g": {
+      "players": [
+       "StreamCo",
+       "FlixNet"
+      ],
+      "tree": {
+       "p": 0,
+       "children": [
+        {
+         "a": "Launch ad tier",
+         "n": {
+          "p": 1,
+          "children": [
+           {
+            "a": "Copy",
+            "pay": [
+             3,
+             7
+            ]
+           },
+           {
+            "a": "Don't copy",
+            "pay": [
+             9,
+             2
+            ]
+           }
+          ]
+         }
+        },
+        {
+         "a": "Don't launch",
+         "pay": [
+          4,
+          4
+         ]
+        }
+       ]
+      }
+     },
+     "who": 0
+    },
+    "id": "S20-case3-p3",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S20-08"
+    ],
+    "type": "mc",
+    "kind": "apply",
+    "stem": "What would change StreamCo's decision?",
+    "choices": [
+     "Something that stops copying, like an exclusive contract or patent, so launching pays 9",
+     "Moving second",
+     "A louder announcement",
+     "Raising FlixNet's payoff from copying"
+    ],
+    "answer": 0,
+    "explain": "Like patents in the innovation game: remove the rival's clone option.",
+    "id": "S20-case3-p4",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   }
+  ]
+ },
+ {
+  "id": "S20-case4",
+  "title": "Political ads, Twitter moves first (Game Theory Exercise Parts 2 and 3)",
+  "los": [
+   "S20-04",
+   "S20-05",
+   "S20-06",
+   "S20-08"
+  ],
+  "stem": "From the professor's Game Theory Exercise (your submitted answers). Twitter decides first whether to ban political ads; Facebook observes and responds. Payoffs (Twitter, Facebook), $ millions.\n\nPart 2: Ban/Ban (-3, -350); Ban/Don't Ban (-3, -277); Don't Ban/Ban (23, -350); Don't Ban/Don't Ban (-12, -280).\n\nPart 3 (new regulation risk): Ban/Ban (-3, -350); Ban/Don't Ban (-3, -137); Don't Ban/Ban (29, -350); Don't Ban/Don't Ban (-18, -420).",
+  "parts": [
+   {
+    "los": [
+     "S20-05"
+    ],
+    "type": "mc",
+    "kind": "concept",
+    "stem": "How many end points does each tree have?",
+    "choices": [
+     "2",
+     "3",
+     "4",
+     "6"
+    ],
+    "answer": 2,
+    "explain": "Two Twitter choices, each followed by two Facebook choices.",
+    "id": "S20-case4-p1",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S20-06"
+    ],
+    "type": "mc",
+    "kind": "calc",
+    "stem": "What is the Part 2 subgame perfect equilibrium?",
+    "choices": [
+     "Twitter Ban, Facebook Don't Ban (-3, -277)",
+     "Twitter Ban, Facebook Ban (-3, -350)",
+     "Twitter Don't Ban, Facebook Don't Ban (-12, -280)",
+     "Twitter Don't Ban, Facebook Ban (23, -350)"
+    ],
+    "answer": 0,
+    "explain": "Facebook never bans; Twitter prefers -3 to -12.",
+    "id": "S20-case4-p2",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S20-06"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "In Part 3, what is Twitter's payoff in the subgame perfect equilibrium?",
+    "answer": 29,
+    "unit": "",
+    "tol": 0.01,
+    "explain": "Facebook bans after Twitter doesn't (-350 > -420), so Don't Ban gives Twitter 29 > -3.",
+    "verify": {
+     "f": "spe",
+     "g": {
+      "players": [
+       "Twitter",
+       "Facebook"
+      ],
+      "tree": {
+       "p": 0,
+       "children": [
+        {
+         "a": "Ban",
+         "n": {
+          "p": 1,
+          "children": [
+           {
+            "a": "Ban",
+            "pay": [
+             -3,
+             -350
+            ]
+           },
+           {
+            "a": "Don't Ban",
+            "pay": [
+             -3,
+             -137
+            ]
+           }
+          ]
+         }
+        },
+        {
+         "a": "Don't Ban",
+         "n": {
+          "p": 1,
+          "children": [
+           {
+            "a": "Ban",
+            "pay": [
+             29,
+             -350
+            ]
+           },
+           {
+            "a": "Don't Ban",
+            "pay": [
+             -18,
+             -420
+            ]
+           }
+          ]
+         }
+        }
+       ]
+      }
+     },
+     "who": 0
+    },
+    "id": "S20-case4-p3",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S20-06"
+    ],
+    "type": "num",
+    "kind": "calc",
+    "stem": "In Part 3, what is Facebook's payoff in the subgame perfect equilibrium?",
+    "answer": -350,
+    "unit": "",
+    "tol": 0.01,
+    "explain": "Twitter doesn't ban; Facebook bans.",
+    "verify": {
+     "f": "spe",
+     "g": {
+      "players": [
+       "Twitter",
+       "Facebook"
+      ],
+      "tree": {
+       "p": 0,
+       "children": [
+        {
+         "a": "Ban",
+         "n": {
+          "p": 1,
+          "children": [
+           {
+            "a": "Ban",
+            "pay": [
+             -3,
+             -350
+            ]
+           },
+           {
+            "a": "Don't Ban",
+            "pay": [
+             -3,
+             -137
+            ]
+           }
+          ]
+         }
+        },
+        {
+         "a": "Don't Ban",
+         "n": {
+          "p": 1,
+          "children": [
+           {
+            "a": "Ban",
+            "pay": [
+             29,
+             -350
+            ]
+           },
+           {
+            "a": "Don't Ban",
+            "pay": [
+             -18,
+             -420
+            ]
+           }
+          ]
+         }
+        }
+       ]
+      }
+     },
+     "who": 1
+    },
+    "id": "S20-case4-p4",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   },
+   {
+    "los": [
+     "S20-08"
+    ],
+    "type": "mc",
+    "kind": "apply",
+    "stem": "Why does moving first help Twitter in Part 3 but not in Part 2?",
+    "choices": [
+     "Twitter's payoffs are bigger in Part 3",
+     "In Part 3 Facebook's best move depends on Twitter's, so Twitter can commit and force Facebook to ban",
+     "Part 3 is repeated",
+     "Facebook moves first in Part 3"
+    ],
+    "answer": 1,
+    "explain": "In Part 2 Facebook's Don't Ban is dominant, so order does not matter.",
+    "id": "S20-case4-p5",
+    "source": "generated",
+    "verbatim": false,
+    "diff": 2
+   }
+  ]
+ }
+]
